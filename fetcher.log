@@ -467,3 +467,24 @@
 [2024-04-19 00:24:51] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2024-04-19 00:24:51] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2024-04-19 00:24:51] INFO root fetch - main [MainThread]: Store serial: [22832848]
+[2024-04-19 00:26:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832848]
+[2024-04-19 00:27:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipiranga-inovai-project-lib
+[2024-04-19 00:27:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loretta
+[2024-04-19 00:27:00] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: New version: [0.4] Old Version: [0.3]
+[2024-04-19 00:27:00] INFO root fetch - processPackages [loretta]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 00:27:00] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: Downloading https://files.pythonhosted.org/packages/ef/3e/161b460ded40b7b89787067bb0b091e81970cf2b193b93ee719f6589474f/ipiranga-inovai-project-lib-0.3.tar.gz
+[2024-04-19 00:27:00] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/d2/6c/71195a4bff00e0e867f70cc48fc487fa952604b83ec713d894c28c8a5c3a/loretta-0.1.0.tar.gz
+[2024-04-19 00:27:00] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: Downloading https://files.pythonhosted.org/packages/80/48/587c2bcd1fa27c7c83b7def75e0094cd1b5595cc210671178df0c31b8f7c/ipiranga-inovai-project-lib-0.4.tar.gz
+[2024-04-19 00:27:01] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: executing diffoscope
+[2024-04-19 00:27:01] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipiranga-inovai-project-lib-0.3.tar.gz tmp/ipiranga-inovai-project-lib-0.4.tar.gz --markdown 20240419/i/ipiranga-inovai-project-lib/0.3-0.4/README.md --exclude *.pyd
+[2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/c3/2d/68074b9f36c478bdb9bb4f8e48a522bbb8de79f3baf39ae52ca7d330f33d/loretta-0.1.1.tar.gz
+[2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: executing diffoscope
+[2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loretta-0.1.0.tar.gz tmp/loretta-0.1.1.tar.gz --markdown 20240419/l/loretta/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 00:27:01] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: Remove: archive file [/home/abi/fetcher/tmp/ipiranga-inovai-project-lib-0.3.tar.gz]
+[2024-04-19 00:27:01] INFO root fetch - processPackages [ipiranga-inovai-project-lib]: Remove: archive file [/home/abi/fetcher/tmp/ipiranga-inovai-project-lib-0.4.tar.gz]
+[2024-04-19 00:27:01] INFO root fetch - main [MainThread]: End processing [ipiranga-inovai-project-lib]: success
+[2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.0.tar.gz]
+[2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.1.tar.gz]
+[2024-04-19 00:27:01] INFO root fetch - main [MainThread]: End processing [loretta]: success
+[2024-04-19 00:27:01] INFO root fetch - main [MainThread]: Store serial: [22832853]
