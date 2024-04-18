@@ -850,3 +850,72 @@
 [2024-04-19 00:57:24] INFO root fetch - processPackages [newrelic]: Remove: archive file [/home/abi/fetcher/tmp/newrelic-9.9.0.tar.gz]
 [2024-04-19 00:57:24] INFO root fetch - main [MainThread]: End processing [newrelic]: success
 [2024-04-19 00:57:24] INFO root fetch - main [MainThread]: Store serial: [22833043]
+[2024-04-19 00:59:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833043]
+[2024-04-19 00:59:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citation-rabbot
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txm-sandbox
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meta-ai-api
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dojo-ds
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: godata
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlrun-pipelines-kfp-v2-experiment
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ffxiv_stats
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 00:59:32] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.0.post1] Old Version: [0.3.0]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [meta-ai-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [dojo-ds]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713479417] Old Version: [0.0.18a1713479407]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [godata]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [ffxiv_stats]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-19 00:59:32] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/0f/93/e4a73ce5a6e96a2f3aa774588e9184d44ad14c39411da71df10f88b1f556/godata-0.8.3.tar.gz
+[2024-04-19 00:59:32] WARNING root fetch - processPackages [mlrun-pipelines-kfp-v2-experiment]: Skipping, unable to determine old version
+[2024-04-19 00:59:32] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v2-experiment] error
+[2024-04-19 00:59:32] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/8e/03/5b2ce441adf4f31b8ff885431de8617210793b76080ada9e7997145282e5/txm_sandbox-0.3.0.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/c7/5a/d31b02b9e1817dceb223de3b7bddfcb13e0681778557891bbb98811320c4/meta_ai_api-1.0.4.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [dojo-ds]: Downloading https://files.pythonhosted.org/packages/78/e8/cc997dfe7491971caa74a31f2e36eb0f33a779ffcb67aaa404807e715cab/dojo_ds-1.1.1.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/1b/60/c9a8382fe9effec4f43793ad804d48e7c90688ab26d50c5c4255eb732d4b/pulumi_kubernetes_the_hard_way-0.0.18a1713479407.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [ffxiv_stats]: Downloading https://files.pythonhosted.org/packages/cc/e5/efff5dc07df19d15f233ac555f48956197506e133f62af25dc968042a115/ffxiv_stats-0.4.4.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/e9/65/ad6cf514a85536333d86b002cb20d9857a64a5bac7a2b141af2d3015b37b/godata-0.9.0.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/0c/7a/cdcf13c2be391e7d9fd269b06db140b6f4153d5d9393b246525cc1cbcd5f/meta_ai_api-1.0.5.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [dojo-ds]: Downloading https://files.pythonhosted.org/packages/94/c0/22a223c70241e3689a79205812e6da4c51277b0b7aaadbe4678e951e8e07/dojo_ds-1.1.2.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [godata]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [godata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godata-0.8.3.tar.gz tmp/godata-0.9.0.tar.gz --markdown 20240419/g/godata/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/8c/71/460e45593324f191b52d14860c8d63ec791b0f77c47497393a248a91ecf6/txm_sandbox-0.3.0.post1.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [meta-ai-api]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [meta-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_ai_api-1.0.4.tar.gz tmp/meta_ai_api-1.0.5.tar.gz --markdown 20240419/m/meta-ai-api/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/76/83/6c80294406a8f177c05a18d4df930f15bdbeb5d7d5138c35bad24958101b/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz
+[2024-04-19 00:59:33] INFO root fetch - processPackages [dojo-ds]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [dojo-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dojo_ds-1.1.1.tar.gz tmp/dojo_ds-1.1.2.tar.gz --markdown 20240419/d/dojo-ds/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.0.tar.gz tmp/txm_sandbox-0.3.0.post1.tar.gz --markdown 20240419/t/txm-sandbox/0.3.0-0.3.0.post1/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 00:59:33] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479407.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713479407-0.0.18a1713479417/README.md --exclude *.pyd
+[2024-04-19 00:59:33] INFO root fetch - processPackages [ffxiv_stats]: Downloading https://files.pythonhosted.org/packages/e3/47/1da7e428f317e960f2f2dbca096b1b35bbe1d1881fc8254f02fc83f2297a/ffxiv_stats-0.4.5.tar.gz
+[2024-04-19 00:59:34] INFO root fetch - processPackages [ffxiv_stats]: executing diffoscope
+[2024-04-19 00:59:34] INFO root fetch - processPackages [ffxiv_stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffxiv_stats-0.4.4.tar.gz tmp/ffxiv_stats-0.4.5.tar.gz --markdown 20240419/f/ffxiv_stats/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-19 00:59:34] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.8.3.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.9.0.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [godata]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.4.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.5.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [meta-ai-api]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [dojo-ds]: Remove: archive file [/home/abi/fetcher/tmp/dojo_ds-1.1.1.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [dojo-ds]: Remove: archive file [/home/abi/fetcher/tmp/dojo_ds-1.1.2.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [dojo-ds]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479407.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post1.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-04-19 00:59:34] INFO root fetch - processPackages [ffxiv_stats]: Remove: archive file [/home/abi/fetcher/tmp/ffxiv_stats-0.4.4.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - processPackages [ffxiv_stats]: Remove: archive file [/home/abi/fetcher/tmp/ffxiv_stats-0.4.5.tar.gz]
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: End processing [ffxiv_stats]: success
+[2024-04-19 00:59:34] INFO root fetch - main [MainThread]: Store serial: [22833070]
