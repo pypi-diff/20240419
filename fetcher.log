@@ -1784,3 +1784,39 @@
 [2024-04-19 01:47:32] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.1.tar.gz]
 [2024-04-19 01:47:32] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
 [2024-04-19 01:47:32] INFO root fetch - main [MainThread]: Store serial: [22833445]
+[2024-04-19 01:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833445]
+[2024-04-19 01:49:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 01:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packageplayer
+[2024-04-19 01:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-express
+[2024-04-19 01:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nero
+[2024-04-19 01:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optima-ml
+[2024-04-19 01:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fvm_nerfed
+[2024-04-19 01:49:40] INFO root fetch - processPackages [lusid-express]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-19 01:49:40] INFO root fetch - processPackages [nero]: New version: [19.3b6] Old Version: [19.3b5]
+[2024-04-19 01:49:40] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/ff/c4/d14b641fb6502bd88ed852af476e47a4adad9675a3bfe51560a9ed3b17e7/lusid_express-0.5.1.tar.gz
+[2024-04-19 01:49:40] WARNING root fetch - processPackages [fvm_nerfed]: Skipping, unable to determine old version
+[2024-04-19 01:49:40] INFO root fetch - main [MainThread]: End processing [fvm_nerfed] error
+[2024-04-19 01:49:40] WARNING root fetch - processPackages [packageplayer]: Skipping, unable to determine old version
+[2024-04-19 01:49:40] INFO root fetch - main [MainThread]: End processing [packageplayer] error
+[2024-04-19 01:49:40] INFO root fetch - processPackages [nero]: Downloading https://files.pythonhosted.org/packages/fc/48/8f4bf4a39c9fce007a4f66a5d4dd7fc5ea4bb5471b4503827db27948baab/nero-19.3b5.tar.gz
+[2024-04-19 01:49:40] INFO root fetch - processPackages [optima-ml]: New version: [0.3.2a5.dev0] Old Version: [0.3.2a4]
+[2024-04-19 01:49:41] INFO root fetch - processPackages [nero]: Downloading https://files.pythonhosted.org/packages/89/3d/4b74bda8f61acda8bc8f956bc4b3b08e79642a9447286b604dc8ec4aa854/nero-19.3b6.tar.gz
+[2024-04-19 01:49:41] INFO root fetch - processPackages [optima-ml]: Downloading https://files.pythonhosted.org/packages/7a/c1/9d6f8f620751d9a78237b33d1ed5ce54f5e831b23873dedc3e2bccec0c58/optima-ml-0.3.2a4.tar.gz
+[2024-04-19 01:49:41] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/05/db/ed2ba4a9d59099d193f51a7f3e08cf8c7c7d617cd223e3de7f5433a9b146/lusid_express-0.5.2.tar.gz
+[2024-04-19 01:49:41] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-04-19 01:49:41] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-0.5.1.tar.gz tmp/lusid_express-0.5.2.tar.gz --markdown 20240419/l/lusid-express/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-19 01:49:41] INFO root fetch - processPackages [nero]: executing diffoscope
+[2024-04-19 01:49:41] INFO root fetch - processPackages [nero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nero-19.3b5.tar.gz tmp/nero-19.3b6.tar.gz --markdown 20240419/n/nero/19.3b5-19.3b6/README.md --exclude *.pyd
+[2024-04-19 01:49:41] INFO root fetch - processPackages [optima-ml]: Downloading https://files.pythonhosted.org/packages/52/9f/28cd32f6cf9b680cf167b23674ea75d291e40622980dcc55729c63a68eba/optima_ml-0.3.2a5.dev0.tar.gz
+[2024-04-19 01:49:41] INFO root fetch - processPackages [optima-ml]: executing diffoscope
+[2024-04-19 01:49:41] INFO root fetch - processPackages [optima-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optima-ml-0.3.2a4.tar.gz tmp/optima_ml-0.3.2a5.dev0.tar.gz --markdown 20240419/o/optima-ml/0.3.2a4-0.3.2a5.dev0/README.md --exclude *.pyd
+[2024-04-19 01:49:41] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.5.1.tar.gz]
+[2024-04-19 01:49:41] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.5.2.tar.gz]
+[2024-04-19 01:49:41] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-04-19 01:49:42] INFO root fetch - processPackages [optima-ml]: Remove: archive file [/home/abi/fetcher/tmp/optima-ml-0.3.2a4.tar.gz]
+[2024-04-19 01:49:42] INFO root fetch - processPackages [optima-ml]: Remove: archive file [/home/abi/fetcher/tmp/optima_ml-0.3.2a5.dev0.tar.gz]
+[2024-04-19 01:49:42] INFO root fetch - main [MainThread]: End processing [optima-ml]: success
+[2024-04-19 01:49:42] INFO root fetch - processPackages [nero]: Remove: archive file [/home/abi/fetcher/tmp/nero-19.3b5.tar.gz]
+[2024-04-19 01:49:42] INFO root fetch - processPackages [nero]: Remove: archive file [/home/abi/fetcher/tmp/nero-19.3b6.tar.gz]
+[2024-04-19 01:49:42] INFO root fetch - main [MainThread]: End processing [nero]: success
+[2024-04-19 01:49:42] INFO root fetch - main [MainThread]: Store serial: [22833466]
