@@ -259,3 +259,78 @@
 [2024-04-19 00:15:40] INFO root fetch - processPackages [cyphermed]: Remove: archive file [/home/abi/fetcher/tmp/cyphermed-2.1.21-py3-none-any.whl.zip]
 [2024-04-19 00:15:40] INFO root fetch - main [MainThread]: End processing [cyphermed]: success
 [2024-04-19 00:15:40] INFO root fetch - main [MainThread]: Store serial: [22832787]
+[2024-04-19 00:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832787]
+[2024-04-19 00:17:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyphermed
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: log10-io
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grafana-foundation-sdk
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surforama
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ute-wrapper
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moto
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fftvis
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flet-easy
+[2024-04-19 00:17:48] INFO root fetch - processPackages [flet-easy]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [cyphermed]: New version: [2.1.21] Old Version: [2.1.18]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713437340!10.4.0] Old Version: [1713437250!10.3.0]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [moto]: New version: [5.0.6.dev9] Old Version: [5.0.6.dev8]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [fftvis]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ute-wrapper]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [surforama]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [log10-io]: New version: [0.8.0] Old Version: [0.7.5]
+[2024-04-19 00:17:48] INFO root fetch - processPackages [cyphermed]: Downloading https://files.pythonhosted.org/packages/ee/74/ddc6ebe165415fcf07c0b9374373affca6377ea6d35d7d70adf5884cc23d/cyphermed-2.1.18-py3-none-any.whl
+[2024-04-19 00:17:48] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/93/8d/9460b203ec22b100796f1af0a97d3199c678f72a85133dc486cf651e359d/grafana_foundation_sdk-1713437250!10.3.0.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/f7/db/e2fa1e8b56bc266f02ba2065ce051be8666bb552d0a776944585047a0323/flet_easy-0.2.0.dev8.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cc/b5/00faf7a32b2d43303224e4c85e6ca1586aa38ed6bd7c49336b7ac8cebea7/moto-5.0.6.dev8.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [fftvis]: Downloading https://files.pythonhosted.org/packages/83/97/168bfd969a1202465bc084a379987cc14fe0b94dd1a5366cf99f79e9bc26/fftvis-0.0.2.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/ff/72/90faaba6db457207bf2b50c2262198210a2c34f7fd1866de31d11ed13805/log10_io-0.7.5.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [surforama]: Downloading https://files.pythonhosted.org/packages/3b/70/08b449e54f380c5e843024ae3618966518f4c8703adad66aecb7659b4841/surforama-0.0.8.tar.gz
+[2024-04-19 00:17:48] INFO root fetch - processPackages [ute-wrapper]: Downloading https://files.pythonhosted.org/packages/31/4a/27174a599d332df0124d56918b3ba76abccc6d35308ccee57464f7acd4b7/ute_wrapper-2.4.1.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [cyphermed]: Downloading https://files.pythonhosted.org/packages/92/67/695330ccb16954fd8f61f17e0d76b4637a459ea59a61328b70e08a48bf72/cyphermed-2.1.21-py3-none-any.whl
+[2024-04-19 00:17:49] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/2e/84/f7473a8748f6c1fea1b2e6608e53cdff0a67e25a71a2bd58796ed1586fe4/flet_easy-0.2.0.dev9.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/d6/83/4b99335854b958c767f66baf7825b3d4df18df20cf7ee05ff3f996926b86/grafana_foundation_sdk-1713437340!10.4.0.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.0.dev8.tar.gz tmp/flet_easy-0.2.0.dev9.tar.gz --markdown 20240419/f/flet-easy/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [cyphermed]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [cyphermed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyphermed-2.1.18-py3-none-any.whl.zip tmp/cyphermed-2.1.21-py3-none-any.whl.zip --markdown 20240419/c/cyphermed/2.1.18-2.1.21/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [fftvis]: Downloading https://files.pythonhosted.org/packages/29/ab/7227615097b61a22c66d05d7ae71b130490a11b3ed85c48a74b840c9a836/fftvis-0.0.4.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/67/63/03d8401d8574b4b96cd00404b9b4b0f0791e6dc794bc44ad3730b7dd8e46/moto-5.0.6.dev9.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/f9/23/96213b7452e4398fd60adbaeee418d07d45aa885ae5a6f92a351fc9ab06c/log10_io-0.8.0.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713437250!10.3.0.tar.gz tmp/grafana_foundation_sdk-1713437340!10.4.0.tar.gz --markdown 20240419/g/grafana-foundation-sdk/1713437250!10.3.0-1713437340!10.4.0/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [ute-wrapper]: Downloading https://files.pythonhosted.org/packages/3b/a9/e801f8f7411cd2126251ef547eaf755fee7988609d5e3c20a6fdbd138a6d/ute_wrapper-2.5.0.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [fftvis]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [fftvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fftvis-0.0.2.tar.gz tmp/fftvis-0.0.4.tar.gz --markdown 20240419/f/fftvis/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.7.5.tar.gz tmp/log10_io-0.8.0.tar.gz --markdown 20240419/l/log10-io/0.7.5-0.8.0/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [ute-wrapper]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [ute-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ute_wrapper-2.4.1.tar.gz tmp/ute_wrapper-2.5.0.tar.gz --markdown 20240419/u/ute-wrapper/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [surforama]: Downloading https://files.pythonhosted.org/packages/84/7f/d10570b7dd725501870bdebabb481a3f6dbcf2bca522934f65a515c414a7/surforama-0.0.9.tar.gz
+[2024-04-19 00:17:49] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.6.dev8.tar.gz tmp/moto-5.0.6.dev9.tar.gz --markdown 20240419/m/moto/5.0.6.dev8-5.0.6.dev9/README.md --exclude *.pyd
+[2024-04-19 00:17:49] INFO root fetch - processPackages [surforama]: executing diffoscope
+[2024-04-19 00:17:49] INFO root fetch - processPackages [surforama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surforama-0.0.8.tar.gz tmp/surforama-0.0.9.tar.gz --markdown 20240419/s/surforama/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 00:17:50] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev8.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev9.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-19 00:17:50] INFO root fetch - processPackages [fftvis]: Remove: archive file [/home/abi/fetcher/tmp/fftvis-0.0.2.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [fftvis]: Remove: archive file [/home/abi/fetcher/tmp/fftvis-0.0.4.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [fftvis]: success
+[2024-04-19 00:17:50] INFO root fetch - processPackages [ute-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ute_wrapper-2.4.1.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [ute-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ute_wrapper-2.5.0.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [ute-wrapper]: success
+[2024-04-19 00:17:50] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.7.5.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.8.0.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2024-04-19 00:17:50] INFO root fetch - processPackages [surforama]: Remove: archive file [/home/abi/fetcher/tmp/surforama-0.0.8.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [surforama]: Remove: archive file [/home/abi/fetcher/tmp/surforama-0.0.9.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [surforama]: success
+[2024-04-19 00:17:50] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437250!10.3.0.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437340!10.4.0.tar.gz]
+[2024-04-19 00:17:50] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-19 00:17:52] INFO root fetch - processPackages [cyphermed]: Remove: archive file [/home/abi/fetcher/tmp/cyphermed-2.1.18-py3-none-any.whl.zip]
+[2024-04-19 00:17:52] INFO root fetch - processPackages [cyphermed]: Remove: archive file [/home/abi/fetcher/tmp/cyphermed-2.1.21-py3-none-any.whl.zip]
+[2024-04-19 00:17:52] INFO root fetch - main [MainThread]: End processing [cyphermed]: success
+[2024-04-19 00:18:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev8.tar.gz]
+[2024-04-19 00:18:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
+[2024-04-19 00:18:00] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-19 00:18:00] INFO root fetch - main [MainThread]: Store serial: [22832807]
