@@ -1034,3 +1034,42 @@
 [2024-04-19 01:06:05] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
 [2024-04-19 01:06:05] INFO root fetch - main [MainThread]: End processing [truss]: success
 [2024-04-19 01:06:05] INFO root fetch - main [MainThread]: Store serial: [22833102]
+[2024-04-19 01:08:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833102]
+[2024-04-19 01:08:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 01:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flwr-nightly
+[2024-04-19 01:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 01:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mig
+[2024-04-19 01:08:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nested-config
+[2024-04-19 01:08:14] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 01:08:14] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 01:08:14] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240417] Old Version: [1.9.0.dev20240416]
+[2024-04-19 01:08:14] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 01:08:14] INFO root fetch - processPackages [nested-config]: New version: [2.1.0] Old Version: [2.0.3.post0]
+[2024-04-19 01:08:14] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 01:08:14] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/fc/f9/acdb3f596afb737c726feb45bffce63582e792e91e9e77d55514f7629b3b/flwr_nightly-1.9.0.dev20240416.tar.gz
+[2024-04-19 01:08:14] INFO root fetch - processPackages [nested-config]: Downloading https://files.pythonhosted.org/packages/dc/05/48a532fccf9b2848cb65b4658fb4180e54f719ff1c5cef55d268422b61ca/nested_config-2.0.3.post0.tar.gz
+[2024-04-19 01:08:14] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 01:08:14] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 01:08:14] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 01:08:14] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 01:08:14] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 01:08:14] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 01:08:14] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/0c/6f/255c98a2b85dfa26bb4221e3fe5f3b016f426cef0a8c16907f67fcfcaa38/flwr_nightly-1.9.0.dev20240417.tar.gz
+[2024-04-19 01:08:15] INFO root fetch - processPackages [nested-config]: Downloading https://files.pythonhosted.org/packages/ab/0e/07d198ed9a48653454b6707f7528aa5a3443dc9c5410b094ae1e44536f00/nested_config-2.1.0.tar.gz
+[2024-04-19 01:08:15] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-19 01:08:15] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240416.tar.gz tmp/flwr_nightly-1.9.0.dev20240417.tar.gz --markdown 20240419/f/flwr-nightly/1.9.0.dev20240416-1.9.0.dev20240417/README.md --exclude *.pyd
+[2024-04-19 01:08:15] INFO root fetch - processPackages [nested-config]: executing diffoscope
+[2024-04-19 01:08:15] INFO root fetch - processPackages [nested-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nested_config-2.0.3.post0.tar.gz tmp/nested_config-2.1.0.tar.gz --markdown 20240419/n/nested-config/2.0.3.post0-2.1.0/README.md --exclude *.pyd
+[2024-04-19 01:08:15] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 01:08:15] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 01:08:15] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 01:08:15] INFO root fetch - processPackages [nested-config]: Remove: archive file [/home/abi/fetcher/tmp/nested_config-2.0.3.post0.tar.gz]
+[2024-04-19 01:08:15] INFO root fetch - processPackages [nested-config]: Remove: archive file [/home/abi/fetcher/tmp/nested_config-2.1.0.tar.gz]
+[2024-04-19 01:08:15] INFO root fetch - main [MainThread]: End processing [nested-config]: success
+[2024-04-19 01:08:15] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 01:08:15] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 01:08:15] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 01:08:16] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240416.tar.gz]
+[2024-04-19 01:08:16] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240417.tar.gz]
+[2024-04-19 01:08:16] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-19 01:08:16] INFO root fetch - main [MainThread]: Store serial: [22833115]
