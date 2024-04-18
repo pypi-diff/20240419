@@ -791,3 +791,62 @@
 [2024-04-19 00:53:03] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
 [2024-04-19 00:53:03] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
 [2024-04-19 00:53:03] INFO root fetch - main [MainThread]: Store serial: [22833002]
+[2024-04-19 00:55:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833002]
+[2024-04-19 00:55:11] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 00:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833002]
+[2024-04-19 00:57:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hygeoclas
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit-river
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newrelic
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airmailer
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpg-workflows
+[2024-04-19 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-rabbot
+[2024-04-19 00:57:17] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [hygeoclas]: New version: [0.5.1] Old Version: [0.4]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [airmailer]: New version: [0.2.2] Old Version: [0.2.0]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [replit-river]: New version: [0.1.7b1] Old Version: [0.1.6]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [newrelic]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-19 00:57:17] INFO root fetch - processPackages [hygeoclas]: Downloading https://files.pythonhosted.org/packages/42/98/479df54b49ec8215c1e8a455ce343ec192a5143d06cf5a2612094a5fd2f2/hygeoclas-0.4.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [airmailer]: Downloading https://files.pythonhosted.org/packages/d6/97/3b46d4676368b394b5d64fc3e3117067ea383d646446d2d73d4530e5ec1a/airmailer-0.2.0.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [newrelic]: Downloading https://files.pythonhosted.org/packages/a1/67/2ff7c4daee67f18c966ec4eb441a7bf4406c8495a94591cb9d8f03c7d9c3/newrelic-9.8.0.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/a9/78/69cb335f196721e4f891015f7fb3b17778d535d59c4b32889b7713a4fe3e/replit_river-0.1.6.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-04-19 00:57:17] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 00:57:17] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [hygeoclas]: Downloading https://files.pythonhosted.org/packages/ed/7b/acd5d90197b5e1def16bf2c06b831d681333e227cebe223825142a56ff4d/hygeoclas-0.5.1.tar.gz
+[2024-04-19 00:57:18] INFO root fetch - processPackages [airmailer]: Downloading https://files.pythonhosted.org/packages/0b/9d/2a87da206ef7a0241ed4b0dbfe6f378646cdf2e9c384c8ef13061e25292f/airmailer-0.2.2.tar.gz
+[2024-04-19 00:57:18] INFO root fetch - processPackages [replit-river]: Downloading https://files.pythonhosted.org/packages/fd/b0/714c81fc755400bdd3958d9edbc822ddc017d4d7b3466dc0cca63a7c7e41/replit_river-0.1.7b1.tar.gz
+[2024-04-19 00:57:18] INFO root fetch - processPackages [hygeoclas]: executing diffoscope
+[2024-04-19 00:57:18] INFO root fetch - processPackages [hygeoclas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hygeoclas-0.4.tar.gz tmp/hygeoclas-0.5.1.tar.gz --markdown 20240419/h/hygeoclas/0.4-0.5.1/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [airmailer]: executing diffoscope
+[2024-04-19 00:57:18] INFO root fetch - processPackages [airmailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airmailer-0.2.0.tar.gz tmp/airmailer-0.2.2.tar.gz --markdown 20240419/a/airmailer/0.2.0-0.2.2/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [newrelic]: Downloading https://files.pythonhosted.org/packages/0d/2b/512f4670534114603c219b151ab6f5925c0c5540405718bb8bf3754b5ea6/newrelic-9.9.0.tar.gz
+[2024-04-19 00:57:18] INFO root fetch - processPackages [replit-river]: executing diffoscope
+[2024-04-19 00:57:18] INFO root fetch - processPackages [replit-river]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit_river-0.1.6.tar.gz tmp/replit_river-0.1.7b1.tar.gz --markdown 20240419/r/replit-river/0.1.6-0.1.7b1/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-04-19 00:57:18] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-04-19 00:57:18] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240419/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 00:57:18] INFO root fetch - processPackages [newrelic]: executing diffoscope
+[2024-04-19 00:57:18] INFO root fetch - processPackages [newrelic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic-9.8.0.tar.gz tmp/newrelic-9.9.0.tar.gz --markdown 20240419/n/newrelic/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-04-19 00:57:18] INFO root fetch - processPackages [airmailer]: Remove: archive file [/home/abi/fetcher/tmp/airmailer-0.2.0.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - processPackages [airmailer]: Remove: archive file [/home/abi/fetcher/tmp/airmailer-0.2.2.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [airmailer]: success
+[2024-04-19 00:57:18] INFO root fetch - processPackages [hygeoclas]: Remove: archive file [/home/abi/fetcher/tmp/hygeoclas-0.4.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - processPackages [hygeoclas]: Remove: archive file [/home/abi/fetcher/tmp/hygeoclas-0.5.1.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [hygeoclas]: success
+[2024-04-19 00:57:18] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.6.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - processPackages [replit-river]: Remove: archive file [/home/abi/fetcher/tmp/replit_river-0.1.7b1.tar.gz]
+[2024-04-19 00:57:18] INFO root fetch - main [MainThread]: End processing [replit-river]: success
+[2024-04-19 00:57:19] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-04-19 00:57:19] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-04-19 00:57:19] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-04-19 00:57:24] INFO root fetch - processPackages [newrelic]: Remove: archive file [/home/abi/fetcher/tmp/newrelic-9.8.0.tar.gz]
+[2024-04-19 00:57:24] INFO root fetch - processPackages [newrelic]: Remove: archive file [/home/abi/fetcher/tmp/newrelic-9.9.0.tar.gz]
+[2024-04-19 00:57:24] INFO root fetch - main [MainThread]: End processing [newrelic]: success
+[2024-04-19 00:57:24] INFO root fetch - main [MainThread]: Store serial: [22833043]
