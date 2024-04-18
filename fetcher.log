@@ -1291,3 +1291,71 @@
 [2024-04-19 01:21:20] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2024-04-19 01:21:20] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-04-19 01:21:20] INFO root fetch - main [MainThread]: Store serial: [22833197]
+[2024-04-19 01:23:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833197]
+[2024-04-19 01:23:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-cdk
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plantstar-shared
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpp-symbol-parser
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: auto-coder
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pxe
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cppquant
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wslink
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NikGapps
+[2024-04-19 01:23:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: novelai
+[2024-04-19 01:23:28] INFO root fetch - processPackages [plantstar-shared]: New version: [2.0.3.0.2.9] Old Version: [2.0.3.0.2.8]
+[2024-04-19 01:23:28] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-19 01:23:28] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 01:23:29] INFO root fetch - processPackages [NikGapps]: New version: [2.53] Old Version: [2.52]
+[2024-04-19 01:23:29] INFO root fetch - processPackages [cpp-symbol-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 01:23:29] WARNING root fetch - processPackages [cppquant]: Skipping, unable to determine old version
+[2024-04-19 01:23:29] INFO root fetch - main [MainThread]: End processing [cppquant] error
+[2024-04-19 01:23:29] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/59/13/e3c46acf1e5eb795cb12eaf1e080e923044e8983f22ec7e4bc880298eec5/plantstar-shared-2.0.3.0.2.8.tar.gz
+[2024-04-19 01:23:29] WARNING root fetch - processPackages [pxe]: Skipping, unable to determine old version
+[2024-04-19 01:23:29] INFO root fetch - main [MainThread]: End processing [pxe] error
+[2024-04-19 01:23:29] INFO root fetch - processPackages [novelai]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-19 01:23:29] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [wslink]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-19 01:23:29] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/20/51/6007b3c815707755cca5bdfe300f8e047194b53a1944bb1f887ac947034c/nikgapps-2.52.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [cpp-symbol-parser]: Downloading https://files.pythonhosted.org/packages/54/00/8c6bbef149e8cffa451d366a3c2d9f51816abfca7737e3edafc6c1fc81bf/cpp_symbol_parser-0.1.1.tar.gz
+[2024-04-19 01:23:29] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 42160196>=10485760
+[2024-04-19 01:23:29] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2024-04-19 01:23:29] INFO root fetch - processPackages [plantstar-shared]: Downloading https://files.pythonhosted.org/packages/8b/97/e181d2e626bd22168e50a795bb1609e60c1f05756f139ce9bde361ff7681/plantstar-shared-2.0.3.0.2.9.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/37/1c/cecf50a1cc042cbc9c3e18039dd4f6567004ac7071f86595cc8132e1ce9b/wslink-2.0.1.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [novelai]: Downloading https://files.pythonhosted.org/packages/27/97/c5e8a60cea42b64d26824be7cd94025c59ceac0b64a20e0396c60dea5a54/novelai-1.2.0.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [plantstar-shared]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [plantstar-shared]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plantstar-shared-2.0.3.0.2.8.tar.gz tmp/plantstar-shared-2.0.3.0.2.9.tar.gz --markdown 20240419/p/plantstar-shared/2.0.3.0.2.8-2.0.3.0.2.9/README.md --exclude *.pyd
+[2024-04-19 01:23:29] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240419/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 01:23:29] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240419/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-19 01:23:29] INFO root fetch - processPackages [cpp-symbol-parser]: Downloading https://files.pythonhosted.org/packages/73/4f/67a9ec8f90b7e09d70a904bbd159b56dc6e278d1000053026f4a102c0c1d/cpp_symbol_parser-0.1.2.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/cb/bd/8bc0f281a5885a51ca5d4cb07b353a683059cfa065d52ec4326595d0dfa0/wslink-2.0.2.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [novelai]: Downloading https://files.pythonhosted.org/packages/04/18/feadcf6b42985cc7cf729860e53ebb7f859226c4b109cc4027bde1410945/novelai-1.3.0.tar.gz
+[2024-04-19 01:23:29] INFO root fetch - processPackages [cpp-symbol-parser]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [cpp-symbol-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp_symbol_parser-0.1.1.tar.gz tmp/cpp_symbol_parser-0.1.2.tar.gz --markdown 20240419/c/cpp-symbol-parser/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 01:23:29] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-2.0.1.tar.gz tmp/wslink-2.0.2.tar.gz --markdown 20240419/w/wslink/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-19 01:23:29] INFO root fetch - processPackages [novelai]: executing diffoscope
+[2024-04-19 01:23:29] INFO root fetch - processPackages [novelai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelai-1.2.0.tar.gz tmp/novelai-1.3.0.tar.gz --markdown 20240419/n/novelai/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-19 01:23:30] INFO root fetch - processPackages [plantstar-shared]: Remove: archive file [/home/abi/fetcher/tmp/plantstar-shared-2.0.3.0.2.8.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [plantstar-shared]: Remove: archive file [/home/abi/fetcher/tmp/plantstar-shared-2.0.3.0.2.9.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [plantstar-shared]: success
+[2024-04-19 01:23:30] INFO root fetch - processPackages [cpp-symbol-parser]: Remove: archive file [/home/abi/fetcher/tmp/cpp_symbol_parser-0.1.1.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [cpp-symbol-parser]: Remove: archive file [/home/abi/fetcher/tmp/cpp_symbol_parser-0.1.2.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [cpp-symbol-parser]: success
+[2024-04-19 01:23:30] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-19 01:23:30] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.1.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.2.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2024-04-19 01:23:30] INFO root fetch - processPackages [novelai]: Remove: archive file [/home/abi/fetcher/tmp/novelai-1.2.0.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [novelai]: Remove: archive file [/home/abi/fetcher/tmp/novelai-1.3.0.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [novelai]: success
+[2024-04-19 01:23:30] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-04-19 01:23:30] INFO root fetch - main [MainThread]: Store serial: [22833228]
