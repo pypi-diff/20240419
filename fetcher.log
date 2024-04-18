@@ -958,3 +958,49 @@
 [2024-04-19 01:01:45] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.0.zip]
 [2024-04-19 01:01:45] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
 [2024-04-19 01:01:45] INFO root fetch - main [MainThread]: Store serial: [22833080]
+[2024-04-19 01:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833080]
+[2024-04-19 01:03:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 01:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cfn_kafka_admin
+[2024-04-19 01:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citation-rabbot
+[2024-04-19 01:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: npc_lims
+[2024-04-19 01:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 01:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 01:03:53] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 01:03:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713480075] Old Version: [0.0.18a1713479417]
+[2024-04-19 01:03:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713480075] Old Version: [0.0.18a1713479417]
+[2024-04-19 01:03:53] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [cfn_kafka_admin]: New version: [0.6.0rc3] Old Version: [0.6.0rc2]
+[2024-04-19 01:03:53] INFO root fetch - processPackages [npc_lims]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-19 01:03:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/76/83/6c80294406a8f177c05a18d4df930f15bdbeb5d7d5138c35bad24958101b/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/76/83/6c80294406a8f177c05a18d4df930f15bdbeb5d7d5138c35bad24958101b/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/64/44/6bc8640af0b96aee5fd6caaba838f00b1043bd0fe34371f694f6c04783ed/cfn_kafka_admin-0.6.0rc2.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/eb/a3/a72478dcef25d9b46c35b7730c5c9a426e07354369fb652045cc1befbe7e/npc_lims-0.1.98.tar.gz
+[2024-04-19 01:03:53] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 01:03:53] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bb/cf/14dbb3a1ca319730fd601995f83abd49d7b2cf0f2ebcb18809b7429f1b81/pulumi_kubernetes_the_hard_way-0.0.18a1713480075.tar.gz
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/bb/cf/14dbb3a1ca319730fd601995f83abd49d7b2cf0f2ebcb18809b7429f1b81/pulumi_kubernetes_the_hard_way-0.0.18a1713480075.tar.gz
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480075.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713479417-0.0.18a1713480075/README.md --exclude *.pyd
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 01:03:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480075.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713479417-0.0.18a1713480075/README.md --exclude *.pyd
+[2024-04-19 01:03:54] INFO root fetch - processPackages [npc_lims]: Downloading https://files.pythonhosted.org/packages/20/8f/2a3ef0e71c09fd01ba3685a9f92c448766eab8a9e83f1e03e62e90091e0a/npc_lims-0.1.99.tar.gz
+[2024-04-19 01:03:54] INFO root fetch - processPackages [cfn_kafka_admin]: Downloading https://files.pythonhosted.org/packages/e4/c2/d6bb4cc7455be635edb2888a48f7b161f2fea45919a466789e9c93189e48/cfn_kafka_admin-0.6.0rc3.tar.gz
+[2024-04-19 01:03:54] INFO root fetch - processPackages [npc_lims]: executing diffoscope
+[2024-04-19 01:03:54] INFO root fetch - processPackages [npc_lims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_lims-0.1.98.tar.gz tmp/npc_lims-0.1.99.tar.gz --markdown 20240419/n/npc_lims/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-19 01:03:54] INFO root fetch - processPackages [cfn_kafka_admin]: executing diffoscope
+[2024-04-19 01:03:54] INFO root fetch - processPackages [cfn_kafka_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn_kafka_admin-0.6.0rc2.tar.gz tmp/cfn_kafka_admin-0.6.0rc3.tar.gz --markdown 20240419/c/cfn_kafka_admin/0.6.0rc2-0.6.0rc3/README.md --exclude *.pyd
+[2024-04-19 01:03:54] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 01:03:54] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 01:03:54] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 01:03:55] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.98.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - processPackages [npc_lims]: Remove: archive file [/home/abi/fetcher/tmp/npc_lims-0.1.99.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [npc_lims]: success
+[2024-04-19 01:03:55] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.0rc2.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - processPackages [cfn_kafka_admin]: Remove: archive file [/home/abi/fetcher/tmp/cfn_kafka_admin-0.6.0rc3.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [cfn_kafka_admin]: success
+[2024-04-19 01:03:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713479417.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480075.tar.gz]
+[2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 01:03:55] INFO root fetch - main [MainThread]: Store serial: [22833094]
