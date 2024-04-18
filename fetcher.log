@@ -658,3 +658,31 @@
 [2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.0.9.tar.gz]
 [2024-04-19 00:40:02] INFO root fetch - main [MainThread]: End processing [satorisynapse]: success
 [2024-04-19 00:40:02] INFO root fetch - main [MainThread]: Store serial: [22832925]
+[2024-04-19 00:42:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832925]
+[2024-04-19 00:42:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 00:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 00:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 00:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naludaq
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713412535] Old Version: [0.0.18a1713406852]
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713412535] Old Version: [0.0.18a1713406852]
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/8f/b4/ad8fbe8c17d0667381948e171b43824fcfcf998035048cd5ac9b5acaa8f7/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/8f/b4/ad8fbe8c17d0667381948e171b43824fcfcf998035048cd5ac9b5acaa8f7/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz
+[2024-04-19 00:42:11] INFO root fetch - processPackages [naludaq]: New version: [0.26.2] Old Version: [0.26.1]
+[2024-04-19 00:42:11] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/68/b5/7fb7335a09da494055fb75de94725013a31b62b0d39dc4dde08c1b4aa783/naludaq-0.26.1.tar.gz
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/5e/29/5ea4d07ce66614d965ab475fc7e13f334f63d235b30812484702686cd4c5/pulumi_kubernetes_the_hard_way-0.0.18a1713412535.tar.gz
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/5e/29/5ea4d07ce66614d965ab475fc7e13f334f63d235b30812484702686cd4c5/pulumi_kubernetes_the_hard_way-0.0.18a1713412535.tar.gz
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713412535.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713406852-0.0.18a1713412535/README.md --exclude *.pyd
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 00:42:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713412535.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713406852-0.0.18a1713412535/README.md --exclude *.pyd
+[2024-04-19 00:42:11] INFO root fetch - processPackages [naludaq]: Downloading https://files.pythonhosted.org/packages/b0/21/f480bf4a8284a72aa21203c3e3d902c33c67b21b5564c76798c6b8640291/naludaq-0.26.2.tar.gz
+[2024-04-19 00:42:12] INFO root fetch - processPackages [naludaq]: executing diffoscope
+[2024-04-19 00:42:12] INFO root fetch - processPackages [naludaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naludaq-0.26.1.tar.gz tmp/naludaq-0.26.2.tar.gz --markdown 20240419/n/naludaq/0.26.1-0.26.2/README.md --exclude *.pyd
+[2024-04-19 00:42:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713406852.tar.gz]
+[2024-04-19 00:42:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713412535.tar.gz]
+[2024-04-19 00:42:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 00:42:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 00:42:13] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.26.1.tar.gz]
+[2024-04-19 00:42:13] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.26.2.tar.gz]
+[2024-04-19 00:42:13] INFO root fetch - main [MainThread]: End processing [naludaq]: success
+[2024-04-19 00:42:13] INFO root fetch - main [MainThread]: Store serial: [22832934]
