@@ -1913,3 +1913,27 @@
 [2024-04-19 01:54:16] INFO root fetch - processPackages [nero]: Remove: archive file [/home/abi/fetcher/tmp/nero-19.3b6.tar.gz]
 [2024-04-19 01:54:16] INFO root fetch - main [MainThread]: End processing [nero]: success
 [2024-04-19 01:54:16] INFO root fetch - main [MainThread]: Store serial: [22833501]
+[2024-04-19 01:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833501]
+[2024-04-19 01:56:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiasmodon
+[2024-04-19 01:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: green
+[2024-04-19 01:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xl-word
+[2024-04-19 01:56:25] INFO root fetch - processPackages [chiasmodon]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 01:56:25] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/f0/c7/8b583a241070ee0f0c098d035940236c5340904bc45413bdb732e1c7218e/chiasmodon-1.1.8.tar.gz
+[2024-04-19 01:56:25] WARNING root fetch - processPackages [xl-word]: Skipping, unable to determine old version
+[2024-04-19 01:56:25] INFO root fetch - main [MainThread]: End processing [xl-word] error
+[2024-04-19 01:56:25] INFO root fetch - processPackages [green]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-19 01:56:25] INFO root fetch - processPackages [green]: Downloading https://files.pythonhosted.org/packages/c1/32/b74fabdd0658c04dc7338e0dd5f4d40db0b5a7fa05e168e58d795dab8ccc/green-4.0.1.tar.gz
+[2024-04-19 01:56:25] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/dd/1b/67ec3f7a82f1fe6fd665d975358abf0bc73cf8b385cb97de5869ac018be5/chiasmodon-1.1.9.tar.gz
+[2024-04-19 01:56:25] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-04-19 01:56:25] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-1.1.8.tar.gz tmp/chiasmodon-1.1.9.tar.gz --markdown 20240419/c/chiasmodon/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 01:56:25] INFO root fetch - processPackages [green]: Downloading https://files.pythonhosted.org/packages/0b/56/a017f9e1fe1ef1e1785bd8146dd3bcf66eb20dee592fd5bba9ce07a03961/green-4.0.2.tar.gz
+[2024-04-19 01:56:25] INFO root fetch - processPackages [green]: executing diffoscope
+[2024-04-19 01:56:25] INFO root fetch - processPackages [green]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/green-4.0.1.tar.gz tmp/green-4.0.2.tar.gz --markdown 20240419/g/green/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-19 01:56:26] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.1.8.tar.gz]
+[2024-04-19 01:56:26] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.1.9.tar.gz]
+[2024-04-19 01:56:26] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-04-19 01:56:26] INFO root fetch - processPackages [green]: Remove: archive file [/home/abi/fetcher/tmp/green-4.0.1.tar.gz]
+[2024-04-19 01:56:26] INFO root fetch - processPackages [green]: Remove: archive file [/home/abi/fetcher/tmp/green-4.0.2.tar.gz]
+[2024-04-19 01:56:26] INFO root fetch - main [MainThread]: End processing [green]: success
+[2024-04-19 01:56:26] INFO root fetch - main [MainThread]: Store serial: [22833510]
