@@ -1231,3 +1231,63 @@
 [2024-04-19 01:19:09] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
 [2024-04-19 01:19:09] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-19 01:19:09] INFO root fetch - main [MainThread]: Store serial: [22833178]
+[2024-04-19 01:21:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833178]
+[2024-04-19 01:21:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfuse
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jz3
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: druida
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: condor-code-reviewer
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eirStru
+[2024-04-19 01:21:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airbyte-cdk
+[2024-04-19 01:21:18] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 01:21:18] INFO root fetch - processPackages [condor-code-reviewer]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-19 01:21:18] INFO root fetch - processPackages [druida]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 01:21:18] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-19 01:21:18] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-19 01:21:18] WARNING root fetch - processPackages [jz3]: Skipping, unable to determine old version
+[2024-04-19 01:21:18] INFO root fetch - main [MainThread]: End processing [jz3] error
+[2024-04-19 01:21:18] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [langfuse]: New version: [2.9.2] Old Version: [2.9.1a0]
+[2024-04-19 01:21:18] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/d8/52/ce31b59ec5f4fe7b4a6e02c4670c1fcbae8bd3d275de95c2732d0adfc1bc/condor_code_reviewer-1.2.6.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/54/4a/598451ade8bde7f369deba69feb62cde24693585acb81aed1eb62547c114/druida-0.0.8.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [druida]: Downloading https://files.pythonhosted.org/packages/c2/fc/04f7092cb544ce2c35e3be2dd5ff20bee19fcc5ba5378898e0f03e15b8a9/druida-0.0.9.tar.gz
+[2024-04-19 01:21:18] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/43/38/4a1023711cee549cb5f62c09965d08724e93f5cac8e7dcd2becd75f7b302/langfuse-2.9.1a0.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [druida]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [druida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/druida-0.0.8.tar.gz tmp/druida-0.0.9.tar.gz --markdown 20240419/d/druida/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [condor-code-reviewer]: Downloading https://files.pythonhosted.org/packages/7a/87/4e051555c7c66bfc638abdf4808c05aa9f6adc0a6e27c0af4f868069c877/condor_code_reviewer-1.2.7.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240419/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240419/a/airbyte-cdk/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [condor-code-reviewer]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [condor-code-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/condor_code_reviewer-1.2.6.tar.gz tmp/condor_code_reviewer-1.2.7.tar.gz --markdown 20240419/c/condor-code-reviewer/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [langfuse]: Downloading https://files.pythonhosted.org/packages/71/c4/6571f0f3c2539390fbd49ca27636f5611971c2b1f9f15fae183b3c67838c/langfuse-2.9.2.tar.gz
+[2024-04-19 01:21:19] INFO root fetch - processPackages [langfuse]: executing diffoscope
+[2024-04-19 01:21:19] INFO root fetch - processPackages [langfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfuse-2.9.1a0.tar.gz tmp/langfuse-2.9.2.tar.gz --markdown 20240419/l/langfuse/2.9.1a0-2.9.2/README.md --exclude *.pyd
+[2024-04-19 01:21:19] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.8.tar.gz]
+[2024-04-19 01:21:19] INFO root fetch - processPackages [druida]: Remove: archive file [/home/abi/fetcher/tmp/druida-0.0.9.tar.gz]
+[2024-04-19 01:21:19] INFO root fetch - main [MainThread]: End processing [druida]: success
+[2024-04-19 01:21:19] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.6.tar.gz]
+[2024-04-19 01:21:19] INFO root fetch - processPackages [condor-code-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/condor_code_reviewer-1.2.7.tar.gz]
+[2024-04-19 01:21:19] INFO root fetch - main [MainThread]: End processing [condor-code-reviewer]: success
+[2024-04-19 01:21:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-19 01:21:20] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 01:21:20] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.1a0.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - processPackages [langfuse]: Remove: archive file [/home/abi/fetcher/tmp/langfuse-2.9.2.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - main [MainThread]: End processing [langfuse]: success
+[2024-04-19 01:21:20] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-04-19 01:21:20] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-04-19 01:21:20] INFO root fetch - main [MainThread]: Store serial: [22833197]
