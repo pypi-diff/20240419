@@ -749,3 +749,24 @@
 [2024-04-19 00:48:43] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
 [2024-04-19 00:48:43] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
 [2024-04-19 00:48:43] INFO root fetch - main [MainThread]: Store serial: [22832988]
+[2024-04-19 00:50:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832988]
+[2024-04-19 00:50:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-grasshopper
+[2024-04-19 00:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cul-spectrum
+[2024-04-19 00:50:52] INFO root fetch - processPackages [cul-spectrum]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 00:50:52] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-19 00:50:52] INFO root fetch - processPackages [cul-spectrum]: Downloading https://files.pythonhosted.org/packages/e1/70/5f4c9a80ee558fca213c9144223a005e49dd09ff150f2505eed23de05abd/cul-spectrum-1.0.1.tar.gz
+[2024-04-19 00:50:52] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-04-19 00:50:52] INFO root fetch - processPackages [cul-spectrum]: Downloading https://files.pythonhosted.org/packages/b7/30/5e2b05912fb15dceef7eec2c401893388adcf5cd2b2e348d44e0ff84c9ce/cul_spectrum-1.0.2.tar.gz
+[2024-04-19 00:50:52] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-04-19 00:50:52] INFO root fetch - processPackages [cul-spectrum]: executing diffoscope
+[2024-04-19 00:50:52] INFO root fetch - processPackages [cul-spectrum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cul-spectrum-1.0.1.tar.gz tmp/cul_spectrum-1.0.2.tar.gz --markdown 20240419/c/cul-spectrum/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 00:50:53] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-04-19 00:50:53] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240419/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-19 00:50:53] INFO root fetch - processPackages [cul-spectrum]: Remove: archive file [/home/abi/fetcher/tmp/cul-spectrum-1.0.1.tar.gz]
+[2024-04-19 00:50:53] INFO root fetch - processPackages [cul-spectrum]: Remove: archive file [/home/abi/fetcher/tmp/cul_spectrum-1.0.2.tar.gz]
+[2024-04-19 00:50:53] INFO root fetch - main [MainThread]: End processing [cul-spectrum]: success
+[2024-04-19 00:50:53] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-04-19 00:50:53] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-04-19 00:50:53] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-04-19 00:50:53] INFO root fetch - main [MainThread]: Store serial: [22832997]
