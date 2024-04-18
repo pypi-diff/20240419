@@ -1543,3 +1543,36 @@
 [2024-04-19 01:34:27] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
 [2024-04-19 01:34:27] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-19 01:34:27] INFO root fetch - main [MainThread]: Store serial: [22833313]
+[2024-04-19 01:36:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833313]
+[2024-04-19 01:36:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 01:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yt-dlp
+[2024-04-19 01:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algophon
+[2024-04-19 01:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leeUnit-c
+[2024-04-19 01:36:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edgartools
+[2024-04-19 01:36:37] WARNING root fetch - processPackages [leeUnit-c]: Skipping, unable to determine old version
+[2024-04-19 01:36:37] INFO root fetch - main [MainThread]: End processing [leeUnit-c] error
+[2024-04-19 01:36:37] INFO root fetch - processPackages [algophon]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 01:36:37] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.9.232723.dev0] Old Version: [2024.4.9]
+[2024-04-19 01:36:37] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/23/d1/b04c94ad46d6210586ae60b3bfa01023aa73e2e509c6253210d5829e58a2/algophon-0.0.3.tar.gz
+[2024-04-19 01:36:37] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/52/85/af44c30f0cc5d94ebbce365f8ee40eea6e9d7a1d26d50f16e3766ca8410c/yt_dlp-2024.4.9.tar.gz
+[2024-04-19 01:36:37] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-04-19 01:36:37] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-04-19 01:36:37] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/32/b1/4a2884eebb3329ef2d96c104b182d5ec0be8c9697dda69e1e1cbbc00d18b/algophon-0.0.4.tar.gz
+[2024-04-19 01:36:37] INFO root fetch - processPackages [algophon]: executing diffoscope
+[2024-04-19 01:36:37] INFO root fetch - processPackages [algophon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algophon-0.0.3.tar.gz tmp/algophon-0.0.4.tar.gz --markdown 20240419/a/algophon/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 01:36:38] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-04-19 01:36:38] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/3d/26/45a9189ceae8b6fa894afcbb6e4dfa15bfa476b1c4750920529f8dce5039/yt_dlp-2024.4.9.232723.dev0.tar.gz
+[2024-04-19 01:36:38] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-04-19 01:36:38] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240419/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-04-19 01:36:38] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-19 01:36:38] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.9.tar.gz tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz --markdown 20240419/y/yt-dlp/2024.4.9-2024.4.9.232723.dev0/README.md --exclude *.pyd
+[2024-04-19 01:36:38] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.3.tar.gz]
+[2024-04-19 01:36:38] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.4.tar.gz]
+[2024-04-19 01:36:38] INFO root fetch - main [MainThread]: End processing [algophon]: success
+[2024-04-19 01:36:39] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-04-19 01:36:39] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-04-19 01:36:39] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-04-19 01:36:43] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.tar.gz]
+[2024-04-19 01:36:43] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
+[2024-04-19 01:36:43] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-19 01:36:43] INFO root fetch - main [MainThread]: Store serial: [22833331]
