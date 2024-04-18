@@ -229,3 +229,33 @@
 [2024-04-19 00:13:28] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.2.tar.gz]
 [2024-04-19 00:13:28] INFO root fetch - main [MainThread]: End processing [enkacard]: success
 [2024-04-19 00:13:28] INFO root fetch - main [MainThread]: Store serial: [22832778]
+[2024-04-19 00:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832778]
+[2024-04-19 00:15:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 00:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz-next
+[2024-04-19 00:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tickthon
+[2024-04-19 00:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyphermed
+[2024-04-19 00:15:36] INFO root fetch - processPackages [alphaz-next]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-19 00:15:36] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/17/c1/387c96738cd7d47101d139806f15a1ed8fb3c312a6b00d2d41b252d8de44/alphaz-next-0.4.1.tar.gz
+[2024-04-19 00:15:36] INFO root fetch - processPackages [tickthon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 00:15:36] INFO root fetch - processPackages [cyphermed]: New version: [2.1.21] Old Version: [2.1.18]
+[2024-04-19 00:15:36] INFO root fetch - processPackages [tickthon]: Downloading https://files.pythonhosted.org/packages/3e/84/4691927526444373a972eeea1b658b01d8f8e9fa259da763e93204491ee0/tickthon-0.2.8.tar.gz
+[2024-04-19 00:15:36] INFO root fetch - processPackages [cyphermed]: Downloading https://files.pythonhosted.org/packages/ee/74/ddc6ebe165415fcf07c0b9374373affca6377ea6d35d7d70adf5884cc23d/cyphermed-2.1.18-py3-none-any.whl
+[2024-04-19 00:15:36] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/53/9c/e827260606535f02c1ce1a92a48851829b2fcd95dcb9aa6dfcfa5b7f28cd/alphaz-next-0.4.2.tar.gz
+[2024-04-19 00:15:37] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-19 00:15:37] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.4.1.tar.gz tmp/alphaz-next-0.4.2.tar.gz --markdown 20240419/a/alphaz-next/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-19 00:15:37] INFO root fetch - processPackages [tickthon]: Downloading https://files.pythonhosted.org/packages/a6/52/af4849d88f2ced9f014834a97dff688a2d99ee8798921cf2f2f04118fbf4/tickthon-0.2.9.tar.gz
+[2024-04-19 00:15:37] INFO root fetch - processPackages [cyphermed]: Downloading https://files.pythonhosted.org/packages/92/67/695330ccb16954fd8f61f17e0d76b4637a459ea59a61328b70e08a48bf72/cyphermed-2.1.21-py3-none-any.whl
+[2024-04-19 00:15:37] INFO root fetch - processPackages [tickthon]: executing diffoscope
+[2024-04-19 00:15:37] INFO root fetch - processPackages [tickthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickthon-0.2.8.tar.gz tmp/tickthon-0.2.9.tar.gz --markdown 20240419/t/tickthon/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 00:15:37] INFO root fetch - processPackages [cyphermed]: executing diffoscope
+[2024-04-19 00:15:37] INFO root fetch - processPackages [cyphermed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyphermed-2.1.18-py3-none-any.whl.zip tmp/cyphermed-2.1.21-py3-none-any.whl.zip --markdown 20240419/c/cyphermed/2.1.18-2.1.21/README.md --exclude *.pyd
+[2024-04-19 00:15:37] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.1.tar.gz]
+[2024-04-19 00:15:37] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.2.tar.gz]
+[2024-04-19 00:15:37] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-19 00:15:37] INFO root fetch - processPackages [tickthon]: Remove: archive file [/home/abi/fetcher/tmp/tickthon-0.2.8.tar.gz]
+[2024-04-19 00:15:37] INFO root fetch - processPackages [tickthon]: Remove: archive file [/home/abi/fetcher/tmp/tickthon-0.2.9.tar.gz]
+[2024-04-19 00:15:37] INFO root fetch - main [MainThread]: End processing [tickthon]: success
+[2024-04-19 00:15:40] INFO root fetch - processPackages [cyphermed]: Remove: archive file [/home/abi/fetcher/tmp/cyphermed-2.1.18-py3-none-any.whl.zip]
+[2024-04-19 00:15:40] INFO root fetch - processPackages [cyphermed]: Remove: archive file [/home/abi/fetcher/tmp/cyphermed-2.1.21-py3-none-any.whl.zip]
+[2024-04-19 00:15:40] INFO root fetch - main [MainThread]: End processing [cyphermed]: success
+[2024-04-19 00:15:40] INFO root fetch - main [MainThread]: Store serial: [22832787]
