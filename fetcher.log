@@ -608,3 +608,29 @@
 [2024-04-19 00:33:31] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-04-19 00:33:31] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-04-19 00:33:31] INFO root fetch - main [MainThread]: Store serial: [22832910]
+[2024-04-19 00:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832910]
+[2024-04-19 00:35:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 00:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepCR
+[2024-04-19 00:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NikGapps
+[2024-04-19 00:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nothion
+[2024-04-19 00:35:41] INFO root fetch - processPackages [NikGapps]: New version: [2.52] Old Version: [2.51]
+[2024-04-19 00:35:41] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/e1/ae/0878d39f8add47f2a40a518fadb2097addf38e0602957152469ad5c7410b/NikGapps-2.51.tar.gz
+[2024-04-19 00:35:41] INFO root fetch - processPackages [deepCR]: New version: [0.3.1] Old Version: [0.2.1rc0]
+[2024-04-19 00:35:41] INFO root fetch - processPackages [nothion]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 00:35:41] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41969596>=10485760
+[2024-04-19 00:35:41] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2024-04-19 00:35:41] INFO root fetch - processPackages [deepCR]: Downloading https://files.pythonhosted.org/packages/6d/f7/ec4865516b66682d5e35d13d7a7ecf03d73b6ad0892258b76a96e8ccb779/deepCR-0.2.1rc0.tar.gz
+[2024-04-19 00:35:41] INFO root fetch - processPackages [nothion]: Downloading https://files.pythonhosted.org/packages/70/75/4bb1306ed722f61161ac262db05e9be4162cfea00d30f18938efc91d319b/nothion-0.3.0.tar.gz
+[2024-04-19 00:35:41] INFO root fetch - processPackages [nothion]: Downloading https://files.pythonhosted.org/packages/5d/b0/f927a49c55a0a0224febed5846a6a3d517c340234964c0b15d422a55a91a/nothion-0.3.1.tar.gz
+[2024-04-19 00:35:41] INFO root fetch - processPackages [nothion]: executing diffoscope
+[2024-04-19 00:35:42] INFO root fetch - processPackages [nothion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nothion-0.3.0.tar.gz tmp/nothion-0.3.1.tar.gz --markdown 20240419/n/nothion/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 00:35:42] INFO root fetch - processPackages [nothion]: Remove: archive file [/home/abi/fetcher/tmp/nothion-0.3.0.tar.gz]
+[2024-04-19 00:35:42] INFO root fetch - processPackages [nothion]: Remove: archive file [/home/abi/fetcher/tmp/nothion-0.3.1.tar.gz]
+[2024-04-19 00:35:42] INFO root fetch - main [MainThread]: End processing [nothion]: success
+[2024-04-19 00:35:42] INFO root fetch - processPackages [deepCR]: Downloading https://files.pythonhosted.org/packages/cf/6d/6e0cc05a40596101dc421b9d19172c0a482eb2eec01390af4e47a193898f/deepCR-0.3.1.tar.gz
+[2024-04-19 00:35:42] INFO root fetch - processPackages [deepCR]: executing diffoscope
+[2024-04-19 00:35:42] INFO root fetch - processPackages [deepCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepCR-0.2.1rc0.tar.gz tmp/deepCR-0.3.1.tar.gz --markdown 20240419/d/deepCR/0.2.1rc0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 00:35:43] INFO root fetch - processPackages [deepCR]: Remove: archive file [/home/abi/fetcher/tmp/deepCR-0.2.1rc0.tar.gz]
+[2024-04-19 00:35:43] INFO root fetch - processPackages [deepCR]: Remove: archive file [/home/abi/fetcher/tmp/deepCR-0.3.1.tar.gz]
+[2024-04-19 00:35:43] INFO root fetch - main [MainThread]: End processing [deepCR]: success
+[2024-04-19 00:35:43] INFO root fetch - main [MainThread]: Store serial: [22832918]
