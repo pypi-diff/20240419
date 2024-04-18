@@ -1576,3 +1576,67 @@
 [2024-04-19 01:36:43] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
 [2024-04-19 01:36:43] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-19 01:36:43] INFO root fetch - main [MainThread]: Store serial: [22833331]
+[2024-04-19 01:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833331]
+[2024-04-19 01:38:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 01:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833350]
+[2024-04-19 01:40:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: culminator
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arabic-datetime
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycommons
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amilib
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-express
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: minivectordb
+[2024-04-19 01:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyvoronoi
+[2024-04-19 01:40:58] INFO root fetch - processPackages [culminator]: New version: [0.4] Old Version: [0.3]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [lusid-express]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [amilib]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [minivectordb]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/53/9f/a765f94298e3d0a64bd50f9c13c8adb7ecabdc228475f835f369973d7705/culminator-0.3.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/ca/fa/da1d427bc90c7b856d0f196a628e4e7744a999a1823186abf770d9f7245b/lusid_express-0.5.0.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [arabic-datetime]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pyvoronoi]: New version: [1.1.0] Old Version: [1.0.9.4]
+[2024-04-19 01:40:58] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/76/83/1dc2df747fa7646613def5785595058c31dc0d04e1fc8a2cd77188f24fd9/amilib-0.0.5.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [arabic-datetime]: Downloading https://files.pythonhosted.org/packages/ce/eb/f952e74fe85dfc5f796b8b78150c9d5db6b47dc0bae4d8728615d25400f4/arabic_datetime-0.1.0.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [minivectordb]: Downloading https://files.pythonhosted.org/packages/b4/e7/cf5f83610f06875885bcb987f2ee172896444f3ca1d0d089f7785682bf04/minivectordb-1.3.2.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pyvoronoi]: Downloading https://files.pythonhosted.org/packages/a2/e3/7f6431c0ef9009cbfb90bfbfbe7900d5029f8eac31b7745181591a423a01/pyvoronoi-1.0.9.4.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-19 01:40:58] WARNING root fetch - processPackages [minivectordb]: Skipping package: exceeds size limit 45075645>=10485760
+[2024-04-19 01:40:58] INFO root fetch - main [MainThread]: End processing [minivectordb] error
+[2024-04-19 01:40:58] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/e1/c2/c77c87226f7fcde21715d2a89f1316e5d5a8304672fbef19596f3e7c4ef7/culminator-0.4.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/ff/c4/d14b641fb6502bd88ed852af476e47a4adad9675a3bfe51560a9ed3b17e7/lusid_express-0.5.1.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-19 01:40:58] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240419/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-19 01:40:58] INFO root fetch - processPackages [culminator]: executing diffoscope
+[2024-04-19 01:40:58] INFO root fetch - processPackages [culminator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culminator-0.3.tar.gz tmp/culminator-0.4.tar.gz --markdown 20240419/c/culminator/0.3-0.4/README.md --exclude *.pyd
+[2024-04-19 01:40:58] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-04-19 01:40:58] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-0.5.0.tar.gz tmp/lusid_express-0.5.1.tar.gz --markdown 20240419/l/lusid-express/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-19 01:40:58] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/1f/5a/c43aa2f60b2f31eeec87faa8fb2a84f0e5c68533dfdf5c9c9d794afe042c/amilib-0.0.6.tar.gz
+[2024-04-19 01:40:58] INFO root fetch - processPackages [arabic-datetime]: Downloading https://files.pythonhosted.org/packages/1b/93/c920d4c3f7e1dd0acdc1e24da0cc696a77a2fafd2a7be501867e15874ea2/arabic_datetime-0.1.1.tar.gz
+[2024-04-19 01:40:59] INFO root fetch - processPackages [arabic-datetime]: executing diffoscope
+[2024-04-19 01:40:59] INFO root fetch - processPackages [arabic-datetime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabic_datetime-0.1.0.tar.gz tmp/arabic_datetime-0.1.1.tar.gz --markdown 20240419/a/arabic-datetime/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 01:40:59] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-04-19 01:40:59] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.5.tar.gz tmp/amilib-0.0.6.tar.gz --markdown 20240419/a/amilib/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 01:40:59] INFO root fetch - processPackages [pyvoronoi]: Downloading https://files.pythonhosted.org/packages/fe/4a/5ddc3d025f6806d0b085c713f6940185676425a71b09e7d425b53cbf4449/pyvoronoi-1.1.0.tar.gz
+[2024-04-19 01:40:59] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.5.0.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.5.1.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-04-19 01:40:59] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-19 01:40:59] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.3.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.4.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - main [MainThread]: End processing [culminator]: success
+[2024-04-19 01:40:59] INFO root fetch - processPackages [arabic-datetime]: Remove: archive file [/home/abi/fetcher/tmp/arabic_datetime-0.1.0.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - processPackages [arabic-datetime]: Remove: archive file [/home/abi/fetcher/tmp/arabic_datetime-0.1.1.tar.gz]
+[2024-04-19 01:40:59] INFO root fetch - main [MainThread]: End processing [arabic-datetime]: success
+[2024-04-19 01:40:59] INFO root fetch - processPackages [pyvoronoi]: executing diffoscope
+[2024-04-19 01:40:59] INFO root fetch - processPackages [pyvoronoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvoronoi-1.0.9.4.tar.gz tmp/pyvoronoi-1.1.0.tar.gz --markdown 20240419/p/pyvoronoi/1.0.9.4-1.1.0/README.md --exclude *.pyd
+[2024-04-19 01:41:00] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.5.tar.gz]
+[2024-04-19 01:41:00] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.6.tar.gz]
+[2024-04-19 01:41:00] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-04-19 01:41:00] INFO root fetch - processPackages [pyvoronoi]: Remove: archive file [/home/abi/fetcher/tmp/pyvoronoi-1.0.9.4.tar.gz]
+[2024-04-19 01:41:00] INFO root fetch - processPackages [pyvoronoi]: Remove: archive file [/home/abi/fetcher/tmp/pyvoronoi-1.1.0.tar.gz]
+[2024-04-19 01:41:00] INFO root fetch - main [MainThread]: End processing [pyvoronoi]: success
+[2024-04-19 01:41:00] INFO root fetch - main [MainThread]: Store serial: [22833385]
