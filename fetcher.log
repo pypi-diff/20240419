@@ -1640,3 +1640,61 @@
 [2024-04-19 01:41:00] INFO root fetch - processPackages [pyvoronoi]: Remove: archive file [/home/abi/fetcher/tmp/pyvoronoi-1.1.0.tar.gz]
 [2024-04-19 01:41:00] INFO root fetch - main [MainThread]: End processing [pyvoronoi]: success
 [2024-04-19 01:41:00] INFO root fetch - main [MainThread]: Store serial: [22833385]
+[2024-04-19 01:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833385]
+[2024-04-19 01:43:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oteltest
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oteltest
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oteltest
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reprompt
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fennel-ai
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MobileInventoryCLI
+[2024-04-19 01:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bucketed-scene-flow-eval
+[2024-04-19 01:43:09] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.4] Old Version: [0.0.7.3]
+[2024-04-19 01:43:09] INFO root fetch - processPackages [fennel-ai]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-19 01:43:09] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/f7/84/0a9b308ff108e2f79921dfe4a009b5c59a7b6ac29a2c945eb546ed7a2218/reprompt-0.0.7.3.tar.gz
+[2024-04-19 01:43:09] INFO root fetch - processPackages [oteltest]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 01:43:09] INFO root fetch - processPackages [oteltest]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 01:43:09] INFO root fetch - processPackages [bucketed-scene-flow-eval]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-19 01:43:09] INFO root fetch - processPackages [oteltest]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 01:43:10] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.61] Old Version: [0.4.60]
+[2024-04-19 01:43:10] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/51/db/860c229c1470df944a068d3951428412a49018dffa5e7591ee110a4e391a/fennel_ai-1.2.8.tar.gz
+[2024-04-19 01:43:10] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40191389>=10485760
+[2024-04-19 01:43:10] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-04-19 01:43:10] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/51/75/0a5953c220e44b6ed7b16a42cfd4382a4a17701e23e01455f0d201247bbf/reprompt-0.0.7.4.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/14/06/ac4f38dc7194c8c4783e90bc2866c2a72bb5eb84373a53c50cdea3af6ba2/oteltest-0.8.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/14/06/ac4f38dc7194c8c4783e90bc2866c2a72bb5eb84373a53c50cdea3af6ba2/oteltest-0.8.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/c0/9c/9d25e7c1c1dd9d8f78206b218554dadebd1e97ce446206e72b30ad24f79f/MobileInventoryCLI-0.4.60.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/14/06/ac4f38dc7194c8c4783e90bc2866c2a72bb5eb84373a53c50cdea3af6ba2/oteltest-0.8.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/2b/dc/1795cb00cbf32a1653f73b8143c5403c3ee7ba32b1f59ccff3a1a31a8d22/bucketed_scene_flow_eval-2.0.3.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.3.tar.gz tmp/reprompt-0.0.7.4.tar.gz --markdown 20240419/r/reprompt/0.0.7.3-0.0.7.4/README.md --exclude *.pyd
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/7c/28/65cad17fae18c97b05a3f04b68d0f345231d5e0240682467884989165df2/oteltest-0.9.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/7c/28/65cad17fae18c97b05a3f04b68d0f345231d5e0240682467884989165df2/oteltest-0.9.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: Downloading https://files.pythonhosted.org/packages/7c/28/65cad17fae18c97b05a3f04b68d0f345231d5e0240682467884989165df2/oteltest-0.9.0.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/a3/5e/24939384e947213599ae5567fd9ed073ec2b6e1b1e53e67b3566614039d6/bucketed_scene_flow_eval-2.0.4.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/ba/00/f35647546f410d5d577f4cc9f27abfe97035ec1ac5d0b9e2d42476beed96/MobileInventoryCLI-0.4.61.tar.gz
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteltest-0.8.0.tar.gz tmp/oteltest-0.9.0.tar.gz --markdown 20240419/o/oteltest/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteltest-0.8.0.tar.gz tmp/oteltest-0.9.0.tar.gz --markdown 20240419/o/oteltest/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [oteltest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oteltest-0.8.0.tar.gz tmp/oteltest-0.9.0.tar.gz --markdown 20240419/o/oteltest/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 01:43:10] INFO root fetch - processPackages [bucketed-scene-flow-eval]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [bucketed-scene-flow-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bucketed_scene_flow_eval-2.0.3.tar.gz tmp/bucketed_scene_flow_eval-2.0.4.tar.gz --markdown 20240419/b/bucketed-scene-flow-eval/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-19 01:43:10] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-19 01:43:10] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.60.tar.gz tmp/MobileInventoryCLI-0.4.61.tar.gz --markdown 20240419/M/MobileInventoryCLI/0.4.60-0.4.61/README.md --exclude *.pyd
+[2024-04-19 01:43:11] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.3.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.4.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-19 01:43:11] INFO root fetch - processPackages [oteltest]: Remove: archive file [/home/abi/fetcher/tmp/oteltest-0.8.0.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - processPackages [oteltest]: Remove: archive file [/home/abi/fetcher/tmp/oteltest-0.9.0.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [oteltest]: success
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [oteltest]: success
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [oteltest]: success
+[2024-04-19 01:43:11] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.3.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.4.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [bucketed-scene-flow-eval]: success
+[2024-04-19 01:43:11] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.60.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.61.tar.gz]
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-19 01:43:11] INFO root fetch - main [MainThread]: Store serial: [22833414]
