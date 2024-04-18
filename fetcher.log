@@ -728,3 +728,24 @@
 [2024-04-19 00:46:33] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.6.tar.gz]
 [2024-04-19 00:46:33] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
 [2024-04-19 00:46:33] INFO root fetch - main [MainThread]: Store serial: [22832982]
+[2024-04-19 00:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832982]
+[2024-04-19 00:48:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 00:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-grasshopper
+[2024-04-19 00:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: songbirdcli
+[2024-04-19 00:48:41] INFO root fetch - processPackages [songbirdcli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 00:48:41] INFO root fetch - processPackages [songbirdcli]: Downloading https://files.pythonhosted.org/packages/e7/42/338bb933dd1d847f43a2470d6cab40ff993cb3a0b5cc3419169728d1dbcf/songbirdcli-0.2.1.tar.gz
+[2024-04-19 00:48:41] INFO root fetch - processPackages [ladybug-grasshopper]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-19 00:48:42] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/ec/49/777f995c954f015074487d7ab75a2c03b29bfd7c9fba5b15f7370a04139a/ladybug-grasshopper-1.9.3.tar.gz
+[2024-04-19 00:48:42] INFO root fetch - processPackages [songbirdcli]: Downloading https://files.pythonhosted.org/packages/96/29/d9b9fbf45fe4d6ef57c74004a0d65cfd62a08f677c2905c60b1b2a5b3c2f/songbirdcli-0.2.2.tar.gz
+[2024-04-19 00:48:42] INFO root fetch - processPackages [songbirdcli]: executing diffoscope
+[2024-04-19 00:48:42] INFO root fetch - processPackages [songbirdcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/songbirdcli-0.2.1.tar.gz tmp/songbirdcli-0.2.2.tar.gz --markdown 20240419/s/songbirdcli/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 00:48:42] INFO root fetch - processPackages [ladybug-grasshopper]: Downloading https://files.pythonhosted.org/packages/36/c7/da7e7e51114ff7f4fdf8e1f110936d73131c1f23c71385e5ab4666ad04c4/ladybug-grasshopper-1.9.4.tar.gz
+[2024-04-19 00:48:42] INFO root fetch - processPackages [ladybug-grasshopper]: executing diffoscope
+[2024-04-19 00:48:42] INFO root fetch - processPackages [ladybug-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-grasshopper-1.9.3.tar.gz tmp/ladybug-grasshopper-1.9.4.tar.gz --markdown 20240419/l/ladybug-grasshopper/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-19 00:48:43] INFO root fetch - processPackages [songbirdcli]: Remove: archive file [/home/abi/fetcher/tmp/songbirdcli-0.2.1.tar.gz]
+[2024-04-19 00:48:43] INFO root fetch - processPackages [songbirdcli]: Remove: archive file [/home/abi/fetcher/tmp/songbirdcli-0.2.2.tar.gz]
+[2024-04-19 00:48:43] INFO root fetch - main [MainThread]: End processing [songbirdcli]: success
+[2024-04-19 00:48:43] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.3.tar.gz]
+[2024-04-19 00:48:43] INFO root fetch - processPackages [ladybug-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-grasshopper-1.9.4.tar.gz]
+[2024-04-19 00:48:43] INFO root fetch - main [MainThread]: End processing [ladybug-grasshopper]: success
+[2024-04-19 00:48:43] INFO root fetch - main [MainThread]: Store serial: [22832988]
