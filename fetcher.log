@@ -1073,3 +1073,15 @@
 [2024-04-19 01:08:16] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240417.tar.gz]
 [2024-04-19 01:08:16] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-19 01:08:16] INFO root fetch - main [MainThread]: Store serial: [22833115]
+[2024-04-19 01:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833115]
+[2024-04-19 01:10:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 01:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radgraph
+[2024-04-19 01:10:24] INFO root fetch - processPackages [radgraph]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 01:10:24] INFO root fetch - processPackages [radgraph]: Downloading https://files.pythonhosted.org/packages/44/fa/b7addd75e1505ea0b78d56af4c42dd7463cfaa26d66d0b1a30cb6b460624/radgraph-0.1.0.tar.gz
+[2024-04-19 01:10:25] INFO root fetch - processPackages [radgraph]: Downloading https://files.pythonhosted.org/packages/c7/34/74a4cf7bc1f31997a1faf4cb94b5132da59bb2b2f231e8a4f3b17d5778d8/radgraph-0.1.1.tar.gz
+[2024-04-19 01:10:25] INFO root fetch - processPackages [radgraph]: executing diffoscope
+[2024-04-19 01:10:25] INFO root fetch - processPackages [radgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radgraph-0.1.0.tar.gz tmp/radgraph-0.1.1.tar.gz --markdown 20240419/r/radgraph/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 01:10:27] INFO root fetch - processPackages [radgraph]: Remove: archive file [/home/abi/fetcher/tmp/radgraph-0.1.0.tar.gz]
+[2024-04-19 01:10:27] INFO root fetch - processPackages [radgraph]: Remove: archive file [/home/abi/fetcher/tmp/radgraph-0.1.1.tar.gz]
+[2024-04-19 01:10:27] INFO root fetch - main [MainThread]: End processing [radgraph]: success
+[2024-04-19 01:10:27] INFO root fetch - main [MainThread]: Store serial: [22833118]
