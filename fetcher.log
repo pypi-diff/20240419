@@ -686,3 +686,33 @@
 [2024-04-19 00:42:13] INFO root fetch - processPackages [naludaq]: Remove: archive file [/home/abi/fetcher/tmp/naludaq-0.26.2.tar.gz]
 [2024-04-19 00:42:13] INFO root fetch - main [MainThread]: End processing [naludaq]: success
 [2024-04-19 00:42:13] INFO root fetch - main [MainThread]: Store serial: [22832934]
+[2024-04-19 00:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832934]
+[2024-04-19 00:44:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 00:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polyhedral-gravity
+[2024-04-19 00:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txm-sandbox
+[2024-04-19 00:44:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorkrowch
+[2024-04-19 00:44:21] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-19 00:44:21] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/cf/0c/fdd4329bfcf6527b1acea5223be4a83410d08ffba8d7776c30eab4f9c774/TXM_Sandbox-0.2.5.tar.gz
+[2024-04-19 00:44:21] INFO root fetch - processPackages [tensorkrowch]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-19 00:44:21] INFO root fetch - processPackages [polyhedral-gravity]: New version: [3.0rc3] Old Version: [2.1]
+[2024-04-19 00:44:21] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/16/2c/e6adc8a0a43637f1ab09aa9d7947939b62cfa01436ff7627f4beb2bc4bc6/tensorkrowch-1.1.0.tar.gz
+[2024-04-19 00:44:21] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/8e/03/5b2ce441adf4f31b8ff885431de8617210793b76080ada9e7997145282e5/txm_sandbox-0.3.0.tar.gz
+[2024-04-19 00:44:21] INFO root fetch - processPackages [polyhedral-gravity]: Downloading https://files.pythonhosted.org/packages/b7/21/a918d86d828fe6b1c257d8ab1f323d6293a751c13bf78fa844eb0eb22656/polyhedral_gravity-2.1.tar.gz
+[2024-04-19 00:44:21] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-04-19 00:44:21] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TXM_Sandbox-0.2.5.tar.gz tmp/txm_sandbox-0.3.0.tar.gz --markdown 20240419/t/txm-sandbox/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-19 00:44:22] INFO root fetch - processPackages [tensorkrowch]: Downloading https://files.pythonhosted.org/packages/8c/af/0768f8579f0ff6b423975eb161d7317da13531bbeb3dc1b2b41101eae6ac/tensorkrowch-1.1.1.tar.gz
+[2024-04-19 00:44:22] INFO root fetch - processPackages [polyhedral-gravity]: Downloading https://files.pythonhosted.org/packages/31/88/b0cb6d1971b214d8ad7843203853001f7336de446afd503d06cd0377892e/polyhedral_gravity-3.0rc3.tar.gz
+[2024-04-19 00:44:22] INFO root fetch - processPackages [tensorkrowch]: executing diffoscope
+[2024-04-19 00:44:22] INFO root fetch - processPackages [tensorkrowch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorkrowch-1.1.0.tar.gz tmp/tensorkrowch-1.1.1.tar.gz --markdown 20240419/t/tensorkrowch/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-19 00:44:22] INFO root fetch - processPackages [polyhedral-gravity]: executing diffoscope
+[2024-04-19 00:44:22] INFO root fetch - processPackages [polyhedral-gravity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyhedral_gravity-2.1.tar.gz tmp/polyhedral_gravity-3.0rc3.tar.gz --markdown 20240419/p/polyhedral-gravity/2.1-3.0rc3/README.md --exclude *.pyd
+[2024-04-19 00:44:23] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.0.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - processPackages [tensorkrowch]: Remove: archive file [/home/abi/fetcher/tmp/tensorkrowch-1.1.1.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - main [MainThread]: End processing [tensorkrowch]: success
+[2024-04-19 00:44:23] INFO root fetch - processPackages [polyhedral-gravity]: Remove: archive file [/home/abi/fetcher/tmp/polyhedral_gravity-2.1.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/TXM_Sandbox-0.2.5.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - processPackages [polyhedral-gravity]: Remove: archive file [/home/abi/fetcher/tmp/polyhedral_gravity-3.0rc3.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.tar.gz]
+[2024-04-19 00:44:23] INFO root fetch - main [MainThread]: End processing [polyhedral-gravity]: success
+[2024-04-19 00:44:23] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-04-19 00:44:23] INFO root fetch - main [MainThread]: Store serial: [22832975]
