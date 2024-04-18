@@ -634,3 +634,15 @@
 [2024-04-19 00:35:43] INFO root fetch - processPackages [deepCR]: Remove: archive file [/home/abi/fetcher/tmp/deepCR-0.3.1.tar.gz]
 [2024-04-19 00:35:43] INFO root fetch - main [MainThread]: End processing [deepCR]: success
 [2024-04-19 00:35:43] INFO root fetch - main [MainThread]: Store serial: [22832918]
+[2024-04-19 00:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832918]
+[2024-04-19 00:37:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 00:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai
+[2024-04-19 00:37:51] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-19 00:37:52] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-19 00:37:52] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-19 00:37:52] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-19 00:37:52] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240419/o/openai/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-19 00:37:53] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-19 00:37:53] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-19 00:37:53] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-19 00:37:53] INFO root fetch - main [MainThread]: Store serial: [22832922]
