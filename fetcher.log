@@ -1085,3 +1085,33 @@
 [2024-04-19 01:10:27] INFO root fetch - processPackages [radgraph]: Remove: archive file [/home/abi/fetcher/tmp/radgraph-0.1.1.tar.gz]
 [2024-04-19 01:10:27] INFO root fetch - main [MainThread]: End processing [radgraph]: success
 [2024-04-19 01:10:27] INFO root fetch - main [MainThread]: Store serial: [22833118]
+[2024-04-19 01:12:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833118]
+[2024-04-19 01:12:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Seq2SeqSharp
+[2024-04-19 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kafka-overwatch
+[2024-04-19 01:12:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umk
+[2024-04-19 01:12:35] INFO root fetch - processPackages [umk]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-19 01:12:35] INFO root fetch - processPackages [Seq2SeqSharp]: New version: [2.8.9] Old Version: [2.8.10]
+[2024-04-19 01:12:35] INFO root fetch - processPackages [umk]: Downloading https://files.pythonhosted.org/packages/06/79/7be6606345f6e0b3cbe9583d061f2107a6e332926e5ea29b54e63e3c2706/umk-0.0.3.tar.gz
+[2024-04-19 01:12:35] INFO root fetch - processPackages [kafka-overwatch]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-19 01:12:35] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/42/b8/b248c815a2cd125797081ab088a764918487eb0461adb356b7f37d3f00f6/Seq2SeqSharp-2.8.10.tar.gz
+[2024-04-19 01:12:35] INFO root fetch - processPackages [umk]: Downloading https://files.pythonhosted.org/packages/0a/50/596dd5525af021274805ea8fb9959266763cdb0cb3b37e278b89abbbe48f/umk-0.1.0.tar.gz
+[2024-04-19 01:12:36] INFO root fetch - processPackages [kafka-overwatch]: Downloading https://files.pythonhosted.org/packages/8e/4d/90aa32217346ed97f42511dfde1c583fa368bab9b1b4333ae14fb50da625/kafka_overwatch-0.2.0.tar.gz
+[2024-04-19 01:12:36] INFO root fetch - processPackages [umk]: executing diffoscope
+[2024-04-19 01:12:36] INFO root fetch - processPackages [umk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umk-0.0.3.tar.gz tmp/umk-0.1.0.tar.gz --markdown 20240419/u/umk/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-19 01:12:36] INFO root fetch - processPackages [Seq2SeqSharp]: Downloading https://files.pythonhosted.org/packages/64/f6/b7c78b4370680a2676535195dab8c907806540f58adefd91acb3f27b9051/Seq2SeqSharp-2.8.9-py3-none-any.whl
+[2024-04-19 01:12:36] INFO root fetch - processPackages [kafka-overwatch]: Downloading https://files.pythonhosted.org/packages/c2/16/ee33ca4404c6d7f3ccfc45904dddb55f51eddd68cb1b077caaf7e9c4a6b9/kafka_overwatch-0.3.0.tar.gz
+[2024-04-19 01:12:36] INFO root fetch - processPackages [kafka-overwatch]: executing diffoscope
+[2024-04-19 01:12:36] INFO root fetch - processPackages [kafka-overwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafka_overwatch-0.2.0.tar.gz tmp/kafka_overwatch-0.3.0.tar.gz --markdown 20240419/k/kafka-overwatch/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-19 01:12:36] INFO root fetch - processPackages [umk]: Remove: archive file [/home/abi/fetcher/tmp/umk-0.0.3.tar.gz]
+[2024-04-19 01:12:36] INFO root fetch - processPackages [umk]: Remove: archive file [/home/abi/fetcher/tmp/umk-0.1.0.tar.gz]
+[2024-04-19 01:12:36] INFO root fetch - main [MainThread]: End processing [umk]: success
+[2024-04-19 01:12:36] INFO root fetch - processPackages [Seq2SeqSharp]: executing diffoscope
+[2024-04-19 01:12:36] INFO root fetch - processPackages [Seq2SeqSharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Seq2SeqSharp-2.8.10.tar.gz tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip --markdown 20240419/S/Seq2SeqSharp/2.8.10-2.8.9/README.md --exclude *.pyd
+[2024-04-19 01:12:37] INFO root fetch - processPackages [kafka-overwatch]: Remove: archive file [/home/abi/fetcher/tmp/kafka_overwatch-0.2.0.tar.gz]
+[2024-04-19 01:12:37] INFO root fetch - processPackages [kafka-overwatch]: Remove: archive file [/home/abi/fetcher/tmp/kafka_overwatch-0.3.0.tar.gz]
+[2024-04-19 01:12:37] INFO root fetch - main [MainThread]: End processing [kafka-overwatch]: success
+[2024-04-19 01:12:37] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.10.tar.gz]
+[2024-04-19 01:12:37] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip]
+[2024-04-19 01:12:37] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
+[2024-04-19 01:12:37] INFO root fetch - main [MainThread]: Store serial: [22833127]
