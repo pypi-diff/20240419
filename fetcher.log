@@ -716,3 +716,15 @@
 [2024-04-19 00:44:23] INFO root fetch - main [MainThread]: End processing [polyhedral-gravity]: success
 [2024-04-19 00:44:23] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
 [2024-04-19 00:44:23] INFO root fetch - main [MainThread]: Store serial: [22832975]
+[2024-04-19 00:46:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832975]
+[2024-04-19 00:46:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 00:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-ts
+[2024-04-19 00:46:32] INFO root fetch - processPackages [polars-ts]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 00:46:32] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/1d/5d/29d446646340574061f09a33c628fc0e28e93cc514bf0d4d16b25ba980be/polars_ts-0.0.5.tar.gz
+[2024-04-19 00:46:32] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/db/c5/e3f0b05a1d97ffe183ed2d73e62859ecb7e58a73388781585399f14b2c84/polars_ts-0.0.6.tar.gz
+[2024-04-19 00:46:32] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-19 00:46:32] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.5.tar.gz tmp/polars_ts-0.0.6.tar.gz --markdown 20240419/p/polars-ts/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 00:46:33] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.5.tar.gz]
+[2024-04-19 00:46:33] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.6.tar.gz]
+[2024-04-19 00:46:33] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-19 00:46:33] INFO root fetch - main [MainThread]: Store serial: [22832982]
