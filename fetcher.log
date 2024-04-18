@@ -446,3 +446,24 @@
 [2024-04-19 00:22:23] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-19 00:22:23] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
 [2024-04-19 00:22:23] INFO root fetch - main [MainThread]: Store serial: [22832842]
+[2024-04-19 00:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832842]
+[2024-04-19 00:24:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 00:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: benchling-api-client
+[2024-04-19 00:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective-folderprotection
+[2024-04-19 00:24:32] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-19 00:24:32] INFO root fetch - processPackages [collective-folderprotection]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-19 00:24:32] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2024-04-19 00:24:32] INFO root fetch - processPackages [collective-folderprotection]: Downloading https://files.pythonhosted.org/packages/ef/a1/a9e7d101842c0c2d0689241fbf4696ade47852c6bdf176dbc5ec884f5b3d/collective_folderprotection-2.4.2.tar.gz
+[2024-04-19 00:24:32] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2024-04-19 00:24:32] INFO root fetch - processPackages [collective-folderprotection]: Downloading https://files.pythonhosted.org/packages/72/c8/24930860600736e26425c93b21e2737c1fac674084dfbc8fd854b4893e2a/collective_folderprotection-2.4.3.tar.gz
+[2024-04-19 00:24:32] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2024-04-19 00:24:32] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20240419/b/benchling-api-client/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-19 00:24:32] INFO root fetch - processPackages [collective-folderprotection]: executing diffoscope
+[2024-04-19 00:24:32] INFO root fetch - processPackages [collective-folderprotection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective_folderprotection-2.4.2.tar.gz tmp/collective_folderprotection-2.4.3.tar.gz --markdown 20240419/c/collective-folderprotection/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-04-19 00:24:33] INFO root fetch - processPackages [collective-folderprotection]: Remove: archive file [/home/abi/fetcher/tmp/collective_folderprotection-2.4.2.tar.gz]
+[2024-04-19 00:24:33] INFO root fetch - processPackages [collective-folderprotection]: Remove: archive file [/home/abi/fetcher/tmp/collective_folderprotection-2.4.3.tar.gz]
+[2024-04-19 00:24:33] INFO root fetch - main [MainThread]: End processing [collective-folderprotection]: success
+[2024-04-19 00:24:51] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2024-04-19 00:24:51] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2024-04-19 00:24:51] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2024-04-19 00:24:51] INFO root fetch - main [MainThread]: Store serial: [22832848]
