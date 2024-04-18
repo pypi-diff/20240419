@@ -1359,3 +1359,47 @@
 [2024-04-19 01:23:30] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
 [2024-04-19 01:23:30] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
 [2024-04-19 01:23:30] INFO root fetch - main [MainThread]: Store serial: [22833228]
+[2024-04-19 01:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833228]
+[2024-04-19 01:25:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plone.exportimport
+[2024-04-19 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygerber
+[2024-04-19 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcicutils
+[2024-04-19 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-intel
+[2024-04-19 01:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ibl-neuropixel
+[2024-04-19 01:25:39] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b9] Old Version: [8.8.3.1b8]
+[2024-04-19 01:25:39] INFO root fetch - processPackages [pygerber]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-19 01:25:39] INFO root fetch - processPackages [plone.exportimport]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-04-19 01:25:39] INFO root fetch - processPackages [ibl-neuropixel]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-19 01:25:39] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240418] Old Version: [2.17.0.dev20240417]
+[2024-04-19 01:25:39] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/64/7d/ffa1c279b5b62fc627a0e3589da6df6e14a4bbefc16b4773556e674f8cb0/pygerber-2.3.0.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [plone.exportimport]: Downloading https://files.pythonhosted.org/packages/9b/53/a1b86bd31fa6c65de7a95c92e8bb8ad1f592d22a2a84ac0026a67611cdd1/plone.exportimport-1.0.0a1.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/99/52/247db6e5194f9d5bdd8e43e07e80d3a3a45568f2d20157094b6751663744/ibl-neuropixel-0.9.1.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b0/95/6db1d9193aaea7ab397457bf7e746f08cfefd565b4982b943b44ba844a74/dcicutils-8.8.3.1b9.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/c1/7f/cbbb59cf63b357a3e75a292191983a0ac286a5ab1d1de8e404bb70c8db48/tf_nightly_intel-2.17.0.dev20240417-cp39-cp39-win_amd64.whl
+[2024-04-19 01:25:39] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 211014716>=10485760
+[2024-04-19 01:25:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-19 01:25:39] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-19 01:25:39] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b8.tar.gz tmp/dcicutils-8.8.3.1b9.tar.gz --markdown 20240419/d/dcicutils/8.8.3.1b8-8.8.3.1b9/README.md --exclude *.pyd
+[2024-04-19 01:25:39] INFO root fetch - processPackages [plone.exportimport]: Downloading https://files.pythonhosted.org/packages/61/5e/6f261a75bee81becbe155e618ed7448a7dade0385902adf87441cbf0f7e6/plone.exportimport-1.0.0a2.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [pygerber]: Downloading https://files.pythonhosted.org/packages/6a/3e/d99c78577e2c965a6f30ba2e0e27ce3b7294f328e0cbecd293b4616a8cbe/pygerber-2.3.1.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [ibl-neuropixel]: Downloading https://files.pythonhosted.org/packages/b4/87/63621fc5b639a32b8162281ccbaadd67e88b61be90a069619f6e7971d44e/ibl-neuropixel-0.9.2.tar.gz
+[2024-04-19 01:25:39] INFO root fetch - processPackages [plone.exportimport]: executing diffoscope
+[2024-04-19 01:25:39] INFO root fetch - processPackages [plone.exportimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.exportimport-1.0.0a1.tar.gz tmp/plone.exportimport-1.0.0a2.tar.gz --markdown 20240419/p/plone.exportimport/1.0.0a1-1.0.0a2/README.md --exclude *.pyd
+[2024-04-19 01:25:39] INFO root fetch - processPackages [pygerber]: executing diffoscope
+[2024-04-19 01:25:39] INFO root fetch - processPackages [pygerber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygerber-2.3.0.tar.gz tmp/pygerber-2.3.1.tar.gz --markdown 20240419/p/pygerber/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-04-19 01:25:40] INFO root fetch - processPackages [ibl-neuropixel]: executing diffoscope
+[2024-04-19 01:25:40] INFO root fetch - processPackages [ibl-neuropixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibl-neuropixel-0.9.1.tar.gz tmp/ibl-neuropixel-0.9.2.tar.gz --markdown 20240419/i/ibl-neuropixel/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-19 01:25:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-19 01:25:40] INFO root fetch - processPackages [ibl-neuropixel]: Remove: archive file [/home/abi/fetcher/tmp/ibl-neuropixel-0.9.1.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - processPackages [ibl-neuropixel]: Remove: archive file [/home/abi/fetcher/tmp/ibl-neuropixel-0.9.2.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - main [MainThread]: End processing [ibl-neuropixel]: success
+[2024-04-19 01:25:40] INFO root fetch - processPackages [plone.exportimport]: Remove: archive file [/home/abi/fetcher/tmp/plone.exportimport-1.0.0a1.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - processPackages [plone.exportimport]: Remove: archive file [/home/abi/fetcher/tmp/plone.exportimport-1.0.0a2.tar.gz]
+[2024-04-19 01:25:40] INFO root fetch - main [MainThread]: End processing [plone.exportimport]: success
+[2024-04-19 01:25:41] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.0.tar.gz]
+[2024-04-19 01:25:41] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.1.tar.gz]
+[2024-04-19 01:25:41] INFO root fetch - main [MainThread]: End processing [pygerber]: success
+[2024-04-19 01:25:41] INFO root fetch - main [MainThread]: Store serial: [22833246]
