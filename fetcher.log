@@ -1820,3 +1820,27 @@
 [2024-04-19 01:49:42] INFO root fetch - processPackages [nero]: Remove: archive file [/home/abi/fetcher/tmp/nero-19.3b6.tar.gz]
 [2024-04-19 01:49:42] INFO root fetch - main [MainThread]: End processing [nero]: success
 [2024-04-19 01:49:42] INFO root fetch - main [MainThread]: Store serial: [22833466]
+[2024-04-19 01:51:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833466]
+[2024-04-19 01:51:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylammpsmpi
+[2024-04-19 01:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sagemaker-jupyterlab-extension
+[2024-04-19 01:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fvm_nerfed
+[2024-04-19 01:51:51] WARNING root fetch - processPackages [fvm_nerfed]: Skipping, unable to determine old version
+[2024-04-19 01:51:51] INFO root fetch - main [MainThread]: End processing [fvm_nerfed] error
+[2024-04-19 01:51:51] INFO root fetch - processPackages [pylammpsmpi]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 01:51:51] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 01:51:51] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/3d/e1/8075f2c0ba0ac848bdd26b49c2964368426ed53d5b1a5a98f39b1392f3b8/sagemaker-jupyterlab-extension-0.3.1.tar.gz
+[2024-04-19 01:51:51] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/6b/d8/048364c4269c319b2ce84829a0a33e223ee7913c87d337e6ca7869cefbdf/pylammpsmpi-0.2.8.tar.gz
+[2024-04-19 01:51:51] INFO root fetch - processPackages [pylammpsmpi]: Downloading https://files.pythonhosted.org/packages/f0/45/6333dbb3fcfbe5d5b3882949362b75013c948ca67ce73a6694f716845d50/pylammpsmpi-0.2.9.tar.gz
+[2024-04-19 01:51:51] INFO root fetch - processPackages [pylammpsmpi]: executing diffoscope
+[2024-04-19 01:51:51] INFO root fetch - processPackages [pylammpsmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylammpsmpi-0.2.8.tar.gz tmp/pylammpsmpi-0.2.9.tar.gz --markdown 20240419/p/pylammpsmpi/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 01:51:52] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/87/40/07b21a35f52b69de113fdef829b6e22b17fbe5ad8c678c5d4b675033c695/sagemaker_jupyterlab_extension-0.3.2.tar.gz
+[2024-04-19 01:51:52] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.8.tar.gz]
+[2024-04-19 01:51:52] INFO root fetch - processPackages [pylammpsmpi]: Remove: archive file [/home/abi/fetcher/tmp/pylammpsmpi-0.2.9.tar.gz]
+[2024-04-19 01:51:52] INFO root fetch - main [MainThread]: End processing [pylammpsmpi]: success
+[2024-04-19 01:51:52] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: executing diffoscope
+[2024-04-19 01:51:52] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-jupyterlab-extension-0.3.1.tar.gz tmp/sagemaker_jupyterlab_extension-0.3.2.tar.gz --markdown 20240419/s/sagemaker-jupyterlab-extension/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-19 01:52:05] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-jupyterlab-extension-0.3.1.tar.gz]
+[2024-04-19 01:52:05] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker_jupyterlab_extension-0.3.2.tar.gz]
+[2024-04-19 01:52:05] INFO root fetch - main [MainThread]: End processing [sagemaker-jupyterlab-extension]: success
+[2024-04-19 01:52:05] INFO root fetch - main [MainThread]: Store serial: [22833478]
