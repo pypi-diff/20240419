@@ -88,3 +88,36 @@
 [2024-04-19 00:04:45] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.41.0.tar.gz]
 [2024-04-19 00:04:45] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-04-19 00:04:45] INFO root fetch - main [MainThread]: Store serial: [22832740]
+[2024-04-19 00:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832740]
+[2024-04-19 00:06:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ziptimezone
+[2024-04-19 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezrest
+[2024-04-19 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enkacard
+[2024-04-19 00:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendril-apiserver-core
+[2024-04-19 00:06:54] INFO root fetch - processPackages [ziptimezone]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 00:06:54] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/1d/74/89d4725f319fb14638b49a59436d84297c8183064afc5da7707bdd9754c8/ziptimezone-0.1.7.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [tendril-apiserver-core]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-19 00:06:54] INFO root fetch - processPackages [enkacard]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-19 00:06:54] WARNING root fetch - processPackages [ezrest]: Skipping, unable to determine old version
+[2024-04-19 00:06:54] INFO root fetch - main [MainThread]: End processing [ezrest] error
+[2024-04-19 00:06:54] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/ec/2f/0849274f38bcb68bd5a907d6f8e0e215938bf7c159ec158676cecf4b8e0e/enkacard-3.3.1.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [tendril-apiserver-core]: Downloading https://files.pythonhosted.org/packages/17/61/ddb477e2fee4324384d34eea4a1c5b1b5b9e44ccd26f05bf72293029a94c/tendril-apiserver-core-0.3.3.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/1c/cb/19c76721770e4f7d367aaced6aba6206ff3f9fcf36572cad7f05b27a78d6/ziptimezone-0.1.8.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-04-19 00:06:54] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-0.1.7.tar.gz tmp/ziptimezone-0.1.8.tar.gz --markdown 20240419/z/ziptimezone/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 00:06:54] INFO root fetch - processPackages [tendril-apiserver-core]: Downloading https://files.pythonhosted.org/packages/0b/f6/a9157feef83ff20168c0130053a9a78ccb2a745b40d1d41dbb4412b5ebe9/tendril_apiserver_core-0.3.4.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/49/35/82b90ae031e13e686195455a4ae2d3637c0ddb743dc73785071444772999/enkacard-3.3.2.tar.gz
+[2024-04-19 00:06:54] INFO root fetch - processPackages [tendril-apiserver-core]: executing diffoscope
+[2024-04-19 00:06:54] INFO root fetch - processPackages [tendril-apiserver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-apiserver-core-0.3.3.tar.gz tmp/tendril_apiserver_core-0.3.4.tar.gz --markdown 20240419/t/tendril-apiserver-core/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-04-19 00:06:54] INFO root fetch - processPackages [enkacard]: executing diffoscope
+[2024-04-19 00:06:54] INFO root fetch - processPackages [enkacard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkacard-3.3.1.tar.gz tmp/enkacard-3.3.2.tar.gz --markdown 20240419/e/enkacard/3.3.1-3.3.2/README.md --exclude *.pyd
+[2024-04-19 00:06:55] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-0.1.7.tar.gz]
+[2024-04-19 00:06:55] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-0.1.8.tar.gz]
+[2024-04-19 00:06:55] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-04-19 00:06:55] INFO root fetch - processPackages [tendril-apiserver-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril-apiserver-core-0.3.3.tar.gz]
+[2024-04-19 00:06:55] INFO root fetch - processPackages [tendril-apiserver-core]: Remove: archive file [/home/abi/fetcher/tmp/tendril_apiserver_core-0.3.4.tar.gz]
+[2024-04-19 00:06:55] INFO root fetch - main [MainThread]: End processing [tendril-apiserver-core]: success
+[2024-04-19 00:06:56] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.1.tar.gz]
+[2024-04-19 00:06:56] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.2.tar.gz]
+[2024-04-19 00:06:56] INFO root fetch - main [MainThread]: End processing [enkacard]: success
+[2024-04-19 00:06:56] INFO root fetch - main [MainThread]: Store serial: [22832753]
