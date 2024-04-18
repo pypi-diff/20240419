@@ -1115,3 +1115,35 @@
 [2024-04-19 01:12:37] INFO root fetch - processPackages [Seq2SeqSharp]: Remove: archive file [/home/abi/fetcher/tmp/Seq2SeqSharp-2.8.9-py3-none-any.whl.zip]
 [2024-04-19 01:12:37] INFO root fetch - main [MainThread]: End processing [Seq2SeqSharp]: success
 [2024-04-19 01:12:37] INFO root fetch - main [MainThread]: Store serial: [22833127]
+[2024-04-19 01:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833127]
+[2024-04-19 01:14:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 01:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-ibm-watson
+[2024-04-19 01:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-ibm-watsonai
+[2024-04-19 01:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rssbot
+[2024-04-19 01:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-cert-manager
+[2024-04-19 01:14:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-handyhelpers
+[2024-04-19 01:14:46] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: New version: [0.0.7a1713477261] Old Version: [0.0.5]
+[2024-04-19 01:14:46] INFO root fetch - processPackages [rssbot]: New version: [552] Old Version: [551]
+[2024-04-19 01:14:46] WARNING root fetch - processPackages [langchain-ibm-watson]: Skipping, unable to determine old version
+[2024-04-19 01:14:46] INFO root fetch - main [MainThread]: End processing [langchain-ibm-watson] error
+[2024-04-19 01:14:46] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/b6/f1/d57c3c2e14c629328d096ac7cffd53a20349d76cfff6081bbd10aa3a12b0/pulumi_kubernetes_cert_manager-0.0.5.tar.gz
+[2024-04-19 01:14:46] WARNING root fetch - processPackages [langchain-ibm-watsonai]: Skipping, unable to determine old version
+[2024-04-19 01:14:46] INFO root fetch - main [MainThread]: End processing [langchain-ibm-watsonai] error
+[2024-04-19 01:14:46] INFO root fetch - processPackages [django-handyhelpers]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-19 01:14:46] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/d1/cb/d7282fb3251d2a8fc076154e24a0c27969c3796ff3fe51c5be13990e524f/rssbot-551.tar.gz
+[2024-04-19 01:14:46] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/d7/5c/5a47a2f3227dff8ebb4247ca1552f9fbcba13c41135341460a834d048ba3/pulumi_kubernetes_cert_manager-0.0.7a1713477261.tar.gz
+[2024-04-19 01:14:46] INFO root fetch - processPackages [django-handyhelpers]: Downloading https://files.pythonhosted.org/packages/bf/da/bc4be3d5be966eef80290d034a8681a1db3136255c7f997a6c1d70b7aa18/django-handyhelpers-0.3.8.tar.gz
+[2024-04-19 01:14:46] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: executing diffoscope
+[2024-04-19 01:14:46] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_cert_manager-0.0.5.tar.gz tmp/pulumi_kubernetes_cert_manager-0.0.7a1713477261.tar.gz --markdown 20240419/p/pulumi-kubernetes-cert-manager/0.0.5-0.0.7a1713477261/README.md --exclude *.pyd
+[2024-04-19 01:14:46] WARNING root fetch - processPackages [django-handyhelpers]: Skipping package: exceeds size limit 15633971>=10485760
+[2024-04-19 01:14:46] INFO root fetch - main [MainThread]: End processing [django-handyhelpers] error
+[2024-04-19 01:14:46] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/08/2d/9e8316a0fc811ff8f66d51cc7b500446cb249a482ab58d65b19ff923bb0b/rssbot-552.tar.gz
+[2024-04-19 01:14:46] INFO root fetch - processPackages [rssbot]: executing diffoscope
+[2024-04-19 01:14:46] INFO root fetch - processPackages [rssbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssbot-551.tar.gz tmp/rssbot-552.tar.gz --markdown 20240419/r/rssbot/551-552/README.md --exclude *.pyd
+[2024-04-19 01:14:47] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.0.5.tar.gz]
+[2024-04-19 01:14:47] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.0.7a1713477261.tar.gz]
+[2024-04-19 01:14:47] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
+[2024-04-19 01:14:47] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-551.tar.gz]
+[2024-04-19 01:14:47] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-552.tar.gz]
+[2024-04-19 01:14:47] INFO root fetch - main [MainThread]: End processing [rssbot]: success
+[2024-04-19 01:14:47] INFO root fetch - main [MainThread]: Store serial: [22833144]
