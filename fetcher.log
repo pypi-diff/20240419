@@ -770,3 +770,24 @@
 [2024-04-19 00:50:53] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
 [2024-04-19 00:50:53] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
 [2024-04-19 00:50:53] INFO root fetch - main [MainThread]: Store serial: [22832997]
+[2024-04-19 00:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832997]
+[2024-04-19 00:53:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 00:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mpd-what
+[2024-04-19 00:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: citation-rabbot
+[2024-04-19 00:53:02] INFO root fetch - processPackages [mpd-what]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-19 00:53:02] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 00:53:02] INFO root fetch - processPackages [mpd-what]: Downloading https://files.pythonhosted.org/packages/44/e2/3616fd9b59d00fa90cce99bae697b247dbcd418a72cfa87a1c174db994f2/mpd_what-1.0.9.tar.gz
+[2024-04-19 00:53:02] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 00:53:02] INFO root fetch - processPackages [mpd-what]: Downloading https://files.pythonhosted.org/packages/38/39/709df230fe89001b9da70655156e5e2f7fd35a101c4ee28bbaeb90d5397e/mpd_what-1.1.0.tar.gz
+[2024-04-19 00:53:02] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 00:53:02] INFO root fetch - processPackages [mpd-what]: executing diffoscope
+[2024-04-19 00:53:02] INFO root fetch - processPackages [mpd-what]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpd_what-1.0.9.tar.gz tmp/mpd_what-1.1.0.tar.gz --markdown 20240419/m/mpd-what/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-04-19 00:53:03] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 00:53:03] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 00:53:03] INFO root fetch - processPackages [mpd-what]: Remove: archive file [/home/abi/fetcher/tmp/mpd_what-1.0.9.tar.gz]
+[2024-04-19 00:53:03] INFO root fetch - processPackages [mpd-what]: Remove: archive file [/home/abi/fetcher/tmp/mpd_what-1.1.0.tar.gz]
+[2024-04-19 00:53:03] INFO root fetch - main [MainThread]: End processing [mpd-what]: success
+[2024-04-19 00:53:03] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 00:53:03] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 00:53:03] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 00:53:03] INFO root fetch - main [MainThread]: Store serial: [22833002]
