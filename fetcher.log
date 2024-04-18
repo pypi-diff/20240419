@@ -190,3 +190,42 @@
 [2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: Remove: archive file [/home/abi/fetcher/tmp/zetaforge-0.1.2.tar.gz]
 [2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [zetaforge]: success
 [2024-04-19 00:11:16] INFO root fetch - main [MainThread]: Store serial: [22832770]
+[2024-04-19 00:13:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832770]
+[2024-04-19 00:13:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 00:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enkacard
+[2024-04-19 00:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codestarter
+[2024-04-19 00:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netskopesdk
+[2024-04-19 00:13:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alphaz-next
+[2024-04-19 00:13:25] INFO root fetch - processPackages [enkacard]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-19 00:13:25] INFO root fetch - processPackages [alphaz-next]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 00:13:25] INFO root fetch - processPackages [codestarter]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-19 00:13:25] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/d3/74/d2be15fbcbb9bb8102fb1f113703dbe544d97205ff74ba70dc9ebdbc2c79/alphaz-next-0.4.0.tar.gz
+[2024-04-19 00:13:25] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/ec/2f/0849274f38bcb68bd5a907d6f8e0e215938bf7c159ec158676cecf4b8e0e/enkacard-3.3.1.tar.gz
+[2024-04-19 00:13:25] INFO root fetch - processPackages [netskopesdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 00:13:25] INFO root fetch - processPackages [codestarter]: Downloading https://files.pythonhosted.org/packages/d0/62/735e825bde23351f34d470c6613604f9b4ceaa46c87a94b66a27187c853b/codestarter-0.0.0.tar.gz
+[2024-04-19 00:13:25] INFO root fetch - processPackages [netskopesdk]: Downloading https://files.pythonhosted.org/packages/5c/eb/52726d56671d81ec1f683c2a0610799f4b732532fc8e31836a4706d20415/netskopesdk-0.0.8.tar.gz
+[2024-04-19 00:13:26] INFO root fetch - processPackages [alphaz-next]: Downloading https://files.pythonhosted.org/packages/17/c1/387c96738cd7d47101d139806f15a1ed8fb3c312a6b00d2d41b252d8de44/alphaz-next-0.4.1.tar.gz
+[2024-04-19 00:13:26] INFO root fetch - processPackages [alphaz-next]: executing diffoscope
+[2024-04-19 00:13:26] INFO root fetch - processPackages [alphaz-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-next-0.4.0.tar.gz tmp/alphaz-next-0.4.1.tar.gz --markdown 20240419/a/alphaz-next/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 00:13:26] INFO root fetch - processPackages [codestarter]: Downloading https://files.pythonhosted.org/packages/4d/ca/583d64fd9497af49e81446bec85ab9187bd2af37085b62469f298ba13567/codestarter-0.0.1.tar.gz
+[2024-04-19 00:13:26] INFO root fetch - processPackages [enkacard]: Downloading https://files.pythonhosted.org/packages/49/35/82b90ae031e13e686195455a4ae2d3637c0ddb743dc73785071444772999/enkacard-3.3.2.tar.gz
+[2024-04-19 00:13:26] INFO root fetch - processPackages [netskopesdk]: Downloading https://files.pythonhosted.org/packages/7f/17/92bfd8dd0a41f20f7a6859238cc98b7c9bb993edd31d80e12f73633bc684/netskopesdk-0.0.9.tar.gz
+[2024-04-19 00:13:26] INFO root fetch - processPackages [codestarter]: executing diffoscope
+[2024-04-19 00:13:26] INFO root fetch - processPackages [codestarter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codestarter-0.0.0.tar.gz tmp/codestarter-0.0.1.tar.gz --markdown 20240419/c/codestarter/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-19 00:13:26] INFO root fetch - processPackages [netskopesdk]: executing diffoscope
+[2024-04-19 00:13:26] INFO root fetch - processPackages [netskopesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netskopesdk-0.0.8.tar.gz tmp/netskopesdk-0.0.9.tar.gz --markdown 20240419/n/netskopesdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 00:13:26] INFO root fetch - processPackages [enkacard]: executing diffoscope
+[2024-04-19 00:13:26] INFO root fetch - processPackages [enkacard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enkacard-3.3.1.tar.gz tmp/enkacard-3.3.2.tar.gz --markdown 20240419/e/enkacard/3.3.1-3.3.2/README.md --exclude *.pyd
+[2024-04-19 00:13:26] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.0.tar.gz]
+[2024-04-19 00:13:26] INFO root fetch - processPackages [alphaz-next]: Remove: archive file [/home/abi/fetcher/tmp/alphaz-next-0.4.1.tar.gz]
+[2024-04-19 00:13:26] INFO root fetch - main [MainThread]: End processing [alphaz-next]: success
+[2024-04-19 00:13:27] INFO root fetch - processPackages [codestarter]: Remove: archive file [/home/abi/fetcher/tmp/codestarter-0.0.0.tar.gz]
+[2024-04-19 00:13:27] INFO root fetch - processPackages [codestarter]: Remove: archive file [/home/abi/fetcher/tmp/codestarter-0.0.1.tar.gz]
+[2024-04-19 00:13:27] INFO root fetch - main [MainThread]: End processing [codestarter]: success
+[2024-04-19 00:13:27] INFO root fetch - processPackages [netskopesdk]: Remove: archive file [/home/abi/fetcher/tmp/netskopesdk-0.0.8.tar.gz]
+[2024-04-19 00:13:27] INFO root fetch - processPackages [netskopesdk]: Remove: archive file [/home/abi/fetcher/tmp/netskopesdk-0.0.9.tar.gz]
+[2024-04-19 00:13:27] INFO root fetch - main [MainThread]: End processing [netskopesdk]: success
+[2024-04-19 00:13:28] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.1.tar.gz]
+[2024-04-19 00:13:28] INFO root fetch - processPackages [enkacard]: Remove: archive file [/home/abi/fetcher/tmp/enkacard-3.3.2.tar.gz]
+[2024-04-19 00:13:28] INFO root fetch - main [MainThread]: End processing [enkacard]: success
+[2024-04-19 00:13:28] INFO root fetch - main [MainThread]: Store serial: [22832778]
