@@ -646,3 +646,15 @@
 [2024-04-19 00:37:53] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-04-19 00:37:53] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-04-19 00:37:53] INFO root fetch - main [MainThread]: Store serial: [22832922]
+[2024-04-19 00:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832922]
+[2024-04-19 00:40:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 00:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satorisynapse
+[2024-04-19 00:40:01] INFO root fetch - processPackages [satorisynapse]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 00:40:01] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/57/b5/3098269d2201939101e42401e55b78f5d906b3ee9b0abd06c6309b714b7e/satorisynapse-0.0.8.tar.gz
+[2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: Downloading https://files.pythonhosted.org/packages/8b/de/461b8cb08a020ef43c8f76d9ffa4bb451855aa9fdd05c7f91b3e68128833/satorisynapse-0.0.9.tar.gz
+[2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: executing diffoscope
+[2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satorisynapse-0.0.8.tar.gz tmp/satorisynapse-0.0.9.tar.gz --markdown 20240419/s/satorisynapse/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.0.8.tar.gz]
+[2024-04-19 00:40:02] INFO root fetch - processPackages [satorisynapse]: Remove: archive file [/home/abi/fetcher/tmp/satorisynapse-0.0.9.tar.gz]
+[2024-04-19 00:40:02] INFO root fetch - main [MainThread]: End processing [satorisynapse]: success
+[2024-04-19 00:40:02] INFO root fetch - main [MainThread]: Store serial: [22832925]
