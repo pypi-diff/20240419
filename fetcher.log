@@ -1,0 +1,30 @@
+[2024-04-19 00:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832707]
+[2024-04-19 00:01:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bauplan
+[2024-04-19 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: b2aiprep
+[2024-04-19 00:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nyckel
+[2024-04-19 00:01:56] INFO root fetch - processPackages [b2aiprep]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-19 00:01:56] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/a7/69/75783e3edb1f1ae984ed03018dd6cb7e65eaee07dfed0a6a1524a30a40f2/b2aiprep-0.8.1.tar.gz
+[2024-04-19 00:01:56] INFO root fetch - processPackages [nyckel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 00:01:56] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a9] Old Version: [0.0.3a86]
+[2024-04-19 00:01:57] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/27/76/2448df82800ec7ea7dbeca64acba04d1ffe0e8a494c8554fd1a5cb1b9196/nyckel-0.4.0.tar.gz
+[2024-04-19 00:01:57] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/5e/02/7ab1b3032087554136b1e60a2a8c09215fc236a6cde7cfb6ee463d83806e/bauplan-0.0.3a86-py3-none-win_amd64.whl
+[2024-04-19 00:01:57] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/15/26/a272554d70f3b2d49bbcf7b9f9d633806c01bc22f471db8eb5b45b57e385/b2aiprep-0.9.0.tar.gz
+[2024-04-19 00:01:57] INFO root fetch - processPackages [b2aiprep]: executing diffoscope
+[2024-04-19 00:01:57] INFO root fetch - processPackages [b2aiprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2aiprep-0.8.1.tar.gz tmp/b2aiprep-0.9.0.tar.gz --markdown 20240419/b/b2aiprep/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-19 00:01:57] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/f5/e4/127f81a2f23c6e40d267352d475f84d6d17986751162bf7c3f7989464e54/nyckel-0.4.1.tar.gz
+[2024-04-19 00:01:57] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2024-04-19 00:01:57] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.4.0.tar.gz tmp/nyckel-0.4.1.tar.gz --markdown 20240419/n/nyckel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 00:01:58] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.8.1.tar.gz]
+[2024-04-19 00:01:58] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.9.0.tar.gz]
+[2024-04-19 00:01:58] INFO root fetch - main [MainThread]: End processing [b2aiprep]: success
+[2024-04-19 00:01:58] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.4.0.tar.gz]
+[2024-04-19 00:01:58] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.4.1.tar.gz]
+[2024-04-19 00:01:58] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2024-04-19 00:01:58] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/15/cb/726ad7134b75bc6cab5597ce06747430b4320f9b764bbfd50c6ddf62a15b/bauplan-0.0.3a9.tar.gz
+[2024-04-19 00:02:00] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-04-19 00:02:00] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a86-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a9.tar.gz --markdown 20240419/b/bauplan/0.0.3a86-0.0.3a9/README.md --exclude *.pyd
+[2024-04-19 00:02:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a86-py3-none-win_amd64.whl.zip]
+[2024-04-19 00:02:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a9.tar.gz]
+[2024-04-19 00:02:10] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-04-19 00:02:10] INFO root fetch - main [MainThread]: Store serial: [22832721]
