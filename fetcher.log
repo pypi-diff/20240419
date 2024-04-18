@@ -1403,3 +1403,32 @@
 [2024-04-19 01:25:41] INFO root fetch - processPackages [pygerber]: Remove: archive file [/home/abi/fetcher/tmp/pygerber-2.3.1.tar.gz]
 [2024-04-19 01:25:41] INFO root fetch - main [MainThread]: End processing [pygerber]: success
 [2024-04-19 01:25:41] INFO root fetch - main [MainThread]: Store serial: [22833246]
+[2024-04-19 01:27:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833246]
+[2024-04-19 01:27:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-19 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-salesforce
+[2024-04-19 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-stripe
+[2024-04-19 01:27:49] INFO root fetch - processPackages [airbyte-source-stripe]: New version: [5.3.4] Old Version: [5.3.3.dev202404112006]
+[2024-04-19 01:27:49] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-04-19 01:27:49] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-19 01:27:49] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/dd/cd/6653281468f9e1099aa9da1e519f3c1da0e17978484fe42887a1bb92ac51/airbyte_source_salesforce-2.5.3.tar.gz
+[2024-04-19 01:27:49] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-19 01:27:49] INFO root fetch - processPackages [airbyte-source-stripe]: Downloading https://files.pythonhosted.org/packages/16/63/9dd940f2d22cfd47f84b4e4474797740e172cb5e8585f463db31ee513257/airbyte_source_stripe-5.3.4.tar.gz
+[2024-04-19 01:27:49] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-19 01:27:49] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/35/13/6a8c5f6c92d03d206e803cb6697508125e9af78cf37477899789301a1e95/airbyte_source_salesforce-2.5.4.tar.gz
+[2024-04-19 01:27:49] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-19 01:27:49] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240419/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-stripe]: executing diffoscope
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_stripe-5.3.3.dev202404112006.tar.gz tmp/airbyte_source_stripe-5.3.4.tar.gz --markdown 20240419/a/airbyte-source-stripe/5.3.3.dev202404112006-5.3.4/README.md --exclude *.pyd
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-salesforce]: executing diffoscope
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-salesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_salesforce-2.5.3.tar.gz tmp/airbyte_source_salesforce-2.5.4.tar.gz --markdown 20240419/a/airbyte-source-salesforce/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.3.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-salesforce]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_salesforce-2.5.4.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce]: success
+[2024-04-19 01:27:50] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.3.dev202404112006.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.4.tar.gz]
+[2024-04-19 01:27:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe]: success
+[2024-04-19 01:27:50] INFO root fetch - main [MainThread]: Store serial: [22833262]
