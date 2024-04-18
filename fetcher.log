@@ -142,3 +142,51 @@
 [2024-04-19 00:09:06] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_neo4jvector-0.1.4.tar.gz]
 [2024-04-19 00:09:06] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-neo4jvector]: success
 [2024-04-19 00:09:06] INFO root fetch - main [MainThread]: Store serial: [22832756]
+[2024-04-19 00:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832756]
+[2024-04-19 00:11:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-vector-stores-neo4jvector
+[2024-04-19 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-duplo
+[2024-04-19 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zetaforge
+[2024-04-19 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reflex-audio-capture
+[2024-04-19 00:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sitepy
+[2024-04-19 00:11:15] INFO root fetch - processPackages [sitepy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-19 00:11:15] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 00:11:15] INFO root fetch - processPackages [scikit-duplo]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 00:11:15] INFO root fetch - processPackages [sitepy]: Downloading https://files.pythonhosted.org/packages/60/63/eaca5220dde37961cda1a92317356cb43489658088c0fcf58a71034983be/sitepy-0.1.0.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [zetaforge]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 00:11:15] INFO root fetch - processPackages [reflex-audio-capture]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 00:11:15] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/d0/0a/f993bcbb0a7d2ad97e32b8540d69bae260e38fd0403796f07185f3a71c0a/scikit-duplo-0.1.7.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: Downloading https://files.pythonhosted.org/packages/c6/c2/cff055fd61f088db72c5c49bee2405b493bcfb29f7963019dba90cde655b/llama_index_vector_stores_neo4jvector-0.1.3.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [zetaforge]: Downloading https://files.pythonhosted.org/packages/63/2b/3627234a5dc910590f779da3109924c841dc6587ff05df9ecd972b179d51/zetaforge-0.1.1.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [scikit-duplo]: Downloading https://files.pythonhosted.org/packages/1d/33/73550a7d1e71fd6afced4de2c169c6073118916da2451759f65e86b0b8b0/scikit-duplo-0.1.8.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: Downloading https://files.pythonhosted.org/packages/ca/01/24603f98db9b3632674e3e4d6d7d4589b2fe52f1bf3be46ca726a5012d62/llama_index_vector_stores_neo4jvector-0.1.4.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [reflex-audio-capture]: Downloading https://files.pythonhosted.org/packages/d3/04/8d1cc35ed7a69da1d760ba73d6465ca5f04a19dae52d0cb091dbc486b8f9/reflex-audio-capture-0.0.1.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [sitepy]: Downloading https://files.pythonhosted.org/packages/5f/61/8b6a20a4110dec620bb87ad6c886f84739d57491b2a78fb2f4694f20ca10/sitepy-0.2.0.tar.gz
+[2024-04-19 00:11:15] INFO root fetch - processPackages [scikit-duplo]: executing diffoscope
+[2024-04-19 00:11:15] INFO root fetch - processPackages [scikit-duplo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-duplo-0.1.7.tar.gz tmp/scikit-duplo-0.1.8.tar.gz --markdown 20240419/s/scikit-duplo/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 00:11:15] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: executing diffoscope
+[2024-04-19 00:11:15] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_neo4jvector-0.1.3.tar.gz tmp/llama_index_vector_stores_neo4jvector-0.1.4.tar.gz --markdown 20240419/l/llama-index-vector-stores-neo4jvector/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 00:11:15] INFO root fetch - processPackages [sitepy]: executing diffoscope
+[2024-04-19 00:11:15] INFO root fetch - processPackages [sitepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitepy-0.1.0.tar.gz tmp/sitepy-0.2.0.tar.gz --markdown 20240419/s/sitepy/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-19 00:11:16] INFO root fetch - processPackages [reflex-audio-capture]: Downloading https://files.pythonhosted.org/packages/16/cc/37f6e62a18099ac68e0ea732ccb6dd5d748953e15e3a10fefbeee621392e/reflex_audio_capture-0.0.2.tar.gz
+[2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: Downloading https://files.pythonhosted.org/packages/b3/17/d08a52e4a7829d6f70c923938056b9302d0c3e1832f8f4817eee65ff7cd5/zetaforge-0.1.2.tar.gz
+[2024-04-19 00:11:16] INFO root fetch - processPackages [reflex-audio-capture]: executing diffoscope
+[2024-04-19 00:11:16] INFO root fetch - processPackages [reflex-audio-capture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-audio-capture-0.0.1.tar.gz tmp/reflex_audio_capture-0.0.2.tar.gz --markdown 20240419/r/reflex-audio-capture/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: executing diffoscope
+[2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetaforge-0.1.1.tar.gz tmp/zetaforge-0.1.2.tar.gz --markdown 20240419/z/zetaforge/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 00:11:16] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_neo4jvector-0.1.3.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - processPackages [llama-index-vector-stores-neo4jvector]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_neo4jvector-0.1.4.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-neo4jvector]: success
+[2024-04-19 00:11:16] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.7.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - processPackages [scikit-duplo]: Remove: archive file [/home/abi/fetcher/tmp/scikit-duplo-0.1.8.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [scikit-duplo]: success
+[2024-04-19 00:11:16] INFO root fetch - processPackages [sitepy]: Remove: archive file [/home/abi/fetcher/tmp/sitepy-0.1.0.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - processPackages [sitepy]: Remove: archive file [/home/abi/fetcher/tmp/sitepy-0.2.0.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [sitepy]: success
+[2024-04-19 00:11:16] INFO root fetch - processPackages [reflex-audio-capture]: Remove: archive file [/home/abi/fetcher/tmp/reflex-audio-capture-0.0.1.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - processPackages [reflex-audio-capture]: Remove: archive file [/home/abi/fetcher/tmp/reflex_audio_capture-0.0.2.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [reflex-audio-capture]: success
+[2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: Remove: archive file [/home/abi/fetcher/tmp/zetaforge-0.1.1.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - processPackages [zetaforge]: Remove: archive file [/home/abi/fetcher/tmp/zetaforge-0.1.2.tar.gz]
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: End processing [zetaforge]: success
+[2024-04-19 00:11:16] INFO root fetch - main [MainThread]: Store serial: [22832770]
