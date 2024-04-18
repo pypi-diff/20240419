@@ -1147,3 +1147,66 @@
 [2024-04-19 01:14:47] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-552.tar.gz]
 [2024-04-19 01:14:47] INFO root fetch - main [MainThread]: End processing [rssbot]: success
 [2024-04-19 01:14:47] INFO root fetch - main [MainThread]: Store serial: [22833144]
+[2024-04-19 01:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833144]
+[2024-04-19 01:16:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrhubarb
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-action-item
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-rabbot
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2024-04-19 01:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langchain-ibm-watsonxai
+[2024-04-19 01:16:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 01:16:56] WARNING root fetch - processPackages [pyrhubarb]: Skipping, unable to determine old version
+[2024-04-19 01:16:56] INFO root fetch - main [MainThread]: End processing [pyrhubarb] error
+[2024-04-19 01:16:56] WARNING root fetch - processPackages [langchain-ibm-watsonxai]: Skipping, unable to determine old version
+[2024-04-19 01:16:56] INFO root fetch - main [MainThread]: End processing [langchain-ibm-watsonxai] error
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [edc-action-item]: New version: [0.3.9] Old Version: [0.3.89]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/68/70/6ff792cf45cbe436e819eff671a7d9243ee578513ebe79d6f5f2fcc28531/edc_action_item-0.3.89.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 01:16:56] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [edc-action-item]: Downloading https://files.pythonhosted.org/packages/1f/74/a25a0c0516fcd227b7ff92f76a6964b274c5434b3f53ee629dbdb634e005/edc_action_item-0.3.9-py3-none-any.whl
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240419/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 01:16:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 01:16:56] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 01:16:56] INFO root fetch - processPackages [edc-action-item]: executing diffoscope
+[2024-04-19 01:16:56] INFO root fetch - processPackages [edc-action-item]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_action_item-0.3.89.tar.gz tmp/edc_action_item-0.3.9-py3-none-any.whl.zip --markdown 20240419/e/edc-action-item/0.3.89-0.3.9/README.md --exclude *.pyd
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-19 01:16:56] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240419/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-19 01:16:57] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-19 01:16:57] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 01:16:57] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 01:16:57] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 01:16:57] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-19 01:16:57] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240419/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-19 01:16:57] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.89.tar.gz]
+[2024-04-19 01:16:57] INFO root fetch - processPackages [edc-action-item]: Remove: archive file [/home/abi/fetcher/tmp/edc_action_item-0.3.9-py3-none-any.whl.zip]
+[2024-04-19 01:16:57] INFO root fetch - main [MainThread]: End processing [edc-action-item]: success
+[2024-04-19 01:16:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-19 01:16:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-19 01:16:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-19 01:16:58] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-19 01:16:58] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-19 01:16:58] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-19 01:16:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-19 01:16:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-19 01:16:59] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-19 01:16:59] INFO root fetch - main [MainThread]: Store serial: [22833172]
