@@ -334,3 +334,51 @@
 [2024-04-19 00:18:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.6.dev9.tar.gz]
 [2024-04-19 00:18:00] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-19 00:18:00] INFO root fetch - main [MainThread]: Store serial: [22832807]
+[2024-04-19 00:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832807]
+[2024-04-19 00:20:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-easy
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grafana-foundation-sdk
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umk
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-mssql
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ute-wrapper
+[2024-04-19 00:20:09] INFO root fetch - processPackages [flet-easy]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ute-wrapper]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-19 00:20:09] INFO root fetch - processPackages [grafana-foundation-sdk]: New version: [1713478332!10.1.0] Old Version: [1713437340!10.4.0]
+[2024-04-19 00:20:09] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/f7/db/e2fa1e8b56bc266f02ba2065ce051be8666bb552d0a776944585047a0323/flet_easy-0.2.0.dev8.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/d6/83/4b99335854b958c767f66baf7825b3d4df18df20cf7ee05ff3f996926b86/grafana_foundation_sdk-1713437340!10.4.0.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ute-wrapper]: Downloading https://files.pythonhosted.org/packages/31/4a/27174a599d332df0124d56918b3ba76abccc6d35308ccee57464f7acd4b7/ute_wrapper-2.4.1.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [umk]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-19 00:20:09] INFO root fetch - processPackages [tap-mssql]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-04-19 00:20:09] INFO root fetch - processPackages [ute-wrapper]: Downloading https://files.pythonhosted.org/packages/3b/a9/e801f8f7411cd2126251ef547eaf755fee7988609d5e3c20a6fdbd138a6d/ute_wrapper-2.5.0.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [flet-easy]: Downloading https://files.pythonhosted.org/packages/2e/84/f7473a8748f6c1fea1b2e6608e53cdff0a67e25a71a2bd58796ed1586fe4/flet_easy-0.2.0.dev9.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [umk]: Downloading https://files.pythonhosted.org/packages/06/79/7be6606345f6e0b3cbe9583d061f2107a6e332926e5ea29b54e63e3c2706/umk-0.0.3.tar.gz
+[2024-04-19 00:20:09] INFO root fetch - processPackages [tap-mssql]: Downloading https://files.pythonhosted.org/packages/bf/17/ce637ea1af9977528bc022733365d7b97dfdd02745197514eb44ac13e1b6/tap_mssql-2.2.3.tar.gz
+[2024-04-19 00:20:10] INFO root fetch - processPackages [grafana-foundation-sdk]: Downloading https://files.pythonhosted.org/packages/c0/45/e64f3ed6791ac770483be22da9054594bbc31454faba8817063cbe60078c/grafana_foundation_sdk-1713478332!10.1.0.tar.gz
+[2024-04-19 00:20:10] INFO root fetch - processPackages [ute-wrapper]: executing diffoscope
+[2024-04-19 00:20:10] INFO root fetch - processPackages [ute-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ute_wrapper-2.4.1.tar.gz tmp/ute_wrapper-2.5.0.tar.gz --markdown 20240419/u/ute-wrapper/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-04-19 00:20:10] INFO root fetch - processPackages [flet-easy]: executing diffoscope
+[2024-04-19 00:20:10] INFO root fetch - processPackages [flet-easy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_easy-0.2.0.dev8.tar.gz tmp/flet_easy-0.2.0.dev9.tar.gz --markdown 20240419/f/flet-easy/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-04-19 00:20:10] INFO root fetch - processPackages [grafana-foundation-sdk]: executing diffoscope
+[2024-04-19 00:20:10] INFO root fetch - processPackages [grafana-foundation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana_foundation_sdk-1713437340!10.4.0.tar.gz tmp/grafana_foundation_sdk-1713478332!10.1.0.tar.gz --markdown 20240419/g/grafana-foundation-sdk/1713437340!10.4.0-1713478332!10.1.0/README.md --exclude *.pyd
+[2024-04-19 00:20:10] INFO root fetch - processPackages [umk]: Downloading https://files.pythonhosted.org/packages/0a/50/596dd5525af021274805ea8fb9959266763cdb0cb3b37e278b89abbbe48f/umk-0.1.0.tar.gz
+[2024-04-19 00:20:10] INFO root fetch - processPackages [tap-mssql]: Downloading https://files.pythonhosted.org/packages/8f/6f/a9276e32cd9f9e9997f80c68e4e28473e89dd5c92a2a5a88324d7fbd8ae9/tap_mssql-2.3.0.tar.gz
+[2024-04-19 00:20:10] INFO root fetch - processPackages [umk]: executing diffoscope
+[2024-04-19 00:20:10] INFO root fetch - processPackages [umk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umk-0.0.3.tar.gz tmp/umk-0.1.0.tar.gz --markdown 20240419/u/umk/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-19 00:20:10] INFO root fetch - processPackages [tap-mssql]: executing diffoscope
+[2024-04-19 00:20:10] INFO root fetch - processPackages [tap-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_mssql-2.2.3.tar.gz tmp/tap_mssql-2.3.0.tar.gz --markdown 20240419/t/tap-mssql/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-04-19 00:20:10] INFO root fetch - processPackages [ute-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ute_wrapper-2.4.1.tar.gz]
+[2024-04-19 00:20:10] INFO root fetch - processPackages [ute-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ute_wrapper-2.5.0.tar.gz]
+[2024-04-19 00:20:10] INFO root fetch - main [MainThread]: End processing [ute-wrapper]: success
+[2024-04-19 00:20:10] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev8.tar.gz]
+[2024-04-19 00:20:10] INFO root fetch - processPackages [flet-easy]: Remove: archive file [/home/abi/fetcher/tmp/flet_easy-0.2.0.dev9.tar.gz]
+[2024-04-19 00:20:10] INFO root fetch - main [MainThread]: End processing [flet-easy]: success
+[2024-04-19 00:20:11] INFO root fetch - processPackages [umk]: Remove: archive file [/home/abi/fetcher/tmp/umk-0.0.3.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - processPackages [umk]: Remove: archive file [/home/abi/fetcher/tmp/umk-0.1.0.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - main [MainThread]: End processing [umk]: success
+[2024-04-19 00:20:11] INFO root fetch - processPackages [tap-mssql]: Remove: archive file [/home/abi/fetcher/tmp/tap_mssql-2.2.3.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - processPackages [tap-mssql]: Remove: archive file [/home/abi/fetcher/tmp/tap_mssql-2.3.0.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - main [MainThread]: End processing [tap-mssql]: success
+[2024-04-19 00:20:11] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713437340!10.4.0.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - processPackages [grafana-foundation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana_foundation_sdk-1713478332!10.1.0.tar.gz]
+[2024-04-19 00:20:11] INFO root fetch - main [MainThread]: End processing [grafana-foundation-sdk]: success
+[2024-04-19 00:20:11] INFO root fetch - main [MainThread]: Store serial: [22832822]
