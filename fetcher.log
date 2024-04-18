@@ -28,3 +28,63 @@
 [2024-04-19 00:02:10] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a9.tar.gz]
 [2024-04-19 00:02:10] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-04-19 00:02:10] INFO root fetch - main [MainThread]: Store serial: [22832721]
+[2024-04-19 00:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832721]
+[2024-04-19 00:04:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-repo-client
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-connector-rabbitmq
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grayswan-api
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cgdevxcli
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qwrapper
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meta-ai-api
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ziptimezone
+[2024-04-19 00:04:42] INFO root fetch - processPackages [grayswan-api]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-04-19 00:04:42] INFO root fetch - processPackages [meta-ai-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ziptimezone]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 00:04:42] INFO root fetch - processPackages [tendril-connector-rabbitmq]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 00:04:42] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/13/76/e1b4ed62032d9530c8c961e233d3e8ec06848a2717fc45419f07c6a7b4ed/grayswan_api-0.1.0a2.tar.gz
+[2024-04-19 00:04:42] WARNING root fetch - processPackages [cgdevxcli]: Skipping, unable to determine old version
+[2024-04-19 00:04:42] INFO root fetch - main [MainThread]: End processing [cgdevxcli] error
+[2024-04-19 00:04:42] INFO root fetch - processPackages [qwrapper]: New version: [0.1.15] Old Version: [0.1.14]
+[2024-04-19 00:04:42] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/53/51/f78622062ee39a3cc31645c219b79745fdcf5f18798fa259c0d7e68be727/meta_ai_api-1.0.3.tar.gz
+[2024-04-19 00:04:42] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/5f/80/08062f2bc1c3710bbe4611ec9024fcf70896a7945e1cfd97f83bd7b42a7d/ziptimezone-0.1.6.tar.gz
+[2024-04-19 00:04:42] INFO root fetch - processPackages [data-repo-client]: New version: [2.41.0] Old Version: [2.40.0]
+[2024-04-19 00:04:43] INFO root fetch - processPackages [tendril-connector-rabbitmq]: Downloading https://files.pythonhosted.org/packages/ac/00/4cee976d073d30335ad1bd9d7e31656f51d56467bf680890003597c04ac7/tendril_connector_rabbitmq-0.2.0.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [qwrapper]: Downloading https://files.pythonhosted.org/packages/f8/0f/8c1bfd7212594440f2da3bfbfa95797afa4f52377b2e84ce4d0c80a3d466/qwrapper-0.1.14.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/b1/95/7d9d7c280c5dbc024b22b0681a5eefb194253faadbe805880cc4afa26e95/data-repo-client-2.40.0.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/29/75/661fde6bc857c0bfc1f91f3a6d5218f7e701c28903d57ede4a6612310307/grayswan_api-0.1.0a3.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/c7/5a/d31b02b9e1817dceb223de3b7bddfcb13e0681778557891bbb98811320c4/meta_ai_api-1.0.4.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [ziptimezone]: Downloading https://files.pythonhosted.org/packages/1d/74/89d4725f319fb14638b49a59436d84297c8183064afc5da7707bdd9754c8/ziptimezone-0.1.7.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [qwrapper]: Downloading https://files.pythonhosted.org/packages/2f/1a/9d2dde4b0558e85c6433c9cb33658a99c447c08b7f8dff5b51fc1506a9da/qwrapper-0.1.15.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [meta-ai-api]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [meta-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_ai_api-1.0.3.tar.gz tmp/meta_ai_api-1.0.4.tar.gz --markdown 20240419/m/meta-ai-api/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 00:04:43] INFO root fetch - processPackages [grayswan-api]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [grayswan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grayswan_api-0.1.0a2.tar.gz tmp/grayswan_api-0.1.0a3.tar.gz --markdown 20240419/g/grayswan-api/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-04-19 00:04:43] INFO root fetch - processPackages [ziptimezone]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [ziptimezone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ziptimezone-0.1.6.tar.gz tmp/ziptimezone-0.1.7.tar.gz --markdown 20240419/z/ziptimezone/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 00:04:43] INFO root fetch - processPackages [tendril-connector-rabbitmq]: Downloading https://files.pythonhosted.org/packages/52/c2/99e0b44e78bc68dde4345be34a4c093ee5f88f5f432139651b5c4b5ae159/tendril_connector_rabbitmq-0.2.1.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [qwrapper]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [qwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwrapper-0.1.14.tar.gz tmp/qwrapper-0.1.15.tar.gz --markdown 20240419/q/qwrapper/0.1.14-0.1.15/README.md --exclude *.pyd
+[2024-04-19 00:04:43] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/ea/41/55c92c60dda72e597ae944da15d871491a0fefa6d2b3e78c2ee2f386ffa8/data-repo-client-2.41.0.tar.gz
+[2024-04-19 00:04:43] INFO root fetch - processPackages [tendril-connector-rabbitmq]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [tendril-connector-rabbitmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril_connector_rabbitmq-0.2.0.tar.gz tmp/tendril_connector_rabbitmq-0.2.1.tar.gz --markdown 20240419/t/tendril-connector-rabbitmq/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 00:04:43] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-04-19 00:04:43] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.40.0.tar.gz tmp/data-repo-client-2.41.0.tar.gz --markdown 20240419/d/data-repo-client/2.40.0-2.41.0/README.md --exclude *.pyd
+[2024-04-19 00:04:44] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-0.1.6.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - processPackages [ziptimezone]: Remove: archive file [/home/abi/fetcher/tmp/ziptimezone-0.1.7.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - main [MainThread]: End processing [ziptimezone]: success
+[2024-04-19 00:04:44] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.3.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.4.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - main [MainThread]: End processing [meta-ai-api]: success
+[2024-04-19 00:04:44] INFO root fetch - processPackages [qwrapper]: Remove: archive file [/home/abi/fetcher/tmp/qwrapper-0.1.14.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - processPackages [qwrapper]: Remove: archive file [/home/abi/fetcher/tmp/qwrapper-0.1.15.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - main [MainThread]: End processing [qwrapper]: success
+[2024-04-19 00:04:44] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a2.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a3.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - main [MainThread]: End processing [grayswan-api]: success
+[2024-04-19 00:04:44] INFO root fetch - processPackages [tendril-connector-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/tendril_connector_rabbitmq-0.2.0.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - processPackages [tendril-connector-rabbitmq]: Remove: archive file [/home/abi/fetcher/tmp/tendril_connector_rabbitmq-0.2.1.tar.gz]
+[2024-04-19 00:04:44] INFO root fetch - main [MainThread]: End processing [tendril-connector-rabbitmq]: success
+[2024-04-19 00:04:45] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.40.0.tar.gz]
+[2024-04-19 00:04:45] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.41.0.tar.gz]
+[2024-04-19 00:04:45] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-04-19 00:04:45] INFO root fetch - main [MainThread]: Store serial: [22832740]
