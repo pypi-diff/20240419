@@ -1763,3 +1763,24 @@
 [2024-04-19 01:45:22] INFO root fetch - processPackages [nero]: Remove: archive file [/home/abi/fetcher/tmp/nero-19.3b6.tar.gz]
 [2024-04-19 01:45:22] INFO root fetch - main [MainThread]: End processing [nero]: success
 [2024-04-19 01:45:22] INFO root fetch - main [MainThread]: Store serial: [22833439]
+[2024-04-19 01:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833439]
+[2024-04-19 01:47:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 01:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdoxy
+[2024-04-19 01:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terrapyn
+[2024-04-19 01:47:31] INFO root fetch - processPackages [mkdoxy]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 01:47:31] INFO root fetch - processPackages [terrapyn]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 01:47:31] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/61/2b/b602e5fcd3a9e0c331a874c58034ec5df6ecd15da11fd9596e77b2ef7150/mkdoxy-1.2.0.tar.gz
+[2024-04-19 01:47:31] INFO root fetch - processPackages [terrapyn]: Downloading https://files.pythonhosted.org/packages/30/b2/4e56ece9035e45e43f8b780c5ff8078cd73f182e532956514ac42fac78f2/terrapyn-0.1.1.tar.gz
+[2024-04-19 01:47:31] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/7d/85/af896552ff9325865e1640e04b636dcbf3ba51348dfccc0c988bad1ca9a5/mkdoxy-1.2.1.tar.gz
+[2024-04-19 01:47:31] INFO root fetch - processPackages [terrapyn]: Downloading https://files.pythonhosted.org/packages/3c/22/0ca4b26401c1d520587a84775f2bfad6c6655c8b6e138ddd3fb93b14d99b/terrapyn-0.1.2.tar.gz
+[2024-04-19 01:47:31] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2024-04-19 01:47:31] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.2.0.tar.gz tmp/mkdoxy-1.2.1.tar.gz --markdown 20240419/m/mkdoxy/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 01:47:31] INFO root fetch - processPackages [terrapyn]: executing diffoscope
+[2024-04-19 01:47:31] INFO root fetch - processPackages [terrapyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrapyn-0.1.1.tar.gz tmp/terrapyn-0.1.2.tar.gz --markdown 20240419/t/terrapyn/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 01:47:32] INFO root fetch - processPackages [terrapyn]: Remove: archive file [/home/abi/fetcher/tmp/terrapyn-0.1.1.tar.gz]
+[2024-04-19 01:47:32] INFO root fetch - processPackages [terrapyn]: Remove: archive file [/home/abi/fetcher/tmp/terrapyn-0.1.2.tar.gz]
+[2024-04-19 01:47:32] INFO root fetch - main [MainThread]: End processing [terrapyn]: success
+[2024-04-19 01:47:32] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.0.tar.gz]
+[2024-04-19 01:47:32] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.1.tar.gz]
+[2024-04-19 01:47:32] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2024-04-19 01:47:32] INFO root fetch - main [MainThread]: Store serial: [22833445]
