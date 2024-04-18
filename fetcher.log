@@ -1004,3 +1004,33 @@
 [2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-19 01:03:55] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-04-19 01:03:55] INFO root fetch - main [MainThread]: Store serial: [22833094]
+[2024-04-19 01:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833094]
+[2024-04-19 01:06:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-jm
+[2024-04-19 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: truss
+[2024-04-19 01:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-04-19 01:06:03] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-19 01:06:03] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240417] Old Version: [0.7.52b20240416]
+[2024-04-19 01:06:03] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/46/77/2d4c30b44fb04a32655aab0c23dbb99c046b772e20cbb1fcc9ed147844bf/sbcli_jm-3.0.0.zip
+[2024-04-19 01:06:03] INFO root fetch - processPackages [truss]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-04-19 01:06:03] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/47/78/ca122c19c25d078254c0d18ac225b9e909723b74e4ceee4acfe3832e4c4b/tmnt-0.7.52b20240416.tar.gz
+[2024-04-19 01:06:04] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/09/eb/1400ad209a2ca815383619748e1b2dc534b25eb683f9a4f42307c9cf7d9f/sbcli_jm-4.0.0.zip
+[2024-04-19 01:06:04] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/b0/fe/165730089543a7078c47d298684f4672008a47e0f974249692ddb97b2ea5/truss-0.9.9rc3.tar.gz
+[2024-04-19 01:06:04] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-19 01:06:04] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-3.0.0.zip tmp/sbcli_jm-4.0.0.zip --markdown 20240419/s/sbcli-jm/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-19 01:06:04] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/6f/75/58eed71b4f482a77b888330b15308ee03c28473c57941aec67f4ff41f24b/tmnt-0.7.52b20240417.tar.gz
+[2024-04-19 01:06:04] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-19 01:06:04] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240416.tar.gz tmp/tmnt-0.7.52b20240417.tar.gz --markdown 20240419/t/tmnt/0.7.52b20240416-0.7.52b20240417/README.md --exclude *.pyd
+[2024-04-19 01:06:04] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/8f/d7/9ca2a06c33ed80c149e8e25246ce0bb8e5a19858328ac2b9feeb6b3b9734/truss-0.9.9rc4.tar.gz
+[2024-04-19 01:06:04] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-04-19 01:06:04] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc3.tar.gz tmp/truss-0.9.9rc4.tar.gz --markdown 20240419/t/truss/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-04-19 01:06:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240416.tar.gz]
+[2024-04-19 01:06:04] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240417.tar.gz]
+[2024-04-19 01:06:04] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-19 01:06:05] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-3.0.0.zip]
+[2024-04-19 01:06:05] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.0.zip]
+[2024-04-19 01:06:05] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-19 01:06:05] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc3.tar.gz]
+[2024-04-19 01:06:05] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
+[2024-04-19 01:06:05] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-04-19 01:06:05] INFO root fetch - main [MainThread]: Store serial: [22833102]
