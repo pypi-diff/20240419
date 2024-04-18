@@ -1432,3 +1432,51 @@
 [2024-04-19 01:27:50] INFO root fetch - processPackages [airbyte-source-stripe]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_stripe-5.3.4.tar.gz]
 [2024-04-19 01:27:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-stripe]: success
 [2024-04-19 01:27:50] INFO root fetch - main [MainThread]: Store serial: [22833262]
+[2024-04-19 01:29:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833262]
+[2024-04-19 01:29:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 01:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-express
+[2024-04-19 01:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marcuslion
+[2024-04-19 01:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuulcilint
+[2024-04-19 01:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pixee
+[2024-04-19 01:29:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-awsx
+[2024-04-19 01:29:59] INFO root fetch - processPackages [lusid-express]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-19 01:29:59] INFO root fetch - processPackages [marcuslion]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 01:29:59] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/42/68/2d2ef66270bbd211b9b53dfd2a9917b73cc6bd0f10becc51c65edda4d120/lusid_express-0.4.1.tar.gz
+[2024-04-19 01:29:59] INFO root fetch - processPackages [zuulcilint]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-19 01:29:59] INFO root fetch - processPackages [pixee]: New version: [0.8.3] Old Version: [0.5.5]
+[2024-04-19 01:29:59] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/9e/1b/35d713162681f4b6a508ca2f0abe84f28934e251febf83a312e0978d0135/marcuslion-0.2.8.tar.gz
+[2024-04-19 01:29:59] INFO root fetch - processPackages [pulumi-awsx]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-19 01:29:59] INFO root fetch - processPackages [zuulcilint]: Downloading https://files.pythonhosted.org/packages/23/b6/2cc4fb60babab7fdc38f9217546ac01a8af6bd8a354821d329055e80d3c3/zuulcilint-0.2.5.tar.gz
+[2024-04-19 01:29:59] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/73/74/371dc6066e1b5614cacf5b247114099a910b32ff470c7e0515f1a376d74d/marcuslion-0.2.9.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/ad/6c/3c4ada32a280b207b65672324cb516b1a97f85952f7f9d69a62c1704e5ba/pixee-0.5.5.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/5c/70/a49b96ab9ac3f30c65cfca1ff26c7be4bf9ed2363a4fd4d66173303b5c5c/pulumi_awsx-2.6.0.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [lusid-express]: Downloading https://files.pythonhosted.org/packages/ca/fa/da1d427bc90c7b856d0f196a628e4e7744a999a1823186abf770d9f7245b/lusid_express-0.5.0.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [marcuslion]: executing diffoscope
+[2024-04-19 01:30:00] INFO root fetch - processPackages [marcuslion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcuslion-0.2.8.tar.gz tmp/marcuslion-0.2.9.tar.gz --markdown 20240419/m/marcuslion/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 01:30:00] INFO root fetch - processPackages [lusid-express]: executing diffoscope
+[2024-04-19 01:30:00] INFO root fetch - processPackages [lusid-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_express-0.4.1.tar.gz tmp/lusid_express-0.5.0.tar.gz --markdown 20240419/l/lusid-express/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-19 01:30:00] INFO root fetch - processPackages [zuulcilint]: Downloading https://files.pythonhosted.org/packages/96/f0/e6fd9d20456a591e2c9256b366d65ba49a26aa5b3c7cea5e41d5ff19941d/zuulcilint-0.2.6.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [pulumi-awsx]: Downloading https://files.pythonhosted.org/packages/45/71/f94bc0e9f2b3da76595e8a55e513ff2cee6f324628d3a6421e53aa6ed29f/pulumi_awsx-2.7.0.tar.gz
+[2024-04-19 01:30:00] INFO root fetch - processPackages [zuulcilint]: executing diffoscope
+[2024-04-19 01:30:00] INFO root fetch - processPackages [zuulcilint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuulcilint-0.2.5.tar.gz tmp/zuulcilint-0.2.6.tar.gz --markdown 20240419/z/zuulcilint/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-19 01:30:00] INFO root fetch - processPackages [pulumi-awsx]: executing diffoscope
+[2024-04-19 01:30:00] INFO root fetch - processPackages [pulumi-awsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_awsx-2.6.0.tar.gz tmp/pulumi_awsx-2.7.0.tar.gz --markdown 20240419/p/pulumi-awsx/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-04-19 01:30:00] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.4.1.tar.gz]
+[2024-04-19 01:30:00] INFO root fetch - processPackages [lusid-express]: Remove: archive file [/home/abi/fetcher/tmp/lusid_express-0.5.0.tar.gz]
+[2024-04-19 01:30:00] INFO root fetch - main [MainThread]: End processing [lusid-express]: success
+[2024-04-19 01:30:00] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.8.tar.gz]
+[2024-04-19 01:30:00] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.9.tar.gz]
+[2024-04-19 01:30:00] INFO root fetch - main [MainThread]: End processing [marcuslion]: success
+[2024-04-19 01:30:01] INFO root fetch - processPackages [zuulcilint]: Remove: archive file [/home/abi/fetcher/tmp/zuulcilint-0.2.5.tar.gz]
+[2024-04-19 01:30:01] INFO root fetch - processPackages [zuulcilint]: Remove: archive file [/home/abi/fetcher/tmp/zuulcilint-0.2.6.tar.gz]
+[2024-04-19 01:30:01] INFO root fetch - main [MainThread]: End processing [zuulcilint]: success
+[2024-04-19 01:30:01] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.6.0.tar.gz]
+[2024-04-19 01:30:01] INFO root fetch - processPackages [pulumi-awsx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_awsx-2.7.0.tar.gz]
+[2024-04-19 01:30:01] INFO root fetch - main [MainThread]: End processing [pulumi-awsx]: success
+[2024-04-19 01:30:01] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/dc/eb/5df858dc329d63a4ba4f8b3dd580dcf2aa6cbd359aa971a16cc3790f169d/pixee-0.8.3.tar.gz
+[2024-04-19 01:30:01] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-04-19 01:30:01] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.5.5.tar.gz tmp/pixee-0.8.3.tar.gz --markdown 20240419/p/pixee/0.5.5-0.8.3/README.md --exclude *.pyd
+[2024-04-19 01:30:02] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.5.5.tar.gz]
+[2024-04-19 01:30:02] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.3.tar.gz]
+[2024-04-19 01:30:02] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-04-19 01:30:02] INFO root fetch - main [MainThread]: Store serial: [22833294]
