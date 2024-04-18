@@ -1504,3 +1504,42 @@
 [2024-04-19 01:32:12] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
 [2024-04-19 01:32:12] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
 [2024-04-19 01:32:12] INFO root fetch - main [MainThread]: Store serial: [22833306]
+[2024-04-19 01:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833306]
+[2024-04-19 01:34:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 01:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-kraken
+[2024-04-19 01:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databonsai
+[2024-04-19 01:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yt-dlp
+[2024-04-19 01:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algophon
+[2024-04-19 01:34:21] INFO root fetch - processPackages [music-kraken]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-04-19 01:34:21] INFO root fetch - processPackages [algophon]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 01:34:21] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/cb/06/8ae70afb14c2307fb716d0fe36aad66a90c9e2598f47879c1277c5f23318/music_kraken-1.7.0.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [databonsai]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-19 01:34:21] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/da/93/5c2b271c05065a96b72645061757a0d06874a2c618f5bbb5414482f35aaf/algophon-0.0.2.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.9.232723.dev0] Old Version: [2024.4.9]
+[2024-04-19 01:34:21] INFO root fetch - processPackages [databonsai]: Downloading https://files.pythonhosted.org/packages/4c/4a/f48e393733450c465787fe5e48899cf517cef01c1944923b22243cea4048/databonsai-0.4.1.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [music-kraken]: Downloading https://files.pythonhosted.org/packages/f6/bf/5cddc4d49d5389dbb323168d462c1ecc653460365394780a774f82856f43/music_kraken-1.9.0.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [music-kraken]: executing diffoscope
+[2024-04-19 01:34:21] INFO root fetch - processPackages [music-kraken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_kraken-1.7.0.tar.gz tmp/music_kraken-1.9.0.tar.gz --markdown 20240419/m/music-kraken/1.7.0-1.9.0/README.md --exclude *.pyd
+[2024-04-19 01:34:21] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/23/d1/b04c94ad46d6210586ae60b3bfa01023aa73e2e509c6253210d5829e58a2/algophon-0.0.3.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/52/85/af44c30f0cc5d94ebbce365f8ee40eea6e9d7a1d26d50f16e3766ca8410c/yt_dlp-2024.4.9.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [algophon]: executing diffoscope
+[2024-04-19 01:34:21] INFO root fetch - processPackages [algophon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algophon-0.0.2.tar.gz tmp/algophon-0.0.3.tar.gz --markdown 20240419/a/algophon/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 01:34:21] INFO root fetch - processPackages [databonsai]: Downloading https://files.pythonhosted.org/packages/04/bb/d6deb3bb84ade2211462efd9071be79a3077ae6f2828e8e7987a103c3b8e/databonsai-0.5.0.tar.gz
+[2024-04-19 01:34:21] INFO root fetch - processPackages [databonsai]: executing diffoscope
+[2024-04-19 01:34:21] INFO root fetch - processPackages [databonsai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databonsai-0.4.1.tar.gz tmp/databonsai-0.5.0.tar.gz --markdown 20240419/d/databonsai/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-19 01:34:22] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.7.0.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - processPackages [music-kraken]: Remove: archive file [/home/abi/fetcher/tmp/music_kraken-1.9.0.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - main [MainThread]: End processing [music-kraken]: success
+[2024-04-19 01:34:22] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/3d/26/45a9189ceae8b6fa894afcbb6e4dfa15bfa476b1c4750920529f8dce5039/yt_dlp-2024.4.9.232723.dev0.tar.gz
+[2024-04-19 01:34:22] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.2.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.3.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - main [MainThread]: End processing [algophon]: success
+[2024-04-19 01:34:22] INFO root fetch - processPackages [databonsai]: Remove: archive file [/home/abi/fetcher/tmp/databonsai-0.4.1.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - processPackages [databonsai]: Remove: archive file [/home/abi/fetcher/tmp/databonsai-0.5.0.tar.gz]
+[2024-04-19 01:34:22] INFO root fetch - main [MainThread]: End processing [databonsai]: success
+[2024-04-19 01:34:22] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-19 01:34:22] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.9.tar.gz tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz --markdown 20240419/y/yt-dlp/2024.4.9-2024.4.9.232723.dev0/README.md --exclude *.pyd
+[2024-04-19 01:34:27] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.tar.gz]
+[2024-04-19 01:34:27] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.9.232723.dev0.tar.gz]
+[2024-04-19 01:34:27] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-19 01:34:27] INFO root fetch - main [MainThread]: Store serial: [22833313]
