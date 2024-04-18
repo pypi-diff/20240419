@@ -1480,3 +1480,27 @@
 [2024-04-19 01:30:02] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.3.tar.gz]
 [2024-04-19 01:30:02] INFO root fetch - main [MainThread]: End processing [pixee]: success
 [2024-04-19 01:30:02] INFO root fetch - main [MainThread]: Store serial: [22833294]
+[2024-04-19 01:32:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833294]
+[2024-04-19 01:32:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 01:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-fireworks
+[2024-04-19 01:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: momento-wire-types
+[2024-04-19 01:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loretta
+[2024-04-19 01:32:11] INFO root fetch - processPackages [loretta]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 01:32:11] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/d2/6c/71195a4bff00e0e867f70cc48fc487fa952604b83ec713d894c28c8a5c3a/loretta-0.1.0.tar.gz
+[2024-04-19 01:32:11] WARNING root fetch - processPackages [llm-fireworks]: Skipping, unable to determine old version
+[2024-04-19 01:32:11] INFO root fetch - main [MainThread]: End processing [llm-fireworks] error
+[2024-04-19 01:32:11] INFO root fetch - processPackages [momento-wire-types]: New version: [0.99.0] Old Version: [0.98.1]
+[2024-04-19 01:32:11] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/c3/2d/68074b9f36c478bdb9bb4f8e48a522bbb8de79f3baf39ae52ca7d330f33d/loretta-0.1.1.tar.gz
+[2024-04-19 01:32:11] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/e4/46/0239df82cb6e9ffef5ee59019564c4485802b085aa41a571faefc8ebd223/momento_wire_types-0.98.1.tar.gz
+[2024-04-19 01:32:11] INFO root fetch - processPackages [loretta]: executing diffoscope
+[2024-04-19 01:32:11] INFO root fetch - processPackages [loretta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loretta-0.1.0.tar.gz tmp/loretta-0.1.1.tar.gz --markdown 20240419/l/loretta/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 01:32:11] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/8e/77/73692d8207b35beda1e5b274d897b938a7de956cc301fe86b478cfeb5c26/momento_wire_types-0.99.0.tar.gz
+[2024-04-19 01:32:12] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2024-04-19 01:32:12] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento_wire_types-0.98.1.tar.gz tmp/momento_wire_types-0.99.0.tar.gz --markdown 20240419/m/momento-wire-types/0.98.1-0.99.0/README.md --exclude *.pyd
+[2024-04-19 01:32:12] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.0.tar.gz]
+[2024-04-19 01:32:12] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.1.tar.gz]
+[2024-04-19 01:32:12] INFO root fetch - main [MainThread]: End processing [loretta]: success
+[2024-04-19 01:32:12] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.98.1.tar.gz]
+[2024-04-19 01:32:12] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento_wire_types-0.99.0.tar.gz]
+[2024-04-19 01:32:12] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2024-04-19 01:32:12] INFO root fetch - main [MainThread]: Store serial: [22833306]
