@@ -488,3 +488,15 @@
 [2024-04-19 00:27:01] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.1.tar.gz]
 [2024-04-19 00:27:01] INFO root fetch - main [MainThread]: End processing [loretta]: success
 [2024-04-19 00:27:01] INFO root fetch - main [MainThread]: Store serial: [22832853]
+[2024-04-19 00:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832853]
+[2024-04-19 00:29:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 00:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosalesforce
+[2024-04-19 00:29:10] INFO root fetch - processPackages [aiosalesforce]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-19 00:29:10] INFO root fetch - processPackages [aiosalesforce]: Downloading https://files.pythonhosted.org/packages/3d/bf/3e32fafd810d7bef68c7f554fc14e91a8dbbf3a45a8450e65c2795eec1d6/aiosalesforce-0.5.5.tar.gz
+[2024-04-19 00:29:10] INFO root fetch - processPackages [aiosalesforce]: Downloading https://files.pythonhosted.org/packages/a2/6c/b5d966883953396b2a6b0f5fd4d3267880c282060bd86901de1eb59c00b3/aiosalesforce-0.5.6.tar.gz
+[2024-04-19 00:29:10] INFO root fetch - processPackages [aiosalesforce]: executing diffoscope
+[2024-04-19 00:29:10] INFO root fetch - processPackages [aiosalesforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosalesforce-0.5.5.tar.gz tmp/aiosalesforce-0.5.6.tar.gz --markdown 20240419/a/aiosalesforce/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-04-19 00:29:11] INFO root fetch - processPackages [aiosalesforce]: Remove: archive file [/home/abi/fetcher/tmp/aiosalesforce-0.5.5.tar.gz]
+[2024-04-19 00:29:11] INFO root fetch - processPackages [aiosalesforce]: Remove: archive file [/home/abi/fetcher/tmp/aiosalesforce-0.5.6.tar.gz]
+[2024-04-19 00:29:11] INFO root fetch - main [MainThread]: End processing [aiosalesforce]: success
+[2024-04-19 00:29:11] INFO root fetch - main [MainThread]: Store serial: [22832856]
