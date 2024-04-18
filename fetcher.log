@@ -500,3 +500,76 @@
 [2024-04-19 00:29:11] INFO root fetch - processPackages [aiosalesforce]: Remove: archive file [/home/abi/fetcher/tmp/aiosalesforce-0.5.6.tar.gz]
 [2024-04-19 00:29:11] INFO root fetch - main [MainThread]: End processing [aiosalesforce]: success
 [2024-04-19 00:29:11] INFO root fetch - main [MainThread]: Store serial: [22832856]
+[2024-04-19 00:31:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22832856]
+[2024-04-19 00:31:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazy-fisher-yates-shuffler
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: driven-sql-tool
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-explorer-adapter
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phykit
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: godata
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: q2gui
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pglyco
+[2024-04-19 00:31:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: q2rad
+[2024-04-19 00:31:19] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240418.7.40.174324] Old Version: [20240418.17.42.600287]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-19 00:31:19] WARNING root fetch - processPackages [pglyco]: Skipping, unable to determine old version
+[2024-04-19 00:31:19] INFO root fetch - main [MainThread]: End processing [pglyco] error
+[2024-04-19 00:31:19] WARNING root fetch - processPackages [driven-sql-tool]: Skipping, unable to determine old version
+[2024-04-19 00:31:19] INFO root fetch - main [MainThread]: End processing [driven-sql-tool] error
+[2024-04-19 00:31:19] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [model-explorer-adapter]: New version: [0.3.8] Old Version: [0.3.3]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [phykit]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-19 00:31:19] INFO root fetch - processPackages [godata]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-19 00:31:19] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6b/ea/0a50eb0fa6dd403664c39acd89fd4b518b73fe4993ced74b35a528ce49a4/certora-cli-alpha-master-20240418.17.42.600287.tar.gz
+[2024-04-19 00:31:19] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14538751>=10485760
+[2024-04-19 00:31:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-19 00:31:19] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: Downloading https://files.pythonhosted.org/packages/89/dd/3af676c3ced48fdd4c9856a1746d6dae70beedabf629209d97b1cf7f5b2c/lazy_fisher_yates_shuffler-1.0.0.tar.gz
+[2024-04-19 00:31:19] INFO root fetch - processPackages [model-explorer-adapter]: Downloading https://files.pythonhosted.org/packages/8d/f4/12b75c01b76a9930e6fed99cd030e14ab0c4dab911ad16263398cd751f6d/model_explorer_adapter-0.3.3-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-19 00:31:19] INFO root fetch - processPackages [phykit]: Downloading https://files.pythonhosted.org/packages/5f/b6/56c211ae6343204e991bfc8427371007cf8bd27a62137bbd89e7c6f763b7/phykit-1.8.0.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2024-04-19 00:31:20] WARNING root fetch - processPackages [model-explorer-adapter]: Skipping package: exceeds size limit 81630314>=10485760
+[2024-04-19 00:31:20] INFO root fetch - main [MainThread]: End processing [model-explorer-adapter] error
+[2024-04-19 00:31:20] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/0f/93/e4a73ce5a6e96a2f3aa774588e9184d44ad14c39411da71df10f88b1f556/godata-0.8.3.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/80/49/6ec4d4467c701099cbfa21472d6b7c426277eeae8e82db973157f4077dd1/q2rad-0.1.98.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-19 00:31:20] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240419/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-04-19 00:31:20] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: Downloading https://files.pythonhosted.org/packages/29/85/8a94636fcbc6e768c5e7f2a6e345248de7fec2216218cfe46a645d880a6a/lazy_fisher_yates_shuffler-1.0.1.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [phykit]: Downloading https://files.pythonhosted.org/packages/3c/eb/1e6391db8f8319986c87b5e8f9d45ee6c58f889783b52be6a16f63e36d00/phykit-1.9.0.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [godata]: Downloading https://files.pythonhosted.org/packages/e9/65/ad6cf514a85536333d86b002cb20d9857a64a5bac7a2b141af2d3015b37b/godata-0.9.0.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_fisher_yates_shuffler-1.0.0.tar.gz tmp/lazy_fisher_yates_shuffler-1.0.1.tar.gz --markdown 20240419/l/lazy-fisher-yates-shuffler/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2rad]: Downloading https://files.pythonhosted.org/packages/47/0e/9309c87c362671a5eef5895adc1cb5d29e984c27a0e09a60a83cada10f73/q2rad-0.1.99.tar.gz
+[2024-04-19 00:31:20] INFO root fetch - processPackages [phykit]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [phykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phykit-1.8.0.tar.gz tmp/phykit-1.9.0.tar.gz --markdown 20240419/p/phykit/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20240419/q/q2gui/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-19 00:31:20] INFO root fetch - processPackages [godata]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [godata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godata-0.8.3.tar.gz tmp/godata-0.9.0.tar.gz --markdown 20240419/g/godata/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2024-04-19 00:31:20] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20240419/q/q2rad/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-19 00:31:21] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: Remove: archive file [/home/abi/fetcher/tmp/lazy_fisher_yates_shuffler-1.0.0.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [lazy-fisher-yates-shuffler]: Remove: archive file [/home/abi/fetcher/tmp/lazy_fisher_yates_shuffler-1.0.1.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [lazy-fisher-yates-shuffler]: success
+[2024-04-19 00:31:21] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.8.3.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [godata]: Remove: archive file [/home/abi/fetcher/tmp/godata-0.9.0.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [godata]: success
+[2024-04-19 00:31:21] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2024-04-19 00:31:21] INFO root fetch - processPackages [phykit]: Remove: archive file [/home/abi/fetcher/tmp/phykit-1.8.0.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [phykit]: Remove: archive file [/home/abi/fetcher/tmp/phykit-1.9.0.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [phykit]: success
+[2024-04-19 00:31:21] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2024-04-19 00:31:21] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-19 00:31:21] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-19 00:31:21] INFO root fetch - main [MainThread]: Store serial: [22832895]
