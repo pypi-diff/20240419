@@ -1210,3 +1210,24 @@
 [2024-04-19 01:16:59] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-19 01:16:59] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-19 01:16:59] INFO root fetch - main [MainThread]: Store serial: [22833172]
+[2024-04-19 01:19:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833172]
+[2024-04-19 01:19:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 01:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirascope
+[2024-04-19 01:19:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-19 01:19:08] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b9] Old Version: [8.8.3.1b8]
+[2024-04-19 01:19:08] INFO root fetch - processPackages [mirascope]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 01:19:08] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/55/29/62f5a247f04b2bf0f9da53bf75c80ebc4731638e110560a1b0c2b690b9e1/dcicutils-8.8.3.1b8.tar.gz
+[2024-04-19 01:19:08] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/1e/60/6b94f4a0c0a3442e0030ec4b7912738aea1506f5f2cfbbaab0f9f6c973ee/mirascope-0.9.0.tar.gz
+[2024-04-19 01:19:08] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b0/95/6db1d9193aaea7ab397457bf7e746f08cfefd565b4982b943b44ba844a74/dcicutils-8.8.3.1b9.tar.gz
+[2024-04-19 01:19:08] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-19 01:19:08] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b8.tar.gz tmp/dcicutils-8.8.3.1b9.tar.gz --markdown 20240419/d/dcicutils/8.8.3.1b8-8.8.3.1b9/README.md --exclude *.pyd
+[2024-04-19 01:19:09] INFO root fetch - processPackages [mirascope]: Downloading https://files.pythonhosted.org/packages/86/be/fe2b9be44a23959a996ae2f04f7f17cca344b0da85a954965c102e97d624/mirascope-0.9.1.tar.gz
+[2024-04-19 01:19:09] INFO root fetch - processPackages [mirascope]: executing diffoscope
+[2024-04-19 01:19:09] INFO root fetch - processPackages [mirascope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirascope-0.9.0.tar.gz tmp/mirascope-0.9.1.tar.gz --markdown 20240419/m/mirascope/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 01:19:09] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.0.tar.gz]
+[2024-04-19 01:19:09] INFO root fetch - processPackages [mirascope]: Remove: archive file [/home/abi/fetcher/tmp/mirascope-0.9.1.tar.gz]
+[2024-04-19 01:19:09] INFO root fetch - main [MainThread]: End processing [mirascope]: success
+[2024-04-19 01:19:09] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b8.tar.gz]
+[2024-04-19 01:19:09] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b9.tar.gz]
+[2024-04-19 01:19:09] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-19 01:19:09] INFO root fetch - main [MainThread]: Store serial: [22833178]
