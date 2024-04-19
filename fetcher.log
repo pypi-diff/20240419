@@ -13879,3 +13879,80 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:00:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-19 10:00:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-19 10:00:59] INFO root fetch - main [MainThread]: Store serial: [22838377]
+[2024-04-19 10:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838377]
+[2024-04-19 10:03:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawlipt
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dm-aiomqtt
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlpro-int-pettingzoo
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-persian-pdf
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lumipy
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccdexplorer-schema-parser
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unillm
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uart-devices
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: globlocks
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torch-npu
+[2024-04-19 10:03:08] INFO root fetch - processPackages [globlocks]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [lumipy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [dm-aiomqtt]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [torch-npu]: New version: [2.2.0rc1] Old Version: [2.1.0rc1]
+[2024-04-19 10:03:08] WARNING root fetch - processPackages [crawlipt]: Skipping, unable to determine old version
+[2024-04-19 10:03:08] INFO root fetch - main [MainThread]: End processing [crawlipt] error
+[2024-04-19 10:03:08] WARNING root fetch - processPackages [uart-devices]: Skipping, unable to determine old version
+[2024-04-19 10:03:08] INFO root fetch - main [MainThread]: End processing [uart-devices] error
+[2024-04-19 10:03:08] INFO root fetch - processPackages [mlpro-int-pettingzoo]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [unillm]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/e9/b7/72f6c3330f559fb5cc77874f409d5849e6582b85f550463e97ac97b30984/globlocks-1.1.9.tar.gz
+[2024-04-19 10:03:08] INFO root fetch - processPackages [django-persian-pdf]: New version: [0.1.1] Old Version: [0.0.5]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [ccdexplorer-schema-parser]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 10:03:08] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/5c/22/b8f7e1725138af53d747a1ab7b177746d68bc38bf1f12e2e0e8193304c45/dm_aiomqtt-0.4.1.tar.gz
+[2024-04-19 10:03:08] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/76/cd/25af7895f094ecdce8642b8eefbf5570e3f3251c3ad74ca6781ab765b529/lumipy-1.0.8-py3-none-any.whl
+[2024-04-19 10:03:09] INFO root fetch - processPackages [torch-npu]: Downloading https://files.pythonhosted.org/packages/a4/e1/00b39729adbd7f51969b85280f0b6448f7cf74cb26eae232b7464b27f8c5/torch_npu-2.2.0rc1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 10:03:09] INFO root fetch - processPackages [django-persian-pdf]: Downloading https://files.pythonhosted.org/packages/4d/d3/32db463fc3e31e4036a07370c4fef2490d994d8e5f162c0ecf34a540e982/django_persian_pdf-0.0.5.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [mlpro-int-pettingzoo]: Downloading https://files.pythonhosted.org/packages/4d/62/199cfb6e39daaf7748e770896d94a0edb632d3b473bfa158a17034a39770/mlpro-int-pettingzoo-0.1.0.tar.gz
+[2024-04-19 10:03:09] WARNING root fetch - processPackages [torch-npu]: Skipping package: exceeds size limit 11146920>=10485760
+[2024-04-19 10:03:09] INFO root fetch - main [MainThread]: End processing [torch-npu] error
+[2024-04-19 10:03:09] INFO root fetch - processPackages [unillm]: Downloading https://files.pythonhosted.org/packages/2d/73/664411abf700c073cfbbbdc216ee35679255c75fc79099e0aab8d5d96931/unillm-0.0.6.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/a1/55/d654f5aed4ef54cc878d0e44e7f9d278e084e0314d539d9ace16e6880aa1/dm_aiomqtt-0.4.2.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/1a/79/c33d272b3410f03520900bf3f7bd032ad5c57d14cfa9451724c1cd432d36/ccdexplorer_schema_parser-0.1.6.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [lumipy]: Downloading https://files.pythonhosted.org/packages/af/13/4cc42c3e2deec28973c7b4dd4f45a865415a11d4da32c248fd3904f3babb/lumipy-1.0.9-py3-none-any.whl
+[2024-04-19 10:03:09] INFO root fetch - processPackages [dm-aiomqtt]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [dm-aiomqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_aiomqtt-0.4.1.tar.gz tmp/dm_aiomqtt-0.4.2.tar.gz --markdown 20240419/d/dm-aiomqtt/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [django-persian-pdf]: Downloading https://files.pythonhosted.org/packages/21/a2/ded69cf4b5226e11046107c0db44b9f7353a4f24f9ef315076d7c38614e8/django_persian_pdf-0.1.1.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [mlpro-int-pettingzoo]: Downloading https://files.pythonhosted.org/packages/cc/0d/f334ff6afccc4408446a66cb7f87c527f383380ec705c1575bcdb10514a5/mlpro_int_pettingzoo-1.0.0.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/3d/ca/38d703a967ace17675feb85a3a6441b4b76b564fd5f90b071f005244acbc/globlocks-1.2.0.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [lumipy]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [lumipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumipy-1.0.8-py3-none-any.whl.zip tmp/lumipy-1.0.9-py3-none-any.whl.zip --markdown 20240419/l/lumipy/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [unillm]: Downloading https://files.pythonhosted.org/packages/5b/bb/1276d523260944d241e1ab0f7c53fcd445576f1997b5ca02032b9c84b81d/unillm-0.0.7.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [django-persian-pdf]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [django-persian-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_persian_pdf-0.0.5.tar.gz tmp/django_persian_pdf-0.1.1.tar.gz --markdown 20240419/d/django-persian-pdf/0.0.5-0.1.1/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [mlpro-int-pettingzoo]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [mlpro-int-pettingzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-int-pettingzoo-0.1.0.tar.gz tmp/mlpro_int_pettingzoo-1.0.0.tar.gz --markdown 20240419/m/mlpro-int-pettingzoo/0.1.0-1.0.0/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/6f/0b/e1c66ec87aba95c5757253eb37a9ae7655f17ff1b5288d7df9a8911588b8/ccdexplorer_schema_parser-0.1.7.tar.gz
+[2024-04-19 10:03:09] INFO root fetch - processPackages [unillm]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [unillm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unillm-0.0.6.tar.gz tmp/unillm-0.0.7.tar.gz --markdown 20240419/u/unillm/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [globlocks]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [globlocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globlocks-1.1.9.tar.gz tmp/globlocks-1.2.0.tar.gz --markdown 20240419/g/globlocks/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-19 10:03:09] INFO root fetch - processPackages [ccdexplorer-schema-parser]: executing diffoscope
+[2024-04-19 10:03:09] INFO root fetch - processPackages [ccdexplorer-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_schema_parser-0.1.6.tar.gz tmp/ccdexplorer_schema_parser-0.1.7.tar.gz --markdown 20240419/c/ccdexplorer-schema-parser/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 10:03:10] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.1.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.2.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [dm-aiomqtt]: success
+[2024-04-19 10:03:10] INFO root fetch - processPackages [django-persian-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django_persian_pdf-0.0.5.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [django-persian-pdf]: Remove: archive file [/home/abi/fetcher/tmp/django_persian_pdf-0.1.1.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [django-persian-pdf]: success
+[2024-04-19 10:03:10] INFO root fetch - processPackages [mlpro-int-pettingzoo]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-pettingzoo-0.1.0.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [mlpro-int-pettingzoo]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_pettingzoo-1.0.0.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [mlpro-int-pettingzoo]: success
+[2024-04-19 10:03:10] INFO root fetch - processPackages [unillm]: Remove: archive file [/home/abi/fetcher/tmp/unillm-0.0.6.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [unillm]: Remove: archive file [/home/abi/fetcher/tmp/unillm-0.0.7.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [unillm]: success
+[2024-04-19 10:03:10] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.6.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.7.tar.gz]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
+[2024-04-19 10:03:10] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 10:03:10] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 10:03:10] INFO root fetch - main [MainThread]: End processing [lumipy]: success
+[2024-04-19 10:03:11] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.9.tar.gz]
+[2024-04-19 10:03:11] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.0.tar.gz]
+[2024-04-19 10:03:11] INFO root fetch - main [MainThread]: End processing [globlocks]: success
+[2024-04-19 10:03:11] INFO root fetch - main [MainThread]: Store serial: [22838430]
