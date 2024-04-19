@@ -22049,3 +22049,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:03:14] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-04-19 15:03:14] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-04-19 15:03:14] INFO root fetch - main [MainThread]: Store serial: [22842028]
+[2024-04-19 15:05:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842028]
+[2024-04-19 15:05:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CustomChat
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TokenProbs
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTK-Desert
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluepyemodel
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-aws-native
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flops-utils
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geo-skeletons
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-aws-native
+[2024-04-19 15:05:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: knot-tube
+[2024-04-19 15:05:24] INFO root fetch - processPackages [TokenProbs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [knot-tube]: New version: [0.2] Old Version: [0.1]
+[2024-04-19 15:05:24] WARNING root fetch - processPackages [flops-utils]: Skipping, unable to determine old version
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CustomChat]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-19 15:05:24] INFO root fetch - main [MainThread]: End processing [flops-utils] error
+[2024-04-19 15:05:24] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/f5/3f/552d0f2ca9b5d9b5dee0057724885f844c83896f97bec43eb7c0acfafec1/TokenProbs-0.0.8.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [bluepyemodel]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/fc/12/7bd6100a6df88e394143da7078479c3392196d84447f3592a0d855647f75/CustomChat-1.0.6.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/ae/1c/9a66b9e064763a88e12392ff7254bc1d5a41fd664021437ea9a52d570600/bluepyemodel-0.0.98.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/4a/27/100d5a45336a43fc87e883eb0fe56ed92357a12a4ea0101b0656a348f495/knot_tube-0.1.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/29/ba/735a795841268a89d2be19af5ef66f193d7169a133194e72569ecf328149/TokenProbs-0.0.9.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [TokenProbs]: executing diffoscope
+[2024-04-19 15:05:24] INFO root fetch - processPackages [TokenProbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TokenProbs-0.0.8.tar.gz tmp/TokenProbs-0.0.9.tar.gz --markdown 20240419/T/TokenProbs/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:05:24] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-19 15:05:24] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240419/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/31/fc/7a1216efe443380e54d2c9cc0dc00984c8d8c3e8fe02dd844902d7741a24/CustomChat-1.0.7.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/6d/1b/f3bfb8270d3a7479cf65a1a173217bfec24e986439f684c90d620fcc6834/knot_tube-0.2.tar.gz
+[2024-04-19 15:05:24] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CustomChat]: executing diffoscope
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CustomChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomChat-1.0.6.tar.gz tmp/CustomChat-1.0.7.tar.gz --markdown 20240419/C/CustomChat/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-19 15:05:25] INFO root fetch - processPackages [knot-tube]: executing diffoscope
+[2024-04-19 15:05:25] INFO root fetch - processPackages [knot-tube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knot_tube-0.1.tar.gz tmp/knot_tube-0.2.tar.gz --markdown 20240419/k/knot-tube/0.1-0.2/README.md --exclude *.pyd
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240419/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:05:25] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-19 15:05:25] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240419/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-04-19 15:05:25] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-19 15:05:25] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240419/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-04-19 15:05:25] INFO root fetch - processPackages [bluepyemodel]: Downloading https://files.pythonhosted.org/packages/4f/47/cdb97d873b536d0c711e95e2b3623dd29d62b3dedad06807f9db9e2e1d2c/bluepyemodel-0.0.99.tar.gz
+[2024-04-19 15:05:25] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.8.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.9.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - main [MainThread]: End processing [TokenProbs]: success
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.6.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.7.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - main [MainThread]: End processing [CustomChat]: success
+[2024-04-19 15:05:25] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-19 15:05:25] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.1.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.2.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - main [MainThread]: End processing [knot-tube]: success
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-04-19 15:05:25] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-04-19 15:05:26] INFO root fetch - processPackages [bluepyemodel]: executing diffoscope
+[2024-04-19 15:05:26] INFO root fetch - processPackages [bluepyemodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyemodel-0.0.98.tar.gz tmp/bluepyemodel-0.0.99.tar.gz --markdown 20240419/b/bluepyemodel/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-19 15:05:30] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.98.tar.gz]
+[2024-04-19 15:05:30] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
+[2024-04-19 15:05:30] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
+[2024-04-19 15:05:39] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-04-19 15:05:39] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-04-19 15:05:39] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-19 15:05:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-19 15:05:40] INFO root fetch - main [MainThread]: Store serial: [22842054]
