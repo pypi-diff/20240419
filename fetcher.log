@@ -18604,3 +18604,88 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:40:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240418.tar.gz]
 [2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
 [2024-04-19 12:40:00] INFO root fetch - main [MainThread]: Store serial: [22840368]
+[2024-04-19 12:42:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840368]
+[2024-04-19 12:42:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 12:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resc-backend
+[2024-04-19 12:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymemgpt-nightly
+[2024-04-19 12:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BlizzardWarcraftAPI
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: figeno
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: accusort
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-databricks
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatllm
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qh3
+[2024-04-19 12:42:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chatllm
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [accusort]: New version: [0.3] Old Version: [0.2]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [resc-backend]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [figeno]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/1c/1d/2575968158cf336700add55aaa16618382c49bf9b59562aa3ee4559aaea9/resc_backend-3.0.1.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [BlizzardWarcraftAPI]: New version: [0.2.7.2] Old Version: [0.2.7.1]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [accusort]: Downloading https://files.pythonhosted.org/packages/2a/4a/4fa316e1f723cc0cfcbf1a759b1e14ecba577319fac86252cb84be28d007/accusort-0.2.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [qh3]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.19.18.41.43]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.19.18.41.43]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: New version: [2024.4.3.18.28.17] Old Version: [2024.4.19.18.41.43]
+[2024-04-19 12:42:11] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/96/06/d227a56eb338a570e80f67868a72597e2fb74ddc20f736ff777ba926a8ea/blizzardwarcraftapi-0.2.7.1.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [figeno]: Downloading https://files.pythonhosted.org/packages/98/76/5b3eec446880875bd487f42b519134be5e886e77dd513840888d2e819bff/figeno-1.0.8.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/94/6a/33313fa0e1331c7380acf0ef6b648909416f119fc32e54c4d2a845bad466/chatllm-2024.4.19.18.41.43.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/94/6a/33313fa0e1331c7380acf0ef6b648909416f119fc32e54c4d2a845bad466/chatllm-2024.4.19.18.41.43.tar.gz
+[2024-04-19 12:42:11] WARNING root fetch - processPackages [figeno]: Skipping package: exceeds size limit 14354875>=10485760
+[2024-04-19 12:42:11] INFO root fetch - main [MainThread]: End processing [figeno] error
+[2024-04-19 12:42:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/94/6a/33313fa0e1331c7380acf0ef6b648909416f119fc32e54c4d2a845bad466/chatllm-2024.4.19.18.41.43.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/94/57/904e9a8abcc9013eadff87bb96846a5450cc3836990561067023ab6f8d71/resc_backend-3.0.2-py3-none-any.whl
+[2024-04-19 12:42:11] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/7d/ac/a6f31570f94c4bbdac4b93b05ace94875444f618c4648820d8ce5dbc07d2/qh3-1.0.0.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [accusort]: Downloading https://files.pythonhosted.org/packages/97/e8/6acf7453f263a31c59122e5f5b58dc2d8b4455cbd66c4b73c5b0024399c3/accusort-0.3.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-04-19 12:42:11] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.0.1.tar.gz tmp/resc_backend-3.0.2-py3-none-any.whl.zip --markdown 20240419/r/resc-backend/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-19 12:42:11] INFO root fetch - processPackages [accusort]: executing diffoscope
+[2024-04-19 12:42:11] INFO root fetch - processPackages [accusort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accusort-0.2.tar.gz tmp/accusort-0.3.tar.gz --markdown 20240419/a/accusort/0.2-0.3/README.md --exclude *.pyd
+[2024-04-19 12:42:11] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Downloading https://files.pythonhosted.org/packages/70/99/04359536d21067fa1fd9c5588780beed8300d4ce6cd539defd63d9e0a65e/blizzardwarcraftapi-0.2.7.2.tar.gz
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240419/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-04-19 12:42:11] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240419/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-04-19 12:42:12] INFO root fetch - processPackages [BlizzardWarcraftAPI]: executing diffoscope
+[2024-04-19 12:42:12] INFO root fetch - processPackages [BlizzardWarcraftAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blizzardwarcraftapi-0.2.7.1.tar.gz tmp/blizzardwarcraftapi-0.2.7.2.tar.gz --markdown 20240419/B/BlizzardWarcraftAPI/0.2.7.1-0.2.7.2/README.md --exclude *.pyd
+[2024-04-19 12:42:12] INFO root fetch - processPackages [qh3]: Downloading https://files.pythonhosted.org/packages/45/55/3dda30734ddc57678d316a79fd2ee1910986253f9b7cdc198ce0b8489129/qh3-1.0.1-pp310-pypy310_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/c0/66/70e97afa791a99fbb0077079ce0d33cf70c9260e0f42babeedaeba346800/chatllm-2024.4.3.18.28.17.tar.gz
+[2024-04-19 12:42:12] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.1.tar.gz]
+[2024-04-19 12:42:12] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.2-py3-none-any.whl.zip]
+[2024-04-19 12:42:12] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-04-19 12:42:12] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.7.1.tar.gz]
+[2024-04-19 12:42:12] INFO root fetch - processPackages [BlizzardWarcraftAPI]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.7.2.tar.gz]
+[2024-04-19 12:42:12] INFO root fetch - main [MainThread]: End processing [BlizzardWarcraftAPI]: success
+[2024-04-19 12:42:12] INFO root fetch - processPackages [accusort]: Remove: archive file [/home/abi/fetcher/tmp/accusort-0.2.tar.gz]
+[2024-04-19 12:42:12] INFO root fetch - processPackages [accusort]: Remove: archive file [/home/abi/fetcher/tmp/accusort-0.3.tar.gz]
+[2024-04-19 12:42:12] INFO root fetch - main [MainThread]: End processing [accusort]: success
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.19.18.41.43.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240419/c/chatllm/2024.4.19.18.41.43-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.19.18.41.43.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240419/c/chatllm/2024.4.19.18.41.43-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-04-19 12:42:12] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.4.19.18.41.43.tar.gz tmp/chatllm-2024.4.3.18.28.17.tar.gz --markdown 20240419/c/chatllm/2024.4.19.18.41.43-2024.4.3.18.28.17/README.md --exclude *.pyd
+[2024-04-19 12:42:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-19 12:42:13] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-19 12:42:13] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-19 12:42:13] INFO root fetch - processPackages [qh3]: executing diffoscope
+[2024-04-19 12:42:13] INFO root fetch - processPackages [qh3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qh3-1.0.0.tar.gz tmp/qh3-1.0.1-pp310-pypy310_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl.zip --markdown 20240419/q/qh3/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 12:42:13] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-04-19 12:42:13] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-04-19 12:42:13] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-04-19 12:42:14] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.19.18.41.43.tar.gz]
+[2024-04-19 12:42:14] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.4.3.18.28.17.tar.gz]
+[2024-04-19 12:42:14] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-19 12:42:14] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-19 12:42:14] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-04-19 12:42:14] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.0.tar.gz]
+[2024-04-19 12:42:14] INFO root fetch - processPackages [qh3]: Remove: archive file [/home/abi/fetcher/tmp/qh3-1.0.1-pp310-pypy310_pp73-manylinux_2_17_ppc64.manylinux2014_ppc64.whl.zip]
+[2024-04-19 12:42:14] INFO root fetch - main [MainThread]: End processing [qh3]: success
+[2024-04-19 12:42:14] INFO root fetch - main [MainThread]: Store serial: [22840412]
