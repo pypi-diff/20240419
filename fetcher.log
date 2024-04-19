@@ -19982,3 +19982,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:29:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-19 13:29:26] INFO root fetch - main [MainThread]: Store serial: [22840971]
+[2024-04-19 13:31:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840971]
+[2024-04-19 13:31:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 13:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-19 13:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: f-scheduler
+[2024-04-19 13:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-dev
+[2024-04-19 13:31:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: laser-learning-environment
+[2024-04-19 13:31:35] INFO root fetch - processPackages [eirStru]: New version: [0.3.0] Old Version: [0.2.99]
+[2024-04-19 13:31:35] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 13:31:35] INFO root fetch - processPackages [f-scheduler]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-19 13:31:35] INFO root fetch - processPackages [sbcli-dev]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-19 13:31:35] INFO root fetch - processPackages [laser-learning-environment]: New version: [0.2.5] Old Version: [0.2.2]
+[2024-04-19 13:31:35] INFO root fetch - processPackages [f-scheduler]: Downloading https://files.pythonhosted.org/packages/94/c8/ef2dfbc58e60547d5bb71cfb791524031789b4d726b8b9cec5659f4cff37/f-scheduler-0.1.0.tar.gz
+[2024-04-19 13:31:35] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/63/e8/24ccffda69b1a9b26777e238fc5f2ea2bea44ebe0d71b7a9b8a9aef6c474/sbcli_dev-2.2.7.zip
+[2024-04-19 13:31:35] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/8a/6a/609385daefe13d72e313fdaaa334950e799e0001fb833b7d4bf6b9a2578b/eirStru-0.3.0.tar.gz
+[2024-04-19 13:31:35] INFO root fetch - processPackages [laser-learning-environment]: Downloading https://files.pythonhosted.org/packages/95/ce/3c3b40dcc97d27d6564e61c99afb42027a13e38d758fb9793b86625b8c50/laser_learning_environment-0.2.2.tar.gz
+[2024-04-19 13:31:35] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 13:31:35] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.99.tar.gz tmp/eirStru-0.3.0.tar.gz --markdown 20240419/e/eirStru/0.2.99-0.3.0/README.md --exclude *.pyd
+[2024-04-19 13:31:36] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/15/bf/442ee58a71a27e86b65bd366ea79bfcb80c39fe21b946a4a270913633485/sbcli_dev-2.2.8.zip
+[2024-04-19 13:31:36] INFO root fetch - processPackages [f-scheduler]: Downloading https://files.pythonhosted.org/packages/f1/e9/01ffee9fab83a3f64f2fa1b16740716ef22168d884ceca475f0960e43475/f_scheduler-0.2.0.tar.gz
+[2024-04-19 13:31:36] INFO root fetch - processPackages [f-scheduler]: executing diffoscope
+[2024-04-19 13:31:36] INFO root fetch - processPackages [f-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f-scheduler-0.1.0.tar.gz tmp/f_scheduler-0.2.0.tar.gz --markdown 20240419/f/f-scheduler/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-19 13:31:36] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-19 13:31:36] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_dev-2.2.7.zip tmp/sbcli_dev-2.2.8.zip --markdown 20240419/s/sbcli-dev/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-04-19 13:31:36] INFO root fetch - processPackages [laser-learning-environment]: Downloading https://files.pythonhosted.org/packages/49/0b/e23d2476b043a0b7da9e611ad204ccada93c1e270232507ec72ea0c4fdff/laser_learning_environment-0.2.5-cp311-none-win_amd64.whl
+[2024-04-19 13:31:36] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 13:31:36] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.0.tar.gz]
+[2024-04-19 13:31:36] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 13:31:36] INFO root fetch - processPackages [f-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/f-scheduler-0.1.0.tar.gz]
+[2024-04-19 13:31:36] INFO root fetch - processPackages [f-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/f_scheduler-0.2.0.tar.gz]
+[2024-04-19 13:31:36] INFO root fetch - main [MainThread]: End processing [f-scheduler]: success
+[2024-04-19 13:31:37] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.2.7.zip]
+[2024-04-19 13:31:37] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.2.8.zip]
+[2024-04-19 13:31:37] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-19 13:31:37] INFO root fetch - processPackages [laser-learning-environment]: executing diffoscope
+[2024-04-19 13:31:37] INFO root fetch - processPackages [laser-learning-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laser_learning_environment-0.2.2.tar.gz tmp/laser_learning_environment-0.2.5-cp311-none-win_amd64.whl.zip --markdown 20240419/l/laser-learning-environment/0.2.2-0.2.5/README.md --exclude *.pyd
+[2024-04-19 13:31:37] INFO root fetch - processPackages [laser-learning-environment]: Remove: archive file [/home/abi/fetcher/tmp/laser_learning_environment-0.2.2.tar.gz]
+[2024-04-19 13:31:37] INFO root fetch - processPackages [laser-learning-environment]: Remove: archive file [/home/abi/fetcher/tmp/laser_learning_environment-0.2.5-cp311-none-win_amd64.whl.zip]
+[2024-04-19 13:31:37] INFO root fetch - main [MainThread]: End processing [laser-learning-environment]: success
+[2024-04-19 13:31:37] INFO root fetch - main [MainThread]: Store serial: [22841012]
