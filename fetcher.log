@@ -20905,3 +20905,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:12:21] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
 [2024-04-19 14:12:21] INFO root fetch - main [MainThread]: End processing [schedula]: success
 [2024-04-19 14:12:21] INFO root fetch - main [MainThread]: Store serial: [22841458]
+[2024-04-19 14:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841458]
+[2024-04-19 14:14:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-gmail
+[2024-04-19 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freedata-server
+[2024-04-19 14:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-media-manager
+[2024-04-19 14:14:31] INFO root fetch - processPackages [simple-media-manager]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 14:14:31] INFO root fetch - processPackages [freedata-server]: New version: [0.15.4a4] Old Version: [0.15.4a2]
+[2024-04-19 14:14:31] INFO root fetch - processPackages [simple-media-manager]: Downloading https://files.pythonhosted.org/packages/7d/d3/0d0a225b6dd4fa1e05004326c605f1885fb0c865346546ee018a19c54794/simple_media_manager-0.1.1.tar.gz
+[2024-04-19 14:14:31] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-19 14:14:31] INFO root fetch - processPackages [freedata-server]: Downloading https://files.pythonhosted.org/packages/98/df/a52ea053417ceefc8f0f324cca186d7eb49e980902cd776a8b7cc8c6824c/freedata-server-0.15.4a2.tar.gz
+[2024-04-19 14:14:31] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/b1/9a/7f5930753750319f8e907a8d35cdd224e7e9fa6481275ac7bfa779c5a715/fast_gmail-1.0.5.tar.gz
+[2024-04-19 14:14:31] INFO root fetch - processPackages [simple-media-manager]: Downloading https://files.pythonhosted.org/packages/13/f0/9510cd0d9cd9a2e2ccd7d1224eca432aacf9735e3262c2c03bff9f6d0065/simple_media_manager-0.1.2.tar.gz
+[2024-04-19 14:14:31] INFO root fetch - processPackages [simple-media-manager]: executing diffoscope
+[2024-04-19 14:14:31] INFO root fetch - processPackages [simple-media-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_media_manager-0.1.1.tar.gz tmp/simple_media_manager-0.1.2.tar.gz --markdown 20240419/s/simple-media-manager/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 14:14:31] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/30/b5/73b6f3cfa4e809e8ab55fcb6e824a348a3eb40257304ec6b212f965a59fd/fast_gmail-1.0.6.tar.gz
+[2024-04-19 14:14:32] INFO root fetch - processPackages [freedata-server]: Downloading https://files.pythonhosted.org/packages/c4/17/e305eafe397ef21e58ea948ae8eee1a2d62d1612729e13df71b848c0a52c/freedata-server-0.15.4a4.tar.gz
+[2024-04-19 14:14:32] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-04-19 14:14:32] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.5.tar.gz tmp/fast_gmail-1.0.6.tar.gz --markdown 20240419/f/fast-gmail/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-19 14:14:32] INFO root fetch - processPackages [simple-media-manager]: Remove: archive file [/home/abi/fetcher/tmp/simple_media_manager-0.1.1.tar.gz]
+[2024-04-19 14:14:32] INFO root fetch - processPackages [simple-media-manager]: Remove: archive file [/home/abi/fetcher/tmp/simple_media_manager-0.1.2.tar.gz]
+[2024-04-19 14:14:32] INFO root fetch - main [MainThread]: End processing [simple-media-manager]: success
+[2024-04-19 14:14:32] INFO root fetch - processPackages [freedata-server]: executing diffoscope
+[2024-04-19 14:14:32] INFO root fetch - processPackages [freedata-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedata-server-0.15.4a2.tar.gz tmp/freedata-server-0.15.4a4.tar.gz --markdown 20240419/f/freedata-server/0.15.4a2-0.15.4a4/README.md --exclude *.pyd
+[2024-04-19 14:14:32] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.5.tar.gz]
+[2024-04-19 14:14:32] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.6.tar.gz]
+[2024-04-19 14:14:32] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-04-19 14:14:33] INFO root fetch - processPackages [freedata-server]: Remove: archive file [/home/abi/fetcher/tmp/freedata-server-0.15.4a2.tar.gz]
+[2024-04-19 14:14:33] INFO root fetch - processPackages [freedata-server]: Remove: archive file [/home/abi/fetcher/tmp/freedata-server-0.15.4a4.tar.gz]
+[2024-04-19 14:14:33] INFO root fetch - main [MainThread]: End processing [freedata-server]: success
+[2024-04-19 14:14:33] INFO root fetch - main [MainThread]: Store serial: [22841468]
