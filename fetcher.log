@@ -7250,3 +7250,15 @@
 [2024-04-19 03:50:13] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.4.3.tar.gz]
 [2024-04-19 03:50:13] INFO root fetch - main [MainThread]: End processing [cvxpy]: success
 [2024-04-19 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22835476]
+[2024-04-19 03:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835476]
+[2024-04-19 03:52:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 03:52:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvxpy-base
+[2024-04-19 03:52:22] INFO root fetch - processPackages [cvxpy-base]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-19 03:52:22] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/02/96/9b15df4809cc34914a2edb3a3854d71679223f05e33748325a95a2876477/cvxpy-base-1.4.2.tar.gz
+[2024-04-19 03:52:23] INFO root fetch - processPackages [cvxpy-base]: Downloading https://files.pythonhosted.org/packages/74/2c/a9383d44c226322ef79feb8402645c650fb20bd8d0839678855f55d21d7b/cvxpy_base-1.4.3.tar.gz
+[2024-04-19 03:52:23] INFO root fetch - processPackages [cvxpy-base]: executing diffoscope
+[2024-04-19 03:52:23] INFO root fetch - processPackages [cvxpy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy-base-1.4.2.tar.gz tmp/cvxpy_base-1.4.3.tar.gz --markdown 20240419/c/cvxpy-base/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-19 03:52:26] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-base-1.4.2.tar.gz]
+[2024-04-19 03:52:26] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.4.3.tar.gz]
+[2024-04-19 03:52:26] INFO root fetch - main [MainThread]: End processing [cvxpy-base]: success
+[2024-04-19 03:52:26] INFO root fetch - main [MainThread]: Store serial: [22835482]
