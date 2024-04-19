@@ -17742,3 +17742,78 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:06:52] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.1.tar.gz]
 [2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [pymrm]: success
 [2024-04-19 12:06:52] INFO root fetch - main [MainThread]: Store serial: [22840022]
+[2024-04-19 12:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840022]
+[2024-04-19 12:09:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dve-lumipy-testing
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tufup
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ado_wrapper
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aruba-dero
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chamco-ragbot
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gender-local
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keanu-etl
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prominence-delineator
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ado_wrapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [prominence-delineator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [gender-local]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [tufup]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/ae/93/2582757eb1f02dd63f51665360e797a68bd81ea0981e79af0c4651fe9434/ado_wrapper-1.1.0.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [keanu-etl]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [aruba-dero]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 12:09:13] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-04-19 12:09:13] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/4f/9e/cbaa6ba70dbde175a718c654321ca9c97dd1b198b1aeb14f796066323a12/prominence-delineator-0.0.1.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [gender-local]: Downloading https://files.pythonhosted.org/packages/a1/de/8d9d5d589f03d12887847e12e1c9e846908ef406975dec20e9c48ed4edca/gender_local-0.0.7.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [tufup]: Downloading https://files.pythonhosted.org/packages/56/c8/f94b93ad67a854ae949ff77e0c15f0c943297c7b8699e10c803bd8a159a5/tufup-0.7.1.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/47/9f/7f568b89e85f34b1df26a1269f16cefbf961d8fb765ab28b1943f15f23de/aruba_dero-1.0.4.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [keanu-etl]: Downloading https://files.pythonhosted.org/packages/ee/06/b8139bf8a114998cbc93f28e60dab162874ec6f6236075f77c2ccc134739/keanu_etl-0.5.2-py3-none-any.whl
+[2024-04-19 12:09:13] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/8d/cf/1f9d5f91165fbba36939edef74c0dc05abb87538f073db2c984a542c1c7f/prominence_delineator-0.0.2-py3-none-any.whl
+[2024-04-19 12:09:13] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/8d/63/43ce663317af71c7175545ead868c6f74b827db2be0b8e39c04c844efbe1/ado_wrapper-1.1.1.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-04-19 12:09:13] INFO root fetch - processPackages [gender-local]: Downloading https://files.pythonhosted.org/packages/9c/15/a6d8f6a96644d20f7f6f7c5c5a34bb7ede86faa474f512a4cada9825e9d2/gender_local-0.0.8.tar.gz
+[2024-04-19 12:09:13] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 12:09:13] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:09:13] INFO root fetch - processPackages [prominence-delineator]: executing diffoscope
+[2024-04-19 12:09:13] INFO root fetch - processPackages [prominence-delineator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prominence-delineator-0.0.1.tar.gz tmp/prominence_delineator-0.0.2-py3-none-any.whl.zip --markdown 20240419/p/prominence-delineator/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [gender-local]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [gender-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender_local-0.0.7.tar.gz tmp/gender_local-0.0.8.tar.gz --markdown 20240419/g/gender-local/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.1.0.tar.gz tmp/ado_wrapper-1.1.1.tar.gz --markdown 20240419/a/ado_wrapper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/f4/30/7fcb2fda70f4bfd99d32478335a9002b4ec1822d2cb0a833eb2a70a55f1f/aruba_dero-1.0.5.tar.gz
+[2024-04-19 12:09:14] INFO root fetch - processPackages [tufup]: Downloading https://files.pythonhosted.org/packages/44/67/d72e0ed3488097f76c7f6d0934b568f17b01613711ad7cef37587794c5d6/tufup-0.8.0.tar.gz
+[2024-04-19 12:09:14] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240419/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [keanu-etl]: Downloading https://files.pythonhosted.org/packages/2b/67/9af19ba25e30489489e5df33ecad07b8c60f22a2fe19774518e1b90ae9ae/keanu_etl-0.6.0-py3-none-any.whl
+[2024-04-19 12:09:14] INFO root fetch - processPackages [aruba-dero]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [aruba-dero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruba_dero-1.0.4.tar.gz tmp/aruba_dero-1.0.5.tar.gz --markdown 20240419/a/aruba-dero/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [tufup]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [tufup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tufup-0.7.1.tar.gz tmp/tufup-0.8.0.tar.gz --markdown 20240419/t/tufup/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [keanu-etl]: executing diffoscope
+[2024-04-19 12:09:14] INFO root fetch - processPackages [keanu-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keanu_etl-0.5.2-py3-none-any.whl.zip tmp/keanu_etl-0.6.0-py3-none-any.whl.zip --markdown 20240419/k/keanu-etl/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-19 12:09:14] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence-delineator-0.0.1.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.2-py3-none-any.whl.zip]
+[2024-04-19 12:09:14] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
+[2024-04-19 12:09:14] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 12:09:14] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.4.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.5.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - main [MainThread]: End processing [aruba-dero]: success
+[2024-04-19 12:09:14] INFO root fetch - processPackages [gender-local]: Remove: archive file [/home/abi/fetcher/tmp/gender_local-0.0.7.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - processPackages [gender-local]: Remove: archive file [/home/abi/fetcher/tmp/gender_local-0.0.8.tar.gz]
+[2024-04-19 12:09:14] INFO root fetch - main [MainThread]: End processing [gender-local]: success
+[2024-04-19 12:09:15] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.0.tar.gz]
+[2024-04-19 12:09:15] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.1.tar.gz]
+[2024-04-19 12:09:15] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-04-19 12:09:15] INFO root fetch - processPackages [tufup]: Remove: archive file [/home/abi/fetcher/tmp/tufup-0.7.1.tar.gz]
+[2024-04-19 12:09:15] INFO root fetch - processPackages [tufup]: Remove: archive file [/home/abi/fetcher/tmp/tufup-0.8.0.tar.gz]
+[2024-04-19 12:09:15] INFO root fetch - main [MainThread]: End processing [tufup]: success
+[2024-04-19 12:09:15] INFO root fetch - processPackages [keanu-etl]: Remove: archive file [/home/abi/fetcher/tmp/keanu_etl-0.5.2-py3-none-any.whl.zip]
+[2024-04-19 12:09:15] INFO root fetch - processPackages [keanu-etl]: Remove: archive file [/home/abi/fetcher/tmp/keanu_etl-0.6.0-py3-none-any.whl.zip]
+[2024-04-19 12:09:15] INFO root fetch - main [MainThread]: End processing [keanu-etl]: success
+[2024-04-19 12:09:15] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 12:09:15] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 12:09:15] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-19 12:09:15] INFO root fetch - main [MainThread]: Store serial: [22840052]
