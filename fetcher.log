@@ -17151,3 +17151,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2024-04-19 11:47:43] INFO root fetch - main [MainThread]: End processing [mapget] error
 [2024-04-19 11:47:43] INFO root fetch - main [MainThread]: Store serial: [22839764]
+[2024-04-19 11:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839764]
+[2024-04-19 11:50:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 11:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaoranli
+[2024-04-19 11:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: common-tools-ai-bnq
+[2024-04-19 11:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udata
+[2024-04-19 11:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: whyis-activitystreams
+[2024-04-19 11:50:00] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-19 11:50:00] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.31]
+[2024-04-19 11:50:00] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 11:50:00] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/5f/41/b099d84166c766416ff6df24f4e0109b0af9364053cb0aa9e9ad936df671/whyis_activitystreams-0.0.9.tar.gz
+[2024-04-19 11:50:01] INFO root fetch - processPackages [udata]: New version: [7.0.8.dev28810] Old Version: [7.0.8.dev28762]
+[2024-04-19 11:50:01] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/9e/6c/1d59fd1b144f0d647d060cb0ccfe99834d7ba87722ced3325ead20e7961e/xiaoranli-0.7.31-py3-none-any.whl
+[2024-04-19 11:50:01] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/af/5a/f74fa56fa7a84be5862270fbd829a9f3a87ff17ddbb639f0a6d1e98acb9d/common-tools-ai-bnq-0.0.3.tar.gz
+[2024-04-19 11:50:01] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ba/ba/591d67d038de945b5c46bffaaffea31dd4309caddd9852b929c389e2ba78/udata-7.0.8.dev28762-py2.py3-none-any.whl
+[2024-04-19 11:50:01] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/b1/7b/d6596c6ad2242c45e5a3ba60208d423c1d29c5c998b191beff0c0d7e23b5/whyis_activitystreams-0.1.0.tar.gz
+[2024-04-19 11:50:01] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777827>=10485760
+[2024-04-19 11:50:01] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-19 11:50:01] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 11:50:01] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis_activitystreams-0.0.9.tar.gz tmp/whyis_activitystreams-0.1.0.tar.gz --markdown 20240419/w/whyis-activitystreams/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-19 11:50:01] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/ce/ea/e39c250852b3d6a450848b3debcaab3cf1ff3b584fe69a87b40b0237253c/common-tools-ai-bnq-0.0.4.tar.gz
+[2024-04-19 11:50:01] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-04-19 11:50:01] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.0.3.tar.gz tmp/common-tools-ai-bnq-0.0.4.tar.gz --markdown 20240419/c/common-tools-ai-bnq/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 11:50:01] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-19 11:50:01] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-19 11:50:01] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.31-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240419/x/xiaoranli/0.7.31-0.7.8/README.md --exclude *.pyd
+[2024-04-19 11:50:02] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.0.9.tar.gz]
+[2024-04-19 11:50:02] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.1.0.tar.gz]
+[2024-04-19 11:50:02] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 11:50:02] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.0.3.tar.gz]
+[2024-04-19 11:50:02] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.0.4.tar.gz]
+[2024-04-19 11:50:02] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-04-19 11:50:03] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.31-py3-none-any.whl.zip]
+[2024-04-19 11:50:03] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-19 11:50:03] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-19 11:50:03] INFO root fetch - main [MainThread]: Store serial: [22839776]
