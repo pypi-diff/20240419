@@ -2949,3 +2949,30 @@
 [2024-04-19 02:55:44] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-19 02:55:44] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-04-19 02:55:44] INFO root fetch - main [MainThread]: Store serial: [22833912]
+[2024-04-19 02:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833912]
+[2024-04-19 02:57:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 02:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es-wait
+[2024-04-19 02:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astx
+[2024-04-19 02:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-04-19 02:57:53] INFO root fetch - processPackages [astx]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 02:57:53] INFO root fetch - processPackages [es-wait]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 02:57:53] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev877] Old Version: [0.3.1.dev874]
+[2024-04-19 02:57:53] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/de/a6/dc5f35467e6a80420ab9e591583b7bca2f3f0acc9a330bee84ba845c6cb1/es_wait-0.1.0.tar.gz
+[2024-04-19 02:57:53] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/31/0e/4804dbbc6714313cff3eb17ebe9c35dcaef7828f7f1f3c4331bf8e0a4f65/astx-0.9.0.tar.gz
+[2024-04-19 02:57:53] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/13/f8/5cfb475c55d0abf2aa07a6807fc71527e9fe94bc5e6064eef5a7d18faee1/pycde-0.3.1.dev874-cp39-cp39-win_amd64.whl
+[2024-04-19 02:57:53] INFO root fetch - processPackages [es-wait]: Downloading https://files.pythonhosted.org/packages/f9/7f/a3f6dbba2b551886ef1c596903f2576539f493e933d49f240d85eee42e88/es_wait-0.1.1.tar.gz
+[2024-04-19 02:57:53] INFO root fetch - processPackages [es-wait]: executing diffoscope
+[2024-04-19 02:57:53] INFO root fetch - processPackages [es-wait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_wait-0.1.0.tar.gz tmp/es_wait-0.1.1.tar.gz --markdown 20240419/e/es-wait/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 02:57:53] INFO root fetch - processPackages [astx]: Downloading https://files.pythonhosted.org/packages/2f/78/69527dee0e3b550af8130d584921b500bd800460e0009cfb2352c6babcd3/astx-0.9.1.tar.gz
+[2024-04-19 02:57:54] INFO root fetch - processPackages [astx]: executing diffoscope
+[2024-04-19 02:57:54] INFO root fetch - processPackages [astx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astx-0.9.0.tar.gz tmp/astx-0.9.1.tar.gz --markdown 20240419/a/astx/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 02:57:54] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/ff/db/ef0bd9fb9c79c38580404e000a4b94fb0a9d18fd291456c2655b5cebf86a/pycde-0.3.1.dev877-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 02:57:54] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21263899>=10485760
+[2024-04-19 02:57:54] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-19 02:57:54] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.1.0.tar.gz]
+[2024-04-19 02:57:54] INFO root fetch - processPackages [es-wait]: Remove: archive file [/home/abi/fetcher/tmp/es_wait-0.1.1.tar.gz]
+[2024-04-19 02:57:54] INFO root fetch - main [MainThread]: End processing [es-wait]: success
+[2024-04-19 02:57:54] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.0.tar.gz]
+[2024-04-19 02:57:54] INFO root fetch - processPackages [astx]: Remove: archive file [/home/abi/fetcher/tmp/astx-0.9.1.tar.gz]
+[2024-04-19 02:57:54] INFO root fetch - main [MainThread]: End processing [astx]: success
+[2024-04-19 02:57:54] INFO root fetch - main [MainThread]: Store serial: [22833923]
