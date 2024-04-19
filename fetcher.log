@@ -15497,3 +15497,144 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:04:19] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro_tiptop-1.3.9.tar.gz]
 [2024-04-19 11:04:19] INFO root fetch - main [MainThread]: End processing [astro-tiptop]: success
 [2024-04-19 11:04:19] INFO root fetch - main [MainThread]: Store serial: [22839174]
+[2024-04-19 11:06:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839174]
+[2024-04-19 11:06:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.common
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bec-ipython-client
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bec-lib
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bec-server
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-bec-e2e
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.features
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-neat
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codedepot-depot
+[2024-04-19 11:06:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.tabular
+[2024-04-19 11:06:28] WARNING root fetch - processPackages [pytest-bec-e2e]: Skipping, unable to determine old version
+[2024-04-19 11:06:28] INFO root fetch - processPackages [pytest-bec-e2e]: Start processing: armonik
+[2024-04-19 11:06:28] INFO root fetch - main [MainThread]: End processing [pytest-bec-e2e] error
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240419] Old Version: [1.1.1b20240418]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-lib]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-server]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [cognite-neat]: New version: [0.73.2] Old Version: [0.73.1]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/fe/9c/e91406805963d202c7d1204ef81465f76771275324804af1dc21f46fed92/autogluon.common-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2024-04-19 11:06:28] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/57/91/379534c81ffbcacda4d9d1eef01e18019e9e886192bfffe30bd2ccdc7a7d/codedepot_depot-0.0.3.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/4e/96/ad67e0840c373ee9013eb87807900f1ea67bb61d34ae9deb56640ae992a5/bec_ipython_client-2.5.0.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a7/b5/616a59798128ad4636c10211eede6bb4782bc389073d7d32ca02a365b1d6/autogluon.tabular-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/af/70/81d684d209b34a8c6b791e4ed07e0b66bcc877d74203330d0ac2893b4f33/autogluon.core-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/26/e5/995d80682a8828920bde330cdb95a834c183eea039393be2c984ba4ee46c/autogluon.features-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/bf/52/7a53b72d8a4384e44e3433e554a4322806f394aed0b8c8fdd40e79562343/bec_lib-2.4.2.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/50/5a/9fa13e3095571fa18ceabd3348ef7611320a5a3feaa506768374f8fc245d/bec-server-2.4.2.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/8d/7f/0734785d231b6173baa85ed0c3aa7675aeca4437b4896bde428b1df1b7cd/cognite_neat-0.73.1.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2024-04-19 11:06:28] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/b3/7a/6528b361bbd1d62a6bfaf4afd42e7ee109fa4dadcb0eac0016806e30900f/codedepot_depot-0.0.4.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/66/bd/ad7bcaf403a8335f0c215b96d776e6cb273e9a5d3e27a11711cb7d2684f7/autogluon.common-1.1.1b20240419.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/20/c9/a584737beed31d18009c23d30ad5beb8ac437d4447f93a2334d395ba839c/autogluon.core-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/53/e0/30b1a3580fea404252996ab82fe5ecda4cdde6ba9acd56d12cbe313718b1/bec_ipython_client-2.6.0.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/fd/8a/6ccca016c83807b6e1a949f95175ee99f7036eb3fd1b07e5026830a5074d/bec_lib-2.5.0.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.3.tar.gz tmp/codedepot_depot-0.0.4.tar.gz --markdown 20240419/c/codedepot-depot/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/eb/7a/f421fa2f27345c86a6080c3263e2d6e623e98f1a02244d563cc2c7e160b9/bec_server-2.5.0.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/c8/d5/bb9d1490b6929208b85c003a994fe2bfb73fd790d05e004af3e74e27055f/autogluon.tabular-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240418.tar.gz tmp/autogluon.common-1.1.1b20240419.tar.gz --markdown 20240419/a/autogluon.common/1.1.1b20240418-1.1.1b20240419/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/6e/3d/0efb038f4660893d91dcbad7d5ebfd7870cd435930efddc67b6617593817/autogluon.features-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240417.tar.gz tmp/autogluon.core-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.core/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.4.2.tar.gz tmp/bec_lib-2.5.0.tar.gz --markdown 20240419/b/bec-lib/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-2.4.2.tar.gz tmp/bec_server-2.5.0.tar.gz --markdown 20240419/b/bec-server/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.5.0.tar.gz tmp/bec_ipython_client-2.6.0.tar.gz --markdown 20240419/b/bec-ipython-client/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.0b20240417.tar.gz tmp/autogluon.tabular-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.tabular/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.0b20240417.tar.gz tmp/autogluon.features-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.features/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/18/3b/4492482164e61db3986f0e7707e7f8bb5ac765176870a32a91ca0d51d5e0/cognite_neat-0.73.2.tar.gz
+[2024-04-19 11:06:29] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20240419/a/armonik/3.9.3.dev627-3.9.3.dev630/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-19 11:06:29] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.73.1.tar.gz tmp/cognite_neat-0.73.2.tar.gz --markdown 20240419/c/cognite-neat/0.73.1-0.73.2/README.md --exclude *.pyd
+[2024-04-19 11:06:29] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.3.tar.gz]
+[2024-04-19 11:06:29] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.4.tar.gz]
+[2024-04-19 11:06:29] INFO root fetch - processPackages [codedepot-depot]: Start processing: autogluon.multimodal
+[2024-04-19 11:06:29] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-19 11:06:29] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/f0/2b/fd09de7faacb135e7a010dcba42972871f7d9f5e32fa8186744ec9a864dd/autogluon.multimodal-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240419.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.timeseries
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.5.0.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.6.0.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-ipython-client]: Start processing: autogluon
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/af/55/d2025e2f686af5a11da9c01135bd2b737af094812a01f8a4cf1f15ba62b2/autogluon.timeseries-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.core]: Start processing: CMDHelpMeTool
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.features]: Start processing: eirStru
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.2.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.5.0.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.4.2.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec_server-2.5.0.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/b9/9f/5f921fdfe5b5a97c26ba0e88dc6f83ddded1c626b811461def9daab135f8/autogluon.multimodal-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/8c/bc/7e879e752cfae5b340de11082fe4315d62187d3646e228a695d3a24a26a8/autogluon-1.1.0b20240417.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/5f/f5/aea31df13855e99681d3f145315d1b7b96aa3cee7f58457158615e17acab/CMDHelpMeTool-0.3.1.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2024-04-19 11:06:30] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.0b20240417.tar.gz tmp/autogluon.multimodal-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.multimodal/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/d6/79/813c371e4f63074a4043cd786af7f96801b5f082829fcb0514f14b6cf0fe/autogluon.timeseries-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.0b20240417.tar.gz tmp/autogluon.timeseries-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.timeseries/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:30] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/68/8c/5b85f4c4506d77b26e69d064b6a0f7b2f184a0dbfe11c4bfc1ba4425fb91/autogluon-1.1.1b20240418.tar.gz
+[2024-04-19 11:06:30] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 11:06:30] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 11:06:30] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/85/bf/76c672bc7628b5d1c089e1c09242a6242c142a7be4ef461bbd67103b5e13/CMDHelpMeTool-0.3.2.tar.gz
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.0b20240417.tar.gz tmp/autogluon-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:06:31] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 11:06:31] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.3.1.tar.gz tmp/CMDHelpMeTool-0.3.2.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-19 11:06:31] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-19 11:06:31] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.3.1.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.3.2.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.0b20240417.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240418.tar.gz]
+[2024-04-19 11:06:31] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-19 11:06:33] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.1.tar.gz]
+[2024-04-19 11:06:33] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.2.tar.gz]
+[2024-04-19 11:06:33] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-19 11:06:33] INFO root fetch - main [MainThread]: Store serial: [22839220]
