@@ -14613,3 +14613,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:34:11] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.4.19.tar.gz]
 [2024-04-19 10:34:11] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
 [2024-04-19 10:34:11] INFO root fetch - main [MainThread]: Store serial: [22838779]
+[2024-04-19 10:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838779]
+[2024-04-19 10:36:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypatorch
+[2024-04-19 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wei-office-simptool
+[2024-04-19 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ffmpeg-media-type
+[2024-04-19 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jodium
+[2024-04-19 10:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemoi-utils
+[2024-04-19 10:36:19] WARNING root fetch - processPackages [wei-office-simptool]: Skipping, unable to determine old version
+[2024-04-19 10:36:19] INFO root fetch - main [MainThread]: End processing [wei-office-simptool] error
+[2024-04-19 10:36:20] INFO root fetch - processPackages [ffmpeg-media-type]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 10:36:20] INFO root fetch - processPackages [anemoi-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 10:36:20] INFO root fetch - processPackages [hypatorch]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:36:20] WARNING root fetch - processPackages [jodium]: Skipping, unable to determine old version
+[2024-04-19 10:36:20] INFO root fetch - main [MainThread]: End processing [jodium] error
+[2024-04-19 10:36:20] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/f3/d9/c12a5a02eb332ad61a937c63834badc97bbb6c94c82a0876188fefd40f69/anemoi-utils-0.1.2.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/7e/8d/ad8c53c472f2837da406a3b24a517ee90b44ebfaccd1b6e3fafaebed1577/ffmpeg_media_type-1.0.0.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/0d/2d/0fa5b24e7109f6373e6f37970160deb67e911342bf09bea261a454470723/hypatorch-0.2.8.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [anemoi-utils]: Downloading https://files.pythonhosted.org/packages/ee/25/bc38e1f436ae73f71c4339096621c02c402defc9f3da982f7db0efc47283/anemoi-utils-0.1.3.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [hypatorch]: Downloading https://files.pythonhosted.org/packages/b5/f8/6d4d62c50691058b4f141658ee7a20aca4a4f9963702b8e3b28f525a6c0f/hypatorch-0.2.9.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [ffmpeg-media-type]: Downloading https://files.pythonhosted.org/packages/f7/b0/90a96f8c09fdd9ca73e863bf16bb154bfc78d9641d1dd71c41e53ed5a9e6/ffmpeg_media_type-1.0.1.tar.gz
+[2024-04-19 10:36:20] INFO root fetch - processPackages [hypatorch]: executing diffoscope
+[2024-04-19 10:36:20] INFO root fetch - processPackages [hypatorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypatorch-0.2.8.tar.gz tmp/hypatorch-0.2.9.tar.gz --markdown 20240419/h/hypatorch/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:36:20] INFO root fetch - processPackages [anemoi-utils]: executing diffoscope
+[2024-04-19 10:36:20] INFO root fetch - processPackages [anemoi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemoi-utils-0.1.2.tar.gz tmp/anemoi-utils-0.1.3.tar.gz --markdown 20240419/a/anemoi-utils/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 10:36:20] INFO root fetch - processPackages [ffmpeg-media-type]: executing diffoscope
+[2024-04-19 10:36:20] INFO root fetch - processPackages [ffmpeg-media-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg_media_type-1.0.0.tar.gz tmp/ffmpeg_media_type-1.0.1.tar.gz --markdown 20240419/f/ffmpeg-media-type/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 10:36:21] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.8.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - processPackages [hypatorch]: Remove: archive file [/home/abi/fetcher/tmp/hypatorch-0.2.9.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - main [MainThread]: End processing [hypatorch]: success
+[2024-04-19 10:36:21] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-utils-0.1.2.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - processPackages [anemoi-utils]: Remove: archive file [/home/abi/fetcher/tmp/anemoi-utils-0.1.3.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - main [MainThread]: End processing [anemoi-utils]: success
+[2024-04-19 10:36:21] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.0.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.1.tar.gz]
+[2024-04-19 10:36:21] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
+[2024-04-19 10:36:21] INFO root fetch - main [MainThread]: Store serial: [22838799]
