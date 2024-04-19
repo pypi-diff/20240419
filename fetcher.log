@@ -2727,3 +2727,17 @@
 [2024-04-19 02:35:55] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
 [2024-04-19 02:35:55] INFO root fetch - main [MainThread]: End processing [fastapi]: success
 [2024-04-19 02:35:55] INFO root fetch - main [MainThread]: Store serial: [22833804]
+[2024-04-19 02:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833804]
+[2024-04-19 02:38:03] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 02:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833804]
+[2024-04-19 02:40:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 02:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-19 02:40:09] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-19 02:40:09] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-19 02:40:09] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-19 02:40:09] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-19 02:40:09] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240419/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-19 02:40:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-19 02:40:10] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-19 02:40:10] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-19 02:40:10] INFO root fetch - main [MainThread]: Store serial: [22833806]
