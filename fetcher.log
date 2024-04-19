@@ -2679,3 +2679,51 @@
 [2024-04-19 02:33:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-19 02:33:37] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-19 02:33:37] INFO root fetch - main [MainThread]: Store serial: [22833790]
+[2024-04-19 02:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833790]
+[2024-04-19 02:35:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 02:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-19 02:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbon-python-sdk
+[2024-04-19 02:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi
+[2024-04-19 02:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neurosym
+[2024-04-19 02:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamapp
+[2024-04-19 02:35:45] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-19 02:35:45] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-19 02:35:45] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 02:35:45] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 02:35:45] INFO root fetch - processPackages [streamapp]: New version: [0.0.11] Old Version: [0.0.10]
+[2024-04-19 02:35:45] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [streamapp]: Downloading https://files.pythonhosted.org/packages/95/09/1f2db6eecfdf5460382a1c0ba283fec2c7444582d5bf35200b14d98f7aef/streamapp-0.0.10.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-19 02:35:46] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240419/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-19 02:35:46] INFO root fetch - processPackages [streamapp]: Downloading https://files.pythonhosted.org/packages/fe/d6/0de62e051c522241f7a1bdaa38c57c4a92b2388f29fd1cffbeb17d0d4699/streamapp-0.0.11.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-04-19 02:35:46] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-04-19 02:35:46] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240419/n/neurosym/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 02:35:46] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-04-19 02:35:46] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240419/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 02:35:46] INFO root fetch - processPackages [streamapp]: executing diffoscope
+[2024-04-19 02:35:46] INFO root fetch - processPackages [streamapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamapp-0.0.10.tar.gz tmp/streamapp-0.0.11.tar.gz --markdown 20240419/s/streamapp/0.0.10-0.0.11/README.md --exclude *.pyd
+[2024-04-19 02:35:47] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-19 02:35:47] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-19 02:35:47] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-04-19 02:35:47] INFO root fetch - processPackages [streamapp]: Remove: archive file [/home/abi/fetcher/tmp/streamapp-0.0.10.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - processPackages [streamapp]: Remove: archive file [/home/abi/fetcher/tmp/streamapp-0.0.11.tar.gz]
+[2024-04-19 02:35:47] INFO root fetch - main [MainThread]: End processing [streamapp]: success
+[2024-04-19 02:35:48] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-19 02:35:48] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240419/f/fastapi/0.99.0-0.99.1/README.md --exclude *.pyd
+[2024-04-19 02:35:49] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-04-19 02:35:49] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-04-19 02:35:49] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-04-19 02:35:55] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-19 02:35:55] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-19 02:35:55] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-19 02:35:55] INFO root fetch - main [MainThread]: Store serial: [22833804]
