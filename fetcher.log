@@ -7025,3 +7025,27 @@
 [2024-04-19 03:34:55] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
 [2024-04-19 03:34:55] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-04-19 03:34:55] INFO root fetch - main [MainThread]: Store serial: [22835413]
+[2024-04-19 03:36:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835413]
+[2024-04-19 03:37:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 03:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mov-cli
+[2024-04-19 03:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sedeuce
+[2024-04-19 03:37:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wei-office-simptool
+[2024-04-19 03:37:04] WARNING root fetch - processPackages [wei-office-simptool]: Skipping, unable to determine old version
+[2024-04-19 03:37:04] INFO root fetch - processPackages [sedeuce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 03:37:04] INFO root fetch - main [MainThread]: End processing [wei-office-simptool] error
+[2024-04-19 03:37:04] INFO root fetch - processPackages [mov-cli]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-04-19 03:37:04] INFO root fetch - processPackages [sedeuce]: Downloading https://files.pythonhosted.org/packages/cd/ea/98353e714380416e43cccb1e77d37820d46f1c6b220773563bb322f393fb/sedeuce-1.0.8.tar.gz
+[2024-04-19 03:37:04] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/30/1e/4df7573cc708e42197fd3cc7889ca4736057a500c3e8a5d77a964c8329ae/mov-cli-4.3.0.tar.gz
+[2024-04-19 03:37:04] INFO root fetch - processPackages [sedeuce]: Downloading https://files.pythonhosted.org/packages/be/f0/1d11c90accc22b1a0814d5e7d7f5904e3b3c6139633b4c18b82920b22b98/sedeuce-1.0.9.tar.gz
+[2024-04-19 03:37:04] INFO root fetch - processPackages [mov-cli]: Downloading https://files.pythonhosted.org/packages/42/52/8f7e55a29c4cd147dfb9df1e91218d94ef1b47230a34b980c36720fcd860/mov_cli-4.3.1.tar.gz
+[2024-04-19 03:37:04] INFO root fetch - processPackages [sedeuce]: executing diffoscope
+[2024-04-19 03:37:04] INFO root fetch - processPackages [sedeuce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedeuce-1.0.8.tar.gz tmp/sedeuce-1.0.9.tar.gz --markdown 20240419/s/sedeuce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 03:37:04] INFO root fetch - processPackages [mov-cli]: executing diffoscope
+[2024-04-19 03:37:04] INFO root fetch - processPackages [mov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mov-cli-4.3.0.tar.gz tmp/mov_cli-4.3.1.tar.gz --markdown 20240419/m/mov-cli/4.3.0-4.3.1/README.md --exclude *.pyd
+[2024-04-19 03:37:05] INFO root fetch - processPackages [sedeuce]: Remove: archive file [/home/abi/fetcher/tmp/sedeuce-1.0.8.tar.gz]
+[2024-04-19 03:37:05] INFO root fetch - processPackages [sedeuce]: Remove: archive file [/home/abi/fetcher/tmp/sedeuce-1.0.9.tar.gz]
+[2024-04-19 03:37:05] INFO root fetch - main [MainThread]: End processing [sedeuce]: success
+[2024-04-19 03:37:05] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov-cli-4.3.0.tar.gz]
+[2024-04-19 03:37:05] INFO root fetch - processPackages [mov-cli]: Remove: archive file [/home/abi/fetcher/tmp/mov_cli-4.3.1.tar.gz]
+[2024-04-19 03:37:05] INFO root fetch - main [MainThread]: End processing [mov-cli]: success
+[2024-04-19 03:37:05] INFO root fetch - main [MainThread]: Store serial: [22835421]
