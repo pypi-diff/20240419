@@ -8022,3 +8022,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:45:09] INFO root fetch - processPackages [wtfis]: Remove: archive file [/home/abi/fetcher/tmp/wtfis-0.9.0.tar.gz]
 [2024-04-19 04:45:09] INFO root fetch - main [MainThread]: End processing [wtfis]: success
 [2024-04-19 04:45:09] INFO root fetch - main [MainThread]: Store serial: [22835885]
+[2024-04-19 04:47:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835885]
+[2024-04-19 04:47:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 04:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-19 04:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goose-checker
+[2024-04-19 04:47:18] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-19 04:47:18] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-19 04:47:18] INFO root fetch - processPackages [goose-checker]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 04:47:18] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/af/d3/659f3be26da2c3f6b0247106a08740060abd077cbb9b57d502fd04209bc7/goose_checker-0.0.7.tar.gz
+[2024-04-19 04:47:18] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-19 04:47:18] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-19 04:47:18] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240419/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-19 04:47:18] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/f0/89/330075524d8da0478da1d1461ee0391e9899437ebe826101f0b7209aa7f2/goose_checker-0.0.8.tar.gz
+[2024-04-19 04:47:18] INFO root fetch - processPackages [goose-checker]: executing diffoscope
+[2024-04-19 04:47:18] INFO root fetch - processPackages [goose-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goose_checker-0.0.7.tar.gz tmp/goose_checker-0.0.8.tar.gz --markdown 20240419/g/goose-checker/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 04:47:19] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.7.tar.gz]
+[2024-04-19 04:47:19] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.8.tar.gz]
+[2024-04-19 04:47:19] INFO root fetch - main [MainThread]: End processing [goose-checker]: success
+[2024-04-19 04:47:19] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-19 04:47:19] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-19 04:47:19] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-19 04:47:19] INFO root fetch - main [MainThread]: Store serial: [22835891]
