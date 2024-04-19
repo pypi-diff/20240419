@@ -7338,3 +7338,21 @@
 [2024-04-19 03:58:58] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
 [2024-04-19 03:58:58] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
 [2024-04-19 03:58:58] INFO root fetch - main [MainThread]: Store serial: [22835534]
+[2024-04-19 04:01:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835534]
+[2024-04-19 04:01:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cler
+[2024-04-19 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loggus
+[2024-04-19 04:01:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypacgen
+[2024-04-19 04:01:07] WARNING root fetch - processPackages [cler]: Skipping, unable to determine old version
+[2024-04-19 04:01:07] INFO root fetch - main [MainThread]: End processing [cler] error
+[2024-04-19 04:01:07] WARNING root fetch - processPackages [pypacgen]: Skipping, unable to determine old version
+[2024-04-19 04:01:07] INFO root fetch - main [MainThread]: End processing [pypacgen] error
+[2024-04-19 04:01:07] INFO root fetch - processPackages [loggus]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 04:01:07] INFO root fetch - processPackages [loggus]: Downloading https://files.pythonhosted.org/packages/f9/6b/7777c491f47ff2bba524475c98d3b39d782266cf4bdc6a3236438807d3b1/loggus-0.1.1.tar.gz
+[2024-04-19 04:01:08] INFO root fetch - processPackages [loggus]: Downloading https://files.pythonhosted.org/packages/44/ee/8bba03c69334ede4a71fad7f29328cf10ed5955a0e385354998ce3de7cbb/loggus-0.1.2.tar.gz
+[2024-04-19 04:01:08] INFO root fetch - processPackages [loggus]: executing diffoscope
+[2024-04-19 04:01:08] INFO root fetch - processPackages [loggus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggus-0.1.1.tar.gz tmp/loggus-0.1.2.tar.gz --markdown 20240419/l/loggus/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 04:01:09] INFO root fetch - processPackages [loggus]: Remove: archive file [/home/abi/fetcher/tmp/loggus-0.1.1.tar.gz]
+[2024-04-19 04:01:09] INFO root fetch - processPackages [loggus]: Remove: archive file [/home/abi/fetcher/tmp/loggus-0.1.2.tar.gz]
+[2024-04-19 04:01:09] INFO root fetch - main [MainThread]: End processing [loggus]: success
+[2024-04-19 04:01:09] INFO root fetch - main [MainThread]: Store serial: [22835545]
