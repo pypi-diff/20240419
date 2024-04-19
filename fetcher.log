@@ -8211,3 +8211,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:00:23] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
 [2024-04-19 05:00:23] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
 [2024-04-19 05:00:23] INFO root fetch - main [MainThread]: Store serial: [22835970]
+[2024-04-19 05:02:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835970]
+[2024-04-19 05:02:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linalgebralib
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentdesk
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: batchalign
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idmtk
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: donetools
+[2024-04-19 05:02:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-designer-cv-modules
+[2024-04-19 05:02:31] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 05:02:31] WARNING root fetch - processPackages [idmtk]: Skipping, unable to determine old version
+[2024-04-19 05:02:31] INFO root fetch - main [MainThread]: End processing [idmtk] error
+[2024-04-19 05:02:31] INFO root fetch - processPackages [agentdesk]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 05:02:31] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [batchalign]: New version: [0.7.1b3] Old Version: [0.7.1b2]
+[2024-04-19 05:02:31] INFO root fetch - processPackages [linalgebralib]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-19 05:02:31] INFO root fetch - processPackages [azureml-designer-cv-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 05:02:31] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/cf/ca/cd5dfbf2d07fb86e168858977c8668fdff291aaf19cf93c8ae884b0959b1/agentdesk-0.2.8.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/42/37/05c4f82eb7cd59dd3145e55876cb486e5b8d5aa707ee3a3bbe74fb3198d0/linalgebralib-0.0.0.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/fa/8a/8b5e17b5dba4ab143ee972682ee1135ca82ce52b18fd839e96ab8fec9b7a/batchalign-0.7.1b2.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [azureml-designer-cv-modules]: Downloading https://files.pythonhosted.org/packages/88/d0/fbc0b2f95923c103187bfdb2ac86055f7382062c93b33c5ab5c5ebdecddc/azureml_designer_cv_modules-0.0.8-py3-none-any.whl
+[2024-04-19 05:02:31] INFO root fetch - processPackages [agentdesk]: Downloading https://files.pythonhosted.org/packages/24/26/ad035fd9f7aedb4d5a78e0198ca36d0599d9ed6d9f5cfeeb84e922907596/agentdesk-0.2.9.tar.gz
+[2024-04-19 05:02:31] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-19 05:02:31] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240419/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:02:31] INFO root fetch - processPackages [agentdesk]: executing diffoscope
+[2024-04-19 05:02:31] INFO root fetch - processPackages [agentdesk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentdesk-0.2.8.tar.gz tmp/agentdesk-0.2.9.tar.gz --markdown 20240419/a/agentdesk/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 05:02:31] INFO root fetch - processPackages [linalgebralib]: Downloading https://files.pythonhosted.org/packages/5a/47/9bcecb80666a83d0b04c7cdfaa460dc3a7aee6c3eff89bceb5a432da92a7/linalgebralib-0.0.1.tar.gz
+[2024-04-19 05:02:32] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/99/fa/d399e0733c840660993b41993f2f8f96fadb6715a216ffc5b8a2dbbf0ba9/batchalign-0.7.1b3.tar.gz
+[2024-04-19 05:02:32] INFO root fetch - processPackages [linalgebralib]: executing diffoscope
+[2024-04-19 05:02:32] INFO root fetch - processPackages [linalgebralib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linalgebralib-0.0.0.tar.gz tmp/linalgebralib-0.0.1.tar.gz --markdown 20240419/l/linalgebralib/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-19 05:02:32] INFO root fetch - processPackages [azureml-designer-cv-modules]: Downloading https://files.pythonhosted.org/packages/4a/fe/7388e10047e955afd7bd8852e3ad1088c0bfaeed64b09de81ff75087c9da/azureml_designer_cv_modules-0.0.9-py3-none-any.whl
+[2024-04-19 05:02:32] INFO root fetch - processPackages [batchalign]: executing diffoscope
+[2024-04-19 05:02:32] INFO root fetch - processPackages [batchalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchalign-0.7.1b2.tar.gz tmp/batchalign-0.7.1b3.tar.gz --markdown 20240419/b/batchalign/0.7.1b2-0.7.1b3/README.md --exclude *.pyd
+[2024-04-19 05:02:32] INFO root fetch - processPackages [azureml-designer-cv-modules]: executing diffoscope
+[2024-04-19 05:02:32] INFO root fetch - processPackages [azureml-designer-cv-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_cv_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_cv_modules-0.0.9-py3-none-any.whl.zip --markdown 20240419/a/azureml-designer-cv-modules/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:02:32] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-19 05:02:32] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.8.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
+[2024-04-19 05:02:32] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.0.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - processPackages [linalgebralib]: Remove: archive file [/home/abi/fetcher/tmp/linalgebralib-0.0.1.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - main [MainThread]: End processing [linalgebralib]: success
+[2024-04-19 05:02:32] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b2.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.1b3.tar.gz]
+[2024-04-19 05:02:32] INFO root fetch - main [MainThread]: End processing [batchalign]: success
+[2024-04-19 05:02:33] INFO root fetch - processPackages [azureml-designer-cv-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_cv_modules-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 05:02:33] INFO root fetch - processPackages [azureml-designer-cv-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_cv_modules-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 05:02:33] INFO root fetch - main [MainThread]: End processing [azureml-designer-cv-modules]: success
+[2024-04-19 05:02:33] INFO root fetch - main [MainThread]: Store serial: [22835986]
