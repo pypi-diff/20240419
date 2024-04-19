@@ -10931,3 +10931,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:57:20] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_supplierinfo_for_customer_sale_blanket_order-14.0.1.0.1.dev6-py3-none-any.whl.zip]
 [2024-04-19 07:57:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-sale-blanket-order]: success
 [2024-04-19 07:57:20] INFO root fetch - main [MainThread]: Store serial: [22837101]
+[2024-04-19 07:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837101]
+[2024-04-19 07:59:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyCocos
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-pricelist-cache
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asyffmpeg
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phonenumberslite
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phonenumbers
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-qualitycheck20190115-py2
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django_zenblog_ds
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-elaboration
+[2024-04-19 07:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-qualitycheck20190115
+[2024-04-19 07:59:29] WARNING root fetch - processPackages [asyffmpeg]: Skipping, unable to determine old version
+[2024-04-19 07:59:29] INFO root fetch - processPackages [asyffmpeg]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-19 07:59:29] INFO root fetch - main [MainThread]: End processing [asyffmpeg] error
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.1.0.1]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.5.0] Old Version: [16.0.1.4.0.2]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.1.0.1]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: New version: [14.0.1.4.2.dev2] Old Version: [14.0.1.4.2.dev1]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/65/c9/416f236c010ab6775884ba9410ccecf7804fd38ec5aa3996439b806aa759/odoo_addon_sale_force_invoiced-16.0.2.1.0.1-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [pyCocos]: New version: [0.2.8] Old Version: [0.2.6]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/f5/84/d06954fac2847bdfea8995597ade4996f2ef778ad03280c258b2578f324c/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [django_zenblog_ds]: New version: [2.0.0] Old Version: [0.5.0]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/65/c9/416f236c010ab6775884ba9410ccecf7804fd38ec5aa3996439b806aa759/odoo_addon_sale_force_invoiced-16.0.2.1.0.1-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [phonenumbers]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [phonenumberslite]: New version: [8.9.9] Old Version: [8.9.8]
+[2024-04-19 07:59:29] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: Downloading https://files.pythonhosted.org/packages/50/32/c368d031911779dcd1514167b1d72c20dd9e9c0d6559626c0b863908f39f/alibabacloud_qualitycheck20190115_py2-4.2.0.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/52/a0/ddda099b7047c8ceb3fcadf5b46033f17034d02b009f39ef835563f5ec4b/pycocos-0.2.6.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: Downloading https://files.pythonhosted.org/packages/5e/af/b08a99ae745b1483c80e40305dd479b01c5a3c481d2f721b8be97edd9f6e/odoo14_addon_pricelist_cache-14.0.1.4.2.dev1-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: Downloading https://files.pythonhosted.org/packages/d1/ea/295310e84f965d79f0588152dc56366afab3e2a40e19697a45370ae60bd4/alibabacloud_qualitycheck20190115-4.2.0.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/2a/34/673df63018e24dd0e697c0c1d47fbaab6775c15d1798ed9e0b834b78ac65/phonenumberslite-8.9.8.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [django_zenblog_ds]: Downloading https://files.pythonhosted.org/packages/5a/08/3e616eb770d3ed31f197f02f90cd0e73961e6eed2cda97dd142e54e7ad6d/django-zenblog_ds-0.5.0.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/61/7b/90d90d52bf1a407405c8b13f5701c40d4ed9574fa05f456f232296b5390d/phonenumbers-8.9.8.tar.gz
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/b9/b7/fe03bcc186bcdac1365a890fb33d8404f901101cbabae3894f78ff46bf5a/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-sale-force-invoiced/16.0.2.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-sale-elaboration/16.0.1.4.0.2-16.0.1.5.0/README.md --exclude *.pyd
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-19 07:59:29] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-sale-force-invoiced/16.0.2.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/68/54/d2fd4f075b042d18c43a0b43b3f2c8b5ba41e4ed6aaa657d02327b8919a6/pycocos-0.2.8.tar.gz
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: Downloading https://files.pythonhosted.org/packages/53/f1/6619ed5a1aa0faebdd676bd7ad9a135da79c6772fc02c76fb8be2823f447/alibabacloud_qualitycheck20190115_py2-5.0.0.tar.gz
+[2024-04-19 07:59:30] INFO root fetch - processPackages [phonenumberslite]: Downloading https://files.pythonhosted.org/packages/1b/d2/a02b729fceb0f6e61adf61ac7dc258345c724815ff446e3d8204cae3e838/phonenumberslite-8.9.9.tar.gz
+[2024-04-19 07:59:30] INFO root fetch - processPackages [pyCocos]: executing diffoscope
+[2024-04-19 07:59:30] INFO root fetch - processPackages [pyCocos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycocos-0.2.6.tar.gz tmp/pycocos-0.2.8.tar.gz --markdown 20240419/p/pyCocos/0.2.6-0.2.8/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: Downloading https://files.pythonhosted.org/packages/4b/06/6457645508c81144ac5d0e919c31eccc9c967a9d3a968adb8e6c0ab92b64/odoo14_addon_pricelist_cache-14.0.1.4.2.dev2-py3-none-any.whl
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: Downloading https://files.pythonhosted.org/packages/ba/3a/0d58cbf717ded52dc63c3194d1b548120543957108c68844663f44e98266/alibabacloud_qualitycheck20190115-5.0.0.tar.gz
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: executing diffoscope
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_qualitycheck20190115_py2-4.2.0.tar.gz tmp/alibabacloud_qualitycheck20190115_py2-5.0.0.tar.gz --markdown 20240419/a/alibabacloud-qualitycheck20190115-py2/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [phonenumberslite]: executing diffoscope
+[2024-04-19 07:59:30] INFO root fetch - processPackages [phonenumberslite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumberslite-8.9.8.tar.gz tmp/phonenumberslite-8.9.9.tar.gz --markdown 20240419/p/phonenumberslite/8.9.8-8.9.9/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: executing diffoscope
+[2024-04-19 07:59:30] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pricelist_cache-14.0.1.4.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_pricelist_cache-14.0.1.4.2.dev2-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-pricelist-cache/14.0.1.4.2.dev1-14.0.1.4.2.dev2/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: executing diffoscope
+[2024-04-19 07:59:30] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_qualitycheck20190115-4.2.0.tar.gz tmp/alibabacloud_qualitycheck20190115-5.0.0.tar.gz --markdown 20240419/a/alibabacloud-qualitycheck20190115/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-04-19 07:59:30] INFO root fetch - processPackages [phonenumbers]: Downloading https://files.pythonhosted.org/packages/bc/2a/0ad24a36f6763be01df1b427f23a38456a351fdf205b0c19041499a9f82c/phonenumbers-8.9.9.tar.gz
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.5.0-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.2.1.0.1-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-19 07:59:31] INFO root fetch - processPackages [django_zenblog_ds]: Downloading https://files.pythonhosted.org/packages/de/f4/069b28d3def17b1e299f017b4713336ff2c5d9284e0203bd45fa5389ec7c/django_zenblog_ds-2.0.0.tar.gz
+[2024-04-19 07:59:31] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pycocos-0.2.6.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pycocos-0.2.8.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [pyCocos]: success
+[2024-04-19 07:59:31] INFO root fetch - processPackages [phonenumbers]: executing diffoscope
+[2024-04-19 07:59:31] INFO root fetch - processPackages [phonenumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phonenumbers-8.9.8.tar.gz tmp/phonenumbers-8.9.9.tar.gz --markdown 20240419/p/phonenumbers/8.9.8-8.9.9/README.md --exclude *.pyd
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pricelist_cache-14.0.1.4.2.dev1-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [odoo14-addon-pricelist-cache]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pricelist_cache-14.0.1.4.2.dev2-py3-none-any.whl.zip]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pricelist-cache]: success
+[2024-04-19 07:59:31] WARNING root fetch - processPackages [django_zenblog_ds]: Skipping package: exceeds size limit 12662346>=10485760
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [django_zenblog_ds] error
+[2024-04-19 07:59:31] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_qualitycheck20190115_py2-4.2.0.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_qualitycheck20190115_py2-5.0.0.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-qualitycheck20190115-py2]: success
+[2024-04-19 07:59:31] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_qualitycheck20190115-4.2.0.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - processPackages [alibabacloud-qualitycheck20190115]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_qualitycheck20190115-5.0.0.tar.gz]
+[2024-04-19 07:59:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-qualitycheck20190115]: success
+[2024-04-19 07:59:32] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.8.tar.gz]
+[2024-04-19 07:59:32] INFO root fetch - processPackages [phonenumberslite]: Remove: archive file [/home/abi/fetcher/tmp/phonenumberslite-8.9.9.tar.gz]
+[2024-04-19 07:59:32] INFO root fetch - main [MainThread]: End processing [phonenumberslite]: success
+[2024-04-19 07:59:34] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.8.tar.gz]
+[2024-04-19 07:59:34] INFO root fetch - processPackages [phonenumbers]: Remove: archive file [/home/abi/fetcher/tmp/phonenumbers-8.9.9.tar.gz]
+[2024-04-19 07:59:34] INFO root fetch - main [MainThread]: End processing [phonenumbers]: success
+[2024-04-19 07:59:34] INFO root fetch - main [MainThread]: Store serial: [22837132]
