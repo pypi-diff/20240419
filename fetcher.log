@@ -19673,3 +19673,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:18:11] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-04-19 13:18:11] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-19 13:18:11] INFO root fetch - main [MainThread]: Store serial: [22840826]
+[2024-04-19 13:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840826]
+[2024-04-19 13:20:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dinero-auth
+[2024-04-19 13:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cyclonedx-python-lib
+[2024-04-19 13:20:21] WARNING root fetch - processPackages [dinero-auth]: Skipping, unable to determine old version
+[2024-04-19 13:20:21] INFO root fetch - main [MainThread]: End processing [dinero-auth] error
+[2024-04-19 13:20:21] INFO root fetch - processPackages [cyclonedx-python-lib]: New version: [7.2.0] Old Version: [7.1.0]
+[2024-04-19 13:20:21] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/a0/e2/4e24e7b7cc1b4d6f54f9e05ca220e0aab34937405c2bfd90c08735ad2cb8/cyclonedx_python_lib-7.1.0.tar.gz
+[2024-04-19 13:20:21] INFO root fetch - processPackages [cyclonedx-python-lib]: Downloading https://files.pythonhosted.org/packages/91/2c/c08fda8ffe28ee40e96609704e8dcc9e93bc013f60fb8b5eb6024d0339b5/cyclonedx_python_lib-7.2.0.tar.gz
+[2024-04-19 13:20:22] INFO root fetch - processPackages [cyclonedx-python-lib]: executing diffoscope
+[2024-04-19 13:20:22] INFO root fetch - processPackages [cyclonedx-python-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_python_lib-7.1.0.tar.gz tmp/cyclonedx_python_lib-7.2.0.tar.gz --markdown 20240419/c/cyclonedx-python-lib/7.1.0-7.2.0/README.md --exclude *.pyd
+[2024-04-19 13:20:25] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.1.0.tar.gz]
+[2024-04-19 13:20:25] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.2.0.tar.gz]
+[2024-04-19 13:20:25] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
+[2024-04-19 13:20:25] INFO root fetch - main [MainThread]: Store serial: [22840834]
