@@ -18319,3 +18319,72 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:28:31] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
 [2024-04-19 12:28:31] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-04-19 12:28:31] INFO root fetch - main [MainThread]: Store serial: [22840271]
+[2024-04-19 12:30:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840271]
+[2024-04-19 12:30:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognite-neat
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aquacrop
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xpath-writer
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bentoml
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xunter
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NeSST
+[2024-04-19 12:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coolML
+[2024-04-19 12:30:52] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [cognite-neat]: New version: [0.73.3] Old Version: [0.73.2]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [coolML]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [NeSST]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [xpath-writer]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [aquacrop]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/42/be/e4916e5e0a45ba97af587f709d69894b08246538b7e0c0f80265a044b4d6/coolML-0.0.5.tar.gz
+[2024-04-19 12:30:52] WARNING root fetch - processPackages [xunter]: Skipping, unable to determine old version
+[2024-04-19 12:30:52] INFO root fetch - main [MainThread]: End processing [xunter] error
+[2024-04-19 12:30:52] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/18/3b/4492482164e61db3986f0e7707e7f8bb5ac765176870a32a91ca0d51d5e0/cognite_neat-0.73.2.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [bentoml]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-19 12:30:52] INFO root fetch - processPackages [xpath-writer]: Downloading https://files.pythonhosted.org/packages/38/62/fd38fcad03a5d4ceb35a017d7d01cad8c802dd87b850dc9bd84c3302bacf/xpath_writer-1.0.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [NeSST]: Downloading https://files.pythonhosted.org/packages/63/7c/f7e43a0520401934c2d6dc5974f4a478b147a84598914760a089e94e93a6/NeSST-1.0.0.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/4f/67/2f61683a065a387a12b2e095221351fb79a2141311c24f1bd31bbd58795b/aquacrop-3.0.1.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/96/b0/1e4559395d6049e7094e23f8e6718de26946b3e2586ff54c96a542a9e145/bentoml-1.2.8.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [coolML]: Downloading https://files.pythonhosted.org/packages/46/58/da006fd03a0821401b17c17cee27885afc6610d0e9f04719d9cedb7eb493/coolML-0.0.6.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [coolML]: executing diffoscope
+[2024-04-19 12:30:52] INFO root fetch - processPackages [coolML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolML-0.0.5.tar.gz tmp/coolML-0.0.6.tar.gz --markdown 20240419/c/coolML/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 12:30:52] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 12:30:52] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:30:52] INFO root fetch - processPackages [xpath-writer]: Downloading https://files.pythonhosted.org/packages/5c/82/d29b869ff9b244a45c3f60d6db439a067c7e02125af5088bfab1c522d50a/xpath_writer-1.0.1.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/2d/82/6ea903b2ec9f4a9181579539870d9c0efd66d9acdf10782ede01afeda1d8/cognite_neat-0.73.3.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [xpath-writer]: executing diffoscope
+[2024-04-19 12:30:52] INFO root fetch - processPackages [xpath-writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpath_writer-1.0.tar.gz tmp/xpath_writer-1.0.1.tar.gz --markdown 20240419/x/xpath-writer/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 12:30:52] INFO root fetch - processPackages [NeSST]: Downloading https://files.pythonhosted.org/packages/84/2f/204d91f61daf58369abcd0c792fd38be95406770445510e367f61914b086/nesst-1.1.0.tar.gz
+[2024-04-19 12:30:52] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/64/1c/008b7d7f75caf1e68ca286012a0df9462265b353e11056db4ffdca6b8860/bentoml-1.2.9.tar.gz
+[2024-04-19 12:30:53] INFO root fetch - processPackages [aquacrop]: Downloading https://files.pythonhosted.org/packages/36/32/87a87aba40f9834c7741dd380a2b91f957580c318b86c6bb1e8ef2548926/aquacrop-3.0.2.tar.gz
+[2024-04-19 12:30:53] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-19 12:30:53] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.73.2.tar.gz tmp/cognite_neat-0.73.3.tar.gz --markdown 20240419/c/cognite-neat/0.73.2-0.73.3/README.md --exclude *.pyd
+[2024-04-19 12:30:53] INFO root fetch - processPackages [bentoml]: executing diffoscope
+[2024-04-19 12:30:53] INFO root fetch - processPackages [bentoml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bentoml-1.2.8.tar.gz tmp/bentoml-1.2.9.tar.gz --markdown 20240419/b/bentoml/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-19 12:30:53] INFO root fetch - processPackages [NeSST]: executing diffoscope
+[2024-04-19 12:30:53] INFO root fetch - processPackages [NeSST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeSST-1.0.0.tar.gz tmp/nesst-1.1.0.tar.gz --markdown 20240419/N/NeSST/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-19 12:30:53] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 12:30:53] INFO root fetch - processPackages [aquacrop]: executing diffoscope
+[2024-04-19 12:30:53] INFO root fetch - processPackages [aquacrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aquacrop-3.0.1.tar.gz tmp/aquacrop-3.0.2.tar.gz --markdown 20240419/a/aquacrop/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-19 12:30:53] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.5.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - processPackages [coolML]: Remove: archive file [/home/abi/fetcher/tmp/coolML-0.0.6.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - main [MainThread]: End processing [coolML]: success
+[2024-04-19 12:30:53] INFO root fetch - processPackages [xpath-writer]: Remove: archive file [/home/abi/fetcher/tmp/xpath_writer-1.0.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - processPackages [xpath-writer]: Remove: archive file [/home/abi/fetcher/tmp/xpath_writer-1.0.1.tar.gz]
+[2024-04-19 12:30:53] INFO root fetch - main [MainThread]: End processing [xpath-writer]: success
+[2024-04-19 12:30:54] INFO root fetch - processPackages [NeSST]: Remove: archive file [/home/abi/fetcher/tmp/NeSST-1.0.0.tar.gz]
+[2024-04-19 12:30:54] INFO root fetch - processPackages [NeSST]: Remove: archive file [/home/abi/fetcher/tmp/nesst-1.1.0.tar.gz]
+[2024-04-19 12:30:54] INFO root fetch - main [MainThread]: End processing [NeSST]: success
+[2024-04-19 12:30:54] INFO root fetch - processPackages [aquacrop]: Remove: archive file [/home/abi/fetcher/tmp/aquacrop-3.0.1.tar.gz]
+[2024-04-19 12:30:54] INFO root fetch - processPackages [aquacrop]: Remove: archive file [/home/abi/fetcher/tmp/aquacrop-3.0.2.tar.gz]
+[2024-04-19 12:30:54] INFO root fetch - main [MainThread]: End processing [aquacrop]: success
+[2024-04-19 12:30:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.2.tar.gz]
+[2024-04-19 12:30:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.3.tar.gz]
+[2024-04-19 12:30:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-19 12:30:57] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.8.tar.gz]
+[2024-04-19 12:30:57] INFO root fetch - processPackages [bentoml]: Remove: archive file [/home/abi/fetcher/tmp/bentoml-1.2.9.tar.gz]
+[2024-04-19 12:30:57] INFO root fetch - main [MainThread]: End processing [bentoml]: success
+[2024-04-19 12:30:57] INFO root fetch - main [MainThread]: Store serial: [22840296]
