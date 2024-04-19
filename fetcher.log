@@ -8553,3 +8553,60 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:20:16] INFO root fetch - processPackages [PyOptik]: Remove: archive file [/home/abi/fetcher/tmp/PyOptik-0.7.8-py3-none-any.whl.zip]
 [2024-04-19 05:20:16] INFO root fetch - main [MainThread]: End processing [PyOptik]: success
 [2024-04-19 05:20:16] INFO root fetch - main [MainThread]: Store serial: [22836110]
+[2024-04-19 05:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836110]
+[2024-04-19 05:22:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-allauth
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tipo-kgen
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualesim-quantumsim
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-nightly
+[2024-04-19 05:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtmaod
+[2024-04-19 05:22:25] INFO root fetch - processPackages [vector-vault]: New version: [4.4.5.2] Old Version: [4.4.5.1]
+[2024-04-19 05:22:25] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.0.dev2024041803] Old Version: [3.3.0.dev2024041703]
+[2024-04-19 05:22:26] INFO root fetch - processPackages [tipo-kgen]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 05:22:26] INFO root fetch - processPackages [qualesim-quantumsim]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 05:22:26] INFO root fetch - processPackages [mtmaod]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 05:22:26] INFO root fetch - processPackages [NEMO-allauth]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-19 05:22:26] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/83/eb/93cd69f7461b570d927a7bf55595213ba4882aebd7b0d1b91c494b7620b2/vector_vault-4.4.5.1.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/c9/59/34eec5443edac5b14a627e4a2d2cb7451c72c1a9620b654f09680a0767b0/keras_nightly-3.3.0.dev2024041703.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/dd/09/64f38418cecead1f77d1cc5ecae84af54bbe5a11bec0fea61b1e351c0951/tipo-kgen-0.0.5.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/5d/2e/822c1b757f6c15a506a33166c14e45d2b1df9697bd2c20d08a83d5fed5b4/qualesim-quantumsim-1.0.0.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [mtmaod]: Downloading https://files.pythonhosted.org/packages/10/05/339e1ceeddfc8ead6a390d0d5fc638d324f7b59bb12c7918e10082ed855c/mtmaod-1.0.8.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [NEMO-allauth]: Downloading https://files.pythonhosted.org/packages/dd/07/a4ad310a5fa81a4b2647101a10dd539875181bee24137b1526de0fb26181/NEMO_allauth-1.8.1-py3-none-any.whl
+[2024-04-19 05:22:26] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c3/f3/90d7fc4f1eacb2fa361cb7710c61cbec867a74c49ae8cef83c83f3fdca2e/vector_vault-4.4.5.2.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-19 05:22:26] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.5.1.tar.gz tmp/vector_vault-4.4.5.2.tar.gz --markdown 20240419/v/vector-vault/4.4.5.1-4.4.5.2/README.md --exclude *.pyd
+[2024-04-19 05:22:26] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/2a/85/bbc07b019d5ea506dadcf9635c280c6da24e5314b7940efe3b686373b73c/keras_nightly-3.3.0.dev2024041803.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/c6/9c/c378efad4bdadb8ccef4b75ccc2c7f5920984e1607efa6ecd7e6916bb454/qualesim-quantumsim-1.0.1.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [NEMO-allauth]: Downloading https://files.pythonhosted.org/packages/8d/67/dcb75dccc97a0d4c9f15030fc1ad088b0acc390a5209e6c52f44cde69188/NEMO_allauth-1.9.0-py3-none-any.whl
+[2024-04-19 05:22:26] INFO root fetch - processPackages [mtmaod]: Downloading https://files.pythonhosted.org/packages/87/21/5322b4910020fffcab4c95b1bf5b6230ca022f12efd0b407fa2bba7e0981/mtmaod-1.0.9.tar.gz
+[2024-04-19 05:22:26] INFO root fetch - processPackages [qualesim-quantumsim]: executing diffoscope
+[2024-04-19 05:22:26] INFO root fetch - processPackages [qualesim-quantumsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quantumsim-1.0.0.tar.gz tmp/qualesim-quantumsim-1.0.1.tar.gz --markdown 20240419/q/qualesim-quantumsim/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 05:22:26] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-19 05:22:26] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.0.dev2024041703.tar.gz tmp/keras_nightly-3.3.0.dev2024041803.tar.gz --markdown 20240419/k/keras-nightly/3.3.0.dev2024041703-3.3.0.dev2024041803/README.md --exclude *.pyd
+[2024-04-19 05:22:26] INFO root fetch - processPackages [mtmaod]: executing diffoscope
+[2024-04-19 05:22:26] INFO root fetch - processPackages [mtmaod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmaod-1.0.8.tar.gz tmp/mtmaod-1.0.9.tar.gz --markdown 20240419/m/mtmaod/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 05:22:26] INFO root fetch - processPackages [NEMO-allauth]: executing diffoscope
+[2024-04-19 05:22:26] INFO root fetch - processPackages [NEMO-allauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_allauth-1.8.1-py3-none-any.whl.zip tmp/NEMO_allauth-1.9.0-py3-none-any.whl.zip --markdown 20240419/N/NEMO-allauth/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-04-19 05:22:26] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/74/fc/0fff0190c44f98f68cf30100a619fa0e5b49f73ab20519c92786e13ae5a9/tipo-kgen-0.0.6.tar.gz
+[2024-04-19 05:22:27] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.1.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.2.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-19 05:22:27] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.0.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.1.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - main [MainThread]: End processing [qualesim-quantumsim]: success
+[2024-04-19 05:22:27] INFO root fetch - processPackages [tipo-kgen]: executing diffoscope
+[2024-04-19 05:22:27] INFO root fetch - processPackages [tipo-kgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipo-kgen-0.0.5.tar.gz tmp/tipo-kgen-0.0.6.tar.gz --markdown 20240419/t/tipo-kgen/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 05:22:27] INFO root fetch - processPackages [NEMO-allauth]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_allauth-1.8.1-py3-none-any.whl.zip]
+[2024-04-19 05:22:27] INFO root fetch - processPackages [NEMO-allauth]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_allauth-1.9.0-py3-none-any.whl.zip]
+[2024-04-19 05:22:27] INFO root fetch - main [MainThread]: End processing [NEMO-allauth]: success
+[2024-04-19 05:22:27] INFO root fetch - processPackages [mtmaod]: Remove: archive file [/home/abi/fetcher/tmp/mtmaod-1.0.8.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - processPackages [mtmaod]: Remove: archive file [/home/abi/fetcher/tmp/mtmaod-1.0.9.tar.gz]
+[2024-04-19 05:22:27] INFO root fetch - main [MainThread]: End processing [mtmaod]: success
+[2024-04-19 05:22:28] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.5.tar.gz]
+[2024-04-19 05:22:28] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.6.tar.gz]
+[2024-04-19 05:22:28] INFO root fetch - main [MainThread]: End processing [tipo-kgen]: success
+[2024-04-19 05:22:29] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.0.dev2024041703.tar.gz]
+[2024-04-19 05:22:29] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.0.dev2024041803.tar.gz]
+[2024-04-19 05:22:29] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-19 05:22:29] INFO root fetch - main [MainThread]: Store serial: [22836128]
