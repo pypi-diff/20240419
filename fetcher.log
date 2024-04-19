@@ -22673,3 +22673,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:22:49] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-19 15:22:49] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-19 15:22:49] INFO root fetch - main [MainThread]: Store serial: [22842290]
+[2024-04-19 15:24:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842290]
+[2024-04-19 15:24:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: promplate-pyodide
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata-front
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rent-counter
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csoundengine
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cheltuieli
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inngest
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinygrad-tools
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conva-ai
+[2024-04-19 15:24:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OpenGeode-Inspector
+[2024-04-19 15:24:58] INFO root fetch - processPackages [promplate-pyodide]: New version: [0.0.3a5] Old Version: [0.0.3a4]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [conva-ai]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 15:24:58] WARNING root fetch - processPackages [rent-counter]: Skipping, unable to determine old version
+[2024-04-19 15:24:58] INFO root fetch - main [MainThread]: End processing [rent-counter] error
+[2024-04-19 15:24:58] INFO root fetch - processPackages [udata-front]: New version: [3.5.6.dev18930] Old Version: [3.5.6.dev18797]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [csoundengine]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [promplate-pyodide]: Downloading https://files.pythonhosted.org/packages/4a/f9/216cd3ef6466447a804f44fb3680384af66994afc4ff15167fff661bc39e/promplate_pyodide-0.0.3a4.tar.gz
+[2024-04-19 15:24:58] WARNING root fetch - processPackages [tinygrad-tools]: Skipping, unable to determine old version
+[2024-04-19 15:24:58] INFO root fetch - main [MainThread]: End processing [tinygrad-tools] error
+[2024-04-19 15:24:58] INFO root fetch - processPackages [cheltuieli]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/d2/cc/adc2f7b3eecdd70fef2071e565cc5f15d7008c10c900d4017a17dba32566/conva_ai-0.0.4.tar.gz
+[2024-04-19 15:24:58] INFO root fetch - processPackages [inngest]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/9b/04/e1294130cef18fc9a896cc79aea28de292084b8614dab2f90e667488f01f/udata_front-3.5.6.dev18797-py2.py3-none-any.whl
+[2024-04-19 15:24:58] INFO root fetch - processPackages [OpenGeode-Inspector]: New version: [5.1.2rc1] Old Version: [5.1.1rc1]
+[2024-04-19 15:24:58] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/2c/59/65057ddf471ca3ec096b16a0affd3053fb76811073cf3ac9049d9e2cfa82/csoundengine-2.8.2.tar.gz
+[2024-04-19 15:24:58] INFO root fetch - processPackages [cheltuieli]: Downloading https://files.pythonhosted.org/packages/e6/0e/93dfe4048c63e44d41880cbddfe2e4e1e4f275b4ff85332e654abacae161/cheltuieli-0.2.0.tar.gz
+[2024-04-19 15:24:58] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/4e/be/6af3c80e98198eaf9d43381f17fb76dd8fd86e8c650e9598c2b9ed0d742c/inngest-0.3.8.tar.gz
+[2024-04-19 15:24:58] INFO root fetch - processPackages [promplate-pyodide]: Downloading https://files.pythonhosted.org/packages/9e/07/31db5b92739f325b98e71eabc92d862fde53c8b39f4bf36a8588f1f856ad/promplate_pyodide-0.0.3a5.tar.gz
+[2024-04-19 15:24:58] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/8d/fd/0702f5da4ab1a1b5dec541413fee839c3b4f2bd94801efc0275ed95e1d56/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl
+[2024-04-19 15:24:59] INFO root fetch - processPackages [promplate-pyodide]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [promplate-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate_pyodide-0.0.3a4.tar.gz tmp/promplate_pyodide-0.0.3a5.tar.gz --markdown 20240419/p/promplate-pyodide/0.0.3a4-0.0.3a5/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/f8/76/fa7f41f4bbfc103306882698f83288d4fa7b4dd6f00bc2f22025f031766d/conva_ai-0.0.5.tar.gz
+[2024-04-19 15:24:59] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.4.tar.gz tmp/conva_ai-0.0.5.tar.gz --markdown 20240419/c/conva-ai/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [inngest]: Downloading https://files.pythonhosted.org/packages/3f/8b/d12f3e2af00158cfea42533c98f19e9f4700781bcac2b601473d5f9446f0/inngest-0.3.9.tar.gz
+[2024-04-19 15:24:59] INFO root fetch - processPackages [cheltuieli]: Downloading https://files.pythonhosted.org/packages/19/53/f13d60a4c4e87f61a3de90fd876893c0aaeaef4d1b14f6c306ccb0fe4196/cheltuieli-0.2.1-py3-none-any.whl
+[2024-04-19 15:24:59] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/00/f3/c7789e7cdcb5642f27b6d3b105c2b3c1349e16e7f473a30ce87539641975/udata_front-3.5.6.dev18930-py2.py3-none-any.whl
+[2024-04-19 15:24:59] INFO root fetch - processPackages [inngest]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [inngest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inngest-0.3.8.tar.gz tmp/inngest-0.3.9.tar.gz --markdown 20240419/i/inngest/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [OpenGeode-Inspector]: Downloading https://files.pythonhosted.org/packages/45/f2/381cb402d698b59dfdaf55734760ca613354ec905e5bb4b8f321815aff4c/OpenGeode_Inspector-5.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 15:24:59] INFO root fetch - processPackages [csoundengine]: Downloading https://files.pythonhosted.org/packages/53/a4/b505cd0faac8341e1882309d31ba837b63ac06916af884463de6cf24baf5/csoundengine-2.8.3.tar.gz
+[2024-04-19 15:24:59] INFO root fetch - processPackages [cheltuieli]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [cheltuieli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheltuieli-0.2.0.tar.gz tmp/cheltuieli-0.2.1-py3-none-any.whl.zip --markdown 20240419/c/cheltuieli/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [promplate-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/promplate_pyodide-0.0.3a4.tar.gz]
+[2024-04-19 15:24:59] INFO root fetch - processPackages [promplate-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/promplate_pyodide-0.0.3a5.tar.gz]
+[2024-04-19 15:24:59] INFO root fetch - main [MainThread]: End processing [promplate-pyodide]: success
+[2024-04-19 15:24:59] INFO root fetch - processPackages [OpenGeode-Inspector]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [OpenGeode-Inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_Inspector-5.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240419/O/OpenGeode-Inspector/5.1.1rc1-5.1.2rc1/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.4.tar.gz]
+[2024-04-19 15:24:59] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.5.tar.gz]
+[2024-04-19 15:24:59] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-04-19 15:24:59] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.6.dev18797-py2.py3-none-any.whl.zip tmp/udata_front-3.5.6.dev18930-py2.py3-none-any.whl.zip --markdown 20240419/u/udata-front/3.5.6.dev18797-3.5.6.dev18930/README.md --exclude *.pyd
+[2024-04-19 15:24:59] INFO root fetch - processPackages [csoundengine]: executing diffoscope
+[2024-04-19 15:24:59] INFO root fetch - processPackages [csoundengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csoundengine-2.8.2.tar.gz tmp/csoundengine-2.8.3.tar.gz --markdown 20240419/c/csoundengine/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-04-19 15:25:00] INFO root fetch - processPackages [cheltuieli]: Remove: archive file [/home/abi/fetcher/tmp/cheltuieli-0.2.0.tar.gz]
+[2024-04-19 15:25:00] INFO root fetch - processPackages [cheltuieli]: Remove: archive file [/home/abi/fetcher/tmp/cheltuieli-0.2.1-py3-none-any.whl.zip]
+[2024-04-19 15:25:00] INFO root fetch - main [MainThread]: End processing [cheltuieli]: success
+[2024-04-19 15:25:00] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.8.tar.gz]
+[2024-04-19 15:25:00] INFO root fetch - processPackages [inngest]: Remove: archive file [/home/abi/fetcher/tmp/inngest-0.3.9.tar.gz]
+[2024-04-19 15:25:00] INFO root fetch - main [MainThread]: End processing [inngest]: success
+[2024-04-19 15:25:00] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 15:25:00] INFO root fetch - processPackages [OpenGeode-Inspector]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Inspector-5.1.2rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-19 15:25:00] INFO root fetch - main [MainThread]: End processing [OpenGeode-Inspector]: success
+[2024-04-19 15:25:01] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.2.tar.gz]
+[2024-04-19 15:25:01] INFO root fetch - processPackages [csoundengine]: Remove: archive file [/home/abi/fetcher/tmp/csoundengine-2.8.3.tar.gz]
+[2024-04-19 15:25:01] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
+[2024-04-19 15:26:25] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev18797-py2.py3-none-any.whl.zip]
+[2024-04-19 15:26:25] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev18930-py2.py3-none-any.whl.zip]
+[2024-04-19 15:26:25] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-19 15:26:25] INFO root fetch - main [MainThread]: Store serial: [22842319]
