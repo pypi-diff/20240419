@@ -23603,3 +23603,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:46:30] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
 [2024-04-19 15:46:30] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
 [2024-04-19 15:46:30] INFO root fetch - main [MainThread]: Store serial: [22842748]
+[2024-04-19 15:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842748]
+[2024-04-19 15:48:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 15:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-eigen-ingenuity
+[2024-04-19 15:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerbogen
+[2024-04-19 15:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlfluff
+[2024-04-19 15:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlfluff-templater-dbt
+[2024-04-19 15:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-mig
+[2024-04-19 15:48:41] INFO root fetch - processPackages [cerbogen]: New version: [0.0.9] Old Version: [0.0.14]
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 15:48:41] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-19 15:48:41] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/fb/70/4b5c96fd6cc0fa4ae3567d390662bb5a2e046a545a3f1a49f5aa47de6cf0/cerbogen-0.0.14.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 15:48:41] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff-templater-dbt]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-19 15:48:41] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/47/39/280985144aa065b8c37eddcb8a6d627386cd40024e03ed2478a3ad5525fa/sqlfluff-3.0.4.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 15:48:41] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/56/59/3ab4a3e5636a28d383c51f02ca7f8033ed29dd02e7723f2d5b8d17b274f5/cerbogen-0.0.9.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/ee/41/f997abcd39e172b6937a22ad2f9388cc1fe181b8bb9b12297d2f73829451/sqlfluff-templater-dbt-3.0.4.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2024-04-19 15:48:41] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20240419/p/python-eigen-ingenuity/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 15:48:41] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 15:48:41] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.14.tar.gz tmp/cerbogen-0.0.9.tar.gz --markdown 20240419/c/cerbogen/0.0.14-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Downloading https://files.pythonhosted.org/packages/10/3f/5ef3056e5ff034c335ecf6d6f3a6431197d189cede42729f2d2b737ca9b3/sqlfluff_templater_dbt-3.0.5.tar.gz
+[2024-04-19 15:48:41] INFO root fetch - processPackages [sqlfluff]: Downloading https://files.pythonhosted.org/packages/16/50/f4a2bddbe52da638171d67d087bc73c121d40a9aef534bbc29e967793ceb/sqlfluff-3.0.5.tar.gz
+[2024-04-19 15:48:42] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.14.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.9.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 15:48:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff]: executing diffoscope
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-3.0.4.tar.gz tmp/sqlfluff-3.0.5.tar.gz --markdown 20240419/s/sqlfluff/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff-templater-dbt]: executing diffoscope
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff-templater-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlfluff-templater-dbt-3.0.4.tar.gz tmp/sqlfluff_templater_dbt-3.0.5.tar.gz --markdown 20240419/s/sqlfluff-templater-dbt/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 15:48:42] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-templater-dbt-3.0.4.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - processPackages [sqlfluff-templater-dbt]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff_templater_dbt-3.0.5.tar.gz]
+[2024-04-19 15:48:42] INFO root fetch - main [MainThread]: End processing [sqlfluff-templater-dbt]: success
+[2024-04-19 15:48:44] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-3.0.4.tar.gz]
+[2024-04-19 15:48:44] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-3.0.5.tar.gz]
+[2024-04-19 15:48:44] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
+[2024-04-19 15:48:44] INFO root fetch - main [MainThread]: Store serial: [22842767]
