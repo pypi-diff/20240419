@@ -8843,3 +8843,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:39:51] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
 [2024-04-19 05:39:51] INFO root fetch - main [MainThread]: End processing [pycommons]: success
 [2024-04-19 05:39:51] INFO root fetch - main [MainThread]: Store serial: [22836217]
+[2024-04-19 05:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836217]
+[2024-04-19 05:41:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gguf-connector
+[2024-04-19 05:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-19 05:41:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edstem-assignment-tracker
+[2024-04-19 05:41:59] INFO root fetch - processPackages [gguf-connector]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 05:41:59] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/4e/c2/08f2cd0b156a16296c2279074113989e3762b7ef1ae47820fc4326010569/gguf_connector-0.7.8.tar.gz
+[2024-04-19 05:42:00] WARNING root fetch - processPackages [edstem-assignment-tracker]: Skipping, unable to determine old version
+[2024-04-19 05:42:00] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker] error
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: Downloading https://files.pythonhosted.org/packages/c5/93/ebcc584e4eb599309af430b8b5eaa29ee085f7ae6cfb7134ca4789e27778/gguf_connector-0.7.9.tar.gz
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: executing diffoscope
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gguf_connector-0.7.8.tar.gz tmp/gguf_connector-0.7.9.tar.gz --markdown 20240419/g/gguf-connector/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240419/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-19 05:42:00] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-19 05:42:00] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.8.tar.gz]
+[2024-04-19 05:42:00] INFO root fetch - processPackages [gguf-connector]: Remove: archive file [/home/abi/fetcher/tmp/gguf_connector-0.7.9.tar.gz]
+[2024-04-19 05:42:00] INFO root fetch - main [MainThread]: End processing [gguf-connector]: success
+[2024-04-19 05:42:00] INFO root fetch - main [MainThread]: Store serial: [22836227]
