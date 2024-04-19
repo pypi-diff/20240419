@@ -15198,3 +15198,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:55:30] INFO root fetch - processPackages [devilry]: Remove: archive file [/home/abi/fetcher/tmp/devilry-6.3.1.tar.gz]
 [2024-04-19 10:55:30] INFO root fetch - main [MainThread]: End processing [devilry]: success
 [2024-04-19 10:55:30] INFO root fetch - main [MainThread]: Store serial: [22839034]
+[2024-04-19 10:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839034]
+[2024-04-19 10:57:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-categories
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mvesuvio
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dualPredictor
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wuji
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-beta
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-media-manager
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xsuite-kernels
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agptools
+[2024-04-19 10:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Mesa
+[2024-04-19 10:57:41] INFO root fetch - processPackages [django-categories]: New version: [2.0.0a1] Old Version: [1.9.4]
+[2024-04-19 10:57:41] INFO root fetch - processPackages [dualPredictor]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 10:57:41] WARNING root fetch - processPackages [xsuite-kernels]: Skipping, unable to determine old version
+[2024-04-19 10:57:41] INFO root fetch - main [MainThread]: End processing [xsuite-kernels] error
+[2024-04-19 10:57:41] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/2f/29/479de416d92b552b58149983529076af3c3936611522d6a633338600f0e6/django-categories-1.9.4.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/b3/99/b2c5ae81b8c8c7a346d3d6f8192907802692d0c7a72ec5a607adecbd0202/dualPredictor-0.0.8.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [Mesa]: New version: [2.3.0rc1] Old Version: [2.3.0.dev0]
+[2024-04-19 10:57:41] WARNING root fetch - processPackages [simple-media-manager]: Skipping, unable to determine old version
+[2024-04-19 10:57:41] INFO root fetch - main [MainThread]: End processing [simple-media-manager] error
+[2024-04-19 10:57:41] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 10:57:41] INFO root fetch - processPackages [mvesuvio]: New version: [0.0.0.dev181] Old Version: [0.0.0.dev163]
+[2024-04-19 10:57:41] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 10:57:41] INFO root fetch - processPackages [certora-cli-beta]: New version: [7.5.0] Old Version: [7.4.0]
+[2024-04-19 10:57:41] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/bb/aa/64b587e4f0a4f096263f30da26db6fbfa9e4ff5e21d37ec9ae1c29c417f9/mvesuvio-0.0.0.dev163.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [dualPredictor]: Downloading https://files.pythonhosted.org/packages/aa/35/aece7cff1e9e7885b4a6cca30122595e0619daf7e03f425ec434392cf6c8/dualPredictor-0.0.9.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/b3/d8/0adf961f9c25ce143e277b41f356a8660124d7e031ecf489ee7084905712/django-categories-2.0.0a1.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/25/07/4570db73130c42ae5cdbb6da0d952fa3501597f0539d0f22abbe6d9c3339/mesa-2.3.0.dev0.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-19 10:57:41] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/9e/10/3f5a38377fa6816d83943744e1f6b03ee06035c4310ab9c0ddaed3523360/certora-cli-beta-7.4.0.tar.gz
+[2024-04-19 10:57:41] INFO root fetch - processPackages [dualPredictor]: executing diffoscope
+[2024-04-19 10:57:41] INFO root fetch - processPackages [dualPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dualPredictor-0.0.8.tar.gz tmp/dualPredictor-0.0.9.tar.gz --markdown 20240419/d/dualPredictor/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 10:57:41] INFO root fetch - processPackages [django-categories]: executing diffoscope
+[2024-04-19 10:57:41] INFO root fetch - processPackages [django-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-categories-1.9.4.tar.gz tmp/django-categories-2.0.0a1.tar.gz --markdown 20240419/d/django-categories/1.9.4-2.0.0a1/README.md --exclude *.pyd
+[2024-04-19 10:57:41] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 14483011>=10485760
+[2024-04-19 10:57:41] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2024-04-19 10:57:41] INFO root fetch - processPackages [mvesuvio]: Downloading https://files.pythonhosted.org/packages/3d/4a/892bfcae14c38c273b5e8721c89cb552b6d9ac33bacb164d7beabab9bf8e/mvesuvio-0.0.0.dev181.tar.gz
+[2024-04-19 10:57:42] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-04-19 10:57:42] INFO root fetch - processPackages [mvesuvio]: executing diffoscope
+[2024-04-19 10:57:42] INFO root fetch - processPackages [mvesuvio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvesuvio-0.0.0.dev163.tar.gz tmp/mvesuvio-0.0.0.dev181.tar.gz --markdown 20240419/m/mvesuvio/0.0.0.dev163-0.0.0.dev181/README.md --exclude *.pyd
+[2024-04-19 10:57:42] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-19 10:57:42] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-04-19 10:57:42] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240419/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 10:57:42] INFO root fetch - processPackages [Mesa]: Downloading https://files.pythonhosted.org/packages/48/e0/125429d0dbe84705e73e398393506ab2feeb0be324a7f9c116baf7200070/mesa-2.3.0rc1.tar.gz
+[2024-04-19 10:57:42] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-19 10:57:42] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240419/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 10:57:42] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.8.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - processPackages [dualPredictor]: Remove: archive file [/home/abi/fetcher/tmp/dualPredictor-0.0.9.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - main [MainThread]: End processing [dualPredictor]: success
+[2024-04-19 10:57:42] INFO root fetch - processPackages [Mesa]: executing diffoscope
+[2024-04-19 10:57:42] INFO root fetch - processPackages [Mesa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesa-2.3.0.dev0.tar.gz tmp/mesa-2.3.0rc1.tar.gz --markdown 20240419/M/Mesa/2.3.0.dev0-2.3.0rc1/README.md --exclude *.pyd
+[2024-04-19 10:57:42] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev163.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - processPackages [mvesuvio]: Remove: archive file [/home/abi/fetcher/tmp/mvesuvio-0.0.0.dev181.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - main [MainThread]: End processing [mvesuvio]: success
+[2024-04-19 10:57:42] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-04-19 10:57:42] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-04-19 10:57:42] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-19 10:57:42] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-19 10:57:42] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-19 10:57:43] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-1.9.4.tar.gz]
+[2024-04-19 10:57:43] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-2.0.0a1.tar.gz]
+[2024-04-19 10:57:43] INFO root fetch - main [MainThread]: End processing [django-categories]: success
+[2024-04-19 10:57:44] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/mesa-2.3.0.dev0.tar.gz]
+[2024-04-19 10:57:44] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/mesa-2.3.0rc1.tar.gz]
+[2024-04-19 10:57:44] INFO root fetch - main [MainThread]: End processing [Mesa]: success
+[2024-04-19 10:57:44] INFO root fetch - main [MainThread]: Store serial: [22839068]
