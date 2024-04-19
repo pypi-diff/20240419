@@ -12943,3 +12943,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:25:31] INFO root fetch - processPackages [pycaputo]: Remove: archive file [/home/abi/fetcher/tmp/pycaputo-0.5.0.tar.gz]
 [2024-04-19 09:25:31] INFO root fetch - main [MainThread]: End processing [pycaputo]: success
 [2024-04-19 09:25:31] INFO root fetch - main [MainThread]: Store serial: [22838017]
+[2024-04-19 09:27:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838017]
+[2024-04-19 09:27:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataidea
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clear-skies-stripe
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fistminio
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ssb-altinn3-util
+[2024-04-19 09:27:40] INFO root fetch - processPackages [dataidea]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 09:27:40] WARNING root fetch - processPackages [clear-skies-stripe]: Skipping, unable to determine old version
+[2024-04-19 09:27:40] INFO root fetch - main [MainThread]: End processing [clear-skies-stripe] error
+[2024-04-19 09:27:40] INFO root fetch - processPackages [fistminio]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ssb-altinn3-util]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 09:27:40] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/e7/a0/3642538ec5ba3fde285a13db75a9c344bc5455da36a71b576c4be691cd88/dataidea-0.1.0.tar.gz
+[2024-04-19 09:27:40] INFO root fetch - processPackages [fistminio]: Downloading https://files.pythonhosted.org/packages/3b/b7/d5facd233b9dcc7962bd946bce5e1633fe44d52a2446f318f7f8596868a5/fistminio-1.0.1.tar.gz
+[2024-04-19 09:27:40] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/ef/cb/003df3d92e53e6833a38e7c0e143bc4d6f12027d22363d6eaddd6cdfd246/ssb_altinn3_util-0.0.8.tar.gz
+[2024-04-19 09:27:41] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/c2/e6/2e8b07d782cac4ea8843321a6c81846f197b46ba76d0c1c7cea5bac2ccee/dataidea-0.1.1.tar.gz
+[2024-04-19 09:27:41] INFO root fetch - processPackages [fistminio]: Downloading https://files.pythonhosted.org/packages/d7/d3/68b794f0e50055d8550c9eb6c5767263fde8998a8d17299a22c76f70edfd/fistminio-1.0.2.tar.gz
+[2024-04-19 09:27:41] INFO root fetch - processPackages [dataidea]: executing diffoscope
+[2024-04-19 09:27:41] INFO root fetch - processPackages [dataidea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataidea-0.1.0.tar.gz tmp/dataidea-0.1.1.tar.gz --markdown 20240419/d/dataidea/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 09:27:41] INFO root fetch - processPackages [ssb-altinn3-util]: Downloading https://files.pythonhosted.org/packages/94/61/ca19b663821a79f349fe04383c5a68f9cf3f6c75cf20b9b9f2c7a92aa898/ssb_altinn3_util-0.0.9.tar.gz
+[2024-04-19 09:27:41] INFO root fetch - processPackages [fistminio]: executing diffoscope
+[2024-04-19 09:27:41] INFO root fetch - processPackages [fistminio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fistminio-1.0.1.tar.gz tmp/fistminio-1.0.2.tar.gz --markdown 20240419/f/fistminio/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 09:27:41] INFO root fetch - processPackages [ssb-altinn3-util]: executing diffoscope
+[2024-04-19 09:27:41] INFO root fetch - processPackages [ssb-altinn3-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_altinn3_util-0.0.8.tar.gz tmp/ssb_altinn3_util-0.0.9.tar.gz --markdown 20240419/s/ssb-altinn3-util/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:27:41] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.1.0.tar.gz]
+[2024-04-19 09:27:41] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.1.1.tar.gz]
+[2024-04-19 09:27:41] INFO root fetch - main [MainThread]: End processing [dataidea]: success
+[2024-04-19 09:27:41] INFO root fetch - processPackages [fistminio]: Remove: archive file [/home/abi/fetcher/tmp/fistminio-1.0.1.tar.gz]
+[2024-04-19 09:27:41] INFO root fetch - processPackages [fistminio]: Remove: archive file [/home/abi/fetcher/tmp/fistminio-1.0.2.tar.gz]
+[2024-04-19 09:27:41] INFO root fetch - main [MainThread]: End processing [fistminio]: success
+[2024-04-19 09:27:42] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.8.tar.gz]
+[2024-04-19 09:27:42] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.9.tar.gz]
+[2024-04-19 09:27:42] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
+[2024-04-19 09:27:42] INFO root fetch - main [MainThread]: Store serial: [22838030]
