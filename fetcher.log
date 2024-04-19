@@ -16901,3 +16901,59 @@ AssertionError: tmp/fds.sdk.StreetAccountNews-0.20.4-py3-none-any.whl.zip does n
 [2024-04-19 11:42:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
 [2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-19 11:42:45] INFO root fetch - main [MainThread]: Store serial: [22839706]
+[2024-04-19 11:44:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839706]
+[2024-04-19 11:45:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proxybandit
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: event-time-format
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Slame
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edds
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: insight-python-linux
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codedepot-depot
+[2024-04-19 11:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywxdump
+[2024-04-19 11:45:04] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 11:45:04] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 11:45:05] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [proxybandit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [pywxdump]: New version: [3.0.4] Old Version: [3.0.0]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [Slame]: New version: [1.5] Old Version: [1.4]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [event-time-format]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [insight-python-linux]: New version: [4.9.4] Old Version: [4.9.3]
+[2024-04-19 11:45:05] INFO root fetch - processPackages [proxybandit]: Downloading https://files.pythonhosted.org/packages/dc/b9/1db52c4e9fa46533425a7cda5540586d6c9a1a01d9b6444b4ddebef5f70c/proxybandit-1.0.0.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/b3/7a/6528b361bbd1d62a6bfaf4afd42e7ee109fa4dadcb0eac0016806e30900f/codedepot_depot-0.0.4.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/03/00/fa03a905c2ae6b048d5ffb780113b1664199083434d011a7bc2040c5765f/pywxdump-3.0.0.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [Slame]: Downloading https://files.pythonhosted.org/packages/b2/2d/d20bcfdfc79c6c422e4ffe1e63bd62e5c85887977283f22a4c6b2680d551/Slame-1.4.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [event-time-format]: Downloading https://files.pythonhosted.org/packages/62/65/889b346660cf3a0a7e2c305dfb03af6cec7917e58836d9d315d8dfbe618c/event_time_format-1.0.3-py3-none-any.whl
+[2024-04-19 11:45:05] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/87/b5/136a107315ea7692966b678a4f323b8e7c329dc514b1cb94529b1cb77eb5/insight_python_linux-4.9.3.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [proxybandit]: Downloading https://files.pythonhosted.org/packages/00/87/cfc34f8124fa40061d215dfb4c6375839c07b229455ba06693bf474a260f/proxybandit-1.0.1.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [proxybandit]: executing diffoscope
+[2024-04-19 11:45:05] INFO root fetch - processPackages [proxybandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxybandit-1.0.0.tar.gz tmp/proxybandit-1.0.1.tar.gz --markdown 20240419/p/proxybandit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 11:45:05] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 96287063>=10485760
+[2024-04-19 11:45:05] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2024-04-19 11:45:05] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/58/81/4625b731c697163ccb860c0c97b44613692d02c2516a766b8670362359fd/codedepot_depot-0.0.5.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [Slame]: Downloading https://files.pythonhosted.org/packages/91/9a/85321fb6f876fe6bc01f55cca1774cc5ede5aaa50979076ec77f7c4a18bd/Slame-1.5.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [event-time-format]: Downloading https://files.pythonhosted.org/packages/20/09/e5c91c8b2eaee40de357a9aa8eb1ac6cd5dc36e8a15873d23d01c9ad86d6/event_time_format-1.0.4-py3-none-any.whl
+[2024-04-19 11:45:05] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-19 11:45:05] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.4.tar.gz tmp/codedepot_depot-0.0.5.tar.gz --markdown 20240419/c/codedepot-depot/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 11:45:05] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/3c/6c/418c83cc219b5684648a34d06b0c41b54e109c539b5889d974c06daa29aa/pywxdump-3.0.4.tar.gz
+[2024-04-19 11:45:05] INFO root fetch - processPackages [Slame]: executing diffoscope
+[2024-04-19 11:45:05] INFO root fetch - processPackages [Slame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slame-1.4.tar.gz tmp/Slame-1.5.tar.gz --markdown 20240419/S/Slame/1.4-1.5/README.md --exclude *.pyd
+[2024-04-19 11:45:05] INFO root fetch - processPackages [event-time-format]: executing diffoscope
+[2024-04-19 11:45:05] INFO root fetch - processPackages [event-time-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_time_format-1.0.3-py3-none-any.whl.zip tmp/event_time_format-1.0.4-py3-none-any.whl.zip --markdown 20240419/e/event-time-format/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 11:45:06] INFO root fetch - processPackages [proxybandit]: Remove: archive file [/home/abi/fetcher/tmp/proxybandit-1.0.0.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - processPackages [proxybandit]: Remove: archive file [/home/abi/fetcher/tmp/proxybandit-1.0.1.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - main [MainThread]: End processing [proxybandit]: success
+[2024-04-19 11:45:06] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-04-19 11:45:06] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-3.0.0.tar.gz tmp/pywxdump-3.0.4.tar.gz --markdown 20240419/p/pywxdump/3.0.0-3.0.4/README.md --exclude *.pyd
+[2024-04-19 11:45:06] INFO root fetch - processPackages [Slame]: Remove: archive file [/home/abi/fetcher/tmp/Slame-1.4.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - processPackages [Slame]: Remove: archive file [/home/abi/fetcher/tmp/Slame-1.5.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - main [MainThread]: End processing [Slame]: success
+[2024-04-19 11:45:06] INFO root fetch - processPackages [event-time-format]: Remove: archive file [/home/abi/fetcher/tmp/event_time_format-1.0.3-py3-none-any.whl.zip]
+[2024-04-19 11:45:06] INFO root fetch - processPackages [event-time-format]: Remove: archive file [/home/abi/fetcher/tmp/event_time_format-1.0.4-py3-none-any.whl.zip]
+[2024-04-19 11:45:06] INFO root fetch - main [MainThread]: End processing [event-time-format]: success
+[2024-04-19 11:45:06] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.4.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.5.tar.gz]
+[2024-04-19 11:45:06] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-19 11:45:21] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.0.tar.gz]
+[2024-04-19 11:45:21] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.4.tar.gz]
+[2024-04-19 11:45:21] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-04-19 11:45:21] INFO root fetch - main [MainThread]: Store serial: [22839725]
