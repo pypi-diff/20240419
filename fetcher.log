@@ -20762,3 +20762,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:05:44] INFO root fetch - processPackages [pyam-iamc]: Remove: archive file [/home/abi/fetcher/tmp/pyam_iamc-2.2.2.tar.gz]
 [2024-04-19 14:05:44] INFO root fetch - main [MainThread]: End processing [pyam-iamc]: success
 [2024-04-19 14:05:44] INFO root fetch - main [MainThread]: Store serial: [22841410]
+[2024-04-19 14:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841410]
+[2024-04-19 14:07:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anedya-dev-sdk
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botl
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eirStru
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyicat-plus
+[2024-04-19 14:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spetlr
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pyicat-plus]: New version: [0.2.0rc0] Old Version: [0.1.8b0]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [eirStru]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pyicat-plus]: Downloading https://files.pythonhosted.org/packages/33/5d/aaee46857ea9a8d777847f69f96f3f87b59c5266e54790847bf8adf24926/pyicat-plus-0.1.8b0.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/8a/6a/609385daefe13d72e313fdaaa334950e799e0001fb833b7d4bf6b9a2578b/eirStru-0.3.0.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [anedya-dev-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [botl]: New version: [110] Old Version: [106]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/a4/2f/5cb0d779be08465a9ee30dbaaa6f5d5f573f07483ceb039d2bacd5edc422/pkg_newfinalcustom_pipeline_staging_final-0.0.2.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [spetlr]: New version: [5.1.3] Old Version: [5.1.2]
+[2024-04-19 14:07:54] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/cb/34/511a1d98424f67d26b235fd4a2986ac2c1839385fe4797e94d47e1b487c4/botl-106.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/1d/99/47312b905015c9446d5350032627876258c91d666c00c4df29135236f905/anedya_dev_sdk-0.1.5.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pyicat-plus]: Downloading https://files.pythonhosted.org/packages/fa/09/4c4320e4f47f02a75292768c268ee1d9f523b9263fd5d62aae3b59936774/pyicat_plus-0.2.0rc0.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/fc/99/8841bc6d1c6701608766b547a7ee915da3d37c4de4ac1698dfe2ecc8aa5c/spetlr-5.1.2.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/d3/02/bd636086a50736ec36daceb81278c9ed047e18e633df7016a80bcdfdc9f9/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pyicat-plus]: executing diffoscope
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pyicat-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyicat-plus-0.1.8b0.tar.gz tmp/pyicat_plus-0.2.0rc0.tar.gz --markdown 20240419/p/pyicat-plus/0.1.8b0-0.2.0rc0/README.md --exclude *.pyd
+[2024-04-19 14:07:54] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/f8/b2/8cc4f7b91636ea71eacff73e4ef4fe93d48693daf4be84f8eb037ad86258/eirStru-0.3.1.tar.gz
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 14:07:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.2.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 14:07:54] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 14:07:54] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.3.0.tar.gz tmp/eirStru-0.3.1.tar.gz --markdown 20240419/e/eirStru/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 14:07:54] INFO root fetch - processPackages [anedya-dev-sdk]: Downloading https://files.pythonhosted.org/packages/1c/2d/71c1254ed34a511238b705b6722709da7f2530ea7eef5da57d59ae34d5d3/anedya_dev_sdk-0.1.6.tar.gz
+[2024-04-19 14:07:55] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/1b/7a/b852e2ed1e6d7dee212c4b1b08c08b2c6adf604f46f679e3a24030169ee4/botl-110.tar.gz
+[2024-04-19 14:07:55] INFO root fetch - processPackages [anedya-dev-sdk]: executing diffoscope
+[2024-04-19 14:07:55] INFO root fetch - processPackages [anedya-dev-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anedya_dev_sdk-0.1.5.tar.gz tmp/anedya_dev_sdk-0.1.6.tar.gz --markdown 20240419/a/anedya-dev-sdk/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-19 14:07:55] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/6a/5b/d89c4ea34f9196a3ac192df1fd7bd6287b8b27db6c2c2e1d1fbd7fb610e8/spetlr-5.1.3.tar.gz
+[2024-04-19 14:07:55] INFO root fetch - processPackages [botl]: executing diffoscope
+[2024-04-19 14:07:55] INFO root fetch - processPackages [botl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botl-106.tar.gz tmp/botl-110.tar.gz --markdown 20240419/b/botl/106-110/README.md --exclude *.pyd
+[2024-04-19 14:07:55] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2024-04-19 14:07:55] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-5.1.2.tar.gz tmp/spetlr-5.1.3.tar.gz --markdown 20240419/s/spetlr/5.1.2-5.1.3/README.md --exclude *.pyd
+[2024-04-19 14:07:55] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.0.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.3.1.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 14:07:55] INFO root fetch - processPackages [pyicat-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyicat-plus-0.1.8b0.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - processPackages [pyicat-plus]: Remove: archive file [/home/abi/fetcher/tmp/pyicat_plus-0.2.0rc0.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - main [MainThread]: End processing [pyicat-plus]: success
+[2024-04-19 14:07:55] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.2.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 14:07:55] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya_dev_sdk-0.1.5.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - processPackages [anedya-dev-sdk]: Remove: archive file [/home/abi/fetcher/tmp/anedya_dev_sdk-0.1.6.tar.gz]
+[2024-04-19 14:07:55] INFO root fetch - main [MainThread]: End processing [anedya-dev-sdk]: success
+[2024-04-19 14:07:56] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-106.tar.gz]
+[2024-04-19 14:07:56] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-110.tar.gz]
+[2024-04-19 14:07:56] INFO root fetch - main [MainThread]: End processing [botl]: success
+[2024-04-19 14:07:56] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.2.tar.gz]
+[2024-04-19 14:07:56] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.3.tar.gz]
+[2024-04-19 14:07:56] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2024-04-19 14:07:56] INFO root fetch - main [MainThread]: Store serial: [22841427]
