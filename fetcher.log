@@ -16421,3 +16421,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:28:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.96.tar.gz]
 [2024-04-19 11:28:07] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
 [2024-04-19 11:28:07] INFO root fetch - main [MainThread]: Store serial: [22839525]
+[2024-04-19 11:30:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839525]
+[2024-04-19 11:30:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Comel
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-cli
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcano-base
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-dso
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-libs
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-whd
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-oci
+[2024-04-19 11:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-translator-lc
+[2024-04-19 11:30:18] INFO root fetch - processPackages [Comel]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2380.0] Old Version: [1.2379.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [2.3] Old Version: [2.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [volcano-base]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-19 11:30:18] WARNING root fetch - processPackages [gpt-translator-lc]: Skipping, unable to determine old version
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gpt-translator-lc]: Start processing: regex-utils
+[2024-04-19 11:30:18] INFO root fetch - main [MainThread]: End processing [gpt-translator-lc] error
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2380.0] Old Version: [1.2379.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2380.0] Old Version: [1.2379.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2380.0] Old Version: [1.2379.0]
+[2024-04-19 11:30:18] WARNING root fetch - processPackages [regex-utils]: Skipping, unable to determine old version
+[2024-04-19 11:30:18] INFO root fetch - processPackages [regex-utils]: Start processing: pybiolib
+[2024-04-19 11:30:18] INFO root fetch - main [MainThread]: End processing [regex-utils] error
+[2024-04-19 11:30:18] INFO root fetch - processPackages [Comel]: Downloading https://files.pythonhosted.org/packages/c3/cd/0e53caf909d2b968873d90b17a0c61ebb7e9a943a1a8d80104c71de12075/Comel-0.2.3.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2380.0] Old Version: [1.2379.0]
+[2024-04-19 11:30:18] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/e4/ba/6a84c49414389d04c6519a3d4d751fcf596b97c0dee264d53622216cf3f2/volcano_base-2.0.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/20/5c/8c30b6b1cc4515f983ec40fa5bd5dc33c8f8ef30c917d7d51f455620c618/gardener_cicd_base-1.2379.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/2e/85/6196a0fc698590ebbd7c8128d3a206e5470dd5686118d778c973b731dfe4/nonebot-plugin-yinying-chat-2.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/f1/9e/9ee3f87b6aa3f2fc2b5ebdaea48dc08972a743c3bbfb89594a6ee7ac642e/gardener_cicd_libs-1.2379.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/a3/2c/61f2ee236737a2c788ad7c6fe55103ee71debecbca5914be55a663bb49bb/gardener_cicd_cli-1.2379.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/f2/26/189d496a21bd037e9af8821bbea29682648d02d3a3d044af6c72636468f7/gardener_cicd_dso-1.2379.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/5b/45/2657ab5dcae90476eb79df07e648179eb4c1dcf56735d754afe45ff524f2/gardener_cicd_whd-1.2379.0.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [Comel]: Downloading https://files.pythonhosted.org/packages/7e/1f/02763cec2b14f3b506ba2b369ddd3fad115dc1b162201f507a348b5f7bd2/comel-0.2.4.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/00/e5/782cc290cdc473104dab0e2abad6ad21c95c0fbb8668fb87ddd9061b3788/volcano_base-2.0.1.tar.gz
+[2024-04-19 11:30:18] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/23/83/db6ae4f74499de0de7bb51acb4eba2bc0841ef88ede99a9457bc4e64a50a/gardener_cicd_base-1.2380.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/9a/3e/59003225ada0ed89d92c5e5017f522018e6df48de46f2a633bd63a74b31d/nonebot-plugin-yinying-chat-2.3.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [Comel]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [Comel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Comel-0.2.3.tar.gz tmp/comel-0.2.4.tar.gz --markdown 20240419/C/Comel/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/9d/f9/722565adce886b3323996c7a685a3da4c3f4e9689646cd61ea7c055c1b0b/gardener_cicd_libs-1.2380.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/b0/5b/54e78f21e4f2ffdbebe66e8fa99a343044bcfdd0d2757c094c03c21d1d7f/gardener_cicd_dso-1.2380.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240419/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [volcano-base]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [volcano-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcano_base-2.0.0.tar.gz tmp/volcano_base-2.0.1.tar.gz --markdown 20240419/v/volcano-base/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/46/4e/aaf75211168facad0e1fb614b92f50b21d98456130f9b52eeec71e431b18/gardener_cicd_whd-1.2380.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/94/76/77beeda82fed867b11286c8772660f67da257fdebc0ea7ff11a05c48e867/gardener_cicd_cli-1.2380.0.tar.gz
+[2024-04-19 11:30:19] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-yinying-chat-2.0.tar.gz tmp/nonebot-plugin-yinying-chat-2.3.tar.gz --markdown 20240419/n/nonebot-plugin-yinying-chat/2.0-2.3/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2379.0.tar.gz tmp/gardener_cicd_base-1.2380.0.tar.gz --markdown 20240419/g/gardener-cicd-base/1.2379.0-1.2380.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2379.0.tar.gz tmp/gardener_cicd_dso-1.2380.0.tar.gz --markdown 20240419/g/gardener-cicd-dso/1.2379.0-1.2380.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2379.0.tar.gz tmp/gardener_cicd_libs-1.2380.0.tar.gz --markdown 20240419/g/gardener-cicd-libs/1.2379.0-1.2380.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2379.0.tar.gz tmp/gardener_cicd_whd-1.2380.0.tar.gz --markdown 20240419/g/gardener-cicd-whd/1.2379.0-1.2380.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2379.0.tar.gz tmp/gardener_cicd_cli-1.2380.0.tar.gz --markdown 20240419/g/gardener-cicd-cli/1.2379.0-1.2380.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-19 11:30:19] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240419/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-04-19 11:30:19] INFO root fetch - processPackages [Comel]: Remove: archive file [/home/abi/fetcher/tmp/Comel-0.2.3.tar.gz]
+[2024-04-19 11:30:19] INFO root fetch - processPackages [Comel]: Remove: archive file [/home/abi/fetcher/tmp/comel-0.2.4.tar.gz]
+[2024-04-19 11:30:19] INFO root fetch - main [MainThread]: End processing [Comel]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.3.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-2.0.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-2.0.1.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [volcano-base]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2379.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2380.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2379.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2380.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2379.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2380.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2379.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2380.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2379.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2380.0.tar.gz]
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-04-19 11:30:20] INFO root fetch - main [MainThread]: Store serial: [22839564]
