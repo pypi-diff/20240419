@@ -19051,3 +19051,69 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:58:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post439-py3-none-any.whl.zip]
 [2024-04-19 12:58:05] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-19 12:58:05] INFO root fetch - main [MainThread]: Store serial: [22840598]
+[2024-04-19 13:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840598]
+[2024-04-19 13:00:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ietfdata
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: procciao
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lazynovel
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wedme-plots
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skip-django-auth-token
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cognitojwt
+[2024-04-19 13:00:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: annet
+[2024-04-19 13:00:14] INFO root fetch - processPackages [lazynovel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [cognitojwt]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/46/a8/eebf41b619d9f32fa1967e94ecbe843b78c7d45d0a86b560a1f18dafc2bf/lazynovel-0.1.8.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [procciao]: New version: [0.12] Old Version: [0.11]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [wedme-plots]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [skip-django-auth-token]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [ietfdata]: New version: [0.7.0] Old Version: [0.6.8]
+[2024-04-19 13:00:15] INFO root fetch - processPackages [cognitojwt]: Downloading https://files.pythonhosted.org/packages/74/4d/bb199b96e74eaab97ba00e271ca809275aed660ae26853c83325486ebdd4/cognitojwt-1.4.0.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [procciao]: Downloading https://files.pythonhosted.org/packages/0e/42/d5a4428ff02431d64fb3b4d9ec535c97083a4c3f145b4fbd20ad126ad3fc/procciao-0.11.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/86/03/49f84a15cc0a90a2dcf133627a339199c279acd83f1b009754c98c50efdc/ietfdata-0.6.8.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [skip-django-auth-token]: Downloading https://files.pythonhosted.org/packages/d9/2b/7344faa17c4da85c7a2e2b61c4f807a3280b0c2157cbbc416b1161a08e46/skip-django-auth-token-0.3.0.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [wedme-plots]: Downloading https://files.pythonhosted.org/packages/41/3d/f29ce8a874429b8acffd7befc37b3779a953b722eaef2b60636b84aa7ed6/wedme-plots-2.0.2.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/b8/92/adb188f1c22259efb22475de73d750f0e798a80bddf9ccb1edf2eac207e5/lazynovel-0.1.9.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.8.tar.gz tmp/lazynovel-0.1.9.tar.gz --markdown 20240419/l/lazynovel/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 13:00:15] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240419/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-04-19 13:00:15] INFO root fetch - processPackages [cognitojwt]: Downloading https://files.pythonhosted.org/packages/fc/40/657173a7216980b6069da6f57b4e657754b726c088e4a1760460c70b7e34/cognitojwt-1.4.1.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [procciao]: Downloading https://files.pythonhosted.org/packages/08/6e/f637d155aee3714c47da34b36b736c7dfe89f76fb5ec8508a56788350e4c/procciao-0.12.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/6b/d3/2cf1eb70e796e25b0e2c4ce8abbba44bc57857dd814155c47e26a292d53b/ietfdata-0.7.0.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [wedme-plots]: Downloading https://files.pythonhosted.org/packages/32/60/d3f6efdac2cba652d440eed70ad04338875a2b98c83297c2f78cb853a922/wedme_plots-2.0.3.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [cognitojwt]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [cognitojwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitojwt-1.4.0.tar.gz tmp/cognitojwt-1.4.1.tar.gz --markdown 20240419/c/cognitojwt/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-19 13:00:15] INFO root fetch - processPackages [skip-django-auth-token]: Downloading https://files.pythonhosted.org/packages/31/43/528d6b99df5cbd01ac09ead63898ae378bfb91e6fb3839cdb564446d0518/skip_django_auth_token-0.4.0.tar.gz
+[2024-04-19 13:00:15] INFO root fetch - processPackages [procciao]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [procciao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procciao-0.11.tar.gz tmp/procciao-0.12.tar.gz --markdown 20240419/p/procciao/0.11-0.12/README.md --exclude *.pyd
+[2024-04-19 13:00:15] INFO root fetch - processPackages [ietfdata]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [ietfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietfdata-0.6.8.tar.gz tmp/ietfdata-0.7.0.tar.gz --markdown 20240419/i/ietfdata/0.6.8-0.7.0/README.md --exclude *.pyd
+[2024-04-19 13:00:15] INFO root fetch - processPackages [wedme-plots]: executing diffoscope
+[2024-04-19 13:00:15] INFO root fetch - processPackages [wedme-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wedme-plots-2.0.2.tar.gz tmp/wedme_plots-2.0.3.tar.gz --markdown 20240419/w/wedme-plots/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-19 13:00:16] INFO root fetch - processPackages [skip-django-auth-token]: executing diffoscope
+[2024-04-19 13:00:16] INFO root fetch - processPackages [skip-django-auth-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-auth-token-0.3.0.tar.gz tmp/skip_django_auth_token-0.4.0.tar.gz --markdown 20240419/s/skip-django-auth-token/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-19 13:00:16] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.8.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.9.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [cognitojwt]: Remove: archive file [/home/abi/fetcher/tmp/cognitojwt-1.4.0.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [cognitojwt]: Remove: archive file [/home/abi/fetcher/tmp/cognitojwt-1.4.1.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [cognitojwt]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [procciao]: Remove: archive file [/home/abi/fetcher/tmp/procciao-0.11.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [procciao]: Remove: archive file [/home/abi/fetcher/tmp/procciao-0.12.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [procciao]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [wedme-plots]: Remove: archive file [/home/abi/fetcher/tmp/wedme-plots-2.0.2.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [wedme-plots]: Remove: archive file [/home/abi/fetcher/tmp/wedme_plots-2.0.3.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [wedme-plots]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.6.8.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.7.0.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [ietfdata]: success
+[2024-04-19 13:00:16] INFO root fetch - processPackages [skip-django-auth-token]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-auth-token-0.3.0.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - processPackages [skip-django-auth-token]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_auth_token-0.4.0.tar.gz]
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [skip-django-auth-token]: success
+[2024-04-19 13:00:16] INFO root fetch - main [MainThread]: Store serial: [22840618]
