@@ -12401,3 +12401,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:03:29] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-19 09:03:29] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-19 09:03:29] INFO root fetch - main [MainThread]: Store serial: [22837757]
+[2024-04-19 09:05:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837757]
+[2024-04-19 09:05:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 09:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerbogen
+[2024-04-19 09:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitlab-runner-tart-driver
+[2024-04-19 09:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bk-iam
+[2024-04-19 09:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: development-tool
+[2024-04-19 09:05:38] INFO root fetch - processPackages [cerbogen]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 09:05:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-19 09:05:38] INFO root fetch - processPackages [bk-iam]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-19 09:05:38] INFO root fetch - processPackages [development-tool]: New version: [0.3.9] Old Version: [0.3.7]
+[2024-04-19 09:05:38] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/bf/2d/7a09dd7c303630e1d42bddb6eb53169bed712393751a87d9b02e56f2feae/cerbogen-0.0.2.tar.gz
+[2024-04-19 09:05:38] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/11/04/53ff1908089614f094eb7280383b7f80afcc4897fbc3e3b22322cb611a98/gitlab-runner-tart-driver-0.3.2.tar.gz
+[2024-04-19 09:05:38] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/a4/3f/f1477206e1dc4c9896a091eeb6699cde066bac4e3bc2a1515307f398bffd/bk-iam-1.3.5.tar.gz
+[2024-04-19 09:05:38] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/d3/dd/cc877a91d66d123e25aca63c0e2d771b1b851351c7b695f4c3194cc9de31/development-tool-0.3.7.tar.gz
+[2024-04-19 09:05:39] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/ba/11/339585d5f7301cbd10ee9261e6f7a4a174450ace42e5b5ca60574f56c97b/cerbogen-0.0.3.tar.gz
+[2024-04-19 09:05:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Downloading https://files.pythonhosted.org/packages/d9/45/d18dd61a8289e7ea879355baa3dfd9f6c95657df3f6ea712d3208fd3adb7/gitlab-runner-tart-driver-0.3.3.tar.gz
+[2024-04-19 09:05:39] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 09:05:39] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.2.tar.gz tmp/cerbogen-0.0.3.tar.gz --markdown 20240419/c/cerbogen/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 09:05:39] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/f8/77/9e69600acd7900c1196216c31e033e92735e6ee2e427f5abc434d1a39e3a/bk-iam-1.3.6.tar.gz
+[2024-04-19 09:05:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: executing diffoscope
+[2024-04-19 09:05:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-runner-tart-driver-0.3.2.tar.gz tmp/gitlab-runner-tart-driver-0.3.3.tar.gz --markdown 20240419/g/gitlab-runner-tart-driver/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-19 09:05:39] INFO root fetch - processPackages [bk-iam]: executing diffoscope
+[2024-04-19 09:05:39] INFO root fetch - processPackages [bk-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-iam-1.3.5.tar.gz tmp/bk-iam-1.3.6.tar.gz --markdown 20240419/b/bk-iam/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-04-19 09:05:39] INFO root fetch - processPackages [development-tool]: Downloading https://files.pythonhosted.org/packages/2f/cd/3a34dadeb7130bd98dfbafe00e61de81eec0e55cdd94bc3040459d9463ab/development-tool-0.3.9.tar.gz
+[2024-04-19 09:05:39] INFO root fetch - processPackages [development-tool]: executing diffoscope
+[2024-04-19 09:05:39] INFO root fetch - processPackages [development-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/development-tool-0.3.7.tar.gz tmp/development-tool-0.3.9.tar.gz --markdown 20240419/d/development-tool/0.3.7-0.3.9/README.md --exclude *.pyd
+[2024-04-19 09:05:39] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.2.tar.gz]
+[2024-04-19 09:05:39] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.3.tar.gz]
+[2024-04-19 09:05:39] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 09:05:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.3.2.tar.gz]
+[2024-04-19 09:05:39] INFO root fetch - processPackages [gitlab-runner-tart-driver]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-runner-tart-driver-0.3.3.tar.gz]
+[2024-04-19 09:05:39] INFO root fetch - main [MainThread]: End processing [gitlab-runner-tart-driver]: success
+[2024-04-19 09:05:40] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.5.tar.gz]
+[2024-04-19 09:05:40] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.6.tar.gz]
+[2024-04-19 09:05:40] INFO root fetch - main [MainThread]: End processing [bk-iam]: success
+[2024-04-19 09:05:40] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.7.tar.gz]
+[2024-04-19 09:05:40] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.9.tar.gz]
+[2024-04-19 09:05:40] INFO root fetch - main [MainThread]: End processing [development-tool]: success
+[2024-04-19 09:05:40] INFO root fetch - main [MainThread]: Store serial: [22837771]
