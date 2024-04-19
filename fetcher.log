@@ -10356,3 +10356,29 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:27:30] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.7-py3-none-any.whl.zip]
 [2024-04-19 07:27:30] INFO root fetch - main [MainThread]: End processing [zaku]: success
 [2024-04-19 07:27:30] INFO root fetch - main [MainThread]: Store serial: [22836907]
+[2024-04-19 07:29:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836907]
+[2024-04-19 07:29:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2024-04-19 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rl-warp-drive
+[2024-04-19 07:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CheckmarxPythonSDK
+[2024-04-19 07:29:38] INFO root fetch - processPackages [CheckmarxPythonSDK]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-19 07:29:38] INFO root fetch - processPackages [rl-warp-drive]: New version: [2.7.1] Old Version: [2.6.2]
+[2024-04-19 07:29:38] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/37/ca/25d9be944e0038f8a1e1a2927a2328d36212af7828300679009963a0db2f/CheckmarxPythonSDK-0.8.5.tar.gz
+[2024-04-19 07:29:38] INFO root fetch - processPackages [policyengine-us]: New version: [0.742.2] Old Version: [0.742.1]
+[2024-04-19 07:29:38] INFO root fetch - processPackages [rl-warp-drive]: Downloading https://files.pythonhosted.org/packages/77/e6/e15c898a103e1397ca2da752c78fa9b3b61aeab69551b29b784124ade96b/rl-warp-drive-2.6.2.tar.gz
+[2024-04-19 07:29:38] INFO root fetch - processPackages [CheckmarxPythonSDK]: Downloading https://files.pythonhosted.org/packages/a8/63/4e2aa2afb8e405c352465b7fabed607c1dbe345a9033cb96ba87a1619fad/checkmarxpythonsdk-0.8.6.tar.gz
+[2024-04-19 07:29:38] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b5/27/eacfac441b58a6edaeedb2de072ac30cf484733d61d9d81465d1735a0aa4/policyengine-us-0.742.1.tar.gz
+[2024-04-19 07:29:38] WARNING root fetch - processPackages [rl-warp-drive]: Skipping package: exceeds size limit 11763047>=10485760
+[2024-04-19 07:29:38] INFO root fetch - main [MainThread]: End processing [rl-warp-drive] error
+[2024-04-19 07:29:38] INFO root fetch - processPackages [CheckmarxPythonSDK]: executing diffoscope
+[2024-04-19 07:29:38] INFO root fetch - processPackages [CheckmarxPythonSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheckmarxPythonSDK-0.8.5.tar.gz tmp/checkmarxpythonsdk-0.8.6.tar.gz --markdown 20240419/C/CheckmarxPythonSDK/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-19 07:29:39] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5b/04/bd268cc561ad034b09281ea8e27d57802d1ed65957c44c6531e057cbe4f7/policyengine-us-0.742.2.tar.gz
+[2024-04-19 07:29:39] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-19 07:29:39] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.742.1.tar.gz tmp/policyengine-us-0.742.2.tar.gz --markdown 20240419/p/policyengine-us/0.742.1-0.742.2/README.md --exclude *.pyd
+[2024-04-19 07:29:40] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/CheckmarxPythonSDK-0.8.5.tar.gz]
+[2024-04-19 07:29:40] INFO root fetch - processPackages [CheckmarxPythonSDK]: Remove: archive file [/home/abi/fetcher/tmp/checkmarxpythonsdk-0.8.6.tar.gz]
+[2024-04-19 07:29:40] INFO root fetch - main [MainThread]: End processing [CheckmarxPythonSDK]: success
+[2024-04-19 07:30:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.1.tar.gz]
+[2024-04-19 07:30:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.2.tar.gz]
+[2024-04-19 07:30:11] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-19 07:30:11] INFO root fetch - main [MainThread]: Store serial: [22836916]
