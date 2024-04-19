@@ -15677,3 +15677,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:08:45] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.2.0.tar.gz]
 [2024-04-19 11:08:45] INFO root fetch - main [MainThread]: End processing [instagram-dlpy]: success
 [2024-04-19 11:08:45] INFO root fetch - main [MainThread]: Store serial: [22839231]
+[2024-04-19 11:10:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839231]
+[2024-04-19 11:10:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-media-manager
+[2024-04-19 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RsCMPX-WcdmaMeas
+[2024-04-19 11:10:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyworxcloud
+[2024-04-19 11:10:55] WARNING root fetch - processPackages [simple-media-manager]: Skipping, unable to determine old version
+[2024-04-19 11:10:55] INFO root fetch - main [MainThread]: End processing [simple-media-manager] error
+[2024-04-19 11:10:55] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: New version: [5.0.40] Old Version: [4.0.186]
+[2024-04-19 11:10:55] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-19 11:10:55] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: Downloading https://files.pythonhosted.org/packages/f7/dc/7e4eb705ed7108c9962a431a408b512646a3f192ef52a3f3abba046c1e2a/RsCMPX_WcdmaMeas-4.0.186.tar.gz
+[2024-04-19 11:10:55] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-04-19 11:10:56] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-04-19 11:10:56] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-04-19 11:10:56] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240419/p/pyworxcloud/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-19 11:10:56] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: Downloading https://files.pythonhosted.org/packages/45/e8/87c062c199b9f9c5427a632325f668e37b9b03354cbdb318e124b92fd673/RsCMPX_WcdmaMeas-5.0.40.tar.gz
+[2024-04-19 11:10:56] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: executing diffoscope
+[2024-04-19 11:10:56] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_WcdmaMeas-4.0.186.tar.gz tmp/RsCMPX_WcdmaMeas-5.0.40.tar.gz --markdown 20240419/R/RsCMPX-WcdmaMeas/4.0.186-5.0.40/README.md --exclude *.pyd
+[2024-04-19 11:10:56] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-04-19 11:10:56] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-04-19 11:10:56] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-04-19 11:10:59] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_WcdmaMeas-4.0.186.tar.gz]
+[2024-04-19 11:10:59] INFO root fetch - processPackages [RsCMPX-WcdmaMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_WcdmaMeas-5.0.40.tar.gz]
+[2024-04-19 11:10:59] INFO root fetch - main [MainThread]: End processing [RsCMPX-WcdmaMeas]: success
+[2024-04-19 11:10:59] INFO root fetch - main [MainThread]: Store serial: [22839240]
