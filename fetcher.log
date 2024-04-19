@@ -22167,3 +22167,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:07:51] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.3.tar.gz]
 [2024-04-19 15:07:51] INFO root fetch - main [MainThread]: End processing [fuxictr]: success
 [2024-04-19 15:07:51] INFO root fetch - main [MainThread]: Store serial: [22842069]
+[2024-04-19 15:09:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842069]
+[2024-04-19 15:10:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystac-client
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exeNake
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upsonic
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cid-cmd
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxonloader
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indic-translit
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micom
+[2024-04-19 15:10:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FirstHomework-package-Olesja-Tsimmerman
+[2024-04-19 15:10:00] INFO root fetch - processPackages [exeNake]: New version: [0.1] Old Version: [0.0.2]
+[2024-04-19 15:10:00] INFO root fetch - processPackages [exeNake]: Downloading https://files.pythonhosted.org/packages/4a/a0/44aa837c52b98b45a2eb2ca19fbc3ec78fd932cce474b99f9358d05b0934/exenake-0.0.2.tar.gz
+[2024-04-19 15:10:00] INFO root fetch - processPackages [pystac-client]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-19 15:10:00] WARNING root fetch - processPackages [FirstHomework-package-Olesja-Tsimmerman]: Skipping, unable to determine old version
+[2024-04-19 15:10:00] INFO root fetch - main [MainThread]: End processing [FirstHomework-package-Olesja-Tsimmerman] error
+[2024-04-19 15:10:00] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-19 15:10:00] WARNING root fetch - processPackages [indic-translit]: Skipping, unable to determine old version
+[2024-04-19 15:10:00] INFO root fetch - main [MainThread]: End processing [indic-translit] error
+[2024-04-19 15:10:00] INFO root fetch - processPackages [micom]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-04-19 15:10:00] INFO root fetch - processPackages [jaxonloader]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-19 15:10:00] INFO root fetch - processPackages [cid-cmd]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-19 15:10:00] INFO root fetch - processPackages [pystac-client]: Downloading https://files.pythonhosted.org/packages/a9/39/f7ad4da0aacf094129002315b75dbb3c2c934b7864c479526c260243c13c/pystac-client-0.7.6.tar.gz
+[2024-04-19 15:10:00] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/d3/08/6093eceb83b39bdff9e3b65729f6c5535ea0849b6bc7c62a47e126d8cead/jaxonloader-0.3.8.tar.gz
+[2024-04-19 15:10:00] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-04-19 15:10:00] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2024-04-19 15:10:00] INFO root fetch - processPackages [micom]: Downloading https://files.pythonhosted.org/packages/8b/ee/d28e055d72a2f20c83c23fe7f9dbe199a162527c73410c2f936374cee3e7/micom-0.9.7-py2.py3-none-any.whl
+[2024-04-19 15:10:00] INFO root fetch - processPackages [exeNake]: Downloading https://files.pythonhosted.org/packages/47/3e/9bf8f80d80c2d38f4d7fb8bb596e8192ffe1108e893e5c1d910ff4a5e9cb/exenake-0.1.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [exeNake]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [exeNake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exenake-0.0.2.tar.gz tmp/exenake-0.1.tar.gz --markdown 20240419/e/exeNake/0.0.2-0.1/README.md --exclude *.pyd
+[2024-04-19 15:10:01] INFO root fetch - processPackages [pystac-client]: Downloading https://files.pythonhosted.org/packages/86/aa/a8d04b0ec8127ff299241ec688b6b7513a8d25d932a46cbb04b9e3fedfa6/pystac_client-0.7.7.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/a3/2e/caac95db4d73dd67285d001b22747403e9fd31eaaf6c3253db6df13e5ef4/jaxonloader-0.3.9.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [pystac-client]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [pystac-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystac-client-0.7.6.tar.gz tmp/pystac_client-0.7.7.tar.gz --markdown 20240419/p/pystac-client/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-19 15:10:01] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/c1/60/dfa03a4934ed328f1895beebbc57e2cca389bc3e5b2dfd4e2eb4a13c274d/cid_cmd-0.3.0.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [jaxonloader]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [jaxonloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxonloader-0.3.8.tar.gz tmp/jaxonloader-0.3.9.tar.gz --markdown 20240419/j/jaxonloader/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-19 15:10:01] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240419/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-19 15:10:01] INFO root fetch - processPackages [micom]: Downloading https://files.pythonhosted.org/packages/08/68/4ae3ae6c772489075393f217cd30302502c3f5866256d8f67697c29143f8/micom-0.9.9.tar.gz
+[2024-04-19 15:10:01] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.9.tar.gz tmp/cid_cmd-0.3.0.tar.gz --markdown 20240419/c/cid-cmd/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-19 15:10:01] INFO root fetch - processPackages [exeNake]: Remove: archive file [/home/abi/fetcher/tmp/exenake-0.0.2.tar.gz]
+[2024-04-19 15:10:01] INFO root fetch - processPackages [exeNake]: Remove: archive file [/home/abi/fetcher/tmp/exenake-0.1.tar.gz]
+[2024-04-19 15:10:01] INFO root fetch - main [MainThread]: End processing [exeNake]: success
+[2024-04-19 15:10:01] INFO root fetch - processPackages [micom]: executing diffoscope
+[2024-04-19 15:10:01] INFO root fetch - processPackages [micom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micom-0.9.7-py2.py3-none-any.whl.zip tmp/micom-0.9.9.tar.gz --markdown 20240419/m/micom/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-04-19 15:10:02] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-04-19 15:10:02] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.3.8.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.3.9.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - main [MainThread]: End processing [jaxonloader]: success
+[2024-04-19 15:10:02] INFO root fetch - processPackages [pystac-client]: Remove: archive file [/home/abi/fetcher/tmp/pystac-client-0.7.6.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - processPackages [pystac-client]: Remove: archive file [/home/abi/fetcher/tmp/pystac_client-0.7.7.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - main [MainThread]: End processing [pystac-client]: success
+[2024-04-19 15:10:02] INFO root fetch - processPackages [micom]: Remove: archive file [/home/abi/fetcher/tmp/micom-0.9.7-py2.py3-none-any.whl.zip]
+[2024-04-19 15:10:02] INFO root fetch - processPackages [micom]: Remove: archive file [/home/abi/fetcher/tmp/micom-0.9.9.tar.gz]
+[2024-04-19 15:10:02] INFO root fetch - main [MainThread]: End processing [micom]: success
+[2024-04-19 15:10:03] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.9.tar.gz]
+[2024-04-19 15:10:03] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.0.tar.gz]
+[2024-04-19 15:10:03] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2024-04-19 15:10:03] INFO root fetch - main [MainThread]: Store serial: [22842096]
