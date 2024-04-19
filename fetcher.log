@@ -8325,3 +8325,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:06:53] INFO root fetch - processPackages [django-form-surveys]: Remove: archive file [/home/abi/fetcher/tmp/django-form-surveys-2.2.2.tar.gz]
 [2024-04-19 05:06:53] INFO root fetch - main [MainThread]: End processing [django-form-surveys]: success
 [2024-04-19 05:06:53] INFO root fetch - main [MainThread]: Store serial: [22836006]
+[2024-04-19 05:08:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836006]
+[2024-04-19 05:09:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 05:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdv
+[2024-04-19 05:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idmtk
+[2024-04-19 05:09:02] INFO root fetch - processPackages [idmtk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 05:09:02] INFO root fetch - processPackages [sdv]: New version: [1.9.0.dev0] Old Version: [1.9.0]
+[2024-04-19 05:09:02] INFO root fetch - processPackages [idmtk]: Downloading https://files.pythonhosted.org/packages/88/7f/7aed2f87a5e2656c742625d2731a2b57305a9fad05ece5ef6956dc3dc039/idmtk-0.1.0.tar.gz
+[2024-04-19 05:09:03] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/fd/10/7b11f6164ad70ba433b7d821a254d4c3f3df372d5f29eb28ac108fa9afde/sdv-1.9.0.tar.gz
+[2024-04-19 05:09:03] INFO root fetch - processPackages [idmtk]: Downloading https://files.pythonhosted.org/packages/db/c7/8f3dd825e71f4c782b418e2b3e0e227883c6c4e66d5928622e135bcf110d/idmtk-0.1.1.tar.gz
+[2024-04-19 05:09:03] INFO root fetch - processPackages [idmtk]: executing diffoscope
+[2024-04-19 05:09:03] INFO root fetch - processPackages [idmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idmtk-0.1.0.tar.gz tmp/idmtk-0.1.1.tar.gz --markdown 20240419/i/idmtk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 05:09:03] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/e7/88/19cfd5ef7b5a2b0f06b0c5c0c7909e7a5a755bede4fd08693e68585e8628/sdv-1.9.0.dev0.tar.gz
+[2024-04-19 05:09:03] INFO root fetch - processPackages [idmtk]: Remove: archive file [/home/abi/fetcher/tmp/idmtk-0.1.0.tar.gz]
+[2024-04-19 05:09:03] INFO root fetch - processPackages [idmtk]: Remove: archive file [/home/abi/fetcher/tmp/idmtk-0.1.1.tar.gz]
+[2024-04-19 05:09:03] INFO root fetch - main [MainThread]: End processing [idmtk]: success
+[2024-04-19 05:09:03] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2024-04-19 05:09:03] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.9.0.tar.gz tmp/sdv-1.9.0.dev0.tar.gz --markdown 20240419/s/sdv/1.9.0-1.9.0.dev0/README.md --exclude *.pyd
+[2024-04-19 05:09:05] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.9.0.tar.gz]
+[2024-04-19 05:09:05] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.9.0.dev0.tar.gz]
+[2024-04-19 05:09:05] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2024-04-19 05:09:05] INFO root fetch - main [MainThread]: Store serial: [22836012]
