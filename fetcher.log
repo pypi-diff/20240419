@@ -9860,3 +9860,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:51:53] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.7-py3-none-any.whl.zip]
 [2024-04-19 06:51:53] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
 [2024-04-19 06:51:53] INFO root fetch - main [MainThread]: Store serial: [22836709]
+[2024-04-19 06:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836709]
+[2024-04-19 06:54:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 06:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thinkcol_llm_client
+[2024-04-19 06:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edstem-assignment-tracker
+[2024-04-19 06:54:02] INFO root fetch - processPackages [thinkcol_llm_client]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 06:54:02] INFO root fetch - processPackages [edstem-assignment-tracker]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 06:54:02] INFO root fetch - processPackages [thinkcol_llm_client]: Downloading https://files.pythonhosted.org/packages/da/f6/0087e2501c16f5d6c15c08ea34efa2ede203aed7046fc26bd6e00f714384/thinkcol_llm_client-0.1.1.tar.gz
+[2024-04-19 06:54:02] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/cb/e8/2da81c589f56563a323f7ad3a5ed02d10c5d5159a4b8d65f793328c42b2f/edstem_assignment_tracker-1.0.3.tar.gz
+[2024-04-19 06:54:02] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/35/35/dd0ea8ce58fe2f0803e06caf33426fae7e9b307f227beae450f331d4babe/edstem_assignment_tracker-1.0.4.tar.gz
+[2024-04-19 06:54:02] INFO root fetch - processPackages [thinkcol_llm_client]: Downloading https://files.pythonhosted.org/packages/fa/08/43431e309785052d44d0dbe9a9ec5b444c0e0ef5b2bf0e2b3a00a97bf7b2/thinkcol_llm_client-0.1.2.tar.gz
+[2024-04-19 06:54:02] INFO root fetch - processPackages [edstem-assignment-tracker]: executing diffoscope
+[2024-04-19 06:54:02] INFO root fetch - processPackages [edstem-assignment-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edstem_assignment_tracker-1.0.3.tar.gz tmp/edstem_assignment_tracker-1.0.4.tar.gz --markdown 20240419/e/edstem-assignment-tracker/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 06:54:02] INFO root fetch - processPackages [thinkcol_llm_client]: executing diffoscope
+[2024-04-19 06:54:02] INFO root fetch - processPackages [thinkcol_llm_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinkcol_llm_client-0.1.1.tar.gz tmp/thinkcol_llm_client-0.1.2.tar.gz --markdown 20240419/t/thinkcol_llm_client/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 06:54:03] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.3.tar.gz]
+[2024-04-19 06:54:03] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.4.tar.gz]
+[2024-04-19 06:54:03] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker]: success
+[2024-04-19 06:54:03] INFO root fetch - processPackages [thinkcol_llm_client]: Remove: archive file [/home/abi/fetcher/tmp/thinkcol_llm_client-0.1.1.tar.gz]
+[2024-04-19 06:54:03] INFO root fetch - processPackages [thinkcol_llm_client]: Remove: archive file [/home/abi/fetcher/tmp/thinkcol_llm_client-0.1.2.tar.gz]
+[2024-04-19 06:54:03] INFO root fetch - main [MainThread]: End processing [thinkcol_llm_client]: success
+[2024-04-19 06:54:03] INFO root fetch - main [MainThread]: Store serial: [22836714]
