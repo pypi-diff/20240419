@@ -11295,3 +11295,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:06:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
 [2024-04-19 08:06:14] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2024-04-19 08:06:14] INFO root fetch - main [MainThread]: Store serial: [22837200]
+[2024-04-19 08:08:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837200]
+[2024-04-19 08:08:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stringzilla
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casepy
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dpowcoin-yespower
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-xterm
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-auditlog
+[2024-04-19 08:08:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-auditlog
+[2024-04-19 08:08:22] INFO root fetch - processPackages [odoo12-addon-auditlog]: New version: [12.0.2.1.1.99.dev1] Old Version: [12.0.2.1.1]
+[2024-04-19 08:08:22] WARNING root fetch - processPackages [django-xterm]: Skipping, unable to determine old version
+[2024-04-19 08:08:22] INFO root fetch - main [MainThread]: End processing [django-xterm] error
+[2024-04-19 08:08:22] WARNING root fetch - processPackages [casepy]: Skipping, unable to determine old version
+[2024-04-19 08:08:22] WARNING root fetch - processPackages [dpowcoin-yespower]: Skipping, unable to determine old version
+[2024-04-19 08:08:22] INFO root fetch - main [MainThread]: End processing [casepy] error
+[2024-04-19 08:08:22] INFO root fetch - main [MainThread]: End processing [dpowcoin-yespower] error
+[2024-04-19 08:08:22] INFO root fetch - processPackages [odoo11-addon-auditlog]: New version: [11.0.1.0.1.99.dev8] Old Version: [11.0.1.0.1.99.dev7]
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo12-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/f4/a0/16cea6d296628ccabf013d1bf593762274dd792ef4aadf2cb069d6d6fb76/odoo12_addon_auditlog-12.0.2.1.1-py3-none-any.whl
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo11-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/a5/3c/315a2946f01a56dac2e4f83e716a2862c1401bf2eb04c4ee0788fdaa2b08/odoo11_addon_auditlog-11.0.1.0.1.99.dev7-py2.py3-none-any.whl
+[2024-04-19 08:08:23] INFO root fetch - processPackages [stringzilla]: New version: [3.8.2] Old Version: [3.8.1]
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo11-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/b7/aa/b9fe92fa913f423141740db60182223bb5ff1926a7b676c5b4c0a197dea5/odoo11_addon_auditlog-11.0.1.0.1.99.dev8-py2.py3-none-any.whl
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo12-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/a2/f7/7695dd9f70b4e761d78a6e6bf3b52f4c9bca2110156d3a8a800bef78c1b3/odoo12_addon_auditlog-12.0.2.1.1.99.dev1-py3-none-any.whl
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo11-addon-auditlog]: executing diffoscope
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo11-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_auditlog-11.0.1.0.1.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_auditlog-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip --markdown 20240419/o/odoo11-addon-auditlog/11.0.1.0.1.99.dev7-11.0.1.0.1.99.dev8/README.md --exclude *.pyd
+[2024-04-19 08:08:23] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/dd/b9/68e76c32ca717667cc75dfb0a78e2429533feafdc4cfb522cd18aa66d4e9/stringzilla-3.8.1-cp39-cp39-win_arm64.whl
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo12-addon-auditlog]: executing diffoscope
+[2024-04-19 08:08:23] INFO root fetch - processPackages [odoo12-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_auditlog-12.0.2.1.1-py3-none-any.whl.zip tmp/odoo12_addon_auditlog-12.0.2.1.1.99.dev1-py3-none-any.whl.zip --markdown 20240419/o/odoo12-addon-auditlog/12.0.2.1.1-12.0.2.1.1.99.dev1/README.md --exclude *.pyd
+[2024-04-19 08:08:24] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/be/66/1323f961e68a14626377d303bd1f621409f2a6485fa7cac8b3f0f7bef950/stringzilla-3.8.2-cp36-cp36m-manylinux_2_17_s390x.manylinux2014_s390x.manylinux_2_28_s390x.whl
+[2024-04-19 08:08:24] INFO root fetch - processPackages [odoo11-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auditlog-11.0.1.0.1.99.dev7-py2.py3-none-any.whl.zip]
+[2024-04-19 08:08:24] INFO root fetch - processPackages [odoo11-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_auditlog-11.0.1.0.1.99.dev8-py2.py3-none-any.whl.zip]
+[2024-04-19 08:08:24] INFO root fetch - main [MainThread]: End processing [odoo11-addon-auditlog]: success
+[2024-04-19 08:08:24] INFO root fetch - processPackages [odoo12-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_auditlog-12.0.2.1.1-py3-none-any.whl.zip]
+[2024-04-19 08:08:24] INFO root fetch - processPackages [odoo12-addon-auditlog]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_auditlog-12.0.2.1.1.99.dev1-py3-none-any.whl.zip]
+[2024-04-19 08:08:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-auditlog]: success
+[2024-04-19 08:08:24] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2024-04-19 08:08:24] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-3.8.1-cp39-cp39-win_arm64.whl.zip tmp/stringzilla-3.8.2-cp36-cp36m-manylinux_2_17_s390x.manylinux2014_s390x.manylinux_2_28_s390x.whl.zip --markdown 20240419/s/stringzilla/3.8.1-3.8.2/README.md --exclude *.pyd
+[2024-04-19 08:08:25] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-3.8.1-cp39-cp39-win_arm64.whl.zip]
+[2024-04-19 08:08:25] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-3.8.2-cp36-cp36m-manylinux_2_17_s390x.manylinux2014_s390x.manylinux_2_28_s390x.whl.zip]
+[2024-04-19 08:08:25] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2024-04-19 08:08:25] INFO root fetch - main [MainThread]: Store serial: [22837277]
