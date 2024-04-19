@@ -2000,3 +2000,45 @@
 [2024-04-19 02:02:57] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-04-19 02:02:57] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-04-19 02:02:57] INFO root fetch - main [MainThread]: Store serial: [22833529]
+[2024-04-19 02:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833529]
+[2024-04-19 02:05:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 02:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrtk-explorer
+[2024-04-19 02:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxscript
+[2024-04-19 02:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsms-sdk
+[2024-04-19 02:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2024-04-19 02:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trame-jupyter-extension
+[2024-04-19 02:05:07] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2024-04-19 02:05:07] WARNING root fetch - processPackages [nrtk-explorer]: Skipping, unable to determine old version
+[2024-04-19 02:05:07] INFO root fetch - main [MainThread]: End processing [nrtk-explorer] error
+[2024-04-19 02:05:07] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240418] Old Version: [0.1.0.dev20240417]
+[2024-04-19 02:05:07] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240418.439] Old Version: [2.0.0.20240417.406]
+[2024-04-19 02:05:07] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/b9/37/dd261a3c7b04f98be8b3a120043b2d8fff257a0e001a630dc9fd6fde7b58/dsms_sdk-1.4.0rc2.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [trame-jupyter-extension]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-19 02:05:07] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/ee/4a/caa12d4f272c88786a1b9cd53091ac64c5d1ae1a24ad125c87aa029bde65/onnxscript-0.1.0.dev20240417.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/13/c4/48dab1b65d061ee269eff4694d197b875b4eea645b2aeca2d098cab27095/mct-nightly-2.0.0.20240417.406.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/33/c5/8c4dc0a61a000b4ffbb72ca05c3e73ff1443df097c82fc79e06494c79398/dsms_sdk-1.4.0rc3.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [trame-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/2c/f8/fbf05191cd518aeec221dff17fb95353ccbacd7a241b20226a35d9a45a13/trame_jupyter_extension-2.0.1.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/8a/fc/87cf8903a51b7a788e0e3c80c29d8ecbee45fe8feb62bbc6a3641170017a/mct-nightly-2.0.0.20240418.439.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-19 02:05:07] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc2.tar.gz tmp/dsms_sdk-1.4.0rc3.tar.gz --markdown 20240419/d/dsms-sdk/1.4.0rc2-1.4.0rc3/README.md --exclude *.pyd
+[2024-04-19 02:05:07] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-19 02:05:07] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240417.406.tar.gz tmp/mct-nightly-2.0.0.20240418.439.tar.gz --markdown 20240419/m/mct-nightly/2.0.0.20240417.406-2.0.0.20240418.439/README.md --exclude *.pyd
+[2024-04-19 02:05:07] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/a5/f2/744b2f96d3af4d079013ee61b94bae0db326ef7b793e64c4b266ab4f22dd/onnxscript-0.1.0.dev20240418.tar.gz
+[2024-04-19 02:05:07] INFO root fetch - processPackages [trame-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/0f/22/eca26b0482a323a5a463ad5f5529997ac2d75ae122a821a7efb3099e1036/trame_jupyter_extension-2.1.0.tar.gz
+[2024-04-19 02:05:08] INFO root fetch - processPackages [trame-jupyter-extension]: executing diffoscope
+[2024-04-19 02:05:08] INFO root fetch - processPackages [trame-jupyter-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame_jupyter_extension-2.0.1.tar.gz tmp/trame_jupyter_extension-2.1.0.tar.gz --markdown 20240419/t/trame-jupyter-extension/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-19 02:05:08] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-19 02:05:08] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240417.tar.gz tmp/onnxscript-0.1.0.dev20240418.tar.gz --markdown 20240419/o/onnxscript/0.1.0.dev20240417-0.1.0.dev20240418/README.md --exclude *.pyd
+[2024-04-19 02:05:08] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc2.tar.gz]
+[2024-04-19 02:05:08] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc3.tar.gz]
+[2024-04-19 02:05:08] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-19 02:05:08] INFO root fetch - processPackages [trame-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/trame_jupyter_extension-2.0.1.tar.gz]
+[2024-04-19 02:05:08] INFO root fetch - processPackages [trame-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/trame_jupyter_extension-2.1.0.tar.gz]
+[2024-04-19 02:05:08] INFO root fetch - main [MainThread]: End processing [trame-jupyter-extension]: success
+[2024-04-19 02:05:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240417.tar.gz]
+[2024-04-19 02:05:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240418.tar.gz]
+[2024-04-19 02:05:09] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-19 02:05:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240417.406.tar.gz]
+[2024-04-19 02:05:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240418.439.tar.gz]
+[2024-04-19 02:05:10] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-19 02:05:10] INFO root fetch - main [MainThread]: Store serial: [22833544]
