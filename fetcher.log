@@ -8346,3 +8346,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:09:05] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.9.0.dev0.tar.gz]
 [2024-04-19 05:09:05] INFO root fetch - main [MainThread]: End processing [sdv]: success
 [2024-04-19 05:09:05] INFO root fetch - main [MainThread]: Store serial: [22836012]
+[2024-04-19 05:11:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836012]
+[2024-04-19 05:11:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 05:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musc
+[2024-04-19 05:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiter
+[2024-04-19 05:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shtec-rlhf
+[2024-04-19 05:11:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dmk-packages
+[2024-04-19 05:11:14] INFO root fetch - processPackages [shtec-rlhf]: New version: [0.0.2.dev0] Old Version: [0.0.1.dev0]
+[2024-04-19 05:11:14] INFO root fetch - processPackages [musc]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-19 05:11:14] INFO root fetch - processPackages [pyiter]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-19 05:11:14] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-19 05:11:14] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/bf/c7/9df314da13a0ca7b6cfd84dbccd0d72f0db873db8339b18f76f7da3dbc16/pyiter-0.8.5.tar.gz
+[2024-04-19 05:11:14] INFO root fetch - processPackages [musc]: Downloading https://files.pythonhosted.org/packages/45/68/515781c32af68f3712fcb7b7718c4076eb47e331c4c1880483e623496078/musc-0.0.0.tar.gz
+[2024-04-19 05:11:14] INFO root fetch - processPackages [shtec-rlhf]: Downloading https://files.pythonhosted.org/packages/c8/b9/4ce60c92d9a41cf8bf63867b76d93ec1fc4aa313590ee7eeb08c25804999/shtec-rlhf-0.0.1.dev0.tar.gz
+[2024-04-19 05:11:14] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/b3/e6/47ca5c0c92e58733094bab3767de1288a8c999f5a4dcf6bdb145f05702c6/dmk_packages-0.6.2.tar.gz
+[2024-04-19 05:11:15] INFO root fetch - processPackages [musc]: Downloading https://files.pythonhosted.org/packages/3c/51/4413f64639edf3efe5b5aeeb36135a5d3a2dacc97528fa8a8916d3bfeaaa/musc-0.1.0.tar.gz
+[2024-04-19 05:11:15] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/dd/22/c93698ca5b76c6d7f0bc7e3f70ca508c05c1523ce292aa9bb27d3eeb69e0/dmk_packages-0.6.3.tar.gz
+[2024-04-19 05:11:15] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/a1/33/0ad500de9c7d97fc5c8230ec3a0fc99cf2a72e5496de9f61efabb3c30e6a/pyiter-0.8.6.tar.gz
+[2024-04-19 05:11:15] INFO root fetch - processPackages [shtec-rlhf]: Downloading https://files.pythonhosted.org/packages/99/f1/0e98476329c07f8442d08dc3da6518b22dfb7bb96efe32586783b8f80a7e/shtec-rlhf-0.0.2.dev0.tar.gz
+[2024-04-19 05:11:15] INFO root fetch - processPackages [musc]: executing diffoscope
+[2024-04-19 05:11:15] INFO root fetch - processPackages [musc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musc-0.0.0.tar.gz tmp/musc-0.1.0.tar.gz --markdown 20240419/m/musc/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-04-19 05:11:15] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-19 05:11:15] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.2.tar.gz tmp/dmk_packages-0.6.3.tar.gz --markdown 20240419/d/dmk-packages/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-19 05:11:15] INFO root fetch - processPackages [pyiter]: executing diffoscope
+[2024-04-19 05:11:15] INFO root fetch - processPackages [pyiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiter-0.8.5.tar.gz tmp/pyiter-0.8.6.tar.gz --markdown 20240419/p/pyiter/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-19 05:11:15] INFO root fetch - processPackages [shtec-rlhf]: executing diffoscope
+[2024-04-19 05:11:15] INFO root fetch - processPackages [shtec-rlhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shtec-rlhf-0.0.1.dev0.tar.gz tmp/shtec-rlhf-0.0.2.dev0.tar.gz --markdown 20240419/s/shtec-rlhf/0.0.1.dev0-0.0.2.dev0/README.md --exclude *.pyd
+[2024-04-19 05:11:15] INFO root fetch - processPackages [musc]: Remove: archive file [/home/abi/fetcher/tmp/musc-0.0.0.tar.gz]
+[2024-04-19 05:11:15] INFO root fetch - processPackages [musc]: Remove: archive file [/home/abi/fetcher/tmp/musc-0.1.0.tar.gz]
+[2024-04-19 05:11:15] INFO root fetch - main [MainThread]: End processing [musc]: success
+[2024-04-19 05:11:15] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.2.tar.gz]
+[2024-04-19 05:11:15] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.3.tar.gz]
+[2024-04-19 05:11:15] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-19 05:11:16] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.5.tar.gz]
+[2024-04-19 05:11:16] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.6.tar.gz]
+[2024-04-19 05:11:16] INFO root fetch - main [MainThread]: End processing [pyiter]: success
+[2024-04-19 05:11:16] INFO root fetch - processPackages [shtec-rlhf]: Remove: archive file [/home/abi/fetcher/tmp/shtec-rlhf-0.0.1.dev0.tar.gz]
+[2024-04-19 05:11:16] INFO root fetch - processPackages [shtec-rlhf]: Remove: archive file [/home/abi/fetcher/tmp/shtec-rlhf-0.0.2.dev0.tar.gz]
+[2024-04-19 05:11:16] INFO root fetch - main [MainThread]: End processing [shtec-rlhf]: success
+[2024-04-19 05:11:16] INFO root fetch - main [MainThread]: Store serial: [22836024]
