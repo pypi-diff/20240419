@@ -7867,3 +7867,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:34:11] INFO root fetch - processPackages [scrapfly-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scrapfly-sdk-0.8.9.tar.gz]
 [2024-04-19 04:34:11] INFO root fetch - main [MainThread]: End processing [scrapfly-sdk]: success
 [2024-04-19 04:34:11] INFO root fetch - main [MainThread]: Store serial: [22835838]
+[2024-04-19 04:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835838]
+[2024-04-19 04:36:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nuon
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-start-end-dates
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-cutoff-picking
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-invoice-start-end-dates-move
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyve
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tilearn-llm
+[2024-04-19 04:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyPDFForm
+[2024-04-19 04:36:19] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-04-19 04:36:19] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [hyve]: New version: [0.1.0] Old Version: [0.0.2.dev1]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.3]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [tilearn-llm]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [PyPDFForm]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-19 04:36:19] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Downloading https://files.pythonhosted.org/packages/6c/6d/e49c1685c3134259b1a5e10961f9d8f7d10a452adf6db3a0f41553ead90b/odoo_addon_account_cutoff_picking-17.0.1.1.0.3-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: Downloading https://files.pythonhosted.org/packages/9e/be/4865de39c835e4744632831d632e4a9aadabae17c02a9d11c48d45092a3e/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [tilearn-llm]: Downloading https://files.pythonhosted.org/packages/12/72/5f6821f735b602e899cc8d4521889943c0163e73e0c739be57d853611fd1/tilearn_llm-0.8.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [hyve]: Downloading https://files.pythonhosted.org/packages/f2/13/530ac53b69996060b79421bc909c8b0517e7df867ec8cc62145c2e6c481e/hyve-0.0.2.dev1-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/69/9f/2ae6600de9a7bcb149411374a44be0c0f9f2c9ce362f6374e578ec5a4e26/PyPDFForm-1.4.8.tar.gz
+[2024-04-19 04:36:20] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240419/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/5c/fe/87e6e515fc3aee29a21973b2d0f755bb7af3a04720eebb7722af5d54debd/odoo_addon_account_invoice_start_end_dates-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: Downloading https://files.pythonhosted.org/packages/59/01/daeec7a2706dff2a25010490f0ca5c2ceaad823cfc3af2ba56dfb68e8a3b/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Downloading https://files.pythonhosted.org/packages/7e/dd/383d0a70e22cb587f9fd0b70e9708dad9813f3d0c7b9393564c2cdd8011d/odoo_addon_account_cutoff_picking-17.0.1.1.0.4-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [PyPDFForm]: Downloading https://files.pythonhosted.org/packages/f0/86/8219b0802370fbdcae59e87d8b203196b52045c8375f1c043b5db3eb54ff/PyPDFForm-1.4.9.tar.gz
+[2024-04-19 04:36:20] WARNING root fetch - processPackages [tilearn-llm]: Skipping package: exceeds size limit 14684923>=10485760
+[2024-04-19 04:36:20] INFO root fetch - main [MainThread]: End processing [tilearn-llm] error
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-account-invoice-start-end-dates-move/16.0.1.0.0.3-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-19 04:36:20] INFO root fetch - processPackages [hyve]: Downloading https://files.pythonhosted.org/packages/fb/c2/d8eb8ec48589a5e57f1a477385c6b4211d865f70c9d95fb4629a1dafb944/hyve-0.1.0.tar.gz
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/03/c3/34d81c1811899dc45d3c42d74619583918fb67670da27c26be1783cb0462/odoo_addon_account_invoice_start_end_dates-17.0.1.1.0-py3-none-any.whl
+[2024-04-19 04:36:20] INFO root fetch - processPackages [PyPDFForm]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [PyPDFForm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPDFForm-1.4.8.tar.gz tmp/PyPDFForm-1.4.9.tar.gz --markdown 20240419/P/PyPDFForm/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_picking-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_picking-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-account-cutoff-picking/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_start_end_dates-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_start_end_dates-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-account-invoice-start-end-dates/17.0.1.0.0.3-17.0.1.1.0/README.md --exclude *.pyd
+[2024-04-19 04:36:20] INFO root fetch - processPackages [hyve]: executing diffoscope
+[2024-04-19 04:36:20] INFO root fetch - processPackages [hyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyve-0.0.2.dev1-py3-none-any.whl.zip tmp/hyve-0.1.0.tar.gz --markdown 20240419/h/hyve/0.0.2.dev1-0.1.0/README.md --exclude *.pyd
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates_move-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-start-end-dates-move]: success
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_picking-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-cutoff-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_picking-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-picking]: success
+[2024-04-19 04:36:21] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.8.tar.gz]
+[2024-04-19 04:36:21] INFO root fetch - processPackages [PyPDFForm]: Remove: archive file [/home/abi/fetcher/tmp/PyPDFForm-1.4.9.tar.gz]
+[2024-04-19 04:36:21] INFO root fetch - main [MainThread]: End processing [PyPDFForm]: success
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-19 04:36:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-start-end-dates]: success
+[2024-04-19 04:36:22] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-04-19 04:36:22] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-04-19 04:36:22] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-19 04:36:23] INFO root fetch - processPackages [hyve]: Remove: archive file [/home/abi/fetcher/tmp/hyve-0.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-19 04:36:23] INFO root fetch - processPackages [hyve]: Remove: archive file [/home/abi/fetcher/tmp/hyve-0.1.0.tar.gz]
+[2024-04-19 04:36:23] INFO root fetch - main [MainThread]: End processing [hyve]: success
+[2024-04-19 04:36:23] INFO root fetch - main [MainThread]: Store serial: [22835857]
