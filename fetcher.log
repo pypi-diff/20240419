@@ -20590,3 +20590,46 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:56:55] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713526847.tar.gz]
 [2024-04-19 13:56:55] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
 [2024-04-19 13:56:55] INFO root fetch - main [MainThread]: Store serial: [22841344]
+[2024-04-19 13:59:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841344]
+[2024-04-19 13:59:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hasty
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetline
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IMICTechnology
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe-esimd
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forecast_combine
+[2024-04-19 13:59:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluecellulab
+[2024-04-19 13:59:05] INFO root fetch - processPackages [jetline]: New version: [0.0.52] Old Version: [0.0.51]
+[2024-04-19 13:59:05] WARNING root fetch - processPackages [IMICTechnology]: Skipping, unable to determine old version
+[2024-04-19 13:59:05] INFO root fetch - main [MainThread]: End processing [IMICTechnology] error
+[2024-04-19 13:59:05] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-19 13:59:05] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/79/46/dc545c7ebf0998a274cd4ce74554bf0ef2591feea6670ea4abda92b2482e/jetline-0.0.51.tar.gz
+[2024-04-19 13:59:05] INFO root fetch - processPackages [hasty]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-19 13:59:05] INFO root fetch - processPackages [forecast_combine]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 13:59:05] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240419] Old Version: [2.5.0b20240418]
+[2024-04-19 13:59:05] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/84/0a/e8a298193fb535e94777d12147713f1e990367517f78e08aac250e5948c5/bluecellulab-2.5.8.tar.gz
+[2024-04-19 13:59:05] INFO root fetch - processPackages [forecast_combine]: Downloading https://files.pythonhosted.org/packages/37/f6/158a9a66e04d43f4f4ce50f47c53ce71ac80720fa43a71e767aae824c937/forecast_combine-0.0.2.tar.gz
+[2024-04-19 13:59:05] INFO root fetch - processPackages [hasty]: Downloading https://files.pythonhosted.org/packages/7c/f7/e0ea97fd1d6b96bcc5c5741b621e2a0aac3d72599cbed2d56541c7025a57/hasty-0.3.6.tar.gz
+[2024-04-19 13:59:05] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/4b/e9/6dd97042334fee7d865dd833db5ad98ae3223dcb902ad216205d3403a050/bigdl_core_xe_esimd-2.5.0b20240418-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-19 13:59:05] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/d5/dc/efccf710a3d119f55191207e68375f09441ff0343eb192d76b31ece3caed/jetline-0.0.52.tar.gz
+[2024-04-19 13:59:05] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241118>=10485760
+[2024-04-19 13:59:05] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-19 13:59:06] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-19 13:59:06] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.0.51.tar.gz tmp/jetline-0.0.52.tar.gz --markdown 20240419/j/jetline/0.0.51-0.0.52/README.md --exclude *.pyd
+[2024-04-19 13:59:06] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61871661>=10485760
+[2024-04-19 13:59:06] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-19 13:59:06] INFO root fetch - processPackages [forecast_combine]: Downloading https://files.pythonhosted.org/packages/e4/e6/7c63c9449500b2c538947cb5e2aeb9d48681a5630d11ac11edaefb8d1c49/forecast_combine-0.0.3.tar.gz
+[2024-04-19 13:59:06] INFO root fetch - processPackages [hasty]: Downloading https://files.pythonhosted.org/packages/49/b0/63f55f87c4d2d60b65e5d93270e0e21044737d6205efa1b02ea2aa349b0b/hasty-0.3.7.tar.gz
+[2024-04-19 13:59:06] INFO root fetch - processPackages [forecast_combine]: executing diffoscope
+[2024-04-19 13:59:06] INFO root fetch - processPackages [forecast_combine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecast_combine-0.0.2.tar.gz tmp/forecast_combine-0.0.3.tar.gz --markdown 20240419/f/forecast_combine/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 13:59:06] INFO root fetch - processPackages [hasty]: executing diffoscope
+[2024-04-19 13:59:06] INFO root fetch - processPackages [hasty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hasty-0.3.6.tar.gz tmp/hasty-0.3.7.tar.gz --markdown 20240419/h/hasty/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-19 13:59:06] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.51.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.52.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-19 13:59:06] INFO root fetch - processPackages [forecast_combine]: Remove: archive file [/home/abi/fetcher/tmp/forecast_combine-0.0.2.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - processPackages [forecast_combine]: Remove: archive file [/home/abi/fetcher/tmp/forecast_combine-0.0.3.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - main [MainThread]: End processing [forecast_combine]: success
+[2024-04-19 13:59:06] INFO root fetch - processPackages [hasty]: Remove: archive file [/home/abi/fetcher/tmp/hasty-0.3.6.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - processPackages [hasty]: Remove: archive file [/home/abi/fetcher/tmp/hasty-0.3.7.tar.gz]
+[2024-04-19 13:59:06] INFO root fetch - main [MainThread]: End processing [hasty]: success
+[2024-04-19 13:59:06] INFO root fetch - main [MainThread]: Store serial: [22841363]
