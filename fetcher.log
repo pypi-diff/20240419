@@ -12577,3 +12577,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:12:15] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.9.tar.gz]
 [2024-04-19 09:12:15] INFO root fetch - main [MainThread]: End processing [globlocks]: success
 [2024-04-19 09:12:15] INFO root fetch - main [MainThread]: Store serial: [22837857]
+[2024-04-19 09:14:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837857]
+[2024-04-19 09:14:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerbogen
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-toprepo
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plothist
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PREN-flawas
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olas-operate-middleware
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th-influx-sdk
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Xodia24
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plothist
+[2024-04-19 09:14:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wonder-diffusion-sdk
+[2024-04-19 09:14:24] INFO root fetch - processPackages [cerbogen]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc6] Old Version: [0.1.0rc5]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [Xodia24]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-19 09:14:24] WARNING root fetch - processPackages [th-influx-sdk]: Skipping, unable to determine old version
+[2024-04-19 09:14:24] INFO root fetch - processPackages [th-influx-sdk]: Start processing: depot-api
+[2024-04-19 09:14:24] INFO root fetch - main [MainThread]: End processing [th-influx-sdk] error
+[2024-04-19 09:14:24] INFO root fetch - processPackages [git-toprepo]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2024-04-19 09:14:24] WARNING root fetch - processPackages [depot-api]: Skipping, unable to determine old version
+[2024-04-19 09:14:24] INFO root fetch - processPackages [depot-api]: Start processing: spaceone-cost-analysis
+[2024-04-19 09:14:24] INFO root fetch - main [MainThread]: End processing [depot-api] error
+[2024-04-19 09:14:24] INFO root fetch - processPackages [plothist]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [wonder-diffusion-sdk]: New version: [0.0.4.dev1] Old Version: [0.0.4.dev0]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [plothist]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-19 09:14:24] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/b8/54/11fb820efdf9a6fed9511a609ff835f0c96684a3cb07a9c89e2cfe060e9b/cerbogen-0.0.4.tar.gz
+[2024-04-19 09:14:24] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/f5/dd/a0c2d6c75817a0d8f69f59be4562fb925d54af61548aaf7352607844c418/Xodia24-0.0.7.tar.gz
+[2024-04-19 09:14:24] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/9c/5b/7f40d53e3ea379438da5ee9df7bb99c648b47a82fbf4c47ed78eebcf8b27/olas_operate_middleware-0.1.0rc5.tar.gz
+[2024-04-19 09:14:24] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/d2/45/4a47d8833ccf29b15b826ad91b53f1cb9ffc3a5fe446dbefc92ca13f3503/git_toprepo-0.1.0rc2.tar.gz
+[2024-04-19 09:14:24] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/1a/96/0af807e234dfc5498f6def9de59ad28822deebdd401e904c567416806ed3/plothist-1.2.2.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/1a/96/0af807e234dfc5498f6def9de59ad28822deebdd401e904c567416806ed3/plothist-1.2.2.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/ef/7b/1f99aa8f0dc06a9aef09afae467b592577dcc3e0301bd223239687de2d36/Xodia24-0.0.9.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/a3/5f/b3ac5ba23234a0b6f63e31a5550e730e9fea2c41d9a6f927d02caf34c4e3/wonder-diffusion-sdk-0.0.4.dev0.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/a0/0a/6cb8e9f28795ff2c3541a7b2f990dd969b02de420268f7e341eae57faaec/olas_operate_middleware-0.1.0rc6.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/f9/b1/af1fa045ae0bf869151b8dc1af874a9e671ca252effcf66c861291bfe674/cerbogen-0.0.5.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.7.tar.gz tmp/Xodia24-0.0.9.tar.gz --markdown 20240419/X/Xodia24/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc5.tar.gz tmp/olas_operate_middleware-0.1.0rc6.tar.gz --markdown 20240419/o/olas-operate-middleware/0.1.0rc5-0.1.0rc6/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.4.tar.gz tmp/cerbogen-0.0.5.tar.gz --markdown 20240419/c/cerbogen/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [git-toprepo]: Downloading https://files.pythonhosted.org/packages/c4/ca/e7ae79f0b562698811cc2fc5f6410feae2649266e88e2822284bab802132/git_toprepo-0.1.0rc3.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [git-toprepo]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [git-toprepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_toprepo-0.1.0rc2.tar.gz tmp/git_toprepo-0.1.0rc3.tar.gz --markdown 20240419/g/git-toprepo/0.1.0rc2-0.1.0rc3/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [wonder-diffusion-sdk]: Downloading https://files.pythonhosted.org/packages/c4/54/3fee319ba58b7e1c2881e66d813d241aff9a64d6cb5c4d9899cd729b787d/wonder-diffusion-sdk-0.0.4.dev1.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240419/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [wonder-diffusion-sdk]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [wonder-diffusion-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-diffusion-sdk-0.0.4.dev0.tar.gz tmp/wonder-diffusion-sdk-0.0.4.dev1.tar.gz --markdown 20240419/w/wonder-diffusion-sdk/0.0.4.dev0-0.0.4.dev1/README.md --exclude *.pyd
+[2024-04-19 09:14:25] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/8a/a0/e9844ffefd2543968f40137578c3de0b0e5eb655d5f6bd8436236feda52c/plothist-1.2.3.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [plothist]: Downloading https://files.pythonhosted.org/packages/8a/a0/e9844ffefd2543968f40137578c3de0b0e5eb655d5f6bd8436236feda52c/plothist-1.2.3.tar.gz
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-04-19 09:14:25] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240419/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-19 09:14:26] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-19 09:14:26] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240419/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:14:26] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.7.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.9.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [Xodia24]: Start processing: codedepot-depot
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-19 09:14:26] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2024-04-19 09:14:26] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-1.2.2.tar.gz tmp/plothist-1.2.3.tar.gz --markdown 20240419/p/plothist/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-19 09:14:26] INFO root fetch - processPackages [plothist]: executing diffoscope
+[2024-04-19 09:14:26] INFO root fetch - processPackages [plothist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plothist-1.2.2.tar.gz tmp/plothist-1.2.3.tar.gz --markdown 20240419/p/plothist/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-19 09:14:26] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.4.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.5.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 09:14:26] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/9f/14/8843f1c4cf9f0585bfa77bce4ec06b602e94bb6896fe29d712ee2d4955d2/codedepot_depot-0.0.2.tar.gz
+[2024-04-19 09:14:26] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc5.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc6.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-04-19 09:14:26] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc2.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [git-toprepo]: Remove: archive file [/home/abi/fetcher/tmp/git_toprepo-0.1.0rc3.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [git-toprepo]: success
+[2024-04-19 09:14:26] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev0.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [wonder-diffusion-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-diffusion-sdk-0.0.4.dev1.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [wonder-diffusion-sdk]: success
+[2024-04-19 09:14:26] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/57/91/379534c81ffbcacda4d9d1eef01e18019e9e886192bfffe30bd2ccdc7a7d/codedepot_depot-0.0.3.tar.gz
+[2024-04-19 09:14:26] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-19 09:14:26] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.2.tar.gz tmp/codedepot_depot-0.0.3.tar.gz --markdown 20240419/c/codedepot-depot/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 09:14:26] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-04-19 09:14:26] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-04-19 09:14:27] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-19 09:14:27] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-19 09:14:27] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.2.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.3.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-19 09:14:27] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-1.2.2.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - processPackages [plothist]: Remove: archive file [/home/abi/fetcher/tmp/plothist-1.2.3.tar.gz]
+[2024-04-19 09:14:27] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2024-04-19 09:14:28] INFO root fetch - main [MainThread]: End processing [plothist]: success
+[2024-04-19 09:14:28] INFO root fetch - main [MainThread]: Store serial: [22837894]
