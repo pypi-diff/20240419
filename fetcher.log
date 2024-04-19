@@ -14184,3 +14184,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:14:20] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
 [2024-04-19 10:14:20] INFO root fetch - main [MainThread]: End processing [snakemake]: success
 [2024-04-19 10:14:20] INFO root fetch - main [MainThread]: Store serial: [22838522]
+[2024-04-19 10:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838522]
+[2024-04-19 10:16:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccdexplorer-schema-parser
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-log-python-sdk
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyreports
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aviatrix-testlibs
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipdm
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airflow-yeedu-operator
+[2024-04-19 10:16:29] INFO root fetch - processPackages [aviatrix-testlibs]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ccdexplorer-schema-parser]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [aviatrix-testlibs]: Downloading https://files.pythonhosted.org/packages/af/a7/3335b05d165ab9b710dab58510c651599543a451b8c21b89fa3bd15c48fb/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ipdm]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [pyreports]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [airflow-yeedu-operator]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/1a/79/c33d272b3410f03520900bf3f7bd032ad5c57d14cfa9451724c1cd432d36/ccdexplorer_schema_parser-0.1.6.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [aliyun-log-python-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [pyreports]: Downloading https://files.pythonhosted.org/packages/a0/1a/85f02e130a62be9372f6e3561d9496aef8ae164628f5b640c25e03fd9958/pyreports-1.6.0.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ipdm]: Downloading https://files.pythonhosted.org/packages/e6/64/e31210d66296ab46161a3657048185a463a9c1cf720394de8484894825f0/ipdm-0.2.0rc2.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [aliyun-log-python-sdk]: Downloading https://files.pythonhosted.org/packages/48/ab/141a8bf4789899e917c688eeae45fdaef0fb30fd35eaf3efeccdbbb34708/aliyun-log-python-sdk-0.9.0.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Downloading https://files.pythonhosted.org/packages/6f/0b/e1c66ec87aba95c5757253eb37a9ae7655f17ff1b5288d7df9a8911588b8/ccdexplorer_schema_parser-0.1.7.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/87/99/e629339d0ce0dc7e3e08322caded47a2897b7e6b797ebbc607ffe81c1b29/airflow-yeedu-operator-1.0.3.tar.gz
+[2024-04-19 10:16:29] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ccdexplorer-schema-parser]: executing diffoscope
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ccdexplorer-schema-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdexplorer_schema_parser-0.1.6.tar.gz tmp/ccdexplorer_schema_parser-0.1.7.tar.gz --markdown 20240419/c/ccdexplorer-schema-parser/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 10:16:29] INFO root fetch - processPackages [aviatrix-testlibs]: Downloading https://files.pythonhosted.org/packages/12/ae/f25977777fdb7677d883cc2ca1345a177c98df97835a9bf91f0244f054e9/aviatrix_testlibs-0.4.7-cp39-cp39-win_amd64.whl
+[2024-04-19 10:16:29] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 10:16:29] INFO root fetch - processPackages [ipdm]: Downloading https://files.pythonhosted.org/packages/b3/e6/a8af78e768f4969b64db8e6e61d655a29b4f148db59965e66ce70c52fec4/ipdm-0.2.0rc3.tar.gz
+[2024-04-19 10:16:30] INFO root fetch - processPackages [airflow-yeedu-operator]: Downloading https://files.pythonhosted.org/packages/89/8a/953f6c1b14f99dfa22f67ebb061c1f621537ceae830377e8075110ca1646/airflow-yeedu-operator-1.0.4.tar.gz
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aliyun-log-python-sdk]: Downloading https://files.pythonhosted.org/packages/eb/c7/8725d875797c8e0406dee7715c26a6f6ea4553c5f19b6007e2dc99aa15b9/aliyun-log-python-sdk-0.9.1.tar.gz
+[2024-04-19 10:16:30] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-19 10:16:30] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-19 10:16:30] INFO root fetch - processPackages [pyreports]: Downloading https://files.pythonhosted.org/packages/ba/5b/a51ecf33d41e65a45d1718fab572335f1b9fe0b204e3ce1d487e44a86c46/pyreports-1.7.0.tar.gz
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ipdm]: executing diffoscope
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ipdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipdm-0.2.0rc2.tar.gz tmp/ipdm-0.2.0rc3.tar.gz --markdown 20240419/i/ipdm/0.2.0rc2-0.2.0rc3/README.md --exclude *.pyd
+[2024-04-19 10:16:30] INFO root fetch - processPackages [airflow-yeedu-operator]: executing diffoscope
+[2024-04-19 10:16:30] INFO root fetch - processPackages [airflow-yeedu-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-yeedu-operator-1.0.3.tar.gz tmp/airflow-yeedu-operator-1.0.4.tar.gz --markdown 20240419/a/airflow-yeedu-operator/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aliyun-log-python-sdk]: executing diffoscope
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aliyun-log-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-log-python-sdk-0.9.0.tar.gz tmp/aliyun-log-python-sdk-0.9.1.tar.gz --markdown 20240419/a/aliyun-log-python-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 10:16:30] INFO root fetch - processPackages [pyreports]: executing diffoscope
+[2024-04-19 10:16:30] INFO root fetch - processPackages [pyreports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreports-1.6.0.tar.gz tmp/pyreports-1.7.0.tar.gz --markdown 20240419/p/pyreports/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aviatrix-testlibs]: executing diffoscope
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aviatrix-testlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_testlibs-0.4.7-cp39-cp39-win_amd64.whl.zip --markdown 20240419/a/aviatrix-testlibs/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.6.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ccdexplorer-schema-parser]: Remove: archive file [/home/abi/fetcher/tmp/ccdexplorer_schema_parser-0.1.7.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - main [MainThread]: End processing [ccdexplorer-schema-parser]: success
+[2024-04-19 10:16:30] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.3.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - processPackages [airflow-yeedu-operator]: Remove: archive file [/home/abi/fetcher/tmp/airflow-yeedu-operator-1.0.4.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - main [MainThread]: End processing [airflow-yeedu-operator]: success
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aviatrix-testlibs]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 10:16:30] INFO root fetch - processPackages [aviatrix-testlibs]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_testlibs-0.4.7-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 10:16:30] INFO root fetch - main [MainThread]: End processing [aviatrix-testlibs]: success
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ipdm]: Remove: archive file [/home/abi/fetcher/tmp/ipdm-0.2.0rc2.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - processPackages [ipdm]: Remove: archive file [/home/abi/fetcher/tmp/ipdm-0.2.0rc3.tar.gz]
+[2024-04-19 10:16:30] INFO root fetch - main [MainThread]: End processing [ipdm]: success
+[2024-04-19 10:16:31] INFO root fetch - processPackages [pyreports]: Remove: archive file [/home/abi/fetcher/tmp/pyreports-1.6.0.tar.gz]
+[2024-04-19 10:16:31] INFO root fetch - processPackages [pyreports]: Remove: archive file [/home/abi/fetcher/tmp/pyreports-1.7.0.tar.gz]
+[2024-04-19 10:16:31] INFO root fetch - main [MainThread]: End processing [pyreports]: success
+[2024-04-19 10:16:31] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.9.0.tar.gz]
+[2024-04-19 10:16:31] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.9.1.tar.gz]
+[2024-04-19 10:16:31] INFO root fetch - main [MainThread]: End processing [aliyun-log-python-sdk]: success
+[2024-04-19 10:16:31] INFO root fetch - main [MainThread]: Store serial: [22838593]
