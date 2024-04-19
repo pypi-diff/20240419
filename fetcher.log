@@ -19688,3 +19688,136 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:20:25] INFO root fetch - processPackages [cyclonedx-python-lib]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_python_lib-7.2.0.tar.gz]
 [2024-04-19 13:20:25] INFO root fetch - main [MainThread]: End processing [cyclonedx-python-lib]: success
 [2024-04-19 13:20:25] INFO root fetch - main [MainThread]: Store serial: [22840834]
+[2024-04-19 13:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840834]
+[2024-04-19 13:22:36] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-dataset
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-contract-queue-job
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tq42-grpc-client
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-sdk
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-telemetry
+[2024-04-19 13:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-utils
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [scrapegraphai]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.3.post440] Old Version: [3.0.3.post439]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/5b/60/2ecbff4be86099d49c15ff8101018a4105889bd6a0cb0b4030f93129ef69/scrapegraphai-0.2.0.tar.gz
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/ed/9d/945e8bf07cae108735ee22b6912006dc9d94ce0e275b946786742334b363/nucliadb_sdk-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] WARNING root fetch - processPackages [odoo-addon-contract-queue-job]: Skipping, unable to determine old version
+[2024-04-19 13:22:36] INFO root fetch - processPackages [odoo-addon-contract-queue-job]: Start processing: bigdl-core-xe
+[2024-04-19 13:22:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-queue-job] error
+[2024-04-19 13:22:36] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/99/8c/531cd9d26f6ee5b3bcaae04b650b204ff0aa23836cc0d9e1b87dab1d0f4a/nucliadb_telemetry-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/a4/38/7377a1a1d2246954ab57bf175054f3a3fbbdb7b974a77c2ff713c423881b/nucliadb-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/a4/7e/aadf9821c0df32946327e7e11f776ebe9e37a136108cc4253c14359647ea/nucliadb_models-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/5a/5e/1f2d60dbf5f1caf11a245f9ec99db5f9eee4a97d6aff182ccae033f27f00/nucliadb_dataset-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/30/4a/9016a29e459a97b8a54e969346186ed6ce59a88900cf4f4a932f0a527859/nucliadb_utils-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240419] Old Version: [2.5.0b20240418]
+[2024-04-19 13:22:36] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/51/47/ce4b244aa3761da0082b136fe74da71ee324955e2d50dc19487e65b4cbdd/nucliadb_protos-3.0.3.post439-py3-none-any.whl
+[2024-04-19 13:22:36] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/39/cc/a43e95dbb6560473fff97006304f4f4c59f193f21fb92dd139c609300aaf/scrapegraphai-0.2.1.tar.gz
+[2024-04-19 13:22:36] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/f9/22/787f6446a33435f6eec3045114633653606d52c92006b7dd3fb871b69cb8/bigdl_core_xe-2.5.0b20240418-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/71/55/032d5a5575dc5f185ff7083a87699aa7c3880b19f237e3963339ba6b4106/nucliadb_sdk-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-04-19 13:22:37] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.2.0.tar.gz tmp/scrapegraphai-0.2.1.tar.gz --markdown 20240419/s/scrapegraphai/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/23/f8/4bebb056575611cfb85c397f247dc86a6a022517c8a9d72d790d454fab2f/nucliadb_telemetry-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/8d/b6/992df69f2ad9a399d08ee17e47556dac789cab8d275975b544e62714a36c/nucliadb_dataset-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/c2/49/71bef7701d4f729c84c93df1a676e7ef99e6d890d293a312867262e368da/nucliadb_models-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/46/12/c86973d771a62ae0289a6f30a1e8e1b612dbf9d398bc4223f7a2f45f1c75/nucliadb_protos-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/1c/95/7f2b5ca84dc1f24873a35ab47043a64e832cf900eeb9c6d41f70d7e92e65/nucliadb_utils-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/2c/d5/9c3275e0471ec68f4eab18e209d7583e925f43f1782cdbb810b2c23d6a6d/nucliadb-3.0.3.post440-py3-none-any.whl
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-sdk/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240419/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-telemetry/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-dataset/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_models-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-models/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-protos/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb-utils/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-19 13:22:37] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.3.post439-py3-none-any.whl.zip tmp/nucliadb-3.0.3.post440-py3-none-any.whl.zip --markdown 20240419/n/nucliadb/3.0.3.post439-3.0.3.post440/README.md --exclude *.pyd
+[2024-04-19 13:22:37] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 105392068>=10485760
+[2024-04-19 13:22:37] INFO root fetch - processPackages [bigdl-core-xe]: Start processing: clarifai
+[2024-04-19 13:22:37] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-19 13:22:37] INFO root fetch - processPackages [clarifai]: New version: [9.9.3] Old Version: [9.9.2]
+[2024-04-19 13:22:37] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/1f/1f/206aa0caf9bff7b476371f68f4e7fe31d2260b107a6c6f7b398a9384686f/clarifai-9.9.2.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.0.tar.gz]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.1.tar.gz]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [scrapegraphai]: Start processing: xtuner
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: dissect.target
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: browserbase-haystack
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [dissect.target]: New version: [3.9] Old Version: [3.8]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [xtuner]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-protos]: Start processing: CachedFileDic
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [browserbase-haystack]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/fd/85/dee67cb24b471b811af4e5b31762f8244b20913dcc98ec76ec5b921e9a68/dissect.target-3.8.tar.gz
+[2024-04-19 13:22:38] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63551809>=10485760
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [CachedFileDic]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:38] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-19 13:22:38] INFO root fetch - processPackages [xtuner]: Downloading https://files.pythonhosted.org/packages/c6/10/2f97ae0d02c3082613c8da4a17b235558248f6d108c215225b27416c9ce0/xtuner-0.1.8.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/5f/5e/920bbbdc22f10e07d3acbbcc7b1c249d9967e26947d81d727e253960b8f1/CachedFileDic-0.2.1.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [browserbase-haystack]: Downloading https://files.pythonhosted.org/packages/d9/1c/7baf666ab8f623c5bca207aa2730c04a797ddb83b8a280cf94ce5518f101/browserbase_haystack-0.0.1.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/82/88/90f79ff8768bbb21b0ffa61677f7ece93dff97513124ab7bf4f0f7d617c6/CachedFileDic-0.2.2.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [browserbase-haystack]: Downloading https://files.pythonhosted.org/packages/f3/74/5447b306bcbe2b4a9f63121d1517886be9a29fb02d9a4f2ad0dfb0176967/browserbase_haystack-0.0.2.tar.gz
+[2024-04-19 13:22:38] INFO root fetch - processPackages [xtuner]: Downloading https://files.pythonhosted.org/packages/93/b5/551c4955f58e3e118a1bbb5ef107ff05d96e8c355a4502722257495e4ac1/xtuner-0.1.9.tar.gz
+[2024-04-19 13:22:39] INFO root fetch - processPackages [CachedFileDic]: executing diffoscope
+[2024-04-19 13:22:39] INFO root fetch - processPackages [CachedFileDic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CachedFileDic-0.2.1.tar.gz tmp/CachedFileDic-0.2.2.tar.gz --markdown 20240419/C/CachedFileDic/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 13:22:39] INFO root fetch - processPackages [xtuner]: executing diffoscope
+[2024-04-19 13:22:39] INFO root fetch - processPackages [xtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtuner-0.1.8.tar.gz tmp/xtuner-0.1.9.tar.gz --markdown 20240419/x/xtuner/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 13:22:39] INFO root fetch - processPackages [browserbase-haystack]: executing diffoscope
+[2024-04-19 13:22:39] INFO root fetch - processPackages [browserbase-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/browserbase_haystack-0.0.1.tar.gz tmp/browserbase_haystack-0.0.2.tar.gz --markdown 20240419/b/browserbase-haystack/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 13:22:39] INFO root fetch - processPackages [clarifai]: Downloading https://files.pythonhosted.org/packages/bb/4f/fc60395f457832dc34baa577d757b752d4d0fe0da35a5c810772ee5404ed/clarifai-9.9.3.tar.gz
+[2024-04-19 13:22:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-19 13:22:39] INFO root fetch - processPackages [clarifai]: executing diffoscope
+[2024-04-19 13:22:39] INFO root fetch - processPackages [clarifai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarifai-9.9.2.tar.gz tmp/clarifai-9.9.3.tar.gz --markdown 20240419/c/clarifai/9.9.2-9.9.3/README.md --exclude *.pyd
+[2024-04-19 13:22:39] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.2.1.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.2.2.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - main [MainThread]: End processing [CachedFileDic]: success
+[2024-04-19 13:22:39] INFO root fetch - processPackages [browserbase-haystack]: Remove: archive file [/home/abi/fetcher/tmp/browserbase_haystack-0.0.1.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - processPackages [browserbase-haystack]: Remove: archive file [/home/abi/fetcher/tmp/browserbase_haystack-0.0.2.tar.gz]
+[2024-04-19 13:22:39] INFO root fetch - main [MainThread]: End processing [browserbase-haystack]: success
+[2024-04-19 13:22:39] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post439-py3-none-any.whl.zip]
+[2024-04-19 13:22:39] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.3.post440-py3-none-any.whl.zip]
+[2024-04-19 13:22:39] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-19 13:22:40] INFO root fetch - processPackages [xtuner]: Remove: archive file [/home/abi/fetcher/tmp/xtuner-0.1.8.tar.gz]
+[2024-04-19 13:22:40] INFO root fetch - processPackages [xtuner]: Remove: archive file [/home/abi/fetcher/tmp/xtuner-0.1.9.tar.gz]
+[2024-04-19 13:22:40] INFO root fetch - main [MainThread]: End processing [xtuner]: success
+[2024-04-19 13:22:41] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.2.tar.gz]
+[2024-04-19 13:22:41] INFO root fetch - processPackages [clarifai]: Remove: archive file [/home/abi/fetcher/tmp/clarifai-9.9.3.tar.gz]
+[2024-04-19 13:22:41] INFO root fetch - main [MainThread]: End processing [clarifai]: success
+[2024-04-19 13:22:41] INFO root fetch - main [MainThread]: Store serial: [22840876]
