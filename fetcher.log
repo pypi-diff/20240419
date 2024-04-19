@@ -8175,3 +8175,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:56:03] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
 [2024-04-19 04:56:03] INFO root fetch - main [MainThread]: End processing [uv]: success
 [2024-04-19 04:56:03] INFO root fetch - main [MainThread]: Store serial: [22835953]
+[2024-04-19 04:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835953]
+[2024-04-19 04:58:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 04:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aq-geometric
+[2024-04-19 04:58:11] INFO root fetch - processPackages [aq-geometric]: New version: [2024.4.7.2] Old Version: [2024.4.6.1]
+[2024-04-19 04:58:11] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/e8/3a/361e91ac5e9c6f7d6d1f4fae3f93e8654e9e151e1853cbd03ee234b30c96/aq_geometric-2024.4.6.1.tar.gz
+[2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/0e/08/70b34eb8103823c658557aaaf636d19969e7d9c7e2f66f140ce371644f59/aq_geometric-2024.4.7.2.tar.gz
+[2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.4.6.1.tar.gz tmp/aq_geometric-2024.4.7.2.tar.gz --markdown 20240419/a/aq-geometric/2024.4.6.1-2024.4.7.2/README.md --exclude *.pyd
+[2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.6.1.tar.gz]
+[2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
+[2024-04-19 04:58:12] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-04-19 04:58:12] INFO root fetch - main [MainThread]: Store serial: [22835959]
