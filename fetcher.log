@@ -18556,3 +18556,51 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:37:49] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_UwbMeas-5.0.20.tar.gz]
 [2024-04-19 12:37:49] INFO root fetch - main [MainThread]: End processing [RsCMPX-UwbMeas]: success
 [2024-04-19 12:37:49] INFO root fetch - main [MainThread]: Store serial: [22840356]
+[2024-04-19 12:39:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840356]
+[2024-04-19 12:39:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 12:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-04-19 12:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2024-04-19 12:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyBerries
+[2024-04-19 12:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-confluentcloud
+[2024-04-19 12:39:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resc-backend
+[2024-04-19 12:39:58] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-19 12:39:58] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240418] Old Version: [1.0.0.dev20240417]
+[2024-04-19 12:39:58] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-19 12:39:58] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-19 12:39:58] INFO root fetch - processPackages [PyBerries]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2024-04-19 12:39:58] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/c4/68/56d6b87c8a6d989b9cda3af87098a2fe8a87372bed42b5e9b9d1596777a1/skypilot_nightly-1.0.0.dev20240417.tar.gz
+[2024-04-19 12:39:58] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-19 12:39:58] INFO root fetch - processPackages [resc-backend]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-19 12:39:59] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/04/5f/ca15e3bd2482179b4f609455594a73dd9a4a01fde7e04168feff2f370d3f/PyBerries-0.2.8.post1.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/1c/1d/2575968158cf336700add55aaa16618382c49bf9b59562aa3ee4559aaea9/resc_backend-3.0.1.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/64/93/84d8e9f98eb6422a8846d0909d65a60c8f9aa048b9a5ec8538ca371d5706/skypilot_nightly-1.0.0.dev20240418.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-19 12:39:59] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240419/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/README.md --exclude *.pyd
+[2024-04-19 12:39:59] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-19 12:39:59] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240419/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-19 12:39:59] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-19 12:39:59] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240417.tar.gz tmp/skypilot_nightly-1.0.0.dev20240418.tar.gz --markdown 20240419/s/skypilot-nightly/1.0.0.dev20240417-1.0.0.dev20240418/README.md --exclude *.pyd
+[2024-04-19 12:39:59] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/2c/8a/09fa4cbe93bafbb4aaaadc96bc6edc243d00a0e5123ac8f5c0b24d1495d0/PyBerries-0.2.9.tar.gz
+[2024-04-19 12:39:59] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/94/57/904e9a8abcc9013eadff87bb96846a5450cc3836990561067023ab6f8d71/resc_backend-3.0.2-py3-none-any.whl
+[2024-04-19 12:39:59] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2024-04-19 12:39:59] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.8.post1.tar.gz tmp/PyBerries-0.2.9.tar.gz --markdown 20240419/P/PyBerries/0.2.8.post1-0.2.9/README.md --exclude *.pyd
+[2024-04-19 12:40:00] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-19 12:40:00] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-04-19 12:40:00] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.0.1.tar.gz tmp/resc_backend-3.0.2-py3-none-any.whl.zip --markdown 20240419/r/resc-backend/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-19 12:40:00] INFO root fetch - processPackages [PyBerries]: Remove: archive file [/home/abi/fetcher/tmp/PyBerries-0.2.8.post1.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - processPackages [PyBerries]: Remove: archive file [/home/abi/fetcher/tmp/PyBerries-0.2.9.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2024-04-19 12:40:00] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.1.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.0.2-py3-none-any.whl.zip]
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-04-19 12:40:00] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-19 12:40:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240417.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240418.tar.gz]
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-19 12:40:00] INFO root fetch - main [MainThread]: Store serial: [22840368]
