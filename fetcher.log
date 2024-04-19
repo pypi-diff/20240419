@@ -21768,3 +21768,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:50:19] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.9-py3-none-any.whl.zip]
 [2024-04-19 14:50:19] INFO root fetch - main [MainThread]: End processing [tuduam]: success
 [2024-04-19 14:50:19] INFO root fetch - main [MainThread]: Store serial: [22841908]
+[2024-04-19 14:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841908]
+[2024-04-19 14:52:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HW1-package-Olesja-Tsimmerman
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-juvix-plugin
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: randypy
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dlna-cast
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: accusort
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: teedoc
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-gitlab
+[2024-04-19 14:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mqc
+[2024-04-19 14:52:28] INFO root fetch - processPackages [accusort]: New version: [0.5] Old Version: [0.3]
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 14:52:28] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-19 14:52:28] WARNING root fetch - processPackages [HW1-package-Olesja-Tsimmerman]: Skipping, unable to determine old version
+[2024-04-19 14:52:28] INFO root fetch - main [MainThread]: End processing [HW1-package-Olesja-Tsimmerman] error
+[2024-04-19 14:52:28] WARNING root fetch - processPackages [mqc]: Skipping, unable to determine old version
+[2024-04-19 14:52:28] INFO root fetch - main [MainThread]: End processing [mqc] error
+[2024-04-19 14:52:28] INFO root fetch - processPackages [dlna-cast]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: New version: [0.2.3] Old Version: [0.2]
+[2024-04-19 14:52:28] INFO root fetch - processPackages [accusort]: Downloading https://files.pythonhosted.org/packages/97/e8/6acf7453f263a31c59122e5f5b58dc2d8b4455cbd66c4b73c5b0024399c3/accusort-0.3.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 14:52:28] WARNING root fetch - processPackages [randypy]: Skipping, unable to determine old version
+[2024-04-19 14:52:28] INFO root fetch - main [MainThread]: End processing [randypy] error
+[2024-04-19 14:52:28] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [teedoc]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-04-19 14:52:28] INFO root fetch - processPackages [dlna-cast]: Downloading https://files.pythonhosted.org/packages/b3/95/6e6acf33dfe4555bac3782f7364c802ec0cdbab7cc48543dc971cad2c263/dlna_cast-0.1.7.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/7f/60/aa12339a0f57ec64085e00ac4111e4e7b5cc9c1a21889f7e91e8292307e6/mkdocs-juvix-plugin-0.2.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [teedoc]: Downloading https://files.pythonhosted.org/packages/40/e6/f440b5b7c8647d60703605cf066361fa5aad1286531f577d551c46c901fd/teedoc-1.8.4.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [accusort]: Downloading https://files.pythonhosted.org/packages/9f/df/89b6bb01bde3247199c3f447698149d1b39374b44fc694f31017e63d0c87/accusort-0.5.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 14:52:28] INFO root fetch - processPackages [accusort]: executing diffoscope
+[2024-04-19 14:52:28] INFO root fetch - processPackages [accusort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accusort-0.3.tar.gz tmp/accusort-0.5.tar.gz --markdown 20240419/a/accusort/0.3-0.5/README.md --exclude *.pyd
+[2024-04-19 14:52:28] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-19 14:52:28] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240419/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-19 14:52:28] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Downloading https://files.pythonhosted.org/packages/e5/09/83cfd2d2a2d96959b4cffb1a0a03f271669640b29ce5dd73aa33d242e975/mkdocs-juvix-plugin-0.2.3.tar.gz
+[2024-04-19 14:52:28] INFO root fetch - processPackages [dlna-cast]: Downloading https://files.pythonhosted.org/packages/2a/2e/12746e584cedcae33a879b8c02a5b094be83a60c606cb046e79f27dae2ca/dlna_cast-0.1.8.tar.gz
+[2024-04-19 14:52:29] INFO root fetch - processPackages [teedoc]: Downloading https://files.pythonhosted.org/packages/b9/47/c97bd2ae7057d340408dbb4d6c9e42354b2857e54438a3b8954cf8c0a21f/teedoc-1.9.0.tar.gz
+[2024-04-19 14:52:29] INFO root fetch - processPackages [dlna-cast]: executing diffoscope
+[2024-04-19 14:52:29] INFO root fetch - processPackages [dlna-cast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlna_cast-0.1.7.tar.gz tmp/dlna_cast-0.1.8.tar.gz --markdown 20240419/d/dlna-cast/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 14:52:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: executing diffoscope
+[2024-04-19 14:52:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-juvix-plugin-0.2.tar.gz tmp/mkdocs-juvix-plugin-0.2.3.tar.gz --markdown 20240419/m/mkdocs-juvix-plugin/0.2-0.2.3/README.md --exclude *.pyd
+[2024-04-19 14:52:29] INFO root fetch - processPackages [teedoc]: executing diffoscope
+[2024-04-19 14:52:29] INFO root fetch - processPackages [teedoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teedoc-1.8.4.tar.gz tmp/teedoc-1.9.0.tar.gz --markdown 20240419/t/teedoc/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-04-19 14:52:29] INFO root fetch - processPackages [accusort]: Remove: archive file [/home/abi/fetcher/tmp/accusort-0.3.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - processPackages [accusort]: Remove: archive file [/home/abi/fetcher/tmp/accusort-0.5.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - main [MainThread]: End processing [accusort]: success
+[2024-04-19 14:52:29] INFO root fetch - processPackages [dlna-cast]: Remove: archive file [/home/abi/fetcher/tmp/dlna_cast-0.1.7.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - processPackages [dlna-cast]: Remove: archive file [/home/abi/fetcher/tmp/dlna_cast-0.1.8.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - main [MainThread]: End processing [dlna-cast]: success
+[2024-04-19 14:52:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - processPackages [mkdocs-juvix-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-juvix-plugin-0.2.3.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - main [MainThread]: End processing [mkdocs-juvix-plugin]: success
+[2024-04-19 14:52:29] INFO root fetch - processPackages [teedoc]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-1.8.4.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - processPackages [teedoc]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-1.9.0.tar.gz]
+[2024-04-19 14:52:29] INFO root fetch - main [MainThread]: End processing [teedoc]: success
+[2024-04-19 14:52:30] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 14:52:30] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 14:52:30] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 14:52:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-19 14:52:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-19 14:52:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-19 14:52:30] INFO root fetch - main [MainThread]: Store serial: [22841942]
