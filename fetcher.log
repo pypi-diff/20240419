@@ -17186,3 +17186,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 11:50:03] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
 [2024-04-19 11:50:03] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
 [2024-04-19 11:50:03] INFO root fetch - main [MainThread]: Store serial: [22839776]
+[2024-04-19 11:52:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839776]
+[2024-04-19 11:52:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whyis-activitystreams
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uagents
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zuper-ide-imp-z7
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiaoranli
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-be-vat-reports
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pip-blame
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dflow-galaxy
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: volcano-base
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-migrate-sql-3
+[2024-04-19 11:52:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xls-updater
+[2024-04-19 11:52:20] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [volcano-base]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.32]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [pip-blame]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/b1/7b/d6596c6ad2242c45e5a3ba60208d423c1d29c5c998b191beff0c0d7e23b5/whyis_activitystreams-0.1.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.2.dev1]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/e4/ba/6a84c49414389d04c6519a3d4d751fcf596b97c0dee264d53622216cf3f2/volcano_base-2.0.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [uagents]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xls-updater]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-19 11:52:21] WARNING root fetch - processPackages [django-migrate-sql-3]: Skipping, unable to determine old version
+[2024-04-19 11:52:21] INFO root fetch - processPackages [django-migrate-sql-3]: Start processing: cubicweb
+[2024-04-19 11:52:21] WARNING root fetch - processPackages [zuper-ide-imp-z7]: Skipping, unable to determine old version
+[2024-04-19 11:52:21] INFO root fetch - main [MainThread]: End processing [django-migrate-sql-3] error
+[2024-04-19 11:52:21] INFO root fetch - processPackages [dflow-galaxy]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [zuper-ide-imp-z7]: Start processing: xiaoranli
+[2024-04-19 11:52:21] INFO root fetch - main [MainThread]: End processing [zuper-ide-imp-z7] error
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: New version: [0.7.8] Old Version: [0.7.34]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/6f/4c/c1215898de64c8d75c293d6f663e9536936bedf5a33a45a01f668637510d/xiaoranli-0.7.32-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [cubicweb]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xls-updater]: Downloading https://files.pythonhosted.org/packages/7d/1d/98c2c9643e4809caeb319472de9a01b6696acbf621d1ceb74f6d1acceacc/xls_updater-0.1.9.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: Downloading https://files.pythonhosted.org/packages/ae/26/e24a86a6f6fe30428049bee438f859b74dcc2f76668ff7d4f299a41430a8/odoo14_addon_l10n_be_vat_reports-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [volcano-base]: Downloading https://files.pythonhosted.org/packages/00/e5/782cc290cdc473104dab0e2abad6ad21c95c0fbb8668fb87ddd9061b3788/volcano_base-2.0.1.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/06/54/651488be99d5a07fbca0cd8f53e48ce52e2a80b09aeb4a38cb3b7873ce2f/uagents-0.9.2.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/c2/55/d4cd8160a00fbdfff6e9e662eed554d64c4ba8f837bf1cb2b0710f6d9bba/dflow_galaxy-0.1.6.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/c7/a5/994df51bbf5ecd1a7f0ea58689845c348271fef54b1421fa9e0b92be3afa/whyis_activitystreams-0.1.1.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/51/15/b68df04fddd3dab3f8ddc092b50864859a30d02ddd5458de956cad1aa4d7/xiaoranli-0.7.34-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/1e/b7/78a542258aae01383222dc390a96665e8398983c5e1a1e0426522d34dda9/pip_blame-0.1.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [volcano-base]: executing diffoscope
+[2024-04-19 11:52:21] INFO root fetch - processPackages [volcano-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcano_base-2.0.0.tar.gz tmp/volcano_base-2.0.1.tar.gz --markdown 20240419/v/volcano-base/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-19 11:52:21] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/20/11/f5c1197d2447a7aef7e6887f5c35e0dc07608a7447fe35210c6b7b39e9a8/cubicweb-4.7.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 11:52:21] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis_activitystreams-0.1.0.tar.gz tmp/whyis_activitystreams-0.1.1.tar.gz --markdown 20240419/w/whyis-activitystreams/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xls-updater]: Downloading https://files.pythonhosted.org/packages/f0/79/e7afd3a58f5470d949f347e20a450e3f8a5ccdd289984b447435cb2a4ab1/xls_updater-0.2.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: Downloading https://files.pythonhosted.org/packages/d7/4e/1705215a1524f04b7b9b6cf392194b0d53c8f4be968c7b97077ea43e24b9/odoo14_addon_l10n_be_vat_reports-14.0.1.1.0-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [uagents]: Downloading https://files.pythonhosted.org/packages/4e/b2/80ca2fbc2244d3282d43059a11c712892749a2f80b8e997f52b750311b9c/uagents-0.9.3.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/20/af/180398f93ff963c012dca62698c6446f2749e17c22e53d40be606c81a4f0/pip_blame-0.2.0.tar.gz
+[2024-04-19 11:52:21] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: executing diffoscope
+[2024-04-19 11:52:21] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_be_vat_reports-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_be_vat_reports-14.0.1.1.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-l10n-be-vat-reports/14.0.1.0.2.dev1-14.0.1.1.0/README.md --exclude *.pyd
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/e9/5b/e43b6250e9f8891fffdc1165cb4f968bb072984d6dfa0c333957416e2092/xiaoranli-0.7.8-py3-none-any.whl
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-19 11:52:21] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.32-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240419/x/xiaoranli/0.7.32-0.7.8/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [pip-blame]: executing diffoscope
+[2024-04-19 11:52:22] INFO root fetch - processPackages [pip-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_blame-0.1.0.tar.gz tmp/pip_blame-0.2.0.tar.gz --markdown 20240419/p/pip-blame/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [uagents]: executing diffoscope
+[2024-04-19 11:52:22] INFO root fetch - processPackages [uagents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents-0.9.2.tar.gz tmp/uagents-0.9.3.tar.gz --markdown 20240419/u/uagents/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2024-04-19 11:52:22] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-0.7.34-py3-none-any.whl.zip tmp/xiaoranli-0.7.8-py3-none-any.whl.zip --markdown 20240419/x/xiaoranli/0.7.34-0.7.8/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [dflow-galaxy]: Downloading https://files.pythonhosted.org/packages/a9/79/992bfc9a5ccb51e555e522623600c495523e0a5f54ab0beb51f454b8c6f2/dflow_galaxy-0.1.7.tar.gz
+[2024-04-19 11:52:22] INFO root fetch - processPackages [xls-updater]: executing diffoscope
+[2024-04-19 11:52:22] INFO root fetch - processPackages [xls-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xls_updater-0.1.9.tar.gz tmp/xls_updater-0.2.0.tar.gz --markdown 20240419/x/xls-updater/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.1.0.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.1.1.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 11:52:22] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-2.0.0.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - processPackages [volcano-base]: Remove: archive file [/home/abi/fetcher/tmp/volcano_base-2.0.1.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - main [MainThread]: End processing [volcano-base]: success
+[2024-04-19 11:52:22] INFO root fetch - processPackages [dflow-galaxy]: executing diffoscope
+[2024-04-19 11:52:22] INFO root fetch - processPackages [dflow-galaxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dflow_galaxy-0.1.6.tar.gz tmp/dflow_galaxy-0.1.7.tar.gz --markdown 20240419/d/dflow-galaxy/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 11:52:22] INFO root fetch - processPackages [cubicweb]: Downloading https://files.pythonhosted.org/packages/8d/eb/56544a78d3e5302b36f9d0813af638dfa15ec2ed883fce59c9a07145888b/cubicweb-4.7.1.tar.gz
+[2024-04-19 11:52:22] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.1.0.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.2.0.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - main [MainThread]: End processing [pip-blame]: success
+[2024-04-19 11:52:22] INFO root fetch - processPackages [uagents]: Remove: archive file [/home/abi/fetcher/tmp/uagents-0.9.2.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - processPackages [uagents]: Remove: archive file [/home/abi/fetcher/tmp/uagents-0.9.3.tar.gz]
+[2024-04-19 11:52:22] INFO root fetch - main [MainThread]: End processing [uagents]: success
+[2024-04-19 11:52:22] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_vat_reports-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-19 11:52:22] INFO root fetch - processPackages [odoo14-addon-l10n-be-vat-reports]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_be_vat_reports-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-19 11:52:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-be-vat-reports]: success
+[2024-04-19 11:52:23] INFO root fetch - processPackages [xls-updater]: Remove: archive file [/home/abi/fetcher/tmp/xls_updater-0.1.9.tar.gz]
+[2024-04-19 11:52:23] INFO root fetch - processPackages [xls-updater]: Remove: archive file [/home/abi/fetcher/tmp/xls_updater-0.2.0.tar.gz]
+[2024-04-19 11:52:23] INFO root fetch - main [MainThread]: End processing [xls-updater]: success
+[2024-04-19 11:52:23] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.32-py3-none-any.whl.zip]
+[2024-04-19 11:52:23] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.8-py3-none-any.whl.zip]
+[2024-04-19 11:52:23] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-19 11:52:23] INFO root fetch - processPackages [xiaoranli]: Remove: archive file [/home/abi/fetcher/tmp/xiaoranli-0.7.34-py3-none-any.whl.zip]
+[2024-04-19 11:52:23] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2024-04-19 11:52:23] INFO root fetch - processPackages [cubicweb]: executing diffoscope
+[2024-04-19 11:52:23] INFO root fetch - processPackages [cubicweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-4.7.0.tar.gz tmp/cubicweb-4.7.1.tar.gz --markdown 20240419/c/cubicweb/4.7.0-4.7.1/README.md --exclude *.pyd
+[2024-04-19 11:52:23] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.6.tar.gz]
+[2024-04-19 11:52:23] INFO root fetch - processPackages [dflow-galaxy]: Remove: archive file [/home/abi/fetcher/tmp/dflow_galaxy-0.1.7.tar.gz]
+[2024-04-19 11:52:23] INFO root fetch - main [MainThread]: End processing [dflow-galaxy]: success
+[2024-04-19 11:52:27] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.7.0.tar.gz]
+[2024-04-19 11:52:27] INFO root fetch - processPackages [cubicweb]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-4.7.1.tar.gz]
+[2024-04-19 11:52:27] INFO root fetch - main [MainThread]: End processing [cubicweb]: success
+[2024-04-19 11:52:27] INFO root fetch - main [MainThread]: Store serial: [22839810]
