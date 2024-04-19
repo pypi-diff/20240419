@@ -20935,3 +20935,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:14:33] INFO root fetch - processPackages [freedata-server]: Remove: archive file [/home/abi/fetcher/tmp/freedata-server-0.15.4a4.tar.gz]
 [2024-04-19 14:14:33] INFO root fetch - main [MainThread]: End processing [freedata-server]: success
 [2024-04-19 14:14:33] INFO root fetch - main [MainThread]: Store serial: [22841468]
+[2024-04-19 14:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841468]
+[2024-04-19 14:16:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 14:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: web3-ethereum-defi
+[2024-04-19 14:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sage-lib
+[2024-04-19 14:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schedula-core
+[2024-04-19 14:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-table-of-figures
+[2024-04-19 14:16:42] INFO root fetch - processPackages [schedula-core]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-19 14:16:42] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/1f/dd/f2a304f0b07bc59253ed8c8452b39f08001a82294671d780c119d0007712/schedula-core-1.5.6.tar.gz
+[2024-04-19 14:16:42] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-19 14:16:42] INFO root fetch - processPackages [web3-ethereum-defi]: New version: [0.9] Old Version: [0.8]
+[2024-04-19 14:16:42] INFO root fetch - processPackages [sage-lib]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-04-19 14:16:42] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/f7/34/bc567b2d884ed84729cca7ee7fa158347e0f72fc19d964b3721fd4ad740b/web3-ethereum-defi-0.8.tar.gz
+[2024-04-19 14:16:42] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/0c/1f/00eb35df49893269d3a67a24076f2fa665c50056f0ab1d92180c8fe0f343/sage_lib-0.1.4.8.tar.gz
+[2024-04-19 14:16:42] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/74/76/5ad3eb864ba4ac8ab881bf07bd9729866bc97e0a9b9288c287d1a4a14d25/mkdocs-table-of-figures-0.1.7.tar.gz
+[2024-04-19 14:16:42] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/3c/7c/d27a7b18393733fbd46ff84f26d051077fc6d1c17dd2a80c9420703de910/schedula_core-1.5.7.tar.gz
+[2024-04-19 14:16:43] INFO root fetch - processPackages [schedula-core]: executing diffoscope
+[2024-04-19 14:16:43] INFO root fetch - processPackages [schedula-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-core-1.5.6.tar.gz tmp/schedula_core-1.5.7.tar.gz --markdown 20240419/s/schedula-core/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-04-19 14:16:43] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/2e/24/fd71b93a0cb5f4a2b31546199a362e49f2809974dec4948b86551961373b/mkdocs-table-of-figures-0.2.0.tar.gz
+[2024-04-19 14:16:43] INFO root fetch - processPackages [sage-lib]: Downloading https://files.pythonhosted.org/packages/47/e4/6aefb4d16c81a0b7b546cadb557484d6d521dc93ce41bd491e80060443d4/sage_lib-0.1.4.9.tar.gz
+[2024-04-19 14:16:43] INFO root fetch - processPackages [web3-ethereum-defi]: Downloading https://files.pythonhosted.org/packages/02/9e/0b69309d6f37b54cc726ee3588483bd2d6bd07282539b30d2a04e48b82cd/web3-ethereum-defi-0.9.tar.gz
+[2024-04-19 14:16:43] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-19 14:16:43] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.1.7.tar.gz tmp/mkdocs-table-of-figures-0.2.0.tar.gz --markdown 20240419/m/mkdocs-table-of-figures/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-19 14:16:43] INFO root fetch - processPackages [sage-lib]: executing diffoscope
+[2024-04-19 14:16:43] INFO root fetch - processPackages [sage-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sage_lib-0.1.4.8.tar.gz tmp/sage_lib-0.1.4.9.tar.gz --markdown 20240419/s/sage-lib/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-04-19 14:16:43] INFO root fetch - processPackages [web3-ethereum-defi]: executing diffoscope
+[2024-04-19 14:16:43] INFO root fetch - processPackages [web3-ethereum-defi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3-ethereum-defi-0.8.tar.gz tmp/web3-ethereum-defi-0.9.tar.gz --markdown 20240419/w/web3-ethereum-defi/0.8-0.9/README.md --exclude *.pyd
+[2024-04-19 14:16:43] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula-core-1.5.6.tar.gz]
+[2024-04-19 14:16:43] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula_core-1.5.7.tar.gz]
+[2024-04-19 14:16:43] INFO root fetch - main [MainThread]: End processing [schedula-core]: success
+[2024-04-19 14:16:43] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.1.7.tar.gz]
+[2024-04-19 14:16:43] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.0.tar.gz]
+[2024-04-19 14:16:43] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-19 14:16:44] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.8.tar.gz]
+[2024-04-19 14:16:44] INFO root fetch - processPackages [sage-lib]: Remove: archive file [/home/abi/fetcher/tmp/sage_lib-0.1.4.9.tar.gz]
+[2024-04-19 14:16:44] INFO root fetch - main [MainThread]: End processing [sage-lib]: success
+[2024-04-19 14:16:44] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.8.tar.gz]
+[2024-04-19 14:16:44] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
+[2024-04-19 14:16:44] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
+[2024-04-19 14:16:44] INFO root fetch - main [MainThread]: Store serial: [22841480]
