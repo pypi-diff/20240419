@@ -9511,3 +9511,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:27:52] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
 [2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
 [2024-04-19 06:27:52] INFO root fetch - main [MainThread]: Store serial: [22836544]
+[2024-04-19 06:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836544]
+[2024-04-19 06:30:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: procastro
+[2024-04-19 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pywxdump
+[2024-04-19 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyLLM
+[2024-04-19 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-includecontents
+[2024-04-19 06:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: provena-interfaces
+[2024-04-19 06:30:01] INFO root fetch - processPackages [provena-interfaces]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-04-19 06:30:01] INFO root fetch - processPackages [procastro]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 06:30:01] INFO root fetch - processPackages [django-includecontents]: New version: [0.4] Old Version: [0.3]
+[2024-04-19 06:30:01] INFO root fetch - processPackages [MyLLM]: New version: [4.8.8] Old Version: [4.8.7]
+[2024-04-19 06:30:01] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/03/52/4929b24cd455b820d13ee287f0d83c280933433e047254782d65d2e65c35/provena-interfaces-0.1.12.tar.gz
+[2024-04-19 06:30:01] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/17/30/affb649e79d9f83f03bac7693deba0fd9b93a32fb5083c981f4519a2a617/django_includecontents-0.3.tar.gz
+[2024-04-19 06:30:01] INFO root fetch - processPackages [pywxdump]: New version: [3.0.0] Old Version: [2.4.9]
+[2024-04-19 06:30:01] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/ee/d0/dd1c9ff66533710c93a39e9d470ae3e809db6e8cf11b8d58ec1fb2796349/myllm-4.8.7.tar.gz
+[2024-04-19 06:30:01] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/1e/25/d94a6295a8ba50667040f26239d4088854846558d94b4d0807890b765105/procastro-0.1.1.tar.gz
+[2024-04-19 06:30:01] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/20/eb/f88954c1da7353adc7b3750be18e73710028e708fe62e2c81059d922eac9/pywxdump-2.4.9.tar.gz
+[2024-04-19 06:30:02] INFO root fetch - processPackages [MyLLM]: Downloading https://files.pythonhosted.org/packages/17/a3/c8c72d3fe2409e7c53f4f1b62d22d58eda0f109b746f00cee99c542888b9/myllm-4.8.8.tar.gz
+[2024-04-19 06:30:02] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/8d/ff/a3bd392723b93f60f8917185aaaf77df93e351b0847c84f491174b5269b7/django_includecontents-0.4.tar.gz
+[2024-04-19 06:30:02] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 11183342>=10485760
+[2024-04-19 06:30:02] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2024-04-19 06:30:02] INFO root fetch - processPackages [MyLLM]: executing diffoscope
+[2024-04-19 06:30:02] INFO root fetch - processPackages [MyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-4.8.7.tar.gz tmp/myllm-4.8.8.tar.gz --markdown 20240419/M/MyLLM/4.8.7-4.8.8/README.md --exclude *.pyd
+[2024-04-19 06:30:02] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/01/a7/e115710c2420adae399a0b882fc53900ae617cf07ecda79f72363231af7c/provena-interfaces-0.1.13.tar.gz
+[2024-04-19 06:30:02] INFO root fetch - processPackages [django-includecontents]: executing diffoscope
+[2024-04-19 06:30:02] INFO root fetch - processPackages [django-includecontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_includecontents-0.3.tar.gz tmp/django_includecontents-0.4.tar.gz --markdown 20240419/d/django-includecontents/0.3-0.4/README.md --exclude *.pyd
+[2024-04-19 06:30:02] INFO root fetch - processPackages [provena-interfaces]: executing diffoscope
+[2024-04-19 06:30:02] INFO root fetch - processPackages [provena-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provena-interfaces-0.1.12.tar.gz tmp/provena-interfaces-0.1.13.tar.gz --markdown 20240419/p/provena-interfaces/0.1.12-0.1.13/README.md --exclude *.pyd
+[2024-04-19 06:30:02] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/03/00/fa03a905c2ae6b048d5ffb780113b1664199083434d011a7bc2040c5765f/pywxdump-3.0.0.tar.gz
+[2024-04-19 06:30:02] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.3.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.4.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - main [MainThread]: End processing [django-includecontents]: success
+[2024-04-19 06:30:02] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.7.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.8.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
+[2024-04-19 06:30:02] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-04-19 06:30:02] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-2.4.9.tar.gz tmp/pywxdump-3.0.0.tar.gz --markdown 20240419/p/pywxdump/2.4.9-3.0.0/README.md --exclude *.pyd
+[2024-04-19 06:30:02] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-0.1.12.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-0.1.13.tar.gz]
+[2024-04-19 06:30:02] INFO root fetch - main [MainThread]: End processing [provena-interfaces]: success
+[2024-04-19 06:30:04] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-2.4.9.tar.gz]
+[2024-04-19 06:30:04] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.0.tar.gz]
+[2024-04-19 06:30:04] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-04-19 06:30:04] INFO root fetch - main [MainThread]: Store serial: [22836559]
