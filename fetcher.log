@@ -2332,3 +2332,86 @@
 [2024-04-19 02:18:21] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.4.0.tar.gz]
 [2024-04-19 02:18:21] INFO root fetch - main [MainThread]: End processing [embyclient]: success
 [2024-04-19 02:18:21] INFO root fetch - main [MainThread]: Store serial: [22833652]
+[2024-04-19 02:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833652]
+[2024-04-19 02:20:30] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fvm-nerfed
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hebill
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: causalml
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchao-nightly
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsbot
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cr-constructs
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: algophon
+[2024-04-19 02:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aurora-globaldatabase
+[2024-04-19 02:20:30] WARNING root fetch - processPackages [fvm-nerfed]: Skipping, unable to determine old version
+[2024-04-19 02:20:30] INFO root fetch - main [MainThread]: End processing [fvm-nerfed] error
+[2024-04-19 02:20:30] INFO root fetch - processPackages [algophon]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [torchao-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [hebill]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.430] Old Version: [2.1.429]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/5f/75/fa2f35d39cfd048a42fe784f2a57da5743e7983bb669c3e4d8eb5aa83710/torchao-nightly-2024.4.8.tar.gz
+[2024-04-19 02:20:30] INFO root fetch - processPackages [tsbot]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-19 02:20:30] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/23/d1/b04c94ad46d6210586ae60b3bfa01023aa73e2e509c6253210d5829e58a2/algophon-0.0.3.tar.gz
+[2024-04-19 02:20:30] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/51/c0/cf190d75e6298b01f568a82167512cbbe90c4bec3290cd38f66b71d87129/hebill-1.1.8.tar.gz
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-19 02:20:30] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [causalml]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 02:20:31] INFO root fetch - processPackages [tsbot]: Downloading https://files.pythonhosted.org/packages/20/33/e0fa6f77920f0d8d1de5e33ae64d23b69f19159de16275b1a876ec37751e/tsbot-1.0.0.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [algophon]: Downloading https://files.pythonhosted.org/packages/32/b1/4a2884eebb3329ef2d96c104b182d5ec0be8c9697dda69e1e1cbbc00d18b/algophon-0.0.4.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [torchao-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d5/e0ae6447ebc2fc27b71391c55653c89c441bbe6a6a8a7b37aa28dc13014e/torchao-nightly-2024.4.9.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [hebill]: Downloading https://files.pythonhosted.org/packages/67/a8/8f352940373a1295fb22e3f54ca6895518ef560172571744f35fa2952960/hebill-1.1.9.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/4b/4f/64f0baf10cf4413f213db06c18b8610af8ee8201f55a6e57d20d3cf776bf/cdk-cr-constructs-2.1.429.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-19 02:20:31] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15111075>=10485760
+[2024-04-19 02:20:31] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-19 02:20:31] INFO root fetch - processPackages [algophon]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [algophon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algophon-0.0.3.tar.gz tmp/algophon-0.0.4.tar.gz --markdown 20240419/a/algophon/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [causalml]: Downloading https://files.pythonhosted.org/packages/50/7c/dd3c967b3bd8185c454fe7554f959914d2fb7674cb22467b64fa2b61fc67/causalml-0.8.0.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [torchao-nightly]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [torchao-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchao-nightly-2024.4.8.tar.gz tmp/torchao-nightly-2024.4.9.tar.gz --markdown 20240419/t/torchao-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [hebill]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [hebill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hebill-1.1.8.tar.gz tmp/hebill-1.1.9.tar.gz --markdown 20240419/h/hebill/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240419/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [tsbot]: Downloading https://files.pythonhosted.org/packages/e5/28/9e2e234ffc134e358c7e9e09d12c4d6607a819ce59199d0851d070d19e52/tsbot-1.1.0.tar.gz
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240419/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240419/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [tsbot]: executing diffoscope
+[2024-04-19 02:20:31] INFO root fetch - processPackages [tsbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsbot-1.0.0.tar.gz tmp/tsbot-1.1.0.tar.gz --markdown 20240419/t/tsbot/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-19 02:20:31] INFO root fetch - processPackages [causalml]: Downloading https://files.pythonhosted.org/packages/be/5a/bd02301c37208c30b8b8556281e7bf6c72b5171369f9d3405f4d273ddc29/causalml-0.9.0.tar.gz
+[2024-04-19 02:20:32] INFO root fetch - processPackages [causalml]: executing diffoscope
+[2024-04-19 02:20:32] INFO root fetch - processPackages [causalml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causalml-0.8.0.tar.gz tmp/causalml-0.9.0.tar.gz --markdown 20240419/c/causalml/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 02:20:32] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.8.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [torchao-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchao-nightly-2024.4.9.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [torchao-nightly]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.3.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [algophon]: Remove: archive file [/home/abi/fetcher/tmp/algophon-0.0.4.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [algophon]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.8.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [hebill]: Remove: archive file [/home/abi/fetcher/tmp/hebill-1.1.9.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [hebill]: success
+[2024-04-19 02:20:32] INFO root fetch - processPackages [tsbot]: Remove: archive file [/home/abi/fetcher/tmp/tsbot-1.0.0.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - processPackages [tsbot]: Remove: archive file [/home/abi/fetcher/tmp/tsbot-1.1.0.tar.gz]
+[2024-04-19 02:20:32] INFO root fetch - main [MainThread]: End processing [tsbot]: success
+[2024-04-19 02:20:33] INFO root fetch - processPackages [causalml]: Remove: archive file [/home/abi/fetcher/tmp/causalml-0.8.0.tar.gz]
+[2024-04-19 02:20:33] INFO root fetch - processPackages [causalml]: Remove: archive file [/home/abi/fetcher/tmp/causalml-0.9.0.tar.gz]
+[2024-04-19 02:20:33] INFO root fetch - main [MainThread]: End processing [causalml]: success
+[2024-04-19 02:20:33] INFO root fetch - main [MainThread]: Store serial: [22833685]
