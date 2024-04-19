@@ -6974,3 +6974,54 @@
 [2024-04-19 03:32:44] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.3.tar.gz]
 [2024-04-19 03:32:44] INFO root fetch - main [MainThread]: End processing [pixee]: success
 [2024-04-19 03:32:44] INFO root fetch - main [MainThread]: Store serial: [22835332]
+[2024-04-19 03:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835332]
+[2024-04-19 03:34:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclomonitor
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEWNEWS
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: captchax
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nuon
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assisted-service-client
+[2024-04-19 03:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrtk-explorer
+[2024-04-19 03:34:52] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-04-19 03:34:52] INFO root fetch - processPackages [NEWNEWS]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 03:34:52] INFO root fetch - processPackages [nrtk-explorer]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 03:34:52] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-04-19 03:34:52] INFO root fetch - processPackages [cyclomonitor]: New version: [2024.4.19] Old Version: [2024.4.15]
+[2024-04-19 03:34:52] WARNING root fetch - processPackages [captchax]: Skipping, unable to determine old version
+[2024-04-19 03:34:52] INFO root fetch - main [MainThread]: End processing [captchax] error
+[2024-04-19 03:34:52] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nrtk-explorer]: Downloading https://files.pythonhosted.org/packages/68/ff/64fdf0247fe067b42eb4005a0292376373637a90ec01853862c42bcd5ff6/nrtk_explorer-0.0.5.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/51/ae/5c420865489ef692660845ac9e4d8f63900fd89fd162a3f2b470baf8bab0/NEWNEWS-0.0.2-py3-none-any.whl
+[2024-04-19 03:34:53] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-04-19 03:34:53] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/ff/1f/69b432a84ceca9e0cffe7958bc0b97c58bec35d4a3ad45d0c745572d3a55/cyclomonitor-2024.4.15.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/d8/25/ee9e81bd791cdb9d8a34432a8f5d6dd100314ff98ac7e30ed151b0ebd7fd/NEWNEWS-0.0.3-py3-none-any.whl
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [NEWNEWS]: executing diffoscope
+[2024-04-19 03:34:53] INFO root fetch - processPackages [NEWNEWS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEWNEWS-0.0.2-py3-none-any.whl.zip tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip --markdown 20240419/N/NEWNEWS/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 03:34:53] INFO root fetch - processPackages [cyclomonitor]: Downloading https://files.pythonhosted.org/packages/54/89/283b3f8405dc157ef5af02d68f78faa46525eaa9041fc519b279ccfd4ba9/cyclomonitor-2024.4.19.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240419/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-04-19 03:34:53] INFO root fetch - processPackages [cyclomonitor]: executing diffoscope
+[2024-04-19 03:34:53] INFO root fetch - processPackages [cyclomonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclomonitor-2024.4.15.tar.gz tmp/cyclomonitor-2024.4.19.tar.gz --markdown 20240419/c/cyclomonitor/2024.4.15-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 03:34:53] INFO root fetch - processPackages [nrtk-explorer]: Downloading https://files.pythonhosted.org/packages/b2/f1/c50c3c8888a813d680e4007edd710aafda073309b7d2cad40d41499667bd/nrtk_explorer-0.0.6.tar.gz
+[2024-04-19 03:34:53] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-04-19 03:34:53] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240419/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-04-19 03:34:54] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.2-py3-none-any.whl.zip]
+[2024-04-19 03:34:54] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip]
+[2024-04-19 03:34:54] INFO root fetch - main [MainThread]: End processing [NEWNEWS]: success
+[2024-04-19 03:34:54] INFO root fetch - processPackages [nrtk-explorer]: executing diffoscope
+[2024-04-19 03:34:54] INFO root fetch - processPackages [nrtk-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrtk_explorer-0.0.5.tar.gz tmp/nrtk_explorer-0.0.6.tar.gz --markdown 20240419/n/nrtk-explorer/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 03:34:54] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.15.tar.gz]
+[2024-04-19 03:34:54] INFO root fetch - processPackages [cyclomonitor]: Remove: archive file [/home/abi/fetcher/tmp/cyclomonitor-2024.4.19.tar.gz]
+[2024-04-19 03:34:54] INFO root fetch - main [MainThread]: End processing [cyclomonitor]: success
+[2024-04-19 03:34:55] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-04-19 03:34:55] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-04-19 03:34:55] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-04-19 03:34:55] INFO root fetch - processPackages [nrtk-explorer]: Remove: archive file [/home/abi/fetcher/tmp/nrtk_explorer-0.0.5.tar.gz]
+[2024-04-19 03:34:55] INFO root fetch - processPackages [nrtk-explorer]: Remove: archive file [/home/abi/fetcher/tmp/nrtk_explorer-0.0.6.tar.gz]
+[2024-04-19 03:34:55] INFO root fetch - main [MainThread]: End processing [nrtk-explorer]: success
+[2024-04-19 03:34:55] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-04-19 03:34:55] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-04-19 03:34:55] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-19 03:34:55] INFO root fetch - main [MainThread]: Store serial: [22835413]
