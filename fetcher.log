@@ -7521,3 +7521,42 @@
 [2024-04-19 04:14:33] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
 [2024-04-19 04:14:33] INFO root fetch - main [MainThread]: End processing [e2b]: success
 [2024-04-19 04:14:33] INFO root fetch - main [MainThread]: Store serial: [22835715]
+[2024-04-19 04:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835715]
+[2024-04-19 04:16:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vuer
+[2024-04-19 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEWNEWS
+[2024-04-19 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: culminator
+[2024-04-19 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hilcat
+[2024-04-19 04:16:42] INFO root fetch - processPackages [NEWNEWS]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 04:16:42] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 04:16:42] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-19 04:16:42] INFO root fetch - processPackages [culminator]: New version: [0.7] Old Version: [0.6]
+[2024-04-19 04:16:42] INFO root fetch - processPackages [hilcat]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-19 04:16:42] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/51/ae/5c420865489ef692660845ac9e4d8f63900fd89fd162a3f2b470baf8bab0/NEWNEWS-0.0.2-py3-none-any.whl
+[2024-04-19 04:16:42] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/c5/4d/5c97760a6165ccc921b5548a4bcbd522c2315112169e270684bb483ee348/culminator-0.6.tar.gz
+[2024-04-19 04:16:42] INFO root fetch - processPackages [hilcat]: Downloading https://files.pythonhosted.org/packages/c1/08/18627d1de9502ffc3b7d3cec863669afd893e7d65a24548ab6924f38eeda/hilcat-1.0.6.tar.gz
+[2024-04-19 04:16:42] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-19 04:16:42] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/d8/25/ee9e81bd791cdb9d8a34432a8f5d6dd100314ff98ac7e30ed151b0ebd7fd/NEWNEWS-0.0.3-py3-none-any.whl
+[2024-04-19 04:16:42] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-19 04:16:42] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240419/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 04:16:43] INFO root fetch - processPackages [NEWNEWS]: executing diffoscope
+[2024-04-19 04:16:43] INFO root fetch - processPackages [NEWNEWS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEWNEWS-0.0.2-py3-none-any.whl.zip tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip --markdown 20240419/N/NEWNEWS/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 04:16:43] INFO root fetch - processPackages [culminator]: Downloading https://files.pythonhosted.org/packages/37/f4/e7f7cf70bdf03d223056d4eec5f49513caccf2dd8b5fe43b6a6cd763b033/culminator-0.7.tar.gz
+[2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: Downloading https://files.pythonhosted.org/packages/6a/ce/ae1319f61e2c63f1b743ccc33868035858db3ebbc20aa44901dd1aad7487/hilcat-1.1.0.tar.gz
+[2024-04-19 04:16:43] INFO root fetch - processPackages [culminator]: executing diffoscope
+[2024-04-19 04:16:43] INFO root fetch - processPackages [culminator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/culminator-0.6.tar.gz tmp/culminator-0.7.tar.gz --markdown 20240419/c/culminator/0.6-0.7/README.md --exclude *.pyd
+[2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: executing diffoscope
+[2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilcat-1.0.6.tar.gz tmp/hilcat-1.1.0.tar.gz --markdown 20240419/h/hilcat/1.0.6-1.1.0/README.md --exclude *.pyd
+[2024-04-19 04:16:43] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.2-py3-none-any.whl.zip]
+[2024-04-19 04:16:43] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip]
+[2024-04-19 04:16:43] INFO root fetch - main [MainThread]: End processing [NEWNEWS]: success
+[2024-04-19 04:16:43] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 04:16:43] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 04:16:43] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-19 04:16:43] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.6.tar.gz]
+[2024-04-19 04:16:43] INFO root fetch - processPackages [culminator]: Remove: archive file [/home/abi/fetcher/tmp/culminator-0.7.tar.gz]
+[2024-04-19 04:16:43] INFO root fetch - main [MainThread]: End processing [culminator]: success
+[2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: Remove: archive file [/home/abi/fetcher/tmp/hilcat-1.0.6.tar.gz]
+[2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: Remove: archive file [/home/abi/fetcher/tmp/hilcat-1.1.0.tar.gz]
+[2024-04-19 04:16:43] INFO root fetch - main [MainThread]: End processing [hilcat]: success
+[2024-04-19 04:16:43] INFO root fetch - main [MainThread]: Store serial: [22835734]
