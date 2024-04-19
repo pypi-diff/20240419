@@ -18490,3 +18490,69 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:35:38] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.0.tar.gz]
 [2024-04-19 12:35:38] INFO root fetch - main [MainThread]: End processing [skip-django-is-core]: success
 [2024-04-19 12:35:38] INFO root fetch - main [MainThread]: Store serial: [22840334]
+[2024-04-19 12:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840334]
+[2024-04-19 12:37:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaitmap-mad
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaitmap
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RsCMPX-UwbMeas
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazynovel
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlaywrightCapture
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-salesforce-api
+[2024-04-19 12:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mecord-cli
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap-mad]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [RsCMPX-UwbMeas]: New version: [5.0.20] Old Version: [4.0.80]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [lazynovel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [ms-salesforce-api]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [PlaywrightCapture]: New version: [1.24.5] Old Version: [1.24.4]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/f6/de/916c5da1d7832f44f128050216f62c9bfd96da99bc832072f4f4b65d2915/gaitmap_mad-2.3.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Downloading https://files.pythonhosted.org/packages/72/d5/7c113c34dce0b6c98b65b3a631d44d77732c21e99e1c64e0ce821c3999b7/RsCMPX_UwbMeas-4.0.80.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/46/a8/eebf41b619d9f32fa1967e94ecbe843b78c7d45d0a86b560a1f18dafc2bf/lazynovel-0.1.8.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/e0/a6/c8d27ca08ef12b80bee5514229040d05facca48119af4d772c69a62a433f/gaitmap-2.3.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/e2/ae/70fb0d23750c29ca8eea2d0372e95e71d1d56b5dc5b37a644640ff72f9d6/ms_salesforce_api-2.3.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/1d/b8/d8590e4c3b1fc550bfac253778a808ff3426a6da981a40248df0c48d5481/playwrightcapture-1.24.4.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap-mad]: Downloading https://files.pythonhosted.org/packages/89/ee/81d8447b320927f0806f7b0628217b9331c06c680ff996f1330e1d40ce24/gaitmap_mad-2.4.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Downloading https://files.pythonhosted.org/packages/73/58/bf00219d123c370e60c1d6441dbaf3da0de86507ceeacee320663d9364ae/RsCMPX_UwbMeas-5.0.20.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [PlaywrightCapture]: Downloading https://files.pythonhosted.org/packages/ae/81/6d8aedb55086fce1392d9b03d318e344611c73d9b9262269841779a7895d/playwrightcapture-1.24.5.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap]: Downloading https://files.pythonhosted.org/packages/56/e2/3cea5047a6246580995610e632bc10c995f2c5388ace674996b9762323bb/gaitmap-2.4.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [lazynovel]: Downloading https://files.pythonhosted.org/packages/b8/92/adb188f1c22259efb22475de73d750f0e798a80bddf9ccb1edf2eac207e5/lazynovel-0.1.9.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/0b/31/4ea2ae0f0cb299f951b516814285de5d1b1a4f1bc2aab96af614ab24b3f4/ms_salesforce_api-2.4.0.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [RsCMPX-UwbMeas]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [RsCMPX-UwbMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_UwbMeas-4.0.80.tar.gz tmp/RsCMPX_UwbMeas-5.0.20.tar.gz --markdown 20240419/R/RsCMPX-UwbMeas/4.0.80-5.0.20/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap-mad]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap-mad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap_mad-2.3.0.tar.gz tmp/gaitmap_mad-2.4.0.tar.gz --markdown 20240419/g/gaitmap-mad/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [gaitmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitmap-2.3.0.tar.gz tmp/gaitmap-2.4.0.tar.gz --markdown 20240419/g/gaitmap/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [PlaywrightCapture]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [PlaywrightCapture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playwrightcapture-1.24.4.tar.gz tmp/playwrightcapture-1.24.5.tar.gz --markdown 20240419/P/PlaywrightCapture/1.24.4-1.24.5/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240419/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [lazynovel]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [lazynovel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazynovel-0.1.8.tar.gz tmp/lazynovel-0.1.9.tar.gz --markdown 20240419/l/lazynovel/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:37:47] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2024-04-19 12:37:47] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-2.3.0.tar.gz tmp/ms_salesforce_api-2.4.0.tar.gz --markdown 20240419/m/ms-salesforce-api/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-19 12:37:48] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.8.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - processPackages [lazynovel]: Remove: archive file [/home/abi/fetcher/tmp/lazynovel-0.1.9.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - main [MainThread]: End processing [lazynovel]: success
+[2024-04-19 12:37:48] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.4.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - processPackages [PlaywrightCapture]: Remove: archive file [/home/abi/fetcher/tmp/playwrightcapture-1.24.5.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - main [MainThread]: End processing [PlaywrightCapture]: success
+[2024-04-19 12:37:48] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-04-19 12:37:48] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.3.0.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-2.4.0.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2024-04-19 12:37:48] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.3.0.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - processPackages [gaitmap-mad]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap_mad-2.4.0.tar.gz]
+[2024-04-19 12:37:48] INFO root fetch - main [MainThread]: End processing [gaitmap-mad]: success
+[2024-04-19 12:37:49] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.3.0.tar.gz]
+[2024-04-19 12:37:49] INFO root fetch - processPackages [gaitmap]: Remove: archive file [/home/abi/fetcher/tmp/gaitmap-2.4.0.tar.gz]
+[2024-04-19 12:37:49] INFO root fetch - main [MainThread]: End processing [gaitmap]: success
+[2024-04-19 12:37:49] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_UwbMeas-4.0.80.tar.gz]
+[2024-04-19 12:37:49] INFO root fetch - processPackages [RsCMPX-UwbMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_UwbMeas-5.0.20.tar.gz]
+[2024-04-19 12:37:49] INFO root fetch - main [MainThread]: End processing [RsCMPX-UwbMeas]: success
+[2024-04-19 12:37:49] INFO root fetch - main [MainThread]: Store serial: [22840356]
