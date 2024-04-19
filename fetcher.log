@@ -7494,3 +7494,30 @@
 [2024-04-19 04:12:23] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
 [2024-04-19 04:12:23] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
 [2024-04-19 04:12:23] INFO root fetch - main [MainThread]: Store serial: [22835669]
+[2024-04-19 04:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835669]
+[2024-04-19 04:14:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 04:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factorial-aivn-pika
+[2024-04-19 04:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MPSTools
+[2024-04-19 04:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycalculator-report
+[2024-04-19 04:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: e2b
+[2024-04-19 04:14:32] WARNING root fetch - processPackages [mycalculator-report]: Skipping, unable to determine old version
+[2024-04-19 04:14:32] INFO root fetch - main [MainThread]: End processing [mycalculator-report] error
+[2024-04-19 04:14:32] INFO root fetch - processPackages [MPSTools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 04:14:32] INFO root fetch - processPackages [MPSTools]: Downloading https://files.pythonhosted.org/packages/30/70/ece3a10443be642915d615ae0554f21d5933b5a9fbc55344e6c00139a7d5/MPSTools-0.2.1-py3-none-any.whl
+[2024-04-19 04:14:32] WARNING root fetch - processPackages [factorial-aivn-pika]: Skipping, unable to determine old version
+[2024-04-19 04:14:32] INFO root fetch - main [MainThread]: End processing [factorial-aivn-pika] error
+[2024-04-19 04:14:32] INFO root fetch - processPackages [e2b]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-19 04:14:32] INFO root fetch - processPackages [MPSTools]: Downloading https://files.pythonhosted.org/packages/0a/39/a5c65dd54a4236c8a7e0cc1142e8fbf4bcf98eeb079bb5810d39b7df5851/MPSTools-0.2.2-py3-none-any.whl
+[2024-04-19 04:14:32] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/1a/e1/7d8dabb6aec21fb6f0f2ba8d50e6b15954150f88b9165be6672e515b5743/e2b-0.9.6.tar.gz
+[2024-04-19 04:14:32] INFO root fetch - processPackages [MPSTools]: executing diffoscope
+[2024-04-19 04:14:32] INFO root fetch - processPackages [MPSTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MPSTools-0.2.1-py3-none-any.whl.zip tmp/MPSTools-0.2.2-py3-none-any.whl.zip --markdown 20240419/M/MPSTools/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 04:14:32] INFO root fetch - processPackages [e2b]: Downloading https://files.pythonhosted.org/packages/12/97/8baccc64ce0664cccbd82d6b4190193beb6b7513a26751e9019aa4339c95/e2b-0.9.7.tar.gz
+[2024-04-19 04:14:33] INFO root fetch - processPackages [e2b]: executing diffoscope
+[2024-04-19 04:14:33] INFO root fetch - processPackages [e2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2b-0.9.6.tar.gz tmp/e2b-0.9.7.tar.gz --markdown 20240419/e/e2b/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-04-19 04:14:33] INFO root fetch - processPackages [MPSTools]: Remove: archive file [/home/abi/fetcher/tmp/MPSTools-0.2.1-py3-none-any.whl.zip]
+[2024-04-19 04:14:33] INFO root fetch - processPackages [MPSTools]: Remove: archive file [/home/abi/fetcher/tmp/MPSTools-0.2.2-py3-none-any.whl.zip]
+[2024-04-19 04:14:33] INFO root fetch - main [MainThread]: End processing [MPSTools]: success
+[2024-04-19 04:14:33] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.6.tar.gz]
+[2024-04-19 04:14:33] INFO root fetch - processPackages [e2b]: Remove: archive file [/home/abi/fetcher/tmp/e2b-0.9.7.tar.gz]
+[2024-04-19 04:14:33] INFO root fetch - main [MainThread]: End processing [e2b]: success
+[2024-04-19 04:14:33] INFO root fetch - main [MainThread]: Store serial: [22835715]
