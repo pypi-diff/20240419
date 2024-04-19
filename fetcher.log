@@ -12976,3 +12976,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:27:42] INFO root fetch - processPackages [ssb-altinn3-util]: Remove: archive file [/home/abi/fetcher/tmp/ssb_altinn3_util-0.0.9.tar.gz]
 [2024-04-19 09:27:42] INFO root fetch - main [MainThread]: End processing [ssb-altinn3-util]: success
 [2024-04-19 09:27:42] INFO root fetch - main [MainThread]: Store serial: [22838030]
+[2024-04-19 09:29:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838030]
+[2024-04-19 09:29:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ixmp4
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prediction-market-agent-tooling
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tipo-kgen
+[2024-04-19 09:29:50] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 09:29:50] INFO root fetch - processPackages [tipo-kgen]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 09:29:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-19 09:29:50] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 09:29:50] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/dd/09/64f38418cecead1f77d1cc5ecae84af54bbe5a11bec0fea61b1e351c0951/tipo-kgen-0.0.5.tar.gz
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ixmp4]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-19 09:29:50] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/40/cc/d5bea290bbf870b8c32f51179b33743c8bd2603c836bdadb915d8182e2dd/prediction_market_agent_tooling-0.9.1.tar.gz
+[2024-04-19 09:29:50] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/98/78/66f112bda436b9aef550d5ba1a29e218de2ff278e2727ef0cfddba001fae/ixmp4-0.8.2.tar.gz
+[2024-04-19 09:29:50] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 09:29:50] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 09:29:50] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 09:29:51] INFO root fetch - processPackages [tipo-kgen]: Downloading https://files.pythonhosted.org/packages/74/fc/0fff0190c44f98f68cf30100a619fa0e5b49f73ab20519c92786e13ae5a9/tipo-kgen-0.0.6.tar.gz
+[2024-04-19 09:29:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/2c/17/6b9526b52dfcdaf571b3cd941b0a0b14db378f0c8b89a1c361109cb73c26/prediction_market_agent_tooling-0.9.3.tar.gz
+[2024-04-19 09:29:51] INFO root fetch - processPackages [ixmp4]: Downloading https://files.pythonhosted.org/packages/96/e9/3daa6c49382ed985b5f5b91861094660e640ef8df8cd23b4249d89c83e0e/ixmp4-0.8.3.tar.gz
+[2024-04-19 09:29:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-19 09:29:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.9.1.tar.gz tmp/prediction_market_agent_tooling-0.9.3.tar.gz --markdown 20240419/p/prediction-market-agent-tooling/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-19 09:29:51] INFO root fetch - processPackages [ixmp4]: executing diffoscope
+[2024-04-19 09:29:51] INFO root fetch - processPackages [ixmp4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixmp4-0.8.2.tar.gz tmp/ixmp4-0.8.3.tar.gz --markdown 20240419/i/ixmp4/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-19 09:29:51] INFO root fetch - processPackages [tipo-kgen]: executing diffoscope
+[2024-04-19 09:29:51] INFO root fetch - processPackages [tipo-kgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipo-kgen-0.0.5.tar.gz tmp/tipo-kgen-0.0.6.tar.gz --markdown 20240419/t/tipo-kgen/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 09:29:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.1.tar.gz]
+[2024-04-19 09:29:51] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.3.tar.gz]
+[2024-04-19 09:29:51] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-19 09:29:52] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.2.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - processPackages [ixmp4]: Remove: archive file [/home/abi/fetcher/tmp/ixmp4-0.8.3.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - main [MainThread]: End processing [ixmp4]: success
+[2024-04-19 09:29:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 09:29:52] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.5.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - processPackages [tipo-kgen]: Remove: archive file [/home/abi/fetcher/tmp/tipo-kgen-0.0.6.tar.gz]
+[2024-04-19 09:29:52] INFO root fetch - main [MainThread]: End processing [tipo-kgen]: success
+[2024-04-19 09:29:52] INFO root fetch - main [MainThread]: Store serial: [22838042]
