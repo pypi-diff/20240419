@@ -13171,3 +13171,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:36:27] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
 [2024-04-19 09:36:27] INFO root fetch - main [MainThread]: End processing [beartype]: success
 [2024-04-19 09:36:27] INFO root fetch - main [MainThread]: Store serial: [22838103]
+[2024-04-19 09:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838103]
+[2024-04-19 09:38:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 09:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbnlp
+[2024-04-19 09:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rstgen
+[2024-04-19 09:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-ionq
+[2024-04-19 09:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2024-04-19 09:38:35] INFO root fetch - processPackages [lyk-reservation-nowon]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 09:38:35] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240418165859] Old Version: [1.4.0.dev20240415214855]
+[2024-04-19 09:38:35] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240418165859] Old Version: [1.4.0.dev20240415214855]
+[2024-04-19 09:38:36] INFO root fetch - processPackages [rstgen]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-19 09:38:36] WARNING root fetch - processPackages [nbnlp]: Skipping, unable to determine old version
+[2024-04-19 09:38:36] INFO root fetch - main [MainThread]: End processing [nbnlp] error
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/fc/f8/627c2bc940d152dda4d3477cd3f31723fdee18c3b8103d843166326b3484/cirq_ionq-1.4.0.dev20240415214855-py3-none-any.whl
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/62/71/9c4d61cc3ecd93d3be0f46d5b59b56b3110334feb1adbad06acf192ca0dc/cirq_google-1.4.0.dev20240415214855-py3-none-any.whl
+[2024-04-19 09:38:36] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/f7/0a/77627859234150fa57f7649b19d6355f4b26f07c5a369fe00e3cb1e6f28f/lyk-reservation-nowon-0.0.4.tar.gz
+[2024-04-19 09:38:36] INFO root fetch - processPackages [rstgen]: Downloading https://files.pythonhosted.org/packages/f8/0c/485e6072f376158b1dd361c8f838ce3c960fc3a5b8d28938740756c4de40/rstgen-24.3.0.tar.gz
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/5a/d8/cf55b88074d87c0fd943ad23d55df32bbaf618f297a796fb5f996e776531/cirq_ionq-1.4.0.dev20240418165859-py3-none-any.whl
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/db/99/ffa242d17a38aff442900c4cb10e19002aecd835072df18d9e673070a14e/cirq_google-1.4.0.dev20240418165859-py3-none-any.whl
+[2024-04-19 09:38:36] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/07/de/16c72432974777d3c09539c2ab31157bc51d687993b06911054c35375cba/lyk-reservation-nowon-0.0.5.tar.gz
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240415214855-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240418165859-py3-none-any.whl.zip --markdown 20240419/c/cirq-ionq/1.4.0.dev20240415214855-1.4.0.dev20240418165859/README.md --exclude *.pyd
+[2024-04-19 09:38:36] INFO root fetch - processPackages [lyk-reservation-nowon]: executing diffoscope
+[2024-04-19 09:38:36] INFO root fetch - processPackages [lyk-reservation-nowon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyk-reservation-nowon-0.0.4.tar.gz tmp/lyk-reservation-nowon-0.0.5.tar.gz --markdown 20240419/l/lyk-reservation-nowon/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-04-19 09:38:36] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240415214855-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240418165859-py3-none-any.whl.zip --markdown 20240419/c/cirq-google/1.4.0.dev20240415214855-1.4.0.dev20240418165859/README.md --exclude *.pyd
+[2024-04-19 09:38:36] INFO root fetch - processPackages [rstgen]: Downloading https://files.pythonhosted.org/packages/b9/0d/f522d3dff217ed1b5a32f529e480c8e4e02879679816019da899c6db152b/rstgen-24.4.0.tar.gz
+[2024-04-19 09:38:36] INFO root fetch - processPackages [rstgen]: executing diffoscope
+[2024-04-19 09:38:36] INFO root fetch - processPackages [rstgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rstgen-24.3.0.tar.gz tmp/rstgen-24.4.0.tar.gz --markdown 20240419/r/rstgen/24.3.0-24.4.0/README.md --exclude *.pyd
+[2024-04-19 09:38:37] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.4.tar.gz]
+[2024-04-19 09:38:37] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.5.tar.gz]
+[2024-04-19 09:38:37] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon]: success
+[2024-04-19 09:38:37] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240415214855-py3-none-any.whl.zip]
+[2024-04-19 09:38:37] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240418165859-py3-none-any.whl.zip]
+[2024-04-19 09:38:37] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-19 09:38:37] INFO root fetch - processPackages [rstgen]: Remove: archive file [/home/abi/fetcher/tmp/rstgen-24.3.0.tar.gz]
+[2024-04-19 09:38:37] INFO root fetch - processPackages [rstgen]: Remove: archive file [/home/abi/fetcher/tmp/rstgen-24.4.0.tar.gz]
+[2024-04-19 09:38:37] INFO root fetch - main [MainThread]: End processing [rstgen]: success
+[2024-04-19 09:38:37] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240415214855-py3-none-any.whl.zip]
+[2024-04-19 09:38:37] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240418165859-py3-none-any.whl.zip]
+[2024-04-19 09:38:37] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-04-19 09:38:37] INFO root fetch - main [MainThread]: Store serial: [22838117]
