@@ -8915,3 +8915,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:46:21] INFO root fetch - processPackages [bopt-slf]: Remove: archive file [/home/abi/fetcher/tmp/bopt_slf-1.0.2.tar.gz]
 [2024-04-19 05:46:21] INFO root fetch - main [MainThread]: End processing [bopt-slf]: success
 [2024-04-19 05:46:21] INFO root fetch - main [MainThread]: Store serial: [22836246]
+[2024-04-19 05:48:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836246]
+[2024-04-19 05:48:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 05:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mms-client
+[2024-04-19 05:48:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celi-framework
+[2024-04-19 05:48:30] INFO root fetch - processPackages [celi-framework]: New version: [0.0.11] Old Version: [0.0.10]
+[2024-04-19 05:48:30] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/85/30/25a2a777c30e33a4f0abda938b0ddb94aec066d0f7400bbbdc6ddc87ca1b/celi_framework-0.0.10.tar.gz
+[2024-04-19 05:48:30] INFO root fetch - processPackages [mms-client]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-19 05:48:30] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/0d/8f/8137bd550ec48888bf0f083b140ff944fbe04ea213ac6d2a877f9356480a/celi_framework-0.0.11.tar.gz
+[2024-04-19 05:48:30] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/5c/49/08b41c94790ad5fc66958378e2146d652d4a6deed7d600574ac0ab0c3668/mms_client-1.3.1.tar.gz
+[2024-04-19 05:48:30] INFO root fetch - processPackages [celi-framework]: executing diffoscope
+[2024-04-19 05:48:30] INFO root fetch - processPackages [celi-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celi_framework-0.0.10.tar.gz tmp/celi_framework-0.0.11.tar.gz --markdown 20240419/c/celi-framework/0.0.10-0.0.11/README.md --exclude *.pyd
+[2024-04-19 05:48:30] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/05/cc/9a917e61b723699780182234874abacc3c887be8ae5f5b70a500f8f3713a/mms_client-1.4.0.tar.gz
+[2024-04-19 05:48:30] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-19 05:48:30] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.3.1.tar.gz tmp/mms_client-1.4.0.tar.gz --markdown 20240419/m/mms-client/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-19 05:48:31] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.10.tar.gz]
+[2024-04-19 05:48:31] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.11.tar.gz]
+[2024-04-19 05:48:31] INFO root fetch - main [MainThread]: End processing [celi-framework]: success
+[2024-04-19 05:48:31] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.3.1.tar.gz]
+[2024-04-19 05:48:31] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.4.0.tar.gz]
+[2024-04-19 05:48:31] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-19 05:48:31] INFO root fetch - main [MainThread]: Store serial: [22836252]
