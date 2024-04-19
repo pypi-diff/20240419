@@ -14028,3 +14028,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:07:32] INFO root fetch - processPackages [openframe-criteria-set-protocol]: Remove: archive file [/home/abi/fetcher/tmp/openframe_criteria_set_protocol-1.4.4.tar.gz]
 [2024-04-19 10:07:32] INFO root fetch - main [MainThread]: End processing [openframe-criteria-set-protocol]: success
 [2024-04-19 10:07:32] INFO root fetch - main [MainThread]: Store serial: [22838458]
+[2024-04-19 10:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838458]
+[2024-04-19 10:09:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerbogen
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: common-tools-ai-bnq
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: igrafx-mining-sdk
+[2024-04-19 10:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pop-cli
+[2024-04-19 10:09:40] INFO root fetch - processPackages [cerbogen]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 10:09:40] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-19 10:09:40] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.31.2] Old Version: [2.30.0]
+[2024-04-19 10:09:40] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/db/5d/175bc395300caa9a9c031d0c6bf1c197c766a23c19e0643de1ae459daa8f/cerbogen-0.0.7.tar.gz
+[2024-04-19 10:09:40] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240419] Old Version: [0.4.5.dev20240418]
+[2024-04-19 10:09:40] WARNING root fetch - processPackages [common-tools-ai-bnq]: Skipping, unable to determine old version
+[2024-04-19 10:09:40] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq] error
+[2024-04-19 10:09:40] INFO root fetch - processPackages [pop-cli]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-04-19 10:09:40] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/42/d9/4a0fee5030a713077132c34cec4c06c0c4c18ebaf3532c272c8db14e79a7/pyglove-0.4.5.dev20240418.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/12/ec/bfec48fa591576dff92524b17f57335689c8909e66130faaf69a0e05711b/igrafx_mining_sdk-2.30.0.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/23/f6/1020a9d1ef702378e50f91df80c3a74a18c6a75a8538c40f3e2a0ea173df/pop_cli-4.1.0.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/86/2e/c018367a5ad59ea3ce2d869a7cf1c4f98d0f227ddee42c97751e07e813b3/cerbogen-0.0.8.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-19 10:09:41] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240419/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-19 10:09:41] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 10:09:41] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.7.tar.gz tmp/cerbogen-0.0.8.tar.gz --markdown 20240419/c/cerbogen/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 10:09:41] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/65/dd/b67a8938dc1b20060f57710124f6511fce27a80539d5a26ef40b7f15f05a/igrafx_mining_sdk-2.31.2.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/09/dd/45eeeb9e8aa03dc6b31d5ec02625ec1fecf6372363975023e6f8d2347292/pop_cli-4.2.0.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/e5/4b/51b1aaf73cc29628c361b17b48fb673f3387196adebd717bba4081f5534a/pyglove-0.4.5.dev20240419.tar.gz
+[2024-04-19 10:09:41] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2024-04-19 10:09:41] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.30.0.tar.gz tmp/igrafx_mining_sdk-2.31.2.tar.gz --markdown 20240419/i/igrafx-mining-sdk/2.30.0-2.31.2/README.md --exclude *.pyd
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pop-cli]: executing diffoscope
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pop-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_cli-4.1.0.tar.gz tmp/pop_cli-4.2.0.tar.gz --markdown 20240419/p/pop-cli/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-19 10:09:41] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240418.tar.gz tmp/pyglove-0.4.5.dev20240419.tar.gz --markdown 20240419/p/pyglove/0.4.5.dev20240418-0.4.5.dev20240419/README.md --exclude *.pyd
+[2024-04-19 10:09:42] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.7.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.8.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 10:09:42] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-4.1.0.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-4.2.0.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [pop-cli]: success
+[2024-04-19 10:09:42] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.30.0.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.31.2.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2024-04-19 10:09:42] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-19 10:09:42] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240418.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240419.tar.gz]
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-19 10:09:42] INFO root fetch - main [MainThread]: Store serial: [22838477]
