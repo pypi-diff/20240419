@@ -7262,3 +7262,33 @@
 [2024-04-19 03:52:26] INFO root fetch - processPackages [cvxpy-base]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy_base-1.4.3.tar.gz]
 [2024-04-19 03:52:26] INFO root fetch - main [MainThread]: End processing [cvxpy-base]: success
 [2024-04-19 03:52:26] INFO root fetch - main [MainThread]: Store serial: [22835482]
+[2024-04-19 03:54:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835482]
+[2024-04-19 03:54:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: globus-compute-sdk
+[2024-04-19 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: globus-compute-endpoint
+[2024-04-19 03:54:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wikidot
+[2024-04-19 03:54:35] INFO root fetch - processPackages [wikidot]: New version: [3.0.4] Old Version: [3.0.3]
+[2024-04-19 03:54:35] INFO root fetch - processPackages [globus-compute-sdk]: New version: [2.9.0] Old Version: [2.8.0a0]
+[2024-04-19 03:54:35] INFO root fetch - processPackages [globus-compute-endpoint]: New version: [2.9.0] Old Version: [2.8.0a0]
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/21/d5/96c16975721bfb07af856d36dc3019258ef341d846f6120eba8c8b482ac0/globus-compute-sdk-2.8.0a0.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/6e/cf/97c6c687727b0e659e2113f238f04c986f2e5a1d63d317fc78c75c7a58c7/globus-compute-endpoint-2.8.0a0.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/7a/4e/2bf55872189f39a6db955a02d4daf642c11be492d4a2d06e297b2f05210a/wikidot-3.0.3.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/90/a9/cda0334df978d7f57c08fa63129cc04b0767c41337758d842389c0c38b81/wikidot-3.0.4.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-19 03:54:36] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.3.tar.gz tmp/wikidot-3.0.4.tar.gz --markdown 20240419/w/wikidot/3.0.3-3.0.4/README.md --exclude *.pyd
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-sdk]: Downloading https://files.pythonhosted.org/packages/dc/dd/521c1063453ae10771540a4f2e81c45f1a7bb265c9073f3fd115bc134a7c/globus-compute-sdk-2.9.0.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-endpoint]: Downloading https://files.pythonhosted.org/packages/eb/44/02d81689b6904a3a70dc3e3ddb6cc9587a6bbdb93abd00d2d8e19b8e7a93/globus-compute-endpoint-2.9.0.tar.gz
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-sdk]: executing diffoscope
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-sdk-2.8.0a0.tar.gz tmp/globus-compute-sdk-2.9.0.tar.gz --markdown 20240419/g/globus-compute-sdk/2.8.0a0-2.9.0/README.md --exclude *.pyd
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-endpoint]: executing diffoscope
+[2024-04-19 03:54:36] INFO root fetch - processPackages [globus-compute-endpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-compute-endpoint-2.8.0a0.tar.gz tmp/globus-compute-endpoint-2.9.0.tar.gz --markdown 20240419/g/globus-compute-endpoint/2.8.0a0-2.9.0/README.md --exclude *.pyd
+[2024-04-19 03:54:37] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.3.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.4.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-19 03:54:37] INFO root fetch - processPackages [globus-compute-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-endpoint-2.8.0a0.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - processPackages [globus-compute-endpoint]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-endpoint-2.9.0.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - main [MainThread]: End processing [globus-compute-endpoint]: success
+[2024-04-19 03:54:37] INFO root fetch - processPackages [globus-compute-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-sdk-2.8.0a0.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - processPackages [globus-compute-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-sdk-2.9.0.tar.gz]
+[2024-04-19 03:54:37] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
+[2024-04-19 03:54:37] INFO root fetch - main [MainThread]: Store serial: [22835495]
