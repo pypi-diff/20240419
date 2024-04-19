@@ -21216,3 +21216,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:27:53] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.1-py3-none-musllinux_1_2_i686.whl.zip]
 [2024-04-19 14:27:53] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2024-04-19 14:27:53] INFO root fetch - main [MainThread]: Store serial: [22841585]
+[2024-04-19 14:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841585]
+[2024-04-19 14:30:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 14:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antspymm
+[2024-04-19 14:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsp-vis
+[2024-04-19 14:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fapyc
+[2024-04-19 14:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-mailchimp
+[2024-04-19 14:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lddya
+[2024-04-19 14:30:04] INFO root fetch - processPackages [jsp-vis]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-19 14:30:04] INFO root fetch - processPackages [airbyte-source-mailchimp]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-19 14:30:04] INFO root fetch - processPackages [jsp-vis]: Downloading https://files.pythonhosted.org/packages/7e/94/b1dd1dcccf8b59e34ec975fa176b1f6c0c732c191f40a9b9e07908fce92a/jsp_vis-1.0.2.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [antspymm]: New version: [1.3.1] Old Version: [1.2.8]
+[2024-04-19 14:30:04] INFO root fetch - processPackages [lddya]: New version: [4.1.2] Old Version: [4.1.1]
+[2024-04-19 14:30:04] INFO root fetch - processPackages [airbyte-source-mailchimp]: Downloading https://files.pythonhosted.org/packages/c7/ec/0bea84adb581096c68f90718aaa44d1419f59173cf3bfe3163f37d8ffca0/airbyte_source_mailchimp-2.0.0.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/dc/d7/eead7026ce03199f3a66e5f850d1001666eba5d5fffe22677940a677cf87/antspymm-1.2.8.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [lddya]: Downloading https://files.pythonhosted.org/packages/80/1f/afac03ec4b5135d6f9a85622ae4fa4348a42a4e87a18cbae9bb4621f73a2/lddya-4.1.1.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [jsp-vis]: Downloading https://files.pythonhosted.org/packages/96/a6/47537d9fb26e78a903a551efea9a26d3273d597575986ec3b4a4c2120803/jsp_vis-1.0.3.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [fapyc]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-19 14:30:04] INFO root fetch - processPackages [jsp-vis]: executing diffoscope
+[2024-04-19 14:30:04] INFO root fetch - processPackages [jsp-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsp_vis-1.0.2.tar.gz tmp/jsp_vis-1.0.3.tar.gz --markdown 20240419/j/jsp-vis/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-19 14:30:04] ERROR root fetch - processPackages [airbyte-source-mailchimp]: Unable to fetch info: No such project/version 'airbyte-source-mailchimp' 2.0.1
+[2024-04-19 14:30:04] INFO root fetch - main [MainThread]: End processing [airbyte-source-mailchimp] error
+[2024-04-19 14:30:04] INFO root fetch - processPackages [lddya]: Downloading https://files.pythonhosted.org/packages/fb/49/27fc60067e73559fcbe4a9713cc01a7673fc6e27507940d7f75dad105735/lddya-4.1.2.tar.gz
+[2024-04-19 14:30:04] INFO root fetch - processPackages [fapyc]: Downloading https://files.pythonhosted.org/packages/7f/b2/6a0ec403f1b05f0b03f8674222a0be7f5e0a2fe166cd70659f0cd75878c9/fapyc-0.4.0-cp39-cp39-win_amd64.whl
+[2024-04-19 14:30:05] INFO root fetch - processPackages [jsp-vis]: Remove: archive file [/home/abi/fetcher/tmp/jsp_vis-1.0.2.tar.gz]
+[2024-04-19 14:30:05] INFO root fetch - processPackages [jsp-vis]: Remove: archive file [/home/abi/fetcher/tmp/jsp_vis-1.0.3.tar.gz]
+[2024-04-19 14:30:05] INFO root fetch - main [MainThread]: End processing [jsp-vis]: success
+[2024-04-19 14:30:05] INFO root fetch - processPackages [fapyc]: Downloading https://files.pythonhosted.org/packages/b9/4c/e04d3a9e44e8fdf81e3f6af318f0e217c831bbeeac441ba36218e79e53eb/fapyc-0.5.0-cp39-cp39-win_amd64.whl
+[2024-04-19 14:30:05] INFO root fetch - processPackages [lddya]: executing diffoscope
+[2024-04-19 14:30:05] INFO root fetch - processPackages [lddya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lddya-4.1.1.tar.gz tmp/lddya-4.1.2.tar.gz --markdown 20240419/l/lddya/4.1.1-4.1.2/README.md --exclude *.pyd
+[2024-04-19 14:30:05] INFO root fetch - processPackages [antspymm]: Downloading https://files.pythonhosted.org/packages/1d/d1/dc561fd3cbf1379e8eda4b8abb2409b57b4a9480e6051932e4c2d6f829b8/antspymm-1.3.1.tar.gz
+[2024-04-19 14:30:05] INFO root fetch - processPackages [fapyc]: executing diffoscope
+[2024-04-19 14:30:05] INFO root fetch - processPackages [fapyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fapyc-0.4.0-cp39-cp39-win_amd64.whl.zip tmp/fapyc-0.5.0-cp39-cp39-win_amd64.whl.zip --markdown 20240419/f/fapyc/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-19 14:30:05] INFO root fetch - processPackages [lddya]: Remove: archive file [/home/abi/fetcher/tmp/lddya-4.1.1.tar.gz]
+[2024-04-19 14:30:05] INFO root fetch - processPackages [lddya]: Remove: archive file [/home/abi/fetcher/tmp/lddya-4.1.2.tar.gz]
+[2024-04-19 14:30:05] INFO root fetch - main [MainThread]: End processing [lddya]: success
+[2024-04-19 14:30:06] INFO root fetch - processPackages [antspymm]: executing diffoscope
+[2024-04-19 14:30:06] INFO root fetch - processPackages [antspymm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antspymm-1.2.8.tar.gz tmp/antspymm-1.3.1.tar.gz --markdown 20240419/a/antspymm/1.2.8-1.3.1/README.md --exclude *.pyd
+[2024-04-19 14:30:06] INFO root fetch - processPackages [fapyc]: Remove: archive file [/home/abi/fetcher/tmp/fapyc-0.4.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 14:30:06] INFO root fetch - processPackages [fapyc]: Remove: archive file [/home/abi/fetcher/tmp/fapyc-0.5.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 14:30:06] INFO root fetch - main [MainThread]: End processing [fapyc]: success
+[2024-04-19 14:30:13] INFO root fetch - processPackages [antspymm]: Remove: archive file [/home/abi/fetcher/tmp/antspymm-1.2.8.tar.gz]
+[2024-04-19 14:30:13] INFO root fetch - processPackages [antspymm]: Remove: archive file [/home/abi/fetcher/tmp/antspymm-1.3.1.tar.gz]
+[2024-04-19 14:30:13] INFO root fetch - main [MainThread]: End processing [antspymm]: success
+[2024-04-19 14:30:13] INFO root fetch - main [MainThread]: Store serial: [22841629]
