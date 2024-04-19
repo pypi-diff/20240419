@@ -12440,3 +12440,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:05:40] INFO root fetch - processPackages [development-tool]: Remove: archive file [/home/abi/fetcher/tmp/development-tool-0.3.9.tar.gz]
 [2024-04-19 09:05:40] INFO root fetch - main [MainThread]: End processing [development-tool]: success
 [2024-04-19 09:05:40] INFO root fetch - main [MainThread]: Store serial: [22837771]
+[2024-04-19 09:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837771]
+[2024-04-19 09:07:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isar
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelscope-studio
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerbogen
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-moodle
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: th-influx-sdk
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CMDHelperTool
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-hub-nightly
+[2024-04-19 09:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webthing-client
+[2024-04-19 09:07:49] INFO root fetch - processPackages [cerbogen]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [2.1] Old Version: [2.0]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [modelscope-studio]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [my-moodle]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-19 09:07:49] WARNING root fetch - processPackages [lyk-reservation-nowon]: Skipping, unable to determine old version
+[2024-04-19 09:07:49] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon] error
+[2024-04-19 09:07:49] WARNING root fetch - processPackages [CMDHelperTool]: Skipping, unable to determine old version
+[2024-04-19 09:07:49] INFO root fetch - main [MainThread]: End processing [CMDHelperTool] error
+[2024-04-19 09:07:49] WARNING root fetch - processPackages [th-influx-sdk]: Skipping, unable to determine old version
+[2024-04-19 09:07:49] INFO root fetch - main [MainThread]: End processing [th-influx-sdk] error
+[2024-04-19 09:07:49] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/2e/85/6196a0fc698590ebbd7c8128d3a206e5470dd5686118d778c973b731dfe4/nonebot-plugin-yinying-chat-2.0.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/ba/11/339585d5f7301cbd10ee9261e6f7a4a174450ace42e5b5ca60574f56c97b/cerbogen-0.0.3.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [webthing-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 09:07:49] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-19 09:07:49] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/a6/6a/a16793e05bd8f398db371414f86f57bdbff9a6e47dbb93bb43fc83f55a2f/modelscope_studio-0.2.0.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [my-moodle]: Downloading https://files.pythonhosted.org/packages/7f/2d/17919e64fcbe086b21e7939b176028f07451259fb09e05885d2ec418abef/my-moodle-0.4.4.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2024-04-19 09:07:49] WARNING root fetch - processPackages [modelscope-studio]: Skipping package: exceeds size limit 10886731>=10485760
+[2024-04-19 09:07:49] INFO root fetch - main [MainThread]: End processing [modelscope-studio] error
+[2024-04-19 09:07:49] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/21/ff/e965a1a9bd6f4d57cdb0cd64171a33e930dbd432436e884d5246dc790bf2/nonebot-plugin-yinying-chat-2.1.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-19 09:07:49] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/b8/54/11fb820efdf9a6fed9511a609ff835f0c96684a3cb07a9c89e2cfe060e9b/cerbogen-0.0.4.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/21/a4/d8640c8ecd138165058b2419a24b79fdf6268b5e41686afe0cc6b1f83c01/webthing_client-0.2.8.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-19 09:07:49] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240419/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-19 09:07:49] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: executing diffoscope
+[2024-04-19 09:07:49] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-yinying-chat-2.0.tar.gz tmp/nonebot-plugin-yinying-chat-2.1.tar.gz --markdown 20240419/n/nonebot-plugin-yinying-chat/2.0-2.1/README.md --exclude *.pyd
+[2024-04-19 09:07:49] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 09:07:49] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.3.tar.gz tmp/cerbogen-0.0.4.tar.gz --markdown 20240419/c/cerbogen/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 09:07:49] INFO root fetch - processPackages [my-moodle]: Downloading https://files.pythonhosted.org/packages/e2/23/6645aa4340a0f60dc36c002a7c36e4968c65736cb3ed591f61f599d47d98/my_moodle-0.4.5.tar.gz
+[2024-04-19 09:07:49] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2024-04-19 09:07:50] INFO root fetch - processPackages [my-moodle]: executing diffoscope
+[2024-04-19 09:07:50] INFO root fetch - processPackages [my-moodle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my-moodle-0.4.4.tar.gz tmp/my_moodle-0.4.5.tar.gz --markdown 20240419/m/my-moodle/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-19 09:07:50] INFO root fetch - processPackages [webthing-client]: Downloading https://files.pythonhosted.org/packages/ac/3d/39e1cb251947a305e1b12a9f9801f3c7d9d3380edc79c2305d02d26eb182/webthing_client-0.2.9.tar.gz
+[2024-04-19 09:07:50] INFO root fetch - processPackages [isar]: executing diffoscope
+[2024-04-19 09:07:50] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20240419/i/isar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-19 09:07:50] INFO root fetch - processPackages [webthing-client]: executing diffoscope
+[2024-04-19 09:07:50] INFO root fetch - processPackages [webthing-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webthing_client-0.2.8.tar.gz tmp/webthing_client-0.2.9.tar.gz --markdown 20240419/w/webthing-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 09:07:50] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.0.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.1.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat]: success
+[2024-04-19 09:07:50] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-19 09:07:50] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-19 09:07:50] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-19 09:07:50] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.3.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.4.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 09:07:50] INFO root fetch - processPackages [my-moodle]: Remove: archive file [/home/abi/fetcher/tmp/my-moodle-0.4.4.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - processPackages [my-moodle]: Remove: archive file [/home/abi/fetcher/tmp/my_moodle-0.4.5.tar.gz]
+[2024-04-19 09:07:50] INFO root fetch - main [MainThread]: End processing [my-moodle]: success
+[2024-04-19 09:07:51] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.8.tar.gz]
+[2024-04-19 09:07:51] INFO root fetch - processPackages [webthing-client]: Remove: archive file [/home/abi/fetcher/tmp/webthing_client-0.2.9.tar.gz]
+[2024-04-19 09:07:51] INFO root fetch - main [MainThread]: End processing [webthing-client]: success
+[2024-04-19 09:07:51] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2024-04-19 09:07:51] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2024-04-19 09:07:51] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2024-04-19 09:07:51] INFO root fetch - main [MainThread]: Store serial: [22837809]
