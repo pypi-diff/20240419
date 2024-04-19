@@ -22125,3 +22125,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:05:39] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-04-19 15:05:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-04-19 15:05:40] INFO root fetch - main [MainThread]: Store serial: [22842054]
+[2024-04-19 15:07:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842054]
+[2024-04-19 15:07:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virgo-modules
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-observe
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ariadne-graphql-proxy
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hectiq-console
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuxictr
+[2024-04-19 15:07:49] WARNING root fetch - processPackages [django-observe]: Skipping, unable to determine old version
+[2024-04-19 15:07:49] INFO root fetch - main [MainThread]: End processing [django-observe] error
+[2024-04-19 15:07:49] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.80] Old Version: [0.0.79]
+[2024-04-19 15:07:49] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/66/4c/945e4cb8967af9e63993d489d00238ebe7605bc8200de6bbff1689b0eba8/virgo_modules-0.0.79.tar.gz
+[2024-04-19 15:07:49] INFO root fetch - processPackages [hectiq-console]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-19 15:07:49] INFO root fetch - processPackages [fuxictr]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-04-19 15:07:49] INFO root fetch - processPackages [ariadne-graphql-proxy]: New version: [0.4.0.dev1] Old Version: [0.3.0]
+[2024-04-19 15:07:50] INFO root fetch - processPackages [hectiq-console]: Downloading https://files.pythonhosted.org/packages/46/49/8b66819f609f2c53ef531a5cfb87e2dd950ca9122664e754e1d36c366c52/hectiq_console-1.2.1.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [ariadne-graphql-proxy]: Downloading https://files.pythonhosted.org/packages/dd/f8/53a8aee4b93fdb9bb58df217fc66c6bcdfe008bbc28e7cc60c0f9c20f83f/ariadne_graphql_proxy-0.3.0.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/d7/65/3a17712018bcf461ef4504c391627b3b768e15a0028af7ea40dadcb519c9/virgo_modules-0.0.80.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-04-19 15:07:50] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.79.tar.gz tmp/virgo_modules-0.0.80.tar.gz --markdown 20240419/v/virgo-modules/0.0.79-0.0.80/README.md --exclude *.pyd
+[2024-04-19 15:07:50] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/08/46/84b9ae45ef869d23ecb5d7724c105a8f16fa6fa7996f79247c1cd2835753/fuxictr-2.2.2.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [hectiq-console]: Downloading https://files.pythonhosted.org/packages/ca/db/660eb0d9761a700af04483c9347bd1b64486d3127e447ca37fb265734c05/hectiq_console-1.2.2.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [ariadne-graphql-proxy]: Downloading https://files.pythonhosted.org/packages/97/0c/eb8209f23c5055ec427a720bc03ea283477df43e1fc4a21531d1ef8d4715/ariadne_graphql_proxy-0.4.0.dev1.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [hectiq-console]: executing diffoscope
+[2024-04-19 15:07:50] INFO root fetch - processPackages [hectiq-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hectiq_console-1.2.1.tar.gz tmp/hectiq_console-1.2.2.tar.gz --markdown 20240419/h/hectiq-console/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-19 15:07:50] INFO root fetch - processPackages [ariadne-graphql-proxy]: executing diffoscope
+[2024-04-19 15:07:50] INFO root fetch - processPackages [ariadne-graphql-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariadne_graphql_proxy-0.3.0.tar.gz tmp/ariadne_graphql_proxy-0.4.0.dev1.tar.gz --markdown 20240419/a/ariadne-graphql-proxy/0.3.0-0.4.0.dev1/README.md --exclude *.pyd
+[2024-04-19 15:07:50] INFO root fetch - processPackages [fuxictr]: Downloading https://files.pythonhosted.org/packages/4e/ce/315d6b193b8ac08f5dda0627c7066c77d1ce58e2884ebb8d17111846ace2/fuxictr-2.2.3.tar.gz
+[2024-04-19 15:07:50] INFO root fetch - processPackages [fuxictr]: executing diffoscope
+[2024-04-19 15:07:50] INFO root fetch - processPackages [fuxictr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuxictr-2.2.2.tar.gz tmp/fuxictr-2.2.3.tar.gz --markdown 20240419/f/fuxictr/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-04-19 15:07:50] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.79.tar.gz]
+[2024-04-19 15:07:50] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.80.tar.gz]
+[2024-04-19 15:07:50] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-04-19 15:07:51] INFO root fetch - processPackages [hectiq-console]: Remove: archive file [/home/abi/fetcher/tmp/hectiq_console-1.2.1.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - processPackages [hectiq-console]: Remove: archive file [/home/abi/fetcher/tmp/hectiq_console-1.2.2.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - main [MainThread]: End processing [hectiq-console]: success
+[2024-04-19 15:07:51] INFO root fetch - processPackages [ariadne-graphql-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ariadne_graphql_proxy-0.3.0.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - processPackages [ariadne-graphql-proxy]: Remove: archive file [/home/abi/fetcher/tmp/ariadne_graphql_proxy-0.4.0.dev1.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - main [MainThread]: End processing [ariadne-graphql-proxy]: success
+[2024-04-19 15:07:51] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.2.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - processPackages [fuxictr]: Remove: archive file [/home/abi/fetcher/tmp/fuxictr-2.2.3.tar.gz]
+[2024-04-19 15:07:51] INFO root fetch - main [MainThread]: End processing [fuxictr]: success
+[2024-04-19 15:07:51] INFO root fetch - main [MainThread]: Store serial: [22842069]
