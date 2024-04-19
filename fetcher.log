@@ -8478,3 +8478,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:15:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
 [2024-04-19 05:15:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
 [2024-04-19 05:15:44] INFO root fetch - main [MainThread]: Store serial: [22836082]
+[2024-04-19 05:17:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836082]
+[2024-04-19 05:17:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pj-basic-operations
+[2024-04-19 05:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-gitlab
+[2024-04-19 05:17:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2024-04-19 05:17:53] INFO root fetch - processPackages [vector-vault]: New version: [4.4.5.1] Old Version: [4.4.5]
+[2024-04-19 05:17:53] WARNING root fetch - processPackages [pj-basic-operations]: Skipping, unable to determine old version
+[2024-04-19 05:17:53] INFO root fetch - main [MainThread]: End processing [pj-basic-operations] error
+[2024-04-19 05:17:53] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/41/5b/9732d5ebdbeea3b72c7985ea1770221f7f2eea7c78e1984460f28c43a4a0/vector_vault-4.4.5.tar.gz
+[2024-04-19 05:17:53] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-19 05:17:54] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/88/e3/60d57c9fcc6102776e3bd7723e13c3a6b8d821c384c69321757a4b4ae436/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz
+[2024-04-19 05:17:54] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/83/eb/93cd69f7461b570d927a7bf55595213ba4882aebd7b0d1b91c494b7620b2/vector_vault-4.4.5.1.tar.gz
+[2024-04-19 05:17:54] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-19 05:17:54] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.5.tar.gz tmp/vector_vault-4.4.5.1.tar.gz --markdown 20240419/v/vector-vault/4.4.5-4.4.5.1/README.md --exclude *.pyd
+[2024-04-19 05:17:54] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Downloading https://files.pythonhosted.org/packages/8b/9d/1ba307dd4c9978f8b899414eee43fe5983451d720258ca0469a1ab1593ea/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz
+[2024-04-19 05:17:54] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: executing diffoscope
+[2024-04-19 05:17:54] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz tmp/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz --markdown 20240419/c/cdktf-cdktf-provider-gitlab/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-19 05:17:54] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.tar.gz]
+[2024-04-19 05:17:54] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.1.tar.gz]
+[2024-04-19 05:17:54] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-19 05:17:57] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.2.tar.gz]
+[2024-04-19 05:17:57] INFO root fetch - processPackages [cdktf-cdktf-provider-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-gitlab-9.0.3.tar.gz]
+[2024-04-19 05:17:57] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-gitlab]: success
+[2024-04-19 05:17:57] INFO root fetch - main [MainThread]: Store serial: [22836093]
