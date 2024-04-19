@@ -10704,3 +10704,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:43:50] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.3rc1-py2.py3-none-any.whl.zip]
 [2024-04-19 07:43:50] INFO root fetch - main [MainThread]: End processing [cioblender]: success
 [2024-04-19 07:43:50] INFO root fetch - main [MainThread]: Store serial: [22837021]
+[2024-04-19 07:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837021]
+[2024-04-19 07:45:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-toolkit
+[2024-04-19 07:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AminoService
+[2024-04-19 07:45:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-us
+[2024-04-19 07:45:58] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 07:45:58] INFO root fetch - processPackages [policyengine-us]: New version: [0.742.2] Old Version: [0.742.1]
+[2024-04-19 07:45:58] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-19 07:45:58] WARNING root fetch - processPackages [AminoService]: Skipping, unable to determine old version
+[2024-04-19 07:45:58] INFO root fetch - main [MainThread]: End processing [AminoService] error
+[2024-04-19 07:45:58] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/b5/27/eacfac441b58a6edaeedb2de072ac30cf484733d61d9d81465d1735a0aa4/policyengine-us-0.742.1.tar.gz
+[2024-04-19 07:45:59] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-19 07:45:59] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-19 07:45:59] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240419/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 07:45:59] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/5b/04/bd268cc561ad034b09281ea8e27d57802d1ed65957c44c6531e057cbe4f7/policyengine-us-0.742.2.tar.gz
+[2024-04-19 07:45:59] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-19 07:45:59] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.742.1.tar.gz tmp/policyengine-us-0.742.2.tar.gz --markdown 20240419/p/policyengine-us/0.742.1-0.742.2/README.md --exclude *.pyd
+[2024-04-19 07:45:59] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-19 07:45:59] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-19 07:45:59] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-19 07:46:31] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.1.tar.gz]
+[2024-04-19 07:46:31] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.2.tar.gz]
+[2024-04-19 07:46:31] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-19 07:46:31] INFO root fetch - main [MainThread]: Store serial: [22837031]
