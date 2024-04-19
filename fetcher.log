@@ -10153,3 +10153,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:13:36] INFO root fetch - processPackages [alibabacloud-emr20210320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320-1.6.0.tar.gz]
 [2024-04-19 07:13:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr20210320]: success
 [2024-04-19 07:13:36] INFO root fetch - main [MainThread]: Store serial: [22836830]
+[2024-04-19 07:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836830]
+[2024-04-19 07:15:44] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 07:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836830]
+[2024-04-19 07:17:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-pms
+[2024-04-19 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-04-19 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esanom
+[2024-04-19 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batou
+[2024-04-19 07:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CachedFileDic
+[2024-04-19 07:17:50] INFO root fetch - processPackages [esanom]: New version: [0.7.12.7720] Old Version: [0.7.12.11]
+[2024-04-19 07:17:50] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-04-19 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-04-19 07:17:50] INFO root fetch - processPackages [CachedFileDic]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 07:17:50] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/c8/bd/b1ed26042c7f5b6af747a39c702c093c1e8b28104d15a994f6dd6e7ca537/esanom-0.7.12.11.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [batou]: New version: [2.5.0b1] Old Version: [2.4rc2]
+[2024-04-19 07:17:50] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-04-19 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/8f/2a/ade56e3548dcb52fdb2a3946062008182cba4174ac011dd89713bc8e4be4/CachedFileDic-0.2.0.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/cd/12/babea27ada79027810267909df58f0fbc115bb85bdd3cb5c818243c7a483/batou-2.4rc2.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-04-19 07:17:50] INFO root fetch - processPackages [esanom]: Downloading https://files.pythonhosted.org/packages/84/2b/51a110c36d393c9656d4dcd946ebcf394c44b36ec29d808e3eb9114480a9/esanom-0.7.12.7720.tar.gz
+[2024-04-19 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-04-19 07:17:50] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240419/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-04-19 07:17:50] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-04-19 07:17:50] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-04-19 07:17:51] INFO root fetch - processPackages [CachedFileDic]: Downloading https://files.pythonhosted.org/packages/5f/5e/920bbbdc22f10e07d3acbbcc7b1c249d9967e26947d81d727e253960b8f1/CachedFileDic-0.2.1.tar.gz
+[2024-04-19 07:17:51] INFO root fetch - processPackages [esanom]: executing diffoscope
+[2024-04-19 07:17:51] INFO root fetch - processPackages [esanom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanom-0.7.12.11.tar.gz tmp/esanom-0.7.12.7720.tar.gz --markdown 20240419/e/esanom/0.7.12.11-0.7.12.7720/README.md --exclude *.pyd
+[2024-04-19 07:17:51] INFO root fetch - processPackages [batou]: Downloading https://files.pythonhosted.org/packages/a4/9c/7e4b87ba46edb6428e8684909e85dec8394270db62f813857529be30a1cb/batou-2.5.0b1.tar.gz
+[2024-04-19 07:17:51] INFO root fetch - processPackages [CachedFileDic]: executing diffoscope
+[2024-04-19 07:17:51] INFO root fetch - processPackages [CachedFileDic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CachedFileDic-0.2.0.tar.gz tmp/CachedFileDic-0.2.1.tar.gz --markdown 20240419/C/CachedFileDic/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 07:17:51] INFO root fetch - processPackages [batou]: executing diffoscope
+[2024-04-19 07:17:51] INFO root fetch - processPackages [batou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batou-2.4rc2.tar.gz tmp/batou-2.5.0b1.tar.gz --markdown 20240419/b/batou/2.4rc2-2.5.0b1/README.md --exclude *.pyd
+[2024-04-19 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-04-19 07:17:51] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-04-19 07:17:51] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-04-19 07:17:51] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.2.0.tar.gz]
+[2024-04-19 07:17:51] INFO root fetch - processPackages [CachedFileDic]: Remove: archive file [/home/abi/fetcher/tmp/CachedFileDic-0.2.1.tar.gz]
+[2024-04-19 07:17:51] INFO root fetch - main [MainThread]: End processing [CachedFileDic]: success
+[2024-04-19 07:17:52] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-04-19 07:17:52] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-04-19 07:17:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-04-19 07:17:52] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-0.7.12.11.tar.gz]
+[2024-04-19 07:17:52] INFO root fetch - processPackages [esanom]: Remove: archive file [/home/abi/fetcher/tmp/esanom-0.7.12.7720.tar.gz]
+[2024-04-19 07:17:52] INFO root fetch - main [MainThread]: End processing [esanom]: success
+[2024-04-19 07:17:52] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.4rc2.tar.gz]
+[2024-04-19 07:17:52] INFO root fetch - processPackages [batou]: Remove: archive file [/home/abi/fetcher/tmp/batou-2.5.0b1.tar.gz]
+[2024-04-19 07:17:52] INFO root fetch - main [MainThread]: End processing [batou]: success
+[2024-04-19 07:17:52] INFO root fetch - main [MainThread]: Store serial: [22836844]
