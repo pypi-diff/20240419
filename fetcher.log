@@ -10093,3 +10093,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:11:25] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-04-19 07:11:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-19 07:11:25] INFO root fetch - main [MainThread]: Store serial: [22836809]
+[2024-04-19 07:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836809]
+[2024-04-19 07:13:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edstem-assignment-tracker
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat3ra-api-examples
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aporacle
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reprompt
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quakeflow-io
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-emr20210320
+[2024-04-19 07:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sponge
+[2024-04-19 07:13:34] INFO root fetch - processPackages [edstem-assignment-tracker]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [alibabacloud-emr20210320]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [reprompt]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/35/35/dd0ea8ce58fe2f0803e06caf33426fae7e9b307f227beae450f331d4babe/edstem_assignment_tracker-1.0.4.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [alibabacloud-emr20210320]: Downloading https://files.pythonhosted.org/packages/6e/69/c21aceb5bd8b7bb53b8de2058bbce5b0c07740a7b3379e922a8c96fe90c4/alibabacloud_emr20210320-1.5.0.tar.gz
+[2024-04-19 07:13:34] WARNING root fetch - processPackages [quakeflow-io]: Skipping, unable to determine old version
+[2024-04-19 07:13:34] INFO root fetch - main [MainThread]: End processing [quakeflow-io] error
+[2024-04-19 07:13:34] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/51/75/0a5953c220e44b6ed7b16a42cfd4382a4a17701e23e01455f0d201247bbf/reprompt-0.0.7.4.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [mat3ra-api-examples]: New version: [2024.4.3.post0] Old Version: [2024.4.19.post0]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [sponge]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [aporacle]: New version: [0.0.135] Old Version: [0.0.134]
+[2024-04-19 07:13:34] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/62/31/dfd1fe5ec9c848b271fef8ace31d466f54341d39fbf1ac06d649feb5da6d/mat3ra_api_examples-2024.4.19.post0.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/e4/87/5b438c5c7efa0032e4f910ab64a0c76339554e0613b81445604942728a7c/aporacle-0.0.134.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [sponge]: Downloading https://files.pythonhosted.org/packages/cf/92/ce14834e2450432f1b99f887731e4b8446e367f831182c2be4889154f0a5/sponge-0.0.5.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/d0/26/349ee86ce4608b10d739b4ca29061df664370b08c5b74b12c6e7e5fabead/edstem_assignment_tracker-1.0.5.tar.gz
+[2024-04-19 07:13:34] INFO root fetch - processPackages [reprompt]: Downloading https://files.pythonhosted.org/packages/61/c2/ace108f4f7566ce287a7670cd02d911430ed489456333fd1d6b391fc427e/reprompt-0.0.7.5.tar.gz
+[2024-04-19 07:13:35] INFO root fetch - processPackages [alibabacloud-emr20210320]: Downloading https://files.pythonhosted.org/packages/2a/52/dadd33df3d4feb8b82c9e0cebff9931fb3c6de6e10cc7fb386e114bfdb8a/alibabacloud_emr20210320-1.6.0.tar.gz
+[2024-04-19 07:13:35] INFO root fetch - processPackages [reprompt]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [reprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprompt-0.0.7.4.tar.gz tmp/reprompt-0.0.7.5.tar.gz --markdown 20240419/r/reprompt/0.0.7.4-0.0.7.5/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [edstem-assignment-tracker]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [edstem-assignment-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edstem_assignment_tracker-1.0.4.tar.gz tmp/edstem_assignment_tracker-1.0.5.tar.gz --markdown 20240419/e/edstem-assignment-tracker/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [alibabacloud-emr20210320]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [alibabacloud-emr20210320]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_emr20210320-1.5.0.tar.gz tmp/alibabacloud_emr20210320-1.6.0.tar.gz --markdown 20240419/a/alibabacloud-emr20210320/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/23/b5/fe8294247b970ecfe29999b4c06284d2d96ee45a963da003757a1f23f78a/aporacle-0.0.135.tar.gz
+[2024-04-19 07:13:35] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/75/8d/ef0a8a8f914d23ef2b456f41353e09aa0902a323cafb0b30850266a5067f/mat3ra-api-examples-2024.4.3.post0.tar.gz
+[2024-04-19 07:13:35] INFO root fetch - processPackages [sponge]: Downloading https://files.pythonhosted.org/packages/34/9c/30215818bd1347a9f2b90f1fa2c26683584af231ad96fc91b7ec282ce750/sponge-0.0.6.tar.gz
+[2024-04-19 07:13:35] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.134.tar.gz tmp/aporacle-0.0.135.tar.gz --markdown 20240419/a/aporacle/0.0.134-0.0.135/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [mat3ra-api-examples]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [mat3ra-api-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra_api_examples-2024.4.19.post0.tar.gz tmp/mat3ra-api-examples-2024.4.3.post0.tar.gz --markdown 20240419/m/mat3ra-api-examples/2024.4.19.post0-2024.4.3.post0/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [sponge]: executing diffoscope
+[2024-04-19 07:13:35] INFO root fetch - processPackages [sponge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sponge-0.0.5.tar.gz tmp/sponge-0.0.6.tar.gz --markdown 20240419/s/sponge/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 07:13:35] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.4.tar.gz]
+[2024-04-19 07:13:35] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.5.tar.gz]
+[2024-04-19 07:13:35] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker]: success
+[2024-04-19 07:13:35] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.4.tar.gz]
+[2024-04-19 07:13:35] INFO root fetch - processPackages [reprompt]: Remove: archive file [/home/abi/fetcher/tmp/reprompt-0.0.7.5.tar.gz]
+[2024-04-19 07:13:35] INFO root fetch - main [MainThread]: End processing [reprompt]: success
+[2024-04-19 07:13:36] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.134.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.135.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-19 07:13:36] INFO root fetch - processPackages [sponge]: Remove: archive file [/home/abi/fetcher/tmp/sponge-0.0.5.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - processPackages [sponge]: Remove: archive file [/home/abi/fetcher/tmp/sponge-0.0.6.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - main [MainThread]: End processing [sponge]: success
+[2024-04-19 07:13:36] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra_api_examples-2024.4.19.post0.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-api-examples-2024.4.3.post0.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - main [MainThread]: End processing [mat3ra-api-examples]: success
+[2024-04-19 07:13:36] INFO root fetch - processPackages [alibabacloud-emr20210320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320-1.5.0.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - processPackages [alibabacloud-emr20210320]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320-1.6.0.tar.gz]
+[2024-04-19 07:13:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr20210320]: success
+[2024-04-19 07:13:36] INFO root fetch - main [MainThread]: Store serial: [22836830]
