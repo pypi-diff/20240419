@@ -7136,3 +7136,15 @@
 [2024-04-19 03:41:28] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.0a1.tar.gz]
 [2024-04-19 03:41:28] INFO root fetch - main [MainThread]: End processing [gd_excelexporter]: success
 [2024-04-19 03:41:28] INFO root fetch - main [MainThread]: Store serial: [22835444]
+[2024-04-19 03:43:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835444]
+[2024-04-19 03:43:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 03:43:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-databases
+[2024-04-19 03:43:37] INFO root fetch - processPackages [pytest-databases]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-19 03:43:37] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/06/73/aa45092e6f41a8138f0c50e8aad025c7a52ad465c7eafecfaed01f9ce30e/pytest_databases-0.3.1.tar.gz
+[2024-04-19 03:43:37] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/9f/d3/f5fdf68151d10be6243de3b2321f1c06a4f54fc667599a0af288ee7329bc/pytest_databases-0.4.0.tar.gz
+[2024-04-19 03:43:37] INFO root fetch - processPackages [pytest-databases]: executing diffoscope
+[2024-04-19 03:43:37] INFO root fetch - processPackages [pytest-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_databases-0.3.1.tar.gz tmp/pytest_databases-0.4.0.tar.gz --markdown 20240419/p/pytest-databases/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-19 03:43:38] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.3.1.tar.gz]
+[2024-04-19 03:43:38] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.4.0.tar.gz]
+[2024-04-19 03:43:38] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
+[2024-04-19 03:43:38] INFO root fetch - main [MainThread]: Store serial: [22835447]
