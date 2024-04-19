@@ -9460,3 +9460,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:25:42] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
 [2024-04-19 06:25:42] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-04-19 06:25:42] INFO root fetch - main [MainThread]: Store serial: [22836525]
+[2024-04-19 06:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836525]
+[2024-04-19 06:27:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: talkytrend
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: student-esm
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-it-delivery-note
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-identity
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iamlistening
+[2024-04-19 06:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cefi
+[2024-04-19 06:27:51] INFO root fetch - processPackages [talkytrend]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-19 06:27:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: New version: [14.0.3.4.0] Old Version: [14.0.3.3.3]
+[2024-04-19 06:27:51] INFO root fetch - processPackages [iamlistening]: New version: [5.1.8] Old Version: [5.1.7]
+[2024-04-19 06:27:51] INFO root fetch - processPackages [cefi]: New version: [4.6.3] Old Version: [4.6.2]
+[2024-04-19 06:27:51] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-19 06:27:51] WARNING root fetch - processPackages [student-esm]: Skipping, unable to determine old version
+[2024-04-19 06:27:51] INFO root fetch - main [MainThread]: End processing [student-esm] error
+[2024-04-19 06:27:51] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/ea/1a/d04f1433816847e928b17d9e6c0e90e8459f488952009fe839e87a89d7fa/talkytrend-2.0.8.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/76/d6/4655df9290cc15052ce8f3c2193737ec3f5479ca422966f1e87779e23f72/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl
+[2024-04-19 06:27:51] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/2f/d8/a078e3b96e1ca03c46adafd81c4f50332251146d3a228f204a83d1d24690/iamlistening-5.1.7.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/dc/b8/b5f8b2909c059838107f83120782abf919297bfdb1115f04282de8948336/cefi-4.6.2.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/a8/ac/85c2085482e8605071233f8932cefc380144eddfe79bd52977eb45970c7f/talkytrend-2.0.9.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/dc/df/4357006f779dd4c56feb9de0a967a764102b820af336d26d7356e232c3d9/cefi-4.6.3.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/eb/72/03b6ebe97ebde0c8640fecadd172903c0238aac8dd274cf1fc6bd3e1519b/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl
+[2024-04-19 06:27:51] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/07/a4/ba0689d7ba373ab01bee30148890982c66aebce125bf4cb4463c1279f1c8/iamlistening-5.1.8.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-19 06:27:51] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2024-04-19 06:27:51] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-2.0.8.tar.gz tmp/talkytrend-2.0.9.tar.gz --markdown 20240419/t/talkytrend/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-19 06:27:51] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-19 06:27:51] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.6.2.tar.gz tmp/cefi-4.6.3.tar.gz --markdown 20240419/c/cefi/4.6.2-4.6.3/README.md --exclude *.pyd
+[2024-04-19 06:27:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: executing diffoscope
+[2024-04-19 06:27:51] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-l10n-it-delivery-note/14.0.3.3.3-14.0.3.4.0/README.md --exclude *.pyd
+[2024-04-19 06:27:51] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2024-04-19 06:27:51] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-5.1.7.tar.gz tmp/iamlistening-5.1.8.tar.gz --markdown 20240419/i/iamlistening/5.1.7-5.1.8/README.md --exclude *.pyd
+[2024-04-19 06:27:51] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-19 06:27:51] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240419/s/spaceone-identity/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-04-19 06:27:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.8.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-2.0.9.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2024-04-19 06:27:52] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.2.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.3.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-19 06:27:52] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.7.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-5.1.8.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2024-04-19 06:27:52] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.3.3-py3-none-any.whl.zip]
+[2024-04-19 06:27:52] INFO root fetch - processPackages [odoo14-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_delivery_note-14.0.3.4.0-py3-none-any.whl.zip]
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-delivery-note]: success
+[2024-04-19 06:27:52] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-19 06:27:52] INFO root fetch - main [MainThread]: Store serial: [22836544]
