@@ -21744,3 +21744,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:48:07] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
 [2024-04-19 14:48:07] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-04-19 14:48:07] INFO root fetch - main [MainThread]: Store serial: [22841898]
+[2024-04-19 14:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841898]
+[2024-04-19 14:50:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tuduam
+[2024-04-19 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-table-of-figures
+[2024-04-19 14:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt-trans
+[2024-04-19 14:50:17] WARNING root fetch - processPackages [gpt-trans]: Skipping, unable to determine old version
+[2024-04-19 14:50:17] INFO root fetch - main [MainThread]: End processing [gpt-trans] error
+[2024-04-19 14:50:17] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/74/76/5ad3eb864ba4ac8ab881bf07bd9729866bc97e0a9b9288c287d1a4a14d25/mkdocs-table-of-figures-0.1.7.tar.gz
+[2024-04-19 14:50:18] INFO root fetch - processPackages [tuduam]: New version: [2024.9] Old Version: [2024.8]
+[2024-04-19 14:50:18] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/ed/ee/0b2f04fe8cf7fa064aeb0eba649f0aaf41827aa73cd435fc42e02f13c31f/tuduam-2024.8-py3-none-any.whl
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/2e/24/fd71b93a0cb5f4a2b31546199a362e49f2809974dec4948b86551961373b/mkdocs-table-of-figures-0.2.0.tar.gz
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.1.7.tar.gz tmp/mkdocs-table-of-figures-0.2.0.tar.gz --markdown 20240419/m/mkdocs-table-of-figures/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-04-19 14:50:18] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/77/55/526cb4fec559195c211ec25dc0334250a59d9199e28b604ea45ae0a3c85d/tuduam-2024.9-py3-none-any.whl
+[2024-04-19 14:50:18] INFO root fetch - processPackages [tuduam]: executing diffoscope
+[2024-04-19 14:50:18] INFO root fetch - processPackages [tuduam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuduam-2024.8-py3-none-any.whl.zip tmp/tuduam-2024.9-py3-none-any.whl.zip --markdown 20240419/t/tuduam/2024.8-2024.9/README.md --exclude *.pyd
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.1.7.tar.gz]
+[2024-04-19 14:50:18] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.2.0.tar.gz]
+[2024-04-19 14:50:18] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-19 14:50:19] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.8-py3-none-any.whl.zip]
+[2024-04-19 14:50:19] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.9-py3-none-any.whl.zip]
+[2024-04-19 14:50:19] INFO root fetch - main [MainThread]: End processing [tuduam]: success
+[2024-04-19 14:50:19] INFO root fetch - main [MainThread]: Store serial: [22841908]
