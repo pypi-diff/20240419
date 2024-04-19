@@ -21434,3 +21434,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:37:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1500-py3-none-any.whl.zip]
 [2024-04-19 14:37:07] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-19 14:37:07] INFO root fetch - main [MainThread]: Store serial: [22841691]
+[2024-04-19 14:39:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841691]
+[2024-04-19 14:39:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragons96-tools
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virgo-modules
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-kubernetes
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3i
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deltafi
+[2024-04-19 14:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yellowdog-python-examples
+[2024-04-19 14:39:16] INFO root fetch - processPackages [s3i]: New version: [0.7.0] Old Version: [0.6.8]
+[2024-04-19 14:39:16] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.80] Old Version: [0.0.79]
+[2024-04-19 14:39:16] INFO root fetch - processPackages [deltafi]: New version: [2.0rc1713530263087] Old Version: [2.0rc1712763708188]
+[2024-04-19 14:39:16] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.8.6] Old Version: [7.8.5]
+[2024-04-19 14:39:16] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 14:39:16] INFO root fetch - processPackages [dask-kubernetes]: New version: [2024.4.1] Old Version: [2024.4.0]
+[2024-04-19 14:39:17] INFO root fetch - processPackages [s3i]: Downloading https://files.pythonhosted.org/packages/47/72/f6dbb88e063e4a61f819efc0d52289d66eced4f1df43e236f8e3eda63307/s3i-0.6.8-py3-none-any.whl
+[2024-04-19 14:39:17] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/66/4c/945e4cb8967af9e63993d489d00238ebe7605bc8200de6bbff1689b0eba8/virgo_modules-0.0.79.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/08/00/5d44172c3324b020e8aa6fb67d6b8dcccacbd8fa277faf8c760c6df586e2/deltafi-2.0rc1712763708188.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/49/7d/e3f1f5d057a06d8b66fd859353aede9403a843a82fd893cd5cf03710880f/dask-kubernetes-2024.4.0.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ef/81/25cec780e4bfb1bd6fd09d886c68b35421b2e72de5323d3de8dd22a2cb27/yellowdog_python_examples-7.8.5.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/cd/0c/b0eebb280bb6b2feb00b4f345ac2af4d8c2fa79f7fa9432af3319bd7598c/deltafi-2.0rc1713530263087.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/d8/8b/13a7c9fe3158ddf039507fa12a4564b8192b595575812ecad08cb4256022/dask-kubernetes-2024.4.1.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ec/3d/c5de3be35ec506d5fccb014a8afd34d8cd965b6fb9d548438d06192589b5/yellowdog_python_examples-7.8.6.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [s3i]: Downloading https://files.pythonhosted.org/packages/52/42/d52519593dd9bbc80c355eb04ff0a5dfb3e745704af83abf198806132f3b/s3i-0.7.0-py3-none-any.whl
+[2024-04-19 14:39:17] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/d7/65/3a17712018bcf461ef4504c391627b3b768e15a0028af7ea40dadcb519c9/virgo_modules-0.0.80.tar.gz
+[2024-04-19 14:39:17] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-2.0rc1712763708188.tar.gz tmp/deltafi-2.0rc1713530263087.tar.gz --markdown 20240419/d/deltafi/2.0rc1712763708188-2.0rc1713530263087/README.md --exclude *.pyd
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240419/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dask-kubernetes]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [dask-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-kubernetes-2024.4.0.tar.gz tmp/dask-kubernetes-2024.4.1.tar.gz --markdown 20240419/d/dask-kubernetes/2024.4.0-2024.4.1/README.md --exclude *.pyd
+[2024-04-19 14:39:17] INFO root fetch - processPackages [s3i]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [s3i]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3i-0.6.8-py3-none-any.whl.zip tmp/s3i-0.7.0-py3-none-any.whl.zip --markdown 20240419/s/s3i/0.6.8-0.7.0/README.md --exclude *.pyd
+[2024-04-19 14:39:17] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.79.tar.gz tmp/virgo_modules-0.0.80.tar.gz --markdown 20240419/v/virgo-modules/0.0.79-0.0.80/README.md --exclude *.pyd
+[2024-04-19 14:39:17] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-04-19 14:39:17] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog_python_examples-7.8.5.tar.gz tmp/yellowdog_python_examples-7.8.6.tar.gz --markdown 20240419/y/yellowdog-python-examples/7.8.5-7.8.6/README.md --exclude *.pyd
+[2024-04-19 14:39:18] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1712763708188.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1713530263087.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2024-04-19 14:39:18] INFO root fetch - processPackages [s3i]: Remove: archive file [/home/abi/fetcher/tmp/s3i-0.6.8-py3-none-any.whl.zip]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [s3i]: Remove: archive file [/home/abi/fetcher/tmp/s3i-0.7.0-py3-none-any.whl.zip]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [s3i]: success
+[2024-04-19 14:39:18] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.79.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.80.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-04-19 14:39:18] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-19 14:39:18] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2024.4.0.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2024.4.1.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [dask-kubernetes]: success
+[2024-04-19 14:39:18] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.5.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.6.tar.gz]
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-04-19 14:39:18] INFO root fetch - main [MainThread]: Store serial: [22841708]
