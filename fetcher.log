@@ -14487,3 +14487,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:27:36] INFO root fetch - processPackages [dranspose]: Remove: archive file [/home/abi/fetcher/tmp/dranspose-0.0.3.tar.gz]
 [2024-04-19 10:27:36] INFO root fetch - main [MainThread]: End processing [dranspose]: success
 [2024-04-19 10:27:36] INFO root fetch - main [MainThread]: Store serial: [22838695]
+[2024-04-19 10:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838695]
+[2024-04-19 10:29:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyserSSH
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtnkk-tools-pro
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdo-sdk-python
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pop-cli
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solaar
+[2024-04-19 10:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: annet
+[2024-04-19 10:29:45] INFO root fetch - processPackages [pop-cli]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-04-19 10:29:45] INFO root fetch - processPackages [solaar]: New version: [1.1.9] Old Version: [1.1.8rc2]
+[2024-04-19 10:29:45] WARNING root fetch - processPackages [xtnkk-tools-pro]: Skipping, unable to determine old version
+[2024-04-19 10:29:45] INFO root fetch - main [MainThread]: End processing [xtnkk-tools-pro] error
+[2024-04-19 10:29:45] INFO root fetch - processPackages [PyserSSH]: New version: [4.4] Old Version: [4.3]
+[2024-04-19 10:29:45] INFO root fetch - processPackages [annet]: New version: [0.9] Old Version: [0.8]
+[2024-04-19 10:29:45] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/23/f6/1020a9d1ef702378e50f91df80c3a74a18c6a75a8538c40f3e2a0ea173df/pop_cli-4.1.0.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.89]
+[2024-04-19 10:29:45] INFO root fetch - processPackages [PyserSSH]: Downloading https://files.pythonhosted.org/packages/27/c5/8d9bd69de346d8f13f350980bf5f0ece6796d4bf30b38e485541444956e3/PyserSSH-4.3.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/4b/19/bed7d82b57a61abfbd87e9c2fadb3cfd57cbffffe895045763549fc69ce4/cdo-sdk-python-1.0.89.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/09/dd/45eeeb9e8aa03dc6b31d5ec02625ec1fecf6372363975023e6f8d2347292/pop_cli-4.2.0.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [solaar]: Downloading https://files.pythonhosted.org/packages/87/1a/808ac42a90c1945ae7d2c26202f6579aa5ba91052bb2972d04a332aa2287/solaar-1.1.8rc2-py3-none-any.whl
+[2024-04-19 10:29:45] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/43/03/2bd7e8afe1cef1ffcdf8b3a53c32197a76076672190d4a3f0684979508f9/annet-0.8.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [pop-cli]: executing diffoscope
+[2024-04-19 10:29:45] INFO root fetch - processPackages [pop-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_cli-4.1.0.tar.gz tmp/pop_cli-4.2.0.tar.gz --markdown 20240419/p/pop-cli/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-04-19 10:29:45] INFO root fetch - processPackages [PyserSSH]: Downloading https://files.pythonhosted.org/packages/00/f0/7de07764689b48578be8f6ecf5863958002fae3473da2e99353f06cf6b11/PyserSSH-4.4.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-19 10:29:45] INFO root fetch - processPackages [PyserSSH]: executing diffoscope
+[2024-04-19 10:29:45] INFO root fetch - processPackages [PyserSSH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyserSSH-4.3.tar.gz tmp/PyserSSH-4.4.tar.gz --markdown 20240419/P/PyserSSH/4.3-4.4/README.md --exclude *.pyd
+[2024-04-19 10:29:46] INFO root fetch - processPackages [annet]: Downloading https://files.pythonhosted.org/packages/41/c3/39483a248016582b415acc5071d94f0dfba19bb328455d81cb638d77d2ed/annet-0.9.tar.gz
+[2024-04-19 10:29:46] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-19 10:29:46] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.89.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240419/c/cdo-sdk-python/1.0.89-1.0.9/README.md --exclude *.pyd
+[2024-04-19 10:29:46] INFO root fetch - processPackages [annet]: executing diffoscope
+[2024-04-19 10:29:46] INFO root fetch - processPackages [annet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annet-0.8.tar.gz tmp/annet-0.9.tar.gz --markdown 20240419/a/annet/0.8-0.9/README.md --exclude *.pyd
+[2024-04-19 10:29:46] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-4.1.0.tar.gz]
+[2024-04-19 10:29:46] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-4.2.0.tar.gz]
+[2024-04-19 10:29:46] INFO root fetch - main [MainThread]: End processing [pop-cli]: success
+[2024-04-19 10:29:46] INFO root fetch - processPackages [solaar]: Downloading https://files.pythonhosted.org/packages/a6/c4/b4ed890faa2fef43dcae6378930290e16e3efa392d069309ee7752b225b3/solaar-1.1.9.tar.gz
+[2024-04-19 10:29:46] INFO root fetch - processPackages [solaar]: executing diffoscope
+[2024-04-19 10:29:46] INFO root fetch - processPackages [solaar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solaar-1.1.8rc2-py3-none-any.whl.zip tmp/solaar-1.1.9.tar.gz --markdown 20240419/s/solaar/1.1.8rc2-1.1.9/README.md --exclude *.pyd
+[2024-04-19 10:29:46] INFO root fetch - processPackages [PyserSSH]: Remove: archive file [/home/abi/fetcher/tmp/PyserSSH-4.3.tar.gz]
+[2024-04-19 10:29:46] INFO root fetch - processPackages [PyserSSH]: Remove: archive file [/home/abi/fetcher/tmp/PyserSSH-4.4.tar.gz]
+[2024-04-19 10:29:46] INFO root fetch - main [MainThread]: End processing [PyserSSH]: success
+[2024-04-19 10:29:47] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.8.tar.gz]
+[2024-04-19 10:29:47] INFO root fetch - processPackages [annet]: Remove: archive file [/home/abi/fetcher/tmp/annet-0.9.tar.gz]
+[2024-04-19 10:29:47] INFO root fetch - main [MainThread]: End processing [annet]: success
+[2024-04-19 10:29:47] INFO root fetch - processPackages [solaar]: Remove: archive file [/home/abi/fetcher/tmp/solaar-1.1.8rc2-py3-none-any.whl.zip]
+[2024-04-19 10:29:47] INFO root fetch - processPackages [solaar]: Remove: archive file [/home/abi/fetcher/tmp/solaar-1.1.9.tar.gz]
+[2024-04-19 10:29:47] INFO root fetch - main [MainThread]: End processing [solaar]: success
+[2024-04-19 10:29:48] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.89.tar.gz]
+[2024-04-19 10:29:48] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-19 10:29:48] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-19 10:29:48] INFO root fetch - main [MainThread]: Store serial: [22838716]
