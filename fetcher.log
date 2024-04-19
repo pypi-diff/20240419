@@ -9718,3 +9718,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:43:06] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.2.tar.gz]
 [2024-04-19 06:43:06] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
 [2024-04-19 06:43:06] INFO root fetch - main [MainThread]: Store serial: [22836624]
+[2024-04-19 06:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836624]
+[2024-04-19 06:45:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2aiprep
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-artifact
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-build-core
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-api-open
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chamco-ragbot
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chamco-ragbot
+[2024-04-19 06:45:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Sphinx
+[2024-04-19 06:45:14] INFO root fetch - processPackages [b2aiprep]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-19 06:45:14] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 06:45:14] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 06:45:14] INFO root fetch - processPackages [windmill-artifact]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-19 06:45:14] INFO root fetch - processPackages [llm-api-open]: New version: [2.2.0] Old Version: [2.1.24]
+[2024-04-19 06:45:15] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/e5/e5/3889738283abef3ba7263aa45059a5e3fd0e9a74495ea0a4006d1b1506dd/chamco_ragbot-0.1.3.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/e5/e5/3889738283abef3ba7263aa45059a5e3fd0e9a74495ea0a4006d1b1506dd/chamco_ragbot-0.1.3.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [scikit-build-core]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-19 06:45:15] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/a7/69/75783e3edb1f1ae984ed03018dd6cb7e65eaee07dfed0a6a1524a30a40f2/b2aiprep-0.8.1.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/7a/e7/194ef109ecd5a99382eb557e949fb3001413a19cbeb9a92ca422db205dc7/llm-api-open-2.1.24.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [Sphinx]: New version: [7.3.7] Old Version: [7.3.6]
+[2024-04-19 06:45:15] INFO root fetch - processPackages [windmill-artifact]: Downloading https://files.pythonhosted.org/packages/eb/cb/9cae509916fc6577ee50c9132579ff2305cb38588157a358af011e9560f8/windmill_artifact-1.0.0.8-py3-none-any.whl
+[2024-04-19 06:45:15] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/7a/4a/9f6eeb28ddfea451e0856c506df9146c14e1ce80bdbf39683ab16d28b334/scikit_build_core-0.8.2.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/8a/67/f9c2a3eaeff31bbba398cbb757f1df114e5208a7cfbeb567de76ce6f6059/sphinx-7.3.6.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/b5/ee/870ff36155e2aaa15a696315d7dcbe9d768681d0389a9ebb424c83a30149/llm_api_open-2.2.0.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [b2aiprep]: Downloading https://files.pythonhosted.org/packages/15/26/a272554d70f3b2d49bbcf7b9f9d633806c01bc22f471db8eb5b45b57e385/b2aiprep-0.9.0.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6a/ef/100e6d84f09bc5ade7871ff1c102511bf72fc79918b94f8673e3f655cb27/chamco_ragbot-0.1.4.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6a/ef/100e6d84f09bc5ade7871ff1c102511bf72fc79918b94f8673e3f655cb27/chamco_ragbot-0.1.4.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [windmill-artifact]: Downloading https://files.pythonhosted.org/packages/c7/25/bdc666b499d42977fe3e601e00dda06a6d1208a8fbf41ce8afb67798fc61/windmill_artifact-1.0.0.9-py3-none-any.whl
+[2024-04-19 06:45:15] INFO root fetch - processPackages [llm-api-open]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [llm-api-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-api-open-2.1.24.tar.gz tmp/llm_api_open-2.2.0.tar.gz --markdown 20240419/l/llm-api-open/2.1.24-2.2.0/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [b2aiprep]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [b2aiprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2aiprep-0.8.1.tar.gz tmp/b2aiprep-0.9.0.tar.gz --markdown 20240419/b/b2aiprep/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.3.tar.gz tmp/chamco_ragbot-0.1.4.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [windmill-artifact]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [windmill-artifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_artifact-1.0.0.8-py3-none-any.whl.zip tmp/windmill_artifact-1.0.0.9-py3-none-any.whl.zip --markdown 20240419/w/windmill-artifact/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.3.tar.gz tmp/chamco_ragbot-0.1.4.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [scikit-build-core]: Downloading https://files.pythonhosted.org/packages/f5/20/f4f5dda0dbaee1db858ecab344722be90fe8218f1cf51ffb1e1814eda93d/scikit_build_core-0.9.0.tar.gz
+[2024-04-19 06:45:15] INFO root fetch - processPackages [scikit-build-core]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [scikit-build-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit_build_core-0.8.2.tar.gz tmp/scikit_build_core-0.9.0.tar.gz --markdown 20240419/s/scikit-build-core/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-19 06:45:15] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-19 06:45:15] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240419/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-19 06:45:16] INFO root fetch - processPackages [Sphinx]: Downloading https://files.pythonhosted.org/packages/b7/0a/b88033900b1582f5ed8f880263363daef968d1cd064175e32abfd9714410/sphinx-7.3.7.tar.gz
+[2024-04-19 06:45:16] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.3.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.4.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 06:45:16] INFO root fetch - processPackages [windmill-artifact]: Remove: archive file [/home/abi/fetcher/tmp/windmill_artifact-1.0.0.8-py3-none-any.whl.zip]
+[2024-04-19 06:45:16] INFO root fetch - processPackages [windmill-artifact]: Remove: archive file [/home/abi/fetcher/tmp/windmill_artifact-1.0.0.9-py3-none-any.whl.zip]
+[2024-04-19 06:45:16] INFO root fetch - main [MainThread]: End processing [windmill-artifact]: success
+[2024-04-19 06:45:16] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm-api-open-2.1.24.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm_api_open-2.2.0.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - main [MainThread]: End processing [llm-api-open]: success
+[2024-04-19 06:45:16] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 06:45:16] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.8.1.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - processPackages [b2aiprep]: Remove: archive file [/home/abi/fetcher/tmp/b2aiprep-0.9.0.tar.gz]
+[2024-04-19 06:45:16] INFO root fetch - main [MainThread]: End processing [b2aiprep]: success
+[2024-04-19 06:45:17] INFO root fetch - processPackages [Sphinx]: executing diffoscope
+[2024-04-19 06:45:17] INFO root fetch - processPackages [Sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-7.3.6.tar.gz tmp/sphinx-7.3.7.tar.gz --markdown 20240419/S/Sphinx/7.3.6-7.3.7/README.md --exclude *.pyd
+[2024-04-19 06:45:17] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-19 06:45:17] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-19 06:45:17] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-19 06:45:17] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.8.2.tar.gz]
+[2024-04-19 06:45:17] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.9.0.tar.gz]
+[2024-04-19 06:45:17] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
+[2024-04-19 06:45:22] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.6.tar.gz]
+[2024-04-19 06:45:22] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.7.tar.gz]
+[2024-04-19 06:45:22] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
+[2024-04-19 06:45:22] INFO root fetch - main [MainThread]: Store serial: [22836645]
