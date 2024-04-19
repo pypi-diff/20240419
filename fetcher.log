@@ -14994,3 +14994,84 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:49:43] INFO root fetch - processPackages [anki]: Remove: archive file [/home/abi/fetcher/tmp/anki-24.04rc2-cp39-abi3-win_amd64.whl.zip]
 [2024-04-19 10:49:43] INFO root fetch - main [MainThread]: End processing [anki]: success
 [2024-04-19 10:49:43] INFO root fetch - main [MainThread]: Store serial: [22838955]
+[2024-04-19 10:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838955]
+[2024-04-19 10:51:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RabbitSpider
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aqt
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: precommend
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-marketing-urls
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywxdump
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytiqs
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawlipt
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-categories
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyco-types
+[2024-04-19 10:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sctreeshap
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pyco-types]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 10:51:53] WARNING root fetch - processPackages [crawlipt]: Skipping, unable to determine old version
+[2024-04-19 10:51:53] INFO root fetch - main [MainThread]: End processing [crawlipt] error
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pywxdump]: New version: [3.0.0] Old Version: [2.4.9]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [aqt]: New version: [24.4rc2] Old Version: [24.4rc1]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/ef/e9/d4035cf714f9d2afafe8028507b572965ff4ceeba75e12271e80d59073e9/pyco-types-1.1.8.tar.gz
+[2024-04-19 10:51:53] WARNING root fetch - processPackages [django-marketing-urls]: Skipping, unable to determine old version
+[2024-04-19 10:51:53] INFO root fetch - main [MainThread]: End processing [django-marketing-urls] error
+[2024-04-19 10:51:53] INFO root fetch - processPackages [precommend]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pytiqs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [RabbitSpider]: New version: [1.5] Old Version: [1.3.0]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/20/eb/f88954c1da7353adc7b3750be18e73710028e708fe62e2c81059d922eac9/pywxdump-2.4.9.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [django-categories]: New version: [2.0.0a1] Old Version: [1.9.4]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [sctreeshap]: New version: [0.7.6.2] Old Version: [0.7.6.1]
+[2024-04-19 10:51:53] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/74/64/57d4848ed26e083724bd4d32648a07bfdb14da0f77133cfee1527f8e359a/aqt-24.04rc1-py3-none-any.whl
+[2024-04-19 10:51:53] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/02/d3/6da7eb5199b383181296d5bdb796bc2adf736855a10cf0180723435b5d20/precommend-0.2.1.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/2f/29/479de416d92b552b58149983529076af3c3936611522d6a633338600f0e6/django-categories-1.9.4.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/95/8e/30a66078f825e4ef7045cffc809f51ec2b0ff062088fd5a1af1b443447a6/pytiqs-1.0.8.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/4b/d6/466c18da3915be6d963478aa3e4f18a66517539db3244ed8bdc5f3281386/RabbitSpider-1.3.0.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/91/a6/8332df9f925e5eded8d1509c2218c7cf90830a884fd983deefa7dfb1b37b/pyco-types-1.1.9.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [sctreeshap]: Downloading https://files.pythonhosted.org/packages/2f/0f/9afb24e0a3a996c72e7b1c678f0d398e36634e7346fedc1925e2a1f5cdcf/sctreeshap-0.7.6.1.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/03/00/fa03a905c2ae6b048d5ffb780113b1664199083434d011a7bc2040c5765f/pywxdump-3.0.0.tar.gz
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pyco-types]: executing diffoscope
+[2024-04-19 10:51:53] INFO root fetch - processPackages [pyco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyco-types-1.1.8.tar.gz tmp/pyco-types-1.1.9.tar.gz --markdown 20240419/p/pyco-types/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/53/20/8dcfcec3a941107ffd3d6d4dd0b1e3172d0aa4612ea0d07e46d2fcf278b4/precommend-0.2.2.tar.gz
+[2024-04-19 10:51:54] INFO root fetch - processPackages [precommend]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [precommend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precommend-0.2.1.tar.gz tmp/precommend-0.2.2.tar.gz --markdown 20240419/p/precommend/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/b3/d8/0adf961f9c25ce143e277b41f356a8660124d7e031ecf489ee7084905712/django-categories-2.0.0a1.tar.gz
+[2024-04-19 10:51:54] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/a6/52/1bb4807187acf471bd158ee1ad0ecf4d99f28b29a4f155192f5726d39776/rabbitspider-1.5.tar.gz
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/58/d2/c0049b0f30ead12686d88eed4acd08a2cd919d150d089ac12e4616494aed/pytiqs-1.0.9.tar.gz
+[2024-04-19 10:51:54] INFO root fetch - processPackages [sctreeshap]: Downloading https://files.pythonhosted.org/packages/41/16/76466a86db4cadf206a1ba08823e3cdb5703d67f561a4fa69413141930f3/sctreeshap-0.7.6.2.tar.gz
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-2.4.9.tar.gz tmp/pywxdump-3.0.0.tar.gz --markdown 20240419/p/pywxdump/2.4.9-3.0.0/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [RabbitSpider]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [RabbitSpider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RabbitSpider-1.3.0.tar.gz tmp/rabbitspider-1.5.tar.gz --markdown 20240419/R/RabbitSpider/1.3.0-1.5/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.8.tar.gz tmp/pytiqs-1.0.9.tar.gz --markdown 20240419/p/pytiqs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [django-categories]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [django-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-categories-1.9.4.tar.gz tmp/django-categories-2.0.0a1.tar.gz --markdown 20240419/d/django-categories/1.9.4-2.0.0a1/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [sctreeshap]: executing diffoscope
+[2024-04-19 10:51:54] INFO root fetch - processPackages [sctreeshap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sctreeshap-0.7.6.1.tar.gz tmp/sctreeshap-0.7.6.2.tar.gz --markdown 20240419/s/sctreeshap/0.7.6.1-0.7.6.2/README.md --exclude *.pyd
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.8.tar.gz]
+[2024-04-19 10:51:54] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.9.tar.gz]
+[2024-04-19 10:51:54] INFO root fetch - main [MainThread]: End processing [pyco-types]: success
+[2024-04-19 10:51:54] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.2.1.tar.gz]
+[2024-04-19 10:51:54] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.2.2.tar.gz]
+[2024-04-19 10:51:54] INFO root fetch - main [MainThread]: End processing [precommend]: success
+[2024-04-19 10:51:55] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.8.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.9.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-19 10:51:55] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/RabbitSpider-1.3.0.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/rabbitspider-1.5.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - main [MainThread]: End processing [RabbitSpider]: success
+[2024-04-19 10:51:55] INFO root fetch - processPackages [sctreeshap]: Remove: archive file [/home/abi/fetcher/tmp/sctreeshap-0.7.6.1.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - processPackages [sctreeshap]: Remove: archive file [/home/abi/fetcher/tmp/sctreeshap-0.7.6.2.tar.gz]
+[2024-04-19 10:51:55] INFO root fetch - main [MainThread]: End processing [sctreeshap]: success
+[2024-04-19 10:51:55] INFO root fetch - processPackages [aqt]: Downloading https://files.pythonhosted.org/packages/a8/55/f371a6b39949dd14662e28cb5bd2f357b63d35dc5ac87af7d71806b7debb/aqt-24.04rc2-py3-none-any.whl
+[2024-04-19 10:51:56] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-2.4.9.tar.gz]
+[2024-04-19 10:51:56] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.0.tar.gz]
+[2024-04-19 10:51:56] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-04-19 10:51:56] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-1.9.4.tar.gz]
+[2024-04-19 10:51:56] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-2.0.0a1.tar.gz]
+[2024-04-19 10:51:56] INFO root fetch - main [MainThread]: End processing [django-categories]: success
+[2024-04-19 10:51:57] INFO root fetch - processPackages [aqt]: executing diffoscope
+[2024-04-19 10:51:57] INFO root fetch - processPackages [aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqt-24.04rc1-py3-none-any.whl.zip tmp/aqt-24.04rc2-py3-none-any.whl.zip --markdown 20240419/a/aqt/24.4rc1-24.4rc2/README.md --exclude *.pyd
+[2024-04-19 10:53:08] INFO root fetch - processPackages [aqt]: Remove: archive file [/home/abi/fetcher/tmp/aqt-24.04rc1-py3-none-any.whl.zip]
+[2024-04-19 10:53:08] INFO root fetch - processPackages [aqt]: Remove: archive file [/home/abi/fetcher/tmp/aqt-24.04rc2-py3-none-any.whl.zip]
+[2024-04-19 10:53:08] INFO root fetch - main [MainThread]: End processing [aqt]: success
+[2024-04-19 10:53:08] INFO root fetch - main [MainThread]: Store serial: [22838993]
