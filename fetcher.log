@@ -11274,3 +11274,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:04:03] INFO root fetch - processPackages [ign8]: Remove: archive file [/home/abi/fetcher/tmp/ign8-4.9.9.tar.gz]
 [2024-04-19 08:04:03] INFO root fetch - main [MainThread]: End processing [ign8]: success
 [2024-04-19 08:04:03] INFO root fetch - main [MainThread]: Store serial: [22837195]
+[2024-04-19 08:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837195]
+[2024-04-19 08:06:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cefi
+[2024-04-19 08:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zensvi
+[2024-04-19 08:06:12] INFO root fetch - processPackages [cefi]: New version: [4.6.4] Old Version: [4.6.3]
+[2024-04-19 08:06:12] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/dc/df/4357006f779dd4c56feb9de0a967a764102b820af336d26d7356e232c3d9/cefi-4.6.3.tar.gz
+[2024-04-19 08:06:12] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-19 08:06:13] INFO root fetch - processPackages [cefi]: Downloading https://files.pythonhosted.org/packages/82/4a/c0db65271fef922a73519d9792bd50bf8e4156d37cfc0f4ff9fae84c519a/cefi-4.6.4.tar.gz
+[2024-04-19 08:06:13] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-19 08:06:13] INFO root fetch - processPackages [cefi]: executing diffoscope
+[2024-04-19 08:06:13] INFO root fetch - processPackages [cefi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefi-4.6.3.tar.gz tmp/cefi-4.6.4.tar.gz --markdown 20240419/c/cefi/4.6.3-4.6.4/README.md --exclude *.pyd
+[2024-04-19 08:06:13] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-19 08:06:13] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-19 08:06:13] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240419/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-19 08:06:13] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.3.tar.gz]
+[2024-04-19 08:06:13] INFO root fetch - processPackages [cefi]: Remove: archive file [/home/abi/fetcher/tmp/cefi-4.6.4.tar.gz]
+[2024-04-19 08:06:13] INFO root fetch - main [MainThread]: End processing [cefi]: success
+[2024-04-19 08:06:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-19 08:06:14] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-19 08:06:14] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-19 08:06:14] INFO root fetch - main [MainThread]: Store serial: [22837200]
