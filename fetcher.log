@@ -13834,3 +13834,48 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:58:49] WARNING root fetch - processPackages [torch-npu]: Skipping package: exceeds size limit 11146920>=10485760
 [2024-04-19 09:58:49] INFO root fetch - main [MainThread]: End processing [torch-npu] error
 [2024-04-19 09:58:49] INFO root fetch - main [MainThread]: Store serial: [22838354]
+[2024-04-19 10:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838354]
+[2024-04-19 10:00:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webook
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-cooperator
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerbogen
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataidea
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-04-19 10:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openst
+[2024-04-19 10:00:57] INFO root fetch - processPackages [dataidea]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 10:00:57] INFO root fetch - processPackages [cerbogen]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 10:00:57] INFO root fetch - processPackages [openst]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 10:00:57] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 10:00:57] WARNING root fetch - processPackages [odoo-addon-l10n-es-cooperator]: Skipping, unable to determine old version
+[2024-04-19 10:00:57] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/7e/02/36b9ee511808b51d410b45039d1de28beb95ffae83cad592b4c87c691e35/dataidea-0.2.0.tar.gz
+[2024-04-19 10:00:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-cooperator] error
+[2024-04-19 10:00:57] WARNING root fetch - processPackages [webook]: Skipping, unable to determine old version
+[2024-04-19 10:00:57] INFO root fetch - main [MainThread]: End processing [webook] error
+[2024-04-19 10:00:57] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/fe/99/d584e8de52a334c5c8c7ca44594aef3cfb3f71f9f3f75fd02e29ce233100/openst-0.0.8.tar.gz
+[2024-04-19 10:00:57] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/f9/b1/af1fa045ae0bf869151b8dc1af874a9e671ca252effcf66c861291bfe674/cerbogen-0.0.5.tar.gz
+[2024-04-19 10:00:57] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 10:00:58] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 10:00:58] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/ac/be/3a6da10c46660a1e04989e0cd632b21f5a3d8553e37c5b833ec49ff9928f/openst-0.0.9.tar.gz
+[2024-04-19 10:00:58] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/1e/3e/64728d5e884893c072f90911516fbd47cf2dd1f2b2ff688ece2a38681cb1/cerbogen-0.0.6.tar.gz
+[2024-04-19 10:00:58] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/d9/9a/bf339ea0b2246aa1c19e7376d396ad566ce6ad78c0b0e4d227753a645a50/dataidea-0.2.1.tar.gz
+[2024-04-19 10:00:58] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 10:00:58] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 10:00:58] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 10:00:58] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.5.tar.gz tmp/cerbogen-0.0.6.tar.gz --markdown 20240419/c/cerbogen/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 10:00:58] INFO root fetch - processPackages [openst]: executing diffoscope
+[2024-04-19 10:00:58] INFO root fetch - processPackages [openst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openst-0.0.8.tar.gz tmp/openst-0.0.9.tar.gz --markdown 20240419/o/openst/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 10:00:58] INFO root fetch - processPackages [dataidea]: executing diffoscope
+[2024-04-19 10:00:58] INFO root fetch - processPackages [dataidea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataidea-0.2.0.tar.gz tmp/dataidea-0.2.1.tar.gz --markdown 20240419/d/dataidea/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 10:00:58] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.5.tar.gz]
+[2024-04-19 10:00:58] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.6.tar.gz]
+[2024-04-19 10:00:58] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 10:00:59] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.8.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.9.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - main [MainThread]: End processing [openst]: success
+[2024-04-19 10:00:59] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.2.0.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.2.1.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - main [MainThread]: End processing [dataidea]: success
+[2024-04-19 10:00:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 10:00:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 10:00:59] INFO root fetch - main [MainThread]: Store serial: [22838377]
