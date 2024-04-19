@@ -8094,3 +8094,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:49:29] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.2.tar.gz]
 [2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
 [2024-04-19 04:49:29] INFO root fetch - main [MainThread]: Store serial: [22835909]
+[2024-04-19 04:51:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835909]
+[2024-04-19 04:51:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 04:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datumaro
+[2024-04-19 04:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pySuperfish
+[2024-04-19 04:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panoptes-data
+[2024-04-19 04:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyco-types
+[2024-04-19 04:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: port-pulumi
+[2024-04-19 04:51:38] INFO root fetch - processPackages [panoptes-data]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-19 04:51:38] INFO root fetch - processPackages [panoptes-data]: Downloading https://files.pythonhosted.org/packages/0b/60/5a263821e239207e601197c1c71603bdf5e7c8ed2546cc843035bfc65ca1/panoptes-data-0.1.5.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [pySuperfish]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 04:51:38] INFO root fetch - processPackages [pyco-types]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 04:51:38] INFO root fetch - processPackages [port-pulumi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-19 04:51:38] INFO root fetch - processPackages [datumaro]: New version: [1.6.1rc3] Old Version: [1.6.1rc2]
+[2024-04-19 04:51:38] INFO root fetch - processPackages [panoptes-data]: Downloading https://files.pythonhosted.org/packages/fa/c9/b31ec22b7ca900f6a5c2ecdbea1c102472a450e63945aa8aa0ff7adea7f6/panoptes_data-0.1.6.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [pySuperfish]: Downloading https://files.pythonhosted.org/packages/ef/4f/ad44af5a334e4b49d8f2b609b864305ab0f914178ae03de60f536e2c8a24/pySuperfish-0.1.1.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/ef/e9/d4035cf714f9d2afafe8028507b572965ff4ceeba75e12271e80d59073e9/pyco-types-1.1.8.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/1a/65/730b2bb65e079925139a28fc3ca95a2fb9d4992b14f124d0de89c8114352/port_pulumi-1.9.0.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/14/75/cea3a1cba28972d7a65ffcb891f9e7fa3e7619c6fa41d912aa5cc5f8a3fe/datumaro-1.6.1rc2.tar.gz
+[2024-04-19 04:51:38] INFO root fetch - processPackages [panoptes-data]: executing diffoscope
+[2024-04-19 04:51:38] INFO root fetch - processPackages [panoptes-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptes-data-0.1.5.tar.gz tmp/panoptes_data-0.1.6.tar.gz --markdown 20240419/p/panoptes-data/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pySuperfish]: Downloading https://files.pythonhosted.org/packages/c6/a9/9195204afcb33baddd2a431df87e55de1a672eb6bec1994d24aa9b96cf7f/pySuperfish-0.1.2.tar.gz
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pyco-types]: Downloading https://files.pythonhosted.org/packages/91/a6/8332df9f925e5eded8d1509c2218c7cf90830a884fd983deefa7dfb1b37b/pyco-types-1.1.9.tar.gz
+[2024-04-19 04:51:39] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/41/26/b0d20bfbcf8a0d433f1734964072e2e5a3b672c5151ca7bfb4a95608796d/datumaro-1.6.1rc3.tar.gz
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pyco-types]: executing diffoscope
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pySuperfish]: executing diffoscope
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pySuperfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySuperfish-0.1.1.tar.gz tmp/pySuperfish-0.1.2.tar.gz --markdown 20240419/p/pySuperfish/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pyco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyco-types-1.1.8.tar.gz tmp/pyco-types-1.1.9.tar.gz --markdown 20240419/p/pyco-types/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 04:51:39] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/ea/2a/ec281ecca97eed4407ef53b83fca5b3f239ff640429119e3e1b5bd5fb948/port_pulumi-1.9.1.tar.gz
+[2024-04-19 04:51:39] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-04-19 04:51:39] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.1rc2.tar.gz tmp/datumaro-1.6.1rc3.tar.gz --markdown 20240419/d/datumaro/1.6.1rc2-1.6.1rc3/README.md --exclude *.pyd
+[2024-04-19 04:51:39] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2024-04-19 04:51:39] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-1.9.0.tar.gz tmp/port_pulumi-1.9.1.tar.gz --markdown 20240419/p/port-pulumi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-19 04:51:39] INFO root fetch - processPackages [panoptes-data]: Remove: archive file [/home/abi/fetcher/tmp/panoptes-data-0.1.5.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - processPackages [panoptes-data]: Remove: archive file [/home/abi/fetcher/tmp/panoptes_data-0.1.6.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - main [MainThread]: End processing [panoptes-data]: success
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.8.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pyco-types]: Remove: archive file [/home/abi/fetcher/tmp/pyco-types-1.1.9.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - main [MainThread]: End processing [pyco-types]: success
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pySuperfish]: Remove: archive file [/home/abi/fetcher/tmp/pySuperfish-0.1.1.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - processPackages [pySuperfish]: Remove: archive file [/home/abi/fetcher/tmp/pySuperfish-0.1.2.tar.gz]
+[2024-04-19 04:51:39] INFO root fetch - main [MainThread]: End processing [pySuperfish]: success
+[2024-04-19 04:51:40] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.9.0.tar.gz]
+[2024-04-19 04:51:40] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.9.1.tar.gz]
+[2024-04-19 04:51:40] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2024-04-19 04:51:41] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc2.tar.gz]
+[2024-04-19 04:51:41] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc3.tar.gz]
+[2024-04-19 04:51:41] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-04-19 04:51:41] INFO root fetch - main [MainThread]: Store serial: [22835929]
