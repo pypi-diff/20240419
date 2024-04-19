@@ -13397,3 +13397,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [abtoolkit]: success
 [2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [abtoolkit]: success
 [2024-04-19 09:45:23] INFO root fetch - main [MainThread]: Store serial: [22838179]
+[2024-04-19 09:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838179]
+[2024-04-19 09:47:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bvhio
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyis-activitystreams
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chemotion-api
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chamco-ragbot
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dphelper
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: casepy
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: webviz-subsurface
+[2024-04-19 09:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: specmatic
+[2024-04-19 09:47:32] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [lyk-reservation-nowon]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [casepy]: New version: [0.0.3a1] Old Version: [0.0.3]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/12/17/eaaa77febbf2df34d461053bb6ea4bc1fcbd3c8c2c503251df5c2970d567/chamco_ragbot-0.1.6.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [bvhio]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [dphelper]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [chemotion-api]: New version: [0.3.9] Old Version: [0.3.3]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/b7/3b/f77b9addaf0549c6dcd2c5ea6bd9d7bb4cc80787911c95b2539cdb380fbe/casepy-0.0.3.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [webviz-subsurface]: New version: [0.2.9rc0] Old Version: [0.2.9]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-19 09:47:32] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/9e/1e/0bc2514c165f49d83005d7810c892f4e558415a3dba6c9b29452941afa7c/whyis-activitystreams-0.0.4.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/a0/27/4b1db15bf45b07e81344e7239f4e7f1898ca01c32cd3b35a23545ccb738c/lyk-reservation-nowon-0.0.6.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/b4/59/0741d109b0ebe2551f298a5be2982d8a3b5101bf8d2f5af4bba5dc05d4ce/bvhio-1.3.7.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [dphelper]: Downloading https://files.pythonhosted.org/packages/6d/53/b25ce41b93761feed6d1a71f1883ba2d625d03b6e5aff85a4cc51208d5b3/dphelper-0.0.7.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [chemotion-api]: Downloading https://files.pythonhosted.org/packages/a5/76/83a3192c2b1e1b1c9e2d1731902164141394807512cdb68b4f9d49e62da8/chemotion_api-0.3.3.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/50/7c/341a4c5fcc056d71ef9f160c225224db53dbd7d25fceb41177e4a0f2610a/whyis_activitystreams-0.0.5.tar.gz
+[2024-04-19 09:47:32] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/cb/b6/496b97d6e24433e8425adfc3e4ab3c08214fa937f58c70ff38f8097fe91a/webviz-subsurface-0.2.9.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/5c/b7/695fee2b0d0c2bab1954aeaac774cedae1f354e2d1e93bc9393e56b31986/casepy-0.0.3a1.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/10/64/502c5ccffc63eb127c447bc9c9ac563249fee25160336ed24489c15c46cf/chamco_ragbot-0.1.7.tar.gz
+[2024-04-19 09:47:33] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-04-19 09:47:33] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-04-19 09:47:33] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/ea/13/2437c46ce39b585bde6cc24d6ec20d18ebe8ddbbb2326af95eee7cd6ed8d/lyk-reservation-nowon-0.0.7.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis-activitystreams-0.0.4.tar.gz tmp/whyis_activitystreams-0.0.5.tar.gz --markdown 20240419/w/whyis-activitystreams/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [casepy]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [casepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casepy-0.0.3.tar.gz tmp/casepy-0.0.3a1.tar.gz --markdown 20240419/c/casepy/0.0.3-0.0.3a1/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.6.tar.gz tmp/chamco_ragbot-0.1.7.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [lyk-reservation-nowon]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [lyk-reservation-nowon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyk-reservation-nowon-0.0.6.tar.gz tmp/lyk-reservation-nowon-0.0.7.tar.gz --markdown 20240419/l/lyk-reservation-nowon/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [dphelper]: Downloading https://files.pythonhosted.org/packages/fd/47/5c5dd7dc6b2d03713ea7045dac3fc3237031deb1b776f44fa8549790c855/dphelper-0.0.8.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/cb/f4/bedb0eadc1839c03882b6b02d72f732d4e1e9c4720dcf4a6f4a9543c055c/bvhio-1.3.8.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chemotion-api]: Downloading https://files.pythonhosted.org/packages/a7/c4/1d3b511c18273e63a3290a274171167100e374089a838d7afa5f789bc844/chemotion_api-0.3.9.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [dphelper]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [dphelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dphelper-0.0.7.tar.gz tmp/dphelper-0.0.8.tar.gz --markdown 20240419/d/dphelper/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.7.tar.gz tmp/bvhio-1.3.8.tar.gz --markdown 20240419/b/bvhio/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [webviz-subsurface]: Downloading https://files.pythonhosted.org/packages/c4/4c/09f887372799ea7da993ba18f2595ecc1ab65b5b21a24e39383f41b193f7/webviz-subsurface-0.2.9rc0.tar.gz
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chemotion-api]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [chemotion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemotion_api-0.3.3.tar.gz tmp/chemotion_api-0.3.9.tar.gz --markdown 20240419/c/chemotion-api/0.3.3-0.3.9/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [webviz-subsurface]: executing diffoscope
+[2024-04-19 09:47:33] INFO root fetch - processPackages [webviz-subsurface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webviz-subsurface-0.2.9.tar.gz tmp/webviz-subsurface-0.2.9rc0.tar.gz --markdown 20240419/w/webviz-subsurface/0.2.9-0.2.9rc0/README.md --exclude *.pyd
+[2024-04-19 09:47:33] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis-activitystreams-0.0.4.tar.gz]
+[2024-04-19 09:47:33] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.0.5.tar.gz]
+[2024-04-19 09:47:33] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 09:47:33] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.6.tar.gz]
+[2024-04-19 09:47:33] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.7.tar.gz]
+[2024-04-19 09:47:33] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon]: success
+[2024-04-19 09:47:34] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.3.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.3a1.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - main [MainThread]: End processing [casepy]: success
+[2024-04-19 09:47:34] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.6.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.7.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 09:47:34] INFO root fetch - processPackages [dphelper]: Remove: archive file [/home/abi/fetcher/tmp/dphelper-0.0.7.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - processPackages [dphelper]: Remove: archive file [/home/abi/fetcher/tmp/dphelper-0.0.8.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - main [MainThread]: End processing [dphelper]: success
+[2024-04-19 09:47:34] INFO root fetch - processPackages [chemotion-api]: Remove: archive file [/home/abi/fetcher/tmp/chemotion_api-0.3.3.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - processPackages [chemotion-api]: Remove: archive file [/home/abi/fetcher/tmp/chemotion_api-0.3.9.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - main [MainThread]: End processing [chemotion-api]: success
+[2024-04-19 09:47:34] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.7.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.8.tar.gz]
+[2024-04-19 09:47:34] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2024-04-19 09:47:35] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9.tar.gz]
+[2024-04-19 09:47:35] INFO root fetch - processPackages [webviz-subsurface]: Remove: archive file [/home/abi/fetcher/tmp/webviz-subsurface-0.2.9rc0.tar.gz]
+[2024-04-19 09:47:35] INFO root fetch - main [MainThread]: End processing [webviz-subsurface]: success
+[2024-04-19 09:47:35] INFO root fetch - main [MainThread]: Store serial: [22838206]
