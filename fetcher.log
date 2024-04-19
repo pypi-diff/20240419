@@ -18881,3 +18881,33 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:51:30] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
 [2024-04-19 12:51:30] INFO root fetch - main [MainThread]: End processing [schedula]: success
 [2024-04-19 12:51:30] INFO root fetch - main [MainThread]: Store serial: [22840541]
+[2024-04-19 12:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840541]
+[2024-04-19 12:53:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-pipelines
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ssb-arbmark-fagfunksjoner
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rats-apps
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-apps]: New version: [0.1.3.dev9] Old Version: [0.1.3.dev8]
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/ec/dd/e1571a4a4be4a6e8a24f82ab1b058ced7ac30426c5fa734e21c3bb791cd1/rats_pipelines-0.1.3.dev8-py3-none-any.whl
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/2b/ac/7cdd84e9d923505e71fd914f800c3d7199d0e4a098aa8259413f06395c30/rats_apps-0.1.3.dev8-py3-none-any.whl
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/9f/7c/1d1bf4a90d5ede0b772f70ffaf7c329b82aca9a236519be5b287a69a02a2/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/63/25/d3d6e41dfb5bd98bcbf7f79d3856cc774212467e002a6abf0eb6cd14bd96/rats_apps-0.1.3.dev9-py3-none-any.whl
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/b8/2d/79bd6c94d590e76f61506daaf64bbb07726287dd538e4b8a5d5a3fd64ad7/rats_pipelines-0.1.3.dev9-py3-none-any.whl
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240419/r/rats-apps/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-19 12:53:40] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip --markdown 20240419/r/rats-pipelines/0.1.3.dev8-0.1.3.dev9/README.md --exclude *.pyd
+[2024-04-19 12:53:40] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Downloading https://files.pythonhosted.org/packages/30/58/1aae8e7ab8bdc135378e36ac87d04487156f4cb588548148276269523f2c/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz
+[2024-04-19 12:53:41] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: executing diffoscope
+[2024-04-19 12:53:41] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz --markdown 20240419/s/ssb-arbmark-fagfunksjoner/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 12:53:41] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-19 12:53:41] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-19 12:53:41] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-19 12:53:41] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.8.tar.gz]
+[2024-04-19 12:53:41] INFO root fetch - processPackages [ssb-arbmark-fagfunksjoner]: Remove: archive file [/home/abi/fetcher/tmp/ssb_arbmark_fagfunksjoner-0.0.9.tar.gz]
+[2024-04-19 12:53:41] INFO root fetch - main [MainThread]: End processing [ssb-arbmark-fagfunksjoner]: success
+[2024-04-19 12:53:41] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev8-py3-none-any.whl.zip]
+[2024-04-19 12:53:41] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.3.dev9-py3-none-any.whl.zip]
+[2024-04-19 12:53:41] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-19 12:53:41] INFO root fetch - main [MainThread]: Store serial: [22840550]
