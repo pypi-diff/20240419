@@ -9083,3 +9083,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:55:14] INFO root fetch - processPackages [pyepp]: Remove: archive file [/home/abi/fetcher/tmp/pyepp-0.0.9a1.tar.gz]
 [2024-04-19 05:55:14] INFO root fetch - main [MainThread]: End processing [pyepp]: success
 [2024-04-19 05:55:14] INFO root fetch - main [MainThread]: Store serial: [22836312]
+[2024-04-19 05:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836312]
+[2024-04-19 05:57:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvchecker
+[2024-04-19 05:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured-inference
+[2024-04-19 05:57:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: provena-interfaces
+[2024-04-19 05:57:23] WARNING root fetch - processPackages [provena-interfaces]: Skipping, unable to determine old version
+[2024-04-19 05:57:23] INFO root fetch - main [MainThread]: End processing [provena-interfaces] error
+[2024-04-19 05:57:23] INFO root fetch - processPackages [unstructured-inference]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 05:57:23] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/a5/de/236a90cd7a70ce149d52403b92cbeee81f73494434e6fc9a8503fa7055ef/unstructured_inference-0.7.8.tar.gz
+[2024-04-19 05:57:23] INFO root fetch - processPackages [nvchecker]: New version: [2.9] Old Version: [2.8.post1]
+[2024-04-19 05:57:23] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/33/77/3df1a5cf753f74575c4abbd6064e39624ead060b1f27dd8fbd58c7cba561/unstructured_inference-0.7.9.tar.gz
+[2024-04-19 05:57:23] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/7a/c0/61b7c2dab2e9d3526d8542ccab27577cf82fa5c4534ce661740dd2670beb/nvchecker-2.8.post1.tar.gz
+[2024-04-19 05:57:23] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2024-04-19 05:57:23] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.7.8.tar.gz tmp/unstructured_inference-0.7.9.tar.gz --markdown 20240419/u/unstructured-inference/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 05:57:23] INFO root fetch - processPackages [nvchecker]: Downloading https://files.pythonhosted.org/packages/c2/71/13c7c02602489b6187aca3bf833f577afc1e10501a3b394f8de5cf4f6ccb/nvchecker-2.9.tar.gz
+[2024-04-19 05:57:24] INFO root fetch - processPackages [nvchecker]: executing diffoscope
+[2024-04-19 05:57:24] INFO root fetch - processPackages [nvchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvchecker-2.8.post1.tar.gz tmp/nvchecker-2.9.tar.gz --markdown 20240419/n/nvchecker/2.8.post1-2.9/README.md --exclude *.pyd
+[2024-04-19 05:57:24] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.8.tar.gz]
+[2024-04-19 05:57:24] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.9.tar.gz]
+[2024-04-19 05:57:24] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2024-04-19 05:57:24] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.8.post1.tar.gz]
+[2024-04-19 05:57:24] INFO root fetch - processPackages [nvchecker]: Remove: archive file [/home/abi/fetcher/tmp/nvchecker-2.9.tar.gz]
+[2024-04-19 05:57:24] INFO root fetch - main [MainThread]: End processing [nvchecker]: success
+[2024-04-19 05:57:24] INFO root fetch - main [MainThread]: Store serial: [22836321]
