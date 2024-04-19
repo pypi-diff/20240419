@@ -16814,3 +16814,90 @@ AssertionError: tmp/fds.sdk.StreetAccountNews-0.20.4-py3-none-any.whl.zip does n
 [2024-04-19 11:40:28] INFO root fetch - processPackages [model-railway-signals]: Remove: archive file [/home/abi/fetcher/tmp/model_railway_signals-4.2.0.tar.gz]
 [2024-04-19 11:40:28] INFO root fetch - main [MainThread]: End processing [model-railway-signals]: success
 [2024-04-19 11:40:28] INFO root fetch - main [MainThread]: Store serial: [22839671]
+[2024-04-19 11:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839671]
+[2024-04-19 11:42:43] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-ts
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LoopAi
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-python-scrapy
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unravel-python
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amsdal_utils
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codedepot-git-ai
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zhijiang
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aruba-dero
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mteb
+[2024-04-19 11:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proxybandit
+[2024-04-19 11:42:43] INFO root fetch - processPackages [aruba-dero]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [LoopAi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [polars-ts]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [unravel-python]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [amsdal_utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 11:42:43] WARNING root fetch - processPackages [new-python-scrapy]: Skipping, unable to determine old version
+[2024-04-19 11:42:43] INFO root fetch - main [MainThread]: End processing [new-python-scrapy] error
+[2024-04-19 11:42:43] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/2e/c5/2b0c9b1de7b6a5ff408de0215c289114aa6f86c1c767559388a351a362a9/aruba_dero-1.0.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [proxybandit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 11:42:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [LoopAi]: Downloading https://files.pythonhosted.org/packages/ef/96/a7286546d1a328e83840e21f00269b9499a036abc9d437762ebdb89ff0a4/LoopAi-1.0.1.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-19 11:42:43] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/db/c5/e3f0b05a1d97ffe183ed2d73e62859ecb7e58a73388781585399f14b2c84/polars_ts-0.0.6.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/35/ab/b7d95e0a3b736cd7b44f0729ab767248d5c31acb81ed7bde74de90f7261b/unravel_python-1.5.0.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [amsdal_utils]: Downloading https://files.pythonhosted.org/packages/29/dd/19fd5993afa7e6649441eff17176ad160c155bdd60b632fb05276dd9fa4b/amsdal_utils-0.1.1.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/fe/8b/3b98d63bceada4e8bed99341ac86ef73c7da4b838d30d17375c986658e31/aruba_dero-1.0.1.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [proxybandit]: Downloading https://files.pythonhosted.org/packages/dc/b9/1db52c4e9fa46533425a7cda5540586d6c9a1a01d9b6444b4ddebef5f70c/proxybandit-1.0.0.tar.gz
+[2024-04-19 11:42:43] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [LoopAi]: Downloading https://files.pythonhosted.org/packages/9a/74/d88d41bfdac97da4e3a41c284ef842baf9319b535249fd25ecfed744d18c/LoopAi-1.0.2.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240419/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-19 11:42:44] INFO root fetch - processPackages [aruba-dero]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [aruba-dero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruba_dero-1.0.tar.gz tmp/aruba_dero-1.0.1.tar.gz --markdown 20240419/a/aruba-dero/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/50/2d/2d31f2a0cba0ebfa2b48b078826c10b146dfda1108ae644ce4ad5752f7d6/polars_ts-0.0.7.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [LoopAi]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [LoopAi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LoopAi-1.0.1.tar.gz tmp/LoopAi-1.0.2.tar.gz --markdown 20240419/L/LoopAi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [unravel-python]: Downloading https://files.pythonhosted.org/packages/f4/d4/1dd76dcf225b0a5cedfcae7d33bde1d10c3688053fd70f43e381722d357b/unravel_python-1.5.1.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [amsdal_utils]: Downloading https://files.pythonhosted.org/packages/c0/af/b9cde63b16f20196dddf18a24997afa95642ab08b78bd00a20db02acb128/amsdal_utils-0.1.2.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.6.tar.gz tmp/polars_ts-0.0.7.tar.gz --markdown 20240419/p/polars-ts/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240419/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [proxybandit]: Downloading https://files.pythonhosted.org/packages/00/87/cfc34f8124fa40061d215dfb4c6375839c07b229455ba06693bf474a260f/proxybandit-1.0.1.tar.gz
+[2024-04-19 11:42:44] INFO root fetch - processPackages [unravel-python]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [unravel-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unravel_python-1.5.0.tar.gz tmp/unravel_python-1.5.1.tar.gz --markdown 20240419/u/unravel-python/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [amsdal_utils]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [amsdal_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_utils-0.1.1.tar.gz tmp/amsdal_utils-0.1.2.tar.gz --markdown 20240419/a/amsdal_utils/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-19 11:42:44] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-19 11:42:44] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-19 11:42:44] INFO root fetch - processPackages [proxybandit]: executing diffoscope
+[2024-04-19 11:42:44] INFO root fetch - processPackages [proxybandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxybandit-1.0.0.tar.gz tmp/proxybandit-1.0.1.tar.gz --markdown 20240419/p/proxybandit/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 11:42:44] INFO root fetch - processPackages [LoopAi]: Remove: archive file [/home/abi/fetcher/tmp/LoopAi-1.0.1.tar.gz]
+[2024-04-19 11:42:44] INFO root fetch - processPackages [LoopAi]: Remove: archive file [/home/abi/fetcher/tmp/LoopAi-1.0.2.tar.gz]
+[2024-04-19 11:42:44] INFO root fetch - main [MainThread]: End processing [LoopAi]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [amsdal_utils]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_utils-0.1.1.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [amsdal_utils]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_utils-0.1.2.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [amsdal_utils]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.1.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [aruba-dero]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [unravel-python]: Remove: archive file [/home/abi/fetcher/tmp/unravel_python-1.5.0.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [unravel-python]: Remove: archive file [/home/abi/fetcher/tmp/unravel_python-1.5.1.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [unravel-python]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.6.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.7.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [proxybandit]: Remove: archive file [/home/abi/fetcher/tmp/proxybandit-1.0.0.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [proxybandit]: Remove: archive file [/home/abi/fetcher/tmp/proxybandit-1.0.1.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [proxybandit]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-19 11:42:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 11:42:45] INFO root fetch - main [MainThread]: Store serial: [22839706]
