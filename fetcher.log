@@ -2649,3 +2649,33 @@
 [2024-04-19 02:31:26] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.2.zip]
 [2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
 [2024-04-19 02:31:26] INFO root fetch - main [MainThread]: Store serial: [22833782]
+[2024-04-19 02:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833782]
+[2024-04-19 02:33:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 02:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-19 02:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi
+[2024-04-19 02:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qieyun-encoder
+[2024-04-19 02:33:35] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-19 02:33:35] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-19 02:33:35] INFO root fetch - processPackages [qieyun-encoder]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-19 02:33:35] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-19 02:33:35] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-19 02:33:35] INFO root fetch - processPackages [qieyun-encoder]: Downloading https://files.pythonhosted.org/packages/af/dd/753843ad86c6bd1e145eb3ac001bc7de08adeb764dc25718814c19c316ab/qieyun-encoder-0.4.2.tar.gz
+[2024-04-19 02:33:35] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-19 02:33:35] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-19 02:33:35] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-19 02:33:35] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240419/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-19 02:33:35] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-19 02:33:35] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240419/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-04-19 02:33:35] INFO root fetch - processPackages [qieyun-encoder]: Downloading https://files.pythonhosted.org/packages/65/0e/f2e700648b0a171d2e42529ad252508dd8fade3c7ef7487aff7eb17620a0/qieyun_encoder-0.5.0.tar.gz
+[2024-04-19 02:33:36] INFO root fetch - processPackages [qieyun-encoder]: executing diffoscope
+[2024-04-19 02:33:36] INFO root fetch - processPackages [qieyun-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qieyun-encoder-0.4.2.tar.gz tmp/qieyun_encoder-0.5.0.tar.gz --markdown 20240419/q/qieyun-encoder/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-19 02:33:36] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-19 02:33:36] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-19 02:33:36] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-19 02:33:36] INFO root fetch - processPackages [qieyun-encoder]: Remove: archive file [/home/abi/fetcher/tmp/qieyun-encoder-0.4.2.tar.gz]
+[2024-04-19 02:33:36] INFO root fetch - processPackages [qieyun-encoder]: Remove: archive file [/home/abi/fetcher/tmp/qieyun_encoder-0.5.0.tar.gz]
+[2024-04-19 02:33:36] INFO root fetch - main [MainThread]: End processing [qieyun-encoder]: success
+[2024-04-19 02:33:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-19 02:33:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-19 02:33:37] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-19 02:33:37] INFO root fetch - main [MainThread]: Store serial: [22833790]
