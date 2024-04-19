@@ -12749,3 +12749,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:16:41] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.9.tar.gz]
 [2024-04-19 09:16:41] INFO root fetch - main [MainThread]: End processing [globlocks]: success
 [2024-04-19 09:16:41] INFO root fetch - main [MainThread]: Store serial: [22837917]
+[2024-04-19 09:18:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837917]
+[2024-04-19 09:18:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-yaml-sanmu
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th-influx-sdk
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sugarpowder
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nabu
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: video-images-creator
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localcosmos-app-kit-taxonomy
+[2024-04-19 09:18:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-core-ai-bnq
+[2024-04-19 09:18:50] INFO root fetch - processPackages [th-influx-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 09:18:50] WARNING root fetch - processPackages [lyk-reservation-nowon]: Skipping, unable to determine old version
+[2024-04-19 09:18:50] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon] error
+[2024-04-19 09:18:50] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-19 09:18:50] INFO root fetch - processPackages [sugarpowder]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-19 09:18:50] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 09:18:50] INFO root fetch - processPackages [pytest-yaml-sanmu]: New version: [0.3.0.dev0] Old Version: [0.2.6]
+[2024-04-19 09:18:50] WARNING root fetch - processPackages [python-core-ai-bnq]: Skipping, unable to determine old version
+[2024-04-19 09:18:50] INFO root fetch - main [MainThread]: End processing [python-core-ai-bnq] error
+[2024-04-19 09:18:50] INFO root fetch - processPackages [nabu]: New version: [2024.1.6] Old Version: [2024.1.5]
+[2024-04-19 09:18:50] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/aa/6e/00582e4af9131bd310f2b1bbc32d53b2657e6d35262aa21a2285a42fbf81/th-influx-sdk-1.0.0.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/e8/b0/983dbb809e3dbd3316b9418d534e01c8f291d8311a7af73a51be6c503267/video_images_creator-0.3.6.tar.gz
+[2024-04-19 09:18:50] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958272>=10485760
+[2024-04-19 09:18:50] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 09:18:50] INFO root fetch - processPackages [pytest-yaml-sanmu]: Downloading https://files.pythonhosted.org/packages/9f/41/e51d0356c1c5226f29ab09325ac42e8efc763a7437e012d1842115e42094/pytest_yaml_sanmu-0.2.6-py3-none-any.whl
+[2024-04-19 09:18:50] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Downloading https://files.pythonhosted.org/packages/ec/78/5702b95db7ccd4254e35d2610dca480f0972eca6797ed76ca0f9e2fe4536/localcosmos_app_kit_taxonomy-0.1.1.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/6a/d7/9ed3044d0e19163766e6915ef51ea2b24a597ef50d348419e77460074e36/sugarpowder-0.2.0.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [nabu]: Downloading https://files.pythonhosted.org/packages/a8/61/aa30ab9e60c5627c03f551754b1cb4a7940da5ec3d50c2c50a5f89de359d/nabu-2024.1.5.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [th-influx-sdk]: Downloading https://files.pythonhosted.org/packages/7b/38/802b273846fac2123a250fbce65b5ba17254e271657dcfd5c1e99cf3aae8/th-influx-sdk-1.0.1.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Downloading https://files.pythonhosted.org/packages/45/08/373303f63345e57ee87d9e25ca51ca171ca08c535e2ae7ef59b883291c8a/localcosmos_app_kit_taxonomy-0.1.2.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [th-influx-sdk]: executing diffoscope
+[2024-04-19 09:18:50] INFO root fetch - processPackages [th-influx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th-influx-sdk-1.0.0.tar.gz tmp/th-influx-sdk-1.0.1.tar.gz --markdown 20240419/t/th-influx-sdk/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 09:18:50] INFO root fetch - processPackages [nabu]: Downloading https://files.pythonhosted.org/packages/7c/38/4959bc91a77e7c2ca5a8a7c5d3bbbca4a5e696407c6a52d1901d562161cb/nabu-2024.1.6.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/84/e8/c926e45d42c0e1821dd46adb968bd3c0d684e0ae87572ad804f8da9ef6b8/sugarpowder-0.3.0.tar.gz
+[2024-04-19 09:18:50] INFO root fetch - processPackages [pytest-yaml-sanmu]: Downloading https://files.pythonhosted.org/packages/52/52/04911b3266dba7c0b12384a570b2e1598331d10c5a0781a45e4adca7fd8d/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl
+[2024-04-19 09:18:51] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: executing diffoscope
+[2024-04-19 09:18:51] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_app_kit_taxonomy-0.1.1.tar.gz tmp/localcosmos_app_kit_taxonomy-0.1.2.tar.gz --markdown 20240419/l/localcosmos-app-kit-taxonomy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 09:18:51] INFO root fetch - processPackages [sugarpowder]: executing diffoscope
+[2024-04-19 09:18:51] INFO root fetch - processPackages [sugarpowder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugarpowder-0.2.0.tar.gz tmp/sugarpowder-0.3.0.tar.gz --markdown 20240419/s/sugarpowder/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-19 09:18:51] INFO root fetch - processPackages [nabu]: executing diffoscope
+[2024-04-19 09:18:51] INFO root fetch - processPackages [nabu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nabu-2024.1.5.tar.gz tmp/nabu-2024.1.6.tar.gz --markdown 20240419/n/nabu/2024.1.5-2024.1.6/README.md --exclude *.pyd
+[2024-04-19 09:18:51] INFO root fetch - processPackages [pytest-yaml-sanmu]: executing diffoscope
+[2024-04-19 09:18:51] INFO root fetch - processPackages [pytest-yaml-sanmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_yaml_sanmu-0.2.6-py3-none-any.whl.zip tmp/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl.zip --markdown 20240419/p/pytest-yaml-sanmu/0.2.6-0.3.0.dev0/README.md --exclude *.pyd
+[2024-04-19 09:18:51] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.0.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - processPackages [th-influx-sdk]: Remove: archive file [/home/abi/fetcher/tmp/th-influx-sdk-1.0.1.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - main [MainThread]: End processing [th-influx-sdk]: success
+[2024-04-19 09:18:51] INFO root fetch - processPackages [sugarpowder]: Remove: archive file [/home/abi/fetcher/tmp/sugarpowder-0.2.0.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - processPackages [sugarpowder]: Remove: archive file [/home/abi/fetcher/tmp/sugarpowder-0.3.0.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - main [MainThread]: End processing [sugarpowder]: success
+[2024-04-19 09:18:51] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit_taxonomy-0.1.1.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - processPackages [localcosmos-app-kit-taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit_taxonomy-0.1.2.tar.gz]
+[2024-04-19 09:18:51] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit-taxonomy]: success
+[2024-04-19 09:18:51] INFO root fetch - processPackages [pytest-yaml-sanmu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yaml_sanmu-0.2.6-py3-none-any.whl.zip]
+[2024-04-19 09:18:51] INFO root fetch - processPackages [pytest-yaml-sanmu]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yaml_sanmu-0.3.0.dev0-cp312-cp312-win_amd64.whl.zip]
+[2024-04-19 09:18:51] INFO root fetch - main [MainThread]: End processing [pytest-yaml-sanmu]: success
+[2024-04-19 09:18:52] INFO root fetch - processPackages [nabu]: Remove: archive file [/home/abi/fetcher/tmp/nabu-2024.1.5.tar.gz]
+[2024-04-19 09:18:52] INFO root fetch - processPackages [nabu]: Remove: archive file [/home/abi/fetcher/tmp/nabu-2024.1.6.tar.gz]
+[2024-04-19 09:18:52] INFO root fetch - main [MainThread]: End processing [nabu]: success
+[2024-04-19 09:18:52] INFO root fetch - main [MainThread]: Store serial: [22837956]
