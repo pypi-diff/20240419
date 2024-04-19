@@ -20170,3 +20170,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:36:56] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-6.5.1-cp39-none-any.whl.zip]
 [2024-04-19 13:36:56] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
 [2024-04-19 13:36:56] INFO root fetch - main [MainThread]: Store serial: [22841103]
+[2024-04-19 13:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841103]
+[2024-04-19 13:39:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 13:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli
+[2024-04-19 13:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opengate-data
+[2024-04-19 13:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlsnasdisplay
+[2024-04-19 13:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readfcs
+[2024-04-19 13:39:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arcpyext
+[2024-04-19 13:39:12] INFO root fetch - processPackages [arcpyext]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 13:39:12] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.5.3] Old Version: [8.5.0]
+[2024-04-19 13:39:12] INFO root fetch - processPackages [readfcs]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-19 13:39:12] INFO root fetch - processPackages [opengate-data]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 13:39:12] INFO root fetch - processPackages [zlsnasdisplay]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 13:39:12] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/b8/07/c57ea17790c3dc3ddeb99d19b7a396f0450000229851a06964d2411435c6/pyarmor.cli-8.5.0-py3-none-any.whl
+[2024-04-19 13:39:12] INFO root fetch - processPackages [opengate-data]: Downloading https://files.pythonhosted.org/packages/0e/46/d5a067f5ad8c91e09d5b12355bd99549587b42a59b1061954b3490534046/opengate-data-1.0.4.tar.gz
+[2024-04-19 13:39:12] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/a8/57/7f7abfe9f93dec121d325f5bc88b6401fad7044f7e0f3fdb0faf5114e2b3/readfcs-1.1.7.tar.gz
+[2024-04-19 13:39:12] INFO root fetch - processPackages [zlsnasdisplay]: Downloading https://files.pythonhosted.org/packages/ce/20/69246a8babdb2157e060988e413d5c9a79f5332a1d63568017f016dfafab/zlsnasdisplay-1.0.0.tar.gz
+[2024-04-19 13:39:12] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/af/eb/0d5f144561d2a0dab2cb717956e2051169c299d412df7da0d8730577b7b3/arcpyext-0.7.8-py2.py3-none-any.whl
+[2024-04-19 13:39:13] INFO root fetch - processPackages [opengate-data]: Downloading https://files.pythonhosted.org/packages/f8/2d/a029478b2c2c0d31e3a1c23ba3c2e24695f662154047853a2722e2254e1b/opengate_data-1.0.5.tar.gz
+[2024-04-19 13:39:13] INFO root fetch - processPackages [readfcs]: Downloading https://files.pythonhosted.org/packages/05/2d/44d7c7f772162200dfe8a909fec3bd844b2e43ba6e851102acd23a9ad84e/readfcs-1.1.8.tar.gz
+[2024-04-19 13:39:13] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/85/85/85fcf9ba4141f32d8256b75a153208ba5bd88e0a68cd76ffc97c9e015803/pyarmor.cli-8.5.3-py3-none-any.whl
+[2024-04-19 13:39:13] INFO root fetch - processPackages [arcpyext]: Downloading https://files.pythonhosted.org/packages/8e/70/c8a3549a9ad665f3831b83fb3320d345e16d3687c177c70a07ba1afce80d/arcpyext-0.7.9-py2.py3-none-any.whl
+[2024-04-19 13:39:13] INFO root fetch - processPackages [opengate-data]: executing diffoscope
+[2024-04-19 13:39:13] INFO root fetch - processPackages [opengate-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengate-data-1.0.4.tar.gz tmp/opengate_data-1.0.5.tar.gz --markdown 20240419/o/opengate-data/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 13:39:13] INFO root fetch - processPackages [arcpyext]: executing diffoscope
+[2024-04-19 13:39:13] INFO root fetch - processPackages [arcpyext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip --markdown 20240419/a/arcpyext/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 13:39:13] INFO root fetch - processPackages [readfcs]: executing diffoscope
+[2024-04-19 13:39:13] INFO root fetch - processPackages [readfcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readfcs-1.1.7.tar.gz tmp/readfcs-1.1.8.tar.gz --markdown 20240419/r/readfcs/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-19 13:39:13] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2024-04-19 13:39:13] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.5.0-py3-none-any.whl.zip tmp/pyarmor.cli-8.5.3-py3-none-any.whl.zip --markdown 20240419/p/pyarmor.cli/8.5.0-8.5.3/README.md --exclude *.pyd
+[2024-04-19 13:39:13] INFO root fetch - processPackages [zlsnasdisplay]: Downloading https://files.pythonhosted.org/packages/8a/ae/2375fe84705cf6310c362e0d5b219bf4465b25965c02f9c4f70b41637b87/zlsnasdisplay-1.0.1.tar.gz
+[2024-04-19 13:39:13] INFO root fetch - processPackages [zlsnasdisplay]: executing diffoscope
+[2024-04-19 13:39:13] INFO root fetch - processPackages [zlsnasdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zlsnasdisplay-1.0.0.tar.gz tmp/zlsnasdisplay-1.0.1.tar.gz --markdown 20240419/z/zlsnasdisplay/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 13:39:13] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.7.tar.gz]
+[2024-04-19 13:39:13] INFO root fetch - processPackages [readfcs]: Remove: archive file [/home/abi/fetcher/tmp/readfcs-1.1.8.tar.gz]
+[2024-04-19 13:39:13] INFO root fetch - main [MainThread]: End processing [readfcs]: success
+[2024-04-19 13:39:13] INFO root fetch - processPackages [opengate-data]: Remove: archive file [/home/abi/fetcher/tmp/opengate-data-1.0.4.tar.gz]
+[2024-04-19 13:39:13] INFO root fetch - processPackages [opengate-data]: Remove: archive file [/home/abi/fetcher/tmp/opengate_data-1.0.5.tar.gz]
+[2024-04-19 13:39:13] INFO root fetch - main [MainThread]: End processing [opengate-data]: success
+[2024-04-19 13:39:14] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.8-py2.py3-none-any.whl.zip]
+[2024-04-19 13:39:14] INFO root fetch - processPackages [arcpyext]: Remove: archive file [/home/abi/fetcher/tmp/arcpyext-0.7.9-py2.py3-none-any.whl.zip]
+[2024-04-19 13:39:14] INFO root fetch - main [MainThread]: End processing [arcpyext]: success
+[2024-04-19 13:39:14] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.0-py3-none-any.whl.zip]
+[2024-04-19 13:39:14] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.5.3-py3-none-any.whl.zip]
+[2024-04-19 13:39:14] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2024-04-19 13:39:15] INFO root fetch - processPackages [zlsnasdisplay]: Remove: archive file [/home/abi/fetcher/tmp/zlsnasdisplay-1.0.0.tar.gz]
+[2024-04-19 13:39:15] INFO root fetch - processPackages [zlsnasdisplay]: Remove: archive file [/home/abi/fetcher/tmp/zlsnasdisplay-1.0.1.tar.gz]
+[2024-04-19 13:39:15] INFO root fetch - main [MainThread]: End processing [zlsnasdisplay]: success
+[2024-04-19 13:39:15] INFO root fetch - main [MainThread]: Store serial: [22841124]
