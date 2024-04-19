@@ -6893,3 +6893,42 @@
 [2024-04-19 03:26:08] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4rc0.tar.gz]
 [2024-04-19 03:26:08] INFO root fetch - main [MainThread]: End processing [linktools]: success
 [2024-04-19 03:26:08] INFO root fetch - main [MainThread]: Store serial: [22835140]
+[2024-04-19 03:28:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835140]
+[2024-04-19 03:28:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 03:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediffx
+[2024-04-19 03:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circuitpython-stubs
+[2024-04-19 03:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hsadev-kit
+[2024-04-19 03:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookieplone
+[2024-04-19 03:28:17] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404180125] Old Version: [1.0.0.dev202404170125]
+[2024-04-19 03:28:17] INFO root fetch - processPackages [cookieplone]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-19 03:28:17] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/23/bb/1a98109f51a6e37c627ee4e62a524e242a471edd0ae5237c70d46c614e9a/onediffx-1.0.0.dev202404170125.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [hsadev-kit]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 03:28:17] INFO root fetch - processPackages [circuitpython-stubs]: New version: [9.1.0b1] Old Version: [9.1.0b0]
+[2024-04-19 03:28:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/2b/98/9dcd8a8db0a9f1fbd681562802aca6eb041fd47dfc38f759c86213cc0198/cookieplone-0.1.0.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [hsadev-kit]: Downloading https://files.pythonhosted.org/packages/16/06/bc73f9a7d5c121a1bacf0537eec4068b14d9a901707f684b854c7eae324d/hsadev-kit-0.0.5.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/dc/bf/3ae439f4a6bcb50a600842c3020a2561df1cccc651e6ff00b06007c787e5/circuitpython-stubs-9.1.0b0.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/9e/a5/e3aedac092eeff49e6d3d0c1a8610db4f3a3c3b8ea518e407594f6796094/onediffx-1.0.0.dev202404180125.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [cookieplone]: Downloading https://files.pythonhosted.org/packages/79/70/fb1cdf6d4f2bf2347ae6b25ddc1babd76db4f65d3621a742d44359cb937c/cookieplone-0.2.0.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-19 03:28:17] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404170125.tar.gz tmp/onediffx-1.0.0.dev202404180125.tar.gz --markdown 20240419/o/onediffx/1.0.0.dev202404170125-1.0.0.dev202404180125/README.md --exclude *.pyd
+[2024-04-19 03:28:17] INFO root fetch - processPackages [hsadev-kit]: Downloading https://files.pythonhosted.org/packages/27/22/c22d48544f166de18fd4a11064c19f8716de8b93220aa36186bf636ea171/hsadev_kit-0.0.6.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [cookieplone]: executing diffoscope
+[2024-04-19 03:28:17] INFO root fetch - processPackages [cookieplone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookieplone-0.1.0.tar.gz tmp/cookieplone-0.2.0.tar.gz --markdown 20240419/c/cookieplone/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-19 03:28:17] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/26/9d/98f375774caedcf3474b9f4321872df488a6be2c63e68bb17c557c84e891/circuitpython_stubs-9.1.0b1.tar.gz
+[2024-04-19 03:28:17] INFO root fetch - processPackages [hsadev-kit]: executing diffoscope
+[2024-04-19 03:28:17] INFO root fetch - processPackages [hsadev-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsadev-kit-0.0.5.tar.gz tmp/hsadev_kit-0.0.6.tar.gz --markdown 20240419/h/hsadev-kit/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 03:28:17] INFO root fetch - processPackages [circuitpython-stubs]: executing diffoscope
+[2024-04-19 03:28:17] INFO root fetch - processPackages [circuitpython-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-stubs-9.1.0b0.tar.gz tmp/circuitpython_stubs-9.1.0b1.tar.gz --markdown 20240419/c/circuitpython-stubs/9.1.0b0-9.1.0b1/README.md --exclude *.pyd
+[2024-04-19 03:28:18] INFO root fetch - processPackages [hsadev-kit]: Remove: archive file [/home/abi/fetcher/tmp/hsadev-kit-0.0.5.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - processPackages [hsadev-kit]: Remove: archive file [/home/abi/fetcher/tmp/hsadev_kit-0.0.6.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - main [MainThread]: End processing [hsadev-kit]: success
+[2024-04-19 03:28:18] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.1.0.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - processPackages [cookieplone]: Remove: archive file [/home/abi/fetcher/tmp/cookieplone-0.2.0.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - main [MainThread]: End processing [cookieplone]: success
+[2024-04-19 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404170125.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404180125.tar.gz]
+[2024-04-19 03:28:18] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-19 03:28:22] INFO root fetch - processPackages [circuitpython-stubs]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-stubs-9.1.0b0.tar.gz]
+[2024-04-19 03:28:22] INFO root fetch - processPackages [circuitpython-stubs]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython_stubs-9.1.0b1.tar.gz]
+[2024-04-19 03:28:22] INFO root fetch - main [MainThread]: End processing [circuitpython-stubs]: success
+[2024-04-19 03:28:22] INFO root fetch - main [MainThread]: Store serial: [22835210]
