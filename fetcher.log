@@ -7959,3 +7959,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:38:40] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
 [2024-04-19 04:38:40] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
 [2024-04-19 04:38:40] INFO root fetch - main [MainThread]: Store serial: [22835865]
+[2024-04-19 04:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835865]
+[2024-04-19 04:40:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 04:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-19 04:40:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jetson-examples
+[2024-04-19 04:40:49] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-19 04:40:49] INFO root fetch - processPackages [jetson-examples]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 04:40:49] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-19 04:40:49] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-19 04:40:49] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/65/80/30ed9f153d31c484707895ee7240c704f9db980e72b610eb8327bcc7ebb7/jetson_examples-0.0.5.tar.gz
+[2024-04-19 04:40:49] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-19 04:40:49] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240419/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-19 04:40:49] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/fe/ef/ef59ac142c18244d720aa28199d9debdfcd8e6bd38b87f0f5e2cf2ae5827/jetson_examples-0.0.6.tar.gz
+[2024-04-19 04:40:49] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-04-19 04:40:49] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson_examples-0.0.5.tar.gz tmp/jetson_examples-0.0.6.tar.gz --markdown 20240419/j/jetson-examples/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 04:40:50] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-19 04:40:50] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-19 04:40:50] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-19 04:40:50] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.5.tar.gz]
+[2024-04-19 04:40:50] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.6.tar.gz]
+[2024-04-19 04:40:50] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-04-19 04:40:50] INFO root fetch - main [MainThread]: Store serial: [22835871]
