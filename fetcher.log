@@ -14145,3 +14145,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:12:09] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_qe-3.2.0.tar.gz]
 [2024-04-19 10:12:09] INFO root fetch - main [MainThread]: End processing [django-cms-qe]: success
 [2024-04-19 10:12:09] INFO root fetch - main [MainThread]: Store serial: [22838510]
+[2024-04-19 10:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838510]
+[2024-04-19 10:14:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 10:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qualesim-quiets
+[2024-04-19 10:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exllamav2
+[2024-04-19 10:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snakemake
+[2024-04-19 10:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moviechat
+[2024-04-19 10:14:18] INFO root fetch - processPackages [qualesim-quiets]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 10:14:18] INFO root fetch - processPackages [moviechat]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 10:14:18] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/b8/dc/0ba5f0431b5120d4b3de745f60acde15c8a3334ab40f89e3c92ae8c18e99/qualesim-quiets-1.0.4.tar.gz
+[2024-04-19 10:14:18] INFO root fetch - processPackages [exllamav2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 10:14:18] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/c5/30/8d815ef900b0fac15ce682f14bbdd5de64c26f8836a5cea4a46288d645f5/moviechat-0.4.0.tar.gz
+[2024-04-19 10:14:18] INFO root fetch - processPackages [snakemake]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-19 10:14:18] INFO root fetch - processPackages [exllamav2]: Downloading https://files.pythonhosted.org/packages/a0/6c/bb8613bcf4288ed911d39f136486cef750a7ba5c05892052ef83422ccfa7/exllamav2-0.0.8-py3-none-any.whl
+[2024-04-19 10:14:18] INFO root fetch - processPackages [qualesim-quiets]: Downloading https://files.pythonhosted.org/packages/07/aa/bbc9a59bf906c614071ee0ccd2a08bab0fee236bdb8b44c26b4c3421d8ba/qualesim-quiets-1.0.5.tar.gz
+[2024-04-19 10:14:18] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/f0/3e/3386739ee49f841cc84f08989fb924917414aa0438c4559d48674a8c920b/snakemake-8.8.0.tar.gz
+[2024-04-19 10:14:18] INFO root fetch - processPackages [qualesim-quiets]: executing diffoscope
+[2024-04-19 10:14:18] INFO root fetch - processPackages [qualesim-quiets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quiets-1.0.4.tar.gz tmp/qualesim-quiets-1.0.5.tar.gz --markdown 20240419/q/qualesim-quiets/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 10:14:18] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/fc/35/850de825fb8c305472e92a3aa5a9931da52d4b0d339c99ebdb51b8cea09e/moviechat-0.4.1.tar.gz
+[2024-04-19 10:14:19] INFO root fetch - processPackages [exllamav2]: Downloading https://files.pythonhosted.org/packages/f2/79/8956771fb34831200a9ccf6ba088252e3efccd09220c6197d8fca522fd2c/exllamav2-0.0.9-py3-none-any.whl
+[2024-04-19 10:14:19] INFO root fetch - processPackages [moviechat]: executing diffoscope
+[2024-04-19 10:14:19] INFO root fetch - processPackages [moviechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moviechat-0.4.0.tar.gz tmp/moviechat-0.4.1.tar.gz --markdown 20240419/m/moviechat/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 10:14:19] INFO root fetch - processPackages [exllamav2]: executing diffoscope
+[2024-04-19 10:14:19] INFO root fetch - processPackages [exllamav2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exllamav2-0.0.8-py3-none-any.whl.zip tmp/exllamav2-0.0.9-py3-none-any.whl.zip --markdown 20240419/e/exllamav2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 10:14:19] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/be/07/0040ab91da28bcd9077a8762748deba3b02dd8f7613e14589e4ec0f25aab/snakemake-8.9.0.tar.gz
+[2024-04-19 10:14:19] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2024-04-19 10:14:19] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-8.8.0.tar.gz tmp/snakemake-8.9.0.tar.gz --markdown 20240419/s/snakemake/8.8.0-8.9.0/README.md --exclude *.pyd
+[2024-04-19 10:14:19] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.4.tar.gz]
+[2024-04-19 10:14:19] INFO root fetch - processPackages [qualesim-quiets]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quiets-1.0.5.tar.gz]
+[2024-04-19 10:14:19] INFO root fetch - main [MainThread]: End processing [qualesim-quiets]: success
+[2024-04-19 10:14:19] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.4.0.tar.gz]
+[2024-04-19 10:14:19] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.4.1.tar.gz]
+[2024-04-19 10:14:19] INFO root fetch - main [MainThread]: End processing [moviechat]: success
+[2024-04-19 10:14:19] INFO root fetch - processPackages [exllamav2]: Remove: archive file [/home/abi/fetcher/tmp/exllamav2-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 10:14:19] INFO root fetch - processPackages [exllamav2]: Remove: archive file [/home/abi/fetcher/tmp/exllamav2-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 10:14:19] INFO root fetch - main [MainThread]: End processing [exllamav2]: success
+[2024-04-19 10:14:20] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.8.0.tar.gz]
+[2024-04-19 10:14:20] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-8.9.0.tar.gz]
+[2024-04-19 10:14:20] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2024-04-19 10:14:20] INFO root fetch - main [MainThread]: Store serial: [22838522]
