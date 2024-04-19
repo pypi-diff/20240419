@@ -17817,3 +17817,138 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:09:15] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
 [2024-04-19 12:09:15] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
 [2024-04-19 12:09:15] INFO root fetch - main [MainThread]: Store serial: [22840052]
+[2024-04-19 12:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840052]
+[2024-04-19 12:11:35] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resample
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: collective.elastic.ingest
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PKDevTools
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arts
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metrify
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.elastic.plone
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: base95
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ado_wrapper
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nisupply
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: accusort
+[2024-04-19 12:11:35] INFO root fetch - processPackages [resample]: New version: [1.8.1rc1] Old Version: [1.8.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ado_wrapper]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [PKDevTools]: New version: [0.13.20240418.97] Old Version: [0.13.20240418.96]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [collective.elastic.ingest]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [metrify]: New version: [0.1.3.2] Old Version: [0.1.3.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [collective.elastic.plone]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [nisupply]: New version: [2023.3.10] Old Version: [1.1.0]
+[2024-04-19 12:11:35] WARNING root fetch - processPackages [accusort]: Skipping, unable to determine old version
+[2024-04-19 12:11:35] INFO root fetch - processPackages [accusort]: Start processing: e6data-python-connector
+[2024-04-19 12:11:35] INFO root fetch - main [MainThread]: End processing [accusort] error
+[2024-04-19 12:11:35] INFO root fetch - processPackages [arts]: New version: [2024.4.19] Old Version: [2024.4.13]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/8d/63/43ce663317af71c7175545ead868c6f74b827db2be0b8e39c04c844efbe1/ado_wrapper-1.1.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [base95]: New version: [2.0] Old Version: [1.0.1]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/bb/8d/0ad875d06c00f5e6e731e79acb3da4c979c685f5f735a0e91ed3a0495e92/PKDevTools-0.13.20240418.96.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/a7/10/5a83900edf0ff45ef5b92443701e9785cb7d0aa845f108cb46b4c5a90a76/resample-1.8.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [nisupply]: Downloading https://files.pythonhosted.org/packages/5e/30/2bcde1fa0d21cbbdf8c7f7841bbc1e195ff313b809fe752acdf1fa883327/nisupply-1.1.0.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [collective.elastic.ingest]: Downloading https://files.pythonhosted.org/packages/eb/d2/d94050e73aa0cdf9f4abc8599c320b2a5de8bb1e1720f09721df4cff0872/collective.elastic.ingest-2.0.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [collective.elastic.plone]: Downloading https://files.pythonhosted.org/packages/d4/91/a669ca33d8dfc3aef1d5f91336867e64ef8d73228e070859094cdc3cd8de/collective.elastic.plone-2.0.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-04-19 12:11:35] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/1e/9a/5f84ff0051720acd8cd1afaf5a162f4691a1951bb096a974ef5ea0ea5a6a/arts-2024.4.13.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [metrify]: Downloading https://files.pythonhosted.org/packages/eb/69/46a6bbfc5bcfadfc824636c9066bb2731ba7ad84ccb1de6ffd6ed975751c/metrify-0.1.3.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [base95]: Downloading https://files.pythonhosted.org/packages/ea/f7/d2791a07c093c78907d121916821a1c9f65e09839944f196733618348688/base95-1.0.1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [PKDevTools]: Downloading https://files.pythonhosted.org/packages/b8/b3/0fca99da081ceaa4765e1a587b685eb57d306a33a11b776033363b17d495/PKDevTools-0.13.20240418.97.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/0d/d4/2a3b4b4d10bbc8ddd8d6fc8cdf030adddff04003e42d73d93155a304418b/resample-1.8.1rc1.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/77/6e/0896221a128d8ef5b54d130728667ac165f53a94d17454ea7b9ae1f40aed/ado_wrapper-1.1.2.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [nisupply]: Downloading https://files.pythonhosted.org/packages/ec/77/32c4faafbc1ff79b40915229cb28837f71b0c8c55c548c87552c2f65dbce/nisupply-2023.3.10.tar.gz
+[2024-04-19 12:11:35] INFO root fetch - processPackages [PKDevTools]: executing diffoscope
+[2024-04-19 12:11:35] INFO root fetch - processPackages [PKDevTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PKDevTools-0.13.20240418.96.tar.gz tmp/PKDevTools-0.13.20240418.97.tar.gz --markdown 20240419/P/PKDevTools/0.13.20240418.96-0.13.20240418.97/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.plone]: Downloading https://files.pythonhosted.org/packages/10/b7/00ccba9845f62ad43586deae0c6f5e1bc23ecd9494b7c35307f431d19d44/collective_elastic_plone-2.1.0.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [metrify]: Downloading https://files.pythonhosted.org/packages/c0/c2/1e755edcde7d8b3201b051b472f5c49e2ffed98fd1c682e8d44c4bba3de6/metrify-0.1.3.2.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.ingest]: Downloading https://files.pythonhosted.org/packages/43/1d/ff44c022b3f08c736b9c90eb88a94fd59a6b05bf7e379c0cd6999a1cf84c/collective_elastic_ingest-2.1.0.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.1.1.tar.gz tmp/ado_wrapper-1.1.2.tar.gz --markdown 20240419/a/ado_wrapper/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [resample]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [resample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resample-1.8.1.tar.gz tmp/resample-1.8.1rc1.tar.gz --markdown 20240419/r/resample/1.8.1-1.8.1rc1/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/3f/ad/0a983e01ee05586202b3c2cbbe0e949e8eeb1842e35f5424f432249190ab/arts-2024.4.19.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [base95]: Downloading https://files.pythonhosted.org/packages/ba/cd/71bf746c4a90c22e72860fc75ec4006edad3579e91050a04e5a057ad26ed/base95-2.0.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.plone]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.plone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.elastic.plone-2.0.1.tar.gz tmp/collective_elastic_plone-2.1.0.tar.gz --markdown 20240419/c/collective.elastic.plone/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [nisupply]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [nisupply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nisupply-1.1.0.tar.gz tmp/nisupply-2023.3.10.tar.gz --markdown 20240419/n/nisupply/1.1.0-2023.3.10/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.ingest]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [collective.elastic.ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.elastic.ingest-2.0.1.tar.gz tmp/collective_elastic_ingest-2.1.0.tar.gz --markdown 20240419/c/collective.elastic.ingest/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [metrify]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [metrify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrify-0.1.3.1.tar.gz tmp/metrify-0.1.3.2.tar.gz --markdown 20240419/m/metrify/0.1.3.1-0.1.3.2/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [arts]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2024.4.13.tar.gz tmp/arts-2024.4.19.tar.gz --markdown 20240419/a/arts/2024.4.13-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-04-19 12:11:36] INFO root fetch - processPackages [base95]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [base95]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/base95-1.0.1.tar.gz tmp/base95-2.0.tar.gz --markdown 20240419/b/base95/1.0.1-2.0/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-04-19 12:11:36] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240419/e/e6data-python-connector/2.1.9-2.1.9.dev0/README.md --exclude *.pyd
+[2024-04-19 12:11:36] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240418.96.tar.gz]
+[2024-04-19 12:11:36] INFO root fetch - processPackages [PKDevTools]: Remove: archive file [/home/abi/fetcher/tmp/PKDevTools-0.13.20240418.97.tar.gz]
+[2024-04-19 12:11:36] INFO root fetch - processPackages [PKDevTools]: Start processing: ropt
+[2024-04-19 12:11:36] INFO root fetch - main [MainThread]: End processing [PKDevTools]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [nisupply]: Remove: archive file [/home/abi/fetcher/tmp/nisupply-1.1.0.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [nisupply]: Remove: archive file [/home/abi/fetcher/tmp/nisupply-2023.3.10.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [nisupply]: Start processing: django-microservice-common
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [nisupply]: success
+[2024-04-19 12:11:37] WARNING root fetch - processPackages [ropt]: Skipping, unable to determine old version
+[2024-04-19 12:11:37] INFO root fetch - processPackages [ropt]: Start processing: tf-keras-nightly
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [ropt] error
+[2024-04-19 12:11:37] INFO root fetch - processPackages [django-microservice-common]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.2.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [ado_wrapper]: Start processing: CMDHelpMeTool
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.8.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.8.1rc1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [resample]: Start processing: skip-django-pyston
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [resample]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024041809] Old Version: [2.17.0.dev2024041709]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [django-microservice-common]: Downloading https://files.pythonhosted.org/packages/85/28/28302bc0ef077398073ac47e2473e957ce83aa9de7f13b7b5d85adf31476/django_microservice_common-0.1.5-py3-none-any.whl
+[2024-04-19 12:11:37] INFO root fetch - processPackages [base95]: Remove: archive file [/home/abi/fetcher/tmp/base95-1.0.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [base95]: Remove: archive file [/home/abi/fetcher/tmp/base95-2.0.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [base95]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/6c/39/aa71632da4de36f6ca3cf7638c82ded2ae689dfc5bf9f54a1d4829b71aed/tf_keras_nightly-2.17.0.dev2024041709.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [metrify]: Remove: archive file [/home/abi/fetcher/tmp/metrify-0.1.3.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [metrify]: Remove: archive file [/home/abi/fetcher/tmp/metrify-0.1.3.2.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [metrify]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/23/f2/76bb08c2e815add8f67b9935d36c1e46be05c1d6c0ba1d6ef59320de69c6/CMDHelpMeTool-0.3.4.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [skip-django-pyston]: New version: [2.17.0] Old Version: [2.16.5.4]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [collective.elastic.ingest]: Remove: archive file [/home/abi/fetcher/tmp/collective.elastic.ingest-2.0.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [collective.elastic.ingest]: Remove: archive file [/home/abi/fetcher/tmp/collective_elastic_ingest-2.1.0.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [collective.elastic.ingest]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [collective.elastic.plone]: Remove: archive file [/home/abi/fetcher/tmp/collective.elastic.plone-2.0.1.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [collective.elastic.plone]: Remove: archive file [/home/abi/fetcher/tmp/collective_elastic_plone-2.1.0.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [collective.elastic.plone]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [django-microservice-common]: Downloading https://files.pythonhosted.org/packages/bf/65/45e10b7364df0e06c98c4832887cb7ea4c569a22506cd7163a3a792c3c86/django_microservice_common-0.1.6.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [skip-django-pyston]: Downloading https://files.pythonhosted.org/packages/a9/c5/5aca7a658cd08adc705d0bb11d041ee7e00e60b374f6e85dbb061606a6c8/skip-django-pyston-2.16.5.4.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [django-microservice-common]: executing diffoscope
+[2024-04-19 12:11:37] INFO root fetch - processPackages [django-microservice-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_microservice_common-0.1.5-py3-none-any.whl.zip tmp/django_microservice_common-0.1.6.tar.gz --markdown 20240419/d/django-microservice-common/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-19 12:11:37] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/11/6d/d45f7b68a3d7d8303f5dcaa62e17d8066882f3bf2d7174e31c45087292fa/CMDHelpMeTool-0.3.5.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 12:11:37] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.3.4.tar.gz tmp/CMDHelpMeTool-0.3.5.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-19 12:11:37] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.13.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.19.tar.gz]
+[2024-04-19 12:11:37] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2024-04-19 12:11:37] INFO root fetch - processPackages [skip-django-pyston]: Downloading https://files.pythonhosted.org/packages/f2/09/60f92e627d6a6beb7ca7a08a89057c0b4e066d041be35588f2271ef9126e/skip_django_pyston-2.17.0.tar.gz
+[2024-04-19 12:11:37] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/2a/59/4c71bad943ff66a40678899d94afecfa45e8ba52a1fa51e2625d140a0526/tf_keras_nightly-2.17.0.dev2024041809.tar.gz
+[2024-04-19 12:11:38] INFO root fetch - processPackages [django-microservice-common]: Remove: archive file [/home/abi/fetcher/tmp/django_microservice_common-0.1.5-py3-none-any.whl.zip]
+[2024-04-19 12:11:38] INFO root fetch - processPackages [django-microservice-common]: Remove: archive file [/home/abi/fetcher/tmp/django_microservice_common-0.1.6.tar.gz]
+[2024-04-19 12:11:38] INFO root fetch - main [MainThread]: End processing [django-microservice-common]: success
+[2024-04-19 12:11:38] INFO root fetch - processPackages [skip-django-pyston]: executing diffoscope
+[2024-04-19 12:11:38] INFO root fetch - processPackages [skip-django-pyston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-pyston-2.16.5.4.tar.gz tmp/skip_django_pyston-2.17.0.tar.gz --markdown 20240419/s/skip-django-pyston/2.16.5.4-2.17.0/README.md --exclude *.pyd
+[2024-04-19 12:11:38] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-19 12:11:38] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024041709.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024041809.tar.gz --markdown 20240419/t/tf-keras-nightly/2.17.0.dev2024041709-2.17.0.dev2024041809/README.md --exclude *.pyd
+[2024-04-19 12:11:38] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.3.4.tar.gz]
+[2024-04-19 12:11:38] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.3.5.tar.gz]
+[2024-04-19 12:11:38] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 12:11:39] INFO root fetch - processPackages [skip-django-pyston]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-pyston-2.16.5.4.tar.gz]
+[2024-04-19 12:11:39] INFO root fetch - processPackages [skip-django-pyston]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_pyston-2.17.0.tar.gz]
+[2024-04-19 12:11:39] INFO root fetch - main [MainThread]: End processing [skip-django-pyston]: success
+[2024-04-19 12:11:40] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041709.tar.gz]
+[2024-04-19 12:11:40] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041809.tar.gz]
+[2024-04-19 12:11:40] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-19 12:11:40] INFO root fetch - main [MainThread]: Store serial: [22840102]
