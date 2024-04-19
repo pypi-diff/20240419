@@ -18015,3 +18015,30 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:14:08] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b8.tar.gz]
 [2024-04-19 12:14:08] INFO root fetch - main [MainThread]: End processing [epyt]: success
 [2024-04-19 12:14:08] INFO root fetch - main [MainThread]: Store serial: [22840138]
+[2024-04-19 12:16:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840138]
+[2024-04-19 12:16:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RoboCupDBA
+[2024-04-19 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rusvm
+[2024-04-19 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skip-django-generic-m2m-field
+[2024-04-19 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genes2genes
+[2024-04-19 12:16:30] INFO root fetch - processPackages [RoboCupDBA]: New version: [0.3] Old Version: [0.2]
+[2024-04-19 12:16:30] WARNING root fetch - processPackages [rusvm]: Skipping, unable to determine old version
+[2024-04-19 12:16:30] INFO root fetch - main [MainThread]: End processing [rusvm] error
+[2024-04-19 12:16:30] WARNING root fetch - processPackages [genes2genes]: Skipping, unable to determine old version
+[2024-04-19 12:16:30] INFO root fetch - main [MainThread]: End processing [genes2genes] error
+[2024-04-19 12:16:30] INFO root fetch - processPackages [skip-django-generic-m2m-field]: New version: [0.1.0] Old Version: [0.0.9.3]
+[2024-04-19 12:16:30] INFO root fetch - processPackages [RoboCupDBA]: Downloading https://files.pythonhosted.org/packages/e3/f4/f263c52d41732afe6572092790d57ab1c38087f77fcc0c6b488d56d461de/RoboCupDBA-0.2.tar.gz
+[2024-04-19 12:16:30] INFO root fetch - processPackages [skip-django-generic-m2m-field]: Downloading https://files.pythonhosted.org/packages/ed/28/40a8c0dee2aac006859e884292d44ef7491408fe38900b4f82fc876c4183/skip-django-generic-m2m-field-0.0.9.3.tar.gz
+[2024-04-19 12:16:30] INFO root fetch - processPackages [RoboCupDBA]: Downloading https://files.pythonhosted.org/packages/d9/33/ebb0418ee470727f9a0a9f8bc5d597cb50e7db427628d91f58704843264a/RoboCupDBA-0.3.tar.gz
+[2024-04-19 12:16:30] INFO root fetch - processPackages [RoboCupDBA]: executing diffoscope
+[2024-04-19 12:16:30] INFO root fetch - processPackages [RoboCupDBA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RoboCupDBA-0.2.tar.gz tmp/RoboCupDBA-0.3.tar.gz --markdown 20240419/R/RoboCupDBA/0.2-0.3/README.md --exclude *.pyd
+[2024-04-19 12:16:30] INFO root fetch - processPackages [skip-django-generic-m2m-field]: Downloading https://files.pythonhosted.org/packages/68/04/062b878d38a4664ed2975f5be7455a4545f49f28adedeaca107e12194a19/skip_django_generic_m2m_field-0.1.0.tar.gz
+[2024-04-19 12:16:30] INFO root fetch - processPackages [skip-django-generic-m2m-field]: executing diffoscope
+[2024-04-19 12:16:30] INFO root fetch - processPackages [skip-django-generic-m2m-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-generic-m2m-field-0.0.9.3.tar.gz tmp/skip_django_generic_m2m_field-0.1.0.tar.gz --markdown 20240419/s/skip-django-generic-m2m-field/0.0.9.3-0.1.0/README.md --exclude *.pyd
+[2024-04-19 12:16:31] INFO root fetch - processPackages [RoboCupDBA]: Remove: archive file [/home/abi/fetcher/tmp/RoboCupDBA-0.2.tar.gz]
+[2024-04-19 12:16:31] INFO root fetch - processPackages [RoboCupDBA]: Remove: archive file [/home/abi/fetcher/tmp/RoboCupDBA-0.3.tar.gz]
+[2024-04-19 12:16:31] INFO root fetch - main [MainThread]: End processing [RoboCupDBA]: success
+[2024-04-19 12:16:31] INFO root fetch - processPackages [skip-django-generic-m2m-field]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-generic-m2m-field-0.0.9.3.tar.gz]
+[2024-04-19 12:16:31] INFO root fetch - processPackages [skip-django-generic-m2m-field]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_generic_m2m_field-0.1.0.tar.gz]
+[2024-04-19 12:16:31] INFO root fetch - main [MainThread]: End processing [skip-django-generic-m2m-field]: success
+[2024-04-19 12:16:31] INFO root fetch - main [MainThread]: Store serial: [22840174]
