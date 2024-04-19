@@ -21491,3 +21491,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:39:18] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog_python_examples-7.8.6.tar.gz]
 [2024-04-19 14:39:18] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
 [2024-04-19 14:39:18] INFO root fetch - main [MainThread]: Store serial: [22841708]
+[2024-04-19 14:41:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841708]
+[2024-04-19 14:41:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bench-tool
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdf-io
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moviechat
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fcs-core-model-engine
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cerbogen
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soundtools
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 14:41:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alphapulldown
+[2024-04-19 14:41:28] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [moviechat]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [soundtools]: New version: [0.2.0.3] Old Version: [0.2.0.2]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [cerbogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-19 14:41:28] WARNING root fetch - processPackages [bench-tool]: Skipping, unable to determine old version
+[2024-04-19 14:41:28] INFO root fetch - main [MainThread]: End processing [bench-tool] error
+[2024-04-19 14:41:28] INFO root fetch - processPackages [alphapulldown]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [vdf-io]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-19 14:41:28] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/d3/02/bd636086a50736ec36daceb81278c9ed047e18e633df7016a80bcdfdc9f9/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/e1/1a/9f3ab83aee9c33c4b4ecf18ec510e23acc85c1985aa4796e8f5d23f0fa89/fcs_core_model_engine-0.6.5-py3-none-win_amd64.whl
+[2024-04-19 14:41:28] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/fc/35/850de825fb8c305472e92a3aa5a9931da52d4b0d339c99ebdb51b8cea09e/moviechat-0.4.1.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/86/2e/c018367a5ad59ea3ce2d869a7cf1c4f98d0f227ddee42c97751e07e813b3/cerbogen-0.0.8.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/e6/5b/295472f065a4c698d8b518ae822ce815196360a52019ecf2d15f494b01ae/soundtools-0.2.0.2.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-19 14:41:28] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25224129>=10485760
+[2024-04-19 14:41:28] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-04-19 14:41:28] INFO root fetch - processPackages [alphapulldown]: Downloading https://files.pythonhosted.org/packages/3e/60/ce9ff2e3215ffdb54a00d8e612887840723eb0e10d4c985fc4144a667c9d/alphapulldown-2.0.0b1.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/0f/79/960c399848c4b4e73ae4986620f78539ea8443881aa1b95f0e571909a7f3/vdf_io-0.1.85.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/8b/73/1dc10c60a9fe469eba0c9bc4a35cf945bf2501598a7edf6312c94ddfb29a/soundtools-0.2.0.3.tar.gz
+[2024-04-19 14:41:28] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/56/59/3ab4a3e5636a28d383c51f02ca7f8033ed29dd02e7723f2d5b8d17b274f5/cerbogen-0.0.9.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/d4/58/657cbcfed461d0d3ae132dc0e89829971459958457cbcd9bd7d1d7dfd199/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/de/21/da7e6db97c4c2257d50ba4c8a233334d9a1f5bc05c98a9e93f02e59f7f84/moviechat-0.5.0.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [soundtools]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [soundtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundtools-0.2.0.2.tar.gz tmp/soundtools-0.2.0.3.tar.gz --markdown 20240419/s/soundtools/0.2.0.2-0.2.0.3/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240419/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.8.tar.gz tmp/cerbogen-0.0.9.tar.gz --markdown 20240419/c/cerbogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [moviechat]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [moviechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moviechat-0.4.1.tar.gz tmp/moviechat-0.5.0.tar.gz --markdown 20240419/m/moviechat/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [vdf-io]: Downloading https://files.pythonhosted.org/packages/54/48/6653d701926d0676616e4c8e49bd591c2fa67a2abb3c903073d39d6cfe8b/vdf_io-0.1.9.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [alphapulldown]: Downloading https://files.pythonhosted.org/packages/95/e1/c8184ac2401667a24e661e968d21f0883ebfbcdeb67c63c07a4ba77f435b/alphapulldown-2.0.0b2.tar.gz
+[2024-04-19 14:41:29] INFO root fetch - processPackages [vdf-io]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [vdf-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdf_io-0.1.85.tar.gz tmp/vdf_io-0.1.9.tar.gz --markdown 20240419/v/vdf-io/0.1.85-0.1.9/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [alphapulldown]: executing diffoscope
+[2024-04-19 14:41:29] INFO root fetch - processPackages [alphapulldown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphapulldown-2.0.0b1.tar.gz tmp/alphapulldown-2.0.0b2.tar.gz --markdown 20240419/a/alphapulldown/2.0.0b1-2.0.0b2/README.md --exclude *.pyd
+[2024-04-19 14:41:29] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.8.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.9.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 14:41:29] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.0.2.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.0.3.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - main [MainThread]: End processing [soundtools]: success
+[2024-04-19 14:41:29] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.3.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz]
+[2024-04-19 14:41:29] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 14:41:30] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.85.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - processPackages [vdf-io]: Remove: archive file [/home/abi/fetcher/tmp/vdf_io-0.1.9.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - main [MainThread]: End processing [vdf-io]: success
+[2024-04-19 14:41:30] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.4.1.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.5.0.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - main [MainThread]: End processing [moviechat]: success
+[2024-04-19 14:41:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-19 14:41:30] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-19 14:41:31] INFO root fetch - processPackages [alphapulldown]: Remove: archive file [/home/abi/fetcher/tmp/alphapulldown-2.0.0b1.tar.gz]
+[2024-04-19 14:41:31] INFO root fetch - processPackages [alphapulldown]: Remove: archive file [/home/abi/fetcher/tmp/alphapulldown-2.0.0b2.tar.gz]
+[2024-04-19 14:41:31] INFO root fetch - main [MainThread]: End processing [alphapulldown]: success
+[2024-04-19 14:41:31] INFO root fetch - main [MainThread]: Store serial: [22841744]
