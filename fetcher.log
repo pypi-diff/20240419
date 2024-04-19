@@ -15813,3 +15813,121 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:15:24] INFO root fetch - processPackages [datasphere]: Remove: archive file [/home/abi/fetcher/tmp/datasphere-0.6.9.tar.gz]
 [2024-04-19 11:15:24] INFO root fetch - main [MainThread]: End processing [datasphere]: success
 [2024-04-19 11:15:24] INFO root fetch - main [MainThread]: Store serial: [22839272]
+[2024-04-19 11:17:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839272]
+[2024-04-19 11:17:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: my-common-utils
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-prep-lab-kfp
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inhandtest
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inhandtest
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inhandtest
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inhandtest
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ridgeplot
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inhandtest
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JaxFin
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: markdown-mdantic
+[2024-04-19 11:17:34] WARNING root fetch - processPackages [data-prep-lab-kfp]: Skipping, unable to determine old version
+[2024-04-19 11:17:34] INFO root fetch - processPackages [data-prep-lab-kfp]: Start processing: common-tools-ai-bnq
+[2024-04-19 11:17:34] INFO root fetch - main [MainThread]: End processing [data-prep-lab-kfp] error
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: New version: [0.0.86] Old Version: [0.0.85]
+[2024-04-19 11:17:34] WARNING root fetch - processPackages [common-tools-ai-bnq]: Skipping, unable to determine old version
+[2024-04-19 11:17:34] INFO root fetch - processPackages [common-tools-ai-bnq]: Start processing: gimera
+[2024-04-19 11:17:34] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq] error
+[2024-04-19 11:17:34] INFO root fetch - processPackages [my-common-utils]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [JaxFin]: New version: [0.3.2.dev0] Old Version: [0.3.2.1.dev0]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [markdown-mdantic]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [ridgeplot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 11:17:34] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/29/91/a79b95cbc81c1160763c748acb1d342bfc452b93b3aeb487fe30e0932400/inhandtest-0.0.85.tar.gz
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/29/91/a79b95cbc81c1160763c748acb1d342bfc452b93b3aeb487fe30e0932400/inhandtest-0.0.85.tar.gz
+[2024-04-19 11:17:34] INFO root fetch - processPackages [my-common-utils]: Downloading https://files.pythonhosted.org/packages/5f/30/e6bf7d849e291b97acd7d4fccc07d26856c81b4c44641b0cc1f1d2e0a52e/my_common_utils-0.6.1.tar.gz
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/29/91/a79b95cbc81c1160763c748acb1d342bfc452b93b3aeb487fe30e0932400/inhandtest-0.0.85.tar.gz
+[2024-04-19 11:17:34] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/29/91/a79b95cbc81c1160763c748acb1d342bfc452b93b3aeb487fe30e0932400/inhandtest-0.0.85.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/29/91/a79b95cbc81c1160763c748acb1d342bfc452b93b3aeb487fe30e0932400/inhandtest-0.0.85.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [JaxFin]: Downloading https://files.pythonhosted.org/packages/0b/5a/4f0dc8fa6b639b69e9c8e211d8af60e1379d1c5266a33db28f94739f0472/jaxfin-0.3.2.1.dev0.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [markdown-mdantic]: Downloading https://files.pythonhosted.org/packages/f9/45/c2c5f4d4b4c2b13b6ee7786c7df99e4d4310c7c36866b6cfb7282fbec296/markdown-mdantic-2.1.0.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [ridgeplot]: Downloading https://files.pythonhosted.org/packages/f9/37/6434758698e719d8dadf298daec5d0a471ce9d8905812539e7b165753ac7/ridgeplot-0.1.8.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b0/9e/b4135615db1092457ade607293ca5d3c2c0315dcb849a45f7dd69d6cd2c9/inhandtest-0.0.86.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b0/9e/b4135615db1092457ade607293ca5d3c2c0315dcb849a45f7dd69d6cd2c9/inhandtest-0.0.86.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b0/9e/b4135615db1092457ade607293ca5d3c2c0315dcb849a45f7dd69d6cd2c9/inhandtest-0.0.86.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b0/9e/b4135615db1092457ade607293ca5d3c2c0315dcb849a45f7dd69d6cd2c9/inhandtest-0.0.86.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/b0/9e/b4135615db1092457ade607293ca5d3c2c0315dcb849a45f7dd69d6cd2c9/inhandtest-0.0.86.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [my-common-utils]: Downloading https://files.pythonhosted.org/packages/72/81/fc464f384343cf0391930212a50e3804e2bcdb3f1a4011011b9856833081/my_common_utils-0.6.2.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240419/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [JaxFin]: Downloading https://files.pythonhosted.org/packages/d0/2c/1c74f90987e96a637e1f54e15726c7a7191dcf50828a9815f519bd368758/JaxFin-0.3.2.dev0.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.85.tar.gz tmp/inhandtest-0.0.86.tar.gz --markdown 20240419/i/inhandtest/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [ridgeplot]: Downloading https://files.pythonhosted.org/packages/37/56/4f125f3f1c852912ab85dc44ba65194a8f5310d1d4afe66b3ccf1187be6e/ridgeplot-0.1.9.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [markdown-mdantic]: Downloading https://files.pythonhosted.org/packages/88/79/2755ccead635ae5c37272007a4614cfd3f844e7d088625afda45145084ef/markdown-mdantic-2.1.1.tar.gz
+[2024-04-19 11:17:35] INFO root fetch - processPackages [my-common-utils]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [my-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_common_utils-0.6.1.tar.gz tmp/my_common_utils-0.6.2.tar.gz --markdown 20240419/m/my-common-utils/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.85.tar.gz tmp/inhandtest-0.0.86.tar.gz --markdown 20240419/i/inhandtest/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.85.tar.gz tmp/inhandtest-0.0.86.tar.gz --markdown 20240419/i/inhandtest/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.85.tar.gz tmp/inhandtest-0.0.86.tar.gz --markdown 20240419/i/inhandtest/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [JaxFin]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [JaxFin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxfin-0.3.2.1.dev0.tar.gz tmp/JaxFin-0.3.2.dev0.tar.gz --markdown 20240419/J/JaxFin/0.3.2.1.dev0-0.3.2.dev0/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.85.tar.gz tmp/inhandtest-0.0.86.tar.gz --markdown 20240419/i/inhandtest/0.0.85-0.0.86/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [markdown-mdantic]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [markdown-mdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-mdantic-2.1.0.tar.gz tmp/markdown-mdantic-2.1.1.tar.gz --markdown 20240419/m/markdown-mdantic/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-19 11:17:35] INFO root fetch - processPackages [ridgeplot]: executing diffoscope
+[2024-04-19 11:17:35] INFO root fetch - processPackages [ridgeplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ridgeplot-0.1.8.tar.gz tmp/ridgeplot-0.1.9.tar.gz --markdown 20240419/r/ridgeplot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 11:17:36] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [gimera]: Start processing: codedepot-git-ai
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-04-19 11:17:36] INFO root fetch - processPackages [my-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/my_common_utils-0.6.1.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [my-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/my_common_utils-0.6.2.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [my-common-utils]: Start processing: tomwer
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [my-common-utils]: success
+[2024-04-19 11:17:36] INFO root fetch - processPackages [tomwer]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [markdown-mdantic]: Remove: archive file [/home/abi/fetcher/tmp/markdown-mdantic-2.1.0.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [markdown-mdantic]: Remove: archive file [/home/abi/fetcher/tmp/markdown-mdantic-2.1.1.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [markdown-mdantic]: Start processing: diffoscope
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [markdown-mdantic]: success
+[2024-04-19 11:17:36] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/be/91/1ab3961b84831b8fcfd7cce17a0cc334ef3231b6326f5e311f6f12a0397d/tomwer-1.3.8.tar.gz
+[2024-04-19 11:17:36] INFO root fetch - processPackages [JaxFin]: Remove: archive file [/home/abi/fetcher/tmp/jaxfin-0.3.2.1.dev0.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [JaxFin]: Remove: archive file [/home/abi/fetcher/tmp/JaxFin-0.3.2.dev0.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [JaxFin]: success
+[2024-04-19 11:17:36] INFO root fetch - processPackages [diffoscope]: New version: [99] Old Version: [98]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [ridgeplot]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot-0.1.8.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [ridgeplot]: Remove: archive file [/home/abi/fetcher/tmp/ridgeplot-0.1.9.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [ridgeplot]: success
+[2024-04-19 11:17:36] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/75/a0/d0e8b138cccd8f61da86fd40d4a8266353af6b5bfed4b3be48a89b58d840/codedepot_git_ai-0.0.8.tar.gz
+[2024-04-19 11:17:36] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/6d/57/c0bb17c90932b118b724c80808df82b9601c2ad2a905fcabed87d587240b/tomwer-1.3.9.tar.gz
+[2024-04-19 11:17:36] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.85.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.86.tar.gz]
+[2024-04-19 11:17:36] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2024-04-19 11:17:37] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/3a/3e/308a04b435a6c8c9956656b7f2a66d6ed38d5972df453d70202834c4ff43/diffoscope-98.tar.gz
+[2024-04-19 11:17:37] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2024-04-19 11:17:37] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2024-04-19 11:17:37] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/1f/fb/3fcdaf99d6434aada4ea578dd2a3d046376dcc888a968c197445c5dd195b/codedepot_git_ai-0.0.9.tar.gz
+[2024-04-19 11:17:37] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2024-04-19 11:17:37] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2024-04-19 11:17:37] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-04-19 11:17:37] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.8.tar.gz tmp/codedepot_git_ai-0.0.9.tar.gz --markdown 20240419/c/codedepot-git-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 11:17:37] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2024-04-19 11:17:37] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.3.8.tar.gz tmp/tomwer-1.3.9.tar.gz --markdown 20240419/t/tomwer/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-19 11:17:37] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.8.tar.gz]
+[2024-04-19 11:17:37] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.9.tar.gz]
+[2024-04-19 11:17:37] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-04-19 11:17:38] INFO root fetch - processPackages [diffoscope]: Downloading https://files.pythonhosted.org/packages/8d/e7/b8881e47097497471c7112ef2abc4328496f66e5c91772837ef365f39dc1/diffoscope-99.tar.gz
+[2024-04-19 11:17:39] INFO root fetch - processPackages [diffoscope]: executing diffoscope
+[2024-04-19 11:17:39] INFO root fetch - processPackages [diffoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffoscope-98.tar.gz tmp/diffoscope-99.tar.gz --markdown 20240419/d/diffoscope/98-99/README.md --exclude *.pyd
+[2024-04-19 11:17:40] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.8.tar.gz]
+[2024-04-19 11:17:40] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.9.tar.gz]
+[2024-04-19 11:17:40] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2024-04-19 11:17:42] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-98.tar.gz]
+[2024-04-19 11:17:42] INFO root fetch - processPackages [diffoscope]: Remove: archive file [/home/abi/fetcher/tmp/diffoscope-99.tar.gz]
+[2024-04-19 11:17:42] INFO root fetch - main [MainThread]: End processing [diffoscope]: success
+[2024-04-19 11:17:42] INFO root fetch - main [MainThread]: Store serial: [22839314]
