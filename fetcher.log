@@ -13579,3 +13579,94 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:49:58] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.2.tar.gz]
 [2024-04-19 09:49:58] INFO root fetch - main [MainThread]: End processing [philander]: success
 [2024-04-19 09:49:58] INFO root fetch - main [MainThread]: Store serial: [22838238]
+[2024-04-19 09:52:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838238]
+[2024-04-19 09:52:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autoai-ts-libs
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auro-sensors
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abtoolkit
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: medicafe
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchsurv
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk-preview
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: starred-astro
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: regex-utils
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jx3api
+[2024-04-19 09:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: casepy
+[2024-04-19 09:52:13] INFO root fetch - processPackages [abtoolkit]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [medicafe]: New version: [0.240418.2] Old Version: [0.240418.1]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [casepy]: New version: [0.0.4a1] Old Version: [0.0.3a1]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [autoai-ts-libs]: New version: [4.0.4] Old Version: [4.0.2]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [torchsurv]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/49/58/dd0e90a4aacf8d29f4450aec47a0e9e208ed03e2689fdb0133a03b12f201/abtoolkit-1.2.0.tar.gz
+[2024-04-19 09:52:13] WARNING root fetch - processPackages [auro-sensors]: Skipping, unable to determine old version
+[2024-04-19 09:52:13] INFO root fetch - processPackages [auro-sensors]: Start processing: zvolv-sdk
+[2024-04-19 09:52:13] INFO root fetch - main [MainThread]: End processing [auro-sensors] error
+[2024-04-19 09:52:13] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/5c/b7/695fee2b0d0c2bab1954aeaac774cedae1f354e2d1e93bc9393e56b31986/casepy-0.0.3a1.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [jx3api]: New version: [2024.4.19] Old Version: [2024.4.18]
+[2024-04-19 09:52:13] WARNING root fetch - processPackages [regex-utils]: Skipping, unable to determine old version
+[2024-04-19 09:52:13] INFO root fetch - processPackages [regex-utils]: Start processing: certora-cli-alpha-master
+[2024-04-19 09:52:13] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/2b/bb/4a3c180a3561f68989a8fefe0088f78d6e8a20e0237d58856b0626ca682c/medicafe-0.240418.1.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - main [MainThread]: End processing [regex-utils] error
+[2024-04-19 09:52:13] INFO root fetch - processPackages [starred-astro]: New version: [1.4.1] Old Version: [1.4]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [zvolv-sdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240419.6.18.49575] Old Version: [20240418.7.40.174324]
+[2024-04-19 09:52:13] INFO root fetch - processPackages [torchsurv]: Downloading https://files.pythonhosted.org/packages/1c/7a/5d41cd3667c5713d88cd2bf812e649bda27fead8cb5eb247700ae287ad25/torchsurv-0.1.1.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/7e/64/d5181d237b8af0cbd5c5fbced425b3eb0b4075072cacd65a915214ebcdd7/zvolv_sdk-0.0.6.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [autoai-ts-libs]: Downloading https://files.pythonhosted.org/packages/0f/41/39e2bf73cffffe2f8a31e7e2563c6be546c2ced450b837bded94a913b0ae/autoai_ts_libs-4.0.2-cp311-cp311-win_amd64.whl
+[2024-04-19 09:52:13] INFO root fetch - processPackages [jx3api]: Downloading https://files.pythonhosted.org/packages/c9/0b/d3c12e0dde939397894d40a33ecad2ffc89d9459081d8ae1f8aa7eb676c0/jx3api-2024.4.18.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [starred-astro]: Downloading https://files.pythonhosted.org/packages/8b/c4/06f70b5fc34b85afa15085c1f589d53df3bc3bf5621ce3bd96f6cb83237a/starred-astro-1.4.tar.gz
+[2024-04-19 09:52:13] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/0a/62/186170090811388d6bf573414ce981baee934fb19a8161db6ab2e38e4d50/abtoolkit-1.2.1.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/16/7f/566bc9624649074544f40fbf81d92cd044754e1f78c306d8fe158dfbd1a0/casepy-0.0.4a1.tar.gz
+[2024-04-19 09:52:14] WARNING root fetch - processPackages [autoai-ts-libs]: Skipping package: exceeds size limit 23788117>=10485760
+[2024-04-19 09:52:14] INFO root fetch - main [MainThread]: End processing [autoai-ts-libs] error
+[2024-04-19 09:52:14] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/8a/2b/ed553b5bec7916ad0fb6cf45c31abe33769f3096f00f6aae33225c145f22/certora-cli-alpha-master-20240418.7.40.174324.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [medicafe]: Downloading https://files.pythonhosted.org/packages/80/71/3b3e50d0a8d9948a01904c45e2d3979c836db060d451f25ec83443ba433f/medicafe-0.240418.2.tar.gz
+[2024-04-19 09:52:14] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14537175>=10485760
+[2024-04-19 09:52:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-19 09:52:14] INFO root fetch - processPackages [casepy]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [casepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casepy-0.0.3a1.tar.gz tmp/casepy-0.0.4a1.tar.gz --markdown 20240419/c/casepy/0.0.3a1-0.0.4a1/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [torchsurv]: Downloading https://files.pythonhosted.org/packages/9a/15/17e3ca6999851ce568ff12016bb9770647d99738ecef7eb21e3b89c9247e/torchsurv-0.1.2.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240419/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [abtoolkit]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [abtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abtoolkit-1.2.0.tar.gz tmp/abtoolkit-1.2.1.tar.gz --markdown 20240419/a/abtoolkit/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [medicafe]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [medicafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medicafe-0.240418.1.tar.gz tmp/medicafe-0.240418.2.tar.gz --markdown 20240419/m/medicafe/0.240418.1-0.240418.2/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/16/7a/c03b64fbb7df83af79941f26d0c299b9472f2c9b493a1feff8a39f05da1a/zvolv_sdk-0.0.7.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [jx3api]: Downloading https://files.pythonhosted.org/packages/5e/cc/d633ccca6096ddef9a6f3e81352d9c7096af67ae97eb360312148903fcc9/jx3api-2024.4.19.tar.gz
+[2024-04-19 09:52:14] INFO root fetch - processPackages [starred-astro]: Downloading https://files.pythonhosted.org/packages/5a/4d/a5600470cad72aa52d32cffe8e5f7088e46f2b60734bca55aa555d0d7a81/starred_astro-1.4.1-py3-none-any.whl
+[2024-04-19 09:52:14] INFO root fetch - processPackages [torchsurv]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [torchsurv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsurv-0.1.1.tar.gz tmp/torchsurv-0.1.2.tar.gz --markdown 20240419/t/torchsurv/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [zvolv-sdk]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [zvolv-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zvolv_sdk-0.0.6.tar.gz tmp/zvolv_sdk-0.0.7.tar.gz --markdown 20240419/z/zvolv-sdk/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [jx3api]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [jx3api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx3api-2024.4.18.tar.gz tmp/jx3api-2024.4.19.tar.gz --markdown 20240419/j/jx3api/2024.4.18-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [starred-astro]: executing diffoscope
+[2024-04-19 09:52:14] INFO root fetch - processPackages [starred-astro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starred-astro-1.4.tar.gz tmp/starred_astro-1.4.1-py3-none-any.whl.zip --markdown 20240419/s/starred-astro/1.4-1.4.1/README.md --exclude *.pyd
+[2024-04-19 09:52:14] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.3a1.tar.gz]
+[2024-04-19 09:52:14] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.4a1.tar.gz]
+[2024-04-19 09:52:14] INFO root fetch - main [MainThread]: End processing [casepy]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.6.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.7.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [zvolv-sdk]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [jx3api]: Remove: archive file [/home/abi/fetcher/tmp/jx3api-2024.4.18.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [jx3api]: Remove: archive file [/home/abi/fetcher/tmp/jx3api-2024.4.19.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [jx3api]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240418.1.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [abtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/abtoolkit-1.2.0.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [medicafe]: Remove: archive file [/home/abi/fetcher/tmp/medicafe-0.240418.2.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [abtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/abtoolkit-1.2.1.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [medicafe]: success
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [abtoolkit]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [torchsurv]: Remove: archive file [/home/abi/fetcher/tmp/torchsurv-0.1.1.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [torchsurv]: Remove: archive file [/home/abi/fetcher/tmp/torchsurv-0.1.2.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [torchsurv]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [starred-astro]: Remove: archive file [/home/abi/fetcher/tmp/starred-astro-1.4.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [starred-astro]: Remove: archive file [/home/abi/fetcher/tmp/starred_astro-1.4.1-py3-none-any.whl.zip]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [starred-astro]: success
+[2024-04-19 09:52:15] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-19 09:52:15] INFO root fetch - main [MainThread]: Store serial: [22838284]
