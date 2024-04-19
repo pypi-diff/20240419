@@ -18842,3 +18842,42 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:49:16] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_WlanMeas-5.0.80.tar.gz]
 [2024-04-19 12:49:16] INFO root fetch - main [MainThread]: End processing [RsCMPX-WlanMeas]: success
 [2024-04-19 12:49:16] INFO root fetch - main [MainThread]: Store serial: [22840522]
+[2024-04-19 12:51:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840522]
+[2024-04-19 12:51:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 12:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schedula
+[2024-04-19 12:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schedula-core
+[2024-04-19 12:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: owmpy
+[2024-04-19 12:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lacuscore
+[2024-04-19 12:51:25] INFO root fetch - processPackages [owmpy]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 12:51:25] INFO root fetch - processPackages [schedula-core]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-19 12:51:25] INFO root fetch - processPackages [schedula]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-19 12:51:25] INFO root fetch - processPackages [lacuscore]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-19 12:51:26] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/13/5e/22816b033c7761f58a64bdd1110cf59c9586e2307d3eebe42ec3862abb40/schedula-1.5.6.tar.gz
+[2024-04-19 12:51:26] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/5d/7f/015f92c67034a4e85dde03f7370a7f7b95f71aa50237cc59d5aeaa3fa0d8/owmpy-1.0.4.tar.gz
+[2024-04-19 12:51:26] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/1f/dd/f2a304f0b07bc59253ed8c8452b39f08001a82294671d780c119d0007712/schedula-core-1.5.6.tar.gz
+[2024-04-19 12:51:26] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/7c/f7/5389b8f90ac850365899055e1aa4f86afdc93a1696963437356b1ae0f2fb/lacuscore-1.9.1.tar.gz
+[2024-04-19 12:51:27] INFO root fetch - processPackages [owmpy]: Downloading https://files.pythonhosted.org/packages/6b/94/ad18ba098e917dc3ddb1006408f429266a7130850a4eb99e599b587d4b45/owmpy-1.0.5.tar.gz
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula-core]: Downloading https://files.pythonhosted.org/packages/3c/7c/d27a7b18393733fbd46ff84f26d051077fc6d1c17dd2a80c9420703de910/schedula_core-1.5.7.tar.gz
+[2024-04-19 12:51:27] INFO root fetch - processPackages [owmpy]: executing diffoscope
+[2024-04-19 12:51:27] INFO root fetch - processPackages [owmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owmpy-1.0.4.tar.gz tmp/owmpy-1.0.5.tar.gz --markdown 20240419/o/owmpy/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 12:51:27] INFO root fetch - processPackages [lacuscore]: Downloading https://files.pythonhosted.org/packages/b9/9c/c6d657acaa7757cbd487b16729d753df978a05a368ac8faa368d32b25af8/lacuscore-1.9.2.tar.gz
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula-core]: executing diffoscope
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-core-1.5.6.tar.gz tmp/schedula_core-1.5.7.tar.gz --markdown 20240419/s/schedula-core/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-04-19 12:51:27] INFO root fetch - processPackages [lacuscore]: executing diffoscope
+[2024-04-19 12:51:27] INFO root fetch - processPackages [lacuscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lacuscore-1.9.1.tar.gz tmp/lacuscore-1.9.2.tar.gz --markdown 20240419/l/lacuscore/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-19 12:51:27] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.4.tar.gz]
+[2024-04-19 12:51:27] INFO root fetch - processPackages [owmpy]: Remove: archive file [/home/abi/fetcher/tmp/owmpy-1.0.5.tar.gz]
+[2024-04-19 12:51:27] INFO root fetch - main [MainThread]: End processing [owmpy]: success
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/7d/6e/96f90bb01e048a5da11b84706fbff5c53b77a4fbffe99e4df5a59e769903/schedula-1.5.7.tar.gz
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula-core-1.5.6.tar.gz]
+[2024-04-19 12:51:27] INFO root fetch - processPackages [schedula-core]: Remove: archive file [/home/abi/fetcher/tmp/schedula_core-1.5.7.tar.gz]
+[2024-04-19 12:51:27] INFO root fetch - main [MainThread]: End processing [schedula-core]: success
+[2024-04-19 12:51:28] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.9.1.tar.gz]
+[2024-04-19 12:51:28] INFO root fetch - processPackages [lacuscore]: Remove: archive file [/home/abi/fetcher/tmp/lacuscore-1.9.2.tar.gz]
+[2024-04-19 12:51:28] INFO root fetch - main [MainThread]: End processing [lacuscore]: success
+[2024-04-19 12:51:28] INFO root fetch - processPackages [schedula]: executing diffoscope
+[2024-04-19 12:51:28] INFO root fetch - processPackages [schedula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-1.5.6.tar.gz tmp/schedula-1.5.7.tar.gz --markdown 20240419/s/schedula/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-04-19 12:51:30] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.6.tar.gz]
+[2024-04-19 12:51:30] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
+[2024-04-19 12:51:30] INFO root fetch - main [MainThread]: End processing [schedula]: success
+[2024-04-19 12:51:30] INFO root fetch - main [MainThread]: Store serial: [22840541]
