@@ -6953,3 +6953,24 @@
 [2024-04-19 03:30:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
 [2024-04-19 03:30:33] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
 [2024-04-19 03:30:33] INFO root fetch - main [MainThread]: Store serial: [22835278]
+[2024-04-19 03:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835278]
+[2024-04-19 03:32:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 03:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixee
+[2024-04-19 03:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meta-ai-api
+[2024-04-19 03:32:41] INFO root fetch - processPackages [meta-ai-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 03:32:41] INFO root fetch - processPackages [pixee]: New version: [0.8.3] Old Version: [0.5.5]
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/ac/b7/9ba6d2114352059890be21d7d56e3bfdad43cbeb8a38e0209ce180f1f359/meta_ai_api-1.0.8.tar.gz
+[2024-04-19 03:32:42] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/ad/6c/3c4ada32a280b207b65672324cb516b1a97f85952f7f9d69a62c1704e5ba/pixee-0.5.5.tar.gz
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/3e/cc/70d52649a8655c4b1e48a07eea5c0bddafb55ed4bc4748feed988629f6b8/meta_ai_api-1.0.9.tar.gz
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: executing diffoscope
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_ai_api-1.0.8.tar.gz tmp/meta_ai_api-1.0.9.tar.gz --markdown 20240419/m/meta-ai-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 03:32:42] INFO root fetch - processPackages [pixee]: Downloading https://files.pythonhosted.org/packages/dc/eb/5df858dc329d63a4ba4f8b3dd580dcf2aa6cbd359aa971a16cc3790f169d/pixee-0.8.3.tar.gz
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.8.tar.gz]
+[2024-04-19 03:32:42] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.9.tar.gz]
+[2024-04-19 03:32:42] INFO root fetch - main [MainThread]: End processing [meta-ai-api]: success
+[2024-04-19 03:32:43] INFO root fetch - processPackages [pixee]: executing diffoscope
+[2024-04-19 03:32:43] INFO root fetch - processPackages [pixee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixee-0.5.5.tar.gz tmp/pixee-0.8.3.tar.gz --markdown 20240419/p/pixee/0.5.5-0.8.3/README.md --exclude *.pyd
+[2024-04-19 03:32:44] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.5.5.tar.gz]
+[2024-04-19 03:32:44] INFO root fetch - processPackages [pixee]: Remove: archive file [/home/abi/fetcher/tmp/pixee-0.8.3.tar.gz]
+[2024-04-19 03:32:44] INFO root fetch - main [MainThread]: End processing [pixee]: success
+[2024-04-19 03:32:44] INFO root fetch - main [MainThread]: Store serial: [22835332]
