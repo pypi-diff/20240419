@@ -7292,3 +7292,24 @@
 [2024-04-19 03:54:37] INFO root fetch - processPackages [globus-compute-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-compute-sdk-2.9.0.tar.gz]
 [2024-04-19 03:54:37] INFO root fetch - main [MainThread]: End processing [globus-compute-sdk]: success
 [2024-04-19 03:54:37] INFO root fetch - main [MainThread]: Store serial: [22835495]
+[2024-04-19 03:56:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835495]
+[2024-04-19 03:56:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akasha-terminal
+[2024-04-19 03:56:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xl-router
+[2024-04-19 03:56:46] INFO root fetch - processPackages [xl-router]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-19 03:56:46] INFO root fetch - processPackages [akasha-terminal]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-19 03:56:46] INFO root fetch - processPackages [xl-router]: Downloading https://files.pythonhosted.org/packages/4f/3a/e9fa40a280e54f50c6b0f715c31f306b0fc006cb6f889f66cb116aa9cf1c/xl_router-0.6.7.tar.gz
+[2024-04-19 03:56:46] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/44/ba/ad1af60540b73410a76351edea1ffacfe2c1e951eed2d58a4031be3ad8fc/akasha-terminal-0.8.8.tar.gz
+[2024-04-19 03:56:46] INFO root fetch - processPackages [xl-router]: Downloading https://files.pythonhosted.org/packages/06/a1/e1024a649b9c652945d7b4ca6484d2b5c175e36a85a6abfd3a26a2afcef7/xl_router-0.6.8.tar.gz
+[2024-04-19 03:56:47] INFO root fetch - processPackages [xl-router]: executing diffoscope
+[2024-04-19 03:56:47] INFO root fetch - processPackages [xl-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl_router-0.6.7.tar.gz tmp/xl_router-0.6.8.tar.gz --markdown 20240419/x/xl-router/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: Downloading https://files.pythonhosted.org/packages/22/cd/bc4da2cd3d8a9b0bdd6542c2a920f376fc7abf8fa3d60f48b60bd6f3f13e/akasha-terminal-0.8.9.tar.gz
+[2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: executing diffoscope
+[2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasha-terminal-0.8.8.tar.gz tmp/akasha-terminal-0.8.9.tar.gz --markdown 20240419/a/akasha-terminal/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-19 03:56:47] INFO root fetch - processPackages [xl-router]: Remove: archive file [/home/abi/fetcher/tmp/xl_router-0.6.7.tar.gz]
+[2024-04-19 03:56:47] INFO root fetch - processPackages [xl-router]: Remove: archive file [/home/abi/fetcher/tmp/xl_router-0.6.8.tar.gz]
+[2024-04-19 03:56:47] INFO root fetch - main [MainThread]: End processing [xl-router]: success
+[2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.8.tar.gz]
+[2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
+[2024-04-19 03:56:47] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
+[2024-04-19 03:56:47] INFO root fetch - main [MainThread]: Store serial: [22835519]
