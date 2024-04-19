@@ -17655,3 +17655,90 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:04:30] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.2.tar.gz]
 [2024-04-19 12:04:30] INFO root fetch - main [MainThread]: End processing [globlocks]: success
 [2024-04-19 12:04:30] INFO root fetch - main [MainThread]: Store serial: [22839991]
+[2024-04-19 12:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839991]
+[2024-04-19 12:06:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skip-django-pymess
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-api-open
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sputnik-web
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gender-local
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oarepo-ui
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymrm
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edds
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pip-blame
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fmu-sumo
+[2024-04-19 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tidydata
+[2024-04-19 12:06:50] INFO root fetch - processPackages [pip-blame]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 12:06:50] WARNING root fetch - processPackages [sputnik-web]: Skipping, unable to determine old version
+[2024-04-19 12:06:50] INFO root fetch - main [MainThread]: End processing [sputnik-web] error
+[2024-04-19 12:06:50] INFO root fetch - processPackages [edds]: New version: [1.2] Old Version: [1.1]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [llm-api-open]: New version: [2.3.1] Old Version: [2.1.24]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [gender-local]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [tidydata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [skip-django-pymess]: New version: [0.8.0] Old Version: [0.7.8]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/20/af/180398f93ff963c012dca62698c6446f2749e17c22e53d40be606c81a4f0/pip_blame-0.2.0.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [oarepo-ui]: New version: [5.1.9] Old Version: [5.1.8]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [pymrm]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [fmu-sumo]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-19 12:06:50] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/7a/e7/194ef109ecd5a99382eb557e949fb3001413a19cbeb9a92ca422db205dc7/llm-api-open-2.1.24.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/d9/eb/7be9aa80b84038608523b916335ce29a3ba3ef108de76fe790307d1605f0/tidydata-0.1.8.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [gender-local]: Downloading https://files.pythonhosted.org/packages/20/bf/2fedb63c91f18b07a664f89f0f87754bb125f7f93b4006dc01330e47d73b/gender-local-0.0.6.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [edds]: Downloading https://files.pythonhosted.org/packages/cf/b0/ac4c48b60ac4ba178bccfa1eb5b7a8c56f891fc31385c3b6e6a31253d454/edds-1.1.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [skip-django-pymess]: Downloading https://files.pythonhosted.org/packages/8a/54/1bf1ae82df306bf22b4f3d334e16774b84adf9df474fafc0954066cb9e8c/skip-django-pymess-0.7.8.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/be/a0/b9aa9dcbe1d27f4079e95afecf9c441a414e2ede05f07afca07e31d0b20a/fmu-sumo-1.2.1.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [pymrm]: Downloading https://files.pythonhosted.org/packages/cf/ec/10509185004f558ed8e36060ada02bab1047695d53fb74c5698a845cdde4/pymrm-1.3.0.tar.gz
+[2024-04-19 12:06:50] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/87/64/10c65b547fcd49c12a5c9a954426830269b57a4115a7070da01f33307313/oarepo-ui-5.1.8.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/57/9a/5133e0eba8a534e721eacc28f37e80fb570af2997ee6d7ad219fc3d98da7/tidydata-0.1.9.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [llm-api-open]: Downloading https://files.pythonhosted.org/packages/ac/14/364df15baeefc6dfc1789ded160c5135c13d408962f9b1fd8df7f4f49e9e/llm_api_open-2.3.1.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [gender-local]: Downloading https://files.pythonhosted.org/packages/a1/de/8d9d5d589f03d12887847e12e1c9e846908ef406975dec20e9c48ed4edca/gender_local-0.0.7.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/73/2c/aae2295059e1b0362ac1dab79f62d4b129a630de1cd753d90f66addc05b7/pip_blame-0.2.1.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [tidydata]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [tidydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidydata-0.1.8.tar.gz tmp/tidydata-0.1.9.tar.gz --markdown 20240419/t/tidydata/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pip-blame]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pip-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_blame-0.2.0.tar.gz tmp/pip_blame-0.2.1.tar.gz --markdown 20240419/p/pip-blame/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [llm-api-open]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [llm-api-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm-api-open-2.1.24.tar.gz tmp/llm_api_open-2.3.1.tar.gz --markdown 20240419/l/llm-api-open/2.1.24-2.3.1/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [gender-local]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [gender-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gender-local-0.0.6.tar.gz tmp/gender_local-0.0.7.tar.gz --markdown 20240419/g/gender-local/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [edds]: Downloading https://files.pythonhosted.org/packages/8c/a1/802683ca2382fbcf42f7b63cdc8842839fe2886b80fb1dcd1f2cd487fe23/edds-1.2.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [skip-django-pymess]: Downloading https://files.pythonhosted.org/packages/f1/8e/ac13e659b95bc9d0d0d5e7873e011e00ebfd18061303848d7f6743480c16/skip_django_pymess-0.8.0.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/33/b6/6f7b5dd1ad8d300ddc05741e6add88c2fa3f6b88516250c8442bf5303deb/fmu_sumo-1.2.2.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [oarepo-ui]: Downloading https://files.pythonhosted.org/packages/79/8e/95316366f4c35e7329fa617d319a0c6b5a7beb26fcd76a93638415957d69/oarepo-ui-5.1.9.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [edds]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [edds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edds-1.1.tar.gz tmp/edds-1.2.tar.gz --markdown 20240419/e/edds/1.1-1.2/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pymrm]: Downloading https://files.pythonhosted.org/packages/02/c2/5abcc6c8e655c85cb1d5d9b977d3f770f563639928235fc377db8f606452/pymrm-1.3.1.tar.gz
+[2024-04-19 12:06:51] INFO root fetch - processPackages [skip-django-pymess]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [skip-django-pymess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-pymess-0.7.8.tar.gz tmp/skip_django_pymess-0.8.0.tar.gz --markdown 20240419/s/skip-django-pymess/0.7.8-0.8.0/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [oarepo-ui]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [oarepo-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-ui-5.1.8.tar.gz tmp/oarepo-ui-5.1.9.tar.gz --markdown 20240419/o/oarepo-ui/5.1.8-5.1.9/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [fmu-sumo]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [fmu-sumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmu-sumo-1.2.1.tar.gz tmp/fmu_sumo-1.2.2.tar.gz --markdown 20240419/f/fmu-sumo/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pymrm]: executing diffoscope
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pymrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymrm-1.3.0.tar.gz tmp/pymrm-1.3.1.tar.gz --markdown 20240419/p/pymrm/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.2.0.tar.gz]
+[2024-04-19 12:06:51] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.2.1.tar.gz]
+[2024-04-19 12:06:51] INFO root fetch - main [MainThread]: End processing [pip-blame]: success
+[2024-04-19 12:06:51] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.8.tar.gz]
+[2024-04-19 12:06:51] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.9.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [tidydata]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [gender-local]: Remove: archive file [/home/abi/fetcher/tmp/gender-local-0.0.6.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [gender-local]: Remove: archive file [/home/abi/fetcher/tmp/gender_local-0.0.7.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [gender-local]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm-api-open-2.1.24.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [llm-api-open]: Remove: archive file [/home/abi/fetcher/tmp/llm_api_open-2.3.1.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [llm-api-open]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [edds]: Remove: archive file [/home/abi/fetcher/tmp/edds-1.1.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [edds]: Remove: archive file [/home/abi/fetcher/tmp/edds-1.2.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [edds]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [skip-django-pymess]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-pymess-0.7.8.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [skip-django-pymess]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_pymess-0.8.0.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [skip-django-pymess]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu-sumo-1.2.1.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu_sumo-1.2.2.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [fmu-sumo]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.8.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [oarepo-ui]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-ui-5.1.9.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [oarepo-ui]: success
+[2024-04-19 12:06:52] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.0.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - processPackages [pymrm]: Remove: archive file [/home/abi/fetcher/tmp/pymrm-1.3.1.tar.gz]
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: End processing [pymrm]: success
+[2024-04-19 12:06:52] INFO root fetch - main [MainThread]: Store serial: [22840022]
