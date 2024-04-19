@@ -10728,3 +10728,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:46:31] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.2.tar.gz]
 [2024-04-19 07:46:31] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-19 07:46:31] INFO root fetch - main [MainThread]: Store serial: [22837031]
+[2024-04-19 07:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837031]
+[2024-04-19 07:48:40] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 07:50:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837031]
+[2024-04-19 07:50:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-viewflow
+[2024-04-19 07:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GaussParse
+[2024-04-19 07:50:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AminoService
+[2024-04-19 07:50:45] WARNING root fetch - processPackages [AminoService]: Skipping, unable to determine old version
+[2024-04-19 07:50:45] INFO root fetch - main [MainThread]: End processing [AminoService] error
+[2024-04-19 07:50:46] INFO root fetch - processPackages [django-viewflow]: New version: [2.0.2] Old Version: [2.0.0b8]
+[2024-04-19 07:50:46] WARNING root fetch - processPackages [GaussParse]: Skipping, unable to determine old version
+[2024-04-19 07:50:46] INFO root fetch - main [MainThread]: End processing [GaussParse] error
+[2024-04-19 07:50:46] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/7f/5b/9e81185971c52115a3be7fec1337c1431788bce241ec3feafb4a76c88c8f/django-viewflow-2.0.0b8.tar.gz
+[2024-04-19 07:50:48] INFO root fetch - processPackages [django-viewflow]: Downloading https://files.pythonhosted.org/packages/50/af/dfec5fe8f3700b4acb77ece89d4a92df2fd67012a50c24f36dca4ebdc760/django-viewflow-2.0.2.tar.gz
+[2024-04-19 07:50:48] WARNING root fetch - processPackages [django-viewflow]: Skipping package: exceeds size limit 15443108>=10485760
+[2024-04-19 07:50:48] INFO root fetch - main [MainThread]: End processing [django-viewflow] error
+[2024-04-19 07:50:48] INFO root fetch - main [MainThread]: Store serial: [22837043]
