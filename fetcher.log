@@ -23261,3 +23261,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:37:43] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
 [2024-04-19 15:37:43] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
 [2024-04-19 15:37:43] INFO root fetch - main [MainThread]: Store serial: [22842609]
+[2024-04-19 15:39:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842609]
+[2024-04-19 15:39:53] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudlib
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autogenstudio
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-search-ui
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AKoDAuth
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unquad
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-ezglossary-plugin
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dycw-pre-commit-hooks
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: andeplane-reveal-streamlit-component
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: texta-elastic-tools
+[2024-04-19 15:39:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spexwavepy
+[2024-04-19 15:39:53] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 15:39:53] WARNING root fetch - processPackages [spexwavepy]: Skipping, unable to determine old version
+[2024-04-19 15:39:53] INFO root fetch - processPackages [spexwavepy]: Start processing: phone-gen
+[2024-04-19 15:39:53] INFO root fetch - main [MainThread]: End processing [spexwavepy] error
+[2024-04-19 15:39:53] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc0]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [texta-elastic-tools]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-19 15:39:53] WARNING root fetch - processPackages [unquad]: Skipping, unable to determine old version
+[2024-04-19 15:39:53] INFO root fetch - processPackages [unquad]: Start processing: django-customvueadmin
+[2024-04-19 15:39:53] INFO root fetch - main [MainThread]: End processing [unquad] error
+[2024-04-19 15:39:53] INFO root fetch - processPackages [AKoDAuth]: New version: [1.2.2] Old Version: [1.2.0]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [dycw-pre-commit-hooks]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/5a/b6/45975146cdea2ac9601d64b6f9ec7c7d98732f78049c05be0a8f213c39c7/andeplane_reveal_streamlit_component-0.1.2.tar.gz
+[2024-04-19 15:39:53] INFO root fetch - processPackages [invenio-search-ui]: New version: [2.8.6] Old Version: [2.8.5]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/bf/cc/dbf5869c64ef153ff685ce0099476e611c5b7223beb1c94fa6fc93ad2cb5/mkdocs-ezglossary-plugin-1.5.8.tar.gz
+[2024-04-19 15:39:53] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [phone-gen]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-19 15:39:53] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/2d/2a/e5497ddc8dfe01ab57c8dfd4f67ffd841f778cd5a56c40154396aa5e3874/autogenstudio-0.0.56rc0.tar.gz
+[2024-04-19 15:39:53] INFO root fetch - processPackages [texta-elastic-tools]: Downloading https://files.pythonhosted.org/packages/8d/fb/d90cff0aa6fe31c8a3b1774a5e446de5065eda07ed5094b3fd7095b181f4/texta-elastic-tools-1.5.0.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [AKoDAuth]: Downloading https://files.pythonhosted.org/packages/26/37/e5e5453225e77b8cbb5487c5278fbf6ea9b1581908c35feab23dc2350cca/AKoDAuth-1.2.0.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [dycw-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/a2/66/4051e7072f20b6035bd7160349254d18610f2412f334b45edb21e980bb88/dycw_pre_commit_hooks-0.9.8.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [invenio-search-ui]: Downloading https://files.pythonhosted.org/packages/13/4c/eabd00eb78894a85016405925c8bdb4ce89c7f3f6f51a71df2aeeaa9852f/invenio-search-ui-2.8.5.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Downloading https://files.pythonhosted.org/packages/5a/90/38e63e4db8dddfec1030fa4e6e3a3a90e9332a5b9ef266faef97050939cb/mkdocs_ezglossary_plugin-1.5.9.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/29/57/6e5fcfc3cdca232414b60ae96e80cc764b05973e26d97c29115d1e8bf528/phone_gen-2.4.3.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ezglossary-plugin-1.5.8.tar.gz tmp/mkdocs_ezglossary_plugin-1.5.9.tar.gz --markdown 20240419/m/mkdocs-ezglossary-plugin/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [AKoDAuth]: Downloading https://files.pythonhosted.org/packages/8a/7f/1e69ebb4181150745d7165d67a07c62fc62438c1eaa60243170590a0fc06/AKoDAuth-1.2.2.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [texta-elastic-tools]: Downloading https://files.pythonhosted.org/packages/dd/a9/d6ff06d9b614481bb918fcad0e325dd86148f2421ba666aef449a94eacec/texta-elastic-tools-1.6.0.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [dycw-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/21/92/d97dcd9eefc7344ae51840724a9c3c2747aadb9333884ea9d3d812b318f7/dycw_pre_commit_hooks-0.9.9.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/41/33/8c02946791e2fb9dc5217f98420bb192bea004d368c5dbdbe6d4101a202e/andeplane_reveal_streamlit_component-0.1.3.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [invenio-search-ui]: Downloading https://files.pythonhosted.org/packages/3a/f8/367dae042eed72220d590f2fcee2334e0d2e1a1fc232204477b758c7ea25/invenio-search-ui-2.8.6.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc0.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240419/a/autogenstudio/0.0.56rc0-0.0.9a0/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [AKoDAuth]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [AKoDAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AKoDAuth-1.2.0.tar.gz tmp/AKoDAuth-1.2.2.tar.gz --markdown 20240419/A/AKoDAuth/1.2.0-1.2.2/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [phone-gen]: Downloading https://files.pythonhosted.org/packages/a0/a9/e0402d3e19aea6cb80ca03f2e00f100f0e2d540e3a5d93b010f608003117/phone_gen-2.4.4.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [texta-elastic-tools]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [texta-elastic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texta-elastic-tools-1.5.0.tar.gz tmp/texta-elastic-tools-1.6.0.tar.gz --markdown 20240419/t/texta-elastic-tools/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [dycw-pre-commit-hooks]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [dycw-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_pre_commit_hooks-0.9.8.tar.gz tmp/dycw_pre_commit_hooks-0.9.9.tar.gz --markdown 20240419/d/dycw-pre-commit-hooks/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-19 15:39:54] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240419/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [invenio-search-ui]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [invenio-search-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-search-ui-2.8.5.tar.gz tmp/invenio-search-ui-2.8.6.tar.gz --markdown 20240419/i/invenio-search-ui/2.8.5-2.8.6/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [phone-gen]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [phone-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_gen-2.4.3.tar.gz tmp/phone_gen-2.4.4.tar.gz --markdown 20240419/p/phone-gen/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-19 15:39:54] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-19 15:39:54] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240419/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 15:39:55] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: executing diffoscope
+[2024-04-19 15:39:55] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_reveal_streamlit_component-0.1.2.tar.gz tmp/andeplane_reveal_streamlit_component-0.1.3.tar.gz --markdown 20240419/a/andeplane-reveal-streamlit-component/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 15:39:55] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ezglossary-plugin-1.5.8.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_ezglossary_plugin-1.5.9.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [mkdocs-ezglossary-plugin]: Start processing: chamco-ragbot
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [mkdocs-ezglossary-plugin]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-19 15:39:55] INFO root fetch - processPackages [dycw-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/dycw_pre_commit_hooks-0.9.8.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [dycw-pre-commit-hooks]: Remove: archive file [/home/abi/fetcher/tmp/dycw_pre_commit_hooks-0.9.9.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [dycw-pre-commit-hooks]: Start processing: g4f
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [dycw-pre-commit-hooks]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [AKoDAuth]: Remove: archive file [/home/abi/fetcher/tmp/AKoDAuth-1.2.0.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [AKoDAuth]: Remove: archive file [/home/abi/fetcher/tmp/AKoDAuth-1.2.2.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [AKoDAuth]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [g4f]: New version: [0.3.0.0] Old Version: [0.2.9.9]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/d9/a3/4729c911ae111904f94836fc7f6bd4e9b7bf974c1037297866d36723519c/g4f-0.2.9.9.tar.gz
+[2024-04-19 15:39:55] INFO root fetch - processPackages [texta-elastic-tools]: Remove: archive file [/home/abi/fetcher/tmp/texta-elastic-tools-1.5.0.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [texta-elastic-tools]: Remove: archive file [/home/abi/fetcher/tmp/texta-elastic-tools-1.6.0.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [texta-elastic-tools]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-19 15:39:55] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc0.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 15:39:55] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 15:39:55] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-04-19 15:39:55] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.4.3.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - processPackages [phone-gen]: Remove: archive file [/home/abi/fetcher/tmp/phone_gen-2.4.4.tar.gz]
+[2024-04-19 15:39:55] INFO root fetch - main [MainThread]: End processing [phone-gen]: success
+[2024-04-19 15:39:56] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/05/19/460ed96b060f7edabc795c912c5ee8ad311f7b53437bc983e48851550ae2/g4f-0.3.0.0.tar.gz
+[2024-04-19 15:39:56] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-19 15:39:56] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-19 15:39:56] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.9.9.tar.gz tmp/g4f-0.3.0.0.tar.gz --markdown 20240419/g/g4f/0.2.9.9-0.3.0.0/README.md --exclude *.pyd
+[2024-04-19 15:39:56] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 15:39:56] INFO root fetch - processPackages [invenio-search-ui]: Remove: archive file [/home/abi/fetcher/tmp/invenio-search-ui-2.8.5.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - processPackages [invenio-search-ui]: Remove: archive file [/home/abi/fetcher/tmp/invenio-search-ui-2.8.6.tar.gz]
+[2024-04-19 15:39:56] INFO root fetch - main [MainThread]: End processing [invenio-search-ui]: success
+[2024-04-19 15:39:57] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.9.9.tar.gz]
+[2024-04-19 15:39:57] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.0.0.tar.gz]
+[2024-04-19 15:39:57] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-19 15:40:37] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.2.tar.gz]
+[2024-04-19 15:40:37] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.3.tar.gz]
+[2024-04-19 15:40:37] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
+[2024-04-19 15:40:37] INFO root fetch - main [MainThread]: Store serial: [22842652]
