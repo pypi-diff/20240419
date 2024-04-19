@@ -10412,3 +10412,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.0.7a1713503099.tar.gz]
 [2024-04-19 07:32:21] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
 [2024-04-19 07:32:21] INFO root fetch - main [MainThread]: Store serial: [22836922]
+[2024-04-19 07:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836922]
+[2024-04-19 07:34:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edx-enterprise
+[2024-04-19 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-includecontents
+[2024-04-19 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyk-reservation-system
+[2024-04-19 07:34:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mopp
+[2024-04-19 07:34:30] INFO root fetch - processPackages [django-includecontents]: New version: [0.5] Old Version: [0.4.1]
+[2024-04-19 07:34:30] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-04-19 07:34:30] ERROR root fetch - processPackages [lyk-reservation-system]: Unable to get metadata: No such project 'lyk-reservation-system'
+[2024-04-19 07:34:30] INFO root fetch - main [MainThread]: End processing [lyk-reservation-system] error
+[2024-04-19 07:34:30] WARNING root fetch - processPackages [mopp]: Skipping, unable to determine old version
+[2024-04-19 07:34:30] INFO root fetch - main [MainThread]: End processing [mopp] error
+[2024-04-19 07:34:30] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/23/df/54619571a9fba61a6a058be337c1a19f76fffa7aae4364432a22f966b94f/django_includecontents-0.4.1.tar.gz
+[2024-04-19 07:34:30] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-04-19 07:34:30] INFO root fetch - processPackages [django-includecontents]: Downloading https://files.pythonhosted.org/packages/88/6a/f557192f1f3ff7d8ab29da9104df67b1012017bcc06fb253a9f88b5cd29a/django_includecontents-0.5.tar.gz
+[2024-04-19 07:34:30] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-04-19 07:34:30] INFO root fetch - processPackages [django-includecontents]: executing diffoscope
+[2024-04-19 07:34:30] INFO root fetch - processPackages [django-includecontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_includecontents-0.4.1.tar.gz tmp/django_includecontents-0.5.tar.gz --markdown 20240419/d/django-includecontents/0.4.1-0.5/README.md --exclude *.pyd
+[2024-04-19 07:34:30] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-04-19 07:34:30] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240419/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-04-19 07:34:31] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.4.1.tar.gz]
+[2024-04-19 07:34:31] INFO root fetch - processPackages [django-includecontents]: Remove: archive file [/home/abi/fetcher/tmp/django_includecontents-0.5.tar.gz]
+[2024-04-19 07:34:31] INFO root fetch - main [MainThread]: End processing [django-includecontents]: success
+[2024-04-19 07:34:33] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-04-19 07:34:33] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-04-19 07:34:33] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-04-19 07:34:33] INFO root fetch - main [MainThread]: Store serial: [22836939]
