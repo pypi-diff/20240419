@@ -9215,3 +9215,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:12:20] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240416.0.8.tar.gz]
 [2024-04-19 06:12:20] INFO root fetch - main [MainThread]: End processing [substrate]: success
 [2024-04-19 06:12:20] INFO root fetch - main [MainThread]: Store serial: [22836386]
+[2024-04-19 06:14:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836386]
+[2024-04-19 06:14:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edstem-assignment-tracker
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-l10n-br-account
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-br-coa
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-l10n-brazil
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-br-coa
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jsonffi
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snowflake-connector-python-nightly
+[2024-04-19 06:14:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celi-framework
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: New version: [16.0.2.0.0] Old Version: [16.0.1.2.0]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [celi-framework]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [jsonffi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: New version: [16.0.2.0.0] Old Version: [16.0.1.2.0]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.9.3.0] Old Version: [14.0.9.2.0]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: New version: [14.0.20240418.0] Old Version: [14.0.20240315.0]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/4e/0c/5e73048337cd6475b2e06d1d356b31ff5445624a6d9f1387d120d8273451/odoo_addon_l10n_br_coa-16.0.1.2.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [edstem-assignment-tracker]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/e7/8b/7afe604f2e8cfe832d091978354ee0698e220e27c30654f0ec2ea1d2d4be/celi_framework-0.0.12.tar.gz
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/4e/0c/5e73048337cd6475b2e06d1d356b31ff5445624a6d9f1387d120d8273451/odoo_addon_l10n_br_coa-16.0.1.2.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/c1/b2/6ea970bb4862d3d0a9718e949629809447e0feb2b236982d1a017c244e6f/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/23/17/b61e835ad097f2d0a449ae7a41d5dfef8bb56c403532dd877c2553a8c697/jsonffi-1.0.1-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/9b/c5/ff26fa90e3e69de6d999a8d7117b0697738ef27558314d22655274032953/odoo14_addons_oca_l10n_brazil-14.0.20240315.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/ff/9f/28472ce60740a1d9dd9d074e3176300eb6194f4aaca68486cfa195bccca7/edstem_assignment_tracker-1.0.2.tar.gz
+[2024-04-19 06:14:29] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.9] Old Version: [2024.4.4]
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/9a/5b/66b36f69281b10524078388efbaff9d2059282f8c18a640e0eda63b64163/odoo_addon_l10n_br_coa-16.0.2.0.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Downloading https://files.pythonhosted.org/packages/9a/5b/66b36f69281b10524078388efbaff9d2059282f8c18a640e0eda63b64163/odoo_addon_l10n_br_coa-16.0.2.0.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/6e/f7/d34dd8f08d8a9f15f129170695efb0999d57be4dd43c55729e57c59498b6/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_coa-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_coa-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-l10n-br-coa/16.0.1.2.0-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-19 06:14:29] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/5a/30/30ab2344e32999effc64e6478027e71e269fb6ee8b0889429449241f7f1e/jsonffi-1.0.2-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_coa-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_coa-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-l10n-br-coa/16.0.1.2.0-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-19 06:14:29] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/12/c3/4f218d7aee744ff4a81b162500c54788da9c3b3370b16f12d83c186af581/snowflake-connector-python-nightly-2024.4.4.tar.gz
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-l10n-br-account/14.0.9.2.0-14.0.9.3.0/README.md --exclude *.pyd
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/20/12/b7c70735899e633fcd11d7cc7cfdf377f409c064a5278b31a71d7ebbf1f6/odoo14_addons_oca_l10n_brazil-14.0.20240418.0-py3-none-any.whl
+[2024-04-19 06:14:29] INFO root fetch - processPackages [jsonffi]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [jsonffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonffi-1.0.1-py3-none-any.whl.zip tmp/jsonffi-1.0.2-py3-none-any.whl.zip --markdown 20240419/j/jsonffi/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 06:14:29] INFO root fetch - processPackages [edstem-assignment-tracker]: Downloading https://files.pythonhosted.org/packages/cb/e8/2da81c589f56563a323f7ad3a5ed02d10c5d5159a4b8d65f793328c42b2f/edstem_assignment_tracker-1.0.3.tar.gz
+[2024-04-19 06:14:29] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/8a/19/a18c520ac7f7c0e10133709a48c7762dc5e0933713a8622ac34fc3a321c0/celi_framework-0.0.13.tar.gz
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_brazil-14.0.20240315.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_brazil-14.0.20240418.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addons-oca-l10n-brazil/14.0.20240315.0-14.0.20240418.0/README.md --exclude *.pyd
+[2024-04-19 06:14:29] INFO root fetch - processPackages [edstem-assignment-tracker]: executing diffoscope
+[2024-04-19 06:14:29] INFO root fetch - processPackages [edstem-assignment-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edstem_assignment_tracker-1.0.2.tar.gz tmp/edstem_assignment_tracker-1.0.3.tar.gz --markdown 20240419/e/edstem-assignment-tracker/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-19 06:14:30] INFO root fetch - processPackages [celi-framework]: executing diffoscope
+[2024-04-19 06:14:30] INFO root fetch - processPackages [celi-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celi_framework-0.0.12.tar.gz tmp/celi_framework-0.0.13.tar.gz --markdown 20240419/c/celi-framework/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-04-19 06:14:30] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2b/1f/ba851f8a5f400cf41366dc7216d298165e7c4fe21d731943caebce0a7907/snowflake-connector-python-nightly-2024.4.9.tar.gz
+[2024-04-19 06:14:30] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-19 06:14:30] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz --markdown 20240419/s/snowflake-connector-python-nightly/2024.4.4-2024.4.9/README.md --exclude *.pyd
+[2024-04-19 06:14:30] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.1-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.2-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [jsonffi]: success
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_coa-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo-addon-l10n-br-coa]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_coa-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-coa]: success
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20240315.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20240418.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-brazil]: success
+[2024-04-19 06:14:30] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.2.tar.gz]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [edstem-assignment-tracker]: Remove: archive file [/home/abi/fetcher/tmp/edstem_assignment_tracker-1.0.3.tar.gz]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker]: success
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-coa]: success
+[2024-04-19 06:14:30] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.12.tar.gz]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.13.tar.gz]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [celi-framework]: success
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.2.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account-14.0.9.3.0-py3-none-any.whl.zip]
+[2024-04-19 06:14:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2024-04-19 06:14:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz]
+[2024-04-19 06:14:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
+[2024-04-19 06:14:31] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-19 06:14:31] INFO root fetch - main [MainThread]: Store serial: [22836417]
