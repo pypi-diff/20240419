@@ -13135,3 +13135,39 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:34:15] INFO root fetch - processPackages [conette]: Remove: archive file [/home/abi/fetcher/tmp/conette-0.3.0.tar.gz]
 [2024-04-19 09:34:15] INFO root fetch - main [MainThread]: End processing [conette]: success
 [2024-04-19 09:34:15] INFO root fetch - main [MainThread]: Store serial: [22838087]
+[2024-04-19 09:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838087]
+[2024-04-19 09:36:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ted2zim
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beartype
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selphyprint
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CMDHelpMeTool
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netlink-applog
+[2024-04-19 09:36:24] WARNING root fetch - processPackages [selphyprint]: Skipping, unable to determine old version
+[2024-04-19 09:36:24] INFO root fetch - main [MainThread]: End processing [selphyprint] error
+[2024-04-19 09:36:24] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 09:36:24] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/35/5d/7025c468827a6c1507d914b95c57131a0c5dbbec44d648d72d12a67fb661/CMDHelpMeTool-0.2.1.tar.gz
+[2024-04-19 09:36:24] INFO root fetch - processPackages [beartype]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 09:36:24] INFO root fetch - processPackages [ted2zim]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-04-19 09:36:24] WARNING root fetch - processPackages [netlink-applog]: Skipping, unable to determine old version
+[2024-04-19 09:36:24] INFO root fetch - main [MainThread]: End processing [netlink-applog] error
+[2024-04-19 09:36:24] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/6b/c7/a73fbaa2f2abc1120e6d16cfb89cdb6f7ea3ba8e715dbc324ac1aafe7b4b/beartype-0.9.0.tar.gz
+[2024-04-19 09:36:25] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/fe/31/39da4be8a0d5add19c78226553ddf074f9e4be94b6b4c57817ff194de9a6/CMDHelpMeTool-0.2.2.tar.gz
+[2024-04-19 09:36:25] INFO root fetch - processPackages [ted2zim]: Downloading https://files.pythonhosted.org/packages/a5/18/a3a2b363637fbdaec220c9d88c1468e7d8f159d9530aa5a174a27606cd75/ted2zim-2.1.0.tar.gz
+[2024-04-19 09:36:25] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 09:36:25] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.2.1.tar.gz tmp/CMDHelpMeTool-0.2.2.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 09:36:25] INFO root fetch - processPackages [beartype]: Downloading https://files.pythonhosted.org/packages/ef/16/11a1509d5cd7f3760101edda30f66b28367f2793178bea57745733e92076/beartype-0.9.1.tar.gz
+[2024-04-19 09:36:25] INFO root fetch - processPackages [ted2zim]: Downloading https://files.pythonhosted.org/packages/b7/24/d4e22b891c66d682e6ea4be4dea8f8c975db7a8fd176895dfe3f20136d07/ted2zim-3.0.0.tar.gz
+[2024-04-19 09:36:25] INFO root fetch - processPackages [beartype]: executing diffoscope
+[2024-04-19 09:36:25] INFO root fetch - processPackages [beartype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beartype-0.9.0.tar.gz tmp/beartype-0.9.1.tar.gz --markdown 20240419/b/beartype/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 09:36:25] INFO root fetch - processPackages [ted2zim]: executing diffoscope
+[2024-04-19 09:36:25] INFO root fetch - processPackages [ted2zim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ted2zim-2.1.0.tar.gz tmp/ted2zim-3.0.0.tar.gz --markdown 20240419/t/ted2zim/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-04-19 09:36:25] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.1.tar.gz]
+[2024-04-19 09:36:25] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.2.tar.gz]
+[2024-04-19 09:36:25] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 09:36:26] INFO root fetch - processPackages [ted2zim]: Remove: archive file [/home/abi/fetcher/tmp/ted2zim-2.1.0.tar.gz]
+[2024-04-19 09:36:26] INFO root fetch - processPackages [ted2zim]: Remove: archive file [/home/abi/fetcher/tmp/ted2zim-3.0.0.tar.gz]
+[2024-04-19 09:36:26] INFO root fetch - main [MainThread]: End processing [ted2zim]: success
+[2024-04-19 09:36:27] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.0.tar.gz]
+[2024-04-19 09:36:27] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
+[2024-04-19 09:36:27] INFO root fetch - main [MainThread]: End processing [beartype]: success
+[2024-04-19 09:36:27] INFO root fetch - main [MainThread]: Store serial: [22838103]
