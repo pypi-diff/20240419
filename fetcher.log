@@ -20218,3 +20218,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:39:15] INFO root fetch - processPackages [zlsnasdisplay]: Remove: archive file [/home/abi/fetcher/tmp/zlsnasdisplay-1.0.1.tar.gz]
 [2024-04-19 13:39:15] INFO root fetch - main [MainThread]: End processing [zlsnasdisplay]: success
 [2024-04-19 13:39:15] INFO root fetch - main [MainThread]: Store serial: [22841124]
+[2024-04-19 13:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841124]
+[2024-04-19 13:41:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: profiles-local
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thinc
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ship-model-lib
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-aiomodbus
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ft-jwt
+[2024-04-19 13:41:24] INFO root fetch - processPackages [dm-aiomodbus]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 13:41:24] INFO root fetch - processPackages [profiles-local]: New version: [0.0.66] Old Version: [0.0.65]
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ft-jwt]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ship-model-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 13:41:24] INFO root fetch - processPackages [thinc]: New version: [9.0.0.dev5] Old Version: [9.0.0.dev4]
+[2024-04-19 13:41:24] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/8d/32/930bebcfdff7aae07ffc6c62ad756c867b88fb144093709e17de99581cea/dm_aiomodbus-0.1.7.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [profiles-local]: Downloading https://files.pythonhosted.org/packages/5c/4a/d4d9cb8422c5c77e01113342dd01c61897ea107284e04d3c60f28b917291/profiles-local-0.0.65.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ship-model-lib]: Downloading https://files.pythonhosted.org/packages/ac/18/a439837af46808334b2c0d1eae65a49aa308e81039a594b0fd47a880cab8/ship_model_lib-1.0.0.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/73/b2/f9add43bb68d6115a86ab49267bfb664f0289372c328070a6f94e3146a99/thinc-9.0.0.dev4.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/f9/a4/cd0e080cf611d1a7013d19b74355c91a7a9f0ebd0d18a26619952f6e9c68/ft_jwt-0.0.9.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [profiles-local]: Downloading https://files.pythonhosted.org/packages/42/72/e8b3d0c6e80cbfe04c3871f5d99366f151da30eac9d3f95d776b3dae10a3/profiles_local-0.0.66.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ship-model-lib]: Downloading https://files.pythonhosted.org/packages/d7/57/3c0653bb72db28f3670b1299e68df9f2ee4edf8b2e85442871a613ba69c0/ship_model_lib-1.0.1.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/56/8a/df3fdbf4b03c5e7e6936b57c903480655f2c0492aa6430a70fc8a5eab863/ft_jwt-0.1.0.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/9d/85/6a5d53cd7fdae04096223e8cfd35dbc8c8f73501d473002dca8857f305de/dm_aiomodbus-0.1.8.tar.gz
+[2024-04-19 13:41:24] INFO root fetch - processPackages [thinc]: Downloading https://files.pythonhosted.org/packages/96/c4/3d7c3d06f890a99399e11c53c1e0a20e06eaf57b90f77df0f3a9325c0e28/thinc-9.0.0.dev5.tar.gz
+[2024-04-19 13:41:25] INFO root fetch - processPackages [profiles-local]: executing diffoscope
+[2024-04-19 13:41:25] INFO root fetch - processPackages [profiles-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles-local-0.0.65.tar.gz tmp/profiles_local-0.0.66.tar.gz --markdown 20240419/p/profiles-local/0.0.65-0.0.66/README.md --exclude *.pyd
+[2024-04-19 13:41:25] INFO root fetch - processPackages [thinc]: executing diffoscope
+[2024-04-19 13:41:25] INFO root fetch - processPackages [thinc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thinc-9.0.0.dev4.tar.gz tmp/thinc-9.0.0.dev5.tar.gz --markdown 20240419/t/thinc/9.0.0.dev4-9.0.0.dev5/README.md --exclude *.pyd
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ship-model-lib]: executing diffoscope
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ship-model-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ship_model_lib-1.0.0.tar.gz tmp/ship_model_lib-1.0.1.tar.gz --markdown 20240419/s/ship-model-lib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ft-jwt]: executing diffoscope
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ft-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_jwt-0.0.9.tar.gz tmp/ft_jwt-0.1.0.tar.gz --markdown 20240419/f/ft-jwt/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-19 13:41:25] INFO root fetch - processPackages [dm-aiomodbus]: executing diffoscope
+[2024-04-19 13:41:25] INFO root fetch - processPackages [dm-aiomodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_aiomodbus-0.1.7.tar.gz tmp/dm_aiomodbus-0.1.8.tar.gz --markdown 20240419/d/dm-aiomodbus/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.9.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.1.0.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - main [MainThread]: End processing [ft-jwt]: success
+[2024-04-19 13:41:25] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomodbus-0.1.7.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomodbus-0.1.8.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - main [MainThread]: End processing [dm-aiomodbus]: success
+[2024-04-19 13:41:25] INFO root fetch - processPackages [profiles-local]: Remove: archive file [/home/abi/fetcher/tmp/profiles-local-0.0.65.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - processPackages [profiles-local]: Remove: archive file [/home/abi/fetcher/tmp/profiles_local-0.0.66.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - main [MainThread]: End processing [profiles-local]: success
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ship-model-lib]: Remove: archive file [/home/abi/fetcher/tmp/ship_model_lib-1.0.0.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - processPackages [ship-model-lib]: Remove: archive file [/home/abi/fetcher/tmp/ship_model_lib-1.0.1.tar.gz]
+[2024-04-19 13:41:25] INFO root fetch - main [MainThread]: End processing [ship-model-lib]: success
+[2024-04-19 13:41:26] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev4.tar.gz]
+[2024-04-19 13:41:26] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev5.tar.gz]
+[2024-04-19 13:41:26] INFO root fetch - main [MainThread]: End processing [thinc]: success
+[2024-04-19 13:41:26] INFO root fetch - main [MainThread]: Store serial: [22841158]
