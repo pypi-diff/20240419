@@ -7148,3 +7148,27 @@
 [2024-04-19 03:43:38] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.4.0.tar.gz]
 [2024-04-19 03:43:38] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
 [2024-04-19 03:43:38] INFO root fetch - main [MainThread]: Store serial: [22835447]
+[2024-04-19 03:45:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835447]
+[2024-04-19 03:45:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 03:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: socket.d
+[2024-04-19 03:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: church-fundraising
+[2024-04-19 03:45:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: covalent-cloud
+[2024-04-19 03:45:47] INFO root fetch - processPackages [socket.d]: New version: [2.4.10.6] Old Version: [2.4.10.5]
+[2024-04-19 03:45:47] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/26/58/71005f6b226def09db62c129049533f3eabcaa542b1ccefa2f4752f0a499/socket.d-2.4.10.5.tar.gz
+[2024-04-19 03:45:47] WARNING root fetch - processPackages [church-fundraising]: Skipping, unable to determine old version
+[2024-04-19 03:45:47] INFO root fetch - main [MainThread]: End processing [church-fundraising] error
+[2024-04-19 03:45:47] INFO root fetch - processPackages [covalent-cloud]: New version: [0.8.0rc0] Old Version: [0.57.0rc0]
+[2024-04-19 03:45:47] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/d1/9b/150a1239780b2d7cf230e18ced2c57dd79c3db9be9b390857f3831c1b3ea/covalent-cloud-0.57.0rc0.tar.gz
+[2024-04-19 03:45:47] INFO root fetch - processPackages [socket.d]: Downloading https://files.pythonhosted.org/packages/3d/43/cc1a6e9e3709fc6230b1bad1384d864f917bfc3f7ab491729ac7ae28c870/socket.d-2.4.10.6.tar.gz
+[2024-04-19 03:45:47] INFO root fetch - processPackages [socket.d]: executing diffoscope
+[2024-04-19 03:45:47] INFO root fetch - processPackages [socket.d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket.d-2.4.10.5.tar.gz tmp/socket.d-2.4.10.6.tar.gz --markdown 20240419/s/socket.d/2.4.10.5-2.4.10.6/README.md --exclude *.pyd
+[2024-04-19 03:45:47] INFO root fetch - processPackages [covalent-cloud]: Downloading https://files.pythonhosted.org/packages/9d/6b/963496992471906d52efe4acd2b398cf33b051d8558409d9ec37a3ee1bcf/covalent-cloud-0.8.0rc0.tar.gz
+[2024-04-19 03:45:47] INFO root fetch - processPackages [covalent-cloud]: executing diffoscope
+[2024-04-19 03:45:47] INFO root fetch - processPackages [covalent-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-cloud-0.57.0rc0.tar.gz tmp/covalent-cloud-0.8.0rc0.tar.gz --markdown 20240419/c/covalent-cloud/0.57.0rc0-0.8.0rc0/README.md --exclude *.pyd
+[2024-04-19 03:45:48] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.5.tar.gz]
+[2024-04-19 03:45:48] INFO root fetch - processPackages [socket.d]: Remove: archive file [/home/abi/fetcher/tmp/socket.d-2.4.10.6.tar.gz]
+[2024-04-19 03:45:48] INFO root fetch - main [MainThread]: End processing [socket.d]: success
+[2024-04-19 03:45:48] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.57.0rc0.tar.gz]
+[2024-04-19 03:45:48] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
+[2024-04-19 03:45:48] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
+[2024-04-19 03:45:48] INFO root fetch - main [MainThread]: Store serial: [22835455]
