@@ -2595,3 +2595,57 @@
 [2024-04-19 02:29:16] INFO root fetch - processPackages [rdt]: Remove: archive file [/home/abi/fetcher/tmp/rdt-1.9.3.dev0.tar.gz]
 [2024-04-19 02:29:16] INFO root fetch - main [MainThread]: End processing [rdt]: success
 [2024-04-19 02:29:16] INFO root fetch - main [MainThread]: Store serial: [22833756]
+[2024-04-19 02:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833756]
+[2024-04-19 02:31:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marcuslion
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-redshift
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Tooldelta
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whitecloak
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: es-wait
+[2024-04-19 02:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbcli-jm
+[2024-04-19 02:31:24] INFO root fetch - processPackages [marcuslion]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 02:31:24] INFO root fetch - processPackages [dbt-redshift]: New version: [1.8.0b2] Old Version: [1.8.0b1]
+[2024-04-19 02:31:24] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-04-19 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240418] Old Version: [0.1.5.dev20240417]
+[2024-04-19 02:31:25] INFO root fetch - processPackages [Tooldelta]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-19 02:31:25] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/2a/df/fdbfa7ee087a57ecfe8ad1a3f1792fc4a5cc847643afdbc06e43f15665a5/sbcli_jm-4.0.1.zip
+[2024-04-19 02:31:25] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/9e/1b/35d713162681f4b6a508ca2f0abe84f28934e251febf83a312e0978d0135/marcuslion-0.2.8.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/ea/3f/a9eb035f14ea9828f41241a9460d0f428569ab231b8b567cbbacc94351dc/dbt-redshift-1.8.0b1.tar.gz
+[2024-04-19 02:31:25] WARNING root fetch - processPackages [whitecloak]: Skipping, unable to determine old version
+[2024-04-19 02:31:25] INFO root fetch - main [MainThread]: End processing [whitecloak] error
+[2024-04-19 02:31:25] WARNING root fetch - processPackages [es-wait]: Skipping, unable to determine old version
+[2024-04-19 02:31:25] INFO root fetch - main [MainThread]: End processing [es-wait] error
+[2024-04-19 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/0b/24/6b0e29eecd66226818c9359ad623e1071178a69726013a5195d7ae4ee8a5/aeppl_nightly-0.1.5.dev20240417.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/73/74/371dc6066e1b5614cacf5b247114099a910b32ff470c7e0515f1a376d74d/marcuslion-0.2.9.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/49/c0/cefe2a8573c499fbddc905451fc3c2d369fb82edaf97a141add920451b10/dbt-redshift-1.8.0b2.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/29/ba/e6536fe89b92cb14cde8402d892de6cfc9add1fafb99fc01fb685eb43e92/tooldelta-0.5.4.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [marcuslion]: executing diffoscope
+[2024-04-19 02:31:25] INFO root fetch - processPackages [marcuslion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcuslion-0.2.8.tar.gz tmp/marcuslion-0.2.9.tar.gz --markdown 20240419/m/marcuslion/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 02:31:25] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2024-04-19 02:31:25] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.8.0b1.tar.gz tmp/dbt-redshift-1.8.0b2.tar.gz --markdown 20240419/d/dbt-redshift/1.8.0b1-1.8.0b2/README.md --exclude *.pyd
+[2024-04-19 02:31:25] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/59/2a/dd069d0b56ac8fd0c4719252cd99ee6a7c93b634652fcdc78e6f0a1040f0/sbcli_jm-4.0.2.zip
+[2024-04-19 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/de/c9/ea8ff540a9d063fab1fcb58a81bea6f57727da788e6703113697c9addc98/aeppl_nightly-0.1.5.dev20240418.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-19 02:31:25] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240417.tar.gz tmp/aeppl_nightly-0.1.5.dev20240418.tar.gz --markdown 20240419/a/aeppl-nightly/0.1.5.dev20240417-0.1.5.dev20240418/README.md --exclude *.pyd
+[2024-04-19 02:31:25] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-19 02:31:25] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.1.zip tmp/sbcli_jm-4.0.2.zip --markdown 20240419/s/sbcli-jm/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-04-19 02:31:25] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/21/42/2d2cdd3a174523e6533e8684ffeadb65e3ce3286e3fab05c86066c68f64a/tooldelta-0.5.5.tar.gz
+[2024-04-19 02:31:25] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-19 02:31:25] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.5.4.tar.gz tmp/tooldelta-0.5.5.tar.gz --markdown 20240419/T/Tooldelta/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-19 02:31:26] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.8.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.9.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [marcuslion]: success
+[2024-04-19 02:31:26] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b1.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b2.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2024-04-19 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240417.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240418.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-19 02:31:26] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.4.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.5.tar.gz]
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-19 02:31:26] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.1.zip]
+[2024-04-19 02:31:26] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.2.zip]
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-19 02:31:26] INFO root fetch - main [MainThread]: Store serial: [22833782]
