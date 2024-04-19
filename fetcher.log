@@ -17474,3 +17474,61 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 11:57:13] INFO root fetch - processPackages [hvplot]: Remove: archive file [/home/abi/fetcher/tmp/hvplot-0.9.3a1.tar.gz]
 [2024-04-19 11:57:13] INFO root fetch - main [MainThread]: End processing [hvplot]: success
 [2024-04-19 11:57:13] INFO root fetch - main [MainThread]: Store serial: [22839878]
+[2024-04-19 11:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839878]
+[2024-04-19 11:59:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuzu
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: udata
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edds
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-trans
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aruba-dero
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neptune
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ka3005p
+[2024-04-19 11:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysigma-backend-loki
+[2024-04-19 11:59:33] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 11:59:33] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 11:59:33] INFO root fetch - processPackages [aruba-dero]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-19 11:59:33] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev40] Old Version: [0.3.3.dev39]
+[2024-04-19 11:59:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.1.2] Old Version: [16.0.2.2.1]
+[2024-04-19 11:59:33] INFO root fetch - processPackages [udata]: New version: [7.0.8.dev28810] Old Version: [7.0.8.dev28762]
+[2024-04-19 11:59:33] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/3a/38/f2d12e5aa9ea062941f3716c0b93d864b2ad6da342d0a4bc4cf81339f5b7/aruba_dero-1.0.2.tar.gz
+[2024-04-19 11:59:33] WARNING root fetch - processPackages [ka3005p]: Skipping, unable to determine old version
+[2024-04-19 11:59:33] INFO root fetch - main [MainThread]: End processing [ka3005p] error
+[2024-04-19 11:59:33] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/79/a3/d0aa8643971899f389646918776c610bb5489b2b8e8657b1dbc4a4cd7026/kuzu-0.3.3.dev39.tar.gz
+[2024-04-19 11:59:33] INFO root fetch - processPackages [pysigma-backend-loki]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 11:59:33] WARNING root fetch - processPackages [gpt-trans]: Skipping, unable to determine old version
+[2024-04-19 11:59:33] INFO root fetch - main [MainThread]: End processing [gpt-trans] error
+[2024-04-19 11:59:33] INFO root fetch - processPackages [neptune]: New version: [2.0.0a3] Old Version: [2.0.0a2]
+[2024-04-19 11:59:33] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/a8/a7/3e273e4860d5031fa032129d8fde1cbd23d801abfaad995e997c093afe55/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl
+[2024-04-19 11:59:33] WARNING root fetch - processPackages [kuzu]: Skipping package: exceeds size limit 15426470>=10485760
+[2024-04-19 11:59:33] INFO root fetch - main [MainThread]: End processing [kuzu] error
+[2024-04-19 11:59:33] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ba/ba/591d67d038de945b5c46bffaaffea31dd4309caddd9852b929c389e2ba78/udata-7.0.8.dev28762-py2.py3-none-any.whl
+[2024-04-19 11:59:34] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777827>=10485760
+[2024-04-19 11:59:34] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-19 11:59:34] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/bb/f7/e14e2282ec896beb15cd67b1c316aba9ad27eaedf2edafab2e2cc5527662/pysigma_backend_loki-0.9.0.tar.gz
+[2024-04-19 11:59:34] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/ac/bc/9cfd0d654234bce80c130b7ed58d9a0c7e1b450bdefa25675f78f39f01a2/neptune-2.0.0a2.tar.gz
+[2024-04-19 11:59:34] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/e5/a6/472cc0645d6d6edb361558338154d797b8aa53b1549bba9c47691d37c086/aruba_dero-1.0.3.tar.gz
+[2024-04-19 11:59:34] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/ac/14/e6811d05ebe3e34065f05067b867b97cf01f349ab2a4af824e13b871b4e1/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl
+[2024-04-19 11:59:34] INFO root fetch - processPackages [aruba-dero]: executing diffoscope
+[2024-04-19 11:59:34] INFO root fetch - processPackages [aruba-dero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruba_dero-1.0.2.tar.gz tmp/aruba_dero-1.0.3.tar.gz --markdown 20240419/a/aruba-dero/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-19 11:59:34] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-19 11:59:34] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-helpdesk-mgmt/16.0.2.2.1-16.0.2.2.1.2/README.md --exclude *.pyd
+[2024-04-19 11:59:34] INFO root fetch - processPackages [neptune]: Downloading https://files.pythonhosted.org/packages/45/99/8a01dd0ccb92c8c146e53dc5c44a3b29dcd0d9d4895b37803ce2c0719cfe/neptune-2.0.0a3.tar.gz
+[2024-04-19 11:59:34] INFO root fetch - processPackages [pysigma-backend-loki]: Downloading https://files.pythonhosted.org/packages/73/14/dbea29f5e6ffce8a35e714f3610c64f181b86fc776ec32141d71280f45f9/pysigma_backend_loki-0.9.1.tar.gz
+[2024-04-19 11:59:34] INFO root fetch - processPackages [neptune]: executing diffoscope
+[2024-04-19 11:59:34] INFO root fetch - processPackages [neptune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune-2.0.0a2.tar.gz tmp/neptune-2.0.0a3.tar.gz --markdown 20240419/n/neptune/2.0.0a2-2.0.0a3/README.md --exclude *.pyd
+[2024-04-19 11:59:34] INFO root fetch - processPackages [pysigma-backend-loki]: executing diffoscope
+[2024-04-19 11:59:34] INFO root fetch - processPackages [pysigma-backend-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_loki-0.9.0.tar.gz tmp/pysigma_backend_loki-0.9.1.tar.gz --markdown 20240419/p/pysigma-backend-loki/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 11:59:34] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.2.tar.gz]
+[2024-04-19 11:59:34] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.3.tar.gz]
+[2024-04-19 11:59:34] INFO root fetch - main [MainThread]: End processing [aruba-dero]: success
+[2024-04-19 11:59:35] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1-py3-none-any.whl.zip]
+[2024-04-19 11:59:35] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.1.2-py3-none-any.whl.zip]
+[2024-04-19 11:59:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-19 11:59:35] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.0.tar.gz]
+[2024-04-19 11:59:35] INFO root fetch - processPackages [pysigma-backend-loki]: Remove: archive file [/home/abi/fetcher/tmp/pysigma_backend_loki-0.9.1.tar.gz]
+[2024-04-19 11:59:35] INFO root fetch - main [MainThread]: End processing [pysigma-backend-loki]: success
+[2024-04-19 11:59:35] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a2.tar.gz]
+[2024-04-19 11:59:35] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a3.tar.gz]
+[2024-04-19 11:59:35] INFO root fetch - main [MainThread]: End processing [neptune]: success
+[2024-04-19 11:59:35] INFO root fetch - main [MainThread]: Store serial: [22839938]
