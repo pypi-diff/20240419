@@ -20533,3 +20533,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:54:43] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.9.post0.tar.gz]
 [2024-04-19 13:54:43] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
 [2024-04-19 13:54:43] INFO root fetch - main [MainThread]: Store serial: [22841325]
+[2024-04-19 13:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841325]
+[2024-04-19 13:56:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mailgun
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymediawikidocker
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sound-scape-explorer
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-azuredevops
+[2024-04-19 13:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autosubmit-api
+[2024-04-19 13:56:52] INFO root fetch - processPackages [sound-scape-explorer]: New version: [13.2.4] Old Version: [13.2.3]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1713526797] Old Version: [3.6.0a1713332970]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.1.0a1713526847] Old Version: [3.1.0a1713331204]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [autosubmit-api]: New version: [4.0.0b6] Old Version: [4.0.0b5]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pymediawikidocker]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 13:56:52] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/d9/74/65a079bce7d836fa5f06bbc869b51e7b89f67582eac1be9096380b46e6fc/sound_scape_explorer-13.2.3.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/93/0a/9fe093d0acbea6a8a1e7a802c16d997a4da771ae6b440c7713697369cac9/pulumi_mailgun-3.6.0a1713332970.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pymediawikidocker]: Downloading https://files.pythonhosted.org/packages/25/17/630d58c95b50d2bff1ed2fb160aa5c76672fe50da18c33f14c4307140a91/pymediawikidocker-0.9.8.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/2d/ce/ff724e834d0cd7d3e02ccf66a29cd00ddbcf468342f7b4247d3c8c0c0695/pulumi_azuredevops-3.1.0a1713331204.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [autosubmit-api]: Downloading https://files.pythonhosted.org/packages/9a/5f/15dfcf28c03b08ca296107b18a3e9f8647ead3cf5cc4512b208ca0f3d8c9/autosubmit_api-4.0.0b5.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/71/33/8f244fc516f20aed8bf85387462b3205ec35a2c093033e77265689d2e0c3/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl
+[2024-04-19 13:56:52] INFO root fetch - processPackages [sound-scape-explorer]: Downloading https://files.pythonhosted.org/packages/45/0a/6af2953d730a95fcf6a896c692ea81630ca14db2e044c4d55d6780c23bd8/sound_scape_explorer-13.2.4.tar.gz
+[2024-04-19 13:56:52] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-19 13:56:52] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240419/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-19 13:56:52] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz tmp/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl.zip --markdown 20240419/p/pulumi-mailgun/3.6.0a1713332970-3.6.0a1713526797/README.md --exclude *.pyd
+[2024-04-19 13:56:53] INFO root fetch - processPackages [sound-scape-explorer]: executing diffoscope
+[2024-04-19 13:56:53] INFO root fetch - processPackages [sound-scape-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound_scape_explorer-13.2.3.tar.gz tmp/sound_scape_explorer-13.2.4.tar.gz --markdown 20240419/s/sound-scape-explorer/13.2.3-13.2.4/README.md --exclude *.pyd
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pymediawikidocker]: Downloading https://files.pythonhosted.org/packages/b2/54/54d00e3c42ba3ab3b75d917ea2ca292a149469d399120315af842983996f/pymediawikidocker-0.9.9.tar.gz
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/0d/46/58677e0b4cb78b8ceb3a3eca2f759bca32e7d53d0595287f6f1173ee889e/pulumi_azuredevops-3.1.0a1713526847.tar.gz
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pymediawikidocker]: executing diffoscope
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pymediawikidocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymediawikidocker-0.9.8.tar.gz tmp/pymediawikidocker-0.9.9.tar.gz --markdown 20240419/p/pymediawikidocker/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 13:56:53] INFO root fetch - processPackages [autosubmit-api]: Downloading https://files.pythonhosted.org/packages/e7/e1/568c9cbc6756eac728b936ac0b517c89362b49eda83a21a71ac7377e83fc/autosubmit_api-4.0.0b6.tar.gz
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1713331204.tar.gz tmp/pulumi_azuredevops-3.1.0a1713526847.tar.gz --markdown 20240419/p/pulumi-azuredevops/3.1.0a1713331204-3.1.0a1713526847/README.md --exclude *.pyd
+[2024-04-19 13:56:53] INFO root fetch - processPackages [autosubmit-api]: executing diffoscope
+[2024-04-19 13:56:53] INFO root fetch - processPackages [autosubmit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit_api-4.0.0b5.tar.gz tmp/autosubmit_api-4.0.0b6.tar.gz --markdown 20240419/a/autosubmit-api/4.0.0b5-4.0.0b6/README.md --exclude *.pyd
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz]
+[2024-04-19 13:56:53] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl.zip]
+[2024-04-19 13:56:53] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-19 13:56:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-19 13:56:54] INFO root fetch - processPackages [pymediawikidocker]: Remove: archive file [/home/abi/fetcher/tmp/pymediawikidocker-0.9.8.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - processPackages [pymediawikidocker]: Remove: archive file [/home/abi/fetcher/tmp/pymediawikidocker-0.9.9.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - main [MainThread]: End processing [pymediawikidocker]: success
+[2024-04-19 13:56:54] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.3.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - processPackages [sound-scape-explorer]: Remove: archive file [/home/abi/fetcher/tmp/sound_scape_explorer-13.2.4.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - main [MainThread]: End processing [sound-scape-explorer]: success
+[2024-04-19 13:56:54] INFO root fetch - processPackages [autosubmit-api]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit_api-4.0.0b5.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - processPackages [autosubmit-api]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit_api-4.0.0b6.tar.gz]
+[2024-04-19 13:56:54] INFO root fetch - main [MainThread]: End processing [autosubmit-api]: success
+[2024-04-19 13:56:55] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713331204.tar.gz]
+[2024-04-19 13:56:55] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1713526847.tar.gz]
+[2024-04-19 13:56:55] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-04-19 13:56:55] INFO root fetch - main [MainThread]: Store serial: [22841344]
