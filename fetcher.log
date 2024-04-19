@@ -14811,3 +14811,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:43:01] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.9.tar.gz]
 [2024-04-19 10:43:01] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2024-04-19 10:43:01] INFO root fetch - main [MainThread]: Store serial: [22838872]
+[2024-04-19 10:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838872]
+[2024-04-19 10:45:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasets
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CMDHelpMeTool
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioipfs
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aily-sdk
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-core
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-langchain
+[2024-04-19 10:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-crewai
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.3.1] Old Version: [0.2.7]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aily-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [datasets]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aioipfs]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/bb/ab/a87ba297606a29cee3f99a30107582b5c1890a3566c936563e217d3508ae/CMDHelpMeTool-0.2.7.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/a6/3c/099041403b4df0d64162e151c67551073d7b4f58a449632f7d456f9a49a5/aioipfs-0.7.0.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/ce/ba/2ed94e21dd2d425ebd185a2f5ea6cc63b48c145a374b161c7eb274d76229/datasets-2.8.0.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/3a/9c/7370a51727952e3bb2421ad16f506a532c93a2a26a36e473d6909d897f7a/aily_sdk-0.8.0.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/5f/f5/aea31df13855e99681d3f145315d1b7b96aa3cee7f58457158615e17acab/CMDHelpMeTool-0.3.1.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240419/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240419/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-19 10:45:10] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240419/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:45:10] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 10:45:10] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.2.7.tar.gz tmp/CMDHelpMeTool-0.3.1.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.2.7-0.3.1/README.md --exclude *.pyd
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aily-sdk]: Downloading https://files.pythonhosted.org/packages/08/a5/02998881950b9af6457fa27bef1feb81834a40abb70ef2b9a1b61a067920/aily_sdk-0.9.0.tar.gz
+[2024-04-19 10:45:10] INFO root fetch - processPackages [aioipfs]: Downloading https://files.pythonhosted.org/packages/e5/c8/25cea79e0ec17ee11f664dbdca36a82197ad5e9c64a7242846c49a6a2e45/aioipfs-0.7.1.tar.gz
+[2024-04-19 10:45:11] INFO root fetch - processPackages [datasets]: Downloading https://files.pythonhosted.org/packages/f6/d0/ccd1c9148fe300a069b42a8701fe9f1cb9a22c056d449c96ef5d546e18aa/datasets-2.9.0.tar.gz
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aioipfs]: executing diffoscope
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aioipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioipfs-0.7.0.tar.gz tmp/aioipfs-0.7.1.tar.gz --markdown 20240419/a/aioipfs/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aily-sdk]: executing diffoscope
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aily-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aily_sdk-0.8.0.tar.gz tmp/aily_sdk-0.9.0.tar.gz --markdown 20240419/a/aily-sdk/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 10:45:11] INFO root fetch - processPackages [datasets]: executing diffoscope
+[2024-04-19 10:45:11] INFO root fetch - processPackages [datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasets-2.8.0.tar.gz tmp/datasets-2.9.0.tar.gz --markdown 20240419/d/datasets/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-19 10:45:11] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.7.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.3.1.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.7.0.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aioipfs]: Remove: archive file [/home/abi/fetcher/tmp/aioipfs-0.7.1.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [aioipfs]: success
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.8.0.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - processPackages [aily-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aily_sdk-0.9.0.tar.gz]
+[2024-04-19 10:45:11] INFO root fetch - main [MainThread]: End processing [aily-sdk]: success
+[2024-04-19 10:45:12] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.8.0.tar.gz]
+[2024-04-19 10:45:12] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
+[2024-04-19 10:45:12] INFO root fetch - main [MainThread]: End processing [datasets]: success
+[2024-04-19 10:45:12] INFO root fetch - main [MainThread]: Store serial: [22838899]
