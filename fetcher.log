@@ -22993,3 +22993,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:30:55] INFO root fetch - processPackages [luma-ml]: Remove: archive file [/home/abi/fetcher/tmp/luma-ml-0.7.0.tar.gz]
 [2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [luma-ml]: success
 [2024-04-19 15:30:55] INFO root fetch - main [MainThread]: Store serial: [22842438]
+[2024-04-19 15:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842438]
+[2024-04-19 15:33:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-paypal-transaction
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conva-ai
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rai-workflow-manager
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-harbor
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: god-tool
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Jord
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-allauth
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typeid-python
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-sdk
+[2024-04-19 15:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: squlearn
+[2024-04-19 15:33:04] INFO root fetch - processPackages [conva-ai]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 15:33:04] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-04-19 15:33:04] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-19 15:33:04] INFO root fetch - processPackages [god-tool]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-19 15:33:04] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/f8/76/fa7f41f4bbfc103306882698f83288d4fa7b4dd6f00bc2f22025f031766d/conva_ai-0.0.5.tar.gz
+[2024-04-19 15:33:04] WARNING root fetch - processPackages [streamlit-allauth]: Skipping, unable to determine old version
+[2024-04-19 15:33:04] INFO root fetch - processPackages [streamlit-allauth]: Start processing: nisystemlink-clients
+[2024-04-19 15:33:04] INFO root fetch - main [MainThread]: End processing [streamlit-allauth] error
+[2024-04-19 15:33:04] INFO root fetch - processPackages [Jord]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-19 15:33:04] INFO root fetch - processPackages [pulumiverse-harbor]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-19 15:33:05] INFO root fetch - processPackages [squlearn]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-19 15:33:05] INFO root fetch - processPackages [typeid-python]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-19 15:33:05] INFO root fetch - processPackages [rai-workflow-manager]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:33:05] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/d8/65/d447d49589bf42be777f05adc55bc42b9c88fea915d87513d4a6941feb9a/squlearn-0.7.0.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: Downloading https://files.pythonhosted.org/packages/79/18/68143e9c65bbde2ef7b1a1bf6e3a3c1368c0998f3064e45a4a63399a897a/airbyte_source_paypal_transaction-2.5.1.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [nisystemlink-clients]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-19 15:33:05] INFO root fetch - processPackages [god-tool]: Downloading https://files.pythonhosted.org/packages/4f/1d/fe0557c58ef601f6ecd0d0e49bdc74f2047c26b5dd4e9ac20975f5b46e0b/god-tool-0.8.1.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/50/ba/98390d10bc4a700f18cb183dd693ac236c96ab32e56da0e8bb07f9035058/jord-0.5.3.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0e/5b/3e41f40cbc2d71d40c7bba0c1a36f718d30456041df03071f1609383f028/pulumiverse_harbor-3.9.3.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [rai-workflow-manager]: Downloading https://files.pythonhosted.org/packages/0c/bb/030064522814b167a9f5737868df36174333368de88af6e623a0c2fb7b13/rai-workflow-manager-0.0.8.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [typeid-python]: Downloading https://files.pythonhosted.org/packages/34/10/9ccf57dfc2972f470fa82755c9ef145177217f6c3a7e394a5cd7233d89d1/typeid_python-0.2.3.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/39/40/f3825381becfef11e8b7e8534e960cb44f6adf02886268fb89ca7f8d8458/conva_ai-0.0.6.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [nisystemlink-clients]: Downloading https://files.pythonhosted.org/packages/16/57/71b66065aee0b245e9c7b9b44bc5d4e430f8fd1345a5565b2879d38f23ed/nisystemlink_clients-1.2.1.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: Downloading https://files.pythonhosted.org/packages/9b/2d/3514d3af00625714ad095104741498dc285ab332d0478fd84d83d4822443/airbyte_source_paypal_transaction-2.5.2.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.5.tar.gz tmp/conva_ai-0.0.6.tar.gz --markdown 20240419/c/conva-ai/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [rai-workflow-manager]: Downloading https://files.pythonhosted.org/packages/d5/cd/f35f41e37b57954c261632464bf35355e47f902658c2da3d25aff288e044/rai-workflow-manager-0.0.9.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/0a/d0/5a44f61966aa5357cbe4c44a9c6043b6e370338665eea5d478c798d3123d/jord-0.5.4.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0d/30/3573c4e1a5e6f8418353731b79bfeacf99e560ba0bf3e0ba53e9ba62d2be/pulumiverse_harbor-3.9.4.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [typeid-python]: Downloading https://files.pythonhosted.org/packages/95/b8/e8642b7d43caa0e68975705636d6e301275e4af82d55b1919b26bb836564/typeid_python-0.3.0.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [god-tool]: Downloading https://files.pythonhosted.org/packages/0c/48/6bf770d9c32a2e7768d7a62532b337017798716ae90654eac0a0b43e0d1c/god_tool-0.9.0.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240419/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [squlearn]: Downloading https://files.pythonhosted.org/packages/db/62/c2c66b9879874c56e2ef4633b25bd480903be891788f81e446d5071347b0/squlearn-0.7.1.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [nisystemlink-clients]: Downloading https://files.pythonhosted.org/packages/44/4d/0830b7fc793ac0a79f16277060b3e71adaa70de605a32effe3fc8a3a0666/nisystemlink_clients-1.3.0.tar.gz
+[2024-04-19 15:33:05] INFO root fetch - processPackages [rai-workflow-manager]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_paypal_transaction-2.5.1.tar.gz tmp/airbyte_source_paypal_transaction-2.5.2.tar.gz --markdown 20240419/a/airbyte-source-paypal-transaction/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [rai-workflow-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai-workflow-manager-0.0.8.tar.gz tmp/rai-workflow-manager-0.0.9.tar.gz --markdown 20240419/r/rai-workflow-manager/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jord-0.5.3.tar.gz tmp/jord-0.5.4.tar.gz --markdown 20240419/J/Jord/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [god-tool]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [god-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/god-tool-0.8.1.tar.gz tmp/god_tool-0.9.0.tar.gz --markdown 20240419/g/god-tool/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [typeid-python]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [typeid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeid_python-0.2.3.tar.gz tmp/typeid_python-0.3.0.tar.gz --markdown 20240419/t/typeid-python/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-19 15:33:05] INFO root fetch - processPackages [pulumiverse-harbor]: executing diffoscope
+[2024-04-19 15:33:05] INFO root fetch - processPackages [pulumiverse-harbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_harbor-3.9.3.tar.gz tmp/pulumiverse_harbor-3.9.4.tar.gz --markdown 20240419/p/pulumiverse-harbor/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-04-19 15:33:06] INFO root fetch - processPackages [nisystemlink-clients]: executing diffoscope
+[2024-04-19 15:33:06] INFO root fetch - processPackages [nisystemlink-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nisystemlink_clients-1.2.1.tar.gz tmp/nisystemlink_clients-1.3.0.tar.gz --markdown 20240419/n/nisystemlink-clients/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-19 15:33:06] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.5.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.6.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-04-19 15:33:06] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_paypal_transaction-2.5.1.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - processPackages [airbyte-source-paypal-transaction]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_paypal_transaction-2.5.2.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - main [MainThread]: End processing [airbyte-source-paypal-transaction]: success
+[2024-04-19 15:33:06] INFO root fetch - processPackages [typeid-python]: Remove: archive file [/home/abi/fetcher/tmp/typeid_python-0.2.3.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - processPackages [typeid-python]: Remove: archive file [/home/abi/fetcher/tmp/typeid_python-0.3.0.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - main [MainThread]: End processing [typeid-python]: success
+[2024-04-19 15:33:06] INFO root fetch - processPackages [squlearn]: executing diffoscope
+[2024-04-19 15:33:06] INFO root fetch - processPackages [squlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squlearn-0.7.0.tar.gz tmp/squlearn-0.7.1.tar.gz --markdown 20240419/s/squlearn/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-19 15:33:06] INFO root fetch - processPackages [god-tool]: Remove: archive file [/home/abi/fetcher/tmp/god-tool-0.8.1.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - processPackages [god-tool]: Remove: archive file [/home/abi/fetcher/tmp/god_tool-0.9.0.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - main [MainThread]: End processing [god-tool]: success
+[2024-04-19 15:33:06] INFO root fetch - processPackages [rai-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/rai-workflow-manager-0.0.8.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - processPackages [rai-workflow-manager]: Remove: archive file [/home/abi/fetcher/tmp/rai-workflow-manager-0.0.9.tar.gz]
+[2024-04-19 15:33:06] INFO root fetch - main [MainThread]: End processing [rai-workflow-manager]: success
+[2024-04-19 15:33:07] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.3.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/jord-0.5.4.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2024-04-19 15:33:07] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.3.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.4.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - main [MainThread]: End processing [pulumiverse-harbor]: success
+[2024-04-19 15:33:07] INFO root fetch - processPackages [nisystemlink-clients]: Remove: archive file [/home/abi/fetcher/tmp/nisystemlink_clients-1.2.1.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - processPackages [nisystemlink-clients]: Remove: archive file [/home/abi/fetcher/tmp/nisystemlink_clients-1.3.0.tar.gz]
+[2024-04-19 15:33:07] INFO root fetch - main [MainThread]: End processing [nisystemlink-clients]: success
+[2024-04-19 15:33:08] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.0.tar.gz]
+[2024-04-19 15:33:08] INFO root fetch - processPackages [squlearn]: Remove: archive file [/home/abi/fetcher/tmp/squlearn-0.7.1.tar.gz]
+[2024-04-19 15:33:08] INFO root fetch - main [MainThread]: End processing [squlearn]: success
+[2024-04-19 15:33:10] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-19 15:33:10] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-19 15:33:10] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-19 15:33:10] INFO root fetch - main [MainThread]: Store serial: [22842474]
