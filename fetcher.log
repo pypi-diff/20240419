@@ -15638,3 +15638,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:06:33] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.73.2.tar.gz]
 [2024-04-19 11:06:33] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-19 11:06:33] INFO root fetch - main [MainThread]: Store serial: [22839220]
+[2024-04-19 11:08:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839220]
+[2024-04-19 11:08:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 11:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: instagram-dlpy
+[2024-04-19 11:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flatpack
+[2024-04-19 11:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phc-ingestion
+[2024-04-19 11:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-aiomqtt
+[2024-04-19 11:08:43] INFO root fetch - processPackages [dm-aiomqtt]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-19 11:08:43] INFO root fetch - processPackages [phc-ingestion]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-19 11:08:43] INFO root fetch - processPackages [flatpack]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-19 11:08:43] INFO root fetch - processPackages [instagram-dlpy]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-19 11:08:43] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/a1/55/d654f5aed4ef54cc878d0e44e7f9d278e084e0314d539d9ace16e6880aa1/dm_aiomqtt-0.4.2.tar.gz
+[2024-04-19 11:08:43] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/5d/94/5715a334f8a05ac4b367256fae72a9e2e44f14c6bb415e21a1fb1682b9bd/flatpack-3.3.0.tar.gz
+[2024-04-19 11:08:43] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/01/cf/65f5113a9117c8a7ac95bcf63e2fe6d16f135144593f679692c83c217849/phc-ingestion-0.8.2.tar.gz
+[2024-04-19 11:08:43] INFO root fetch - processPackages [instagram-dlpy]: Downloading https://files.pythonhosted.org/packages/47/80/adea82293293899869f9ef3f4dc7e549d9c6c8055a2f4d077c52ccfe1fe6/instagram-dlpy-1.1.0.tar.gz
+[2024-04-19 11:08:43] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/7c/5d/04e06ad27a1370a5ff44e8cfe95e0cc25ac8825c7d852ca87afe206dd00e/flatpack-3.3.1.tar.gz
+[2024-04-19 11:08:44] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/3f/e2/f59330fd04ac75a0b6b25994ffbb3f4eff833122b7dd6c346fa5c0b29a7c/phc-ingestion-0.8.3.tar.gz
+[2024-04-19 11:08:44] INFO root fetch - processPackages [dm-aiomqtt]: Downloading https://files.pythonhosted.org/packages/73/72/19ec4de60a5c7dd7837616dec33f46ed7f42eaaf0e6b122a5ffcc5c66d0a/dm_aiomqtt-0.4.3.tar.gz
+[2024-04-19 11:08:44] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-04-19 11:08:44] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.3.0.tar.gz tmp/flatpack-3.3.1.tar.gz --markdown 20240419/f/flatpack/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-04-19 11:08:44] INFO root fetch - processPackages [dm-aiomqtt]: executing diffoscope
+[2024-04-19 11:08:44] INFO root fetch - processPackages [dm-aiomqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_aiomqtt-0.4.2.tar.gz tmp/dm_aiomqtt-0.4.3.tar.gz --markdown 20240419/d/dm-aiomqtt/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-19 11:08:44] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2024-04-19 11:08:44] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.8.2.tar.gz tmp/phc-ingestion-0.8.3.tar.gz --markdown 20240419/p/phc-ingestion/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-19 11:08:44] INFO root fetch - processPackages [instagram-dlpy]: Downloading https://files.pythonhosted.org/packages/2c/ad/790e2392bf347f1d9a26140e1ef4c554df26bde9430d79c434c9fc834cee/instagram-dlpy-1.2.0.tar.gz
+[2024-04-19 11:08:44] INFO root fetch - processPackages [instagram-dlpy]: executing diffoscope
+[2024-04-19 11:08:44] INFO root fetch - processPackages [instagram-dlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagram-dlpy-1.1.0.tar.gz tmp/instagram-dlpy-1.2.0.tar.gz --markdown 20240419/i/instagram-dlpy/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-19 11:08:44] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.2.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - processPackages [dm-aiomqtt]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomqtt-0.4.3.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - main [MainThread]: End processing [dm-aiomqtt]: success
+[2024-04-19 11:08:44] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.0.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.3.1.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-04-19 11:08:44] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.2.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.8.3.tar.gz]
+[2024-04-19 11:08:44] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2024-04-19 11:08:45] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.1.0.tar.gz]
+[2024-04-19 11:08:45] INFO root fetch - processPackages [instagram-dlpy]: Remove: archive file [/home/abi/fetcher/tmp/instagram-dlpy-1.2.0.tar.gz]
+[2024-04-19 11:08:45] INFO root fetch - main [MainThread]: End processing [instagram-dlpy]: success
+[2024-04-19 11:08:45] INFO root fetch - main [MainThread]: Store serial: [22839231]
