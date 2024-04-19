@@ -9815,3 +9815,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:47:33] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
 [2024-04-19 06:47:33] INFO root fetch - main [MainThread]: End processing [longport]: success
 [2024-04-19 06:47:33] INFO root fetch - main [MainThread]: Store serial: [22836696]
+[2024-04-19 06:49:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836696]
+[2024-04-19 06:49:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 06:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-maintenance
+[2024-04-19 06:49:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DLMS-SPODES-client
+[2024-04-19 06:49:42] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-19 06:49:42] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/30/d9/7e3121e7dbb7673a52106b74efc497c2bb5554894292584e41bb83a86333/DLMS_SPODES_client-0.8.2.tar.gz
+[2024-04-19 06:49:42] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20240418.0] Old Version: [16.0.20240408.0]
+[2024-04-19 06:49:42] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/a6/d9/1099b368104e3c7b9c73a3c99ccd9567a962e06f51964d8855d806f78256/odoo_addons_oca_maintenance-16.0.20240408.0-py3-none-any.whl
+[2024-04-19 06:49:42] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/99/d8/85c2f11f98f710a9ed71b3b4983900199a6bfe6b6c606b87a62f1f6e783f/DLMS_SPODES_client-0.8.3.tar.gz
+[2024-04-19 06:49:42] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-19 06:49:42] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.8.2.tar.gz tmp/DLMS_SPODES_client-0.8.3.tar.gz --markdown 20240419/D/DLMS-SPODES-client/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-19 06:49:42] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/18/2b/d9bdd887a46b7d13c0538669eb135c2698606c18fc26d4f839cf5ef0917c/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl
+[2024-04-19 06:49:42] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2024-04-19 06:49:42] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20240408.0-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addons-oca-maintenance/16.0.20240408.0-16.0.20240418.0/README.md --exclude *.pyd
+[2024-04-19 06:49:43] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.2.tar.gz]
+[2024-04-19 06:49:43] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.8.3.tar.gz]
+[2024-04-19 06:49:43] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-19 06:49:43] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240408.0-py3-none-any.whl.zip]
+[2024-04-19 06:49:43] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240418.0-py3-none-any.whl.zip]
+[2024-04-19 06:49:43] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2024-04-19 06:49:43] INFO root fetch - main [MainThread]: Store serial: [22836700]
