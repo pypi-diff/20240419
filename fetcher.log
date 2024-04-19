@@ -8418,3 +8418,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:13:28] INFO root fetch - processPackages [cdktf-cdktf-provider-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-snowflake-9.0.4.tar.gz]
 [2024-04-19 05:13:28] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-snowflake]: success
 [2024-04-19 05:13:28] INFO root fetch - main [MainThread]: Store serial: [22836050]
+[2024-04-19 05:15:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836050]
+[2024-04-19 05:15:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-testing
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jsonffi
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwxlib
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: novita-client
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-databricks
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: celi-framework
+[2024-04-19 05:15:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: donetools
+[2024-04-19 05:15:37] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 05:15:37] WARNING root fetch - processPackages [jsonffi]: Skipping, unable to determine old version
+[2024-04-19 05:15:37] INFO root fetch - main [MainThread]: End processing [jsonffi] error
+[2024-04-19 05:15:37] INFO root fetch - processPackages [mwxlib]: New version: [0.93.9] Old Version: [0.93.8]
+[2024-04-19 05:15:37] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [celi-framework]: New version: [0.0.11] Old Version: [0.0.10]
+[2024-04-19 05:15:37] INFO root fetch - processPackages [novita-client]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-19 05:15:37] INFO root fetch - processPackages [mo-testing]: New version: [7.587.24110] Old Version: [7.585.24095]
+[2024-04-19 05:15:37] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-19 05:15:37] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/37/3a/c867260b7e0bec8434bc7b6474d56239b955f2fb0e23bc399a38957ac592/mwxlib-0.93.8-py3-none-any.whl
+[2024-04-19 05:15:37] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/85/30/25a2a777c30e33a4f0abda938b0ddb94aec066d0f7400bbbdc6ddc87ca1b/celi_framework-0.0.10.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [novita-client]: Downloading https://files.pythonhosted.org/packages/a7/e4/87ba426a11cdc9fdcceaab5b60d6b1781dfdc9622f9866cb969dd24d37d5/novita_client-0.5.3.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/ae/fb/2f9c5ca796dc4620906f2ba2077f3d5f08a79527c1af56c2af7878d49195/mo-testing-7.585.24095.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/22/e6/a37602f6c892854f281c7bb4adc106276e2457550f978d3876eae5aff44f/cdktf-cdktf-provider-databricks-9.0.2.tar.gz
+[2024-04-19 05:15:37] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-19 05:15:37] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240419/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/c2/36/1c4edd0cd018e07fb1b4a53c2bb108a05181ac41dde5c19921b038122167/mwxlib-0.93.9-py3-none-any.whl
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mo-testing]: Downloading https://files.pythonhosted.org/packages/d8/e8/3f9300b1f4dee93bb17808024b370c0e0b1ecab047b078a6090210a7029b/mo_testing-7.587.24110.tar.gz
+[2024-04-19 05:15:38] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/0d/8f/8137bd550ec48888bf0f083b140ff944fbe04ea213ac6d2a877f9356480a/celi_framework-0.0.11.tar.gz
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mo-testing]: executing diffoscope
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mo-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-testing-7.585.24095.tar.gz tmp/mo_testing-7.587.24110.tar.gz --markdown 20240419/m/mo-testing/7.585.24095-7.587.24110/README.md --exclude *.pyd
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.93.8-py3-none-any.whl.zip tmp/mwxlib-0.93.9-py3-none-any.whl.zip --markdown 20240419/m/mwxlib/0.93.8-0.93.9/README.md --exclude *.pyd
+[2024-04-19 05:15:38] INFO root fetch - processPackages [celi-framework]: executing diffoscope
+[2024-04-19 05:15:38] INFO root fetch - processPackages [celi-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celi_framework-0.0.10.tar.gz tmp/celi_framework-0.0.11.tar.gz --markdown 20240419/c/celi-framework/0.0.10-0.0.11/README.md --exclude *.pyd
+[2024-04-19 05:15:38] INFO root fetch - processPackages [novita-client]: Downloading https://files.pythonhosted.org/packages/c0/01/7ff8e0cb733fcbc8984113e639602be14d22ecf2d16352bce2e572da341b/novita_client-0.5.4.tar.gz
+[2024-04-19 05:15:38] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-19 05:15:38] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-19 05:15:38] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-19 05:15:38] INFO root fetch - processPackages [novita-client]: executing diffoscope
+[2024-04-19 05:15:38] INFO root fetch - processPackages [novita-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novita_client-0.5.3.tar.gz tmp/novita_client-0.5.4.tar.gz --markdown 20240419/n/novita-client/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo-testing-7.585.24095.tar.gz]
+[2024-04-19 05:15:38] INFO root fetch - processPackages [mo-testing]: Remove: archive file [/home/abi/fetcher/tmp/mo_testing-7.587.24110.tar.gz]
+[2024-04-19 05:15:38] INFO root fetch - main [MainThread]: End processing [mo-testing]: success
+[2024-04-19 05:15:38] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Downloading https://files.pythonhosted.org/packages/cc/3a/8e28dd4a45c0a00150d822d03862c508cb6c485bb959ef5ce80e1adb4448/cdktf-cdktf-provider-databricks-9.0.3.tar.gz
+[2024-04-19 05:15:39] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.93.8-py3-none-any.whl.zip]
+[2024-04-19 05:15:39] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.93.9-py3-none-any.whl.zip]
+[2024-04-19 05:15:39] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2024-04-19 05:15:39] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.10.tar.gz]
+[2024-04-19 05:15:39] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.11.tar.gz]
+[2024-04-19 05:15:39] INFO root fetch - main [MainThread]: End processing [celi-framework]: success
+[2024-04-19 05:15:39] INFO root fetch - processPackages [novita-client]: Remove: archive file [/home/abi/fetcher/tmp/novita_client-0.5.3.tar.gz]
+[2024-04-19 05:15:39] INFO root fetch - processPackages [novita-client]: Remove: archive file [/home/abi/fetcher/tmp/novita_client-0.5.4.tar.gz]
+[2024-04-19 05:15:39] INFO root fetch - main [MainThread]: End processing [novita-client]: success
+[2024-04-19 05:15:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: executing diffoscope
+[2024-04-19 05:15:40] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz --markdown 20240419/c/cdktf-cdktf-provider-databricks/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-04-19 05:15:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.2.tar.gz]
+[2024-04-19 05:15:44] INFO root fetch - processPackages [cdktf-cdktf-provider-databricks]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-databricks-9.0.3.tar.gz]
+[2024-04-19 05:15:44] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-databricks]: success
+[2024-04-19 05:15:44] INFO root fetch - main [MainThread]: Store serial: [22836082]
