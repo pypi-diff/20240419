@@ -7767,3 +7767,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 
 [2024-04-19 04:29:50] INFO root fetch - main [MainThread]: End processing [siat] error
 [2024-04-19 04:29:50] INFO root fetch - main [MainThread]: Store serial: [22835803]
+[2024-04-19 04:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835803]
+[2024-04-19 04:31:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentccode
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-mail
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bolero
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nekrosis
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ns3vc
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi
+[2024-04-19 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xl-database
+[2024-04-19 04:31:58] INFO root fetch - processPackages [xl-database]: New version: [0.6.1] Old Version: [0.5.21]
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pih-mail]: New version: [0.16] Old Version: [0.15]
+[2024-04-19 04:31:59] INFO root fetch - processPackages [gentccode]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 04:31:59] WARNING root fetch - processPackages [ns3vc]: Skipping, unable to determine old version
+[2024-04-19 04:31:59] INFO root fetch - main [MainThread]: End processing [ns3vc] error
+[2024-04-19 04:31:59] INFO root fetch - processPackages [bolero]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 04:31:59] INFO root fetch - processPackages [nekrosis]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-04-19 04:31:59] INFO root fetch - processPackages [xl-database]: Downloading https://files.pythonhosted.org/packages/7f/6c/5d6d55a84f3429187f22a9093ffc23e64949e8c65ba383dd0d6d0910d6bb/xl_database-0.5.21.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/3c/13/2226588658de89ff262e7dd00715ac8562f24ae44522c5abda9a9859e7d7/gentccode-0.2.8.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pih-mail]: Downloading https://files.pythonhosted.org/packages/0c/13/cb8f2b7e5aafc191d15c23342bbb8fbd3c05f9c0e28dfbcde73dc3e32d6b/pih-mail-0.15.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-19 04:31:59] INFO root fetch - processPackages [bolero]: Downloading https://files.pythonhosted.org/packages/0e/54/d977da7062905b9ef12d154a22d7c529f309814631e9af2438766d209519/bolero-0.0.8.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [nekrosis]: Downloading https://files.pythonhosted.org/packages/a9/44/72a27147e75ad3c7ee9a628e6c220228f78f14525fddc2618f42a59a50e8/nekrosis-0.0.3-py3-none-any.whl
+[2024-04-19 04:31:59] WARNING root fetch - processPackages [bolero]: Skipping package: exceeds size limit 13048827>=10485760
+[2024-04-19 04:31:59] INFO root fetch - main [MainThread]: End processing [bolero] error
+[2024-04-19 04:31:59] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/f7/d1/5c17a5c4500f9e17ea50ca48d92414e2937dbc16b71848c2f9db82eadcaf/gentccode-0.2.9.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pih-mail]: Downloading https://files.pythonhosted.org/packages/af/e4/29510606c6a2cfeed35dbb6f5fc39eb00231095d654a06cfcf365606774f/pih-mail-0.16.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [xl-database]: Downloading https://files.pythonhosted.org/packages/48/3d/d5bfb0d0b127df47c4d22e50db14e1337429f6aee44cc1c48487a4788fe0/xl_database-0.6.1.tar.gz
+[2024-04-19 04:31:59] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-19 04:31:59] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.8.tar.gz tmp/gentccode-0.2.9.tar.gz --markdown 20240419/g/gentccode/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-19 04:31:59] INFO root fetch - processPackages [nekrosis]: Downloading https://files.pythonhosted.org/packages/40/29/d15c63897a8588d78eb33c4f97f96ff45a72ee2c110583edaf0895d58c35/nekrosis-1.0.0-py3-none-any.whl
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pih-mail]: executing diffoscope
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pih-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mail-0.15.tar.gz tmp/pih-mail-0.16.tar.gz --markdown 20240419/p/pih-mail/0.15-0.16/README.md --exclude *.pyd
+[2024-04-19 04:31:59] INFO root fetch - processPackages [xl-database]: executing diffoscope
+[2024-04-19 04:31:59] INFO root fetch - processPackages [xl-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl_database-0.5.21.tar.gz tmp/xl_database-0.6.1.tar.gz --markdown 20240419/x/xl-database/0.5.21-0.6.1/README.md --exclude *.pyd
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-19 04:31:59] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240419/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-19 04:31:59] INFO root fetch - processPackages [nekrosis]: executing diffoscope
+[2024-04-19 04:31:59] INFO root fetch - processPackages [nekrosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nekrosis-0.0.3-py3-none-any.whl.zip tmp/nekrosis-1.0.0-py3-none-any.whl.zip --markdown 20240419/n/nekrosis/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-04-19 04:32:00] INFO root fetch - processPackages [pih-mail]: Remove: archive file [/home/abi/fetcher/tmp/pih-mail-0.15.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - processPackages [pih-mail]: Remove: archive file [/home/abi/fetcher/tmp/pih-mail-0.16.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [pih-mail]: success
+[2024-04-19 04:32:00] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.8.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.9.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-19 04:32:00] INFO root fetch - processPackages [xl-database]: Remove: archive file [/home/abi/fetcher/tmp/xl_database-0.5.21.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - processPackages [xl-database]: Remove: archive file [/home/abi/fetcher/tmp/xl_database-0.6.1.tar.gz]
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [xl-database]: success
+[2024-04-19 04:32:00] INFO root fetch - processPackages [nekrosis]: Remove: archive file [/home/abi/fetcher/tmp/nekrosis-0.0.3-py3-none-any.whl.zip]
+[2024-04-19 04:32:00] INFO root fetch - processPackages [nekrosis]: Remove: archive file [/home/abi/fetcher/tmp/nekrosis-1.0.0-py3-none-any.whl.zip]
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [nekrosis]: success
+[2024-04-19 04:32:00] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-19 04:32:00] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-19 04:32:00] INFO root fetch - main [MainThread]: Store serial: [22835823]
