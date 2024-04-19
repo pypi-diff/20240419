@@ -9176,3 +9176,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:01:44] INFO root fetch - processPackages [RMCgp]: Remove: archive file [/home/abi/fetcher/tmp/RMCgp-0.0.2.tar.gz]
 [2024-04-19 06:01:44] INFO root fetch - main [MainThread]: End processing [RMCgp]: success
 [2024-04-19 06:01:44] INFO root fetch - main [MainThread]: Store serial: [22836341]
+[2024-04-19 06:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836341]
+[2024-04-19 06:03:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 06:05:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836342]
+[2024-04-19 06:05:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eidolon-ai-sdk
+[2024-04-19 06:05:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazy-mongo
+[2024-04-19 06:05:58] INFO root fetch - processPackages [eidolon-ai-sdk]: New version: [0.1.31] Old Version: [0.1.30]
+[2024-04-19 06:05:58] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/b2/2d/85de431f8e5483c4e85d7e0f2b1584bd08086c1f0c252af3197f1ff3c60f/eidolon_ai_sdk-0.1.30.tar.gz
+[2024-04-19 06:05:58] INFO root fetch - processPackages [lazy-mongo]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-19 06:05:59] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/c9/be/e4195b62a834266cd1d93a30899d0674377ad87ce8da57f8f16485d854fc/lazy_mongo-0.2.3.tar.gz
+[2024-04-19 06:05:59] INFO root fetch - processPackages [eidolon-ai-sdk]: Downloading https://files.pythonhosted.org/packages/4b/c6/c5e5a3128ffc49aba0a67b5926b85fdcf2c1c807e065dfc86ec2b73432f6/eidolon_ai_sdk-0.1.31.tar.gz
+[2024-04-19 06:05:59] INFO root fetch - processPackages [eidolon-ai-sdk]: executing diffoscope
+[2024-04-19 06:05:59] INFO root fetch - processPackages [eidolon-ai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eidolon_ai_sdk-0.1.30.tar.gz tmp/eidolon_ai_sdk-0.1.31.tar.gz --markdown 20240419/e/eidolon-ai-sdk/0.1.30-0.1.31/README.md --exclude *.pyd
+[2024-04-19 06:05:59] INFO root fetch - processPackages [lazy-mongo]: Downloading https://files.pythonhosted.org/packages/a3/d5/848ae4d0c86168b19518f6a2256356d649967a896b20328f3b09b52ab599/lazy_mongo-0.2.4.tar.gz
+[2024-04-19 06:05:59] INFO root fetch - processPackages [lazy-mongo]: executing diffoscope
+[2024-04-19 06:05:59] INFO root fetch - processPackages [lazy-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_mongo-0.2.3.tar.gz tmp/lazy_mongo-0.2.4.tar.gz --markdown 20240419/l/lazy-mongo/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-19 06:06:00] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.30.tar.gz]
+[2024-04-19 06:06:00] INFO root fetch - processPackages [eidolon-ai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/eidolon_ai_sdk-0.1.31.tar.gz]
+[2024-04-19 06:06:00] INFO root fetch - main [MainThread]: End processing [eidolon-ai-sdk]: success
+[2024-04-19 06:06:00] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.3.tar.gz]
+[2024-04-19 06:06:00] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.4.tar.gz]
+[2024-04-19 06:06:00] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
+[2024-04-19 06:06:00] INFO root fetch - main [MainThread]: Store serial: [22836359]
