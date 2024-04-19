@@ -8187,3 +8187,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:58:12] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
 [2024-04-19 04:58:12] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
 [2024-04-19 04:58:12] INFO root fetch - main [MainThread]: Store serial: [22835959]
+[2024-04-19 05:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835959]
+[2024-04-19 05:00:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wechatpayv3
+[2024-04-19 05:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-cdn-host
+[2024-04-19 05:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: httpsversion0.0.1
+[2024-04-19 05:00:21] WARNING root fetch - processPackages [httpsversion0.0.1]: Skipping, unable to determine old version
+[2024-04-19 05:00:21] INFO root fetch - main [MainThread]: End processing [httpsversion0.0.1] error
+[2024-04-19 05:00:21] INFO root fetch - processPackages [fastapi-cdn-host]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-19 05:00:21] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-19 05:00:21] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/7f/df/ee9578c39e8458a99292bacb83285daea1a1d6dc29c8d782b1a0516f6ad2/fastapi_cdn_host-0.4.1.tar.gz
+[2024-04-19 05:00:22] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2024-04-19 05:00:22] INFO root fetch - processPackages [fastapi-cdn-host]: Downloading https://files.pythonhosted.org/packages/7a/bc/45e8b41f058074e781e7f3344161c8e667c7f8d097585d4e8efedd7fdf0b/fastapi_cdn_host-0.4.2.tar.gz
+[2024-04-19 05:00:22] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2024-04-19 05:00:22] INFO root fetch - processPackages [fastapi-cdn-host]: executing diffoscope
+[2024-04-19 05:00:22] INFO root fetch - processPackages [fastapi-cdn-host]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cdn_host-0.4.1.tar.gz tmp/fastapi_cdn_host-0.4.2.tar.gz --markdown 20240419/f/fastapi-cdn-host/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-19 05:00:22] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2024-04-19 05:00:22] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20240419/w/wechatpayv3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-19 05:00:22] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.1.tar.gz]
+[2024-04-19 05:00:22] INFO root fetch - processPackages [fastapi-cdn-host]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cdn_host-0.4.2.tar.gz]
+[2024-04-19 05:00:22] INFO root fetch - main [MainThread]: End processing [fastapi-cdn-host]: success
+[2024-04-19 05:00:23] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.8.tar.gz]
+[2024-04-19 05:00:23] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
+[2024-04-19 05:00:23] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2024-04-19 05:00:23] INFO root fetch - main [MainThread]: Store serial: [22835970]
