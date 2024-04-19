@@ -19405,3 +19405,79 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 13:11:29] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip]
 [2024-04-19 13:11:29] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
 [2024-04-19 13:11:29] INFO root fetch - main [MainThread]: Store serial: [22840738]
+[2024-04-19 13:13:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840738]
+[2024-04-19 13:13:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mazeai
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traitlets
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arts
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyarmor-webui
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solnlib
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dve-lumipy-testing
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: miniscons
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2024-04-19 13:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miniscons
+[2024-04-19 13:13:38] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 13:13:38] WARNING root fetch - processPackages [mazeai]: Skipping, unable to determine old version
+[2024-04-19 13:13:38] INFO root fetch - main [MainThread]: End processing [mazeai] error
+[2024-04-19 13:13:38] INFO root fetch - processPackages [arts]: New version: [2024.4.19] Old Version: [2024.4.13]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [traitlets]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/d9/2e/735346c5fd21ad9f12be3d02c0bb1cd80d7c3393ffdfc15ee73e14a02f0e/miniscons-0.7.2.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-04-19 13:13:38] INFO root fetch - processPackages [pyarmor-webui]: New version: [2.4] Old Version: [2.3]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [solnlib]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-19 13:13:38] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/1e/9a/5f84ff0051720acd8cd1afaf5a162f4691a1951bb096a974ef5ea0ea5a6a/arts-2024.4.13.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/d9/2e/735346c5fd21ad9f12be3d02c0bb1cd80d7c3393ffdfc15ee73e14a02f0e/miniscons-0.7.2.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [traitlets]: Downloading https://files.pythonhosted.org/packages/be/58/2d930cfab2caca22c827229ca61aabd8102423f7e817805cba706dce1598/traitlets-5.8.1.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [solnlib]: Downloading https://files.pythonhosted.org/packages/09/5e/4b2da3eabe135b9bda6b815bccb4a0286569b148beff1b87cf5adc740cb6/solnlib-4.9.0.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/aa/26/1686f63e2297442ae4080c173efd2814c8b2c54479b98fbade5cdf46c0a5/pyarmor-webui-2.3.zip
+[2024-04-19 13:13:38] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/3f/ad/0a983e01ee05586202b3c2cbbe0e949e8eeb1842e35f5424f432249190ab/arts-2024.4.19.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/3c/3c/d46f48152830aacdc218935304abcf25b4f92ffe0d01740487d0e4c659a4/miniscons-0.7.3.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/3c/3c/d46f48152830aacdc218935304abcf25b4f92ffe0d01740487d0e4c659a4/miniscons-0.7.3.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [traitlets]: Downloading https://files.pythonhosted.org/packages/39/c3/205e88f02959712b62008502952707313640369144a7fded4cbc61f48321/traitlets-5.9.0.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [arts]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-2024.4.13.tar.gz tmp/arts-2024.4.19.tar.gz --markdown 20240419/a/arts/2024.4.13-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.7.2.tar.gz tmp/miniscons-0.7.3.tar.gz --markdown 20240419/m/miniscons/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-19 13:13:38] INFO root fetch - processPackages [solnlib]: Downloading https://files.pythonhosted.org/packages/2f/48/d2e8649b9f027eb9964a00a732049ee289aa413ee4953d14760c63926ba7/solnlib-4.9.1.tar.gz
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.7.2.tar.gz tmp/miniscons-0.7.3.tar.gz --markdown 20240419/m/miniscons/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-19 13:13:38] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240419/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 13:13:38] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-19 13:13:38] INFO root fetch - processPackages [pyarmor-webui]: Downloading https://files.pythonhosted.org/packages/fd/e4/0bc48b3e4918c97078d4a62016c42f4a0214998f1785350b4ff6b299a190/pyarmor-webui-2.4.zip
+[2024-04-19 13:13:38] INFO root fetch - processPackages [traitlets]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [traitlets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traitlets-5.8.1.tar.gz tmp/traitlets-5.9.0.tar.gz --markdown 20240419/t/traitlets/5.8.1-5.9.0/README.md --exclude *.pyd
+[2024-04-19 13:13:38] INFO root fetch - processPackages [solnlib]: executing diffoscope
+[2024-04-19 13:13:38] INFO root fetch - processPackages [solnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solnlib-4.9.0.tar.gz tmp/solnlib-4.9.1.tar.gz --markdown 20240419/s/solnlib/4.9.0-4.9.1/README.md --exclude *.pyd
+[2024-04-19 13:13:39] INFO root fetch - processPackages [pyarmor-webui]: executing diffoscope
+[2024-04-19 13:13:39] INFO root fetch - processPackages [pyarmor-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-webui-2.3.zip tmp/pyarmor-webui-2.4.zip --markdown 20240419/p/pyarmor-webui/2.3-2.4/README.md --exclude *.pyd
+[2024-04-19 13:13:39] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-19 13:13:39] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240419/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-04-19 13:13:39] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.2.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.3.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-19 13:13:39] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-19 13:13:39] INFO root fetch - processPackages [solnlib]: Remove: archive file [/home/abi/fetcher/tmp/solnlib-4.9.0.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - processPackages [solnlib]: Remove: archive file [/home/abi/fetcher/tmp/solnlib-4.9.1.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - main [MainThread]: End processing [solnlib]: success
+[2024-04-19 13:13:39] INFO root fetch - processPackages [traitlets]: Remove: archive file [/home/abi/fetcher/tmp/traitlets-5.8.1.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - processPackages [traitlets]: Remove: archive file [/home/abi/fetcher/tmp/traitlets-5.9.0.tar.gz]
+[2024-04-19 13:13:39] INFO root fetch - main [MainThread]: End processing [traitlets]: success
+[2024-04-19 13:13:40] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.13.tar.gz]
+[2024-04-19 13:13:40] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-2024.4.19.tar.gz]
+[2024-04-19 13:13:40] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2024-04-19 13:13:40] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 13:13:40] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 13:13:40] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-19 13:13:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-19 13:13:40] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-19 13:13:40] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-19 13:13:46] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.3.zip]
+[2024-04-19 13:13:46] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.4.zip]
+[2024-04-19 13:13:46] INFO root fetch - main [MainThread]: End processing [pyarmor-webui]: success
+[2024-04-19 13:13:46] INFO root fetch - main [MainThread]: Store serial: [22840769]
