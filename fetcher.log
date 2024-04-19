@@ -11412,3 +11412,26 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:10:36] INFO root fetch - processPackages [pulumi-materialize]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_materialize-0.1.9.tar.gz]
 [2024-04-19 08:10:36] INFO root fetch - main [MainThread]: End processing [pulumi-materialize]: success
 [2024-04-19 08:10:36] INFO root fetch - main [MainThread]: Store serial: [22837358]
+[2024-04-19 08:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837358]
+[2024-04-19 08:12:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 08:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaccm
+[2024-04-19 08:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cj-package
+[2024-04-19 08:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-images-creator
+[2024-04-19 08:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeelKrypt
+[2024-04-19 08:12:45] WARNING root fetch - processPackages [NeelKrypt]: Skipping, unable to determine old version
+[2024-04-19 08:12:45] INFO root fetch - main [MainThread]: End processing [NeelKrypt] error
+[2024-04-19 08:12:45] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 08:12:45] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-19 08:12:45] WARNING root fetch - processPackages [metaccm]: Skipping, unable to determine old version
+[2024-04-19 08:12:45] INFO root fetch - main [MainThread]: End processing [metaccm] error
+[2024-04-19 08:12:45] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 08:12:45] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/32/84/252ae6b19beb15394e6ecc348b0b72dfc18d73edb6f95fde013954a136c8/video_images_creator-0.3.0.tar.gz
+[2024-04-19 08:12:45] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-19 08:12:45] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-19 08:12:45] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240419/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 08:12:45] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46956741>=10485760
+[2024-04-19 08:12:45] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 08:12:46] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-19 08:12:46] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-19 08:12:46] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-19 08:12:46] INFO root fetch - main [MainThread]: Store serial: [22837371]
