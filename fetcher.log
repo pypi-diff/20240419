@@ -2774,3 +2774,77 @@
 [2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: Remove: archive file [/home/abi/fetcher/tmp/netsuite_connector-0.3.0.tar.gz]
 [2024-04-19 02:44:29] INFO root fetch - main [MainThread]: End processing [NetSuite-Connector]: success
 [2024-04-19 02:44:29] INFO root fetch - main [MainThread]: Store serial: [22833820]
+[2024-04-19 02:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833820]
+[2024-04-19 02:46:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfds-nightly
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygpt-net
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whitecloak
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-image-pipeline
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synapseclient
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybureaucrat
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nm-magic-wand-nightly
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: salebox-django
+[2024-04-19 02:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: audiospotter-cli
+[2024-04-19 02:46:38] WARNING root fetch - processPackages [whitecloak]: Skipping, unable to determine old version
+[2024-04-19 02:46:38] INFO root fetch - main [MainThread]: End processing [whitecloak] error
+[2024-04-19 02:46:38] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240418] Old Version: [0.2.2.20240417]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pybureaucrat]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [salebox-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404180044] Old Version: [4.9.4.dev202404170044]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [cdk-image-pipeline]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/b4/ce/1fb94be9e18e4950371e0cf8d98f70273a6ddddb0c60f9a7a4c2ea3a9c20/nm_magic_wand_nightly-0.2.2.20240417-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pybureaucrat]: Downloading https://files.pythonhosted.org/packages/31/c7/b572cdcdc438ac6833bd5fb5591a78856fad62ebcc28b3763dd8770bab00/pybureaucrat-1.0.8.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [synapseclient]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/fd/2e/43c58d9ec2da0e8278438b99de4884789d7e7c37c482790cde53f0199c9d/salebox-django-0.0.98.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [audiospotter-cli]: New version: [0.2] Old Version: [0.1]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-19 02:46:38] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/9c/4a/c78ef27c2f2796330195c1de412dce6dbac3db722c056b928b48b8039fb4/tfds-nightly-4.9.4.dev202404170044.tar.gz
+[2024-04-19 02:46:38] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349471>=10485760
+[2024-04-19 02:46:38] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-19 02:46:38] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/89/e4/13205ca0899fa56500854db926cce250628dd694b8862db8cc74c53ee463/cdk-image-pipeline-0.5.8.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pybureaucrat]: Downloading https://files.pythonhosted.org/packages/00/e3/aa5b14ab9b7a552fd558a38fa5cb1706b162531355658001aedb85e31830/pybureaucrat-1.0.9.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [salebox-django]: Downloading https://files.pythonhosted.org/packages/69/4b/94b7285fb4a0796666dd186b2e4183ad17e38a66ab79ca823f9b4b2d18be/salebox-django-0.0.99.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [audiospotter-cli]: Downloading https://files.pythonhosted.org/packages/01/06/ee2f2459e78e106349bad0c3be23aab189ebbdbb29bad9db1ff381baf1a3/audiospotter-cli-0.1.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [synapseclient]: Downloading https://files.pythonhosted.org/packages/01/a1/1b167ae9ce33791607b4de2523c2e2ff8bdd795800578cd356c1a8126218/synapseclient-4.1.1.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pybureaucrat]: executing diffoscope
+[2024-04-19 02:46:38] INFO root fetch - processPackages [pybureaucrat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybureaucrat-1.0.8.tar.gz tmp/pybureaucrat-1.0.9.tar.gz --markdown 20240419/p/pybureaucrat/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 02:46:38] INFO root fetch - processPackages [salebox-django]: executing diffoscope
+[2024-04-19 02:46:38] INFO root fetch - processPackages [salebox-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salebox-django-0.0.98.tar.gz tmp/salebox-django-0.0.99.tar.gz --markdown 20240419/s/salebox-django/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-19 02:46:38] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/d6/6b/f31d20a73110423811536308c209e529dcd79f8a40493d39119f44ecbda0/tfds-nightly-4.9.4.dev202404180044.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [cdk-image-pipeline]: Downloading https://files.pythonhosted.org/packages/17/47/3621b859151bcfb29e25014308c3c0e1c4709e1c448cf3119a735d43098a/cdk-image-pipeline-0.5.9.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [audiospotter-cli]: Downloading https://files.pythonhosted.org/packages/69/75/dd5c7e3249bf896eec192cf98afd8e372cf4b2a6a33a3231f756621cbbda/audiospotter_cli-0.2.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [synapseclient]: Downloading https://files.pythonhosted.org/packages/48/c8/9f01d4fc1aaf1c0f2f1b3cf7e11ef57fe3ac9aa83f1994dba8c4e5f7c54a/synapseclient-4.2.0.tar.gz
+[2024-04-19 02:46:38] INFO root fetch - processPackages [cdk-image-pipeline]: executing diffoscope
+[2024-04-19 02:46:38] INFO root fetch - processPackages [cdk-image-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-image-pipeline-0.5.8.tar.gz tmp/cdk-image-pipeline-0.5.9.tar.gz --markdown 20240419/c/cdk-image-pipeline/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-19 02:46:39] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-19 02:46:39] INFO root fetch - processPackages [synapseclient]: executing diffoscope
+[2024-04-19 02:46:39] INFO root fetch - processPackages [synapseclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapseclient-4.1.1.tar.gz tmp/synapseclient-4.2.0.tar.gz --markdown 20240419/s/synapseclient/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-04-19 02:46:39] INFO root fetch - processPackages [audiospotter-cli]: executing diffoscope
+[2024-04-19 02:46:39] INFO root fetch - processPackages [audiospotter-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiospotter-cli-0.1.tar.gz tmp/audiospotter_cli-0.2.tar.gz --markdown 20240419/a/audiospotter-cli/0.1-0.2/README.md --exclude *.pyd
+[2024-04-19 02:46:39] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-19 02:46:39] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404170044.tar.gz tmp/tfds-nightly-4.9.4.dev202404180044.tar.gz --markdown 20240419/t/tfds-nightly/4.9.4.dev202404170044-4.9.4.dev202404180044/README.md --exclude *.pyd
+[2024-04-19 02:46:39] INFO root fetch - processPackages [pybureaucrat]: Remove: archive file [/home/abi/fetcher/tmp/pybureaucrat-1.0.8.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - processPackages [pybureaucrat]: Remove: archive file [/home/abi/fetcher/tmp/pybureaucrat-1.0.9.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - main [MainThread]: End processing [pybureaucrat]: success
+[2024-04-19 02:46:39] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-19 02:46:39] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240419/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-19 02:46:39] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.98.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - processPackages [salebox-django]: Remove: archive file [/home/abi/fetcher/tmp/salebox-django-0.0.99.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - main [MainThread]: End processing [salebox-django]: success
+[2024-04-19 02:46:39] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.8.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - processPackages [cdk-image-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/cdk-image-pipeline-0.5.9.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - main [MainThread]: End processing [cdk-image-pipeline]: success
+[2024-04-19 02:46:39] INFO root fetch - processPackages [audiospotter-cli]: Remove: archive file [/home/abi/fetcher/tmp/audiospotter-cli-0.1.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - processPackages [audiospotter-cli]: Remove: archive file [/home/abi/fetcher/tmp/audiospotter_cli-0.2.tar.gz]
+[2024-04-19 02:46:39] INFO root fetch - main [MainThread]: End processing [audiospotter-cli]: success
+[2024-04-19 02:46:40] INFO root fetch - processPackages [synapseclient]: Remove: archive file [/home/abi/fetcher/tmp/synapseclient-4.1.1.tar.gz]
+[2024-04-19 02:46:40] INFO root fetch - processPackages [synapseclient]: Remove: archive file [/home/abi/fetcher/tmp/synapseclient-4.2.0.tar.gz]
+[2024-04-19 02:46:40] INFO root fetch - main [MainThread]: End processing [synapseclient]: success
+[2024-04-19 02:46:41] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-19 02:46:41] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-19 02:46:41] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-19 02:46:48] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404170044.tar.gz]
+[2024-04-19 02:46:48] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404180044.tar.gz]
+[2024-04-19 02:46:48] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-19 02:46:48] INFO root fetch - main [MainThread]: Store serial: [22833849]
