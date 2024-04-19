@@ -12526,3 +12526,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:10:02] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-19 09:10:02] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-19 09:10:02] INFO root fetch - main [MainThread]: Store serial: [22837824]
+[2024-04-19 09:12:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837824]
+[2024-04-19 09:12:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: artesian-sdk
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mastercard-api-client
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: happycow
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fractal-server
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: globlocks
+[2024-04-19 09:12:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Rabbit-in-a-Blender
+[2024-04-19 09:12:10] INFO root fetch - processPackages [artesian-sdk]: New version: [3.1.4.dev2] Old Version: [3.1.3.dev5]
+[2024-04-19 09:12:10] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.49] Old Version: [0.0.48]
+[2024-04-19 09:12:10] INFO root fetch - processPackages [mastercard-api-client]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-19 09:12:10] WARNING root fetch - processPackages [happycow]: Skipping, unable to determine old version
+[2024-04-19 09:12:10] INFO root fetch - main [MainThread]: End processing [happycow] error
+[2024-04-19 09:12:10] INFO root fetch - processPackages [globlocks]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 09:12:10] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-04-19 09:12:10] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/15/d1/aae444ae43b40099d6adea29920d64c97cfc8ece31108cfcb6a0664f9344/artesian-sdk-3.1.3.dev5.tar.gz
+[2024-04-19 09:12:10] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/f2/c0/23bd297ceea2b89930000c465d12dcf9fc40e3f1185b2b1e491ddc4e8ca5/rabbit_in_a_blender-0.0.48.tar.gz
+[2024-04-19 09:12:10] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/b3/df/e6d10c2f08f29a56dfaa8423e0a73cd7b298ffeb90fb94d29e47940bab4d/mastercard_api_client-2.0.1.tar.gz
+[2024-04-19 09:12:10] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/56/fb/b74e9fa8b246b7afab60544e9c4ef8efa169c3ec2f856cd77bb8dd3f6141/globlocks-1.1.8.tar.gz
+[2024-04-19 09:12:10] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f8/12/2335911669aec79c0cce439c399ad2e0c9d58f6b47d866cbef3122364b97/fractal_server-2.0.0a8.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [artesian-sdk]: Downloading https://files.pythonhosted.org/packages/79/64/9b5916d07fc1bc95ec564e8986010ba00b6831dfe2b71b7d71da9df16c20/artesian_sdk-3.1.4.dev2.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [artesian-sdk]: executing diffoscope
+[2024-04-19 09:12:11] INFO root fetch - processPackages [artesian-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artesian-sdk-3.1.3.dev5.tar.gz tmp/artesian_sdk-3.1.4.dev2.tar.gz --markdown 20240419/a/artesian-sdk/3.1.3.dev5-3.1.4.dev2/README.md --exclude *.pyd
+[2024-04-19 09:12:11] INFO root fetch - processPackages [mastercard-api-client]: Downloading https://files.pythonhosted.org/packages/35/df/19fef5b72b96a1cc4fb52ebab7271d2b2dc77744a246f06640c778e40fba/mastercard_api_client-2.0.2.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/23/86/b5793611590161363877b7bc795404a46b887a8ffdb41384f995550ef48b/rabbit_in_a_blender-0.0.49.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ef/ad/58405ebb44f6559aefa712288e9ea086594faec7a4f37e2c8eaf19359168/fractal_server-2.0.0a9.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [mastercard-api-client]: executing diffoscope
+[2024-04-19 09:12:11] INFO root fetch - processPackages [mastercard-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastercard_api_client-2.0.1.tar.gz tmp/mastercard_api_client-2.0.2.tar.gz --markdown 20240419/m/mastercard-api-client/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-19 09:12:11] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-19 09:12:11] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a8.tar.gz tmp/fractal_server-2.0.0a9.tar.gz --markdown 20240419/f/fractal-server/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-04-19 09:12:11] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2024-04-19 09:12:11] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_in_a_blender-0.0.48.tar.gz tmp/rabbit_in_a_blender-0.0.49.tar.gz --markdown 20240419/R/Rabbit-in-a-Blender/0.0.48-0.0.49/README.md --exclude *.pyd
+[2024-04-19 09:12:11] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/e9/b7/72f6c3330f559fb5cc77874f409d5849e6582b85f550463e97ac97b30984/globlocks-1.1.9.tar.gz
+[2024-04-19 09:12:11] INFO root fetch - processPackages [globlocks]: executing diffoscope
+[2024-04-19 09:12:11] INFO root fetch - processPackages [globlocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globlocks-1.1.8.tar.gz tmp/globlocks-1.1.9.tar.gz --markdown 20240419/g/globlocks/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 09:12:12] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.1.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - processPackages [mastercard-api-client]: Remove: archive file [/home/abi/fetcher/tmp/mastercard_api_client-2.0.2.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - main [MainThread]: End processing [mastercard-api-client]: success
+[2024-04-19 09:12:12] INFO root fetch - processPackages [artesian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artesian-sdk-3.1.3.dev5.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - processPackages [artesian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/artesian_sdk-3.1.4.dev2.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - main [MainThread]: End processing [artesian-sdk]: success
+[2024-04-19 09:12:12] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a9.tar.gz]
+[2024-04-19 09:12:12] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-19 09:12:13] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.48.tar.gz]
+[2024-04-19 09:12:13] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.49.tar.gz]
+[2024-04-19 09:12:13] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2024-04-19 09:12:15] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.8.tar.gz]
+[2024-04-19 09:12:15] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.9.tar.gz]
+[2024-04-19 09:12:15] INFO root fetch - main [MainThread]: End processing [globlocks]: success
+[2024-04-19 09:12:15] INFO root fetch - main [MainThread]: Store serial: [22837857]
