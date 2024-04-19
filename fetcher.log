@@ -14246,3 +14246,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:16:31] INFO root fetch - processPackages [aliyun-log-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-log-python-sdk-0.9.1.tar.gz]
 [2024-04-19 10:16:31] INFO root fetch - main [MainThread]: End processing [aliyun-log-python-sdk]: success
 [2024-04-19 10:16:31] INFO root fetch - main [MainThread]: Store serial: [22838593]
+[2024-04-19 10:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838593]
+[2024-04-19 10:18:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oakvar
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clife-svc2
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bec-widgets
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.199] Old Version: [0.1.198]
+[2024-04-19 10:18:40] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/99/8d/886ecc33f08dc79c7bc7e24cbe49a1a91f7a26893b4217c14694bb6f269e/ansar_connect-0.1.198.tar.gz
+[2024-04-19 10:18:40] WARNING root fetch - processPackages [clife-svc2]: Skipping, unable to determine old version
+[2024-04-19 10:18:40] INFO root fetch - main [MainThread]: End processing [clife-svc2] error
+[2024-04-19 10:18:40] INFO root fetch - processPackages [oakvar]: New version: [2.9.97] Old Version: [2.9.96]
+[2024-04-19 10:18:40] INFO root fetch - processPackages [bec-widgets]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-19 10:18:41] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/fa/b2/4c88323517b649cae644023ad6c2ebd31c8bd9dfee480d71cff7c413d0a0/ansar_connect-0.1.199.tar.gz
+[2024-04-19 10:18:41] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/df/1a/4d617e91f19c65692dd4618a585aadac4bde17005906530823cf8ef6adbe/oakvar-2.9.96.tar.gz
+[2024-04-19 10:18:41] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/d4/a4/036c9cedb9f9879c6b5fee42a6aa51583c18be1eaa61ffbad1171b243b07/bec_widgets-0.8.1.tar.gz
+[2024-04-19 10:18:41] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-19 10:18:41] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.198.tar.gz tmp/ansar_connect-0.1.199.tar.gz --markdown 20240419/a/ansar-connect/0.1.198-0.1.199/README.md --exclude *.pyd
+[2024-04-19 10:18:41] INFO root fetch - processPackages [bec-widgets]: Downloading https://files.pythonhosted.org/packages/7b/e6/68a9811ec8510a320cd3cd5f47b87f8dd777a4f16143aeb7bd115645485b/bec_widgets-0.9.0.tar.gz
+[2024-04-19 10:18:41] INFO root fetch - processPackages [bec-widgets]: executing diffoscope
+[2024-04-19 10:18:41] INFO root fetch - processPackages [bec-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_widgets-0.8.1.tar.gz tmp/bec_widgets-0.9.0.tar.gz --markdown 20240419/b/bec-widgets/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-19 10:18:41] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.198.tar.gz]
+[2024-04-19 10:18:41] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.199.tar.gz]
+[2024-04-19 10:18:41] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-19 10:18:42] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.8.1.tar.gz]
+[2024-04-19 10:18:42] INFO root fetch - processPackages [bec-widgets]: Remove: archive file [/home/abi/fetcher/tmp/bec_widgets-0.9.0.tar.gz]
+[2024-04-19 10:18:42] INFO root fetch - main [MainThread]: End processing [bec-widgets]: success
+[2024-04-19 10:18:42] INFO root fetch - processPackages [oakvar]: Downloading https://files.pythonhosted.org/packages/6d/e4/7bb16a37159afab481f8b8e30157f426e432eeab3e1294f9a1ff614a17cd/oakvar-2.9.97.tar.gz
+[2024-04-19 10:18:42] INFO root fetch - processPackages [oakvar]: executing diffoscope
+[2024-04-19 10:18:42] INFO root fetch - processPackages [oakvar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oakvar-2.9.96.tar.gz tmp/oakvar-2.9.97.tar.gz --markdown 20240419/o/oakvar/2.9.96-2.9.97/README.md --exclude *.pyd
+[2024-04-19 10:18:45] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.96.tar.gz]
+[2024-04-19 10:18:45] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.97.tar.gz]
+[2024-04-19 10:18:45] INFO root fetch - main [MainThread]: End processing [oakvar]: success
+[2024-04-19 10:18:45] INFO root fetch - main [MainThread]: Store serial: [22838608]
