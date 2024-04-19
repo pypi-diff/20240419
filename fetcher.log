@@ -20345,3 +20345,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:43:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.2.tar.gz]
 [2024-04-19 13:43:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-19 13:43:40] INFO root fetch - main [MainThread]: Store serial: [22841228]
+[2024-04-19 13:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841228]
+[2024-04-19 13:45:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacy-curated-transformers
+[2024-04-19 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etos-lib
+[2024-04-19 13:45:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sybil-engine
+[2024-04-19 13:45:49] INFO root fetch - processPackages [etos-lib]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-19 13:45:49] INFO root fetch - processPackages [sybil-engine]: New version: [6.9.0] Old Version: [6.8.3]
+[2024-04-19 13:45:49] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/c6/57/98497867d23937abbb802b3678bb32c3bc8b47eff50abd1d032e10aceab7/etos_lib-4.0.0.tar.gz
+[2024-04-19 13:45:49] INFO root fetch - processPackages [spacy-curated-transformers]: New version: [2.0.0.dev1] Old Version: [2.0.0.dev0]
+[2024-04-19 13:45:49] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/0d/79/0eb9a3d87e13391c1e38a0e12dd6dbcbc58367968d403625d85fc9d2ddd0/sybil_engine-6.8.3.tar.gz
+[2024-04-19 13:45:49] INFO root fetch - processPackages [spacy-curated-transformers]: Downloading https://files.pythonhosted.org/packages/68/2a/ba4ef6e4023a76fc4ed76c08e2e9b28302429d9d932d6c70703426dd2ee7/spacy-curated-transformers-2.0.0.dev0.tar.gz
+[2024-04-19 13:45:49] INFO root fetch - processPackages [etos-lib]: Downloading https://files.pythonhosted.org/packages/10/20/549cbe6cfa285f0c7fc407e49fe6dcc87e65815f8eace511a0ef652bdcfd/etos_lib-4.1.0.tar.gz
+[2024-04-19 13:45:49] INFO root fetch - processPackages [etos-lib]: executing diffoscope
+[2024-04-19 13:45:49] INFO root fetch - processPackages [etos-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_lib-4.0.0.tar.gz tmp/etos_lib-4.1.0.tar.gz --markdown 20240419/e/etos-lib/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-19 13:45:49] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/ce/a2/b07e63fede84fb691694773308e6e0768625561019f7fe26571355c2b1ed/sybil_engine-6.9.0.tar.gz
+[2024-04-19 13:45:49] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-04-19 13:45:49] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-6.8.3.tar.gz tmp/sybil_engine-6.9.0.tar.gz --markdown 20240419/s/sybil-engine/6.8.3-6.9.0/README.md --exclude *.pyd
+[2024-04-19 13:45:49] INFO root fetch - processPackages [spacy-curated-transformers]: Downloading https://files.pythonhosted.org/packages/7f/b5/57b6ac431c270f88aea7f1055fc2e062214c4cd748a4832fcc9499749e87/spacy-curated-transformers-2.0.0.dev1.tar.gz
+[2024-04-19 13:45:50] INFO root fetch - processPackages [spacy-curated-transformers]: executing diffoscope
+[2024-04-19 13:45:50] INFO root fetch - processPackages [spacy-curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-curated-transformers-2.0.0.dev0.tar.gz tmp/spacy-curated-transformers-2.0.0.dev1.tar.gz --markdown 20240419/s/spacy-curated-transformers/2.0.0.dev0-2.0.0.dev1/README.md --exclude *.pyd
+[2024-04-19 13:45:50] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.0.0.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - processPackages [etos-lib]: Remove: archive file [/home/abi/fetcher/tmp/etos_lib-4.1.0.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - main [MainThread]: End processing [etos-lib]: success
+[2024-04-19 13:45:50] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.8.3.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.9.0.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-04-19 13:45:50] INFO root fetch - processPackages [spacy-curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/spacy-curated-transformers-2.0.0.dev0.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - processPackages [spacy-curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/spacy-curated-transformers-2.0.0.dev1.tar.gz]
+[2024-04-19 13:45:50] INFO root fetch - main [MainThread]: End processing [spacy-curated-transformers]: success
+[2024-04-19 13:45:50] INFO root fetch - main [MainThread]: Store serial: [22841239]
