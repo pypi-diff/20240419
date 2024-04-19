@@ -9904,3 +9904,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:58:19] INFO root fetch - processPackages [mlx-lm]: Remove: archive file [/home/abi/fetcher/tmp/mlx-lm-0.9.0.tar.gz]
 [2024-04-19 06:58:19] INFO root fetch - main [MainThread]: End processing [mlx-lm]: success
 [2024-04-19 06:58:19] INFO root fetch - main [MainThread]: Store serial: [22836719]
+[2024-04-19 07:00:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836719]
+[2024-04-19 07:00:28] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 07:00:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds
+[2024-04-19 07:00:28] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-19 07:00:28] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2024-04-19 07:00:29] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2024-04-19 07:00:29] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2024-04-19 07:00:29] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20240419/z/zcmds/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-04-19 07:00:30] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2024-04-19 07:00:30] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2024-04-19 07:00:30] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2024-04-19 07:00:30] INFO root fetch - main [MainThread]: Store serial: [22836723]
