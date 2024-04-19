@@ -18101,3 +18101,39 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:18:54] INFO root fetch - processPackages [lumipy]: Remove: archive file [/home/abi/fetcher/tmp/lumipy-1.0.9-py3-none-any.whl.zip]
 [2024-04-19 12:18:54] INFO root fetch - main [MainThread]: End processing [lumipy]: success
 [2024-04-19 12:18:54] INFO root fetch - main [MainThread]: Store serial: [22840194]
+[2024-04-19 12:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840194]
+[2024-04-19 12:21:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 12:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OctoBot
+[2024-04-19 12:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accusort
+[2024-04-19 12:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dplib-py
+[2024-04-19 12:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agptools
+[2024-04-19 12:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pingen2sdk
+[2024-04-19 12:21:15] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:21:15] WARNING root fetch - processPackages [accusort]: Skipping, unable to determine old version
+[2024-04-19 12:21:15] INFO root fetch - main [MainThread]: End processing [accusort] error
+[2024-04-19 12:21:15] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-19 12:21:15] INFO root fetch - processPackages [dplib-py]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-19 12:21:15] ERROR root fetch - processPackages [pingen2sdk]: Unable to get metadata: No such project 'pingen2sdk'
+[2024-04-19 12:21:15] INFO root fetch - main [MainThread]: End processing [pingen2sdk] error
+[2024-04-19 12:21:15] INFO root fetch - processPackages [OctoBot]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 12:21:15] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/d8/7b/3c36368be25a58b2f6d63db5fb5f87d70163ec403dcc70c1533abc3833d0/dplib_py-0.7.0.tar.gz
+[2024-04-19 12:21:15] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-19 12:21:15] INFO root fetch - processPackages [OctoBot]: Downloading https://files.pythonhosted.org/packages/a3/d7/0b3d3a4159153c63af5b02d6976fc8cce2475eab63fa5d6a957986ee73cb/OctoBot-1.0.8.tar.gz
+[2024-04-19 12:21:16] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-19 12:21:16] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240419/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:21:16] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/fd/00/b7afa57fcbee468abec8fea302d9ac88e60584aaf2d05d7c0060e8393d5e/dplib_py-0.7.1.tar.gz
+[2024-04-19 12:21:16] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-19 12:21:16] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.7.0.tar.gz tmp/dplib_py-0.7.1.tar.gz --markdown 20240419/d/dplib-py/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-19 12:21:16] INFO root fetch - processPackages [OctoBot]: Downloading https://files.pythonhosted.org/packages/bf/e1/a62c5340237c618c7bc043c474fe2a967c404e7ffb01eccb1fb9f01d2c29/OctoBot-1.0.9.tar.gz
+[2024-04-19 12:21:16] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-19 12:21:16] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-19 12:21:16] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-19 12:21:17] INFO root fetch - processPackages [OctoBot]: executing diffoscope
+[2024-04-19 12:21:17] INFO root fetch - processPackages [OctoBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-1.0.8.tar.gz tmp/OctoBot-1.0.9.tar.gz --markdown 20240419/O/OctoBot/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 12:21:17] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.0.tar.gz]
+[2024-04-19 12:21:17] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.1.tar.gz]
+[2024-04-19 12:21:17] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-19 12:21:19] INFO root fetch - processPackages [OctoBot]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-1.0.8.tar.gz]
+[2024-04-19 12:21:19] INFO root fetch - processPackages [OctoBot]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-1.0.9.tar.gz]
+[2024-04-19 12:21:19] INFO root fetch - main [MainThread]: End processing [OctoBot]: success
+[2024-04-19 12:21:19] INFO root fetch - main [MainThread]: Store serial: [22840207]
