@@ -20456,3 +20456,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:50:24] INFO root fetch - processPackages [aviatrix-migration]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration-0.2.91-cp39-cp39-win_amd64.whl.zip]
 [2024-04-19 13:50:24] INFO root fetch - main [MainThread]: End processing [aviatrix-migration]: success
 [2024-04-19 13:50:24] INFO root fetch - main [MainThread]: Store serial: [22841303]
+[2024-04-19 13:52:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841303]
+[2024-04-19 13:52:34] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 13:54:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841303]
+[2024-04-19 13:54:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ds-caselaw-marklogic-api-client
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mat3ra-esse
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastf1
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jetline
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prosuite
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mindgard
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: analysta-index
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-mailgun
+[2024-04-19 13:54:40] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mat3ra-esse]: New version: [2024.4.9.post0] Old Version: [2024.4.8.post6]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [jetline]: New version: [0.0.52] Old Version: [0.0.51]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [prosuite]: New version: [1.2.3.0] Old Version: [1.2.2.0]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/26/e1/7ba2303261823192b1d922772667ba8a05561a6f152bef9391f66fd45f69/mat3ra-esse-2024.4.8.post6.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [fastf1]: New version: [3.3.5] Old Version: [3.3.4]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mindgard]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [pulumi-mailgun]: New version: [3.6.0a1713526797] Old Version: [3.6.0a1713332970]
+[2024-04-19 13:54:40] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/bc/f3/640c5ccc4cf0770c6ba96f61b9618a4d1277f51ac40b97263ccd75c743c9/fastf1-3.3.4.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/79/46/dc545c7ebf0998a274cd4ce74554bf0ef2591feea6670ea4abda92b2482e/jetline-0.0.51.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [prosuite]: Downloading https://files.pythonhosted.org/packages/38/c3/0a2de1e1cdd68ef319cfa43623f906eb85e8d3883378fff7b283b5dcf689/prosuite-1.2.2.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/9c/b1/49266284532823bcff62b68da03adcba0ce12145cfedf619217e68b90784/mindgard-0.8.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/93/0a/9fe093d0acbea6a8a1e7a802c16d997a4da771ae6b440c7713697369cac9/pulumi_mailgun-3.6.0a1713332970.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mat3ra-esse]: Downloading https://files.pythonhosted.org/packages/6b/53/9daaff86f2797fe10ee72131c8cc6893f0d49342813c17d63410e187dc6a/mat3ra-esse-2024.4.9.post0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-04-19 13:54:40] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240419/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 13:54:40] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/97/88/97ee944ace5659eda4ba9335f17f53026d13e2988d56e36f480c1db861b8/fastf1-3.3.5.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [jetline]: Downloading https://files.pythonhosted.org/packages/d5/dc/efccf710a3d119f55191207e68375f09441ff0343eb192d76b31ece3caed/jetline-0.0.52.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mat3ra-esse]: executing diffoscope
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mat3ra-esse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-esse-2024.4.8.post6.tar.gz tmp/mat3ra-esse-2024.4.9.post0.tar.gz --markdown 20240419/m/mat3ra-esse/2024.4.8.post6-2024.4.9.post0/README.md --exclude *.pyd
+[2024-04-19 13:54:40] INFO root fetch - processPackages [mindgard]: Downloading https://files.pythonhosted.org/packages/3d/46/43c1e357331fd69e429226f32578c8023c748ab62ec8721f3c7388d325b1/mindgard-0.9.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [prosuite]: Downloading https://files.pythonhosted.org/packages/58/79/03842e337d57ec7c86a6b2ee78e3b63e987aae1861b332be24a8782f7606/prosuite-1.2.3.0.tar.gz
+[2024-04-19 13:54:40] INFO root fetch - processPackages [jetline]: executing diffoscope
+[2024-04-19 13:54:40] INFO root fetch - processPackages [jetline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetline-0.0.51.tar.gz tmp/jetline-0.0.52.tar.gz --markdown 20240419/j/jetline/0.0.51-0.0.52/README.md --exclude *.pyd
+[2024-04-19 13:54:40] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2024-04-19 13:54:40] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-3.3.4.tar.gz tmp/fastf1-3.3.5.tar.gz --markdown 20240419/f/fastf1/3.3.4-3.3.5/README.md --exclude *.pyd
+[2024-04-19 13:54:41] INFO root fetch - processPackages [mindgard]: executing diffoscope
+[2024-04-19 13:54:41] INFO root fetch - processPackages [mindgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindgard-0.8.0.tar.gz tmp/mindgard-0.9.0.tar.gz --markdown 20240419/m/mindgard/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 13:54:41] INFO root fetch - processPackages [pulumi-mailgun]: Downloading https://files.pythonhosted.org/packages/71/33/8f244fc516f20aed8bf85387462b3205ec35a2c093033e77265689d2e0c3/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl
+[2024-04-19 13:54:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2024-04-19 13:54:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20240419/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-04-19 13:54:41] INFO root fetch - processPackages [prosuite]: executing diffoscope
+[2024-04-19 13:54:41] INFO root fetch - processPackages [prosuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosuite-1.2.2.0.tar.gz tmp/prosuite-1.2.3.0.tar.gz --markdown 20240419/p/prosuite/1.2.2.0-1.2.3.0/README.md --exclude *.pyd
+[2024-04-19 13:54:41] INFO root fetch - processPackages [pulumi-mailgun]: executing diffoscope
+[2024-04-19 13:54:41] INFO root fetch - processPackages [pulumi-mailgun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz tmp/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl.zip --markdown 20240419/p/pulumi-mailgun/3.6.0a1713332970-3.6.0a1713526797/README.md --exclude *.pyd
+[2024-04-19 13:54:41] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-04-19 13:54:41] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.51.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.8.0.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [jetline]: Remove: archive file [/home/abi/fetcher/tmp/jetline-0.0.52.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [mindgard]: Remove: archive file [/home/abi/fetcher/tmp/mindgard-0.9.0.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - main [MainThread]: End processing [jetline]: success
+[2024-04-19 13:54:41] INFO root fetch - main [MainThread]: End processing [mindgard]: success
+[2024-04-19 13:54:41] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.4.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.3.5.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2024-04-19 13:54:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2024-04-19 13:54:41] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2024-04-19 13:54:42] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713332970.tar.gz]
+[2024-04-19 13:54:42] INFO root fetch - processPackages [pulumi-mailgun]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mailgun-3.6.0a1713526797-py3-none-any.whl.zip]
+[2024-04-19 13:54:42] INFO root fetch - main [MainThread]: End processing [pulumi-mailgun]: success
+[2024-04-19 13:54:42] INFO root fetch - processPackages [prosuite]: Remove: archive file [/home/abi/fetcher/tmp/prosuite-1.2.2.0.tar.gz]
+[2024-04-19 13:54:42] INFO root fetch - processPackages [prosuite]: Remove: archive file [/home/abi/fetcher/tmp/prosuite-1.2.3.0.tar.gz]
+[2024-04-19 13:54:42] INFO root fetch - main [MainThread]: End processing [prosuite]: success
+[2024-04-19 13:54:43] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.8.post6.tar.gz]
+[2024-04-19 13:54:43] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.9.post0.tar.gz]
+[2024-04-19 13:54:43] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
+[2024-04-19 13:54:43] INFO root fetch - main [MainThread]: Store serial: [22841325]
