@@ -7406,3 +7406,39 @@
 [2024-04-19 04:05:45] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2024-04-19 04:05:45] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2024-04-19 04:05:45] INFO root fetch - main [MainThread]: Store serial: [22835563]
+[2024-04-19 04:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835563]
+[2024-04-19 04:07:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 04:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bedspec
+[2024-04-19 04:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-upstage
+[2024-04-19 04:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycalculator-report
+[2024-04-19 04:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meta-edc
+[2024-04-19 04:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-textract-textractor
+[2024-04-19 04:07:54] INFO root fetch - processPackages [langchain-upstage]: New version: [0.1.0rc0] Old Version: [0.1.0]
+[2024-04-19 04:07:54] WARNING root fetch - processPackages [mycalculator-report]: Skipping, unable to determine old version
+[2024-04-19 04:07:54] INFO root fetch - main [MainThread]: End processing [mycalculator-report] error
+[2024-04-19 04:07:54] WARNING root fetch - processPackages [bedspec]: Skipping, unable to determine old version
+[2024-04-19 04:07:54] INFO root fetch - main [MainThread]: End processing [bedspec] error
+[2024-04-19 04:07:54] INFO root fetch - processPackages [amazon-textract-textractor]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-04-19 04:07:54] INFO root fetch - processPackages [meta-edc]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-19 04:07:54] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/13/69/462855889e7ee8355fec22f8cc194c2411340f6df63cb2e00e2db8019ff1/langchain_upstage-0.1.0.tar.gz
+[2024-04-19 04:07:54] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/5e/2f/6af54c43a451a711e9727f218a50afe9817792185b4bc264291afa7ba9c9/amazon-textract-textractor-1.7.8.tar.gz
+[2024-04-19 04:07:54] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/4f/de/33842c42daf52d30db38c8ac813bb1b4fecd7cf5780af20608a839b1b851/meta-edc-0.3.8.tar.gz
+[2024-04-19 04:07:55] INFO root fetch - processPackages [langchain-upstage]: Downloading https://files.pythonhosted.org/packages/2a/8f/e6e0937b11d46c4087e2b3b29d71a8b7fc446149b263c0c7e75cb50029fb/langchain_upstage-0.1.0rc0.tar.gz
+[2024-04-19 04:07:55] INFO root fetch - processPackages [langchain-upstage]: executing diffoscope
+[2024-04-19 04:07:55] INFO root fetch - processPackages [langchain-upstage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_upstage-0.1.0.tar.gz tmp/langchain_upstage-0.1.0rc0.tar.gz --markdown 20240419/l/langchain-upstage/0.1.0-0.1.0rc0/README.md --exclude *.pyd
+[2024-04-19 04:07:55] INFO root fetch - processPackages [meta-edc]: Downloading https://files.pythonhosted.org/packages/0a/e6/da2b849f3bde16fe20f11085b6235279ee98609df064ddb32affc59f6f87/meta-edc-0.3.9.tar.gz
+[2024-04-19 04:07:55] INFO root fetch - processPackages [amazon-textract-textractor]: Downloading https://files.pythonhosted.org/packages/33/a4/b01b94a453a8934cabe7a7ac60ff497351892ae148b340767deaa80bb2f8/amazon-textract-textractor-1.7.9.tar.gz
+[2024-04-19 04:07:55] INFO root fetch - processPackages [meta-edc]: executing diffoscope
+[2024-04-19 04:07:55] INFO root fetch - processPackages [meta-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-edc-0.3.8.tar.gz tmp/meta-edc-0.3.9.tar.gz --markdown 20240419/m/meta-edc/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-19 04:07:55] INFO root fetch - processPackages [amazon-textract-textractor]: executing diffoscope
+[2024-04-19 04:07:55] INFO root fetch - processPackages [amazon-textract-textractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-textractor-1.7.8.tar.gz tmp/amazon-textract-textractor-1.7.9.tar.gz --markdown 20240419/a/amazon-textract-textractor/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-04-19 04:07:55] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.0.tar.gz]
+[2024-04-19 04:07:55] INFO root fetch - processPackages [langchain-upstage]: Remove: archive file [/home/abi/fetcher/tmp/langchain_upstage-0.1.0rc0.tar.gz]
+[2024-04-19 04:07:55] INFO root fetch - main [MainThread]: End processing [langchain-upstage]: success
+[2024-04-19 04:07:56] INFO root fetch - processPackages [amazon-textract-textractor]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-textractor-1.7.8.tar.gz]
+[2024-04-19 04:07:56] INFO root fetch - processPackages [amazon-textract-textractor]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-textractor-1.7.9.tar.gz]
+[2024-04-19 04:07:56] INFO root fetch - main [MainThread]: End processing [amazon-textract-textractor]: success
+[2024-04-19 04:07:58] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.3.8.tar.gz]
+[2024-04-19 04:07:58] INFO root fetch - processPackages [meta-edc]: Remove: archive file [/home/abi/fetcher/tmp/meta-edc-0.3.9.tar.gz]
+[2024-04-19 04:07:58] INFO root fetch - main [MainThread]: End processing [meta-edc]: success
+[2024-04-19 04:07:58] INFO root fetch - main [MainThread]: Store serial: [22835582]
