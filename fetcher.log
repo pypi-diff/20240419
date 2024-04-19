@@ -11477,3 +11477,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:14:57] INFO root fetch - processPackages [ccpem-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccpem_utils-0.0.1.dev9.tar.gz]
 [2024-04-19 08:14:57] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
 [2024-04-19 08:14:57] INFO root fetch - main [MainThread]: Store serial: [22837389]
+[2024-04-19 08:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837389]
+[2024-04-19 08:17:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 08:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cameo-geo-query
+[2024-04-19 08:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmetadata-ingestion
+[2024-04-19 08:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyPianoTune
+[2024-04-19 08:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2024-04-19 08:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fake-bpy-module
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240418] Old Version: [20240417]
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240418] Old Version: [20240417]
+[2024-04-19 08:17:06] WARNING root fetch - processPackages [PyPianoTune]: Skipping, unable to determine old version
+[2024-04-19 08:17:06] INFO root fetch - main [MainThread]: End processing [PyPianoTune] error
+[2024-04-19 08:17:06] INFO root fetch - processPackages [cameo-geo-query]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/29/55/4177240d810b7f6d96691be418f6abf72a774c9fa3dba6e9b4efce34826b/fake_bpy_module-20240417.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.3.3.0rc2] Old Version: [1.3.3.0rc1]
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/4f/5a/0b6ca49e19ae1d44079fb056f9d336ba8ba17c07b090a62e0951c14471fd/fake_bpy_module_latest-20240417.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/77/87/5899bc584955458fd1ec54d6a29a164ff1551e41947359d622a5289c7b02/cameo_geo_query-1.0.7.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/0e/55/524a1a462b318ceb0eefe34b02f2913fb45850c71def27ee8d022ea75e21/openmetadata-ingestion-1.3.3.0rc1.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/3c/4c/33322dadec975fb8e5c6dfac0a5c49252bcf874f299905d2c486da32a494/fake_bpy_module-20240418.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/c0/97/58868a2cf5de3a0ed6c033a295ad565a7a767580d6bcf83031afa1f6b2ec/cameo_geo_query-1.0.8.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/90/c1/1cfd1c14c46b4202e787f3e423e53af828a4ce08db2d755ddfb34631df43/fake_bpy_module_latest-20240418.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c0/0c/3fd3ea1757b54a2ebc201a633c1009fbdf52f784049c997845d6cce2c6f6/openmetadata-ingestion-1.3.3.0rc2.tar.gz
+[2024-04-19 08:17:06] INFO root fetch - processPackages [cameo-geo-query]: executing diffoscope
+[2024-04-19 08:17:06] INFO root fetch - processPackages [cameo-geo-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameo_geo_query-1.0.7.tar.gz tmp/cameo_geo_query-1.0.8.tar.gz --markdown 20240419/c/cameo-geo-query/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-19 08:17:06] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240417.tar.gz tmp/fake_bpy_module-20240418.tar.gz --markdown 20240419/f/fake-bpy-module/20240417-20240418/README.md --exclude *.pyd
+[2024-04-19 08:17:07] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-19 08:17:07] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240417.tar.gz tmp/fake_bpy_module_latest-20240418.tar.gz --markdown 20240419/f/fake-bpy-module-latest/20240417-20240418/README.md --exclude *.pyd
+[2024-04-19 08:17:07] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-04-19 08:17:07] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.3.3.0rc1.tar.gz tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz --markdown 20240419/o/openmetadata-ingestion/1.3.3.0rc1-1.3.3.0rc2/README.md --exclude *.pyd
+[2024-04-19 08:17:07] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.7.tar.gz]
+[2024-04-19 08:17:07] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.8.tar.gz]
+[2024-04-19 08:17:07] INFO root fetch - main [MainThread]: End processing [cameo-geo-query]: success
+[2024-04-19 08:17:10] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240417.tar.gz]
+[2024-04-19 08:17:10] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240418.tar.gz]
+[2024-04-19 08:17:10] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-19 08:17:10] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240417.tar.gz]
+[2024-04-19 08:17:10] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240418.tar.gz]
+[2024-04-19 08:17:10] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-19 08:17:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc1.tar.gz]
+[2024-04-19 08:17:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz]
+[2024-04-19 08:17:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-04-19 08:17:13] INFO root fetch - main [MainThread]: Store serial: [22837405]
