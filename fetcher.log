@@ -7172,3 +7172,33 @@
 [2024-04-19 03:45:48] INFO root fetch - processPackages [covalent-cloud]: Remove: archive file [/home/abi/fetcher/tmp/covalent-cloud-0.8.0rc0.tar.gz]
 [2024-04-19 03:45:48] INFO root fetch - main [MainThread]: End processing [covalent-cloud]: success
 [2024-04-19 03:45:48] INFO root fetch - main [MainThread]: Store serial: [22835455]
+[2024-04-19 03:47:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835455]
+[2024-04-19 03:47:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 03:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qteasy
+[2024-04-19 03:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-jm
+[2024-04-19 03:47:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-exoscale
+[2024-04-19 03:47:57] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-19 03:47:57] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/59/2a/dd069d0b56ac8fd0c4719252cd99ee6a7c93b634652fcdc78e6f0a1040f0/sbcli_jm-4.0.2.zip
+[2024-04-19 03:47:58] INFO root fetch - processPackages [pulumiverse-exoscale]: New version: [0.57.0] Old Version: [0.56.0]
+[2024-04-19 03:47:58] INFO root fetch - processPackages [qteasy]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 03:47:58] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/77/e5/b27d2bf7758897a1800e2214da1849a6d5b47dc54ff2e4304f906407270d/pulumiverse_exoscale-0.56.0.tar.gz
+[2024-04-19 03:47:58] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/86/06/fbaaaf480a2d01c3a203df322d0a7b3383ab32917fe5c4bc2c729387775a/qteasy-1.1.8.tar.gz
+[2024-04-19 03:47:58] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/50/53/6a65a49c8a1df8c66edd7bb003c8bda174107e1cebb0085b4ca0b7979b85/sbcli_jm-4.0.3.zip
+[2024-04-19 03:47:58] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-19 03:47:58] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.2.zip tmp/sbcli_jm-4.0.3.zip --markdown 20240419/s/sbcli-jm/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-19 03:47:58] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/7c/34/aeb0eebc21888a78d1ee29ab06fbf0696fb623b6755c34b39feab3249ad1/pulumiverse_exoscale-0.57.0.tar.gz
+[2024-04-19 03:47:58] INFO root fetch - processPackages [pulumiverse-exoscale]: executing diffoscope
+[2024-04-19 03:47:58] INFO root fetch - processPackages [pulumiverse-exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_exoscale-0.56.0.tar.gz tmp/pulumiverse_exoscale-0.57.0.tar.gz --markdown 20240419/p/pulumiverse-exoscale/0.56.0-0.57.0/README.md --exclude *.pyd
+[2024-04-19 03:47:58] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/86/6f/ec297592682a7da6075fc20b58773ab4c960f584d36dc79f1ca91718153f/qteasy-1.1.9.tar.gz
+[2024-04-19 03:47:58] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-19 03:47:58] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.8.tar.gz tmp/qteasy-1.1.9.tar.gz --markdown 20240419/q/qteasy/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 03:47:59] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.2.zip]
+[2024-04-19 03:47:59] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.3.zip]
+[2024-04-19 03:47:59] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-19 03:47:59] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.56.0.tar.gz]
+[2024-04-19 03:47:59] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.57.0.tar.gz]
+[2024-04-19 03:47:59] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
+[2024-04-19 03:48:00] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.8.tar.gz]
+[2024-04-19 03:48:00] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.9.tar.gz]
+[2024-04-19 03:48:00] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-19 03:48:00] INFO root fetch - main [MainThread]: Store serial: [22835462]
