@@ -7823,3 +7823,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:32:00] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
 [2024-04-19 04:32:00] INFO root fetch - main [MainThread]: End processing [pulumi]: success
 [2024-04-19 04:32:00] INFO root fetch - main [MainThread]: Store serial: [22835823]
+[2024-04-19 04:34:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835823]
+[2024-04-19 04:34:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 04:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qick
+[2024-04-19 04:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BoschRpaMagicBox
+[2024-04-19 04:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 04:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapfly-sdk
+[2024-04-19 04:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goose-checker
+[2024-04-19 04:34:09] INFO root fetch - processPackages [BoschRpaMagicBox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 04:34:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713492498] Old Version: [0.0.18a1713480712]
+[2024-04-19 04:34:09] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/31/9a/54a8c654e9ab4a43a76b28df5a2d462cf073374f92055a6962fe472c72f6/BoschRpaMagicBox-0.0.8.tar.gz
+[2024-04-19 04:34:09] INFO root fetch - processPackages [scrapfly-sdk]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-19 04:34:09] INFO root fetch - processPackages [qick]: New version: [0.2.258] Old Version: [0.2.257]
+[2024-04-19 04:34:09] INFO root fetch - processPackages [goose-checker]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 04:34:09] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/5a/49/66a29b2c317319679d98ec8003a5765224d7b6d110b11e96a738b15f79e0/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz
+[2024-04-19 04:34:09] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/b0/d4/fb65d36b0325f6ef1455a9d022f1d3db92fb6c919fec965ca75d1b376e90/goose_checker-0.0.6.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [BoschRpaMagicBox]: Downloading https://files.pythonhosted.org/packages/52/f5/0efd2f81035bf374a120238f5d6fd9f6c8b2d197bec9dc0c73cae3951121/BoschRpaMagicBox-0.0.9.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/ff/8a/0dd328e5d3f9f7a1a53cfe07bd1959f1fddfb02f8afb64526418d10d8675/qick-0.2.257.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [scrapfly-sdk]: Downloading https://files.pythonhosted.org/packages/05/08/1fd0a13d672e99824a6293a16d905b9e68d38f0c394a12541fdfea1f4139/scrapfly-sdk-0.8.8.tar.gz
+[2024-04-19 04:34:10] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 16614781>=10485760
+[2024-04-19 04:34:10] INFO root fetch - main [MainThread]: End processing [qick] error
+[2024-04-19 04:34:10] INFO root fetch - processPackages [BoschRpaMagicBox]: executing diffoscope
+[2024-04-19 04:34:10] INFO root fetch - processPackages [BoschRpaMagicBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BoschRpaMagicBox-0.0.8.tar.gz tmp/BoschRpaMagicBox-0.0.9.tar.gz --markdown 20240419/B/BoschRpaMagicBox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 04:34:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/6f/97/7291fb7b9100aeb3e35a30b8060e345582e18fd6c8d676bf5e2d9b40f725/pulumi_kubernetes_the_hard_way-0.0.18a1713492498.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/af/d3/659f3be26da2c3f6b0247106a08740060abd077cbb9b57d502fd04209bc7/goose_checker-0.0.7.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 04:34:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713492498.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713480712-0.0.18a1713492498/README.md --exclude *.pyd
+[2024-04-19 04:34:10] INFO root fetch - processPackages [goose-checker]: executing diffoscope
+[2024-04-19 04:34:10] INFO root fetch - processPackages [goose-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goose_checker-0.0.6.tar.gz tmp/goose_checker-0.0.7.tar.gz --markdown 20240419/g/goose-checker/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 04:34:10] INFO root fetch - processPackages [scrapfly-sdk]: Downloading https://files.pythonhosted.org/packages/f5/42/e82ce1b87e244d4241f045d4b7568fcbe087be42cf7ba4eee946f65adaf2/scrapfly-sdk-0.8.9.tar.gz
+[2024-04-19 04:34:10] INFO root fetch - processPackages [scrapfly-sdk]: executing diffoscope
+[2024-04-19 04:34:10] INFO root fetch - processPackages [scrapfly-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapfly-sdk-0.8.8.tar.gz tmp/scrapfly-sdk-0.8.9.tar.gz --markdown 20240419/s/scrapfly-sdk/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-19 04:34:10] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.8.tar.gz]
+[2024-04-19 04:34:10] INFO root fetch - processPackages [BoschRpaMagicBox]: Remove: archive file [/home/abi/fetcher/tmp/BoschRpaMagicBox-0.0.9.tar.gz]
+[2024-04-19 04:34:10] INFO root fetch - main [MainThread]: End processing [BoschRpaMagicBox]: success
+[2024-04-19 04:34:10] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.6.tar.gz]
+[2024-04-19 04:34:10] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.7.tar.gz]
+[2024-04-19 04:34:10] INFO root fetch - main [MainThread]: End processing [goose-checker]: success
+[2024-04-19 04:34:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz]
+[2024-04-19 04:34:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713492498.tar.gz]
+[2024-04-19 04:34:11] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 04:34:11] INFO root fetch - processPackages [scrapfly-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scrapfly-sdk-0.8.8.tar.gz]
+[2024-04-19 04:34:11] INFO root fetch - processPackages [scrapfly-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scrapfly-sdk-0.8.9.tar.gz]
+[2024-04-19 04:34:11] INFO root fetch - main [MainThread]: End processing [scrapfly-sdk]: success
+[2024-04-19 04:34:11] INFO root fetch - main [MainThread]: Store serial: [22835838]
