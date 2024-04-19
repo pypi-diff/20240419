@@ -9199,3 +9199,19 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:06:00] INFO root fetch - processPackages [lazy-mongo]: Remove: archive file [/home/abi/fetcher/tmp/lazy_mongo-0.2.4.tar.gz]
 [2024-04-19 06:06:00] INFO root fetch - main [MainThread]: End processing [lazy-mongo]: success
 [2024-04-19 06:06:00] INFO root fetch - main [MainThread]: Store serial: [22836359]
+[2024-04-19 06:08:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836359]
+[2024-04-19 06:08:08] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 06:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836370]
+[2024-04-19 06:10:13] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 06:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836380]
+[2024-04-19 06:12:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 06:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: substrate
+[2024-04-19 06:12:18] INFO root fetch - processPackages [substrate]: New version: [120240416.0.8] Old Version: [120240416.0.7]
+[2024-04-19 06:12:18] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/d6/b4/30222b9dd970b2aff908279e37795d903a39e314c3ebcea90eb8be8c961b/substrate-120240416.0.7.tar.gz
+[2024-04-19 06:12:19] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/db/af/78add5a3230dd49f19c79e79b135d5c77d25246b1f3c8dd4fe591a853ddd/substrate-120240416.0.8.tar.gz
+[2024-04-19 06:12:19] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-04-19 06:12:19] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240416.0.7.tar.gz tmp/substrate-120240416.0.8.tar.gz --markdown 20240419/s/substrate/120240416.0.7-120240416.0.8/README.md --exclude *.pyd
+[2024-04-19 06:12:20] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240416.0.7.tar.gz]
+[2024-04-19 06:12:20] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240416.0.8.tar.gz]
+[2024-04-19 06:12:20] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-04-19 06:12:20] INFO root fetch - main [MainThread]: Store serial: [22836386]
