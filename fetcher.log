@@ -14079,3 +14079,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:09:42] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240419.tar.gz]
 [2024-04-19 10:09:42] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2024-04-19 10:09:42] INFO root fetch - main [MainThread]: Store serial: [22838477]
+[2024-04-19 10:11:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838477]
+[2024-04-19 10:11:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hellodmtest2
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sugarpowder
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyfi-fetcher
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cms-qe
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyPianoTune
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Quasar
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qualesim-quantumsim
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flake8-small-entities
+[2024-04-19 10:11:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CMDHelpMeTool
+[2024-04-19 10:11:52] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-19 10:11:52] INFO root fetch - processPackages [sugarpowder]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-19 10:11:52] INFO root fetch - processPackages [PyPianoTune]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 10:11:52] INFO root fetch - processPackages [qualesim-quantumsim]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 10:11:52] WARNING root fetch - processPackages [hyfi-fetcher]: Skipping, unable to determine old version
+[2024-04-19 10:11:52] INFO root fetch - main [MainThread]: End processing [hyfi-fetcher] error
+[2024-04-19 10:11:52] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/ee/1a/241d2c380ba2c5a881080d9980fa40d2fb0ca7d64d80110802624436bb77/CMDHelpMeTool-0.2.5.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [Quasar]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-19 10:11:52] WARNING root fetch - processPackages [flake8-small-entities]: Skipping, unable to determine old version
+[2024-04-19 10:11:52] INFO root fetch - main [MainThread]: End processing [flake8-small-entities] error
+[2024-04-19 10:11:52] WARNING root fetch - processPackages [hellodmtest2]: Skipping, unable to determine old version
+[2024-04-19 10:11:52] INFO root fetch - main [MainThread]: End processing [hellodmtest2] error
+[2024-04-19 10:11:52] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/6a/d7/9ed3044d0e19163766e6915ef51ea2b24a597ef50d348419e77460074e36/sugarpowder-0.2.0.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [django-cms-qe]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-19 10:11:52] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/5d/2e/822c1b757f6c15a506a33166c14e45d2b1df9697bd2c20d08a83d5fed5b4/qualesim-quantumsim-1.0.0.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [PyPianoTune]: Downloading https://files.pythonhosted.org/packages/ed/4c/1cb57114cba4fafaf494e99ec01190d21f0a1bf6fed079941d12cea552d7/pypianotune-0.1.2.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [Quasar]: Downloading https://files.pythonhosted.org/packages/f4/90/e1917ea7639d672ca858d457f6d04ed25a45caae1270aaae11825b1b7303/Quasar-1.9.1.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [django-cms-qe]: Downloading https://files.pythonhosted.org/packages/d4/9a/6c7a59153ad5866bc7e7621144f8acbf4a43601a5ef889219e817cda0578/django-cms-qe-3.1.1.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [qualesim-quantumsim]: Downloading https://files.pythonhosted.org/packages/c6/9c/c378efad4bdadb8ccef4b75ccc2c7f5920984e1607efa6ecd7e6916bb454/qualesim-quantumsim-1.0.1.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [sugarpowder]: Downloading https://files.pythonhosted.org/packages/84/e8/c926e45d42c0e1821dd46adb968bd3c0d684e0ae87572ad804f8da9ef6b8/sugarpowder-0.3.0.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [qualesim-quantumsim]: executing diffoscope
+[2024-04-19 10:11:52] INFO root fetch - processPackages [qualesim-quantumsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualesim-quantumsim-1.0.0.tar.gz tmp/qualesim-quantumsim-1.0.1.tar.gz --markdown 20240419/q/qualesim-quantumsim/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 10:11:52] INFO root fetch - processPackages [sugarpowder]: executing diffoscope
+[2024-04-19 10:11:52] INFO root fetch - processPackages [sugarpowder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sugarpowder-0.2.0.tar.gz tmp/sugarpowder-0.3.0.tar.gz --markdown 20240419/s/sugarpowder/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-19 10:11:52] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/2f/42/75f5cb5a3c63f25a59f3e5a13de9db6428d2bc7b0abb59479e47769c1ece/CMDHelpMeTool-0.2.6.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [PyPianoTune]: Downloading https://files.pythonhosted.org/packages/2c/12/ae2f30e38d0a82fa03376dc325ae2a14e2b0d8eecce0b4fcad7d3ff2ef6a/pypianotune-0.1.3.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 10:11:52] INFO root fetch - processPackages [Quasar]: Downloading https://files.pythonhosted.org/packages/93/9c/787568a462f8827685ffa083949bc609ca1a14a0802b587deb28101b77f3/Quasar-1.9.2.tar.gz
+[2024-04-19 10:11:52] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.2.5.tar.gz tmp/CMDHelpMeTool-0.2.6.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-19 10:11:52] INFO root fetch - processPackages [PyPianoTune]: executing diffoscope
+[2024-04-19 10:11:52] INFO root fetch - processPackages [PyPianoTune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypianotune-0.1.2.tar.gz tmp/pypianotune-0.1.3.tar.gz --markdown 20240419/P/PyPianoTune/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 10:11:52] INFO root fetch - processPackages [Quasar]: executing diffoscope
+[2024-04-19 10:11:52] INFO root fetch - processPackages [Quasar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quasar-1.9.1.tar.gz tmp/Quasar-1.9.2.tar.gz --markdown 20240419/Q/Quasar/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-19 10:11:53] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.0.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - processPackages [qualesim-quantumsim]: Remove: archive file [/home/abi/fetcher/tmp/qualesim-quantumsim-1.0.1.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - main [MainThread]: End processing [qualesim-quantumsim]: success
+[2024-04-19 10:11:53] INFO root fetch - processPackages [sugarpowder]: Remove: archive file [/home/abi/fetcher/tmp/sugarpowder-0.2.0.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - processPackages [sugarpowder]: Remove: archive file [/home/abi/fetcher/tmp/sugarpowder-0.3.0.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - main [MainThread]: End processing [sugarpowder]: success
+[2024-04-19 10:11:53] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.5.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.6.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 10:11:53] INFO root fetch - processPackages [PyPianoTune]: Remove: archive file [/home/abi/fetcher/tmp/pypianotune-0.1.2.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - processPackages [PyPianoTune]: Remove: archive file [/home/abi/fetcher/tmp/pypianotune-0.1.3.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - main [MainThread]: End processing [PyPianoTune]: success
+[2024-04-19 10:11:53] INFO root fetch - processPackages [Quasar]: Remove: archive file [/home/abi/fetcher/tmp/Quasar-1.9.1.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - processPackages [Quasar]: Remove: archive file [/home/abi/fetcher/tmp/Quasar-1.9.2.tar.gz]
+[2024-04-19 10:11:53] INFO root fetch - main [MainThread]: End processing [Quasar]: success
+[2024-04-19 10:11:53] INFO root fetch - processPackages [django-cms-qe]: Downloading https://files.pythonhosted.org/packages/7a/2c/1af01b3cd5ce59e57673473b720d3dfafa9a2688da7c1eb7abca427f0e62/django_cms_qe-3.2.0.tar.gz
+[2024-04-19 10:11:54] INFO root fetch - processPackages [django-cms-qe]: executing diffoscope
+[2024-04-19 10:11:54] INFO root fetch - processPackages [django-cms-qe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-cms-qe-3.1.1.tar.gz tmp/django_cms_qe-3.2.0.tar.gz --markdown 20240419/d/django-cms-qe/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-19 10:12:09] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django-cms-qe-3.1.1.tar.gz]
+[2024-04-19 10:12:09] INFO root fetch - processPackages [django-cms-qe]: Remove: archive file [/home/abi/fetcher/tmp/django_cms_qe-3.2.0.tar.gz]
+[2024-04-19 10:12:09] INFO root fetch - main [MainThread]: End processing [django-cms-qe]: success
+[2024-04-19 10:12:09] INFO root fetch - main [MainThread]: Store serial: [22838510]
