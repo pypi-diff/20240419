@@ -20045,3 +20045,128 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:34:11] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-6.5.1-cp38-none-any.whl.zip]
 [2024-04-19 13:34:11] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android]: success
 [2024-04-19 13:34:11] INFO root fetch - main [MainThread]: Store serial: [22841047]
+[2024-04-19 13:36:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841047]
+[2024-04-19 13:36:27] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core.darwin
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rna
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyFLocker
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: andeplane-reveal-streamlit-component
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core.freebsd
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aruba-dero
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyarmor.cli.core.linux
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beacon2-import
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyarmor.cli.core.themida
+[2024-04-19 13:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchserve-nightly
+[2024-04-19 13:36:28] INFO root fetch - processPackages [rna]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [aruba-dero]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [PyFLocker]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [beacon2-import]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/e7/5c/abf0cb118cab4f4d6b024917ba57ae16ddc9071b942730f1c385bcea19ac/rna-0.8.0-py3-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/47/9f/7f568b89e85f34b1df26a1269f16cefbf961d8fb765ab28b1943f15f23de/aruba_dero-1.0.4.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/ba/53/c284157cb608baf4a4124603bda06c685db87ab196e4a451e3931678f127/andeplane_reveal_streamlit_component-0.0.6.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [PyFLocker]: Downloading https://files.pythonhosted.org/packages/e9/3b/697a905ea685938def466ccfb029aa499179177b5d92410d3bdce570b23e/pyflocker-0.4.1.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/bd/50/49480073f2d79bebce7e629c076655992bedd70af77c5a14fa0739f4cc18/beacon2_import-1.0.4.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/a2/aa/c2462bae922952012e8ca530112b5b99a9a20e46b03154da0c3425865b38/pyarmor.cli.core.freebsd-6.5.0-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/97/bc/4dd8da3a1efd627f9bd1d6cc0ed8b1088b31bfb7bf3cc63e412c9906b4b3/pyarmor.cli.core.darwin-6.5.0-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/0c/7d/453b9cf7f5b7cd748d4f977b1fc65848cfd49f46ec828e6a2909ab428a43/pyarmor.cli.core.linux-6.5.0-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/2d/60/c266659e7e165147e3ae928451454c5f5dd31d32e826e73691e4a4b08a39/pyarmor.cli.core.themida-6.5.0-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [aruba-dero]: Downloading https://files.pythonhosted.org/packages/f4/30/7fcb2fda70f4bfd99d32478335a9002b4ec1822d2cb0a833eb2a70a55f1f/aruba_dero-1.0.5.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [rna]: Downloading https://files.pythonhosted.org/packages/60/c4/324af9e9b8f8f0030190aaf26904bbe66285bf7305b9bf4a4b15874815e0/rna-0.9.0-py3-none-any.whl
+[2024-04-19 13:36:28] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2024-04-19 13:36:28] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-19 13:36:28] INFO root fetch - processPackages [aruba-dero]: executing diffoscope
+[2024-04-19 13:36:28] INFO root fetch - processPackages [aruba-dero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruba_dero-1.0.4.tar.gz tmp/aruba_dero-1.0.5.tar.gz --markdown 20240419/a/aruba-dero/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 13:36:28] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/3c/c1/31a31127fe46f38676da08b279b04d6967f74afaf83e7961006f26ac9b7e/andeplane_reveal_streamlit_component-0.0.7.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [rna]: executing diffoscope
+[2024-04-19 13:36:28] INFO root fetch - processPackages [rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rna-0.8.0-py3-none-any.whl.zip tmp/rna-0.9.0-py3-none-any.whl.zip --markdown 20240419/r/rna/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [PyFLocker]: Downloading https://files.pythonhosted.org/packages/4a/d5/30f119f265099073f881cc5e629e34e2c95e37770e9b769789dacc2c2a32/pyflocker-0.4.2.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [beacon2-import]: Downloading https://files.pythonhosted.org/packages/47/28/4b92f855f39d7a1f6d446af4fda1195bcaf38704a5b93f359322e4ae032e/beacon2-import-1.0.5.tar.gz
+[2024-04-19 13:36:28] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: executing diffoscope
+[2024-04-19 13:36:28] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_reveal_streamlit_component-0.0.6.tar.gz tmp/andeplane_reveal_streamlit_component-0.0.7.tar.gz --markdown 20240419/a/andeplane-reveal-streamlit-component/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/ed/f6/a6cefccd566d7867eabcb446560ff4107359d4efd45168a5817709aa0cec/pyarmor.cli.core.darwin-6.5.1-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/bd/6d/9553379f3ec1c32a0295b6cf62b8251233ca685c150c555c0e3ab0d34590/pyarmor.cli.core.freebsd-6.5.1-cp39-none-any.whl
+[2024-04-19 13:36:28] INFO root fetch - processPackages [PyFLocker]: executing diffoscope
+[2024-04-19 13:36:28] INFO root fetch - processPackages [PyFLocker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflocker-0.4.1.tar.gz tmp/pyflocker-0.4.2.tar.gz --markdown 20240419/P/PyFLocker/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-19 13:36:28] INFO root fetch - processPackages [beacon2-import]: executing diffoscope
+[2024-04-19 13:36:28] INFO root fetch - processPackages [beacon2-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beacon2_import-1.0.4.tar.gz tmp/beacon2-import-1.0.5.tar.gz --markdown 20240419/b/beacon2-import/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-19 13:36:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/47/13/43520eb97c1eed233d10003bb8499e7859e66f4a6ec72c43b602488a883f/pyarmor.cli.core.linux-6.5.1-cp39-none-any.whl
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240419/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/4b/ee/1a244a6a3298ead19006950a48cc29440bcd65bd2180d37b2f9449f829a1/pyarmor.cli.core.themida-6.5.1-cp39-none-any.whl
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-6.5.1-cp39-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.freebsd/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-6.5.1-cp39-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.darwin/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:36:29] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.4.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [aruba-dero]: Remove: archive file [/home/abi/fetcher/tmp/aruba_dero-1.0.5.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [aruba-dero]: Start processing: torch-workflow-archiver-nightly
+[2024-04-19 13:36:29] INFO root fetch - main [MainThread]: End processing [aruba-dero]: success
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.0.6.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.0.7.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Start processing: miniscons
+[2024-04-19 13:36:29] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
+[2024-04-19 13:36:29] INFO root fetch - processPackages [miniscons]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-19 13:36:29] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2_import-1.0.4.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [beacon2-import]: Remove: archive file [/home/abi/fetcher/tmp/beacon2-import-1.0.5.tar.gz]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [beacon2-import]: Start processing: pyarmor.cli.core.windows
+[2024-04-19 13:36:29] INFO root fetch - main [MainThread]: End processing [beacon2-import]: success
+[2024-04-19 13:36:29] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.8.0-py3-none-any.whl.zip]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [rna]: Remove: archive file [/home/abi/fetcher/tmp/rna-0.9.0-py3-none-any.whl.zip]
+[2024-04-19 13:36:29] INFO root fetch - main [MainThread]: End processing [rna]: success
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/52/ae/66b7281c98a03dc32bd7eae1ec32f3609bd536485a70e8722ecfa545348a/miniscons-0.7.4.tar.gz
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2024-04-19 13:36:29] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-6.5.1-cp39-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.linux/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-19 13:36:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-19 13:36:29] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-19 13:36:30] INFO root fetch - processPackages [PyFLocker]: Remove: archive file [/home/abi/fetcher/tmp/pyflocker-0.4.1.tar.gz]
+[2024-04-19 13:36:30] INFO root fetch - processPackages [PyFLocker]: Remove: archive file [/home/abi/fetcher/tmp/pyflocker-0.4.2.tar.gz]
+[2024-04-19 13:36:30] INFO root fetch - main [MainThread]: End processing [PyFLocker]: success
+[2024-04-19 13:36:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-19 13:36:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240419/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-19 13:36:30] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/ca/22/d0bfd86aa54eb5dc299dca500a8c7595f93a31343ea4c0c79ba838475a07/pyarmor.cli.core.windows-6.5.0-cp39-none-any.whl
+[2024-04-19 13:36:30] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/90/71/98123b66d8d74dfe96bee7b040017ad9661f7efbe69bd3b5ca1745d3e348/miniscons-0.7.5.tar.gz
+[2024-04-19 13:36:30] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-19 13:36:30] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.7.4.tar.gz tmp/miniscons-0.7.5.tar.gz --markdown 20240419/m/miniscons/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-04-19 13:36:30] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/70/1a/8176a6c85d2e90c2e652557aa4dfcdd82b04f50b397305133deab0dcb277/pyarmor.cli.core.windows-6.5.1-cp311-none-any.whl
+[2024-04-19 13:36:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-19 13:36:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-19 13:36:30] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-19 13:36:30] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.4.tar.gz]
+[2024-04-19 13:36:30] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.5.tar.gz]
+[2024-04-19 13:36:30] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-6.5.1-cp311-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.windows/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.themida-6.5.1-cp39-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.themida/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:36:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-6.5.1-cp311-none-any.whl.zip]
+[2024-04-19 13:36:31] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2024-04-19 13:36:32] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:36:32] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-6.5.1-cp39-none-any.whl.zip]
+[2024-04-19 13:36:32] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2024-04-19 13:36:34] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:36:34] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-6.5.1-cp39-none-any.whl.zip]
+[2024-04-19 13:36:34] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2024-04-19 13:36:37] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:36:37] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-6.5.1-cp39-none-any.whl.zip]
+[2024-04-19 13:36:37] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2024-04-19 13:36:56] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:36:56] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-6.5.1-cp39-none-any.whl.zip]
+[2024-04-19 13:36:56] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2024-04-19 13:36:56] INFO root fetch - main [MainThread]: Store serial: [22841103]
