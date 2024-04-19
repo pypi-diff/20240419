@@ -17583,3 +17583,75 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:02:06] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.7.tar.gz]
 [2024-04-19 12:02:06] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
 [2024-04-19 12:02:06] INFO root fetch - main [MainThread]: Store serial: [22839956]
+[2024-04-19 12:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839956]
+[2024-04-19 12:04:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amsdal_server
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tdf_tool
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neos_common
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: globlocks
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yfiles-jupyter-graphs-for-neo4j
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emcee
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipynbparser
+[2024-04-19 12:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xklb
+[2024-04-19 12:04:26] INFO root fetch - processPackages [amsdal_server]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:04:26] INFO root fetch - processPackages [globlocks]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-19 12:04:26] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:04:27] INFO root fetch - processPackages [tdf_tool]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-19 12:04:27] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/11/dc/22ce97b8b65ad8bb813e99e14d003d45b386fd2a8c1283dd9935d471a9b1/amsdal_server-0.1.8.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [emcee]: New version: [3.1.6] Old Version: [3.1.5rc1]
+[2024-04-19 12:04:27] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/88/85/28902a95c2848c8f38a8bc7f6eb0c34fb1696405de38bbc98366db00db3d/globlocks-1.2.1.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 12:04:27] WARNING root fetch - processPackages [ipynbparser]: Skipping, unable to determine old version
+[2024-04-19 12:04:27] INFO root fetch - main [MainThread]: End processing [ipynbparser] error
+[2024-04-19 12:04:27] WARNING root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: Skipping, unable to determine old version
+[2024-04-19 12:04:27] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs-for-neo4j] error
+[2024-04-19 12:04:27] INFO root fetch - processPackages [neos_common]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-19 12:04:27] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/f1/f3/1841364d5b8e39cb21b4a167040ef9c1c83782ff946dfb774478284cf935/tdf_tool-2.4.6.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [emcee]: Downloading https://files.pythonhosted.org/packages/f1/3a/644dd43723dc0b7f208f50ca896bf61ff824002450e50ec4bbc88d40b4c7/emcee-3.1.5rc1.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [xklb]: New version: [2.6.9] Old Version: [2.6.7]
+[2024-04-19 12:04:27] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/b6/64/bf4700ed79a85fc259ef1fb72c98d9b30e4b8da075f59c67fd1e8eadf0b4/neos_common-0.9.2.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [amsdal_server]: Downloading https://files.pythonhosted.org/packages/b0/41/be17c6df60736ba2006e7b1f7ee78b27a4d7cc53b4024203f804563f64eb/amsdal_server-0.1.9.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 12:04:27] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:04:27] INFO root fetch - processPackages [amsdal_server]: executing diffoscope
+[2024-04-19 12:04:27] INFO root fetch - processPackages [amsdal_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_server-0.1.8.tar.gz tmp/amsdal_server-0.1.9.tar.gz --markdown 20240419/a/amsdal_server/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:04:27] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/c0/69/2094cbc3ea1d5a61a495e8303da8cddfa7571c720b175d62baf286a00111/xklb-2.6.7.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [tdf_tool]: Downloading https://files.pythonhosted.org/packages/7c/02/611300afd5e067a8f20bb7eaea166691782e2bc509acbfd29d27d0ff9e10/tdf_tool-2.4.7.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/de/00/98b13fbd4d23f2483f928345c21049a577e00288578c773de42b0db88be9/globlocks-1.2.2.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/51/dc/9c6235466878c3dda428c3afb030440cc6111554951a7527d67179eaf67b/neos_common-0.9.3.tar.gz
+[2024-04-19 12:04:27] INFO root fetch - processPackages [neos_common]: executing diffoscope
+[2024-04-19 12:04:27] INFO root fetch - processPackages [neos_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neos_common-0.9.2.tar.gz tmp/neos_common-0.9.3.tar.gz --markdown 20240419/n/neos_common/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-19 12:04:27] INFO root fetch - processPackages [tdf_tool]: executing diffoscope
+[2024-04-19 12:04:27] INFO root fetch - processPackages [tdf_tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdf_tool-2.4.6.tar.gz tmp/tdf_tool-2.4.7.tar.gz --markdown 20240419/t/tdf_tool/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-04-19 12:04:28] INFO root fetch - processPackages [emcee]: Downloading https://files.pythonhosted.org/packages/cb/53/1045ee878cb24281387079f8ee4f0ade1622c6aae1ed1fd91a53e4fa5b19/emcee-3.1.6.tar.gz
+[2024-04-19 12:04:28] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 12:04:28] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.8.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - processPackages [amsdal_server]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_server-0.1.9.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - main [MainThread]: End processing [amsdal_server]: success
+[2024-04-19 12:04:28] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/38/2a/2958f5a1fedda07c3aa6cb197a1270734f34698793fb935ae5debd5e8c0c/xklb-2.6.9.tar.gz
+[2024-04-19 12:04:28] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.2.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.3.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - main [MainThread]: End processing [neos_common]: success
+[2024-04-19 12:04:28] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-04-19 12:04:28] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.6.7.tar.gz tmp/xklb-2.6.9.tar.gz --markdown 20240419/x/xklb/2.6.7-2.6.9/README.md --exclude *.pyd
+[2024-04-19 12:04:28] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.6.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - processPackages [tdf_tool]: Remove: archive file [/home/abi/fetcher/tmp/tdf_tool-2.4.7.tar.gz]
+[2024-04-19 12:04:28] INFO root fetch - main [MainThread]: End processing [tdf_tool]: success
+[2024-04-19 12:04:28] INFO root fetch - processPackages [globlocks]: executing diffoscope
+[2024-04-19 12:04:28] INFO root fetch - processPackages [globlocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globlocks-1.2.1.tar.gz tmp/globlocks-1.2.2.tar.gz --markdown 20240419/g/globlocks/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-19 12:04:28] INFO root fetch - processPackages [emcee]: executing diffoscope
+[2024-04-19 12:04:28] INFO root fetch - processPackages [emcee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emcee-3.1.5rc1.tar.gz tmp/emcee-3.1.6.tar.gz --markdown 20240419/e/emcee/3.1.5rc1-3.1.6/README.md --exclude *.pyd
+[2024-04-19 12:04:29] INFO root fetch - processPackages [emcee]: Remove: archive file [/home/abi/fetcher/tmp/emcee-3.1.5rc1.tar.gz]
+[2024-04-19 12:04:29] INFO root fetch - processPackages [emcee]: Remove: archive file [/home/abi/fetcher/tmp/emcee-3.1.6.tar.gz]
+[2024-04-19 12:04:29] INFO root fetch - main [MainThread]: End processing [emcee]: success
+[2024-04-19 12:04:30] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.7.tar.gz]
+[2024-04-19 12:04:30] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.6.9.tar.gz]
+[2024-04-19 12:04:30] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-04-19 12:04:30] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.1.tar.gz]
+[2024-04-19 12:04:30] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.2.tar.gz]
+[2024-04-19 12:04:30] INFO root fetch - main [MainThread]: End processing [globlocks]: success
+[2024-04-19 12:04:30] INFO root fetch - main [MainThread]: Store serial: [22839991]
