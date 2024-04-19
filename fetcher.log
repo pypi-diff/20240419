@@ -14877,3 +14877,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:45:12] INFO root fetch - processPackages [datasets]: Remove: archive file [/home/abi/fetcher/tmp/datasets-2.9.0.tar.gz]
 [2024-04-19 10:45:12] INFO root fetch - main [MainThread]: End processing [datasets]: success
 [2024-04-19 10:45:12] INFO root fetch - main [MainThread]: Store serial: [22838899]
+[2024-04-19 10:47:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838899]
+[2024-04-19 10:47:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composio-autogen
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-lyzr
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eirStru
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skytek-generic-map-api
+[2024-04-19 10:47:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pingen2sdk
+[2024-04-19 10:47:23] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:47:23] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-19 10:47:23] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [skytek-generic-map-api]: New version: [0.8.4] Old Version: [0.8.2]
+[2024-04-19 10:47:23] WARNING root fetch - processPackages [pingen2sdk]: Skipping, unable to determine old version
+[2024-04-19 10:47:23] INFO root fetch - main [MainThread]: End processing [pingen2sdk] error
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/37/69/164ec40db4e3ad845e6fa990d125cb69a7da612383090011884e3d5f2232/composio_lyzr-0.2.8.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240419] Old Version: [2.17.0.dev20240418]
+[2024-04-19 10:47:23] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-19 10:47:23] INFO root fetch - processPackages [skytek-generic-map-api]: Downloading https://files.pythonhosted.org/packages/e0/98/d7791449e4d20bcb9008a4e6bd0330273841bbd4b20f6282422d28124038/skytek-generic-map-api-0.8.2.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c2/a7/f944fb8781353934a995100c8655a239c041cf4e03806ae3a003d83a7323/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/16/f3/6e7e1d4182294ad089b3c5a760cdc78dc19ceb6c9650bfe69c0bba248396/composio_lyzr-0.2.9.tar.gz
+[2024-04-19 10:47:23] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-04-19 10:47:24] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240419/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.2.8.tar.gz tmp/composio_lyzr-0.2.9.tar.gz --markdown 20240419/c/composio-lyzr/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [skytek-generic-map-api]: Downloading https://files.pythonhosted.org/packages/ab/ad/b256f7eca4584a08c679901ad01cb133be7c0f91c590e61bb9c0647404dc/skytek_generic_map_api-0.8.4.tar.gz
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/77/ca/a53ebbcdc1696186db3136297e3350d76fbd1889d9253c14e4ef375eae67/tf_nightly_cpu-2.17.0.dev20240419-cp39-cp39-win_amd64.whl
+[2024-04-19 10:47:24] INFO root fetch - processPackages [skytek-generic-map-api]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [skytek-generic-map-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytek-generic-map-api-0.8.2.tar.gz tmp/skytek_generic_map_api-0.8.4.tar.gz --markdown 20240419/s/skytek-generic-map-api/0.8.2-0.8.4/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240419-cp39-cp39-win_amd64.whl.zip --markdown 20240419/t/tf-nightly-cpu/2.17.0.dev20240418-2.17.0.dev20240419/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-19 10:47:24] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.8.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240419/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240418-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 10:47:24] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240419-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 10:47:24] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-19 10:47:24] INFO root fetch - processPackages [skytek-generic-map-api]: Remove: archive file [/home/abi/fetcher/tmp/skytek-generic-map-api-0.8.2.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - processPackages [skytek-generic-map-api]: Remove: archive file [/home/abi/fetcher/tmp/skytek_generic_map_api-0.8.4.tar.gz]
+[2024-04-19 10:47:24] INFO root fetch - main [MainThread]: End processing [skytek-generic-map-api]: success
+[2024-04-19 10:47:27] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-19 10:47:27] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-19 10:47:27] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-19 10:47:27] INFO root fetch - main [MainThread]: Store serial: [22838922]
