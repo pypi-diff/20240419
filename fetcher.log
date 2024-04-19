@@ -16694,3 +16694,51 @@ AssertionError: tmp/fds.sdk.StreetAccountNews-0.20.4-py3-none-any.whl.zip does n
 [2024-04-19 11:34:50] INFO root fetch - processPackages [django-api-decorator]: Remove: archive file [/home/abi/fetcher/tmp/django_api_decorator-0.3.1.tar.gz]
 [2024-04-19 11:34:50] INFO root fetch - main [MainThread]: End processing [django-api-decorator]: success
 [2024-04-19 11:34:50] INFO root fetch - main [MainThread]: Store serial: [22839615]
+[2024-04-19 11:36:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839615]
+[2024-04-19 11:37:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edds
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ftw.casauth
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastclip
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-marketing-urls
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: randypy
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chamco-ragbot
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paddle2onnx
+[2024-04-19 11:37:01] WARNING root fetch - processPackages [django-marketing-urls]: Skipping, unable to determine old version
+[2024-04-19 11:37:01] INFO root fetch - main [MainThread]: End processing [django-marketing-urls] error
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ftw.casauth]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-19 11:37:01] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 11:37:01] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 11:37:01] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 11:37:01] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/28/24/217618cc94e5d20215b780cc06e8b8ea901198fa7e2ab0f9ae59576698af/chamco_ragbot-0.1.8.tar.gz
+[2024-04-19 11:37:01] INFO root fetch - processPackages [fastclip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 11:37:01] WARNING root fetch - processPackages [randypy]: Skipping, unable to determine old version
+[2024-04-19 11:37:01] INFO root fetch - main [MainThread]: End processing [randypy] error
+[2024-04-19 11:37:01] INFO root fetch - processPackages [paddle2onnx]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 11:37:01] INFO root fetch - processPackages [ftw.casauth]: Downloading https://files.pythonhosted.org/packages/a6/f3/d280e4b633d5bbec7d869bc8620f15389053656142512ff114e613682691/ftw.casauth-1.6.0.tar.gz
+[2024-04-19 11:37:01] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/c1/bd/57b35376ba802aab693a0628a3c7796f63f4fcd862fd343cf2bc34263a70/fastclip-0.0.8.tar.gz
+[2024-04-19 11:37:01] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/6d/2f/b0cfb668429f9c2cc9bbd78a2a429261023e9941169dc50b7905e48db0ac/chamco_ragbot-0.1.9.tar.gz
+[2024-04-19 11:37:02] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/00/50/14f41da06342a99fad6241038817b3be6bf61a7139c43aff5a12ffc70409/paddle2onnx-1.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 11:37:02] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 11:37:02] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.8.tar.gz tmp/chamco_ragbot-0.1.9.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 11:37:02] INFO root fetch - processPackages [ftw.casauth]: Downloading https://files.pythonhosted.org/packages/90/ba/10c8e3c813a5ef84f0a45e9ad9b019573aa0d6be652c6446b11b3b178763/ftw.casauth-1.6.1.tar.gz
+[2024-04-19 11:37:02] INFO root fetch - processPackages [ftw.casauth]: executing diffoscope
+[2024-04-19 11:37:02] INFO root fetch - processPackages [ftw.casauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.casauth-1.6.0.tar.gz tmp/ftw.casauth-1.6.1.tar.gz --markdown 20240419/f/ftw.casauth/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-19 11:37:02] INFO root fetch - processPackages [fastclip]: Downloading https://files.pythonhosted.org/packages/18/9c/061ce3445064bc994cf3482d28124bc0314cbaf7ab4a269cea85e083fbc1/fastclip-0.0.9.tar.gz
+[2024-04-19 11:37:02] INFO root fetch - processPackages [fastclip]: executing diffoscope
+[2024-04-19 11:37:02] INFO root fetch - processPackages [fastclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastclip-0.0.8.tar.gz tmp/fastclip-0.0.9.tar.gz --markdown 20240419/f/fastclip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 11:37:02] INFO root fetch - processPackages [paddle2onnx]: Downloading https://files.pythonhosted.org/packages/96/78/bb8b1d98bb2f1af67d52e544fb4cfdfa4875e8ef4c953870bf4b90860a21/paddle2onnx-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 11:37:02] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.9.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 11:37:02] INFO root fetch - processPackages [ftw.casauth]: Remove: archive file [/home/abi/fetcher/tmp/ftw.casauth-1.6.0.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - processPackages [ftw.casauth]: Remove: archive file [/home/abi/fetcher/tmp/ftw.casauth-1.6.1.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - main [MainThread]: End processing [ftw.casauth]: success
+[2024-04-19 11:37:02] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.8.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - processPackages [fastclip]: Remove: archive file [/home/abi/fetcher/tmp/fastclip-0.0.9.tar.gz]
+[2024-04-19 11:37:02] INFO root fetch - main [MainThread]: End processing [fastclip]: success
+[2024-04-19 11:37:04] INFO root fetch - processPackages [paddle2onnx]: executing diffoscope
+[2024-04-19 11:37:04] INFO root fetch - processPackages [paddle2onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paddle2onnx-1.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/paddle2onnx-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240419/p/paddle2onnx/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 11:37:41] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-19 11:37:41] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-19 11:37:41] INFO root fetch - main [MainThread]: End processing [paddle2onnx]: success
+[2024-04-19 11:37:41] INFO root fetch - main [MainThread]: Store serial: [22839638]
