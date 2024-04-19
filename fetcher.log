@@ -15266,3 +15266,105 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:57:44] INFO root fetch - processPackages [Mesa]: Remove: archive file [/home/abi/fetcher/tmp/mesa-2.3.0rc1.tar.gz]
 [2024-04-19 10:57:44] INFO root fetch - main [MainThread]: End processing [Mesa]: success
 [2024-04-19 10:57:44] INFO root fetch - main [MainThread]: Store serial: [22839068]
+[2024-04-19 10:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839068]
+[2024-04-19 10:59:53] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-amazon-sp-api
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: happy-vllm
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: digitalhub-core
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sumo-wrapper-python
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-cqrs
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalhub-data
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digitalhub-ml
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wei-office-simptool
+[2024-04-19 10:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codelimit
+[2024-04-19 10:59:53] INFO root fetch - processPackages [codelimit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [wei-office-simptool]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub-data]: New version: [0.4.0b1] Old Version: [0.4.0b0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [python-amazon-sp-api]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b1] Old Version: [0.4.0b0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [codelimit]: Downloading https://files.pythonhosted.org/packages/ee/15/6e201fb97c0b1178c7138d64626689062fba3101621053d6e515f467a9dc/codelimit-0.9.0.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [sumo-wrapper-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub]: New version: [0.4.0b1] Old Version: [0.4.0b0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [happy-vllm]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub-core]: New version: [0.4.0b1] Old Version: [0.4.0b0]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [django-cqrs]: New version: [2.7.3] Old Version: [2.7.2]
+[2024-04-19 10:59:53] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/b7/73/83d759bed28ad2808963439a2f3c871b21203ac7089148c526aa4b369d8b/python-amazon-sp-api-1.4.3.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/e8/dd/bc8a8b22f1f2dd736c91820ea53be992e9ca622e21c68db259fe019f3842/wei_office_simptool-0.0.2.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/07/ad/4d3cce184fd363339c5137b20b11c7ba6d69ee111931c3938adfca5c2be4/digitalhub_core-0.4.0b0.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/b0/79/067118aa52babb840703ed6fdcd60a75612323a88cccb342ca964b3b728d/digitalhub_data-0.4.0b0.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [sumo-wrapper-python]: Downloading https://files.pythonhosted.org/packages/82/18/6c1da95a3149e061e896f8f7ec666bfd8d246756ace50dab16f32d54680c/sumo-wrapper-python-1.0.8.tar.gz
+[2024-04-19 10:59:53] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/c7/f7/838254a499ed75ba71b3ba078a3326b4e526901f5e773b36ed65d7ac7b96/digitalhub-0.4.0b0.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/f5/d7/e535dd8d35669e104d5177bbbc061870466e3761cffbf0bfa65f1f3369a8/digitalhub_ml-0.4.0b0.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/38/2f/1fac628718bdab89cb66879582639b90d78d514e94616eb9b10d95acd547/django_cqrs-2.7.2.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/73/f3/16f4f05fa0e41cd1d048f4776ae20ad9dfcf85665e967057b17e57aebb02/happy_vllm-1.1.0.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [codelimit]: Downloading https://files.pythonhosted.org/packages/2b/36/3c3fb398f46cb5aadff5ea0aed43df65ee5ed36e06a18734c92aca2d10d6/codelimit-0.9.1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [python-amazon-sp-api]: Downloading https://files.pythonhosted.org/packages/94/c1/459974b055fd0b40340536056301784f72bdd38bf00c054c59c962b2d199/python-amazon-sp-api-1.5.0.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [wei-office-simptool]: Downloading https://files.pythonhosted.org/packages/5d/e0/8c48dcf123e5efbcb5e39b290944cdcb767226d27f42ffc89585d384ad9b/wei_office_simptool-0.0.3.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/1f/70/68b1d4ac1c08c6dad1ce3dc3d786f682b3e7efd7c71db5e9881511b3442d/digitalhub_data-0.4.0b1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [codelimit]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [codelimit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codelimit-0.9.0.tar.gz tmp/codelimit-0.9.1.tar.gz --markdown 20240419/c/codelimit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/f7/23/d132e5b0543ac3a15fa7b5cbef629bf9a53242a28e4808e79638abcbd390/digitalhub_core-0.4.0b1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [python-amazon-sp-api]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [python-amazon-sp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amazon-sp-api-1.4.3.tar.gz tmp/python-amazon-sp-api-1.5.0.tar.gz --markdown 20240419/p/python-amazon-sp-api/1.4.3-1.5.0/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [sumo-wrapper-python]: Downloading https://files.pythonhosted.org/packages/62/48/304720d7b43646638fdbcb6af4bf5cea0cf55df858965bec253b6c93b0ec/sumo_wrapper_python-1.0.9.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/f1/cc/0c26850a0282bdb3f8cb0bbbf9893e80a2204350d6cfb5a97081e7d5fe7b/digitalhub-0.4.0b1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [wei-office-simptool]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [wei-office-simptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wei_office_simptool-0.0.2.tar.gz tmp/wei_office_simptool-0.0.3.tar.gz --markdown 20240419/w/wei-office-simptool/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/61/a8/0211b803cf7085a80888265d4c675b591f369151563317fce8c256f9a33a/happy_vllm-1.1.1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.4.0b0.tar.gz tmp/digitalhub_data-0.4.0b1.tar.gz --markdown 20240419/d/digitalhub-data/0.4.0b0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/22/45/84bee2812a1947555717564b7b01d6b1f01dc37111881efd589e0bdde78d/digitalhub_ml-0.4.0b1.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.4.0b0.tar.gz tmp/digitalhub_core-0.4.0b1.tar.gz --markdown 20240419/d/digitalhub-core/0.4.0b0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [django-cqrs]: Downloading https://files.pythonhosted.org/packages/87/d1/62711b84e15cda4d294e876e46de58ead34a7bc3b3829f72ce227c29bd77/django_cqrs-2.7.3.tar.gz
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.4.0b0.tar.gz tmp/digitalhub-0.4.0b1.tar.gz --markdown 20240419/d/digitalhub/0.4.0b0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [sumo-wrapper-python]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [sumo-wrapper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumo-wrapper-python-1.0.8.tar.gz tmp/sumo_wrapper_python-1.0.9.tar.gz --markdown 20240419/s/sumo-wrapper-python/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [happy-vllm]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [happy-vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_vllm-1.1.0.tar.gz tmp/happy_vllm-1.1.1.tar.gz --markdown 20240419/h/happy-vllm/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [django-cqrs]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [django-cqrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cqrs-2.7.2.tar.gz tmp/django_cqrs-2.7.3.tar.gz --markdown 20240419/d/django-cqrs/2.7.2-2.7.3/README.md --exclude *.pyd
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-04-19 10:59:54] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b0.tar.gz tmp/digitalhub_ml-0.4.0b1.tar.gz --markdown 20240419/d/digitalhub-ml/0.4.0b0-0.4.0b1/README.md --exclude *.pyd
+[2024-04-19 10:59:55] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.2.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [wei-office-simptool]: Remove: archive file [/home/abi/fetcher/tmp/wei_office_simptool-0.0.3.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [wei-office-simptool]: Start processing: sawsi
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [wei-office-simptool]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-19 10:59:55] INFO root fetch - processPackages [codelimit]: Remove: archive file [/home/abi/fetcher/tmp/codelimit-0.9.0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [codelimit]: Remove: archive file [/home/abi/fetcher/tmp/codelimit-0.9.1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [codelimit]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-1.4.3.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [python-amazon-sp-api]: Remove: archive file [/home/abi/fetcher/tmp/python-amazon-sp-api-1.5.0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [python-amazon-sp-api]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.1.0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.1.1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [happy-vllm]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sumo-wrapper-python]: Remove: archive file [/home/abi/fetcher/tmp/sumo-wrapper-python-1.0.8.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sumo-wrapper-python]: Remove: archive file [/home/abi/fetcher/tmp/sumo_wrapper_python-1.0.9.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [sumo-wrapper-python]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.2.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [django-cqrs]: Remove: archive file [/home/abi/fetcher/tmp/django_cqrs-2.7.3.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [django-cqrs]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b0.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b1.tar.gz]
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-19 10:59:55] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-04-19 10:59:55] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240419/s/sawsi/9.8-9.9/README.md --exclude *.pyd
+[2024-04-19 10:59:56] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-19 10:59:56] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-19 10:59:56] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-19 10:59:56] INFO root fetch - main [MainThread]: Store serial: [22839118]
