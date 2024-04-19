@@ -8705,3 +8705,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:26:52] INFO root fetch - processPackages [pyflann-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/pyflann_ibeis-2.4.0.tar.gz]
 [2024-04-19 05:26:52] INFO root fetch - main [MainThread]: End processing [pyflann-ibeis]: success
 [2024-04-19 05:26:52] INFO root fetch - main [MainThread]: Store serial: [22836172]
+[2024-04-19 05:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836172]
+[2024-04-19 05:29:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2024-04-19 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-easy-configuration
+[2024-04-19 05:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2024-04-19 05:29:01] INFO root fetch - processPackages [vector-vault]: New version: [4.4.5.4] Old Version: [4.4.5.3]
+[2024-04-19 05:29:01] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/d4/af/714b0c544ddc8330141c2f1aec28f1cf59263229c3a6bac7c7ed6e4f788a/vector_vault-4.4.5.3.tar.gz
+[2024-04-19 05:29:01] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.4.dev20240418152335] Old Version: [0.3.3.dev20240416095414]
+[2024-04-19 05:29:01] WARNING root fetch - processPackages [django-easy-configuration]: Skipping, unable to determine old version
+[2024-04-19 05:29:01] INFO root fetch - main [MainThread]: End processing [django-easy-configuration] error
+[2024-04-19 05:29:01] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/e3/5c/963322ad63d72d77ef0e2daa18f76748d64f90c04f773f99dea756d4e15f/konfuzio_sdk-0.3.3.dev20240416095414.tar.gz
+[2024-04-19 05:29:01] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/b1/f3/f19bf06c37f7bbba1490081c812eb2100a4bee086a2a72383cde0f7bcc3e/vector_vault-4.4.5.4.tar.gz
+[2024-04-19 05:29:01] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/91/d8/98e11c9fff50893643072c883a362cfd43c0ae95c0745b794798a29633ac/konfuzio_sdk-0.3.4.dev20240418152335.tar.gz
+[2024-04-19 05:29:01] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-19 05:29:01] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.5.3.tar.gz tmp/vector_vault-4.4.5.4.tar.gz --markdown 20240419/v/vector-vault/4.4.5.3-4.4.5.4/README.md --exclude *.pyd
+[2024-04-19 05:29:01] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-04-19 05:29:01] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.3.dev20240416095414.tar.gz tmp/konfuzio_sdk-0.3.4.dev20240418152335.tar.gz --markdown 20240419/k/konfuzio-sdk/0.3.3.dev20240416095414-0.3.4.dev20240418152335/README.md --exclude *.pyd
+[2024-04-19 05:29:02] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.3.tar.gz]
+[2024-04-19 05:29:02] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.4.tar.gz]
+[2024-04-19 05:29:02] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-19 05:29:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.3.dev20240416095414.tar.gz]
+[2024-04-19 05:29:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240418152335.tar.gz]
+[2024-04-19 05:29:02] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-04-19 05:29:02] INFO root fetch - main [MainThread]: Store serial: [22836183]
