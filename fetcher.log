@@ -6848,3 +6848,48 @@
 [2024-04-19 03:23:57] INFO root fetch - processPackages [scikit-fibers]: Remove: archive file [/home/abi/fetcher/tmp/scikit_fibers-1.0.0-py3-none-any.whl.zip]
 [2024-04-19 03:23:57] INFO root fetch - main [MainThread]: End processing [scikit-fibers]: success
 [2024-04-19 03:23:57] INFO root fetch - main [MainThread]: Store serial: [22835056]
+[2024-04-19 03:26:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835056]
+[2024-04-19 03:26:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktools
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cookieplone
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsms-sdk
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moments-popgen
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediff
+[2024-04-19 03:26:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meta-ai-api
+[2024-04-19 03:26:06] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc6] Old Version: [1.4.0rc5]
+[2024-04-19 03:26:06] WARNING root fetch - processPackages [cookieplone]: Skipping, unable to determine old version
+[2024-04-19 03:26:06] INFO root fetch - main [MainThread]: End processing [cookieplone] error
+[2024-04-19 03:26:06] INFO root fetch - processPackages [meta-ai-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 03:26:06] WARNING root fetch - processPackages [moments-popgen]: Skipping, unable to determine old version
+[2024-04-19 03:26:06] INFO root fetch - main [MainThread]: End processing [moments-popgen] error
+[2024-04-19 03:26:06] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404180125] Old Version: [1.0.0.dev202404170125]
+[2024-04-19 03:26:06] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/7b/48/4401a2b1ea35eb4c463df67e5b0e01d168fce134b92910f7ed52200728b2/dsms_sdk-1.4.0rc5.tar.gz
+[2024-04-19 03:26:06] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/ac/b7/9ba6d2114352059890be21d7d56e3bfdad43cbeb8a38e0209ce180f1f359/meta_ai_api-1.0.8.tar.gz
+[2024-04-19 03:26:06] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/7c/b6/b49865bfd9423b62e2fd447d11448565a91120aa8b43cc16057774779594/onediff-1.0.0.dev202404170125.tar.gz
+[2024-04-19 03:26:06] INFO root fetch - processPackages [linktools]: New version: [0.8.4rc0] Old Version: [0.8.4]
+[2024-04-19 03:26:07] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/98/e8/38674e78191f5d32505147d991afd19fb1ca07ceee0d6612b8d01f401501/linktools-0.8.4.tar.gz
+[2024-04-19 03:26:07] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/3e/cc/70d52649a8655c4b1e48a07eea5c0bddafb55ed4bc4748feed988629f6b8/meta_ai_api-1.0.9.tar.gz
+[2024-04-19 03:26:07] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/e8/5a/a378bdbbe7efdf64f2a991ac07b127ad170b417a2b23fd43064762b7c623/dsms_sdk-1.4.0rc6.tar.gz
+[2024-04-19 03:26:07] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/90/8d/dcb2ca0ea6922d35722233347cc2121567df94eb704761d162f5166f1ef3/onediff-1.0.0.dev202404180125.tar.gz
+[2024-04-19 03:26:07] INFO root fetch - processPackages [meta-ai-api]: executing diffoscope
+[2024-04-19 03:26:07] INFO root fetch - processPackages [meta-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_ai_api-1.0.8.tar.gz tmp/meta_ai_api-1.0.9.tar.gz --markdown 20240419/m/meta-ai-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 03:26:07] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-19 03:26:07] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc5.tar.gz tmp/dsms_sdk-1.4.0rc6.tar.gz --markdown 20240419/d/dsms-sdk/1.4.0rc5-1.4.0rc6/README.md --exclude *.pyd
+[2024-04-19 03:26:07] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-19 03:26:07] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404170125.tar.gz tmp/onediff-1.0.0.dev202404180125.tar.gz --markdown 20240419/o/onediff/1.0.0.dev202404170125-1.0.0.dev202404180125/README.md --exclude *.pyd
+[2024-04-19 03:26:07] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/ea/8f/f75ab09c8009bca4ef2dc843f5eaef4897808e23208ca089f5e2ded27836/linktools-0.8.4rc0.tar.gz
+[2024-04-19 03:26:07] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2024-04-19 03:26:07] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.8.4.tar.gz tmp/linktools-0.8.4rc0.tar.gz --markdown 20240419/l/linktools/0.8.4-0.8.4rc0/README.md --exclude *.pyd
+[2024-04-19 03:26:07] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.8.tar.gz]
+[2024-04-19 03:26:07] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.9.tar.gz]
+[2024-04-19 03:26:07] INFO root fetch - main [MainThread]: End processing [meta-ai-api]: success
+[2024-04-19 03:26:08] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc5.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc6.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-19 03:26:08] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404170125.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404180125.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-19 03:26:08] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.4rc0.tar.gz]
+[2024-04-19 03:26:08] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2024-04-19 03:26:08] INFO root fetch - main [MainThread]: Store serial: [22835140]
