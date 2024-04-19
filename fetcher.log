@@ -7097,3 +7097,42 @@
 [2024-04-19 03:39:17] INFO root fetch - processPackages [mat3ra-esse]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-esse-2024.4.9.post0.tar.gz]
 [2024-04-19 03:39:17] INFO root fetch - main [MainThread]: End processing [mat3ra-esse]: success
 [2024-04-19 03:39:17] INFO root fetch - main [MainThread]: Store serial: [22835432]
+[2024-04-19 03:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835432]
+[2024-04-19 03:41:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odc-stats
+[2024-04-19 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: i38e-utils
+[2024-04-19 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gd_excelexporter
+[2024-04-19 03:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langkit
+[2024-04-19 03:41:26] INFO root fetch - processPackages [langkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 03:41:26] INFO root fetch - processPackages [i38e-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 03:41:26] INFO root fetch - processPackages [odc-stats]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 03:41:26] INFO root fetch - processPackages [gd_excelexporter]: New version: [3.0.0a1] Old Version: [2.1.5]
+[2024-04-19 03:41:26] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/ce/e3/7969ef4cda66f7a8d2dc2a61af3bb067c395b8fc3c8bf9e6777139afa351/langkit-0.0.8.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [i38e-utils]: Downloading https://files.pythonhosted.org/packages/e6/ef/893e01bdfcf7da5737294ba8968d2e196d1c8ea0668c926110d0d158c8cb/i38e_utils-1.0.8.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [odc-stats]: Downloading https://files.pythonhosted.org/packages/37/04/c8025d7c66dda3274caaa3aef8c864e2b01411b63ef4320088c36f5df049/odc-stats-1.0.8.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [i38e-utils]: Downloading https://files.pythonhosted.org/packages/41/99/cc5b8c56c9c57fd5700911f6b4e9be1a959df6abeea2958d58af60dcef15/i38e_utils-1.0.9.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/5f/cc/1be641ad8eb9881c33842cf91e6014c5e1d21bc80615b72a3890847f04a4/gd_excelexporter-2.1.5.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [langkit]: Downloading https://files.pythonhosted.org/packages/32/28/704a6d98bd58a324050772e6b9dc1479ab2f09c77c3a83a38e3697af8ef3/langkit-0.0.9.tar.gz
+[2024-04-19 03:41:26] INFO root fetch - processPackages [i38e-utils]: executing diffoscope
+[2024-04-19 03:41:26] INFO root fetch - processPackages [i38e-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i38e_utils-1.0.8.tar.gz tmp/i38e_utils-1.0.9.tar.gz --markdown 20240419/i/i38e-utils/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 03:41:27] INFO root fetch - processPackages [langkit]: executing diffoscope
+[2024-04-19 03:41:27] INFO root fetch - processPackages [langkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langkit-0.0.8.tar.gz tmp/langkit-0.0.9.tar.gz --markdown 20240419/l/langkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 03:41:27] INFO root fetch - processPackages [odc-stats]: Downloading https://files.pythonhosted.org/packages/5a/c2/9b2a987df3c835a128241249da2805d1e66261097f62d5c7862c67f77338/odc-stats-1.0.9.tar.gz
+[2024-04-19 03:41:27] INFO root fetch - processPackages [gd_excelexporter]: Downloading https://files.pythonhosted.org/packages/8a/5d/443233a5346cceab5d224a48c0437021dcd1ca321fb0996d4bb72f745235/gd_excelexporter-3.0.0a1.tar.gz
+[2024-04-19 03:41:27] INFO root fetch - processPackages [odc-stats]: executing diffoscope
+[2024-04-19 03:41:27] INFO root fetch - processPackages [odc-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc-stats-1.0.8.tar.gz tmp/odc-stats-1.0.9.tar.gz --markdown 20240419/o/odc-stats/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 03:41:27] INFO root fetch - processPackages [gd_excelexporter]: executing diffoscope
+[2024-04-19 03:41:27] INFO root fetch - processPackages [gd_excelexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gd_excelexporter-2.1.5.tar.gz tmp/gd_excelexporter-3.0.0a1.tar.gz --markdown 20240419/g/gd_excelexporter/2.1.5-3.0.0a1/README.md --exclude *.pyd
+[2024-04-19 03:41:27] INFO root fetch - processPackages [i38e-utils]: Remove: archive file [/home/abi/fetcher/tmp/i38e_utils-1.0.8.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - processPackages [i38e-utils]: Remove: archive file [/home/abi/fetcher/tmp/i38e_utils-1.0.9.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - main [MainThread]: End processing [i38e-utils]: success
+[2024-04-19 03:41:27] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.8.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - processPackages [langkit]: Remove: archive file [/home/abi/fetcher/tmp/langkit-0.0.9.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - main [MainThread]: End processing [langkit]: success
+[2024-04-19 03:41:27] INFO root fetch - processPackages [odc-stats]: Remove: archive file [/home/abi/fetcher/tmp/odc-stats-1.0.8.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - processPackages [odc-stats]: Remove: archive file [/home/abi/fetcher/tmp/odc-stats-1.0.9.tar.gz]
+[2024-04-19 03:41:27] INFO root fetch - main [MainThread]: End processing [odc-stats]: success
+[2024-04-19 03:41:28] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-2.1.5.tar.gz]
+[2024-04-19 03:41:28] INFO root fetch - processPackages [gd_excelexporter]: Remove: archive file [/home/abi/fetcher/tmp/gd_excelexporter-3.0.0a1.tar.gz]
+[2024-04-19 03:41:28] INFO root fetch - main [MainThread]: End processing [gd_excelexporter]: success
+[2024-04-19 03:41:28] INFO root fetch - main [MainThread]: Store serial: [22835444]
