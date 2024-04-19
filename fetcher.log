@@ -13309,3 +13309,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:40:51] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240418165859-py3-none-any.whl.zip]
 [2024-04-19 09:40:51] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-19 09:40:51] INFO root fetch - main [MainThread]: Store serial: [22838147]
+[2024-04-19 09:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838147]
+[2024-04-19 09:43:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 09:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack
+[2024-04-19 09:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-ext
+[2024-04-19 09:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdof
+[2024-04-19 09:43:00] INFO root fetch - processPackages [lyk-reservation-nowon]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 09:43:00] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/07/de/16c72432974777d3c09539c2ab31157bc51d687993b06911054c35375cba/lyk-reservation-nowon-0.0.5.tar.gz
+[2024-04-19 09:43:00] INFO root fetch - processPackages [mdof]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 09:43:00] INFO root fetch - processPackages [localstack]: New version: [3.3.1.dev20240419073811] Old Version: [3.3.0]
+[2024-04-19 09:43:00] INFO root fetch - processPackages [localstack-ext]: New version: [3.3.1.dev20240419073811] Old Version: [3.3.0]
+[2024-04-19 09:43:00] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/eb/55/97f0d727678e18173a72ce5e5812aa6c37282e5e854df44957ecc41d7ad9/mdof-0.0.8.tar.gz
+[2024-04-19 09:43:00] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/20/4e/6c7e90dd5fe61547b3058dce38f2ed79ad6e17bd37a610fee1429f9a1159/localstack-3.3.0.tar.gz
+[2024-04-19 09:43:00] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/a0/27/4b1db15bf45b07e81344e7239f4e7f1898ca01c32cd3b35a23545ccb738c/lyk-reservation-nowon-0.0.6.tar.gz
+[2024-04-19 09:43:00] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/b0/29/83429295ec04d0675c14c6fe7ae838d677288078a10baf5724bdaab54675/localstack-ext-3.3.0.tar.gz
+[2024-04-19 09:43:00] INFO root fetch - processPackages [lyk-reservation-nowon]: executing diffoscope
+[2024-04-19 09:43:00] INFO root fetch - processPackages [lyk-reservation-nowon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyk-reservation-nowon-0.0.5.tar.gz tmp/lyk-reservation-nowon-0.0.6.tar.gz --markdown 20240419/l/lyk-reservation-nowon/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/34/2e/d206f8f0c5e7b5bc0db0fccdb05d284db9791c07abd1760e426b4ac4dd76/localstack-3.3.1.dev20240419073811.tar.gz
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-3.3.0.tar.gz tmp/localstack-3.3.1.dev20240419073811.tar.gz --markdown 20240419/l/localstack/3.3.0-3.3.1.dev20240419073811/README.md --exclude *.pyd
+[2024-04-19 09:43:01] INFO root fetch - processPackages [mdof]: Downloading https://files.pythonhosted.org/packages/9e/84/d2a6f45668139927aecb88a92cccd7c0884c48914ab06aecf0deef91356a/mdof-0.0.9.tar.gz
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/d1/4d/85b20144d73faab7de565962749b86094ef4c13cc5da1a2fe0c68dd6622e/localstack_ext-3.3.1.dev20240419073811.tar.gz
+[2024-04-19 09:43:01] INFO root fetch - processPackages [mdof]: executing diffoscope
+[2024-04-19 09:43:01] INFO root fetch - processPackages [mdof]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdof-0.0.8.tar.gz tmp/mdof-0.0.9.tar.gz --markdown 20240419/m/mdof/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:43:01] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.5.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.6.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon]: success
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-3.3.0.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-3.3.1.dev20240419073811.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2024-04-19 09:43:01] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-3.3.0.tar.gz tmp/localstack_ext-3.3.1.dev20240419073811.tar.gz --markdown 20240419/l/localstack-ext/3.3.0-3.3.1.dev20240419073811/README.md --exclude *.pyd
+[2024-04-19 09:43:01] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.8.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - processPackages [mdof]: Remove: archive file [/home/abi/fetcher/tmp/mdof-0.0.9.tar.gz]
+[2024-04-19 09:43:01] INFO root fetch - main [MainThread]: End processing [mdof]: success
+[2024-04-19 09:43:11] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-3.3.0.tar.gz]
+[2024-04-19 09:43:11] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack_ext-3.3.1.dev20240419073811.tar.gz]
+[2024-04-19 09:43:11] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2024-04-19 09:43:11] INFO root fetch - main [MainThread]: Store serial: [22838161]
