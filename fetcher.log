@@ -12143,3 +12143,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:48:44] INFO root fetch - processPackages [pyrealsense2]: Remove: archive file [/home/abi/fetcher/tmp/pyrealsense2-2.9.1-cp36-cp36m-win_amd64.whl.zip]
 [2024-04-19 08:48:44] INFO root fetch - main [MainThread]: End processing [pyrealsense2]: success
 [2024-04-19 08:48:44] INFO root fetch - main [MainThread]: Store serial: [22837659]
+[2024-04-19 08:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837659]
+[2024-04-19 08:50:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 08:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2024-04-19 08:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-refresher
+[2024-04-19 08:50:53] INFO root fetch - processPackages [odoo-addon-web-refresher]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-19 08:50:53] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/6b/a4/4a73dc1a6fceb7cb25b13da3b23c9e7be1c99bdc115acb7b2357cef5c67f/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-19 08:50:53] INFO root fetch - processPackages [bioregistry]: New version: [0.9.97] Old Version: [0.9.96]
+[2024-04-19 08:50:53] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/48/3a/7ab0975f6c89bea709b279c9e39ef3be5439cfec168dbf3a614dac397663/bioregistry-0.9.96.tar.gz
+[2024-04-19 08:50:53] INFO root fetch - processPackages [odoo-addon-web-refresher]: Downloading https://files.pythonhosted.org/packages/b5/17/fef6468db53f33765ec13e6c350678a162e2581c5a6961a3bbbc415ea107/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl
+[2024-04-19 08:50:53] INFO root fetch - processPackages [odoo-addon-web-refresher]: executing diffoscope
+[2024-04-19 08:50:53] INFO root fetch - processPackages [odoo-addon-web-refresher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-web-refresher/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-04-19 08:50:54] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-19 08:50:54] INFO root fetch - processPackages [odoo-addon-web-refresher]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_refresher-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-19 08:50:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-refresher]: success
+[2024-04-19 08:50:54] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/57/7b/30897578f436658ac1f334eb6e9f96ad0bacb0a54846670620df53a5a374/bioregistry-0.9.97.tar.gz
+[2024-04-19 08:50:55] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2024-04-19 08:50:55] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.96.tar.gz tmp/bioregistry-0.9.97.tar.gz --markdown 20240419/b/bioregistry/0.9.96-0.9.97/README.md --exclude *.pyd
+[2024-04-19 08:52:02] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.96.tar.gz]
+[2024-04-19 08:52:02] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
+[2024-04-19 08:52:02] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2024-04-19 08:52:02] INFO root fetch - main [MainThread]: Store serial: [22837667]
