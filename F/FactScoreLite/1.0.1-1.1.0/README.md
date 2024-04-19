@@ -1,0 +1,1254 @@
+# Comparing `tmp/factscorelite-1.0.1.tar.gz` & `tmp/factscorelite-1.1.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "factscorelite-1.0.1.tar", last modified: Mon Apr 15 02:57:11 2024, max compression
++gzip compressed data, was "factscorelite-1.1.0.tar", last modified: Fri Apr 19 02:25:01 2024, max compression
+```
+
+## Comparing `factscorelite-1.0.1.tar` & `factscorelite-1.1.0.tar`
+
+### file list
+
+```diff
+@@ -1,30 +1,31 @@
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:11.243777 factscorelite-1.0.1/
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:11.243777 factscorelite-1.0.1/FactScoreLite/
+--rw-r--r--   0 runner    (1001) docker     (127)      153 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)     5981 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/atomic_facts.py
+--rw-r--r--   0 runner    (1001) docker     (127)      380 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/configs.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:11.243777 factscorelite-1.0.1/FactScoreLite/data/
+--rw-r--r--   0 runner    (1001) docker     (127)     5458 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/data/demons.json
+--rw-r--r--   0 runner    (1001) docker     (127)     2720 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/data/demons_generation_prompt.txt
+--rw-r--r--   0 runner    (1001) docker     (127)     2418 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/fact_scorer.py
+--rw-r--r--   0 runner    (1001) docker     (127)     5509 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/factscore.py
+--rw-r--r--   0 runner    (1001) docker     (127)     2551 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/openai_agent.py
+--rw-r--r--   0 runner    (1001) docker     (127)      402 2024-04-15 02:57:03.000000 factscorelite-1.0.1/FactScoreLite/state_handler.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:11.243777 factscorelite-1.0.1/FactScoreLite.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (127)     6328 2024-04-15 02:57:11.000000 factscorelite-1.0.1/FactScoreLite.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)      647 2024-04-15 02:57:11.000000 factscorelite-1.0.1/FactScoreLite.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-15 02:57:11.000000 factscorelite-1.0.1/FactScoreLite.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       37 2024-04-15 02:57:11.000000 factscorelite-1.0.1/FactScoreLite.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (127)       20 2024-04-15 02:57:11.000000 factscorelite-1.0.1/FactScoreLite.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (127)     1062 2024-04-15 02:57:03.000000 factscorelite-1.0.1/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (127)     6328 2024-04-15 02:57:11.243777 factscorelite-1.0.1/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (127)     5725 2024-04-15 02:57:03.000000 factscorelite-1.0.1/README.md
+--rw-r--r--   0 runner    (1001) docker     (127)      661 2024-04-15 02:57:11.247777 factscorelite-1.0.1/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-15 02:57:03.000000 factscorelite-1.0.1/setup.py
+-drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:11.243777 factscorelite-1.0.1/tests/
+--rw-r--r--   0 runner    (1001) docker     (127)        0 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (127)     7720 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/test_atomic_facts.py
+--rw-r--r--   0 runner    (1001) docker     (127)     2658 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/test_fact_scorer.py
+--rw-r--r--   0 runner    (1001) docker     (127)     4500 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/test_factscore.py
+--rw-r--r--   0 runner    (1001) docker     (127)    11274 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/test_openai_agent.py
+--rw-r--r--   0 runner    (1001) docker     (127)     1543 2024-04-15 02:57:03.000000 factscorelite-1.0.1/tests/test_state_handler.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-19 02:25:01.549004 factscorelite-1.1.0/
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-19 02:25:01.545004 factscorelite-1.1.0/FactScoreLite/
++-rw-r--r--   0 runner    (1001) docker     (127)      153 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)     6007 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/atomic_facts.py
++-rw-r--r--   0 runner    (1001) docker     (127)      470 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/configs.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-19 02:25:01.545004 factscorelite-1.1.0/FactScoreLite/data/
++-rw-r--r--   0 runner    (1001) docker     (127)     5457 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/data/atomic_facts_demons.json
++-rw-r--r--   0 runner    (1001) docker     (127)     2720 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/data/demons_generation_prompt.txt
++-rw-r--r--   0 runner    (1001) docker     (127)     2036 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/data/fact_scorer_demons.json
++-rw-r--r--   0 runner    (1001) docker     (127)     4011 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/fact_scorer.py
++-rw-r--r--   0 runner    (1001) docker     (127)     5509 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/factscore.py
++-rw-r--r--   0 runner    (1001) docker     (127)     2551 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/openai_agent.py
++-rw-r--r--   0 runner    (1001) docker     (127)      402 2024-04-19 02:24:58.000000 factscorelite-1.1.0/FactScoreLite/state_handler.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-19 02:25:01.545004 factscorelite-1.1.0/FactScoreLite.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (127)     7598 2024-04-19 02:25:01.000000 factscorelite-1.1.0/FactScoreLite.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)      703 2024-04-19 02:25:01.000000 factscorelite-1.1.0/FactScoreLite.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (127)        1 2024-04-19 02:25:01.000000 factscorelite-1.1.0/FactScoreLite.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       37 2024-04-19 02:25:01.000000 factscorelite-1.1.0/FactScoreLite.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (127)       20 2024-04-19 02:25:01.000000 factscorelite-1.1.0/FactScoreLite.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (127)     1062 2024-04-19 02:24:58.000000 factscorelite-1.1.0/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (127)     7598 2024-04-19 02:25:01.545004 factscorelite-1.1.0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (127)     6995 2024-04-19 02:24:58.000000 factscorelite-1.1.0/README.md
++-rw-r--r--   0 runner    (1001) docker     (127)      661 2024-04-19 02:25:01.549004 factscorelite-1.1.0/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (127)       38 2024-04-19 02:24:58.000000 factscorelite-1.1.0/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (127)        0 2024-04-19 02:25:01.545004 factscorelite-1.1.0/tests/
++-rw-r--r--   0 runner    (1001) docker     (127)        0 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (127)     7738 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/test_atomic_facts.py
++-rw-r--r--   0 runner    (1001) docker     (127)     4604 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/test_fact_scorer.py
++-rw-r--r--   0 runner    (1001) docker     (127)     4500 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/test_factscore.py
++-rw-r--r--   0 runner    (1001) docker     (127)    11274 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/test_openai_agent.py
++-rw-r--r--   0 runner    (1001) docker     (127)     1543 2024-04-19 02:24:58.000000 factscorelite-1.1.0/tests/test_state_handler.py
+```
+
+### Comparing `factscorelite-1.0.1/FactScoreLite/atomic_facts.py` & `factscorelite-1.1.0/FactScoreLite/atomic_facts.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -41,23 +41,23 @@
+         """
+         Load examples (demonstrations) from a JSON file.
+         This will be used in the prompt generation.
+ 
+         Returns:
+             list: A list of examples (demonstrations).
+         """
+-        with open(configs.demons_path, "r") as file:
++        with open(configs.atomic_facts_demons_path, "r") as file:
+             demons = json.load(file)
+ 
+         return demons
+ 
+     def get_instructions(self) -> str:
+         """
+         Prepare instructions for the prompt generation.
+-        Instructions include the examples given in the demons.json file.
++        Instructions include the examples given in the atomic_facts_demons.json file.
+ 
+         Returns:
+             str: The instructions for the prompt generation.
+         """
+ 
+         instructions = (
+             "Please breakdown the following sentence into independent facts:\n\n"
+```
+
+### Comparing `factscorelite-1.0.1/FactScoreLite/data/demons.json` & `factscorelite-1.1.0/FactScoreLite/data/atomic_facts_demons.json`
+
+ * *Format-specific differences are supported for JSON files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: JSON text data*
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -1,342 +1,342 @@
+-00000000: 0a5b 0a20 207b 0a20 2020 2022 5365 6e74  .[.  {.    "Sent
+-00000010: 656e 6365 223a 2022 5468 6520 5475 7262  ence": "The Turb
+-00000020: 6f20 5636 2065 6e67 696e 6520 626f 6173  o V6 engine boas
+-00000030: 7473 2061 6e20 696d 7072 6573 7369 7665  ts an impressive
+-00000040: 2068 6f72 7365 706f 7765 7220 6f66 2034   horsepower of 4
+-00000050: 3530 2061 6e64 2061 2070 6561 6b20 746f  50 and a peak to
+-00000060: 7271 7565 206f 6620 3531 3020 6c62 2d66  rque of 510 lb-f
+-00000070: 742c 2061 6368 6965 7665 6420 6265 7477  t, achieved betw
+-00000080: 6565 6e20 322c 3530 3020 616e 6420 352c  een 2,500 and 5,
+-00000090: 3530 3020 7270 6d2c 2065 7175 6970 7065  500 rpm, equippe
+-000000a0: 6420 7769 7468 2061 2031 302d 7370 6565  d with a 10-spee
+-000000b0: 6420 6175 746f 6d61 7469 6320 7472 616e  d automatic tran
+-000000c0: 736d 6973 7369 6f6e 2061 6e64 2061 2064  smission and a d
+-000000d0: 7561 6c2d 6578 6861 7573 7420 7379 7374  ual-exhaust syst
+-000000e0: 656d 2c20 656e 6861 6e63 696e 6720 626f  em, enhancing bo
+-000000f0: 7468 2070 6572 666f 726d 616e 6365 2061  th performance a
+-00000100: 6e64 2073 6f75 6e64 2e22 2c0a 2020 2020  nd sound.",.    
+-00000110: 2249 6e64 6570 656e 6465 6e74 2046 6163  "Independent Fac
+-00000120: 7473 223a 205b 0a20 2020 2020 2022 4974  ts": [.      "It
+-00000130: 2068 6173 2061 2054 7572 626f 2056 3620   has a Turbo V6 
+-00000140: 656e 6769 6e65 2e22 2c0a 2020 2020 2020  engine.",.      
+-00000150: 2254 6865 2068 6f72 7365 706f 7765 7220  "The horsepower 
+-00000160: 6973 2034 3530 2e22 2c0a 2020 2020 2020  is 450.",.      
+-00000170: 2254 6865 2070 6561 6b20 746f 7271 7565  "The peak torque
+-00000180: 2069 7320 3531 3020 6c62 2d66 742e 222c   is 510 lb-ft.",
+-00000190: 0a20 2020 2020 2022 5065 616b 2074 6f72  .      "Peak tor
+-000001a0: 7175 6520 6f63 6375 7273 2062 6574 7765  que occurs betwe
+-000001b0: 656e 2032 2c35 3030 2061 6e64 2035 2c35  en 2,500 and 5,5
+-000001c0: 3030 2072 706d 2e22 2c0a 2020 2020 2020  00 rpm.",.      
+-000001d0: 2254 6865 2076 6568 6963 6c65 2068 6173  "The vehicle has
+-000001e0: 2061 2031 302d 7370 6565 6420 6175 746f   a 10-speed auto
+-000001f0: 6d61 7469 6320 7472 616e 736d 6973 7369  matic transmissi
+-00000200: 6f6e 2e22 2c0a 2020 2020 2020 2249 7420  on.",.      "It 
+-00000210: 6665 6174 7572 6573 2061 2064 7561 6c2d  features a dual-
+-00000220: 6578 6861 7573 7420 7379 7374 656d 2e22  exhaust system."
+-00000230: 2c0a 2020 2020 2020 2254 6865 2064 7561  ,.      "The dua
+-00000240: 6c2d 6578 6861 7573 7420 7379 7374 656d  l-exhaust system
+-00000250: 2065 6e68 616e 6365 7320 7065 7266 6f72   enhances perfor
+-00000260: 6d61 6e63 652e 222c 0a20 2020 2020 2022  mance.",.      "
+-00000270: 5468 6520 6475 616c 2d65 7868 6175 7374  The dual-exhaust
+-00000280: 2073 7973 7465 6d20 656e 6861 6e63 6573   system enhances
+-00000290: 2073 6f75 6e64 2e22 0a20 2020 205d 0a20   sound.".    ]. 
+-000002a0: 207d 2c0a 2020 7b0a 2020 2020 2253 656e   },.  {.    "Sen
+-000002b0: 7465 6e63 6522 3a20 2241 6363 6f72 6469  tence": "Accordi
+-000002c0: 6e67 2074 6f20 7468 6520 6d61 696e 7465  ng to the mainte
+-000002d0: 6e61 6e63 6520 7363 6865 6475 6c65 2069  nance schedule i
+-000002e0: 6e20 7468 6520 6f77 6e65 7227 7320 6d61  n the owner's ma
+-000002f0: 6e75 616c 2c20 7468 6520 636f 6f6c 616e  nual, the coolan
+-00000300: 7420 666c 7569 6420 7368 6f75 6c64 2062  t fluid should b
+-00000310: 6520 7265 706c 6163 6564 2065 7665 7279  e replaced every
+-00000320: 2034 302c 3030 3020 6d69 6c65 7320 6f72   40,000 miles or
+-00000330: 2034 2079 6561 7273 2c20 7768 6963 6865   4 years, whiche
+-00000340: 7665 7220 636f 6d65 7320 6669 7273 742c  ver comes first,
+-00000350: 2074 6f20 656e 7375 7265 206f 7074 696d   to ensure optim
+-00000360: 616c 2065 6e67 696e 6520 7065 7266 6f72  al engine perfor
+-00000370: 6d61 6e63 6520 616e 6420 7072 6576 656e  mance and preven
+-00000380: 7420 6f76 6572 6865 6174 696e 672e 222c  t overheating.",
+-00000390: 0a20 2020 2022 496e 6465 7065 6e64 656e  .    "Independen
+-000003a0: 7420 4661 6374 7322 3a20 5b0a 2020 2020  t Facts": [.    
+-000003b0: 2020 2254 6865 2063 6f6f 6c61 6e74 2066    "The coolant f
+-000003c0: 6c75 6964 2072 6570 6c61 6365 6d65 6e74  luid replacement
+-000003d0: 2069 7320 6d65 6e74 696f 6e65 6420 696e   is mentioned in
+-000003e0: 2074 6865 206d 6169 6e74 656e 616e 6365   the maintenance
+-000003f0: 2073 6368 6564 756c 652e 222c 0a20 2020   schedule.",.   
+-00000400: 2020 2022 5468 6520 6f77 6e65 7227 7320     "The owner's 
+-00000410: 6d61 6e75 616c 2063 6f6e 7461 696e 7320  manual contains 
+-00000420: 7468 6520 6d61 696e 7465 6e61 6e63 6520  the maintenance 
+-00000430: 7363 6865 6475 6c65 2e22 2c0a 2020 2020  schedule.",.    
+-00000440: 2020 2243 6f6f 6c61 6e74 2066 6c75 6964    "Coolant fluid
+-00000450: 2073 686f 756c 6420 6265 2072 6570 6c61   should be repla
+-00000460: 6365 6420 6576 6572 7920 3430 2c30 3030  ced every 40,000
+-00000470: 206d 696c 6573 2e22 2c0a 2020 2020 2020   miles.",.      
+-00000480: 2241 6c74 6572 6e61 7469 7665 6c79 2c20  "Alternatively, 
+-00000490: 636f 6f6c 616e 7420 666c 7569 6420 7368  coolant fluid sh
+-000004a0: 6f75 6c64 2062 6520 7265 706c 6163 6564  ould be replaced
+-000004b0: 2065 7665 7279 2034 2079 6561 7273 2e22   every 4 years."
+-000004c0: 2c0a 2020 2020 2020 2252 6570 6c61 6365  ,.      "Replace
+-000004d0: 6d65 6e74 2069 7320 6261 7365 6420 6f6e  ment is based on
+-000004e0: 2077 6869 6368 6576 6572 206d 696c 6573   whichever miles
+-000004f0: 746f 6e65 2069 7320 7265 6163 6865 6420  tone is reached 
+-00000500: 6669 7273 742e 222c 0a20 2020 2020 2022  first.",.      "
+-00000510: 5468 6520 7075 7270 6f73 6520 6973 2074  The purpose is t
+-00000520: 6f20 656e 7375 7265 206f 7074 696d 616c  o ensure optimal
+-00000530: 2065 6e67 696e 6520 7065 7266 6f72 6d61   engine performa
+-00000540: 6e63 652e 222c 0a20 2020 2020 2022 416e  nce.",.      "An
+-00000550: 6f74 6865 7220 7075 7270 6f73 6520 6973  other purpose is
+-00000560: 2074 6f20 7072 6576 656e 7420 6f76 6572   to prevent over
+-00000570: 6865 6174 696e 672e 220a 2020 2020 5d0a  heating.".    ].
+-00000580: 2020 7d2c 0a20 207b 0a20 2020 2022 5365    },.  {.    "Se
+-00000590: 6e74 656e 6365 223a 2022 4665 6174 7572  ntence": "Featur
+-000005a0: 696e 6720 6164 7661 6e63 6564 2073 6166  ing advanced saf
+-000005b0: 6574 7920 7465 6368 6e6f 6c6f 6779 2c20  ety technology, 
+-000005c0: 7468 6520 3230 3232 2056 6972 7475 6520  the 2022 Virtue 
+-000005d0: 5365 6461 6e20 696e 636f 7270 6f72 6174  Sedan incorporat
+-000005e0: 6573 2061 6e20 6175 746f 6d61 7469 6320  es an automatic 
+-000005f0: 656d 6572 6765 6e63 7920 6272 616b 696e  emergency brakin
+-00000600: 6720 7379 7374 656d 2c20 6120 6c61 6e65  g system, a lane
+-00000610: 2d6b 6565 7069 6e67 2061 7373 6973 7420  -keeping assist 
+-00000620: 6665 6174 7572 652c 2061 6e64 2061 6461  feature, and ada
+-00000630: 7074 6976 6520 6372 7569 7365 2063 6f6e  ptive cruise con
+-00000640: 7472 6f6c 2c20 616c 6c20 6465 7369 676e  trol, all design
+-00000650: 6564 2074 6f20 636f 6d70 6c79 2077 6974  ed to comply wit
+-00000660: 6820 7468 6520 6c61 7465 7374 2045 7572  h the latest Eur
+-00000670: 6f20 4e43 4150 2073 6166 6574 7920 7374  o NCAP safety st
+-00000680: 616e 6461 7264 732e 222c 0a20 2020 2022  andards.",.    "
+-00000690: 496e 6465 7065 6e64 656e 7420 4661 6374  Independent Fact
+-000006a0: 7322 3a20 5b0a 2020 2020 2020 2254 6865  s": [.      "The
+-000006b0: 206d 6f64 656c 2079 6561 7220 6973 2032   model year is 2
+-000006c0: 3032 322e 222c 0a20 2020 2020 2022 5468  022.",.      "Th
+-000006d0: 6520 6d6f 6465 6c20 6973 2074 6865 2056  e model is the V
+-000006e0: 6972 7475 6520 5365 6461 6e2e 222c 0a20  irtue Sedan.",. 
+-000006f0: 2020 2020 2022 4974 2066 6561 7475 7265       "It feature
+-00000700: 7320 6164 7661 6e63 6564 2073 6166 6574  s advanced safet
+-00000710: 7920 7465 6368 6e6f 6c6f 6779 2e22 2c0a  y technology.",.
+-00000720: 2020 2020 2020 2254 6865 2074 6563 686e        "The techn
+-00000730: 6f6c 6f67 7920 696e 636c 7564 6573 2061  ology includes a
+-00000740: 6e20 6175 746f 6d61 7469 6320 656d 6572  n automatic emer
+-00000750: 6765 6e63 7920 6272 616b 696e 6720 7379  gency braking sy
+-00000760: 7374 656d 2e22 2c0a 2020 2020 2020 2249  stem.",.      "I
+-00000770: 7420 616c 736f 2069 6e63 6c75 6465 7320  t also includes 
+-00000780: 6120 6c61 6e65 2d6b 6565 7069 6e67 2061  a lane-keeping a
+-00000790: 7373 6973 7420 6665 6174 7572 652e 222c  ssist feature.",
+-000007a0: 0a20 2020 2020 2022 4164 6170 7469 7665  .      "Adaptive
+-000007b0: 2063 7275 6973 6520 636f 6e74 726f 6c20   cruise control 
+-000007c0: 6973 2061 6e6f 7468 6572 2069 6e63 6c75  is another inclu
+-000007d0: 6465 6420 7465 6368 6e6f 6c6f 6779 2e22  ded technology."
+-000007e0: 2c0a 2020 2020 2020 2241 6c6c 2074 6563  ,.      "All tec
+-000007f0: 686e 6f6c 6f67 6965 7320 6172 6520 6465  hnologies are de
+-00000800: 7369 676e 6564 2074 6f20 636f 6d70 6c79  signed to comply
+-00000810: 2077 6974 6820 4575 726f 204e 4341 5020   with Euro NCAP 
+-00000820: 7361 6665 7479 2073 7461 6e64 6172 6473  safety standards
+-00000830: 2e22 0a20 2020 205d 0a20 207d 2c0a 2020  .".    ].  },.  
+-00000840: 7b0a 2020 2020 2253 656e 7465 6e63 6522  {.    "Sentence"
+-00000850: 3a20 2254 6865 2047 5420 4861 776b 2043  : "The GT Hawk C
+-00000860: 6f75 7065 2773 204c 4544 2068 6561 646c  oupe's LED headl
+-00000870: 6967 6874 7320 6172 6520 7072 6f67 7261  ights are progra
+-00000880: 6d6d 6162 6c65 2066 6f72 2061 7574 6f6d  mmable for autom
+-00000890: 6174 6963 2061 646a 7573 746d 656e 7420  atic adjustment 
+-000008a0: 6261 7365 6420 6f6e 2065 7874 6572 696f  based on exterio
+-000008b0: 7220 6c69 6768 7420 636f 6e64 6974 696f  r light conditio
+-000008c0: 6e73 2c20 6665 6174 7572 696e 6720 6479  ns, featuring dy
+-000008d0: 6e61 6d69 6320 6265 6e64 696e 6720 6c69  namic bending li
+-000008e0: 6768 7420 7465 6368 6e6f 6c6f 6779 2074  ght technology t
+-000008f0: 6861 7420 6164 6a75 7374 7320 7468 6520  hat adjusts the 
+-00000900: 6265 616d 2064 6972 6563 7469 6f6e 2064  beam direction d
+-00000910: 7572 696e 6720 7475 726e 7320 746f 2065  uring turns to e
+-00000920: 6e68 616e 6365 2076 6973 6962 696c 6974  nhance visibilit
+-00000930: 792e 222c 0a20 2020 2022 496e 6465 7065  y.",.    "Indepe
+-00000940: 6e64 656e 7420 4661 6374 7322 3a20 5b0a  ndent Facts": [.
+-00000950: 2020 2020 2020 2254 6865 206d 6f64 656c        "The model
+-00000960: 2069 7320 7468 6520 4754 2048 6177 6b20   is the GT Hawk 
+-00000970: 436f 7570 652e 222c 0a20 2020 2020 2022  Coupe.",.      "
+-00000980: 4974 2068 6173 204c 4544 2068 6561 646c  It has LED headl
+-00000990: 6967 6874 732e 222c 0a20 2020 2020 2022  ights.",.      "
+-000009a0: 5468 6520 6865 6164 6c69 6768 7473 2061  The headlights a
+-000009b0: 7265 2070 726f 6772 616d 6d61 626c 652e  re programmable.
+-000009c0: 222c 0a20 2020 2020 2022 4175 746f 6d61  ",.      "Automa
+-000009d0: 7469 6320 6164 6a75 7374 6d65 6e74 2069  tic adjustment i
+-000009e0: 7320 6261 7365 6420 6f6e 2065 7874 6572  s based on exter
+-000009f0: 696f 7220 6c69 6768 7420 636f 6e64 6974  ior light condit
+-00000a00: 696f 6e73 2e22 2c0a 2020 2020 2020 2246  ions.",.      "F
+-00000a10: 6561 7475 7265 7320 696e 636c 7564 6520  eatures include 
+-00000a20: 6479 6e61 6d69 6320 6265 6e64 696e 6720  dynamic bending 
+-00000a30: 6c69 6768 7420 7465 6368 6e6f 6c6f 6779  light technology
+-00000a40: 2e22 2c0a 2020 2020 2020 2254 6865 2074  .",.      "The t
+-00000a50: 6563 686e 6f6c 6f67 7920 6164 6a75 7374  echnology adjust
+-00000a60: 7320 6265 616d 2064 6972 6563 7469 6f6e  s beam direction
+-00000a70: 2064 7572 696e 6720 7475 726e 732e 222c   during turns.",
+-00000a80: 0a20 2020 2020 2022 5468 6520 7075 7270  .      "The purp
+-00000a90: 6f73 6520 6973 2074 6f20 656e 6861 6e63  ose is to enhanc
+-00000aa0: 6520 7669 7369 6269 6c69 7479 2e22 0a20  e visibility.". 
+-00000ab0: 2020 205d 0a20 207d 2c0a 2020 7b0a 2020     ].  },.  {.  
+-00000ac0: 2020 2253 656e 7465 6e63 6522 3a20 2246    "Sentence": "F
+-00000ad0: 6f72 2074 6865 2045 636f 5370 6f72 7420  or the EcoSport 
+-00000ae0: 3230 3231 206d 6f64 656c 2c20 7468 6520  2021 model, the 
+-00000af0: 6d61 6e75 6661 6374 7572 6572 2072 6563  manufacturer rec
+-00000b00: 6f6d 6d65 6e64 7320 7573 696e 6720 7379  ommends using sy
+-00000b10: 6e74 6865 7469 6320 6f69 6c20 7769 7468  nthetic oil with
+-00000b20: 2061 2076 6973 636f 7369 7479 206f 6620   a viscosity of 
+-00000b30: 3557 2d33 302c 2073 7065 6369 6669 6361  5W-30, specifica
+-00000b40: 6c6c 7920 6465 7369 676e 6564 2074 6f20  lly designed to 
+-00000b50: 7072 6f76 6964 6520 6d61 7869 6d75 6d20  provide maximum 
+-00000b60: 656e 6769 6e65 2070 726f 7465 6374 696f  engine protectio
+-00000b70: 6e20 616e 6420 6675 656c 2065 6666 6963  n and fuel effic
+-00000b80: 6965 6e63 7920 756e 6465 7220 616c 6c20  iency under all 
+-00000b90: 6f70 6572 6174 696e 6720 636f 6e64 6974  operating condit
+-00000ba0: 696f 6e73 2e22 2c0a 2020 2020 2249 6e64  ions.",.    "Ind
+-00000bb0: 6570 656e 6465 6e74 2046 6163 7473 223a  ependent Facts":
+-00000bc0: 205b 0a20 2020 2020 2022 5468 6520 7965   [.      "The ye
+-00000bd0: 6172 206f 6620 7468 6520 6d6f 6465 6c20  ar of the model 
+-00000be0: 6973 2032 3032 312e 222c 0a20 2020 2020  is 2021.",.     
+-00000bf0: 2022 5468 6520 6d6f 6465 6c20 6973 2074   "The model is t
+-00000c00: 6865 2045 636f 5370 6f72 742e 222c 0a20  he EcoSport.",. 
+-00000c10: 2020 2020 2022 5468 6520 6d61 6e75 6661       "The manufa
+-00000c20: 6374 7572 6572 2072 6563 6f6d 6d65 6e64  cturer recommend
+-00000c30: 7320 7379 6e74 6865 7469 6320 6f69 6c2e  s synthetic oil.
+-00000c40: 222c 0a20 2020 2020 2022 5468 6520 7265  ",.      "The re
+-00000c50: 636f 6d6d 656e 6465 6420 6f69 6c20 7669  commended oil vi
+-00000c60: 7363 6f73 6974 7920 6973 2035 572d 3330  scosity is 5W-30
+-00000c70: 2e22 2c0a 2020 2020 2020 2254 6865 206f  .",.      "The o
+-00000c80: 696c 2069 7320 6465 7369 676e 6564 2066  il is designed f
+-00000c90: 6f72 206d 6178 696d 756d 2065 6e67 696e  or maximum engin
+-00000ca0: 6520 7072 6f74 6563 7469 6f6e 2e22 2c0a  e protection.",.
+-00000cb0: 2020 2020 2020 2249 7420 6973 2061 6c73        "It is als
+-00000cc0: 6f20 6465 7369 676e 6564 2066 6f72 2066  o designed for f
+-00000cd0: 7565 6c20 6566 6669 6369 656e 6379 2e22  uel efficiency."
+-00000ce0: 2c0a 2020 2020 2020 2254 6865 206f 696c  ,.      "The oil
+-00000cf0: 2773 2062 656e 6566 6974 7320 6170 706c  's benefits appl
+-00000d00: 7920 756e 6465 7220 616c 6c20 6f70 6572  y under all oper
+-00000d10: 6174 696e 6720 636f 6e64 6974 696f 6e73  ating conditions
+-00000d20: 2e22 0a20 2020 205d 0a20 207d 2c0a 2020  .".    ].  },.  
+-00000d30: 7b0a 2020 2020 2253 656e 7465 6e63 6522  {.    "Sentence"
+-00000d40: 3a20 2257 6974 6820 616e 2038 2d69 6e63  : "With an 8-inc
+-00000d50: 6820 696e 666f 7461 696e 6d65 6e74 2074  h infotainment t
+-00000d60: 6f75 6368 7363 7265 656e 2064 6973 706c  ouchscreen displ
+-00000d70: 6179 2c20 7468 6520 3230 3234 204d 6972  ay, the 2024 Mir
+-00000d80: 6167 6520 4734 2069 6e74 6567 7261 7465  age G4 integrate
+-00000d90: 7320 4170 706c 6520 4361 7250 6c61 7920  s Apple CarPlay 
+-00000da0: 616e 6420 416e 6472 6f69 6420 4175 746f  and Android Auto
+-00000db0: 2063 6f6d 7061 7469 6269 6c69 7479 2c20   compatibility, 
+-00000dc0: 426c 7565 746f 6f74 6820 636f 6e6e 6563  Bluetooth connec
+-00000dd0: 7469 7669 7479 2c20 616e 6420 6120 7369  tivity, and a si
+-00000de0: 782d 7370 6561 6b65 7220 6175 6469 6f20  x-speaker audio 
+-00000df0: 7379 7374 656d 2c20 656e 7375 7269 6e67  system, ensuring
+-00000e00: 2061 2073 6561 6d6c 6573 7320 616e 6420   a seamless and 
+-00000e10: 656e 6761 6769 6e67 2064 7269 7669 6e67  engaging driving
+-00000e20: 2065 7870 6572 6965 6e63 652e 222c 0a20   experience.",. 
+-00000e30: 2020 2022 496e 6465 7065 6e64 656e 7420     "Independent 
+-00000e40: 4661 6374 7322 3a20 5b0a 2020 2020 2020  Facts": [.      
+-00000e50: 2254 6865 2079 6561 7220 6f66 2074 6865  "The year of the
+-00000e60: 206d 6f64 656c 2069 7320 3230 3234 2e22   model is 2024."
+-00000e70: 2c0a 2020 2020 2020 2254 6865 206d 6f64  ,.      "The mod
+-00000e80: 656c 2069 7320 7468 6520 4d69 7261 6765  el is the Mirage
+-00000e90: 2047 342e 222c 0a20 2020 2020 2022 4974   G4.",.      "It
+-00000ea0: 2066 6561 7475 7265 7320 616e 2038 2d69   features an 8-i
+-00000eb0: 6e63 6820 696e 666f 7461 696e 6d65 6e74  nch infotainment
+-00000ec0: 2074 6f75 6368 7363 7265 656e 2064 6973   touchscreen dis
+-00000ed0: 706c 6179 2e22 2c0a 2020 2020 2020 2254  play.",.      "T
+-00000ee0: 6865 2073 7973 7465 6d20 696e 7465 6772  he system integr
+-00000ef0: 6174 6573 2041 7070 6c65 2043 6172 506c  ates Apple CarPl
+-00000f00: 6179 2063 6f6d 7061 7469 6269 6c69 7479  ay compatibility
+-00000f10: 2e22 2c0a 2020 2020 2020 2249 7420 616c  .",.      "It al
+-00000f20: 736f 2069 6e74 6567 7261 7465 7320 416e  so integrates An
+-00000f30: 6472 6f69 6420 4175 746f 2063 6f6d 7061  droid Auto compa
+-00000f40: 7469 6269 6c69 7479 2e22 2c0a 2020 2020  tibility.",.    
+-00000f50: 2020 2242 6c75 6574 6f6f 7468 2063 6f6e    "Bluetooth con
+-00000f60: 6e65 6374 6976 6974 7920 6973 2069 6e63  nectivity is inc
+-00000f70: 6c75 6465 642e 222c 0a20 2020 2020 2022  luded.",.      "
+-00000f80: 5468 6572 6520 6973 2061 2073 6978 2d73  There is a six-s
+-00000f90: 7065 616b 6572 2061 7564 696f 2073 7973  peaker audio sys
+-00000fa0: 7465 6d2e 222c 0a20 2020 2020 2022 5468  tem.",.      "Th
+-00000fb0: 6573 6520 6665 6174 7572 6573 2065 6e73  ese features ens
+-00000fc0: 7572 6520 6120 7365 616d 6c65 7373 2064  ure a seamless d
+-00000fd0: 7269 7669 6e67 2065 7870 6572 6965 6e63  riving experienc
+-00000fe0: 652e 222c 0a20 2020 2020 2022 5468 6579  e.",.      "They
+-00000ff0: 2061 6c73 6f20 656e 7375 7265 2061 6e20   also ensure an 
+-00001000: 656e 6761 6769 6e67 2064 7269 7669 6e67  engaging driving
+-00001010: 2065 7870 6572 6965 6e63 652e 220a 2020   experience.".  
+-00001020: 2020 5d0a 2020 7d2c 0a20 207b 0a20 2020    ].  },.  {.   
+-00001030: 2022 5365 6e74 656e 6365 223a 2022 4571   "Sentence": "Eq
+-00001040: 7569 7070 6564 2077 6974 6820 6120 6d75  uipped with a mu
+-00001050: 6c74 692d 6c69 6e6b 2072 6561 7220 7375  lti-link rear su
+-00001060: 7370 656e 7369 6f6e 2073 7973 7465 6d20  spension system 
+-00001070: 616e 6420 656c 6563 7472 6f6e 6963 616c  and electronical
+-00001080: 6c79 2063 6f6e 7472 6f6c 6c65 6420 7368  ly controlled sh
+-00001090: 6f63 6b20 6162 736f 7262 6572 732c 2074  ock absorbers, t
+-000010a0: 6865 2032 3032 3220 4578 6361 6c69 6275  he 2022 Excalibu
+-000010b0: 7220 6f66 6665 7273 2065 6e68 616e 6365  r offers enhance
+-000010c0: 6420 7374 6162 696c 6974 7920 616e 6420  d stability and 
+-000010d0: 6120 736d 6f6f 7468 6572 2072 6964 652c  a smoother ride,
+-000010e0: 2061 6461 7074 696e 6720 746f 2076 6172   adapting to var
+-000010f0: 696f 7573 2072 6f61 6420 636f 6e64 6974  ious road condit
+-00001100: 696f 6e73 2066 6f72 206f 7074 696d 616c  ions for optimal
+-00001110: 2063 6f6d 666f 7274 2061 6e64 2068 616e   comfort and han
+-00001120: 646c 696e 672e 222c 0a20 2020 2022 496e  dling.",.    "In
+-00001130: 6465 7065 6e64 656e 7420 4661 6374 7322  dependent Facts"
+-00001140: 3a20 5b0a 2020 2020 2020 2254 6865 2079  : [.      "The y
+-00001150: 6561 7220 6f66 2074 6865 206d 6f64 656c  ear of the model
+-00001160: 2069 7320 3230 3232 2e22 2c0a 2020 2020   is 2022.",.    
+-00001170: 2020 2254 6865 206d 6f64 656c 2069 7320    "The model is 
+-00001180: 7468 6520 4578 6361 6c69 6275 722e 222c  the Excalibur.",
+-00001190: 0a20 2020 2020 2022 4974 2069 7320 6571  .      "It is eq
+-000011a0: 7569 7070 6564 2077 6974 6820 6120 6d75  uipped with a mu
+-000011b0: 6c74 692d 6c69 6e6b 2072 6561 7220 7375  lti-link rear su
+-000011c0: 7370 656e 7369 6f6e 2073 7973 7465 6d2e  spension system.
+-000011d0: 222c 0a20 2020 2020 2022 4974 2068 6173  ",.      "It has
+-000011e0: 2065 6c65 6374 726f 6e69 6361 6c6c 7920   electronically 
+-000011f0: 636f 6e74 726f 6c6c 6564 2073 686f 636b  controlled shock
+-00001200: 2061 6273 6f72 6265 7273 2e22 2c0a 2020   absorbers.",.  
+-00001210: 2020 2020 2254 6865 7365 2066 6561 7475      "These featu
+-00001220: 7265 7320 656e 6861 6e63 6520 7374 6162  res enhance stab
+-00001230: 696c 6974 792e 222c 0a20 2020 2020 2022  ility.",.      "
+-00001240: 5468 6579 2061 6c73 6f20 636f 6e74 7269  They also contri
+-00001250: 6275 7465 2074 6f20 6120 736d 6f6f 7468  bute to a smooth
+-00001260: 6572 2072 6964 652e 222c 0a20 2020 2020  er ride.",.     
+-00001270: 2022 5468 6520 7379 7374 656d 2061 6461   "The system ada
+-00001280: 7074 7320 746f 2076 6172 696f 7573 2072  pts to various r
+-00001290: 6f61 6420 636f 6e64 6974 696f 6e73 2e22  oad conditions."
+-000012a0: 2c0a 2020 2020 2020 2241 6461 7074 6174  ,.      "Adaptat
+-000012b0: 696f 6e20 6169 6d73 2066 6f72 206f 7074  ion aims for opt
+-000012c0: 696d 616c 2063 6f6d 666f 7274 2e22 2c0a  imal comfort.",.
+-000012d0: 2020 2020 2020 2249 7420 616c 736f 2061        "It also a
+-000012e0: 696d 7320 666f 7220 6f70 7469 6d61 6c20  ims for optimal 
+-000012f0: 6861 6e64 6c69 6e67 2e22 0a20 2020 205d  handling.".    ]
+-00001300: 0a20 207d 2c0a 2020 7b0a 2020 2020 2253  .  },.  {.    "S
+-00001310: 656e 7465 6e63 6522 3a20 2254 6865 2063  entence": "The c
+-00001320: 6162 696e 2061 6972 2066 696c 7465 7220  abin air filter 
+-00001330: 7368 6f75 6c64 2062 6520 696e 7370 6563  should be inspec
+-00001340: 7465 6420 6576 6572 7920 3135 2c30 3030  ted every 15,000
+-00001350: 206d 696c 6573 2061 6e64 2072 6570 6c61   miles and repla
+-00001360: 6365 6420 6173 206e 6563 6573 7361 7279  ced as necessary
+-00001370: 2074 6f20 6d61 696e 7461 696e 2061 6972   to maintain air
+-00001380: 2071 7561 6c69 7479 2069 6e73 6964 6520   quality inside 
+-00001390: 7468 6520 7665 6869 636c 652c 2072 6564  the vehicle, red
+-000013a0: 7563 696e 6720 6578 706f 7375 7265 2074  ucing exposure t
+-000013b0: 6f20 6475 7374 2c20 706f 6c6c 656e 2c20  o dust, pollen, 
+-000013c0: 616e 6420 6f74 6865 7220 6169 7262 6f72  and other airbor
+-000013d0: 6e65 2070 6172 7469 636c 6573 2e22 2c0a  ne particles.",.
+-000013e0: 2020 2020 2249 6e64 6570 656e 6465 6e74      "Independent
+-000013f0: 2046 6163 7473 223a 205b 0a20 2020 2020   Facts": [.     
+-00001400: 2022 5468 6520 6361 6269 6e20 6169 7220   "The cabin air 
+-00001410: 6669 6c74 6572 2073 686f 756c 6420 6265  filter should be
+-00001420: 2069 6e73 7065 6374 6564 2065 7665 7279   inspected every
+-00001430: 2031 352c 3030 3020 6d69 6c65 732e 222c   15,000 miles.",
+-00001440: 0a20 2020 2020 2022 4974 2073 686f 756c  .      "It shoul
+-00001450: 6420 6265 2072 6570 6c61 6365 6420 6173  d be replaced as
+-00001460: 206e 6563 6573 7361 7279 2e22 2c0a 2020   necessary.",.  
+-00001470: 2020 2020 2254 6865 2070 7572 706f 7365      "The purpose
+-00001480: 2069 7320 746f 206d 6169 6e74 6169 6e20   is to maintain 
+-00001490: 6169 7220 7175 616c 6974 7920 696e 7369  air quality insi
+-000014a0: 6465 2074 6865 2076 6568 6963 6c65 2e22  de the vehicle."
+-000014b0: 2c0a 2020 2020 2020 2252 6570 6c61 6365  ,.      "Replace
+-000014c0: 6d65 6e74 2072 6564 7563 6573 2065 7870  ment reduces exp
+-000014d0: 6f73 7572 6520 746f 2064 7573 742e 222c  osure to dust.",
+-000014e0: 0a20 2020 2020 2022 4974 2061 6c73 6f20  .      "It also 
+-000014f0: 7265 6475 6365 7320 6578 706f 7375 7265  reduces exposure
+-00001500: 2074 6f20 706f 6c6c 656e 2e22 2c0a 2020   to pollen.",.  
+-00001510: 2020 2020 2249 7420 7265 6475 6365 7320      "It reduces 
+-00001520: 6578 706f 7375 7265 2074 6f20 6f74 6865  exposure to othe
+-00001530: 7220 6169 7262 6f72 6e65 2070 6172 7469  r airborne parti
+-00001540: 636c 6573 2e22 0a20 2020 205d 0a20 207d  cles.".    ].  }
+-00001550: 0a5d                                     .]
++00000000: 5b0a 2020 7b0a 2020 2020 2253 656e 7465  [.  {.    "Sente
++00000010: 6e63 6522 3a20 2254 6865 2054 7572 626f  nce": "The Turbo
++00000020: 2056 3620 656e 6769 6e65 2062 6f61 7374   V6 engine boast
++00000030: 7320 616e 2069 6d70 7265 7373 6976 6520  s an impressive 
++00000040: 686f 7273 6570 6f77 6572 206f 6620 3435  horsepower of 45
++00000050: 3020 616e 6420 6120 7065 616b 2074 6f72  0 and a peak tor
++00000060: 7175 6520 6f66 2035 3130 206c 622d 6674  que of 510 lb-ft
++00000070: 2c20 6163 6869 6576 6564 2062 6574 7765  , achieved betwe
++00000080: 656e 2032 2c35 3030 2061 6e64 2035 2c35  en 2,500 and 5,5
++00000090: 3030 2072 706d 2c20 6571 7569 7070 6564  00 rpm, equipped
++000000a0: 2077 6974 6820 6120 3130 2d73 7065 6564   with a 10-speed
++000000b0: 2061 7574 6f6d 6174 6963 2074 7261 6e73   automatic trans
++000000c0: 6d69 7373 696f 6e20 616e 6420 6120 6475  mission and a du
++000000d0: 616c 2d65 7868 6175 7374 2073 7973 7465  al-exhaust syste
++000000e0: 6d2c 2065 6e68 616e 6369 6e67 2062 6f74  m, enhancing bot
++000000f0: 6820 7065 7266 6f72 6d61 6e63 6520 616e  h performance an
++00000100: 6420 736f 756e 642e 222c 0a20 2020 2022  d sound.",.    "
++00000110: 496e 6465 7065 6e64 656e 7420 4661 6374  Independent Fact
++00000120: 7322 3a20 5b0a 2020 2020 2020 2249 7420  s": [.      "It 
++00000130: 6861 7320 6120 5475 7262 6f20 5636 2065  has a Turbo V6 e
++00000140: 6e67 696e 652e 222c 0a20 2020 2020 2022  ngine.",.      "
++00000150: 5468 6520 686f 7273 6570 6f77 6572 2069  The horsepower i
++00000160: 7320 3435 302e 222c 0a20 2020 2020 2022  s 450.",.      "
++00000170: 5468 6520 7065 616b 2074 6f72 7175 6520  The peak torque 
++00000180: 6973 2035 3130 206c 622d 6674 2e22 2c0a  is 510 lb-ft.",.
++00000190: 2020 2020 2020 2250 6561 6b20 746f 7271        "Peak torq
++000001a0: 7565 206f 6363 7572 7320 6265 7477 6565  ue occurs betwee
++000001b0: 6e20 322c 3530 3020 616e 6420 352c 3530  n 2,500 and 5,50
++000001c0: 3020 7270 6d2e 222c 0a20 2020 2020 2022  0 rpm.",.      "
++000001d0: 5468 6520 7665 6869 636c 6520 6861 7320  The vehicle has 
++000001e0: 6120 3130 2d73 7065 6564 2061 7574 6f6d  a 10-speed autom
++000001f0: 6174 6963 2074 7261 6e73 6d69 7373 696f  atic transmissio
++00000200: 6e2e 222c 0a20 2020 2020 2022 4974 2066  n.",.      "It f
++00000210: 6561 7475 7265 7320 6120 6475 616c 2d65  eatures a dual-e
++00000220: 7868 6175 7374 2073 7973 7465 6d2e 222c  xhaust system.",
++00000230: 0a20 2020 2020 2022 5468 6520 6475 616c  .      "The dual
++00000240: 2d65 7868 6175 7374 2073 7973 7465 6d20  -exhaust system 
++00000250: 656e 6861 6e63 6573 2070 6572 666f 726d  enhances perform
++00000260: 616e 6365 2e22 2c0a 2020 2020 2020 2254  ance.",.      "T
++00000270: 6865 2064 7561 6c2d 6578 6861 7573 7420  he dual-exhaust 
++00000280: 7379 7374 656d 2065 6e68 616e 6365 7320  system enhances 
++00000290: 736f 756e 642e 220a 2020 2020 5d0a 2020  sound.".    ].  
++000002a0: 7d2c 0a20 207b 0a20 2020 2022 5365 6e74  },.  {.    "Sent
++000002b0: 656e 6365 223a 2022 4163 636f 7264 696e  ence": "Accordin
++000002c0: 6720 746f 2074 6865 206d 6169 6e74 656e  g to the mainten
++000002d0: 616e 6365 2073 6368 6564 756c 6520 696e  ance schedule in
++000002e0: 2074 6865 206f 776e 6572 2773 206d 616e   the owner's man
++000002f0: 7561 6c2c 2074 6865 2063 6f6f 6c61 6e74  ual, the coolant
++00000300: 2066 6c75 6964 2073 686f 756c 6420 6265   fluid should be
++00000310: 2072 6570 6c61 6365 6420 6576 6572 7920   replaced every 
++00000320: 3430 2c30 3030 206d 696c 6573 206f 7220  40,000 miles or 
++00000330: 3420 7965 6172 732c 2077 6869 6368 6576  4 years, whichev
++00000340: 6572 2063 6f6d 6573 2066 6972 7374 2c20  er comes first, 
++00000350: 746f 2065 6e73 7572 6520 6f70 7469 6d61  to ensure optima
++00000360: 6c20 656e 6769 6e65 2070 6572 666f 726d  l engine perform
++00000370: 616e 6365 2061 6e64 2070 7265 7665 6e74  ance and prevent
++00000380: 206f 7665 7268 6561 7469 6e67 2e22 2c0a   overheating.",.
++00000390: 2020 2020 2249 6e64 6570 656e 6465 6e74      "Independent
++000003a0: 2046 6163 7473 223a 205b 0a20 2020 2020   Facts": [.     
++000003b0: 2022 5468 6520 636f 6f6c 616e 7420 666c   "The coolant fl
++000003c0: 7569 6420 7265 706c 6163 656d 656e 7420  uid replacement 
++000003d0: 6973 206d 656e 7469 6f6e 6564 2069 6e20  is mentioned in 
++000003e0: 7468 6520 6d61 696e 7465 6e61 6e63 6520  the maintenance 
++000003f0: 7363 6865 6475 6c65 2e22 2c0a 2020 2020  schedule.",.    
++00000400: 2020 2254 6865 206f 776e 6572 2773 206d    "The owner's m
++00000410: 616e 7561 6c20 636f 6e74 6169 6e73 2074  anual contains t
++00000420: 6865 206d 6169 6e74 656e 616e 6365 2073  he maintenance s
++00000430: 6368 6564 756c 652e 222c 0a20 2020 2020  chedule.",.     
++00000440: 2022 436f 6f6c 616e 7420 666c 7569 6420   "Coolant fluid 
++00000450: 7368 6f75 6c64 2062 6520 7265 706c 6163  should be replac
++00000460: 6564 2065 7665 7279 2034 302c 3030 3020  ed every 40,000 
++00000470: 6d69 6c65 732e 222c 0a20 2020 2020 2022  miles.",.      "
++00000480: 416c 7465 726e 6174 6976 656c 792c 2063  Alternatively, c
++00000490: 6f6f 6c61 6e74 2066 6c75 6964 2073 686f  oolant fluid sho
++000004a0: 756c 6420 6265 2072 6570 6c61 6365 6420  uld be replaced 
++000004b0: 6576 6572 7920 3420 7965 6172 732e 222c  every 4 years.",
++000004c0: 0a20 2020 2020 2022 5265 706c 6163 656d  .      "Replacem
++000004d0: 656e 7420 6973 2062 6173 6564 206f 6e20  ent is based on 
++000004e0: 7768 6963 6865 7665 7220 6d69 6c65 7374  whichever milest
++000004f0: 6f6e 6520 6973 2072 6561 6368 6564 2066  one is reached f
++00000500: 6972 7374 2e22 2c0a 2020 2020 2020 2254  irst.",.      "T
++00000510: 6865 2070 7572 706f 7365 2069 7320 746f  he purpose is to
++00000520: 2065 6e73 7572 6520 6f70 7469 6d61 6c20   ensure optimal 
++00000530: 656e 6769 6e65 2070 6572 666f 726d 616e  engine performan
++00000540: 6365 2e22 2c0a 2020 2020 2020 2241 6e6f  ce.",.      "Ano
++00000550: 7468 6572 2070 7572 706f 7365 2069 7320  ther purpose is 
++00000560: 746f 2070 7265 7665 6e74 206f 7665 7268  to prevent overh
++00000570: 6561 7469 6e67 2e22 0a20 2020 205d 0a20  eating.".    ]. 
++00000580: 207d 2c0a 2020 7b0a 2020 2020 2253 656e   },.  {.    "Sen
++00000590: 7465 6e63 6522 3a20 2246 6561 7475 7269  tence": "Featuri
++000005a0: 6e67 2061 6476 616e 6365 6420 7361 6665  ng advanced safe
++000005b0: 7479 2074 6563 686e 6f6c 6f67 792c 2074  ty technology, t
++000005c0: 6865 2032 3032 3220 5669 7274 7565 2053  he 2022 Virtue S
++000005d0: 6564 616e 2069 6e63 6f72 706f 7261 7465  edan incorporate
++000005e0: 7320 616e 2061 7574 6f6d 6174 6963 2065  s an automatic e
++000005f0: 6d65 7267 656e 6379 2062 7261 6b69 6e67  mergency braking
++00000600: 2073 7973 7465 6d2c 2061 206c 616e 652d   system, a lane-
++00000610: 6b65 6570 696e 6720 6173 7369 7374 2066  keeping assist f
++00000620: 6561 7475 7265 2c20 616e 6420 6164 6170  eature, and adap
++00000630: 7469 7665 2063 7275 6973 6520 636f 6e74  tive cruise cont
++00000640: 726f 6c2c 2061 6c6c 2064 6573 6967 6e65  rol, all designe
++00000650: 6420 746f 2063 6f6d 706c 7920 7769 7468  d to comply with
++00000660: 2074 6865 206c 6174 6573 7420 4575 726f   the latest Euro
++00000670: 204e 4341 5020 7361 6665 7479 2073 7461   NCAP safety sta
++00000680: 6e64 6172 6473 2e22 2c0a 2020 2020 2249  ndards.",.    "I
++00000690: 6e64 6570 656e 6465 6e74 2046 6163 7473  ndependent Facts
++000006a0: 223a 205b 0a20 2020 2020 2022 5468 6520  ": [.      "The 
++000006b0: 6d6f 6465 6c20 7965 6172 2069 7320 3230  model year is 20
++000006c0: 3232 2e22 2c0a 2020 2020 2020 2254 6865  22.",.      "The
++000006d0: 206d 6f64 656c 2069 7320 7468 6520 5669   model is the Vi
++000006e0: 7274 7565 2053 6564 616e 2e22 2c0a 2020  rtue Sedan.",.  
++000006f0: 2020 2020 2249 7420 6665 6174 7572 6573      "It features
++00000700: 2061 6476 616e 6365 6420 7361 6665 7479   advanced safety
++00000710: 2074 6563 686e 6f6c 6f67 792e 222c 0a20   technology.",. 
++00000720: 2020 2020 2022 5468 6520 7465 6368 6e6f       "The techno
++00000730: 6c6f 6779 2069 6e63 6c75 6465 7320 616e  logy includes an
++00000740: 2061 7574 6f6d 6174 6963 2065 6d65 7267   automatic emerg
++00000750: 656e 6379 2062 7261 6b69 6e67 2073 7973  ency braking sys
++00000760: 7465 6d2e 222c 0a20 2020 2020 2022 4974  tem.",.      "It
++00000770: 2061 6c73 6f20 696e 636c 7564 6573 2061   also includes a
++00000780: 206c 616e 652d 6b65 6570 696e 6720 6173   lane-keeping as
++00000790: 7369 7374 2066 6561 7475 7265 2e22 2c0a  sist feature.",.
++000007a0: 2020 2020 2020 2241 6461 7074 6976 6520        "Adaptive 
++000007b0: 6372 7569 7365 2063 6f6e 7472 6f6c 2069  cruise control i
++000007c0: 7320 616e 6f74 6865 7220 696e 636c 7564  s another includ
++000007d0: 6564 2074 6563 686e 6f6c 6f67 792e 222c  ed technology.",
++000007e0: 0a20 2020 2020 2022 416c 6c20 7465 6368  .      "All tech
++000007f0: 6e6f 6c6f 6769 6573 2061 7265 2064 6573  nologies are des
++00000800: 6967 6e65 6420 746f 2063 6f6d 706c 7920  igned to comply 
++00000810: 7769 7468 2045 7572 6f20 4e43 4150 2073  with Euro NCAP s
++00000820: 6166 6574 7920 7374 616e 6461 7264 732e  afety standards.
++00000830: 220a 2020 2020 5d0a 2020 7d2c 0a20 207b  ".    ].  },.  {
++00000840: 0a20 2020 2022 5365 6e74 656e 6365 223a  .    "Sentence":
++00000850: 2022 5468 6520 4754 2048 6177 6b20 436f   "The GT Hawk Co
++00000860: 7570 6527 7320 4c45 4420 6865 6164 6c69  upe's LED headli
++00000870: 6768 7473 2061 7265 2070 726f 6772 616d  ghts are program
++00000880: 6d61 626c 6520 666f 7220 6175 746f 6d61  mable for automa
++00000890: 7469 6320 6164 6a75 7374 6d65 6e74 2062  tic adjustment b
++000008a0: 6173 6564 206f 6e20 6578 7465 7269 6f72  ased on exterior
++000008b0: 206c 6967 6874 2063 6f6e 6469 7469 6f6e   light condition
++000008c0: 732c 2066 6561 7475 7269 6e67 2064 796e  s, featuring dyn
++000008d0: 616d 6963 2062 656e 6469 6e67 206c 6967  amic bending lig
++000008e0: 6874 2074 6563 686e 6f6c 6f67 7920 7468  ht technology th
++000008f0: 6174 2061 646a 7573 7473 2074 6865 2062  at adjusts the b
++00000900: 6561 6d20 6469 7265 6374 696f 6e20 6475  eam direction du
++00000910: 7269 6e67 2074 7572 6e73 2074 6f20 656e  ring turns to en
++00000920: 6861 6e63 6520 7669 7369 6269 6c69 7479  hance visibility
++00000930: 2e22 2c0a 2020 2020 2249 6e64 6570 656e  .",.    "Indepen
++00000940: 6465 6e74 2046 6163 7473 223a 205b 0a20  dent Facts": [. 
++00000950: 2020 2020 2022 5468 6520 6d6f 6465 6c20       "The model 
++00000960: 6973 2074 6865 2047 5420 4861 776b 2043  is the GT Hawk C
++00000970: 6f75 7065 2e22 2c0a 2020 2020 2020 2249  oupe.",.      "I
++00000980: 7420 6861 7320 4c45 4420 6865 6164 6c69  t has LED headli
++00000990: 6768 7473 2e22 2c0a 2020 2020 2020 2254  ghts.",.      "T
++000009a0: 6865 2068 6561 646c 6967 6874 7320 6172  he headlights ar
++000009b0: 6520 7072 6f67 7261 6d6d 6162 6c65 2e22  e programmable."
++000009c0: 2c0a 2020 2020 2020 2241 7574 6f6d 6174  ,.      "Automat
++000009d0: 6963 2061 646a 7573 746d 656e 7420 6973  ic adjustment is
++000009e0: 2062 6173 6564 206f 6e20 6578 7465 7269   based on exteri
++000009f0: 6f72 206c 6967 6874 2063 6f6e 6469 7469  or light conditi
++00000a00: 6f6e 732e 222c 0a20 2020 2020 2022 4665  ons.",.      "Fe
++00000a10: 6174 7572 6573 2069 6e63 6c75 6465 2064  atures include d
++00000a20: 796e 616d 6963 2062 656e 6469 6e67 206c  ynamic bending l
++00000a30: 6967 6874 2074 6563 686e 6f6c 6f67 792e  ight technology.
++00000a40: 222c 0a20 2020 2020 2022 5468 6520 7465  ",.      "The te
++00000a50: 6368 6e6f 6c6f 6779 2061 646a 7573 7473  chnology adjusts
++00000a60: 2062 6561 6d20 6469 7265 6374 696f 6e20   beam direction 
++00000a70: 6475 7269 6e67 2074 7572 6e73 2e22 2c0a  during turns.",.
++00000a80: 2020 2020 2020 2254 6865 2070 7572 706f        "The purpo
++00000a90: 7365 2069 7320 746f 2065 6e68 616e 6365  se is to enhance
++00000aa0: 2076 6973 6962 696c 6974 792e 220a 2020   visibility.".  
++00000ab0: 2020 5d0a 2020 7d2c 0a20 207b 0a20 2020    ].  },.  {.   
++00000ac0: 2022 5365 6e74 656e 6365 223a 2022 466f   "Sentence": "Fo
++00000ad0: 7220 7468 6520 4563 6f53 706f 7274 2032  r the EcoSport 2
++00000ae0: 3032 3120 6d6f 6465 6c2c 2074 6865 206d  021 model, the m
++00000af0: 616e 7566 6163 7475 7265 7220 7265 636f  anufacturer reco
++00000b00: 6d6d 656e 6473 2075 7369 6e67 2073 796e  mmends using syn
++00000b10: 7468 6574 6963 206f 696c 2077 6974 6820  thetic oil with 
++00000b20: 6120 7669 7363 6f73 6974 7920 6f66 2035  a viscosity of 5
++00000b30: 572d 3330 2c20 7370 6563 6966 6963 616c  W-30, specifical
++00000b40: 6c79 2064 6573 6967 6e65 6420 746f 2070  ly designed to p
++00000b50: 726f 7669 6465 206d 6178 696d 756d 2065  rovide maximum e
++00000b60: 6e67 696e 6520 7072 6f74 6563 7469 6f6e  ngine protection
++00000b70: 2061 6e64 2066 7565 6c20 6566 6669 6369   and fuel effici
++00000b80: 656e 6379 2075 6e64 6572 2061 6c6c 206f  ency under all o
++00000b90: 7065 7261 7469 6e67 2063 6f6e 6469 7469  perating conditi
++00000ba0: 6f6e 732e 222c 0a20 2020 2022 496e 6465  ons.",.    "Inde
++00000bb0: 7065 6e64 656e 7420 4661 6374 7322 3a20  pendent Facts": 
++00000bc0: 5b0a 2020 2020 2020 2254 6865 2079 6561  [.      "The yea
++00000bd0: 7220 6f66 2074 6865 206d 6f64 656c 2069  r of the model i
++00000be0: 7320 3230 3231 2e22 2c0a 2020 2020 2020  s 2021.",.      
++00000bf0: 2254 6865 206d 6f64 656c 2069 7320 7468  "The model is th
++00000c00: 6520 4563 6f53 706f 7274 2e22 2c0a 2020  e EcoSport.",.  
++00000c10: 2020 2020 2254 6865 206d 616e 7566 6163      "The manufac
++00000c20: 7475 7265 7220 7265 636f 6d6d 656e 6473  turer recommends
++00000c30: 2073 796e 7468 6574 6963 206f 696c 2e22   synthetic oil."
++00000c40: 2c0a 2020 2020 2020 2254 6865 2072 6563  ,.      "The rec
++00000c50: 6f6d 6d65 6e64 6564 206f 696c 2076 6973  ommended oil vis
++00000c60: 636f 7369 7479 2069 7320 3557 2d33 302e  cosity is 5W-30.
++00000c70: 222c 0a20 2020 2020 2022 5468 6520 6f69  ",.      "The oi
++00000c80: 6c20 6973 2064 6573 6967 6e65 6420 666f  l is designed fo
++00000c90: 7220 6d61 7869 6d75 6d20 656e 6769 6e65  r maximum engine
++00000ca0: 2070 726f 7465 6374 696f 6e2e 222c 0a20   protection.",. 
++00000cb0: 2020 2020 2022 4974 2069 7320 616c 736f       "It is also
++00000cc0: 2064 6573 6967 6e65 6420 666f 7220 6675   designed for fu
++00000cd0: 656c 2065 6666 6963 6965 6e63 792e 222c  el efficiency.",
++00000ce0: 0a20 2020 2020 2022 5468 6520 6f69 6c27  .      "The oil'
++00000cf0: 7320 6265 6e65 6669 7473 2061 7070 6c79  s benefits apply
++00000d00: 2075 6e64 6572 2061 6c6c 206f 7065 7261   under all opera
++00000d10: 7469 6e67 2063 6f6e 6469 7469 6f6e 732e  ting conditions.
++00000d20: 220a 2020 2020 5d0a 2020 7d2c 0a20 207b  ".    ].  },.  {
++00000d30: 0a20 2020 2022 5365 6e74 656e 6365 223a  .    "Sentence":
++00000d40: 2022 5769 7468 2061 6e20 382d 696e 6368   "With an 8-inch
++00000d50: 2069 6e66 6f74 6169 6e6d 656e 7420 746f   infotainment to
++00000d60: 7563 6873 6372 6565 6e20 6469 7370 6c61  uchscreen displa
++00000d70: 792c 2074 6865 2032 3032 3420 4d69 7261  y, the 2024 Mira
++00000d80: 6765 2047 3420 696e 7465 6772 6174 6573  ge G4 integrates
++00000d90: 2041 7070 6c65 2043 6172 506c 6179 2061   Apple CarPlay a
++00000da0: 6e64 2041 6e64 726f 6964 2041 7574 6f20  nd Android Auto 
++00000db0: 636f 6d70 6174 6962 696c 6974 792c 2042  compatibility, B
++00000dc0: 6c75 6574 6f6f 7468 2063 6f6e 6e65 6374  luetooth connect
++00000dd0: 6976 6974 792c 2061 6e64 2061 2073 6978  ivity, and a six
++00000de0: 2d73 7065 616b 6572 2061 7564 696f 2073  -speaker audio s
++00000df0: 7973 7465 6d2c 2065 6e73 7572 696e 6720  ystem, ensuring 
++00000e00: 6120 7365 616d 6c65 7373 2061 6e64 2065  a seamless and e
++00000e10: 6e67 6167 696e 6720 6472 6976 696e 6720  ngaging driving 
++00000e20: 6578 7065 7269 656e 6365 2e22 2c0a 2020  experience.",.  
++00000e30: 2020 2249 6e64 6570 656e 6465 6e74 2046    "Independent F
++00000e40: 6163 7473 223a 205b 0a20 2020 2020 2022  acts": [.      "
++00000e50: 5468 6520 7965 6172 206f 6620 7468 6520  The year of the 
++00000e60: 6d6f 6465 6c20 6973 2032 3032 342e 222c  model is 2024.",
++00000e70: 0a20 2020 2020 2022 5468 6520 6d6f 6465  .      "The mode
++00000e80: 6c20 6973 2074 6865 204d 6972 6167 6520  l is the Mirage 
++00000e90: 4734 2e22 2c0a 2020 2020 2020 2249 7420  G4.",.      "It 
++00000ea0: 6665 6174 7572 6573 2061 6e20 382d 696e  features an 8-in
++00000eb0: 6368 2069 6e66 6f74 6169 6e6d 656e 7420  ch infotainment 
++00000ec0: 746f 7563 6873 6372 6565 6e20 6469 7370  touchscreen disp
++00000ed0: 6c61 792e 222c 0a20 2020 2020 2022 5468  lay.",.      "Th
++00000ee0: 6520 7379 7374 656d 2069 6e74 6567 7261  e system integra
++00000ef0: 7465 7320 4170 706c 6520 4361 7250 6c61  tes Apple CarPla
++00000f00: 7920 636f 6d70 6174 6962 696c 6974 792e  y compatibility.
++00000f10: 222c 0a20 2020 2020 2022 4974 2061 6c73  ",.      "It als
++00000f20: 6f20 696e 7465 6772 6174 6573 2041 6e64  o integrates And
++00000f30: 726f 6964 2041 7574 6f20 636f 6d70 6174  roid Auto compat
++00000f40: 6962 696c 6974 792e 222c 0a20 2020 2020  ibility.",.     
++00000f50: 2022 426c 7565 746f 6f74 6820 636f 6e6e   "Bluetooth conn
++00000f60: 6563 7469 7669 7479 2069 7320 696e 636c  ectivity is incl
++00000f70: 7564 6564 2e22 2c0a 2020 2020 2020 2254  uded.",.      "T
++00000f80: 6865 7265 2069 7320 6120 7369 782d 7370  here is a six-sp
++00000f90: 6561 6b65 7220 6175 6469 6f20 7379 7374  eaker audio syst
++00000fa0: 656d 2e22 2c0a 2020 2020 2020 2254 6865  em.",.      "The
++00000fb0: 7365 2066 6561 7475 7265 7320 656e 7375  se features ensu
++00000fc0: 7265 2061 2073 6561 6d6c 6573 7320 6472  re a seamless dr
++00000fd0: 6976 696e 6720 6578 7065 7269 656e 6365  iving experience
++00000fe0: 2e22 2c0a 2020 2020 2020 2254 6865 7920  .",.      "They 
++00000ff0: 616c 736f 2065 6e73 7572 6520 616e 2065  also ensure an e
++00001000: 6e67 6167 696e 6720 6472 6976 696e 6720  ngaging driving 
++00001010: 6578 7065 7269 656e 6365 2e22 0a20 2020  experience.".   
++00001020: 205d 0a20 207d 2c0a 2020 7b0a 2020 2020   ].  },.  {.    
++00001030: 2253 656e 7465 6e63 6522 3a20 2245 7175  "Sentence": "Equ
++00001040: 6970 7065 6420 7769 7468 2061 206d 756c  ipped with a mul
++00001050: 7469 2d6c 696e 6b20 7265 6172 2073 7573  ti-link rear sus
++00001060: 7065 6e73 696f 6e20 7379 7374 656d 2061  pension system a
++00001070: 6e64 2065 6c65 6374 726f 6e69 6361 6c6c  nd electronicall
++00001080: 7920 636f 6e74 726f 6c6c 6564 2073 686f  y controlled sho
++00001090: 636b 2061 6273 6f72 6265 7273 2c20 7468  ck absorbers, th
++000010a0: 6520 3230 3232 2045 7863 616c 6962 7572  e 2022 Excalibur
++000010b0: 206f 6666 6572 7320 656e 6861 6e63 6564   offers enhanced
++000010c0: 2073 7461 6269 6c69 7479 2061 6e64 2061   stability and a
++000010d0: 2073 6d6f 6f74 6865 7220 7269 6465 2c20   smoother ride, 
++000010e0: 6164 6170 7469 6e67 2074 6f20 7661 7269  adapting to vari
++000010f0: 6f75 7320 726f 6164 2063 6f6e 6469 7469  ous road conditi
++00001100: 6f6e 7320 666f 7220 6f70 7469 6d61 6c20  ons for optimal 
++00001110: 636f 6d66 6f72 7420 616e 6420 6861 6e64  comfort and hand
++00001120: 6c69 6e67 2e22 2c0a 2020 2020 2249 6e64  ling.",.    "Ind
++00001130: 6570 656e 6465 6e74 2046 6163 7473 223a  ependent Facts":
++00001140: 205b 0a20 2020 2020 2022 5468 6520 7965   [.      "The ye
++00001150: 6172 206f 6620 7468 6520 6d6f 6465 6c20  ar of the model 
++00001160: 6973 2032 3032 322e 222c 0a20 2020 2020  is 2022.",.     
++00001170: 2022 5468 6520 6d6f 6465 6c20 6973 2074   "The model is t
++00001180: 6865 2045 7863 616c 6962 7572 2e22 2c0a  he Excalibur.",.
++00001190: 2020 2020 2020 2249 7420 6973 2065 7175        "It is equ
++000011a0: 6970 7065 6420 7769 7468 2061 206d 756c  ipped with a mul
++000011b0: 7469 2d6c 696e 6b20 7265 6172 2073 7573  ti-link rear sus
++000011c0: 7065 6e73 696f 6e20 7379 7374 656d 2e22  pension system."
++000011d0: 2c0a 2020 2020 2020 2249 7420 6861 7320  ,.      "It has 
++000011e0: 656c 6563 7472 6f6e 6963 616c 6c79 2063  electronically c
++000011f0: 6f6e 7472 6f6c 6c65 6420 7368 6f63 6b20  ontrolled shock 
++00001200: 6162 736f 7262 6572 732e 222c 0a20 2020  absorbers.",.   
++00001210: 2020 2022 5468 6573 6520 6665 6174 7572     "These featur
++00001220: 6573 2065 6e68 616e 6365 2073 7461 6269  es enhance stabi
++00001230: 6c69 7479 2e22 2c0a 2020 2020 2020 2254  lity.",.      "T
++00001240: 6865 7920 616c 736f 2063 6f6e 7472 6962  hey also contrib
++00001250: 7574 6520 746f 2061 2073 6d6f 6f74 6865  ute to a smoothe
++00001260: 7220 7269 6465 2e22 2c0a 2020 2020 2020  r ride.",.      
++00001270: 2254 6865 2073 7973 7465 6d20 6164 6170  "The system adap
++00001280: 7473 2074 6f20 7661 7269 6f75 7320 726f  ts to various ro
++00001290: 6164 2063 6f6e 6469 7469 6f6e 732e 222c  ad conditions.",
++000012a0: 0a20 2020 2020 2022 4164 6170 7461 7469  .      "Adaptati
++000012b0: 6f6e 2061 696d 7320 666f 7220 6f70 7469  on aims for opti
++000012c0: 6d61 6c20 636f 6d66 6f72 742e 222c 0a20  mal comfort.",. 
++000012d0: 2020 2020 2022 4974 2061 6c73 6f20 6169       "It also ai
++000012e0: 6d73 2066 6f72 206f 7074 696d 616c 2068  ms for optimal h
++000012f0: 616e 646c 696e 672e 220a 2020 2020 5d0a  andling.".    ].
++00001300: 2020 7d2c 0a20 207b 0a20 2020 2022 5365    },.  {.    "Se
++00001310: 6e74 656e 6365 223a 2022 5468 6520 6361  ntence": "The ca
++00001320: 6269 6e20 6169 7220 6669 6c74 6572 2073  bin air filter s
++00001330: 686f 756c 6420 6265 2069 6e73 7065 6374  hould be inspect
++00001340: 6564 2065 7665 7279 2031 352c 3030 3020  ed every 15,000 
++00001350: 6d69 6c65 7320 616e 6420 7265 706c 6163  miles and replac
++00001360: 6564 2061 7320 6e65 6365 7373 6172 7920  ed as necessary 
++00001370: 746f 206d 6169 6e74 6169 6e20 6169 7220  to maintain air 
++00001380: 7175 616c 6974 7920 696e 7369 6465 2074  quality inside t
++00001390: 6865 2076 6568 6963 6c65 2c20 7265 6475  he vehicle, redu
++000013a0: 6369 6e67 2065 7870 6f73 7572 6520 746f  cing exposure to
++000013b0: 2064 7573 742c 2070 6f6c 6c65 6e2c 2061   dust, pollen, a
++000013c0: 6e64 206f 7468 6572 2061 6972 626f 726e  nd other airborn
++000013d0: 6520 7061 7274 6963 6c65 732e 222c 0a20  e particles.",. 
++000013e0: 2020 2022 496e 6465 7065 6e64 656e 7420     "Independent 
++000013f0: 4661 6374 7322 3a20 5b0a 2020 2020 2020  Facts": [.      
++00001400: 2254 6865 2063 6162 696e 2061 6972 2066  "The cabin air f
++00001410: 696c 7465 7220 7368 6f75 6c64 2062 6520  ilter should be 
++00001420: 696e 7370 6563 7465 6420 6576 6572 7920  inspected every 
++00001430: 3135 2c30 3030 206d 696c 6573 2e22 2c0a  15,000 miles.",.
++00001440: 2020 2020 2020 2249 7420 7368 6f75 6c64        "It should
++00001450: 2062 6520 7265 706c 6163 6564 2061 7320   be replaced as 
++00001460: 6e65 6365 7373 6172 792e 222c 0a20 2020  necessary.",.   
++00001470: 2020 2022 5468 6520 7075 7270 6f73 6520     "The purpose 
++00001480: 6973 2074 6f20 6d61 696e 7461 696e 2061  is to maintain a
++00001490: 6972 2071 7561 6c69 7479 2069 6e73 6964  ir quality insid
++000014a0: 6520 7468 6520 7665 6869 636c 652e 222c  e the vehicle.",
++000014b0: 0a20 2020 2020 2022 5265 706c 6163 656d  .      "Replacem
++000014c0: 656e 7420 7265 6475 6365 7320 6578 706f  ent reduces expo
++000014d0: 7375 7265 2074 6f20 6475 7374 2e22 2c0a  sure to dust.",.
++000014e0: 2020 2020 2020 2249 7420 616c 736f 2072        "It also r
++000014f0: 6564 7563 6573 2065 7870 6f73 7572 6520  educes exposure 
++00001500: 746f 2070 6f6c 6c65 6e2e 222c 0a20 2020  to pollen.",.   
++00001510: 2020 2022 4974 2072 6564 7563 6573 2065     "It reduces e
++00001520: 7870 6f73 7572 6520 746f 206f 7468 6572  xposure to other
++00001530: 2061 6972 626f 726e 6520 7061 7274 6963   airborne partic
++00001540: 6c65 732e 220a 2020 2020 5d0a 2020 7d0a  les.".    ].  }.
++00001550: 5d                                       ]
+```
+
+### Comparing `factscorelite-1.0.1/FactScoreLite/data/demons_generation_prompt.txt` & `factscorelite-1.1.0/FactScoreLite/data/demons_generation_prompt.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/FactScoreLite/factscore.py` & `factscorelite-1.1.0/FactScoreLite/factscore.py`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/FactScoreLite/openai_agent.py` & `factscorelite-1.1.0/FactScoreLite/openai_agent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/FactScoreLite.egg-info/PKG-INFO` & `factscorelite-1.1.0/FactScoreLite.egg-info/PKG-INFO`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: FactScoreLite
+-Version: 1.0.1
++Version: 1.1.0
+ Summary: FactScore (Fine-grained atomic evaluation of factual precision in long form text generation) computing package.
+ Home-page: https://github.com/armingh2000/FactScoreLite
+ Author: armingh2000
+ Author-email: 
+ License: MIT
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: MIT License
+@@ -123,24 +123,24 @@
+ 
+ ```python
+ from FactScoreLite import FactScorer
+ 
+ scores = FactScorer.get_scores(facts, knowledge_sources)
+ ```
+ 
+-## Prompt Engineering
++## Fact Extraction Prompt Engineering
+ 
+ To instruct GPT on how to break each sentence into facts, we have included [examples](FactScoreLite/data/demons.json) (demonstrations, i.e., demons) that is contained in the prompt. These demons are currently for the vehicle domain. However, you might want to create your own domain specific demons. To do this, you can use GPT to create demons based on your requirements. We prompted GPT with [instructions](FactScoreLite/data/demons_generation_prompt.txt) on how to generate the demons required for the vehicle domain. However, you can alter it based on your needs.
+ 
+ Once you have your own demons.json file, you can include it in the program by setting the correct config:
+ 
+ ```python
+ import FactScoreLite
+ 
+-FactScoreLite.configs.demons_path = "/path/to/your/json/file"
++FactScoreLite.configs.atomic_facts_demons_path = "/path/to/your/json/file"
+ 
+ # rest of your code
+ ```
+ 
+ ### Facts Extraction Prompt
+ 
+ The prompt used for extracting facts from a sentence:
+@@ -164,29 +164,62 @@
+ - demon2_fact2
+ 
+ Sentence:
+ target_sentence
+ Independent Facts:
+ ```
+ 
+-### Facts Scoring Prompt
++### Facts Scoring Prompt Engineering
+ 
+-The prompt used for scoring facts:
++We also use [example demonstrations](/FactScoreLite/data/fact_scorer_demons.json) for scoring instructions prompt. The file contains one positive and multiple negative examples. In each prompt, the positive example in addition to a randomly selected negative prompt is added so that GPT performs better and more accurately. The file also contains reasons for each assignment; However, they are not used in the prompt generation but is a good way of improving the accuracy of GPT on scoring in the future.
++
++You can also set your own domain-specific examples for the run by running the following:
++
++```python
++import FactScoreLite
++
++FactScoreLite.configs.fact_scorer_demons_path = "/path/to/your/json/file"
++
++# rest of your code
++```
++
++### Fact Scoring Prompt
++
++The following prompt template is used to instruct GPT for scoring facts:
+ 
+ ```
+ # fact_scorer.py
+ 
+-Answer the question based on the given context.
++Evaluate the truthfulness of the statement based solely on the provided context and provide the reason for your decision.
++
++
++Instruction:
++Only consider the statement true if it can be directly verified by the information in the context. If the information in the statement cannot be found in the context or differs from it, label it as false.
++
+ 
+ Context:
+-knowledge_source
++knw 1
++Statement:
++fact 1 True or False?
++Output:
++True
+ 
+-Input:
+-fact True or False?
++Context:
++knw 2
++Statement:
++fact 2 True or False?
+ Output:
++False
++
++Context:
++target_knowledge_source
++Statement:
++target_fact True or False?
++Output:
++
+ ```
+ 
+ ## Running the Tests
+ 
+ If you want to change the source code for your use cases, you can check whether the change conflicts with other parts of the projcet by simply running the tests:
+ 
+ FactScoreLite/
+```
+
+### Comparing `factscorelite-1.0.1/FactScoreLite.egg-info/SOURCES.txt` & `factscorelite-1.1.0/FactScoreLite.egg-info/SOURCES.txt`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -10,15 +10,16 @@
+ FactScoreLite/openai_agent.py
+ FactScoreLite/state_handler.py
+ FactScoreLite.egg-info/PKG-INFO
+ FactScoreLite.egg-info/SOURCES.txt
+ FactScoreLite.egg-info/dependency_links.txt
+ FactScoreLite.egg-info/requires.txt
+ FactScoreLite.egg-info/top_level.txt
+-FactScoreLite/data/demons.json
++FactScoreLite/data/atomic_facts_demons.json
+ FactScoreLite/data/demons_generation_prompt.txt
++FactScoreLite/data/fact_scorer_demons.json
+ tests/__init__.py
+ tests/test_atomic_facts.py
+ tests/test_fact_scorer.py
+ tests/test_factscore.py
+ tests/test_openai_agent.py
+ tests/test_state_handler.py
+```
+
+### Comparing `factscorelite-1.0.1/LICENSE` & `factscorelite-1.1.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/PKG-INFO` & `factscorelite-1.1.0/PKG-INFO`
+
+ * *Files 14% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: FactScoreLite
+-Version: 1.0.1
++Version: 1.1.0
+ Summary: FactScore (Fine-grained atomic evaluation of factual precision in long form text generation) computing package.
+ Home-page: https://github.com/armingh2000/FactScoreLite
+ Author: armingh2000
+ Author-email: 
+ License: MIT
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: MIT License
+@@ -123,24 +123,24 @@
+ 
+ ```python
+ from FactScoreLite import FactScorer
+ 
+ scores = FactScorer.get_scores(facts, knowledge_sources)
+ ```
+ 
+-## Prompt Engineering
++## Fact Extraction Prompt Engineering
+ 
+ To instruct GPT on how to break each sentence into facts, we have included [examples](FactScoreLite/data/demons.json) (demonstrations, i.e., demons) that is contained in the prompt. These demons are currently for the vehicle domain. However, you might want to create your own domain specific demons. To do this, you can use GPT to create demons based on your requirements. We prompted GPT with [instructions](FactScoreLite/data/demons_generation_prompt.txt) on how to generate the demons required for the vehicle domain. However, you can alter it based on your needs.
+ 
+ Once you have your own demons.json file, you can include it in the program by setting the correct config:
+ 
+ ```python
+ import FactScoreLite
+ 
+-FactScoreLite.configs.demons_path = "/path/to/your/json/file"
++FactScoreLite.configs.atomic_facts_demons_path = "/path/to/your/json/file"
+ 
+ # rest of your code
+ ```
+ 
+ ### Facts Extraction Prompt
+ 
+ The prompt used for extracting facts from a sentence:
+@@ -164,29 +164,62 @@
+ - demon2_fact2
+ 
+ Sentence:
+ target_sentence
+ Independent Facts:
+ ```
+ 
+-### Facts Scoring Prompt
++### Facts Scoring Prompt Engineering
+ 
+-The prompt used for scoring facts:
++We also use [example demonstrations](/FactScoreLite/data/fact_scorer_demons.json) for scoring instructions prompt. The file contains one positive and multiple negative examples. In each prompt, the positive example in addition to a randomly selected negative prompt is added so that GPT performs better and more accurately. The file also contains reasons for each assignment; However, they are not used in the prompt generation but is a good way of improving the accuracy of GPT on scoring in the future.
++
++You can also set your own domain-specific examples for the run by running the following:
++
++```python
++import FactScoreLite
++
++FactScoreLite.configs.fact_scorer_demons_path = "/path/to/your/json/file"
++
++# rest of your code
++```
++
++### Fact Scoring Prompt
++
++The following prompt template is used to instruct GPT for scoring facts:
+ 
+ ```
+ # fact_scorer.py
+ 
+-Answer the question based on the given context.
++Evaluate the truthfulness of the statement based solely on the provided context and provide the reason for your decision.
++
++
++Instruction:
++Only consider the statement true if it can be directly verified by the information in the context. If the information in the statement cannot be found in the context or differs from it, label it as false.
++
+ 
+ Context:
+-knowledge_source
++knw 1
++Statement:
++fact 1 True or False?
++Output:
++True
+ 
+-Input:
+-fact True or False?
++Context:
++knw 2
++Statement:
++fact 2 True or False?
+ Output:
++False
++
++Context:
++target_knowledge_source
++Statement:
++target_fact True or False?
++Output:
++
+ ```
+ 
+ ## Running the Tests
+ 
+ If you want to change the source code for your use cases, you can check whether the change conflicts with other parts of the projcet by simply running the tests:
+ 
+ FactScoreLite/
+```
+
+### Comparing `factscorelite-1.0.1/README.md` & `factscorelite-1.1.0/README.md`
+
+ * *Files 15% similar despite different names*
+
+```diff
+@@ -104,24 +104,24 @@
+ 
+ ```python
+ from FactScoreLite import FactScorer
+ 
+ scores = FactScorer.get_scores(facts, knowledge_sources)
+ ```
+ 
+-## Prompt Engineering
++## Fact Extraction Prompt Engineering
+ 
+ To instruct GPT on how to break each sentence into facts, we have included [examples](FactScoreLite/data/demons.json) (demonstrations, i.e., demons) that is contained in the prompt. These demons are currently for the vehicle domain. However, you might want to create your own domain specific demons. To do this, you can use GPT to create demons based on your requirements. We prompted GPT with [instructions](FactScoreLite/data/demons_generation_prompt.txt) on how to generate the demons required for the vehicle domain. However, you can alter it based on your needs.
+ 
+ Once you have your own demons.json file, you can include it in the program by setting the correct config:
+ 
+ ```python
+ import FactScoreLite
+ 
+-FactScoreLite.configs.demons_path = "/path/to/your/json/file"
++FactScoreLite.configs.atomic_facts_demons_path = "/path/to/your/json/file"
+ 
+ # rest of your code
+ ```
+ 
+ ### Facts Extraction Prompt
+ 
+ The prompt used for extracting facts from a sentence:
+@@ -145,29 +145,62 @@
+ - demon2_fact2
+ 
+ Sentence:
+ target_sentence
+ Independent Facts:
+ ```
+ 
+-### Facts Scoring Prompt
++### Facts Scoring Prompt Engineering
+ 
+-The prompt used for scoring facts:
++We also use [example demonstrations](/FactScoreLite/data/fact_scorer_demons.json) for scoring instructions prompt. The file contains one positive and multiple negative examples. In each prompt, the positive example in addition to a randomly selected negative prompt is added so that GPT performs better and more accurately. The file also contains reasons for each assignment; However, they are not used in the prompt generation but is a good way of improving the accuracy of GPT on scoring in the future.
++
++You can also set your own domain-specific examples for the run by running the following:
++
++```python
++import FactScoreLite
++
++FactScoreLite.configs.fact_scorer_demons_path = "/path/to/your/json/file"
++
++# rest of your code
++```
++
++### Fact Scoring Prompt
++
++The following prompt template is used to instruct GPT for scoring facts:
+ 
+ ```
+ # fact_scorer.py
+ 
+-Answer the question based on the given context.
++Evaluate the truthfulness of the statement based solely on the provided context and provide the reason for your decision.
++
++
++Instruction:
++Only consider the statement true if it can be directly verified by the information in the context. If the information in the statement cannot be found in the context or differs from it, label it as false.
++
+ 
+ Context:
+-knowledge_source
++knw 1
++Statement:
++fact 1 True or False?
++Output:
++True
+ 
+-Input:
+-fact True or False?
++Context:
++knw 2
++Statement:
++fact 2 True or False?
+ Output:
++False
++
++Context:
++target_knowledge_source
++Statement:
++target_fact True or False?
++Output:
++
+ ```
+ 
+ ## Running the Tests
+ 
+ If you want to change the source code for your use cases, you can check whether the change conflicts with other parts of the projcet by simply running the tests:
+ 
+ FactScoreLite/
+```
+
+### Comparing `factscorelite-1.0.1/setup.cfg` & `factscorelite-1.1.0/setup.cfg`
+
+ * *Files 16% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [metadata]
+ name = FactScoreLite
+-version = 1.0.1
++version = 1.1.0
+ author = armingh2000
+ author_email = 
+ license = MIT
+ description = FactScore (Fine-grained atomic evaluation of factual precision in long form text generation) computing package.
+ long_description = file: README.md
+ long_description_content_type = text/markdown
+ url = https://github.com/armingh2000/FactScoreLite
+```
+
+### Comparing `factscorelite-1.0.1/tests/test_atomic_facts.py` & `factscorelite-1.1.0/tests/test_atomic_facts.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -20,30 +20,30 @@
+         # Patch the generate method with the MagicMock object
+         monkeypatch.setattr(generator.openai_agent, "generate", mock_generate)
+ 
+     return generator
+ 
+ 
+ # Sample data to be returned by the mock
+-mock_demons_data = {
+-    "demons": [
+-        {"Sentence": "Example sentence 1.", "Independent Facts": ["Fact 1", "Fact 2"]},
+-        {"Sentence": "Example sentence 2.", "Independent Facts": ["Fact 3", "Fact 4"]},
+-    ]
+-}
++mock_demons_data = [
++    {"Sentence": "Example sentence 1.", "Independent Facts": ["Fact 1", "Fact 2"]},
++    {"Sentence": "Example sentence 2.", "Independent Facts": ["Fact 3", "Fact 4"]},
++]
+ 
+ 
+ # Test for the load_demons method
+ def test_load_demons(generator):
+     # Convert your sample data to a JSON string for mocking
+     mock_json_str = json.dumps(mock_demons_data)
+     # Use patch to mock open function within the context of your test
+     with patch("builtins.open", mock_open(read_data=mock_json_str)):
+         # Also mock configs.demons_path to avoid dependency on external config files
+-        with patch.object(configs, "demons_path", "fake/path/to/demons.json"):
++        with patch.object(
++            configs, "atomic_facts_demons_path", "fake/path/to/atomic_facts_demons.json"
++        ):
+             demons = generator.load_demons()
+             # Assert that the returned data matches your mock data
+             assert (
+                 demons == mock_demons_data
+             ), "The method should load and return the demons correctly."
+```
+
+### Comparing `factscorelite-1.0.1/tests/test_factscore.py` & `factscorelite-1.1.0/tests/test_factscore.py`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/tests/test_openai_agent.py` & `factscorelite-1.1.0/tests/test_openai_agent.py`
+
+ * *Files identical despite different names*
+
+### Comparing `factscorelite-1.0.1/tests/test_state_handler.py` & `factscorelite-1.1.0/tests/test_state_handler.py`
+
+ * *Files identical despite different names*
+

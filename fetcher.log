@@ -7632,3 +7632,27 @@
 [2024-04-19 04:23:21] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-04-19 04:23:21] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-04-19 04:23:21] INFO root fetch - main [MainThread]: Store serial: [22835760]
+[2024-04-19 04:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835760]
+[2024-04-19 04:25:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 04:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goose-checker
+[2024-04-19 04:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FactScoreLite
+[2024-04-19 04:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quests
+[2024-04-19 04:25:30] INFO root fetch - processPackages [goose-checker]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 04:25:30] INFO root fetch - processPackages [FactScoreLite]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-19 04:25:30] WARNING root fetch - processPackages [quests]: Skipping, unable to determine old version
+[2024-04-19 04:25:30] INFO root fetch - main [MainThread]: End processing [quests] error
+[2024-04-19 04:25:30] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/23/31/0f9428d9bfffe821f5d98bc2c888da68e057a2337dc55c4d3a9aae87504b/goose_checker-0.0.5.tar.gz
+[2024-04-19 04:25:30] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/9a/f5/535060dc1f9a1069a77a214d2e53ebd02b4ff20b6c83b4df0a8013ddd7da/factscorelite-1.0.1.tar.gz
+[2024-04-19 04:25:30] INFO root fetch - processPackages [goose-checker]: Downloading https://files.pythonhosted.org/packages/b0/d4/fb65d36b0325f6ef1455a9d022f1d3db92fb6c919fec965ca75d1b376e90/goose_checker-0.0.6.tar.gz
+[2024-04-19 04:25:30] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/0d/cb/d76dcc7b01d23ffd01c1b2acec91300978a77b742e215e3b779cb9f2bbff/factscorelite-1.1.0.tar.gz
+[2024-04-19 04:25:30] INFO root fetch - processPackages [goose-checker]: executing diffoscope
+[2024-04-19 04:25:30] INFO root fetch - processPackages [goose-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goose_checker-0.0.5.tar.gz tmp/goose_checker-0.0.6.tar.gz --markdown 20240419/g/goose-checker/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 04:25:30] INFO root fetch - processPackages [FactScoreLite]: executing diffoscope
+[2024-04-19 04:25:30] INFO root fetch - processPackages [FactScoreLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factscorelite-1.0.1.tar.gz tmp/factscorelite-1.1.0.tar.gz --markdown 20240419/F/FactScoreLite/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-04-19 04:25:31] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.5.tar.gz]
+[2024-04-19 04:25:31] INFO root fetch - processPackages [goose-checker]: Remove: archive file [/home/abi/fetcher/tmp/goose_checker-0.0.6.tar.gz]
+[2024-04-19 04:25:31] INFO root fetch - main [MainThread]: End processing [goose-checker]: success
+[2024-04-19 04:25:31] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/factscorelite-1.0.1.tar.gz]
+[2024-04-19 04:25:31] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/factscorelite-1.1.0.tar.gz]
+[2024-04-19 04:25:31] INFO root fetch - main [MainThread]: End processing [FactScoreLite]: success
+[2024-04-19 04:25:31] INFO root fetch - main [MainThread]: Store serial: [22835780]
