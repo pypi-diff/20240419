@@ -2537,3 +2537,61 @@
 [2024-04-19 02:27:05] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.21.8.tar.gz]
 [2024-04-19 02:27:05] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
 [2024-04-19 02:27:05] INFO root fetch - main [MainThread]: Store serial: [22833733]
+[2024-04-19 02:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833733]
+[2024-04-19 02:29:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: videogrep
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coastseg
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-certbot-dns-route53
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbcli-jm
+[2024-04-19 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdt
+[2024-04-19 02:29:14] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [coastseg]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [videogrep]: New version: [2.3.0] Old Version: [2.2.1]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/09/eb/1400ad209a2ca815383619748e1b2dc534b25eb683f9a4f42307c9cf7d9f/sbcli_jm-4.0.0.zip
+[2024-04-19 02:29:14] INFO root fetch - processPackages [rdt]: New version: [1.9.3.dev0] Old Version: [1.9.2.dev0]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/8c/88/630c88bb07d42a9a205cb9536383949930605878bff8ef1cf44eb809db3d/coastseg-1.2.2.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [videogrep]: Downloading https://files.pythonhosted.org/packages/91/c5/2cb1c02fbee95611a39bd51191b26ca85fa86defd6ca17f15326be2215c1/videogrep-2.2.1.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [rdt]: Downloading https://files.pythonhosted.org/packages/44/4d/81abdaf59ba575fdd9496bfb0abc8f86f95d2d0ffd622c3aac28b86e1f5b/rdt-1.9.2.dev0.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-19 02:29:14] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/2a/df/fdbfa7ee087a57ecfe8ad1a3f1792fc4a5cc847643afdbc06e43f15665a5/sbcli_jm-4.0.1.zip
+[2024-04-19 02:29:14] WARNING root fetch - processPackages [videogrep]: Skipping package: exceeds size limit 41138478>=10485760
+[2024-04-19 02:29:14] INFO root fetch - main [MainThread]: End processing [videogrep] error
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240419/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-19 02:29:14] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240419/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-19 02:29:15] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-19 02:29:15] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.0.zip tmp/sbcli_jm-4.0.1.zip --markdown 20240419/s/sbcli-jm/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-19 02:29:15] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 24407880>=10485760
+[2024-04-19 02:29:15] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-19 02:29:15] INFO root fetch - processPackages [rdt]: Downloading https://files.pythonhosted.org/packages/14/ef/936f718734fed5da79466fd070444d2e8da239b70878acd335804caea0f0/rdt-1.9.3.dev0.tar.gz
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240419/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-19 02:29:15] INFO root fetch - processPackages [rdt]: executing diffoscope
+[2024-04-19 02:29:15] INFO root fetch - processPackages [rdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdt-1.9.2.dev0.tar.gz tmp/rdt-1.9.3.dev0.tar.gz --markdown 20240419/r/rdt/1.9.2.dev0-1.9.3.dev0/README.md --exclude *.pyd
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-19 02:29:15] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-19 02:29:15] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.0.zip]
+[2024-04-19 02:29:15] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.1.zip]
+[2024-04-19 02:29:15] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-19 02:29:16] INFO root fetch - processPackages [rdt]: Remove: archive file [/home/abi/fetcher/tmp/rdt-1.9.2.dev0.tar.gz]
+[2024-04-19 02:29:16] INFO root fetch - processPackages [rdt]: Remove: archive file [/home/abi/fetcher/tmp/rdt-1.9.3.dev0.tar.gz]
+[2024-04-19 02:29:16] INFO root fetch - main [MainThread]: End processing [rdt]: success
+[2024-04-19 02:29:16] INFO root fetch - main [MainThread]: Store serial: [22833756]
