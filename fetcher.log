@@ -8262,3 +8262,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:02:33] INFO root fetch - processPackages [azureml-designer-cv-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_cv_modules-0.0.9-py3-none-any.whl.zip]
 [2024-04-19 05:02:33] INFO root fetch - main [MainThread]: End processing [azureml-designer-cv-modules]: success
 [2024-04-19 05:02:33] INFO root fetch - main [MainThread]: Store serial: [22835986]
+[2024-04-19 05:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835986]
+[2024-04-19 05:04:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yunzhanghu-sdk
+[2024-04-19 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azureml-designer-recommender-modules
+[2024-04-19 05:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-designer-vowpal-wabbit-modules
+[2024-04-19 05:04:41] INFO root fetch - processPackages [yunzhanghu-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 05:04:41] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 05:04:41] INFO root fetch - processPackages [azureml-designer-recommender-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 05:04:41] INFO root fetch - processPackages [yunzhanghu-sdk]: Downloading https://files.pythonhosted.org/packages/46/c8/8df8a3e3936061a3dad1582700aab2eddce15e0d937d7c5115e33bcf56c3/yunzhanghu_sdk-1.0.8.tar.gz
+[2024-04-19 05:04:41] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: Downloading https://files.pythonhosted.org/packages/2f/59/5830e43ad3647b308c1be89ace4d4d83140a5cdf94c452f50abb9ae3f306/azureml_designer_vowpal_wabbit_modules-0.0.8-py3-none-any.whl
+[2024-04-19 05:04:41] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Downloading https://files.pythonhosted.org/packages/29/9d/d3184ce330ad8d16f9bde85bb6dc14f07b9aecd77c21ad7161b236ba7a38/azureml_designer_recommender_modules-0.0.8-py3-none-any.whl
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Downloading https://files.pythonhosted.org/packages/9d/1e/8e8dc14fcee5d907f1027b5603f48d70a18ff5e6e2c2c2f2702330ec52ef/azureml_designer_recommender_modules-0.0.9-py3-none-any.whl
+[2024-04-19 05:04:42] INFO root fetch - processPackages [yunzhanghu-sdk]: Downloading https://files.pythonhosted.org/packages/d1/3f/418d9e2c48c16314b5416bd22053ade69d31e926120ae266083e7e4b233d/yunzhanghu_sdk-1.0.9.tar.gz
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: Downloading https://files.pythonhosted.org/packages/0d/87/a7d02f2078228970daf7dcecd8839c50257a92187ff73187f6a0f83174bc/azureml_designer_vowpal_wabbit_modules-0.0.9-py3-none-any.whl
+[2024-04-19 05:04:42] INFO root fetch - processPackages [yunzhanghu-sdk]: executing diffoscope
+[2024-04-19 05:04:42] INFO root fetch - processPackages [yunzhanghu-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunzhanghu_sdk-1.0.8.tar.gz tmp/yunzhanghu_sdk-1.0.9.tar.gz --markdown 20240419/y/yunzhanghu-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-recommender-modules]: executing diffoscope
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-recommender-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_recommender_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_recommender_modules-0.0.9-py3-none-any.whl.zip --markdown 20240419/a/azureml-designer-recommender-modules/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: executing diffoscope
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_vowpal_wabbit_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_vowpal_wabbit_modules-0.0.9-py3-none-any.whl.zip --markdown 20240419/a/azureml-designer-vowpal-wabbit-modules/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:04:42] INFO root fetch - processPackages [yunzhanghu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yunzhanghu_sdk-1.0.8.tar.gz]
+[2024-04-19 05:04:42] INFO root fetch - processPackages [yunzhanghu-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yunzhanghu_sdk-1.0.9.tar.gz]
+[2024-04-19 05:04:42] INFO root fetch - main [MainThread]: End processing [yunzhanghu-sdk]: success
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_recommender_modules-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 05:04:42] INFO root fetch - processPackages [azureml-designer-recommender-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_recommender_modules-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 05:04:42] INFO root fetch - main [MainThread]: End processing [azureml-designer-recommender-modules]: success
+[2024-04-19 05:04:43] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_vowpal_wabbit_modules-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 05:04:43] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_vowpal_wabbit_modules-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 05:04:43] INFO root fetch - main [MainThread]: End processing [azureml-designer-vowpal-wabbit-modules]: success
+[2024-04-19 05:04:43] INFO root fetch - main [MainThread]: Store serial: [22835992]
