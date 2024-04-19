@@ -12164,3 +12164,97 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:52:02] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.97.tar.gz]
 [2024-04-19 08:52:02] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2024-04-19 08:52:02] INFO root fetch - main [MainThread]: Store serial: [22837667]
+[2024-04-19 08:54:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837667]
+[2024-04-19 08:54:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-external-toc-strict
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xinference
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyLLSM5DTools
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microbeseq-nbdev-example
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ezregex
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whyis-activitystreams
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bellek
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibm-watsonx-ai
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cj-package
+[2024-04-19 08:54:13] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ibm-watsonx-ai]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [sphinx-external-toc-strict]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [ezregex]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-19 08:54:13] INFO root fetch - processPackages [bellek]: New version: [0.9.0] Old Version: [0.86.0]
+[2024-04-19 08:54:14] INFO root fetch - processPackages [PyLLSM5DTools]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 08:54:14] INFO root fetch - processPackages [microbeseq-nbdev-example]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 08:54:14] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 08:54:14] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/e8/25/6a60838a83094f1cafc5f4579f0f48767d8eb5868acc40d70a502ced6381/sphinx_external_toc_strict-1.1.5.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/4d/65/4d8f83769bebffeab638ed22b10e5b01a2020b5eb3e633c7dcf51931df5b/ezregex-1.9.5.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/d0/86/d7a141e39bdad66066d82c19f5e90dbc05d0241cde30321420598f5f81b3/video_images_creator-0.3.4.tar.gz
+[2024-04-19 08:54:14] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-04-19 08:54:14] INFO root fetch - processPackages [xinference]: Start processing: iterative-ensemble-smoother
+[2024-04-19 08:54:14] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/e4/7e/2fd85e5ecbab900f12294a92a873133eca4ca8740195c7f611c25136b188/ibm_watsonx_ai-0.2.3.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/00/b3/721d25acf09b76b8ddec614f1c0603548db8d3781ef035533fe9be96ecc7/bellek-0.86.0.tar.gz
+[2024-04-19 08:54:14] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958263>=10485760
+[2024-04-19 08:54:14] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 08:54:14] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/7a/cb/05f6f2370c0d8cf13342890b7d1aa0dcc34f799bb29fe8855e01346695d9/PyLLSM5DTools-1.0.3.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [microbeseq-nbdev-example]: Downloading https://files.pythonhosted.org/packages/75/37/b9bfb15d5633eaa974c397bc52aeafdb1ca2db97026a85b089c1d1233d46/microbeseq_nbdev_example-0.0.4.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/9e/1e/0bc2514c165f49d83005d7810c892f4e558415a3dba6c9b29452941afa7c/whyis-activitystreams-0.0.4.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [iterative-ensemble-smoother]: New version: [0.2.5b0] Old Version: [0.2.5]
+[2024-04-19 08:54:14] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [iterative-ensemble-smoother]: Downloading https://files.pythonhosted.org/packages/fc/9b/47f5055b403b8d001cec8dc25561ec65067b015a09ad51a245603470fa90/iterative_ensemble_smoother-0.2.5.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/ec/cb/2e453e973c51c52f57d3533e8d2f7192b8c626e0078fe08fb907191e69fb/bellek-0.9.0.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/a8/c1/f6400dbb4103e1d9583b27437bdd5610308709a34ce0f8bd9b2c01aff92d/sphinx_external_toc_strict-1.1.6.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ibm-watsonx-ai]: Downloading https://files.pythonhosted.org/packages/e7/ac/0d2bc7c5f1950477451b19fedb786324169a77d68dcc4872407f8ef6fdd9/ibm_watsonx_ai-0.2.4.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [microbeseq-nbdev-example]: Downloading https://files.pythonhosted.org/packages/29/d1/cce543e807bd75f231f1f2c254c913757b7ce1ef8edef02492728545423e/microbeseq_nbdev_example-0.0.5.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240419/c/cj-package/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [PyLLSM5DTools]: Downloading https://files.pythonhosted.org/packages/8e/7a/3ee77d2a1e4bbef3802b92312d75cebe2698b23b93775d05bd51c3430a55/pyllsm5dtools-1.0.4.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/27/25/8391089b6c520dcb98ece97ea6dbe9d7cad3fd8e2aace9b4bd2b4e80c566/ezregex-1.9.6.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/50/7c/341a4c5fcc056d71ef9f160c225224db53dbd7d25fceb41177e4a0f2610a/whyis_activitystreams-0.0.5.tar.gz
+[2024-04-19 08:54:14] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.86.0.tar.gz tmp/bellek-0.9.0.tar.gz --markdown 20240419/b/bellek/0.86.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [microbeseq-nbdev-example]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [microbeseq-nbdev-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microbeseq_nbdev_example-0.0.4.tar.gz tmp/microbeseq_nbdev_example-0.0.5.tar.gz --markdown 20240419/m/microbeseq-nbdev-example/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [sphinx-external-toc-strict]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [sphinx-external-toc-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_external_toc_strict-1.1.5.tar.gz tmp/sphinx_external_toc_strict-1.1.6.tar.gz --markdown 20240419/s/sphinx-external-toc-strict/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [PyLLSM5DTools]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [PyLLSM5DTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLLSM5DTools-1.0.3.tar.gz tmp/pyllsm5dtools-1.0.4.tar.gz --markdown 20240419/P/PyLLSM5DTools/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis-activitystreams-0.0.4.tar.gz tmp/whyis_activitystreams-0.0.5.tar.gz --markdown 20240419/w/whyis-activitystreams/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ibm-watsonx-ai]: executing diffoscope
+[2024-04-19 08:54:14] INFO root fetch - processPackages [ibm-watsonx-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_watsonx_ai-0.2.3.tar.gz tmp/ibm_watsonx_ai-0.2.4.tar.gz --markdown 20240419/i/ibm-watsonx-ai/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-19 08:54:14] INFO root fetch - processPackages [iterative-ensemble-smoother]: Downloading https://files.pythonhosted.org/packages/14/04/c7a2b26e8bffda1c4d742147725824a5c535b22630d3c608ea25d8a85277/iterative_ensemble_smoother-0.2.5b0.tar.gz
+[2024-04-19 08:54:15] INFO root fetch - processPackages [ezregex]: executing diffoscope
+[2024-04-19 08:54:15] INFO root fetch - processPackages [ezregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezregex-1.9.5.tar.gz tmp/ezregex-1.9.6.tar.gz --markdown 20240419/e/ezregex/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-19 08:54:15] INFO root fetch - processPackages [iterative-ensemble-smoother]: executing diffoscope
+[2024-04-19 08:54:15] INFO root fetch - processPackages [iterative-ensemble-smoother]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterative_ensemble_smoother-0.2.5.tar.gz tmp/iterative_ensemble_smoother-0.2.5b0.tar.gz --markdown 20240419/i/iterative-ensemble-smoother/0.2.5-0.2.5b0/README.md --exclude *.pyd
+[2024-04-19 08:54:15] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-19 08:54:15] INFO root fetch - processPackages [microbeseq-nbdev-example]: Remove: archive file [/home/abi/fetcher/tmp/microbeseq_nbdev_example-0.0.4.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - processPackages [microbeseq-nbdev-example]: Remove: archive file [/home/abi/fetcher/tmp/microbeseq_nbdev_example-0.0.5.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - main [MainThread]: End processing [microbeseq-nbdev-example]: success
+[2024-04-19 08:54:15] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis-activitystreams-0.0.4.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.0.5.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 08:54:15] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.86.0.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.9.0.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-19 08:54:15] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/PyLLSM5DTools-1.0.3.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - processPackages [PyLLSM5DTools]: Remove: archive file [/home/abi/fetcher/tmp/pyllsm5dtools-1.0.4.tar.gz]
+[2024-04-19 08:54:15] INFO root fetch - main [MainThread]: End processing [PyLLSM5DTools]: success
+[2024-04-19 08:54:16] INFO root fetch - processPackages [iterative-ensemble-smoother]: Remove: archive file [/home/abi/fetcher/tmp/iterative_ensemble_smoother-0.2.5.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - processPackages [iterative-ensemble-smoother]: Remove: archive file [/home/abi/fetcher/tmp/iterative_ensemble_smoother-0.2.5b0.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - main [MainThread]: End processing [iterative-ensemble-smoother]: success
+[2024-04-19 08:54:16] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.5.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.6.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - main [MainThread]: End processing [sphinx-external-toc-strict]: success
+[2024-04-19 08:54:16] INFO root fetch - processPackages [ezregex]: Remove: archive file [/home/abi/fetcher/tmp/ezregex-1.9.5.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - processPackages [ezregex]: Remove: archive file [/home/abi/fetcher/tmp/ezregex-1.9.6.tar.gz]
+[2024-04-19 08:54:16] INFO root fetch - main [MainThread]: End processing [ezregex]: success
+[2024-04-19 08:54:17] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-0.2.3.tar.gz]
+[2024-04-19 08:54:17] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-0.2.4.tar.gz]
+[2024-04-19 08:54:17] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
+[2024-04-19 08:54:17] INFO root fetch - main [MainThread]: Store serial: [22837703]
