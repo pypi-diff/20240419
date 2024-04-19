@@ -23750,3 +23750,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:50:57] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-24.4.0.tar.gz]
 [2024-04-19 15:50:57] INFO root fetch - main [MainThread]: End processing [scitacean]: success
 [2024-04-19 15:50:57] INFO root fetch - main [MainThread]: Store serial: [22842810]
+[2024-04-19 15:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842810]
+[2024-04-19 15:53:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-zendesk-support
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: barkshark-lib
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cegalprizm-pycoderunner
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emx
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BoatBuddy
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graymatter_swissknife
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loggingpython
+[2024-04-19 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sidewinder-db
+[2024-04-19 15:53:07] WARNING root fetch - processPackages [barkshark-lib]: Skipping, unable to determine old version
+[2024-04-19 15:53:07] INFO root fetch - main [MainThread]: End processing [barkshark-lib] error
+[2024-04-19 15:53:07] INFO root fetch - processPackages [emx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [graymatter_swissknife]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [BoatBuddy]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [loggingpython]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [airbyte-source-zendesk-support]: New version: [2.4.0] Old Version: [2.3.1.dev202404101450]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [cegalprizm-pycoderunner]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/d0/72/db8702f65dd00ea850e2634e3e65914805c7866440c3edb5728770fe9944/emx-1.0.8-py3-none-any.whl
+[2024-04-19 15:53:07] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/bf/4d/9e321cfe04d1c06153ff54a1253eda867fdd54ee3739262e5d7cfc51b1c7/boatbuddy-0.9.4.tar.gz
+[2024-04-19 15:53:07] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/6b/57/215d9f1bc1f99d3a62fdcb25db83523e2605bb7d457e45f460cec1343ccd/graymatter_swissknife-1.1.9.tar.gz
+[2024-04-19 15:53:07] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:53:07] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Downloading https://files.pythonhosted.org/packages/8e/e3/77cffc7d5766820dbb068a17b7fad42a04dc6c2ccbcead32fd14bc425074/airbyte_source_zendesk_support-2.3.1.dev202404101450.tar.gz
+[2024-04-19 15:53:07] INFO root fetch - processPackages [loggingpython]: Downloading https://files.pythonhosted.org/packages/ab/23/ca9cbb91a55a551acaec896d937bcd209213873a355cbc066bbcc3cce624/loggingpython-1.4.1.tar.gz
+[2024-04-19 15:53:07] INFO root fetch - processPackages [cegalprizm-pycoderunner]: Downloading https://files.pythonhosted.org/packages/86/9f/99b8b393cde30195c482a8093a8a0bf6bad56b4924c49815e5bac1133d91/cegalprizm_pycoderunner-1.0.0-py2.py3-none-any.whl
+[2024-04-19 15:53:07] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/24/55/887075545013adb2d53fed13cfe5e9cfa59decef2eee93b668eed757e378/emx-1.0.9-py3-none-any.whl
+[2024-04-19 15:53:07] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2024-04-19 15:53:07] INFO root fetch - processPackages [emx]: executing diffoscope
+[2024-04-19 15:53:07] INFO root fetch - processPackages [emx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emx-1.0.8-py3-none-any.whl.zip tmp/emx-1.0.9-py3-none-any.whl.zip --markdown 20240419/e/emx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 15:53:07] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/6f/c3/2cf636524ba74452bd2eab1be97f1fe27fb32149a1258e51373946ed19ae/graymatter_swissknife-1.2.0.tar.gz
+[2024-04-19 15:53:08] INFO root fetch - processPackages [loggingpython]: Downloading https://files.pythonhosted.org/packages/e7/99/d141c2d69e8eb66e289b38c2947db2b6755f223c966bc86ff4e67e83b1da/loggingpython-1.4.2.tar.gz
+[2024-04-19 15:53:08] INFO root fetch - processPackages [BoatBuddy]: Downloading https://files.pythonhosted.org/packages/fd/f5/139785198b6a0e3c5ca20dae7046eff9e2b660f9a02f1ecd73546dfff321/boatbuddy-0.9.5.tar.gz
+[2024-04-19 15:53:08] INFO root fetch - processPackages [cegalprizm-pycoderunner]: Downloading https://files.pythonhosted.org/packages/04/80/5fef4782d1abb818d251ba889d44fc4c4040dadc97aba9b3f87596e89c5a/cegalprizm_pycoderunner-1.0.1-py2.py3-none-any.whl
+[2024-04-19 15:53:08] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Downloading https://files.pythonhosted.org/packages/a1/ad/935d7d60d1d7972bab3dd35e0b6cd4c8508234148c92e60dc6d424dc3b49/airbyte_source_zendesk_support-2.4.0.tar.gz
+[2024-04-19 15:53:08] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2024-04-19 15:53:08] INFO root fetch - processPackages [loggingpython]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [loggingpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggingpython-1.4.1.tar.gz tmp/loggingpython-1.4.2.tar.gz --markdown 20240419/l/loggingpython/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [graymatter_swissknife]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [graymatter_swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graymatter_swissknife-1.1.9.tar.gz tmp/graymatter_swissknife-1.2.0.tar.gz --markdown 20240419/g/graymatter_swissknife/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [cegalprizm-pycoderunner]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [cegalprizm-pycoderunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cegalprizm_pycoderunner-1.0.0-py2.py3-none-any.whl.zip tmp/cegalprizm_pycoderunner-1.0.1-py2.py3-none-any.whl.zip --markdown 20240419/c/cegalprizm-pycoderunner/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [airbyte-source-zendesk-support]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [airbyte-source-zendesk-support]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_zendesk_support-2.3.1.dev202404101450.tar.gz tmp/airbyte_source_zendesk_support-2.4.0.tar.gz --markdown 20240419/a/airbyte-source-zendesk-support/2.3.1.dev202404101450-2.4.0/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20240419/s/sidewinder-db/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [BoatBuddy]: executing diffoscope
+[2024-04-19 15:53:08] INFO root fetch - processPackages [BoatBuddy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boatbuddy-0.9.4.tar.gz tmp/boatbuddy-0.9.5.tar.gz --markdown 20240419/B/BoatBuddy/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-19 15:53:08] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 15:53:08] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 15:53:08] INFO root fetch - main [MainThread]: End processing [emx]: success
+[2024-04-19 15:53:08] INFO root fetch - processPackages [loggingpython]: Remove: archive file [/home/abi/fetcher/tmp/loggingpython-1.4.1.tar.gz]
+[2024-04-19 15:53:08] INFO root fetch - processPackages [loggingpython]: Remove: archive file [/home/abi/fetcher/tmp/loggingpython-1.4.2.tar.gz]
+[2024-04-19 15:53:08] INFO root fetch - main [MainThread]: End processing [loggingpython]: success
+[2024-04-19 15:53:09] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zendesk_support-2.3.1.dev202404101450.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - processPackages [airbyte-source-zendesk-support]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_zendesk_support-2.4.0.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - main [MainThread]: End processing [airbyte-source-zendesk-support]: success
+[2024-04-19 15:53:09] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.8.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.9.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2024-04-19 15:53:09] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.1.9.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.2.0.tar.gz]
+[2024-04-19 15:53:09] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
+[2024-04-19 15:53:09] INFO root fetch - processPackages [cegalprizm-pycoderunner]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pycoderunner-1.0.0-py2.py3-none-any.whl.zip]
+[2024-04-19 15:53:09] INFO root fetch - processPackages [cegalprizm-pycoderunner]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pycoderunner-1.0.1-py2.py3-none-any.whl.zip]
+[2024-04-19 15:53:09] INFO root fetch - main [MainThread]: End processing [cegalprizm-pycoderunner]: success
+[2024-04-19 15:53:15] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.4.tar.gz]
+[2024-04-19 15:53:15] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
+[2024-04-19 15:53:15] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
+[2024-04-19 15:53:15] INFO root fetch - main [MainThread]: Store serial: [22842831]
