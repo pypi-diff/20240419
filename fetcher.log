@@ -7202,3 +7202,51 @@
 [2024-04-19 03:48:00] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.9.tar.gz]
 [2024-04-19 03:48:00] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-04-19 03:48:00] INFO root fetch - main [MainThread]: Store serial: [22835462]
+[2024-04-19 03:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835462]
+[2024-04-19 03:50:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-variableslider
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loamy
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvxpy
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ossapi
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-oracle
+[2024-04-19 03:50:08] INFO root fetch - processPackages [dbt-oracle]: New version: [1.7.4rc1] Old Version: [1.7.3rc3]
+[2024-04-19 03:50:08] INFO root fetch - processPackages [loamy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 03:50:08] INFO root fetch - processPackages [gradio-variableslider]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 03:50:08] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/e4/6b/6b4fc111d203c0a30a602b8d2b853373928b5a46505d9a66e5102a18fa1c/dbt-oracle-1.7.3rc3.tar.gz
+[2024-04-19 03:50:08] INFO root fetch - processPackages [ossapi]: New version: [4.0.0b1] Old Version: [3.4.4]
+[2024-04-19 03:50:09] INFO root fetch - processPackages [cvxpy]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-19 03:50:09] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/57/ac/3e43a55e05f18e6aebb99a434c0a36c5e5e49a284d9eafdc9a8e79ac701b/loamy-0.0.4-py3-none-any.whl
+[2024-04-19 03:50:09] INFO root fetch - processPackages [gradio-variableslider]: Downloading https://files.pythonhosted.org/packages/5f/2f/fb3f92eed8c909c085edcf26b574afa724c270ebe5dde89de6f3ffb6a562/gradio_variableslider-0.0.2.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [dbt-oracle]: Downloading https://files.pythonhosted.org/packages/56/4a/79897d90a14470f01c0cde10878e29e1f6ff7f7d5cf173c24b2a9faa06b7/dbt_oracle-1.7.4rc1.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [ossapi]: Downloading https://files.pythonhosted.org/packages/31/00/ec4f8cf975dbce07d95dd1ceec2d40b2833740044daab103b2d163798b70/ossapi-3.4.4.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/30/64/6dcaa7799d2f06e359189fe135118e1fe707bcacdeec733abe45f9e63205/cvxpy-1.4.2.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [dbt-oracle]: executing diffoscope
+[2024-04-19 03:50:09] INFO root fetch - processPackages [dbt-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-oracle-1.7.3rc3.tar.gz tmp/dbt_oracle-1.7.4rc1.tar.gz --markdown 20240419/d/dbt-oracle/1.7.3rc3-1.7.4rc1/README.md --exclude *.pyd
+[2024-04-19 03:50:09] INFO root fetch - processPackages [gradio-variableslider]: Downloading https://files.pythonhosted.org/packages/f5/c1/e2c2502d257bf3561b0992460f2c7eedcee35b1fd80286395672f9b7b001/gradio_variableslider-0.0.3.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [loamy]: Downloading https://files.pythonhosted.org/packages/0d/57/604b91919785c82389f5af2e419ed685bd6adde4532f45038cd9f4519cb3/loamy-0.0.5.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [ossapi]: Downloading https://files.pythonhosted.org/packages/f9/06/a996c79ba006008749bd413a4f7b01730a9ca395015163ef0fdbd0d6e68f/ossapi-4.0.0b1.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [gradio-variableslider]: executing diffoscope
+[2024-04-19 03:50:09] INFO root fetch - processPackages [gradio-variableslider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_variableslider-0.0.2.tar.gz tmp/gradio_variableslider-0.0.3.tar.gz --markdown 20240419/g/gradio-variableslider/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 03:50:09] INFO root fetch - processPackages [cvxpy]: Downloading https://files.pythonhosted.org/packages/ae/82/32f19cb7af36ff1b6cad1f4d5437798d1f09ae394b38bac8c8ba8cd4a652/cvxpy-1.4.3.tar.gz
+[2024-04-19 03:50:09] INFO root fetch - processPackages [loamy]: executing diffoscope
+[2024-04-19 03:50:09] INFO root fetch - processPackages [loamy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loamy-0.0.4-py3-none-any.whl.zip tmp/loamy-0.0.5.tar.gz --markdown 20240419/l/loamy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 03:50:09] INFO root fetch - processPackages [ossapi]: executing diffoscope
+[2024-04-19 03:50:09] INFO root fetch - processPackages [ossapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ossapi-3.4.4.tar.gz tmp/ossapi-4.0.0b1.tar.gz --markdown 20240419/o/ossapi/3.4.4-4.0.0b1/README.md --exclude *.pyd
+[2024-04-19 03:50:09] INFO root fetch - processPackages [cvxpy]: executing diffoscope
+[2024-04-19 03:50:09] INFO root fetch - processPackages [cvxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxpy-1.4.2.tar.gz tmp/cvxpy-1.4.3.tar.gz --markdown 20240419/c/cvxpy/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-19 03:50:10] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt-oracle-1.7.3rc3.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - processPackages [dbt-oracle]: Remove: archive file [/home/abi/fetcher/tmp/dbt_oracle-1.7.4rc1.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - main [MainThread]: End processing [dbt-oracle]: success
+[2024-04-19 03:50:10] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.4-py3-none-any.whl.zip]
+[2024-04-19 03:50:10] INFO root fetch - processPackages [loamy]: Remove: archive file [/home/abi/fetcher/tmp/loamy-0.0.5.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - main [MainThread]: End processing [loamy]: success
+[2024-04-19 03:50:10] INFO root fetch - processPackages [ossapi]: Remove: archive file [/home/abi/fetcher/tmp/ossapi-3.4.4.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - processPackages [ossapi]: Remove: archive file [/home/abi/fetcher/tmp/ossapi-4.0.0b1.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - main [MainThread]: End processing [ossapi]: success
+[2024-04-19 03:50:10] INFO root fetch - processPackages [gradio-variableslider]: Remove: archive file [/home/abi/fetcher/tmp/gradio_variableslider-0.0.2.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - processPackages [gradio-variableslider]: Remove: archive file [/home/abi/fetcher/tmp/gradio_variableslider-0.0.3.tar.gz]
+[2024-04-19 03:50:10] INFO root fetch - main [MainThread]: End processing [gradio-variableslider]: success
+[2024-04-19 03:50:13] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.4.2.tar.gz]
+[2024-04-19 03:50:13] INFO root fetch - processPackages [cvxpy]: Remove: archive file [/home/abi/fetcher/tmp/cvxpy-1.4.3.tar.gz]
+[2024-04-19 03:50:13] INFO root fetch - main [MainThread]: End processing [cvxpy]: success
+[2024-04-19 03:50:13] INFO root fetch - main [MainThread]: Store serial: [22835476]
