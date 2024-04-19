@@ -10006,3 +10006,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:04:52] INFO root fetch - processPackages [pyrealsense2]: Remove: archive file [/home/abi/fetcher/tmp/pyrealsense2-2.9.1-cp36-cp36m-win_amd64.whl.zip]
 [2024-04-19 07:04:52] INFO root fetch - main [MainThread]: End processing [pyrealsense2]: success
 [2024-04-19 07:04:52] INFO root fetch - main [MainThread]: Store serial: [22836769]
+[2024-04-19 07:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836769]
+[2024-04-19 07:07:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 07:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-pe
+[2024-04-19 07:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptify
+[2024-04-19 07:07:01] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240418] Old Version: [0.1.2.dev20240417]
+[2024-04-19 07:07:01] INFO root fetch - processPackages [gptify]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 07:07:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/9c/f6/5fdb080409e825ebb4dc2e3466e230e778317bd421447c495308c6a89059/rapid_pe-0.1.2.dev20240417.tar.gz
+[2024-04-19 07:07:01] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/c4/fd/91476afccd549ebefb34a5b7c43680204e87b5bb37d145ec2e208ea52381/gptify-0.3.0.tar.gz
+[2024-04-19 07:07:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/00/18/f5decac446947e7399ea6e6a2d4722c43bb6f4653f50c00ed6318723a1b6/rapid_pe-0.1.2.dev20240418.tar.gz
+[2024-04-19 07:07:01] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-04-19 07:07:01] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240417.tar.gz tmp/rapid_pe-0.1.2.dev20240418.tar.gz --markdown 20240419/r/rapid-pe/0.1.2.dev20240417-0.1.2.dev20240418/README.md --exclude *.pyd
+[2024-04-19 07:07:01] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/4b/c9/b3a4beaa67bd0806ee62002fab302508df1922527cfead910475c2fab945/gptify-0.3.1.tar.gz
+[2024-04-19 07:07:02] INFO root fetch - processPackages [gptify]: executing diffoscope
+[2024-04-19 07:07:02] INFO root fetch - processPackages [gptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptify-0.3.0.tar.gz tmp/gptify-0.3.1.tar.gz --markdown 20240419/g/gptify/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 07:07:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240417.tar.gz]
+[2024-04-19 07:07:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240418.tar.gz]
+[2024-04-19 07:07:02] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-04-19 07:07:02] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.0.tar.gz]
+[2024-04-19 07:07:02] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.1.tar.gz]
+[2024-04-19 07:07:02] INFO root fetch - main [MainThread]: End processing [gptify]: success
+[2024-04-19 07:07:02] INFO root fetch - main [MainThread]: Store serial: [22836782]
