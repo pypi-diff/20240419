@@ -8154,3 +8154,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:53:51] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
 [2024-04-19 04:53:51] INFO root fetch - main [MainThread]: End processing [donetools]: success
 [2024-04-19 04:53:51] INFO root fetch - main [MainThread]: Store serial: [22835932]
+[2024-04-19 04:55:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835932]
+[2024-04-19 04:55:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 04:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansi-string
+[2024-04-19 04:55:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uv
+[2024-04-19 04:55:59] INFO root fetch - processPackages [ansi-string]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 04:55:59] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/f6/24/95176ccd9b57cffa9b86d83f21f11f57f38aa2d1e0df1fdc3a062c134915/ansi-string-0.0.1.tar.gz
+[2024-04-19 04:55:59] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 04:56:00] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/f3/5d/baf85b062f454ef32c73bd6008377fa01a72edc59c6d51809a1bc2297c20/ansi-string-0.0.2.tar.gz
+[2024-04-19 04:56:00] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-04-19 04:56:00] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-04-19 04:56:00] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-0.0.1.tar.gz tmp/ansi-string-0.0.2.tar.gz --markdown 20240419/a/ansi-string/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 04:56:00] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-04-19 04:56:00] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-0.0.1.tar.gz]
+[2024-04-19 04:56:00] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-0.0.2.tar.gz]
+[2024-04-19 04:56:00] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-04-19 04:56:01] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-04-19 04:56:01] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240419/u/uv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 04:56:03] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-04-19 04:56:03] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-04-19 04:56:03] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-04-19 04:56:03] INFO root fetch - main [MainThread]: Store serial: [22835953]
