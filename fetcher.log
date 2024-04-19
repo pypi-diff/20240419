@@ -11873,3 +11873,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:37:41] ERROR root fetch - processPackages [ogcore]: Timeout during execution of pkgdiff
 [2024-04-19 08:37:41] INFO root fetch - main [MainThread]: End processing [ogcore] error
 [2024-04-19 08:37:41] INFO root fetch - main [MainThread]: Store serial: [22837553]
+[2024-04-19 08:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837553]
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciword-finder
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NeelKrypt
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athina
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intersight
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webscout
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sfmanager
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: video-images-creator
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cler
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cerbogen
+[2024-04-19 08:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pozalabs-compose
+[2024-04-19 08:39:50] WARNING root fetch - processPackages [cerbogen]: Skipping, unable to determine old version
+[2024-04-19 08:39:50] INFO root fetch - processPackages [cerbogen]: Start processing: cerbogen
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: End processing [cerbogen] error
+[2024-04-19 08:39:50] WARNING root fetch - processPackages [cler]: Skipping, unable to determine old version
+[2024-04-19 08:39:50] INFO root fetch - processPackages [cler]: Start processing: fakesnow
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: End processing [cler] error
+[2024-04-19 08:39:50] INFO root fetch - processPackages [sfmanager]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [sciword-finder]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [NeelKrypt]: New version: [6] Old Version: [4]
+[2024-04-19 08:39:50] WARNING root fetch - processPackages [cerbogen]: Skipping, unable to determine old version
+[2024-04-19 08:39:50] INFO root fetch - processPackages [cerbogen]: Start processing: spark-ai-python
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: End processing [cerbogen] error
+[2024-04-19 08:39:50] INFO root fetch - processPackages [intersight]: New version: [1.0.9.6484] Old Version: [1.0.9.6207]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [webscout]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [athina]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/0c/bd/a9a134142fcbec2b37337964141e1f21eb4e707e6a24a59c5a6e1b5cdfe2/sfmanager-0.0.8.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [fakesnow]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/c3/fe/ca8582ecd2799167f67df878383e0b206404ee0cc075ab7c472f93b51e94/video_images_creator-0.3.3.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [spark-ai-python]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-19 08:39:50] INFO root fetch - processPackages [sciword-finder]: Downloading https://files.pythonhosted.org/packages/a7/fa/bf34c9573589b43c3441af1aca2958da1fadf2bbe77023d6de4587dbb3f0/sciword_finder-0.1.0.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [NeelKrypt]: Downloading https://files.pythonhosted.org/packages/a5/5a/3cf38d0f08098085cbadc102c6ce27228a5d85adaf3b77249a29d0c4a837/NeelKrypt-4.tar.gz
+[2024-04-19 08:39:50] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958342>=10485760
+[2024-04-19 08:39:50] INFO root fetch - processPackages [video-images-creator]: Start processing: thInfluxSdk
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 08:39:50] INFO root fetch - processPackages [intersight]: Downloading https://files.pythonhosted.org/packages/ff/40/daaa754993e7cb8462afdc89a9772328cc5717951e766da83fa93944e043/intersight-1.0.9.6207.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/fc/4a/497e597dd6eb5e9bd5294a37df7a54bb2ca98df82d302abfae275d631697/webscout-1.3.0.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ef/47/9b2ef0f7dd09092fd1f7473c8a302f1fa6450ca51d82832c78a6378d2975/athina-1.2.8.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/f3/98/66e6b3febb0318d6e9d8af5e1566b148cca34fd6e18219fc58e1cd907522/fakesnow-0.9.7.tar.gz
+[2024-04-19 08:39:50] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/f4/fb/add24d391c9e74bdc54b217e18d2a6003fb4db73d26fd757acf24fc284b0/spark_ai_python-0.3.8.tar.gz
+[2024-04-19 08:39:50] WARNING root fetch - processPackages [thInfluxSdk]: Skipping, unable to determine old version
+[2024-04-19 08:39:50] INFO root fetch - processPackages [thInfluxSdk]: Start processing: notification-py
+[2024-04-19 08:39:50] INFO root fetch - main [MainThread]: End processing [thInfluxSdk] error
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sfmanager]: Downloading https://files.pythonhosted.org/packages/4a/34/a637531b7264ebaae31cbef6dd9ed019112eb1928bacb8e3ecb3f9307376/sfmanager-0.0.9.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [notification-py]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 08:39:51] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/93/98/8f9e5f893bd8eee10ab2c16728d759237aa8469c57f73088f56b1b35669a/notification_py-1.0.3.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sciword-finder]: Downloading https://files.pythonhosted.org/packages/06/93/8fe42db739fd4398a91a8d0ef568d895dc839f4c0adeb6616363138e40cb/sciword_finder-0.1.1.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sfmanager]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sfmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfmanager-0.0.8.tar.gz tmp/sfmanager-0.0.9.tar.gz --markdown 20240419/s/sfmanager/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/49/7c/de8bd108903e779be787d1ba4460903659f39ab199693537ed15175fd174/webscout-1.3.1.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [NeelKrypt]: Downloading https://files.pythonhosted.org/packages/d3/84/852ef003ad2747df8358b51feef31fc4238d0fed72bb283c227c14877b66/NeelKrypt-6.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/6b/2a/f0ce270f9094e390b8d6c6206e1725c88d65989bc2bdb25d259f4e371ed7/fakesnow-0.9.8.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/8c/7a/9ca31aae0240dac1dcb9ff13ab77af41aabbad7fe4fb02cf9f625581c8cc/athina-1.2.9.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sciword-finder]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [sciword-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciword_finder-0.1.0.tar.gz tmp/sciword_finder-0.1.1.tar.gz --markdown 20240419/s/sciword-finder/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [spark-ai-python]: Downloading https://files.pythonhosted.org/packages/9c/8f/839a31dcb40a663647214e2c2a849dd29aba055b051276318cae0b879c67/spark_ai_python-0.3.9.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240419/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.3.0.tar.gz tmp/webscout-1.3.1.tar.gz --markdown 20240419/w/webscout/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [notification-py]: Downloading https://files.pythonhosted.org/packages/d1/c2/db9c518be0600d2dd28bdcb3efe6c7855aad5f71bb1168363f0462d2b895/notification_py-1.0.4.tar.gz
+[2024-04-19 08:39:51] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.2.8.tar.gz tmp/athina-1.2.9.tar.gz --markdown 20240419/a/athina/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.9.7.tar.gz tmp/fakesnow-0.9.8.tar.gz --markdown 20240419/f/fakesnow/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [NeelKrypt]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [NeelKrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeelKrypt-4.tar.gz tmp/NeelKrypt-6.tar.gz --markdown 20240419/N/NeelKrypt/4-6/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [spark-ai-python]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [spark-ai-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_ai_python-0.3.8.tar.gz tmp/spark_ai_python-0.3.9.tar.gz --markdown 20240419/s/spark-ai-python/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-19 08:39:51] INFO root fetch - processPackages [notification-py]: executing diffoscope
+[2024-04-19 08:39:51] INFO root fetch - processPackages [notification-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_py-1.0.3.tar.gz tmp/notification_py-1.0.4.tar.gz --markdown 20240419/n/notification-py/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 08:39:51] WARNING root fetch - processPackages [intersight]: Skipping package: exceeds size limit 16195201>=10485760
+[2024-04-19 08:39:51] INFO root fetch - processPackages [intersight]: Start processing: dashscope
+[2024-04-19 08:39:51] INFO root fetch - main [MainThread]: End processing [intersight] error
+[2024-04-19 08:39:51] INFO root fetch - processPackages [dashscope]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/df/bf/2fefadaa9f3629197c4d63a4814a28a316fa7789ce1e5e576b1bf5c07794/dashscope-1.9.0-py3-none-any.whl
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sciword-finder]: Remove: archive file [/home/abi/fetcher/tmp/sciword_finder-0.1.0.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sciword-finder]: Remove: archive file [/home/abi/fetcher/tmp/sciword_finder-0.1.1.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sciword-finder]: Start processing: NeelKrypt
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [sciword-finder]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.8.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sfmanager]: Remove: archive file [/home/abi/fetcher/tmp/sfmanager-0.0.9.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [sfmanager]: Start processing: casepy
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [sfmanager]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: New version: [6] Old Version: [4]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [casepy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: Remove: archive file [/home/abi/fetcher/tmp/NeelKrypt-4.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: Remove: archive file [/home/abi/fetcher/tmp/NeelKrypt-6.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [NeelKrypt]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: Downloading https://files.pythonhosted.org/packages/d3/84/852ef003ad2747df8358b51feef31fc4238d0fed72bb283c227c14877b66/NeelKrypt-6.tar.gz
+[2024-04-19 08:39:52] INFO root fetch - processPackages [dashscope]: Downloading https://files.pythonhosted.org/packages/5b/f6/9ba6c964f2ce73e6de9988848b2dcde7c1b66b9badb52886f66728c9c3f1/dashscope-1.9.1-py3-none-any.whl
+[2024-04-19 08:39:52] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/6a/6f/fea9b9682f47cbab25bcf7ae767cc4e2669d29fc3c8196599be0e921defb/casepy-0.0.2.tar.gz
+[2024-04-19 08:39:52] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.0.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.3.1.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: executing diffoscope
+[2024-04-19 08:39:52] INFO root fetch - processPackages [NeelKrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeelKrypt-4.tar.gz tmp/NeelKrypt-6.tar.gz --markdown 20240419/N/NeelKrypt/4-6/README.md --exclude *.pyd
+[2024-04-19 08:39:52] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.7.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.9.8.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [dashscope]: executing diffoscope
+[2024-04-19 08:39:52] INFO root fetch - processPackages [dashscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashscope-1.9.0-py3-none-any.whl.zip tmp/dashscope-1.9.1-py3-none-any.whl.zip --markdown 20240419/d/dashscope/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-19 08:39:52] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-1.0.3.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [notification-py]: Remove: archive file [/home/abi/fetcher/tmp/notification_py-1.0.4.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [notification-py]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.8.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.9.tar.gz]
+[2024-04-19 08:39:52] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-04-19 08:39:52] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/b7/3b/f77b9addaf0549c6dcd2c5ea6bd9d7bb4cc80787911c95b2539cdb380fbe/casepy-0.0.3.tar.gz
+[2024-04-19 08:39:53] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.8.tar.gz]
+[2024-04-19 08:39:53] INFO root fetch - processPackages [spark-ai-python]: Remove: archive file [/home/abi/fetcher/tmp/spark_ai_python-0.3.9.tar.gz]
+[2024-04-19 08:39:53] INFO root fetch - main [MainThread]: End processing [spark-ai-python]: success
+[2024-04-19 08:39:53] ERROR root fetch - processPackages [NeelKrypt]: Diffoscope failed: time="2024-04-19T08:39:52+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/NeelKrypt-4.tar.gz: No such file or directory
+
+[2024-04-19 08:39:53] INFO root fetch - main [MainThread]: End processing [NeelKrypt] error
+[2024-04-19 08:39:53] INFO root fetch - processPackages [casepy]: executing diffoscope
+[2024-04-19 08:39:53] INFO root fetch - processPackages [casepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casepy-0.0.2.tar.gz tmp/casepy-0.0.3.tar.gz --markdown 20240419/c/casepy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 08:39:53] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.0-py3-none-any.whl.zip]
+[2024-04-19 08:39:53] INFO root fetch - processPackages [dashscope]: Remove: archive file [/home/abi/fetcher/tmp/dashscope-1.9.1-py3-none-any.whl.zip]
+[2024-04-19 08:39:53] INFO root fetch - main [MainThread]: End processing [dashscope]: success
+[2024-04-19 08:39:53] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.2.tar.gz]
+[2024-04-19 08:39:53] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.3.tar.gz]
+[2024-04-19 08:39:53] INFO root fetch - main [MainThread]: End processing [casepy]: success
+[2024-04-19 08:39:53] INFO root fetch - main [MainThread]: Store serial: [22837608]
