@@ -9340,3 +9340,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:16:46] INFO root fetch - processPackages [libcreg-python]: Remove: archive file [/home/abi/fetcher/tmp/libcreg-python-20240419.tar.gz]
 [2024-04-19 06:16:46] INFO root fetch - main [MainThread]: End processing [libcreg-python]: success
 [2024-04-19 06:16:46] INFO root fetch - main [MainThread]: Store serial: [22836468]
+[2024-04-19 06:18:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836468]
+[2024-04-19 06:18:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iterdir
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibridge-test
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cupy-rocm-4-3
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cupy-rocm-5-0
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cupy
+[2024-04-19 06:18:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-databases
+[2024-04-19 06:18:55] INFO root fetch - processPackages [aibridge-test]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy-rocm-4-3]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/fb/c2/8ef489f71523686ca0efad02b6b3405f0029580c0a679426bdbab3540142/aibridge_test-0.3.1.tar.gz
+[2024-04-19 06:18:55] INFO root fetch - processPackages [iterdir]: New version: [0.0.3] Old Version: [0.0.2.2]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy-rocm-5-0]: New version: [13.1.0] Old Version: [13.0.0]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [pytest-databases]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 06:18:55] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/9f/d3/f5fdf68151d10be6243de3b2321f1c06a4f54fc667599a0af288ee7329bc/pytest_databases-0.4.0.tar.gz
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy-rocm-4-3]: Downloading https://files.pythonhosted.org/packages/13/46/20402f80b2543cb83ae3f2659d30f0c0d35b3a80e885c9453511750b20ad/cupy_rocm_4_3-9.5.0-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-19 06:18:55] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/86/5b/f272b94084303f2d58ea9bd810db07031021a5603015b451d8f52cf70e13/iterdir-0.0.2.2.tar.gz
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/e1/d5/b7f3fec3b88abefca4eaec5d3e303d5cc7ff8192718273852d07c117f027/cupy-9.5.0.tar.gz
+[2024-04-19 06:18:55] INFO root fetch - processPackages [cupy-rocm-5-0]: Downloading https://files.pythonhosted.org/packages/e0/4f/d1225431b8a91b1604f921efa15dbff0930cdc2cb4c01c05255d6128f7c5/cupy_rocm_5_0-13.0.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 06:18:56] WARNING root fetch - processPackages [cupy-rocm-4-3]: Skipping package: exceeds size limit 33470653>=10485760
+[2024-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [cupy-rocm-4-3] error
+[2024-04-19 06:18:56] WARNING root fetch - processPackages [cupy-rocm-5-0]: Skipping package: exceeds size limit 60639812>=10485760
+[2024-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [cupy-rocm-5-0] error
+[2024-04-19 06:18:56] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/1e/d8/4b3f4614d29fe25684a170b3bbd6c4cf95a5543bbcfb7a1edcff3bd9075a/aibridge_test-0.3.2.tar.gz
+[2024-04-19 06:18:56] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-19 06:18:56] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.3.1.tar.gz tmp/aibridge_test-0.3.2.tar.gz --markdown 20240419/a/aibridge-test/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-19 06:18:56] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/fe/b2/32efd604b23f8d7ecf6fb7589113479dc5fe48ffe89c583477381a75f9f4/iterdir-0.0.3.tar.gz
+[2024-04-19 06:18:56] INFO root fetch - processPackages [pytest-databases]: Downloading https://files.pythonhosted.org/packages/62/d3/35dcfc4cc1227ebf07a9e4fe8567208134b609ff0114f9d4d05642ae7410/pytest_databases-0.4.1.tar.gz
+[2024-04-19 06:18:56] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-19 06:18:56] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.2.2.tar.gz tmp/iterdir-0.0.3.tar.gz --markdown 20240419/i/iterdir/0.0.2.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 06:18:56] INFO root fetch - processPackages [cupy]: Downloading https://files.pythonhosted.org/packages/15/4e/8c24237375e6f4989d61f0a1ec97993f88720dc066295a5017fdba96fa34/cupy-9.6.0.tar.gz
+[2024-04-19 06:18:56] INFO root fetch - processPackages [pytest-databases]: executing diffoscope
+[2024-04-19 06:18:56] INFO root fetch - processPackages [pytest-databases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_databases-0.4.0.tar.gz tmp/pytest_databases-0.4.1.tar.gz --markdown 20240419/p/pytest-databases/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 06:18:56] INFO root fetch - processPackages [cupy]: executing diffoscope
+[2024-04-19 06:18:56] INFO root fetch - processPackages [cupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cupy-9.5.0.tar.gz tmp/cupy-9.6.0.tar.gz --markdown 20240419/c/cupy/9.5.0-9.6.0/README.md --exclude *.pyd
+[2024-04-19 06:18:56] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.2.2.tar.gz]
+[2024-04-19 06:18:56] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.3.tar.gz]
+[2024-04-19 06:18:56] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-19 06:18:57] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.1.tar.gz]
+[2024-04-19 06:18:57] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.2.tar.gz]
+[2024-04-19 06:18:57] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-19 06:18:57] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.4.0.tar.gz]
+[2024-04-19 06:18:57] INFO root fetch - processPackages [pytest-databases]: Remove: archive file [/home/abi/fetcher/tmp/pytest_databases-0.4.1.tar.gz]
+[2024-04-19 06:18:57] INFO root fetch - main [MainThread]: End processing [pytest-databases]: success
+[2024-04-19 06:19:00] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.5.0.tar.gz]
+[2024-04-19 06:19:00] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.6.0.tar.gz]
+[2024-04-19 06:19:00] INFO root fetch - main [MainThread]: End processing [cupy]: success
+[2024-04-19 06:19:00] INFO root fetch - main [MainThread]: Store serial: [22836492]
