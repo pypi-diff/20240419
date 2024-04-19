@@ -21678,3 +21678,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:45:55] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.1.tar.gz]
 [2024-04-19 14:45:55] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
 [2024-04-19 14:45:55] INFO root fetch - main [MainThread]: Store serial: [22841878]
+[2024-04-19 14:48:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841878]
+[2024-04-19 14:48:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-models
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: depot-api
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedepot-depot
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neos_common
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docsig
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sarus-data-spec-public
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbcli-mig
+[2024-04-19 14:48:05] INFO root fetch - processPackages [depot-api]: New version: [1.0.3] Old Version: [1.0.1]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [neos_common]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ai-models]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/58/81/4625b731c697163ccb860c0c97b44613692d02c2516a766b8670362359fd/codedepot_depot-0.0.5.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 14:48:05] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/b6/64/bf4700ed79a85fc259ef1fb72c98d9b30e4b8da075f59c67fd1e8eadf0b4/neos_common-0.9.2.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2024-04-19 14:48:05] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/c8/3c/332e00ed3e658a9aaadff47dadeb0901d02252c6eb0788c61a2fe98803b9/depot_api-1.0.1.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/1f/31/e4ba016dce1f0b6fcb4483aeafcc526336a8c631204bc0dcd9bf794dd455/ai-models-0.5.2.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/51/dc/9c6235466878c3dda428c3afb030440cc6111554951a7527d67179eaf67b/neos_common-0.9.3.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/a6/c3/baf41fe13cf895e1fd0bbe082601d4757b34d178f1efec36ffee0bbf32ad/sarus_data_spec_public-4.0.0.dev5.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 14:48:05] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/f3/34/8cc8817401b339ca334c1cc4bfb5c41fa59142aeb5916c51b0bfc2fbe9c1/codedepot_depot-0.0.6.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [neos_common]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [neos_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neos_common-0.9.2.tar.gz tmp/neos_common-0.9.3.tar.gz --markdown 20240419/n/neos_common/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [depot-api]: Downloading https://files.pythonhosted.org/packages/d1/59/4ed435efbdf4cc4ed5689fd89f1e98a17fef0741303dac95b8f1c0be3434/depot_api-1.0.3.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/d3/92/d73a848ced08afa8ed09272b9b1cc00fb8f8a12274edd2429a1f5603f881/ai-models-0.5.3.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.5.tar.gz tmp/codedepot_depot-0.0.6.tar.gz --markdown 20240419/c/codedepot-depot/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2024-04-19 14:48:05] INFO root fetch - processPackages [depot-api]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [depot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depot_api-1.0.1.tar.gz tmp/depot_api-1.0.3.tar.gz --markdown 20240419/d/depot-api/1.0.1-1.0.3/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ai-models]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [ai-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-models-0.5.2.tar.gz tmp/ai-models-0.5.3.tar.gz --markdown 20240419/a/ai-models/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2024-04-19 14:48:05] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20240419/d/docsig/0.7.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 14:48:05] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-04-19 14:48:06] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-19 14:48:06] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz --markdown 20240419/s/sarus-data-spec-public/4.0.0.dev5-4.0.0.dev6/README.md --exclude *.pyd
+[2024-04-19 14:48:06] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.5.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.6.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-19 14:48:06] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.2.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.3.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - main [MainThread]: End processing [neos_common]: success
+[2024-04-19 14:48:06] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2024-04-19 14:48:06] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai-models-0.5.2.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai-models-0.5.3.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - main [MainThread]: End processing [ai-models]: success
+[2024-04-19 14:48:06] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.1.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - processPackages [depot-api]: Remove: archive file [/home/abi/fetcher/tmp/depot_api-1.0.3.tar.gz]
+[2024-04-19 14:48:06] INFO root fetch - main [MainThread]: End processing [depot-api]: success
+[2024-04-19 14:48:07] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 14:48:07] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 14:48:07] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 14:48:07] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz]
+[2024-04-19 14:48:07] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-04-19 14:48:07] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-19 14:48:07] INFO root fetch - main [MainThread]: Store serial: [22841898]
