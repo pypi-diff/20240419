@@ -14751,3 +14751,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:40:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-19 10:40:47] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-19 10:40:47] INFO root fetch - main [MainThread]: Store serial: [22838837]
+[2024-04-19 10:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838837]
+[2024-04-19 10:42:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-blockbee
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: victron
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhula
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: XEdu-python
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tomwer
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conformal-tights
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbnlp
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gfagraphs
+[2024-04-19 10:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xtn-tools-pro
+[2024-04-19 10:42:56] WARNING root fetch - processPackages [nbnlp]: Skipping, unable to determine old version
+[2024-04-19 10:42:56] INFO root fetch - main [MainThread]: End processing [nbnlp] error
+[2024-04-19 10:42:56] WARNING root fetch - processPackages [pyhula]: Skipping, unable to determine old version
+[2024-04-19 10:42:56] INFO root fetch - main [MainThread]: End processing [pyhula] error
+[2024-04-19 10:42:56] WARNING root fetch - processPackages [victron]: Skipping, unable to determine old version
+[2024-04-19 10:42:56] INFO root fetch - main [MainThread]: End processing [victron] error
+[2024-04-19 10:42:56] INFO root fetch - processPackages [XEdu-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 10:42:56] INFO root fetch - processPackages [gfagraphs]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-19 10:42:56] INFO root fetch - processPackages [conformal-tights]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 10:42:56] INFO root fetch - processPackages [python-blockbee]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-19 10:42:56] INFO root fetch - processPackages [tomwer]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-19 10:42:56] WARNING root fetch - processPackages [xtn-tools-pro]: Skipping, unable to determine old version
+[2024-04-19 10:42:56] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro] error
+[2024-04-19 10:42:57] INFO root fetch - processPackages [XEdu-python]: Downloading https://files.pythonhosted.org/packages/8b/a9/b32172f010d19451cfad5a63f9cd6de79428fc4ed6838e8295eee0db0832/XEdu-python-0.1.3.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/7f/83/fac1481f6dd1b2e511a5eb60dca1828923be4fc918ac08dbcf05fea6cc26/gfagraphs-0.2.9.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/39/0c/4cff6a2db049460e42644253677e567cb70c7cba49e8e2e49c31e9206e4e/conformal_tights-0.3.0.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [python-blockbee]: Downloading https://files.pythonhosted.org/packages/50/0c/843d9ea20c16437ebd8f75e3d5289ccf828260a4ed955f472bbdb0ffc680/python-blockbee-2.0.0.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/be/91/1ab3961b84831b8fcfd7cce17a0cc334ef3231b6326f5e311f6f12a0397d/tomwer-1.3.8.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [gfagraphs]: Downloading https://files.pythonhosted.org/packages/d1/31/a71fbb731c9664265ae02364247f8001a828e63f4c763e0d605e62d32254/gfagraphs-0.3.0.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/58/c1/3ac1c5811d83b11ef159540309ab2635af22cb5d70e035439b38efa81b76/conformal_tights-0.3.1.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [python-blockbee]: Downloading https://files.pythonhosted.org/packages/27/32/9215faeff98e3f08117c8f8c5ad3e8f3bd51510eea0b982971a6f850b0f5/python-blockbee-2.0.1.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [gfagraphs]: executing diffoscope
+[2024-04-19 10:42:57] INFO root fetch - processPackages [gfagraphs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfagraphs-0.2.9.tar.gz tmp/gfagraphs-0.3.0.tar.gz --markdown 20240419/g/gfagraphs/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-19 10:42:57] INFO root fetch - processPackages [conformal-tights]: executing diffoscope
+[2024-04-19 10:42:57] INFO root fetch - processPackages [conformal-tights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conformal_tights-0.3.0.tar.gz tmp/conformal_tights-0.3.1.tar.gz --markdown 20240419/c/conformal-tights/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 10:42:57] INFO root fetch - processPackages [tomwer]: Downloading https://files.pythonhosted.org/packages/6d/57/c0bb17c90932b118b724c80808df82b9601c2ad2a905fcabed87d587240b/tomwer-1.3.9.tar.gz
+[2024-04-19 10:42:57] INFO root fetch - processPackages [python-blockbee]: executing diffoscope
+[2024-04-19 10:42:57] INFO root fetch - processPackages [python-blockbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-blockbee-2.0.0.tar.gz tmp/python-blockbee-2.0.1.tar.gz --markdown 20240419/p/python-blockbee/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-04-19 10:42:57] INFO root fetch - processPackages [XEdu-python]: Downloading https://files.pythonhosted.org/packages/49/d0/97d5088da3306c32059b519be5129d674685c3152f3f06ef90185a3abf06/XEdu-python-0.1.4.tar.gz
+[2024-04-19 10:42:58] INFO root fetch - processPackages [tomwer]: executing diffoscope
+[2024-04-19 10:42:58] INFO root fetch - processPackages [tomwer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomwer-1.3.8.tar.gz tmp/tomwer-1.3.9.tar.gz --markdown 20240419/t/tomwer/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-19 10:42:58] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.3.0.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.3.1.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - main [MainThread]: End processing [conformal-tights]: success
+[2024-04-19 10:42:58] INFO root fetch - processPackages [XEdu-python]: executing diffoscope
+[2024-04-19 10:42:58] INFO root fetch - processPackages [XEdu-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XEdu-python-0.1.3.tar.gz tmp/XEdu-python-0.1.4.tar.gz --markdown 20240419/X/XEdu-python/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 10:42:58] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.2.9.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - processPackages [gfagraphs]: Remove: archive file [/home/abi/fetcher/tmp/gfagraphs-0.3.0.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - main [MainThread]: End processing [gfagraphs]: success
+[2024-04-19 10:42:58] INFO root fetch - processPackages [python-blockbee]: Remove: archive file [/home/abi/fetcher/tmp/python-blockbee-2.0.0.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - processPackages [python-blockbee]: Remove: archive file [/home/abi/fetcher/tmp/python-blockbee-2.0.1.tar.gz]
+[2024-04-19 10:42:58] INFO root fetch - main [MainThread]: End processing [python-blockbee]: success
+[2024-04-19 10:42:59] INFO root fetch - processPackages [XEdu-python]: Remove: archive file [/home/abi/fetcher/tmp/XEdu-python-0.1.3.tar.gz]
+[2024-04-19 10:42:59] INFO root fetch - processPackages [XEdu-python]: Remove: archive file [/home/abi/fetcher/tmp/XEdu-python-0.1.4.tar.gz]
+[2024-04-19 10:42:59] INFO root fetch - main [MainThread]: End processing [XEdu-python]: success
+[2024-04-19 10:43:01] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.8.tar.gz]
+[2024-04-19 10:43:01] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.9.tar.gz]
+[2024-04-19 10:43:01] INFO root fetch - main [MainThread]: End processing [tomwer]: success
+[2024-04-19 10:43:01] INFO root fetch - main [MainThread]: Store serial: [22838872]
