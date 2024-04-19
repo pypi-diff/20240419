@@ -8894,3 +8894,24 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:44:11] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.2.1.tar.gz]
 [2024-04-19 05:44:11] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-04-19 05:44:11] INFO root fetch - main [MainThread]: Store serial: [22836241]
+[2024-04-19 05:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836241]
+[2024-04-19 05:46:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 05:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bopt-slf
+[2024-04-19 05:46:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macaw-auth
+[2024-04-19 05:46:20] INFO root fetch - processPackages [macaw-auth]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-19 05:46:20] INFO root fetch - processPackages [bopt-slf]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 05:46:20] INFO root fetch - processPackages [bopt-slf]: Downloading https://files.pythonhosted.org/packages/c2/98/e60c47b483b854cebda8d92be6111f27882f584a464379747cb810fa5071/bopt_slf-1.0.1.tar.gz
+[2024-04-19 05:46:20] INFO root fetch - processPackages [macaw-auth]: Downloading https://files.pythonhosted.org/packages/7b/7a/a963dab0caf1a2c178bc20fd89b530bb0861be7dd3aee7a807dc53e14a91/macaw-auth-1.0.0.tar.gz
+[2024-04-19 05:46:20] INFO root fetch - processPackages [macaw-auth]: Downloading https://files.pythonhosted.org/packages/28/b6/f7268247e0dec436cfe0d8a4d162035e18fc5cee9cdd92e901ba802cd5dc/macaw_auth-1.1.0.tar.gz
+[2024-04-19 05:46:20] INFO root fetch - processPackages [bopt-slf]: Downloading https://files.pythonhosted.org/packages/b8/4a/fc24d40c32fdb1b11997bfe8768f7cbe3c8a61ca264ac64a70acc4f893c6/bopt_slf-1.0.2.tar.gz
+[2024-04-19 05:46:20] INFO root fetch - processPackages [macaw-auth]: executing diffoscope
+[2024-04-19 05:46:20] INFO root fetch - processPackages [macaw-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macaw-auth-1.0.0.tar.gz tmp/macaw_auth-1.1.0.tar.gz --markdown 20240419/m/macaw-auth/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-19 05:46:20] INFO root fetch - processPackages [bopt-slf]: executing diffoscope
+[2024-04-19 05:46:20] INFO root fetch - processPackages [bopt-slf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bopt_slf-1.0.1.tar.gz tmp/bopt_slf-1.0.2.tar.gz --markdown 20240419/b/bopt-slf/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 05:46:21] INFO root fetch - processPackages [macaw-auth]: Remove: archive file [/home/abi/fetcher/tmp/macaw-auth-1.0.0.tar.gz]
+[2024-04-19 05:46:21] INFO root fetch - processPackages [macaw-auth]: Remove: archive file [/home/abi/fetcher/tmp/macaw_auth-1.1.0.tar.gz]
+[2024-04-19 05:46:21] INFO root fetch - main [MainThread]: End processing [macaw-auth]: success
+[2024-04-19 05:46:21] INFO root fetch - processPackages [bopt-slf]: Remove: archive file [/home/abi/fetcher/tmp/bopt_slf-1.0.1.tar.gz]
+[2024-04-19 05:46:21] INFO root fetch - processPackages [bopt-slf]: Remove: archive file [/home/abi/fetcher/tmp/bopt_slf-1.0.2.tar.gz]
+[2024-04-19 05:46:21] INFO root fetch - main [MainThread]: End processing [bopt-slf]: success
+[2024-04-19 05:46:21] INFO root fetch - main [MainThread]: Store serial: [22836246]
