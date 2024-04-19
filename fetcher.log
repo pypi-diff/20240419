@@ -11722,3 +11722,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:28:07] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0.3-py3-none-any.whl.zip]
 [2024-04-19 08:28:07] INFO root fetch - main [MainThread]: End processing [gaea-paddledet]: success
 [2024-04-19 08:28:07] INFO root fetch - main [MainThread]: Store serial: [22837485]
+[2024-04-19 08:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837485]
+[2024-04-19 08:30:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 08:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaca-eval
+[2024-04-19 08:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-19 08:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citation-rabbot
+[2024-04-19 08:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Xodia24
+[2024-04-19 08:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jpsapp
+[2024-04-19 08:30:16] INFO root fetch - processPackages [Xodia24]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-19 08:30:16] INFO root fetch - processPackages [cg]: New version: [60.2.0] Old Version: [60.1.6]
+[2024-04-19 08:30:16] INFO root fetch - processPackages [citation-rabbot]: New version: [3.9.1] Old Version: [3.9]
+[2024-04-19 08:30:16] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/f5/dd/a0c2d6c75817a0d8f69f59be4562fb925d54af61548aaf7352607844c418/Xodia24-0.0.7.tar.gz
+[2024-04-19 08:30:16] WARNING root fetch - processPackages [jpsapp]: Skipping, unable to determine old version
+[2024-04-19 08:30:16] INFO root fetch - main [MainThread]: End processing [jpsapp] error
+[2024-04-19 08:30:16] INFO root fetch - processPackages [alpaca-eval]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-19 08:30:16] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/ed/d2/f8bf901a49b9b33c0cb36ab0c7affe2946a407bcff938cc80c87606da353/citation-rabbot-3.9.tar.gz
+[2024-04-19 08:30:16] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6e/98/f4bcedd79fcc14f740e573a9ba148db9ddb4af2de893acf8db833b61e6d0/cg-60.1.6.tar.gz
+[2024-04-19 08:30:16] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/ef/7b/1f99aa8f0dc06a9aef09afae467b592577dcc3e0301bd223239687de2d36/Xodia24-0.0.9.tar.gz
+[2024-04-19 08:30:16] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/5a/0c/c46d793fa6f171816c6cc0e1f84488a71487a118b2d3800017198d424005/alpaca_eval-0.6.1.tar.gz
+[2024-04-19 08:30:16] INFO root fetch - processPackages [citation-rabbot]: Downloading https://files.pythonhosted.org/packages/32/05/50cb6bb89c49991087cf06565acc67b78f7d906423118076d4e45e849ea9/citation-rabbot-3.9.1.tar.gz
+[2024-04-19 08:30:16] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-19 08:30:16] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.7.tar.gz tmp/Xodia24-0.0.9.tar.gz --markdown 20240419/X/Xodia24/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-19 08:30:16] INFO root fetch - processPackages [citation-rabbot]: executing diffoscope
+[2024-04-19 08:30:16] INFO root fetch - processPackages [citation-rabbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation-rabbot-3.9.tar.gz tmp/citation-rabbot-3.9.1.tar.gz --markdown 20240419/c/citation-rabbot/3.9-3.9.1/README.md --exclude *.pyd
+[2024-04-19 08:30:17] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/8b/1f/a5b724bc11abfc5bb1e43a067527d9daec1051fe1f6f11d0db2c30325b7b/alpaca_eval-0.6.2.tar.gz
+[2024-04-19 08:30:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/54/8e/8de3a2ffbc16e564bf03de37309d4bed264f708b7dd2827148b11a2be355/cg-60.2.0.tar.gz
+[2024-04-19 08:30:17] INFO root fetch - processPackages [alpaca-eval]: executing diffoscope
+[2024-04-19 08:30:17] INFO root fetch - processPackages [alpaca-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_eval-0.6.1.tar.gz tmp/alpaca_eval-0.6.2.tar.gz --markdown 20240419/a/alpaca-eval/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-19 08:30:17] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-19 08:30:17] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.1.6.tar.gz tmp/cg-60.2.0.tar.gz --markdown 20240419/c/cg/60.1.6-60.2.0/README.md --exclude *.pyd
+[2024-04-19 08:30:17] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.7.tar.gz]
+[2024-04-19 08:30:17] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.9.tar.gz]
+[2024-04-19 08:30:17] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-19 08:30:17] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.tar.gz]
+[2024-04-19 08:30:17] INFO root fetch - processPackages [citation-rabbot]: Remove: archive file [/home/abi/fetcher/tmp/citation-rabbot-3.9.1.tar.gz]
+[2024-04-19 08:30:17] INFO root fetch - main [MainThread]: End processing [citation-rabbot]: success
+[2024-04-19 08:30:18] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.6.1.tar.gz]
+[2024-04-19 08:30:18] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.6.2.tar.gz]
+[2024-04-19 08:30:18] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
+[2024-04-19 08:30:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.1.6.tar.gz]
+[2024-04-19 08:30:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.0.tar.gz]
+[2024-04-19 08:30:21] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-19 08:30:21] INFO root fetch - main [MainThread]: Store serial: [22837501]
