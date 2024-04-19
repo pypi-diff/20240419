@@ -17952,3 +17952,66 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:11:40] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041809.tar.gz]
 [2024-04-19 12:11:40] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-19 12:11:40] INFO root fetch - main [MainThread]: Store serial: [22840102]
+[2024-04-19 12:13:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840102]
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edds
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydress
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-python-scrapy
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distilabel
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchenhanced
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whyis-activitystreams
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edds
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: convocations
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: proxycycle
+[2024-04-19 12:14:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: epyt
+[2024-04-19 12:14:00] WARNING root fetch - processPackages [new-python-scrapy]: Skipping, unable to determine old version
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: End processing [new-python-scrapy] error
+[2024-04-19 12:14:00] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 12:14:00] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 12:14:00] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 12:14:00] WARNING root fetch - processPackages [pydress]: Skipping, unable to determine old version
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: End processing [pydress] error
+[2024-04-19 12:14:00] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/c7/a5/994df51bbf5ecd1a7f0ea58689845c348271fef54b1421fa9e0b92be3afa/whyis_activitystreams-0.1.1.tar.gz
+[2024-04-19 12:14:00] WARNING root fetch - processPackages [proxycycle]: Skipping, unable to determine old version
+[2024-04-19 12:14:00] INFO root fetch - main [MainThread]: End processing [proxycycle] error
+[2024-04-19 12:14:00] INFO root fetch - processPackages [convocations]: New version: [1.9] Old Version: [1.8]
+[2024-04-19 12:14:00] INFO root fetch - processPackages [distilabel]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 12:14:00] INFO root fetch - processPackages [epyt]: New version: [1.0.9b8] Old Version: [1.0.9b7]
+[2024-04-19 12:14:00] INFO root fetch - processPackages [torchenhanced]: New version: [0.3.0b2] Old Version: [0.3.0b1]
+[2024-04-19 12:14:00] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/fb/db/da2992e9f055eacb2edfe5237427e57be8ce302e032f3050481941ae1bf7/convocations-1.8.tar.gz
+[2024-04-19 12:14:00] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/97/bd/20de65a2ec1567ed65c308fb4e3daf00253dfa4054004b85452c89dd7651/distilabel-1.0.0.tar.gz
+[2024-04-19 12:14:00] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/53/fc/94d32e95c2b8e1710df6a4589f113030c3a196116388e4c2cec193ee8df8/torchenhanced-0.3.0b1.tar.gz
+[2024-04-19 12:14:00] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/da/51/09cb4ea530682b3d42f8401aed61e2b79409b402c928a870ff0ed2fc17c7/epyt-1.0.9b7.tar.gz
+[2024-04-19 12:14:00] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/31/80/2228f692f8be252a3bbd330abc34982ee139aebe1502952eacd6d253d519/whyis_activitystreams-0.1.2.tar.gz
+[2024-04-19 12:14:01] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 12:14:01] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis_activitystreams-0.1.1.tar.gz tmp/whyis_activitystreams-0.1.2.tar.gz --markdown 20240419/w/whyis-activitystreams/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 12:14:01] INFO root fetch - processPackages [convocations]: Downloading https://files.pythonhosted.org/packages/26/06/8cba7e1f874d3ad177924e3e894b6709038b6ca3e28d49b7f73b9a438925/convocations-1.9.tar.gz
+[2024-04-19 12:14:01] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/d7/a8/78adfbae94f0c177c55f74e6bb0c1fc82272ccc3b750bf3da2060dac3a08/torchenhanced-0.3.0b2.tar.gz
+[2024-04-19 12:14:01] INFO root fetch - processPackages [torchenhanced]: executing diffoscope
+[2024-04-19 12:14:01] INFO root fetch - processPackages [torchenhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchenhanced-0.3.0b1.tar.gz tmp/torchenhanced-0.3.0b2.tar.gz --markdown 20240419/t/torchenhanced/0.3.0b1-0.3.0b2/README.md --exclude *.pyd
+[2024-04-19 12:14:01] INFO root fetch - processPackages [convocations]: executing diffoscope
+[2024-04-19 12:14:01] INFO root fetch - processPackages [convocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/convocations-1.8.tar.gz tmp/convocations-1.9.tar.gz --markdown 20240419/c/convocations/1.8-1.9/README.md --exclude *.pyd
+[2024-04-19 12:14:01] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/69/7a/8d1f98b94b416622f89427fcad4975bcdfad7dd2b4b3dede755eb64444b3/distilabel-1.0.1.tar.gz
+[2024-04-19 12:14:01] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.1.1.tar.gz]
+[2024-04-19 12:14:01] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.1.2.tar.gz]
+[2024-04-19 12:14:01] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 12:14:01] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/b8/e1/e15704a3b7896836463fd44ad6beb88eaef1871df3ff6c439b2400432aba/epyt-1.0.9b8.tar.gz
+[2024-04-19 12:14:01] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.3.0b1.tar.gz]
+[2024-04-19 12:14:01] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.3.0b2.tar.gz]
+[2024-04-19 12:14:01] INFO root fetch - main [MainThread]: End processing [torchenhanced]: success
+[2024-04-19 12:14:02] INFO root fetch - processPackages [distilabel]: executing diffoscope
+[2024-04-19 12:14:02] INFO root fetch - processPackages [distilabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distilabel-1.0.0.tar.gz tmp/distilabel-1.0.1.tar.gz --markdown 20240419/d/distilabel/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 12:14:02] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.8.tar.gz]
+[2024-04-19 12:14:02] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-1.9.tar.gz]
+[2024-04-19 12:14:02] INFO root fetch - main [MainThread]: End processing [convocations]: success
+[2024-04-19 12:14:03] INFO root fetch - processPackages [epyt]: executing diffoscope
+[2024-04-19 12:14:03] INFO root fetch - processPackages [epyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt-1.0.9b7.tar.gz tmp/epyt-1.0.9b8.tar.gz --markdown 20240419/e/epyt/1.0.9b7-1.0.9b8/README.md --exclude *.pyd
+[2024-04-19 12:14:03] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.0.0.tar.gz]
+[2024-04-19 12:14:03] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.0.1.tar.gz]
+[2024-04-19 12:14:03] INFO root fetch - main [MainThread]: End processing [distilabel]: success
+[2024-04-19 12:14:08] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b7.tar.gz]
+[2024-04-19 12:14:08] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.9b8.tar.gz]
+[2024-04-19 12:14:08] INFO root fetch - main [MainThread]: End processing [epyt]: success
+[2024-04-19 12:14:08] INFO root fetch - main [MainThread]: Store serial: [22840138]
