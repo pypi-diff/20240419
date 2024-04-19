@@ -10382,3 +10382,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:30:11] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.742.2.tar.gz]
 [2024-04-19 07:30:11] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-19 07:30:11] INFO root fetch - main [MainThread]: Store serial: [22836916]
+[2024-04-19 07:32:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836916]
+[2024-04-19 07:32:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-cert-manager
+[2024-04-19 07:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-toolkit
+[2024-04-19 07:32:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vuer
+[2024-04-19 07:32:20] INFO root fetch - processPackages [audio-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 07:32:20] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 07:32:20] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: New version: [0.0.7a1713503099] Old Version: [0.0.7a1713480676]
+[2024-04-19 07:32:20] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/29/ae/b799066177e80e4d26ca4adaefb2ad71ac295f683902c3495855990aab1f/audio_toolkit-0.8.0.tar.gz
+[2024-04-19 07:32:20] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-19 07:32:20] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/bf/80/2dc16f4c5cae1992c84430c5ec26a2098fa7aa52c99e1c1ad52a3ee1ee5f/pulumi_kubernetes_cert_manager-0.0.7a1713480676.tar.gz
+[2024-04-19 07:32:21] INFO root fetch - processPackages [audio-toolkit]: Downloading https://files.pythonhosted.org/packages/43/81/e233c8ea4ca49fa50106d7dac243d3f4cd2ea276a3e4c7ecacc7abee0008/audio_toolkit-0.9.0.tar.gz
+[2024-04-19 07:32:21] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-19 07:32:21] INFO root fetch - processPackages [audio-toolkit]: executing diffoscope
+[2024-04-19 07:32:21] INFO root fetch - processPackages [audio-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_toolkit-0.8.0.tar.gz tmp/audio_toolkit-0.9.0.tar.gz --markdown 20240419/a/audio-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 07:32:21] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-19 07:32:21] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240419/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Downloading https://files.pythonhosted.org/packages/38/25/770a7f547c2caa345b9d997885ce4831d9f7edf2264175a147c42ce9b2c6/pulumi_kubernetes_cert_manager-0.0.7a1713503099.tar.gz
+[2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: executing diffoscope
+[2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_cert_manager-0.0.7a1713480676.tar.gz tmp/pulumi_kubernetes_cert_manager-0.0.7a1713503099.tar.gz --markdown 20240419/p/pulumi-kubernetes-cert-manager/0.0.7a1713480676-0.0.7a1713503099/README.md --exclude *.pyd
+[2024-04-19 07:32:21] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.8.0.tar.gz]
+[2024-04-19 07:32:21] INFO root fetch - processPackages [audio-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/audio_toolkit-0.9.0.tar.gz]
+[2024-04-19 07:32:21] INFO root fetch - main [MainThread]: End processing [audio-toolkit]: success
+[2024-04-19 07:32:21] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-19 07:32:21] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-19 07:32:21] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.0.7a1713480676.tar.gz]
+[2024-04-19 07:32:21] INFO root fetch - processPackages [pulumi-kubernetes-cert-manager]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_cert_manager-0.0.7a1713503099.tar.gz]
+[2024-04-19 07:32:21] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-cert-manager]: success
+[2024-04-19 07:32:21] INFO root fetch - main [MainThread]: Store serial: [22836922]
