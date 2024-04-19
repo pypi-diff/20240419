@@ -16742,3 +16742,75 @@ AssertionError: tmp/fds.sdk.StreetAccountNews-0.20.4-py3-none-any.whl.zip does n
 [2024-04-19 11:37:41] INFO root fetch - processPackages [paddle2onnx]: Remove: archive file [/home/abi/fetcher/tmp/paddle2onnx-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-19 11:37:41] INFO root fetch - main [MainThread]: End processing [paddle2onnx]: success
 [2024-04-19 11:37:41] INFO root fetch - main [MainThread]: Store serial: [22839638]
+[2024-04-19 11:39:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839638]
+[2024-04-19 11:40:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phasepy
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-railway-signals
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: globlocks
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shifucvefinder
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: griffe
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skshapes
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pnote
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-yinying-chat
+[2024-04-19 11:40:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xarray-safe-s1
+[2024-04-19 11:40:00] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2024.4.19] Old Version: [2024.1.9]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: New version: [2.3] Old Version: [2.0]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [globlocks]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [phasepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [pnote]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 11:40:00] WARNING root fetch - processPackages [shifucvefinder]: Skipping, unable to determine old version
+[2024-04-19 11:40:00] INFO root fetch - main [MainThread]: End processing [shifucvefinder] error
+[2024-04-19 11:40:00] WARNING root fetch - processPackages [skshapes]: Skipping, unable to determine old version
+[2024-04-19 11:40:00] INFO root fetch - main [MainThread]: End processing [skshapes] error
+[2024-04-19 11:40:00] INFO root fetch - processPackages [model-railway-signals]: New version: [4.2.0] Old Version: [4.1.0]
+[2024-04-19 11:40:00] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/6a/5e/9c228c951729e955b032863b6716447839ed27e5e6288b33f4bf82ba87b5/xarray-safe-s1-2024.1.9.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/3d/ca/38d703a967ace17675feb85a3a6441b4b76b564fd5f90b071f005244acbc/globlocks-1.2.0.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/2e/85/6196a0fc698590ebbd7c8128d3a206e5470dd5686118d778c973b731dfe4/nonebot-plugin-yinying-chat-2.0.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [pnote]: Downloading https://files.pythonhosted.org/packages/73/3b/0de39ba935a6540bf87f046e8b2329c025900e40172a3549aaaea0902155/pnote-0.0.6.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [model-railway-signals]: Downloading https://files.pythonhosted.org/packages/1f/b3/d09479205d357adf9e21416d543803af7739e2fec2bbc95a3ec362013388/model_railway_signals-4.1.0.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Downloading https://files.pythonhosted.org/packages/9a/3e/59003225ada0ed89d92c5e5017f522018e6df48de46f2a633bd63a74b31d/nonebot-plugin-yinying-chat-2.3.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [phasepy]: Downloading https://files.pythonhosted.org/packages/38/37/7dc3f4569d705e355357b97d5046a8bbdbbe97d8f650dbcbd1513c0c33dd/phasepy-0.0.8.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/5d/88/62a2e059a1ed8e3fd56e7126ba1d8d52b15abb6027025f85a697b9cdf842/xarray_safe_s1-2024.4.19.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2024-04-19 11:40:00] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2024-04-19 11:40:00] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-2024.1.9.tar.gz tmp/xarray_safe_s1-2024.4.19.tar.gz --markdown 20240419/x/xarray-safe-s1/2024.1.9-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 11:40:00] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2024-04-19 11:40:00] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20240419/g/griffe/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 11:40:00] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: executing diffoscope
+[2024-04-19 11:40:00] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-yinying-chat-2.0.tar.gz tmp/nonebot-plugin-yinying-chat-2.3.tar.gz --markdown 20240419/n/nonebot-plugin-yinying-chat/2.0-2.3/README.md --exclude *.pyd
+[2024-04-19 11:40:01] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/88/85/28902a95c2848c8f38a8bc7f6eb0c34fb1696405de38bbc98366db00db3d/globlocks-1.2.1.tar.gz
+[2024-04-19 11:40:01] INFO root fetch - processPackages [pnote]: Downloading https://files.pythonhosted.org/packages/cd/4f/fd4f137b1db2d58a3f09d98ae77d6a3e4e8816c4f55a90274bcbc79393ab/pnote-0.0.7.tar.gz
+[2024-04-19 11:40:01] INFO root fetch - processPackages [phasepy]: Downloading https://files.pythonhosted.org/packages/39/ff/288c40a900d2413d4fb884c101d8b133d43c250b2fe6a3d3f3650c42435f/phasepy-0.0.9.tar.gz
+[2024-04-19 11:40:01] INFO root fetch - processPackages [model-railway-signals]: Downloading https://files.pythonhosted.org/packages/93/2b/48c70f1d0f51e67abbe1f4f60afbb6dc94be75328d2656f8ac31a64f4e6e/model_railway_signals-4.2.0.tar.gz
+[2024-04-19 11:40:01] INFO root fetch - processPackages [globlocks]: executing diffoscope
+[2024-04-19 11:40:01] INFO root fetch - processPackages [globlocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globlocks-1.2.0.tar.gz tmp/globlocks-1.2.1.tar.gz --markdown 20240419/g/globlocks/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 11:40:01] INFO root fetch - processPackages [phasepy]: executing diffoscope
+[2024-04-19 11:40:01] INFO root fetch - processPackages [phasepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phasepy-0.0.8.tar.gz tmp/phasepy-0.0.9.tar.gz --markdown 20240419/p/phasepy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 11:40:01] INFO root fetch - processPackages [pnote]: executing diffoscope
+[2024-04-19 11:40:01] INFO root fetch - processPackages [pnote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnote-0.0.6.tar.gz tmp/pnote-0.0.7.tar.gz --markdown 20240419/p/pnote/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 11:40:01] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.0.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - processPackages [nonebot-plugin-yinying-chat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-yinying-chat-2.3.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-yinying-chat]: success
+[2024-04-19 11:40:01] INFO root fetch - processPackages [model-railway-signals]: executing diffoscope
+[2024-04-19 11:40:01] INFO root fetch - processPackages [model-railway-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_railway_signals-4.1.0.tar.gz tmp/model_railway_signals-4.2.0.tar.gz --markdown 20240419/m/model-railway-signals/4.1.0-4.2.0/README.md --exclude *.pyd
+[2024-04-19 11:40:01] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray-safe-s1-2024.1.9.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.4.19.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2024-04-19 11:40:01] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.8.0.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - processPackages [griffe]: Remove: archive file [/home/abi/fetcher/tmp/griffe-0.9.0.tar.gz]
+[2024-04-19 11:40:01] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2024-04-19 11:40:02] INFO root fetch - processPackages [pnote]: Remove: archive file [/home/abi/fetcher/tmp/pnote-0.0.6.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - processPackages [pnote]: Remove: archive file [/home/abi/fetcher/tmp/pnote-0.0.7.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - main [MainThread]: End processing [pnote]: success
+[2024-04-19 11:40:02] INFO root fetch - processPackages [phasepy]: Remove: archive file [/home/abi/fetcher/tmp/phasepy-0.0.8.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - processPackages [phasepy]: Remove: archive file [/home/abi/fetcher/tmp/phasepy-0.0.9.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - main [MainThread]: End processing [phasepy]: success
+[2024-04-19 11:40:02] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.0.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.1.tar.gz]
+[2024-04-19 11:40:02] INFO root fetch - main [MainThread]: End processing [globlocks]: success
+[2024-04-19 11:40:28] INFO root fetch - processPackages [model-railway-signals]: Remove: archive file [/home/abi/fetcher/tmp/model_railway_signals-4.1.0.tar.gz]
+[2024-04-19 11:40:28] INFO root fetch - processPackages [model-railway-signals]: Remove: archive file [/home/abi/fetcher/tmp/model_railway_signals-4.2.0.tar.gz]
+[2024-04-19 11:40:28] INFO root fetch - main [MainThread]: End processing [model-railway-signals]: success
+[2024-04-19 11:40:28] INFO root fetch - main [MainThread]: Store serial: [22839671]
