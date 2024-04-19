@@ -14354,3 +14354,43 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:21:00] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
 [2024-04-19 10:21:00] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
 [2024-04-19 10:21:00] INFO root fetch - main [MainThread]: Store serial: [22838632]
+[2024-04-19 10:23:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838632]
+[2024-04-19 10:23:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 10:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protoplasm
+[2024-04-19 10:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indico
+[2024-04-19 10:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-parser
+[2024-04-19 10:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AstecManager
+[2024-04-19 10:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-server
+[2024-04-19 10:23:09] INFO root fetch - processPackages [fractal-server]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2024-04-19 10:23:10] INFO root fetch - processPackages [open-parser]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 10:23:10] INFO root fetch - processPackages [protoplasm]: New version: [5.0.1] Old Version: [5.0.0b2]
+[2024-04-19 10:23:10] INFO root fetch - processPackages [indico]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-19 10:23:10] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/f8/12/2335911669aec79c0cce439c399ad2e0c9d58f6b47d866cbef3122364b97/fractal_server-2.0.0a8.tar.gz
+[2024-04-19 10:23:10] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 10:23:10] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/ca/21/50693dad34dd34e2f712ef45c8455e5c18481081c3cf3c9839eeb25eea89/open_parser-0.0.5.tar.gz
+[2024-04-19 10:23:10] INFO root fetch - processPackages [protoplasm]: Downloading https://files.pythonhosted.org/packages/a0/7e/4ab7decc433109b58b9fcd79560538c91708e22e94944fa8e9662275b5c7/protoplasm-5.0.0b2.tar.gz
+[2024-04-19 10:23:10] INFO root fetch - processPackages [indico]: Downloading https://files.pythonhosted.org/packages/53/49/fe7312cf01471c1ed0e3d1f7757b13436d6a4c5681250578fb312e7d6a5f/indico-3.3.1-py3-none-any.whl
+[2024-04-19 10:23:10] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ef/ad/58405ebb44f6559aefa712288e9ea086594faec7a4f37e2c8eaf19359168/fractal_server-2.0.0a9.tar.gz
+[2024-04-19 10:23:10] WARNING root fetch - processPackages [indico]: Skipping package: exceeds size limit 38093703>=10485760
+[2024-04-19 10:23:10] INFO root fetch - main [MainThread]: End processing [indico] error
+[2024-04-19 10:23:10] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-04-19 10:23:10] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-04-19 10:23:10] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-19 10:23:10] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-04-19 10:23:10] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.0a8.tar.gz tmp/fractal_server-2.0.0a9.tar.gz --markdown 20240419/f/fractal-server/2.0.0a8-2.0.0a9/README.md --exclude *.pyd
+[2024-04-19 10:23:10] INFO root fetch - processPackages [open-parser]: Downloading https://files.pythonhosted.org/packages/a0/b9/5a8602f4b85ab980df312b92221aff42bdcc3db9d3394075c0d2fd3374e3/open_parser-0.0.6.tar.gz
+[2024-04-19 10:23:10] INFO root fetch - processPackages [protoplasm]: Downloading https://files.pythonhosted.org/packages/24/34/5eda4e0389baa2f93d7e55778a8faf2ae8a107a065ec39df4f016f0b4be2/protoplasm-5.0.1.tar.gz
+[2024-04-19 10:23:10] INFO root fetch - processPackages [open-parser]: executing diffoscope
+[2024-04-19 10:23:10] INFO root fetch - processPackages [open-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_parser-0.0.5.tar.gz tmp/open_parser-0.0.6.tar.gz --markdown 20240419/o/open-parser/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 10:23:10] INFO root fetch - processPackages [protoplasm]: executing diffoscope
+[2024-04-19 10:23:10] INFO root fetch - processPackages [protoplasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoplasm-5.0.0b2.tar.gz tmp/protoplasm-5.0.1.tar.gz --markdown 20240419/p/protoplasm/5.0.0b2-5.0.1/README.md --exclude *.pyd
+[2024-04-19 10:23:11] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.5.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - processPackages [open-parser]: Remove: archive file [/home/abi/fetcher/tmp/open_parser-0.0.6.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - main [MainThread]: End processing [open-parser]: success
+[2024-04-19 10:23:11] INFO root fetch - processPackages [protoplasm]: Remove: archive file [/home/abi/fetcher/tmp/protoplasm-5.0.0b2.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - processPackages [protoplasm]: Remove: archive file [/home/abi/fetcher/tmp/protoplasm-5.0.1.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - main [MainThread]: End processing [protoplasm]: success
+[2024-04-19 10:23:11] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a8.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.0a9.tar.gz]
+[2024-04-19 10:23:11] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-04-19 10:23:11] INFO root fetch - main [MainThread]: Store serial: [22838645]
