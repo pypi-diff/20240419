@@ -19934,3 +19934,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:27:14] INFO root fetch - processPackages [RsCMX-Signaling]: Remove: archive file [/home/abi/fetcher/tmp/RsCMX_Signaling-7.70.0.tar.gz]
 [2024-04-19 13:27:14] INFO root fetch - main [MainThread]: End processing [RsCMX-Signaling]: success
 [2024-04-19 13:27:14] INFO root fetch - main [MainThread]: Store serial: [22840929]
+[2024-04-19 13:29:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840929]
+[2024-04-19 13:29:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-dolphin
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promplate-pyodide
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ParametricSpectralClustering
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: temod
+[2024-04-19 13:29:24] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 13:29:24] INFO root fetch - processPackages [promplate-pyodide]: New version: [0.0.3a5] Old Version: [0.0.3a4]
+[2024-04-19 13:29:24] INFO root fetch - processPackages [selenium-dolphin]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ParametricSpectralClustering]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 13:29:24] INFO root fetch - processPackages [temod]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-19 13:29:24] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 13:29:24] INFO root fetch - processPackages [ParametricSpectralClustering]: Downloading https://files.pythonhosted.org/packages/cc/5b/34b183a0f13371b38e20d807fe0201a76e35a6af6c87d891261285557430/ParametricSpectralClustering-0.0.1.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [promplate-pyodide]: Downloading https://files.pythonhosted.org/packages/4a/f9/216cd3ef6466447a804f44fb3680384af66994afc4ff15167fff661bc39e/promplate_pyodide-0.0.3a4.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [selenium-dolphin]: Downloading https://files.pythonhosted.org/packages/1c/60/57903cbb4fc90f6a09a916a6cb1d6352173d2f31e68fb9bee56a600dcb2c/selenium_dolphin-1.0.5.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/a4/95/c2ec9f53a0ce72ae73893695d1f36e8ded371faee602ae722b5217e21663/temod-2.0.8.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [ParametricSpectralClustering]: Downloading https://files.pythonhosted.org/packages/cb/f0/6ae668c2d12af3323dfb1dc4a8308fc8938910b7244ba9b76712c56e3507/ParametricSpectralClustering-0.0.2.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 13:29:25] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 13:29:25] INFO root fetch - processPackages [selenium-dolphin]: Downloading https://files.pythonhosted.org/packages/90/12/26175dbeeb80767c0bde51311ef8afafce7f92a1dfaa31c2aeff08beffec/selenium_dolphin-1.0.6.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/71/0a/daf04fa420f0217ffa3e63bdf9911aad8ba6c129c1c1681a6e2d69c4de96/temod-2.0.9.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [promplate-pyodide]: Downloading https://files.pythonhosted.org/packages/9e/07/31db5b92739f325b98e71eabc92d862fde53c8b39f4bf36a8588f1f856ad/promplate_pyodide-0.0.3a5.tar.gz
+[2024-04-19 13:29:25] INFO root fetch - processPackages [ParametricSpectralClustering]: executing diffoscope
+[2024-04-19 13:29:25] INFO root fetch - processPackages [ParametricSpectralClustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParametricSpectralClustering-0.0.1.tar.gz tmp/ParametricSpectralClustering-0.0.2.tar.gz --markdown 20240419/P/ParametricSpectralClustering/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 13:29:25] INFO root fetch - processPackages [selenium-dolphin]: executing diffoscope
+[2024-04-19 13:29:25] INFO root fetch - processPackages [selenium-dolphin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_dolphin-1.0.5.tar.gz tmp/selenium_dolphin-1.0.6.tar.gz --markdown 20240419/s/selenium-dolphin/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-19 13:29:25] INFO root fetch - processPackages [temod]: executing diffoscope
+[2024-04-19 13:29:25] INFO root fetch - processPackages [temod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temod-2.0.8.tar.gz tmp/temod-2.0.9.tar.gz --markdown 20240419/t/temod/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-19 13:29:25] INFO root fetch - processPackages [promplate-pyodide]: executing diffoscope
+[2024-04-19 13:29:25] INFO root fetch - processPackages [promplate-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate_pyodide-0.0.3a4.tar.gz tmp/promplate_pyodide-0.0.3a5.tar.gz --markdown 20240419/p/promplate-pyodide/0.0.3a4-0.0.3a5/README.md --exclude *.pyd
+[2024-04-19 13:29:26] INFO root fetch - processPackages [selenium-dolphin]: Remove: archive file [/home/abi/fetcher/tmp/selenium_dolphin-1.0.5.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - processPackages [selenium-dolphin]: Remove: archive file [/home/abi/fetcher/tmp/selenium_dolphin-1.0.6.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [selenium-dolphin]: success
+[2024-04-19 13:29:26] INFO root fetch - processPackages [promplate-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/promplate_pyodide-0.0.3a4.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - processPackages [promplate-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/promplate_pyodide-0.0.3a5.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [promplate-pyodide]: success
+[2024-04-19 13:29:26] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.8.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.9.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [temod]: success
+[2024-04-19 13:29:26] INFO root fetch - processPackages [ParametricSpectralClustering]: Remove: archive file [/home/abi/fetcher/tmp/ParametricSpectralClustering-0.0.1.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - processPackages [ParametricSpectralClustering]: Remove: archive file [/home/abi/fetcher/tmp/ParametricSpectralClustering-0.0.2.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [ParametricSpectralClustering]: success
+[2024-04-19 13:29:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 13:29:26] INFO root fetch - main [MainThread]: Store serial: [22840971]
