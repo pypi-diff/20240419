@@ -1949,3 +1949,24 @@
 [2024-04-19 01:58:36] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.1.9.tar.gz]
 [2024-04-19 01:58:36] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
 [2024-04-19 01:58:36] INFO root fetch - main [MainThread]: Store serial: [22833513]
+[2024-04-19 02:00:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833513]
+[2024-04-19 02:00:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 02:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyckel
+[2024-04-19 02:00:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loretta
+[2024-04-19 02:00:44] INFO root fetch - processPackages [nyckel]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 02:00:44] INFO root fetch - processPackages [loretta]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-19 02:00:44] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/27/76/2448df82800ec7ea7dbeca64acba04d1ffe0e8a494c8554fd1a5cb1b9196/nyckel-0.4.0.tar.gz
+[2024-04-19 02:00:44] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/d2/6c/71195a4bff00e0e867f70cc48fc487fa952604b83ec713d894c28c8a5c3a/loretta-0.1.0.tar.gz
+[2024-04-19 02:00:45] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/f5/e4/127f81a2f23c6e40d267352d475f84d6d17986751162bf7c3f7989464e54/nyckel-0.4.1.tar.gz
+[2024-04-19 02:00:45] INFO root fetch - processPackages [loretta]: Downloading https://files.pythonhosted.org/packages/90/31/9b799e607531f035f7f838e9fdf60a9167ea1b3f5f3450ef2b5d2e209493/loretta-0.1.2.tar.gz
+[2024-04-19 02:00:45] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2024-04-19 02:00:45] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.4.0.tar.gz tmp/nyckel-0.4.1.tar.gz --markdown 20240419/n/nyckel/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 02:00:45] INFO root fetch - processPackages [loretta]: executing diffoscope
+[2024-04-19 02:00:45] INFO root fetch - processPackages [loretta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loretta-0.1.0.tar.gz tmp/loretta-0.1.2.tar.gz --markdown 20240419/l/loretta/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-19 02:00:45] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.0.tar.gz]
+[2024-04-19 02:00:45] INFO root fetch - processPackages [loretta]: Remove: archive file [/home/abi/fetcher/tmp/loretta-0.1.2.tar.gz]
+[2024-04-19 02:00:45] INFO root fetch - main [MainThread]: End processing [loretta]: success
+[2024-04-19 02:00:45] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.4.0.tar.gz]
+[2024-04-19 02:00:45] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.4.1.tar.gz]
+[2024-04-19 02:00:45] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2024-04-19 02:00:45] INFO root fetch - main [MainThread]: Store serial: [22833520]
