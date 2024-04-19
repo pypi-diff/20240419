@@ -10242,3 +10242,87 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:23:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-04-19 07:23:07] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-04-19 07:23:07] INFO root fetch - main [MainThread]: Store serial: [22836871]
+[2024-04-19 07:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836871]
+[2024-04-19 07:25:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiida-worktree
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zvolv-sdk
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featureform-enterprise
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exafs-neo
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aporacle
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalpha
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: festo-edcon
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqprocessor
+[2024-04-19 07:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dex-retargeting
+[2024-04-19 07:25:16] INFO root fetch - processPackages [exafs-neo]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [aiida-worktree]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [aporacle]: New version: [0.0.135] Old Version: [0.0.134]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [featureform-enterprise]: New version: [0.13.2rc1] Old Version: [0.13.2rc0]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [seqprocessor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [zvolv-sdk]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/82/16/24bd76779cd7cd8ff340176d6069eccdaabff78add929f768fb5c72dcb35/exafs_neo-2.0.1.tar.gz
+[2024-04-19 07:25:16] INFO root fetch - processPackages [dalpha]: New version: [0.4.4rc1] Old Version: [0.4.4rc0]
+[2024-04-19 07:25:16] INFO root fetch - processPackages [aiida-worktree]: Downloading https://files.pythonhosted.org/packages/13/be/2bd1f0dc665f471ed758f160704ab790f6431ece5a663ac884074c1b36d1/aiida_worktree-0.1.6.tar.gz
+[2024-04-19 07:25:16] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/e4/87/5b438c5c7efa0032e4f910ab64a0c76339554e0613b81445604942728a7c/aporacle-0.0.134.tar.gz
+[2024-04-19 07:25:16] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/17/2d/5e35fbd227ff927ff076bf15c28b64c57b7464a0b6615f77c00a8ac4e963/featureform_enterprise-0.13.2rc0.tar.gz
+[2024-04-19 07:25:16] INFO root fetch - processPackages [dex-retargeting]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/24/da/5b776e97dbeb89f7f05bd4856d0bd9010a9ed8e91e0ef417df12f7975dbe/dalpha-0.4.4rc0.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/b0/5d/f953016288df74f346a72aecf880bdf3514877d6dd6f90a3709a9fce3e64/zvolv_sdk-0.0.2.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/18/af/5305ea2670061d686f4845e889aa66cfd2e780706fbe0d9e8554b674ccb5/seqprocessor-0.1.0.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2024-04-19 07:25:17] INFO root fetch - processPackages [exafs-neo]: Downloading https://files.pythonhosted.org/packages/34/da/56d7723ce3c4df7d4fbe30f6c8bacfcec20c74fd48c9aa4fd7ad192ce59b/exafs_neo-2.0.2.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dex-retargeting]: Downloading https://files.pythonhosted.org/packages/fc/57/8bef6002e640ff4637d4e5e261f5b45a34556798e226e7cffbba72fed9f1/dex_retargeting-0.1.1-py3-none-any.whl
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/23/b5/fe8294247b970ecfe29999b4c06284d2d96ee45a963da003757a1f23f78a/aporacle-0.0.135.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.134.tar.gz tmp/aporacle-0.0.135.tar.gz --markdown 20240419/a/aporacle/0.0.134-0.0.135/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [exafs-neo]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [exafs-neo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exafs_neo-2.0.1.tar.gz tmp/exafs_neo-2.0.2.tar.gz --markdown 20240419/e/exafs-neo/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/d5/52/7f8f40a3ed2a88b4622816b6b63bc53986f62a0ab7aa746359f3d998d30e/dalpha-0.4.4rc1.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/6f/ea/031908e15641c00f28d5d4ba7aad8ce024291e4ea240b2318dfd4d0a7c12/featureform_enterprise-0.13.2rc1.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/19/f0/45acf1beb501c391ccd9ca191993176f61a9068a6f0cde651414a0c6868e/zvolv_sdk-0.0.4.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [seqprocessor]: Downloading https://files.pythonhosted.org/packages/21/50/9949f3f584cc2cf1ffc736d6c7e58305db7e5032d1d8d5acca5194a06675/seqprocessor-0.1.1.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aiida-worktree]: Downloading https://files.pythonhosted.org/packages/87/a5/c8ecceeaf3be094534c318650a78cd0d8dd4c500c4bc5ed3424de40032d4/aiida_worktree-0.1.7.tar.gz
+[2024-04-19 07:25:17] INFO root fetch - processPackages [zvolv-sdk]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [zvolv-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zvolv_sdk-0.0.2.tar.gz tmp/zvolv_sdk-0.0.4.tar.gz --markdown 20240419/z/zvolv-sdk/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dex-retargeting]: Downloading https://files.pythonhosted.org/packages/8d/2d/51e75a7ef623b37b44922e43f34563349f3f28713b93d384866aa9f8bd8a/dex_retargeting-0.2.0-py3-none-any.whl
+[2024-04-19 07:25:17] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.4rc0.tar.gz tmp/dalpha-0.4.4rc1.tar.gz --markdown 20240419/d/dalpha/0.4.4rc0-0.4.4rc1/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [seqprocessor]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [seqprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqprocessor-0.1.0.tar.gz tmp/seqprocessor-0.1.1.tar.gz --markdown 20240419/s/seqprocessor/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [featureform-enterprise]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [featureform-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform_enterprise-0.13.2rc0.tar.gz tmp/featureform_enterprise-0.13.2rc1.tar.gz --markdown 20240419/f/featureform-enterprise/0.13.2rc0-0.13.2rc1/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20240419/f/festo-edcon/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aiida-worktree]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [aiida-worktree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida_worktree-0.1.6.tar.gz tmp/aiida_worktree-0.1.7.tar.gz --markdown 20240419/a/aiida-worktree/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dex-retargeting]: executing diffoscope
+[2024-04-19 07:25:17] INFO root fetch - processPackages [dex-retargeting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dex_retargeting-0.1.1-py3-none-any.whl.zip tmp/dex_retargeting-0.2.0-py3-none-any.whl.zip --markdown 20240419/d/dex-retargeting/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-19 07:25:18] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.2.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.4.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [zvolv-sdk]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.0.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [seqprocessor]: Remove: archive file [/home/abi/fetcher/tmp/seqprocessor-0.1.1.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [seqprocessor]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.134.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.135.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.8.0-py3-none-any.whl.zip]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.1.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [exafs-neo]: Remove: archive file [/home/abi/fetcher/tmp/exafs_neo-2.0.2.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [exafs-neo]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [dex-retargeting]: Remove: archive file [/home/abi/fetcher/tmp/dex_retargeting-0.1.1-py3-none-any.whl.zip]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [dex-retargeting]: Remove: archive file [/home/abi/fetcher/tmp/dex_retargeting-0.2.0-py3-none-any.whl.zip]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [dex-retargeting]: success
+[2024-04-19 07:25:18] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc0.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc1.tar.gz]
+[2024-04-19 07:25:18] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-04-19 07:25:19] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.2rc0.tar.gz]
+[2024-04-19 07:25:19] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.2rc1.tar.gz]
+[2024-04-19 07:25:19] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
+[2024-04-19 07:25:19] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida_worktree-0.1.6.tar.gz]
+[2024-04-19 07:25:19] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida_worktree-0.1.7.tar.gz]
+[2024-04-19 07:25:19] INFO root fetch - main [MainThread]: End processing [aiida-worktree]: success
+[2024-04-19 07:25:19] INFO root fetch - main [MainThread]: Store serial: [22836901]
