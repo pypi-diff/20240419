@@ -21565,3 +21565,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:41:31] INFO root fetch - processPackages [alphapulldown]: Remove: archive file [/home/abi/fetcher/tmp/alphapulldown-2.0.0b2.tar.gz]
 [2024-04-19 14:41:31] INFO root fetch - main [MainThread]: End processing [alphapulldown]: success
 [2024-04-19 14:41:31] INFO root fetch - main [MainThread]: Store serial: [22841744]
+[2024-04-19 14:43:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841744]
+[2024-04-19 14:43:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pnote
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-repair
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rakeshkannatest
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grayswan-api
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycalc-gi
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: andeplane-reveal-streamlit-component
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: q2-micom
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cerbogen
+[2024-04-19 14:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-microservice-common
+[2024-04-19 14:43:41] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: New version: [0.1.0] Old Version: [0.0.7]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [grayswan-api]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [django-microservice-common]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [cerbogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [pnote]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/29/75/661fde6bc857c0bfc1f91f3a6d5218f7e701c28903d57ede4a6612310307/grayswan_api-0.1.0a3.tar.gz
+[2024-04-19 14:43:41] WARNING root fetch - processPackages [rakeshkannatest]: Skipping, unable to determine old version
+[2024-04-19 14:43:41] INFO root fetch - main [MainThread]: End processing [rakeshkannatest] error
+[2024-04-19 14:43:41] INFO root fetch - processPackages [q2-micom]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 14:43:41] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/3c/c1/31a31127fe46f38676da08b279b04d6967f74afaf83e7961006f26ac9b7e/andeplane_reveal_streamlit_component-0.0.7.tar.gz
+[2024-04-19 14:43:41] WARNING root fetch - processPackages [mycalc-gi]: Skipping, unable to determine old version
+[2024-04-19 14:43:41] INFO root fetch - main [MainThread]: End processing [mycalc-gi] error
+[2024-04-19 14:43:41] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-19 14:43:41] INFO root fetch - processPackages [django-microservice-common]: Downloading https://files.pythonhosted.org/packages/bf/65/45e10b7364df0e06c98c4832887cb7ea4c569a22506cd7163a3a792c3c86/django_microservice_common-0.1.6.tar.gz
+[2024-04-19 14:43:41] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/86/2e/c018367a5ad59ea3ce2d869a7cf1c4f98d0f227ddee42c97751e07e813b3/cerbogen-0.0.8.tar.gz
+[2024-04-19 14:43:41] INFO root fetch - processPackages [pnote]: Downloading https://files.pythonhosted.org/packages/73/3b/0de39ba935a6540bf87f046e8b2329c025900e40172a3549aaaea0902155/pnote-0.0.6.tar.gz
+[2024-04-19 14:43:41] INFO root fetch - processPackages [q2-micom]: Downloading https://files.pythonhosted.org/packages/dc/9d/47dc716e6e629a2b2a933d4b4f0d10f6906d89663e04367bd1ef7c7d2fe7/q2-micom-0.8.0.tar.gz
+[2024-04-19 14:43:41] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/56/59/3ab4a3e5636a28d383c51f02ca7f8033ed29dd02e7723f2d5b8d17b274f5/cerbogen-0.0.9.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/e0/a6/b5b8079ce411f08b3ee9b545744c8f5be54c542b3871a5206967abb639c3/andeplane_reveal_streamlit_component-0.1.0.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [grayswan-api]: Downloading https://files.pythonhosted.org/packages/98/d9/6813cb09eafee4b3ce740e4a01edcb0b0e5845b54bbca0453f5ed40dd41c/grayswan_api-0.1.0a4.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [pnote]: Downloading https://files.pythonhosted.org/packages/cd/4f/fd4f137b1db2d58a3f09d98ae77d6a3e4e8816c4f55a90274bcbc79393ab/pnote-0.0.7.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240419/j/json-repair/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [django-microservice-common]: Downloading https://files.pythonhosted.org/packages/d5/f7/fd2fa5754d5dbd402a4e7e2a120187a6daac2cad511df6d86876efce0df5/django_microservice_common-0.1.7.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.8.tar.gz tmp/cerbogen-0.0.9.tar.gz --markdown 20240419/c/cerbogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [pnote]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [pnote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnote-0.0.6.tar.gz tmp/pnote-0.0.7.tar.gz --markdown 20240419/p/pnote/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [django-microservice-common]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [django-microservice-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_microservice_common-0.1.6.tar.gz tmp/django_microservice_common-0.1.7.tar.gz --markdown 20240419/d/django-microservice-common/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [grayswan-api]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [grayswan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grayswan_api-0.1.0a3.tar.gz tmp/grayswan_api-0.1.0a4.tar.gz --markdown 20240419/g/grayswan-api/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [q2-micom]: Downloading https://files.pythonhosted.org/packages/44/cc/99bfcfdb7bfa6dc6e7e1fcef62d74a755c5f068d5039e51327ef0d1a8563/q2-micom-0.9.0.tar.gz
+[2024-04-19 14:43:42] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_reveal_streamlit_component-0.0.7.tar.gz tmp/andeplane_reveal_streamlit_component-0.1.0.tar.gz --markdown 20240419/a/andeplane-reveal-streamlit-component/0.0.7-0.1.0/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [q2-micom]: executing diffoscope
+[2024-04-19 14:43:42] INFO root fetch - processPackages [q2-micom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2-micom-0.8.0.tar.gz tmp/q2-micom-0.9.0.tar.gz --markdown 20240419/q/q2-micom/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 14:43:42] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-19 14:43:42] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-19 14:43:42] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [pnote]: Remove: archive file [/home/abi/fetcher/tmp/pnote-0.0.6.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [pnote]: Remove: archive file [/home/abi/fetcher/tmp/pnote-0.0.7.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [pnote]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.8.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.9.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [django-microservice-common]: Remove: archive file [/home/abi/fetcher/tmp/django_microservice_common-0.1.6.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [django-microservice-common]: Remove: archive file [/home/abi/fetcher/tmp/django_microservice_common-0.1.7.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [django-microservice-common]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a3.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [grayswan-api]: Remove: archive file [/home/abi/fetcher/tmp/grayswan_api-0.1.0a4.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [grayswan-api]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [q2-micom]: Remove: archive file [/home/abi/fetcher/tmp/q2-micom-0.8.0.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [q2-micom]: Remove: archive file [/home/abi/fetcher/tmp/q2-micom-0.9.0.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [q2-micom]: success
+[2024-04-19 14:43:43] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.0.7.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.0.tar.gz]
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
+[2024-04-19 14:43:43] INFO root fetch - main [MainThread]: Store serial: [22841809]
