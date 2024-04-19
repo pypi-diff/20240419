@@ -12258,3 +12258,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:54:17] INFO root fetch - processPackages [ibm-watsonx-ai]: Remove: archive file [/home/abi/fetcher/tmp/ibm_watsonx_ai-0.2.4.tar.gz]
 [2024-04-19 08:54:17] INFO root fetch - main [MainThread]: End processing [ibm-watsonx-ai]: success
 [2024-04-19 08:54:17] INFO root fetch - main [MainThread]: Store serial: [22837703]
+[2024-04-19 08:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837703]
+[2024-04-19 08:56:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 08:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monai
+[2024-04-19 08:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sciveo
+[2024-04-19 08:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaea-operator
+[2024-04-19 08:56:26] INFO root fetch - processPackages [sciveo]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 08:56:26] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/fa/d2/9a48208f029008f0935605cfd289fd291b6c8f826bb8be08e2bf7b5cafd9/sciveo-0.1.3.tar.gz
+[2024-04-19 08:56:26] INFO root fetch - processPackages [monai]: New version: [1.3.1rc5] Old Version: [1.3.1rc3]
+[2024-04-19 08:56:26] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.dev4] Old Version: [1.2.0.dev2]
+[2024-04-19 08:56:26] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/87/aa/bf47cbdf21c217b39874d67d8c9eac6a28a01382e985c96dfa245511b4f6/monai-1.3.1rc3.tar.gz
+[2024-04-19 08:56:26] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/ea/1f/e9f7537235159f50cea91a0042408155ddff654ed0b915fc2b3ac18a31e2/sciveo-0.1.4.tar.gz
+[2024-04-19 08:56:26] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/cb/fc/00ec18d0702c2156935aae1ccfe752c52895989430b1a1710516a16714e1/gaea_operator-1.2.0.dev2-py3-none-any.whl
+[2024-04-19 08:56:26] INFO root fetch - processPackages [sciveo]: executing diffoscope
+[2024-04-19 08:56:26] INFO root fetch - processPackages [sciveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciveo-0.1.3.tar.gz tmp/sciveo-0.1.4.tar.gz --markdown 20240419/s/sciveo/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 08:56:26] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/7a/9e/17a8529a04e746db3f43ff770eae9a4d467f5a639c3f36b4c9597a57ddae/monai-1.3.1rc5-py3-none-any.whl
+[2024-04-19 08:56:26] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/d1/3f/ec60d3dc95472783daae2d473d18b1144511104a829c191166f8aad0fd1b/gaea_operator-1.2.0.dev4-py3-none-any.whl
+[2024-04-19 08:56:27] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-19 08:56:27] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.dev2-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.dev4-py3-none-any.whl.zip --markdown 20240419/g/gaea-operator/1.2.0.dev2-1.2.0.dev4/README.md --exclude *.pyd
+[2024-04-19 08:56:27] INFO root fetch - processPackages [monai]: executing diffoscope
+[2024-04-19 08:56:27] INFO root fetch - processPackages [monai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-1.3.1rc3.tar.gz tmp/monai-1.3.1rc5-py3-none-any.whl.zip --markdown 20240419/m/monai/1.3.1rc3-1.3.1rc5/README.md --exclude *.pyd
+[2024-04-19 08:56:27] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.1.3.tar.gz]
+[2024-04-19 08:56:27] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.1.4.tar.gz]
+[2024-04-19 08:56:27] INFO root fetch - main [MainThread]: End processing [sciveo]: success
+[2024-04-19 08:56:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev2-py3-none-any.whl.zip]
+[2024-04-19 08:56:27] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.dev4-py3-none-any.whl.zip]
+[2024-04-19 08:56:27] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-19 08:56:27] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc3.tar.gz]
+[2024-04-19 08:56:27] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc5-py3-none-any.whl.zip]
+[2024-04-19 08:56:27] INFO root fetch - main [MainThread]: End processing [monai]: success
+[2024-04-19 08:56:27] INFO root fetch - main [MainThread]: Store serial: [22837712]
