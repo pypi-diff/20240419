@@ -12511,3 +12511,18 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:07:51] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
 [2024-04-19 09:07:51] INFO root fetch - main [MainThread]: End processing [isar]: success
 [2024-04-19 09:07:51] INFO root fetch - main [MainThread]: Store serial: [22837809]
+[2024-04-19 09:09:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837809]
+[2024-04-19 09:09:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 09:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-04-19 09:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaccm
+[2024-04-19 09:09:59] WARNING root fetch - processPackages [metaccm]: Skipping, unable to determine old version
+[2024-04-19 09:09:59] INFO root fetch - main [MainThread]: End processing [metaccm] error
+[2024-04-19 09:10:00] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-19 09:10:00] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-19 09:10:01] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-19 09:10:01] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-19 09:10:01] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240419/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-19 09:10:02] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 09:10:02] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 09:10:02] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-19 09:10:02] INFO root fetch - main [MainThread]: Store serial: [22837824]
