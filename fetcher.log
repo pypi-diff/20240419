@@ -18448,3 +18448,45 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:33:24] INFO root fetch - processPackages [RsCMPX-NrFr1Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr1Meas-5.0.80.tar.gz]
 [2024-04-19 12:33:24] INFO root fetch - main [MainThread]: End processing [RsCMPX-NrFr1Meas]: success
 [2024-04-19 12:33:24] INFO root fetch - main [MainThread]: Store serial: [22840316]
+[2024-04-19 12:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840316]
+[2024-04-19 12:35:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 12:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: energy-base
+[2024-04-19 12:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-apollo-proxy
+[2024-04-19 12:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: payback-coupon-activator
+[2024-04-19 12:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-django-is-core
+[2024-04-19 12:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crypto-ws-api
+[2024-04-19 12:35:34] INFO root fetch - processPackages [energy-base]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 12:35:35] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/b8/29/9c62d542811e0b67e9658f4973d04cf6e679fa3183b5ea6313db82f7b20a/energy_base-1.6.8.tar.gz
+[2024-04-19 12:35:35] WARNING root fetch - processPackages [python-apollo-proxy]: Skipping, unable to determine old version
+[2024-04-19 12:35:35] INFO root fetch - processPackages [skip-django-is-core]: New version: [2.25.0] Old Version: [2.24.8]
+[2024-04-19 12:35:35] INFO root fetch - main [MainThread]: End processing [python-apollo-proxy] error
+[2024-04-19 12:35:35] INFO root fetch - processPackages [payback-coupon-activator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 12:35:35] INFO root fetch - processPackages [crypto-ws-api]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-19 12:35:35] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/ba/fa/7aa7152fd0461970f01cd7c126f911ec6e1e257fd1e9b4cc89f34e960f03/skip-django-is-core-2.24.8.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [payback-coupon-activator]: Downloading https://files.pythonhosted.org/packages/c9/c5/4cfe16f83b768c032185fa631404c9f9d1363181394c945b93fbb1ca8a19/payback-coupon-activator-0.0.1.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/c2/cf/a13fbc73f4651d763d5832648725f84b9bcce20fd1a41443b01550fc20ba/energy_base-1.6.9.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [crypto-ws-api]: Downloading https://files.pythonhosted.org/packages/7c/e3/355949b35109b1d2f528b43810412a844c0d414ba641500b1119e434441a/crypto-ws-api-2.0.8.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-04-19 12:35:35] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.6.8.tar.gz tmp/energy_base-1.6.9.tar.gz --markdown 20240419/e/energy-base/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 12:35:35] INFO root fetch - processPackages [payback-coupon-activator]: Downloading https://files.pythonhosted.org/packages/11/6b/cb02d3ba2df2dff58f78a0caa75fcbd125d38bf5c9cca1f937b7c9f4d664/payback_coupon_activator-0.0.2.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [crypto-ws-api]: Downloading https://files.pythonhosted.org/packages/34/f3/7a65952ad3cb49c4332e456e068edc5d0402cf8a83ba8162e5a3b7a5bc58/crypto-ws-api-2.0.9.tar.gz
+[2024-04-19 12:35:35] INFO root fetch - processPackages [payback-coupon-activator]: executing diffoscope
+[2024-04-19 12:35:35] INFO root fetch - processPackages [payback-coupon-activator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payback-coupon-activator-0.0.1.tar.gz tmp/payback_coupon_activator-0.0.2.tar.gz --markdown 20240419/p/payback-coupon-activator/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 12:35:35] INFO root fetch - processPackages [crypto-ws-api]: executing diffoscope
+[2024-04-19 12:35:35] INFO root fetch - processPackages [crypto-ws-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-ws-api-2.0.8.tar.gz tmp/crypto-ws-api-2.0.9.tar.gz --markdown 20240419/c/crypto-ws-api/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-19 12:35:36] INFO root fetch - processPackages [skip-django-is-core]: Downloading https://files.pythonhosted.org/packages/52/6a/94f836577424daffa1e7f8bf69fee377f8453b12b6181165b938d757ec1b/skip_django_is_core-2.25.0.tar.gz
+[2024-04-19 12:35:36] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.8.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.6.9.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-04-19 12:35:36] INFO root fetch - processPackages [payback-coupon-activator]: Remove: archive file [/home/abi/fetcher/tmp/payback-coupon-activator-0.0.1.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - processPackages [payback-coupon-activator]: Remove: archive file [/home/abi/fetcher/tmp/payback_coupon_activator-0.0.2.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - main [MainThread]: End processing [payback-coupon-activator]: success
+[2024-04-19 12:35:36] INFO root fetch - processPackages [crypto-ws-api]: Remove: archive file [/home/abi/fetcher/tmp/crypto-ws-api-2.0.8.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - processPackages [crypto-ws-api]: Remove: archive file [/home/abi/fetcher/tmp/crypto-ws-api-2.0.9.tar.gz]
+[2024-04-19 12:35:36] INFO root fetch - main [MainThread]: End processing [crypto-ws-api]: success
+[2024-04-19 12:35:36] INFO root fetch - processPackages [skip-django-is-core]: executing diffoscope
+[2024-04-19 12:35:36] INFO root fetch - processPackages [skip-django-is-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-is-core-2.24.8.tar.gz tmp/skip_django_is_core-2.25.0.tar.gz --markdown 20240419/s/skip-django-is-core/2.24.8-2.25.0/README.md --exclude *.pyd
+[2024-04-19 12:35:38] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-is-core-2.24.8.tar.gz]
+[2024-04-19 12:35:38] INFO root fetch - processPackages [skip-django-is-core]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_is_core-2.25.0.tar.gz]
+[2024-04-19 12:35:38] INFO root fetch - main [MainThread]: End processing [skip-django-is-core]: success
+[2024-04-19 12:35:38] INFO root fetch - main [MainThread]: Store serial: [22840334]
