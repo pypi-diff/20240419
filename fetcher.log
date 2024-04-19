@@ -19259,3 +19259,80 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 13:07:05] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.7.0a1713522108.tar.gz]
 [2024-04-19 13:07:05] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-04-19 13:07:05] INFO root fetch - main [MainThread]: Store serial: [22840670]
+[2024-04-19 13:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840670]
+[2024-04-19 13:09:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamin_utils
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-databricks
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs2
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-node-binding
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniscons
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hellogaurav
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: procciao
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymeili
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: luminesce-sdk-preview
+[2024-04-19 13:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hellogaurav
+[2024-04-19 13:09:14] WARNING root fetch - processPackages [hellogaurav]: Skipping, unable to determine old version
+[2024-04-19 13:09:14] INFO root fetch - main [MainThread]: End processing [hellogaurav] error
+[2024-04-19 13:09:14] INFO root fetch - processPackages [miniscons]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [procciao]: New version: [0.12] Old Version: [0.11]
+[2024-04-19 13:09:14] WARNING root fetch - processPackages [hellogaurav]: Skipping, unable to determine old version
+[2024-04-19 13:09:14] INFO root fetch - main [MainThread]: End processing [hellogaurav] error
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pulumi-databricks]: New version: [1.9.0a1678745257] Old Version: [1.8.0a1678127428]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [lamin_utils]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/7b/d0/8f792c10d4017e99628dc18c3426334d9a561de73e20ca86684f30b1a382/miniscons-0.7.1.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pymeili]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [procciao]: Downloading https://files.pythonhosted.org/packages/0e/42/d5a4428ff02431d64fb3b4d9ec535c97083a4c3f145b4fbd20ad126ad3fc/procciao-0.11.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.3.post1174] Old Version: [3.0.3.post1164]
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/1f/91/a029f2344eeb56c6dee818184e323ba7e2014013c42c08396688882d5dae/pulumi_databricks-1.8.0a1678127428.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/47/fe/72327da9188d526d065896d6368a6a3a83f6af474ac57b3d947cae4474e9/lamin_utils-0.9.7.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/48/8b/9e86c6f2b1d393bd10fa5a545a71c950527bdb694869b0bb1333413a9e96/nucliadb_node_binding-3.0.3.post1164.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pymeili]: Downloading https://files.pythonhosted.org/packages/e8/60/a115950c11bfcaaf09fae98d0dd5094fdcecd72e2a18fbce5629a59db6cf/pymeili-1.0.5.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [procciao]: Downloading https://files.pythonhosted.org/packages/08/6e/f637d155aee3714c47da34b36b736c7dfe89f76fb5ec8508a56788350e4c/procciao-0.12.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/d9/2e/735346c5fd21ad9f12be3d02c0bb1cd80d7c3393ffdfc15ee73e14a02f0e/miniscons-0.7.2.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pulumi-databricks]: Downloading https://files.pythonhosted.org/packages/b1/ff/c67ee9a9d6e1f19f6530fdfef065568afe6ec72af786e3dba340b58ca4c4/pulumi_databricks-1.9.0a1678745257.tar.gz
+[2024-04-19 13:09:14] WARNING root fetch - processPackages [pymeili]: Skipping package: exceeds size limit 11573517>=10485760
+[2024-04-19 13:09:14] INFO root fetch - main [MainThread]: End processing [pymeili] error
+[2024-04-19 13:09:14] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-04-19 13:09:14] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240419/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-04-19 13:09:14] INFO root fetch - processPackages [procciao]: executing diffoscope
+[2024-04-19 13:09:14] INFO root fetch - processPackages [lamin_utils]: Downloading https://files.pythonhosted.org/packages/3b/1e/1778cac86eba104d98896051b15f2aebf963fe05c5aa8902d5acc09f168f/lamin_utils-0.9.8.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [procciao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procciao-0.11.tar.gz tmp/procciao-0.12.tar.gz --markdown 20240419/p/procciao/0.11-0.12/README.md --exclude *.pyd
+[2024-04-19 13:09:14] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-19 13:09:14] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.7.1.tar.gz tmp/miniscons-0.7.2.tar.gz --markdown 20240419/m/miniscons/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pulumi-databricks]: executing diffoscope
+[2024-04-19 13:09:14] INFO root fetch - processPackages [pulumi-databricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_databricks-1.8.0a1678127428.tar.gz tmp/pulumi_databricks-1.9.0a1678745257.tar.gz --markdown 20240419/p/pulumi-databricks/1.8.0a1678127428-1.9.0a1678745257/README.md --exclude *.pyd
+[2024-04-19 13:09:14] INFO root fetch - processPackages [lamin_utils]: executing diffoscope
+[2024-04-19 13:09:14] INFO root fetch - processPackages [lamin_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_utils-0.9.7.tar.gz tmp/lamin_utils-0.9.8.tar.gz --markdown 20240419/l/lamin_utils/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-19 13:09:14] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/e0/53/d808cbbce110c939c56deddcb7ec8b2cda7fee6a53eb4d3803c0cff57c2a/nucliadb_node_binding-3.0.3.post1174.tar.gz
+[2024-04-19 13:09:14] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-04-19 13:09:15] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-04-19 13:09:15] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240419/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-19 13:09:15] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-19 13:09:15] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.3.post1164.tar.gz tmp/nucliadb_node_binding-3.0.3.post1174.tar.gz --markdown 20240419/n/nucliadb-node-binding/3.0.3.post1164-3.0.3.post1174/README.md --exclude *.pyd
+[2024-04-19 13:09:15] INFO root fetch - processPackages [procciao]: Remove: archive file [/home/abi/fetcher/tmp/procciao-0.11.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - processPackages [procciao]: Remove: archive file [/home/abi/fetcher/tmp/procciao-0.12.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - main [MainThread]: End processing [procciao]: success
+[2024-04-19 13:09:15] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.7.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - processPackages [lamin_utils]: Remove: archive file [/home/abi/fetcher/tmp/lamin_utils-0.9.8.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - main [MainThread]: End processing [lamin_utils]: success
+[2024-04-19 13:09:15] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.1.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.2.tar.gz]
+[2024-04-19 13:09:15] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-19 13:09:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-04-19 13:09:16] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-04-19 13:09:16] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-04-19 13:09:16] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.8.0a1678127428.tar.gz]
+[2024-04-19 13:09:16] INFO root fetch - processPackages [pulumi-databricks]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_databricks-1.9.0a1678745257.tar.gz]
+[2024-04-19 13:09:16] INFO root fetch - main [MainThread]: End processing [pulumi-databricks]: success
+[2024-04-19 13:09:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1164.tar.gz]
+[2024-04-19 13:09:17] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.3.post1174.tar.gz]
+[2024-04-19 13:09:17] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-19 13:09:17] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-04-19 13:09:17] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-04-19 13:09:17] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-04-19 13:09:17] INFO root fetch - main [MainThread]: Store serial: [22840712]
