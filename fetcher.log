@@ -23651,3 +23651,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:48:44] INFO root fetch - processPackages [sqlfluff]: Remove: archive file [/home/abi/fetcher/tmp/sqlfluff-3.0.5.tar.gz]
 [2024-04-19 15:48:44] INFO root fetch - main [MainThread]: End processing [sqlfluff]: success
 [2024-04-19 15:48:44] INFO root fetch - main [MainThread]: Store serial: [22842767]
+[2024-04-19 15:50:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842767]
+[2024-04-19 15:50:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sbcli-mig
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: close-dot-io
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipython-ngql
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: model-diagnostics
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commitcrafter
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aporacle
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: czsc
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indic-translit
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jupyter-nebulagraph
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scitacean
+[2024-04-19 15:50:54] INFO root fetch - processPackages [aporacle]: New version: [0.0.138] Old Version: [0.0.137]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/03/be/481c796889b4f6165cd8380dea796c7fca65ca2297d1090615cd0219813e/aporacle-0.0.137.tar.gz
+[2024-04-19 15:50:54] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.11.2]
+[2024-04-19 15:50:54] WARNING root fetch - processPackages [indic-translit]: Skipping, unable to determine old version
+[2024-04-19 15:50:54] INFO root fetch - processPackages [indic-translit]: Start processing: arion-library
+[2024-04-19 15:50:54] INFO root fetch - main [MainThread]: End processing [indic-translit] error
+[2024-04-19 15:50:54] INFO root fetch - processPackages [scitacean]: New version: [24.4.0] Old Version: [23.8.0]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 15:50:54] WARNING root fetch - processPackages [commitcrafter]: Skipping, unable to determine old version
+[2024-04-19 15:50:54] INFO root fetch - processPackages [commitcrafter]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 15:50:54] INFO root fetch - main [MainThread]: End processing [commitcrafter] error
+[2024-04-19 15:50:54] INFO root fetch - processPackages [model-diagnostics]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [close-dot-io]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [czsc]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [arion-library]: New version: [1.1rc88.dev88] Old Version: [1.1rc87.dev87]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 15:50:54] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/ba/65/84f15f46af616ba9d6e8eaf8b61b253c95117074db988cec3f2c7b50ec43/arion_library-1.1rc87.dev87.tar.gz
+[2024-04-19 15:50:54] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-19 15:50:54] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 15:50:54] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/96/c1/a6944736ad4e9f9cbf041b3acb790f934af27afd52034573adc25cee5134/jupyter_nebulagraph-0.11.2.tar.gz
+[2024-04-19 15:50:54] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/d5/d1/551eb902a837b3af3bb0042cd28e919be83c67e8d08b33c90f9f859bfe5a/scitacean-23.8.0.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/60/48/ee7294fb8903fe93d41c0f128b466e187669c27c900f71132fd55e960987/model_diagnostics-1.1.0.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/ff/64/49e6809b474049632717e96f3a51bcdab728d63517d8ec0eb228e09ad52d/czsc-0.9.8.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 15:50:55] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/8f/8b/4222a2c5153448d88ca20358909a903ba6a64b88dbc4548ef553ef481179/close_dot_io-0.0.8.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/3b/00/b2fc44d295edf7d4ca73a1a117c1b58dd4236136f8c8df2c026a8ac1472b/aporacle-0.0.138.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/d6/6f/9d9e2dc7a4c3fa479f72da16b44b997585e3c2d741db7502d9e5e9218416/arion_library-1.1rc88.dev88.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.137.tar.gz tmp/aporacle-0.0.138.tar.gz --markdown 20240419/a/aporacle/0.0.137-0.0.138/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc87.dev87.tar.gz tmp/arion_library-1.1rc88.dev88.tar.gz --markdown 20240419/a/arion-library/1.1rc87.dev87-1.1rc88.dev88/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [scitacean]: Downloading https://files.pythonhosted.org/packages/9f/18/bd6e05079b210ca2f1e4e240add5e373b6c5af81baf5b621bd99cadb9e8a/scitacean-24.4.0.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [close-dot-io]: Downloading https://files.pythonhosted.org/packages/02/6e/77b49e9294f3c02e296e616298f479be37ab928e5d81db31cd6b76bf9415/close_dot_io-0.0.9.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240419/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [czsc]: Downloading https://files.pythonhosted.org/packages/65/2a/c6b0017939d88546e65732fc499326433b075adecda347c5aca412e4fe77/czsc-0.9.9.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [model-diagnostics]: Downloading https://files.pythonhosted.org/packages/c6/cf/223c90b29a2ecb81101663c52f10fb0488fc6dedbf9107881ffa30f555eb/model_diagnostics-1.1.1.tar.gz
+[2024-04-19 15:50:55] INFO root fetch - processPackages [close-dot-io]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [close-dot-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/close_dot_io-0.0.8.tar.gz tmp/close_dot_io-0.0.9.tar.gz --markdown 20240419/c/close-dot-io/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.11.2.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240419/j/jupyter-nebulagraph/0.11.2-0.9.1/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [scitacean]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [scitacean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scitacean-23.8.0.tar.gz tmp/scitacean-24.4.0.tar.gz --markdown 20240419/s/scitacean/23.8.0-24.4.0/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [czsc]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [czsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czsc-0.9.8.tar.gz tmp/czsc-0.9.9.tar.gz --markdown 20240419/c/czsc/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 15:50:55] INFO root fetch - processPackages [model-diagnostics]: executing diffoscope
+[2024-04-19 15:50:55] INFO root fetch - processPackages [model-diagnostics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_diagnostics-1.1.0.tar.gz tmp/model_diagnostics-1.1.1.tar.gz --markdown 20240419/m/model-diagnostics/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-19 15:50:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.137.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.138.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc87.dev87.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc88.dev88.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.8.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [close-dot-io]: Remove: archive file [/home/abi/fetcher/tmp/close_dot_io-0.0.9.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [close-dot-io]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.11.2.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.8.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [czsc]: Remove: archive file [/home/abi/fetcher/tmp/czsc-0.9.9.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [czsc]: success
+[2024-04-19 15:50:56] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.1.0.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - processPackages [model-diagnostics]: Remove: archive file [/home/abi/fetcher/tmp/model_diagnostics-1.1.1.tar.gz]
+[2024-04-19 15:50:56] INFO root fetch - main [MainThread]: End processing [model-diagnostics]: success
+[2024-04-19 15:50:57] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-23.8.0.tar.gz]
+[2024-04-19 15:50:57] INFO root fetch - processPackages [scitacean]: Remove: archive file [/home/abi/fetcher/tmp/scitacean-24.4.0.tar.gz]
+[2024-04-19 15:50:57] INFO root fetch - main [MainThread]: End processing [scitacean]: success
+[2024-04-19 15:50:57] INFO root fetch - main [MainThread]: Store serial: [22842810]
