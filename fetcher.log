@@ -21129,3 +21129,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:23:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404191221.tar.gz]
 [2024-04-19 14:23:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-19 14:23:26] INFO root fetch - main [MainThread]: Store serial: [22841549]
+[2024-04-19 14:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841549]
+[2024-04-19 14:25:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 14:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seguid
+[2024-04-19 14:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-04-19 14:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lljz-tools
+[2024-04-19 14:25:36] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 14:25:36] INFO root fetch - processPackages [seguid]: New version: [0.1.0a1] Old Version: [0.0.7]
+[2024-04-19 14:25:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202404191224] Old Version: [99.0.202404170804]
+[2024-04-19 14:25:36] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/75/bf/04a8c2bf0975cc0c58cc33f80dfe7d4d7b49174faa7e9ae14194db973cd4/seguid-0.0.7.tar.gz
+[2024-04-19 14:25:36] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-04-19 14:25:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/16/70/62bc0c2288fdcd1e089f5742e3989fd3ebf3d41dd8190a6e352e02e5d599/kfish-99.0.202404170804-py3-none-any.whl
+[2024-04-19 14:25:37] INFO root fetch - processPackages [seguid]: Downloading https://files.pythonhosted.org/packages/24/22/d5083b6fb83e63bf3efcc0028860c13acba16328b15c8cad619e73a2a9ca/seguid-0.1.0a1.tar.gz
+[2024-04-19 14:25:37] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/0e/2b/0e552a3fb779b8554309e6786414c5e277601eeaf4cf92c9c079a6326dd0/kfish-99.0.202404191224-py3-none-any.whl
+[2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-04-19 14:25:37] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-19 14:25:37] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404170804-py3-none-any.whl.zip tmp/kfish-99.0.202404191224-py3-none-any.whl.zip --markdown 20240419/k/kfish/99.0.202404170804-99.0.202404191224/README.md --exclude *.pyd
+[2024-04-19 14:25:37] INFO root fetch - processPackages [seguid]: executing diffoscope
+[2024-04-19 14:25:37] INFO root fetch - processPackages [seguid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seguid-0.0.7.tar.gz tmp/seguid-0.1.0a1.tar.gz --markdown 20240419/s/seguid/0.0.7-0.1.0a1/README.md --exclude *.pyd
+[2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240419/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 14:25:37] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.0.7.tar.gz]
+[2024-04-19 14:25:37] INFO root fetch - processPackages [seguid]: Remove: archive file [/home/abi/fetcher/tmp/seguid-0.1.0a1.tar.gz]
+[2024-04-19 14:25:37] INFO root fetch - main [MainThread]: End processing [seguid]: success
+[2024-04-19 14:25:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404170804-py3-none-any.whl.zip]
+[2024-04-19 14:25:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404191224-py3-none-any.whl.zip]
+[2024-04-19 14:25:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-04-19 14:25:37] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-04-19 14:25:37] INFO root fetch - main [MainThread]: Store serial: [22841558]
