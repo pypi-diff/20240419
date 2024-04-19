@@ -21834,3 +21834,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:52:30] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
 [2024-04-19 14:52:30] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
 [2024-04-19 14:52:30] INFO root fetch - main [MainThread]: Store serial: [22841942]
+[2024-04-19 14:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841942]
+[2024-04-19 14:54:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datadotworld
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: richie
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythia-client
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exeNake
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ldap2jira
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vocr
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 14:54:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dtpu
+[2024-04-19 14:54:39] INFO root fetch - processPackages [exeNake]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [datadotworld]: New version: [2.0.0a0] Old Version: [2.0.0]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pythia-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [vocr]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/3a/4b/af44a399bea272a1dcdc1dc50ad28c471cad185b78f92f3af25c75b04b7b/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [ldap2jira]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [dtpu]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-19 14:54:39] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [exeNake]: Downloading https://files.pythonhosted.org/packages/15/fb/388b7e7f477629387f8db468282399c7fe8c6f5f0ceacefe525312d9f156/exenake-0.0.1.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [datadotworld]: Downloading https://files.pythonhosted.org/packages/2f/9e/02d7362505e819b32a99a2f1b5523c189853526a0bf0b598b3189ca7717a/datadotworld-2.0.0.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [vocr]: Downloading https://files.pythonhosted.org/packages/eb/fe/55b06d2c308b5ae595e75d602c19ecf2a0913e04f1e83f5110257ac75b6d/vocr-0.2.1.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/fd/ed/7be9117d5f346cf7fdf41f7006c267885bf06ef27ec629820b98edba2e16/pythia_client-0.1.8.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [dtpu]: Downloading https://files.pythonhosted.org/packages/08/8b/fb645ae4512a492c4de82b179acc0fe6295944968d75b490669ebedc4d7a/dtpu-0.4.1-cp38-abi3-win_amd64.whl
+[2024-04-19 14:54:39] INFO root fetch - processPackages [ldap2jira]: Downloading https://files.pythonhosted.org/packages/56/66/1d3ea8ed6965c7b3225815fac015c6ad848080d641a09fac7e80c3d270d1/ldap2jira-1.2.3.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/94/64/ca6e277ae57072c3a24f83d6e22822a9dd2ec51ff32121a4530720b8f1bc/pkg_newfinalcustom_pipeline_staging_final-0.0.6.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [exeNake]: Downloading https://files.pythonhosted.org/packages/4a/a0/44aa837c52b98b45a2eb2ca19fbc3ec78fd932cce474b99f9358d05b0934/exenake-0.0.2.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [vocr]: Downloading https://files.pythonhosted.org/packages/6c/bb/ed485b82a96bfa7069bb6b999d320383d3b73e3b339cd3508eef6763f302/vocr-0.3.0.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.6.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 14:54:39] INFO root fetch - processPackages [datadotworld]: Downloading https://files.pythonhosted.org/packages/64/e1/062ac26f626ed6949bd5ab778566fc6e7e83b0ac12ffbb4ef62cd4a129ba/datadotworld-2.0.0a0.tar.gz
+[2024-04-19 14:54:39] INFO root fetch - processPackages [exeNake]: executing diffoscope
+[2024-04-19 14:54:39] INFO root fetch - processPackages [exeNake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exenake-0.0.1.tar.gz tmp/exenake-0.0.2.tar.gz --markdown 20240419/e/exeNake/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 14:54:39] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/c7/0f/8deb1770ea2ccf53bf4239d63a394e1e11654a0bcbfac4fb3dd3c294c178/pythia_client-0.1.9.tar.gz
+[2024-04-19 14:54:40] INFO root fetch - processPackages [vocr]: executing diffoscope
+[2024-04-19 14:54:40] INFO root fetch - processPackages [vocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocr-0.2.1.tar.gz tmp/vocr-0.3.0.tar.gz --markdown 20240419/v/vocr/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-19 14:54:40] INFO root fetch - processPackages [ldap2jira]: Downloading https://files.pythonhosted.org/packages/96/43/6dfac70070bc7706312b3151c18e4e9b1ba185334f23a30c8d339ef3ead1/ldap2jira-1.2.4.tar.gz
+[2024-04-19 14:54:40] INFO root fetch - processPackages [datadotworld]: executing diffoscope
+[2024-04-19 14:54:40] INFO root fetch - processPackages [datadotworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadotworld-2.0.0.tar.gz tmp/datadotworld-2.0.0a0.tar.gz --markdown 20240419/d/datadotworld/2.0.0-2.0.0a0/README.md --exclude *.pyd
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pythia-client]: executing diffoscope
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pythia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia_client-0.1.8.tar.gz tmp/pythia_client-0.1.9.tar.gz --markdown 20240419/p/pythia-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 14:54:40] INFO root fetch - processPackages [ldap2jira]: executing diffoscope
+[2024-04-19 14:54:40] INFO root fetch - processPackages [ldap2jira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldap2jira-1.2.3.tar.gz tmp/ldap2jira-1.2.4.tar.gz --markdown 20240419/l/ldap2jira/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-19 14:54:40] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-04-19 14:54:40] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240419/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-04-19 14:54:40] INFO root fetch - processPackages [dtpu]: Downloading https://files.pythonhosted.org/packages/e6/ee/cc19bd482d75714cccc5cc31600f04e2731d22a9518283fdc23eb0a149a1/dtpu-0.5.0-cp38-abi3-win_amd64.whl
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.6.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 14:54:40] INFO root fetch - processPackages [exeNake]: Remove: archive file [/home/abi/fetcher/tmp/exenake-0.0.1.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - processPackages [exeNake]: Remove: archive file [/home/abi/fetcher/tmp/exenake-0.0.2.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - main [MainThread]: End processing [exeNake]: success
+[2024-04-19 14:54:40] INFO root fetch - processPackages [vocr]: Remove: archive file [/home/abi/fetcher/tmp/vocr-0.2.1.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - processPackages [vocr]: Remove: archive file [/home/abi/fetcher/tmp/vocr-0.3.0.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - main [MainThread]: End processing [vocr]: success
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.8.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.9.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - main [MainThread]: End processing [pythia-client]: success
+[2024-04-19 14:54:40] INFO root fetch - processPackages [ldap2jira]: Remove: archive file [/home/abi/fetcher/tmp/ldap2jira-1.2.3.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - processPackages [ldap2jira]: Remove: archive file [/home/abi/fetcher/tmp/ldap2jira-1.2.4.tar.gz]
+[2024-04-19 14:54:40] INFO root fetch - main [MainThread]: End processing [ldap2jira]: success
+[2024-04-19 14:54:41] INFO root fetch - processPackages [datadotworld]: Remove: archive file [/home/abi/fetcher/tmp/datadotworld-2.0.0.tar.gz]
+[2024-04-19 14:54:41] INFO root fetch - processPackages [datadotworld]: Remove: archive file [/home/abi/fetcher/tmp/datadotworld-2.0.0a0.tar.gz]
+[2024-04-19 14:54:41] INFO root fetch - main [MainThread]: End processing [datadotworld]: success
+[2024-04-19 14:54:42] INFO root fetch - processPackages [dtpu]: executing diffoscope
+[2024-04-19 14:54:42] INFO root fetch - processPackages [dtpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtpu-0.4.1-cp38-abi3-win_amd64.whl.zip tmp/dtpu-0.5.0-cp38-abi3-win_amd64.whl.zip --markdown 20240419/d/dtpu/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-19 14:54:42] INFO root fetch - processPackages [dtpu]: Remove: archive file [/home/abi/fetcher/tmp/dtpu-0.4.1-cp38-abi3-win_amd64.whl.zip]
+[2024-04-19 14:54:42] INFO root fetch - processPackages [dtpu]: Remove: archive file [/home/abi/fetcher/tmp/dtpu-0.5.0-cp38-abi3-win_amd64.whl.zip]
+[2024-04-19 14:54:42] INFO root fetch - main [MainThread]: End processing [dtpu]: success
+[2024-04-19 14:56:36] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-04-19 14:56:36] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-04-19 14:56:36] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-04-19 14:56:36] INFO root fetch - main [MainThread]: Store serial: [22841962]
