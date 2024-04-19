@@ -2415,3 +2415,38 @@
 [2024-04-19 02:20:33] INFO root fetch - processPackages [causalml]: Remove: archive file [/home/abi/fetcher/tmp/causalml-0.9.0.tar.gz]
 [2024-04-19 02:20:33] INFO root fetch - main [MainThread]: End processing [causalml]: success
 [2024-04-19 02:20:33] INFO root fetch - main [MainThread]: Store serial: [22833685]
+[2024-04-19 02:22:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833685]
+[2024-04-19 02:22:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bucketed-scene-flow-eval
+[2024-04-19 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-sql-explorer
+[2024-04-19 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-tweet-queue
+[2024-04-19 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NEURON-nightly
+[2024-04-19 02:22:42] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-19 02:22:42] INFO root fetch - processPackages [bucketed-scene-flow-eval]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-19 02:22:42] INFO root fetch - processPackages [django-sql-explorer]: New version: [4.1b4] Old Version: [4.1b2]
+[2024-04-19 02:22:42] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [NEURON-nightly]: New version: [9.0a1.dev215] Old Version: [9.0a1.dev214]
+[2024-04-19 02:22:42] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/b6/99/9640da78177180e0ab3819835979082db456c15ac41115f0f4d924784636/django_sql_explorer-4.1b2.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/2b/dc/1795cb00cbf32a1653f73b8143c5403c3ee7ba32b1f59ccff3a1a31a8d22/bucketed_scene_flow_eval-2.0.3.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Downloading https://files.pythonhosted.org/packages/a3/5e/24939384e947213599ae5567fd9ed073ec2b6e1b1e53e67b3566614039d6/bucketed_scene_flow_eval-2.0.4.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [NEURON-nightly]: Downloading https://files.pythonhosted.org/packages/e4/b7/3bd335352e849e5541339ef6be5fc7ac37c897d0fc3a97352d6ebdf218c4/NEURON_nightly-9.0a1.dev214-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 02:22:42] WARNING root fetch - processPackages [NEURON-nightly]: Skipping package: exceeds size limit 17283530>=10485760
+[2024-04-19 02:22:42] INFO root fetch - main [MainThread]: End processing [NEURON-nightly] error
+[2024-04-19 02:22:42] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [bucketed-scene-flow-eval]: executing diffoscope
+[2024-04-19 02:22:42] INFO root fetch - processPackages [bucketed-scene-flow-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bucketed_scene_flow_eval-2.0.3.tar.gz tmp/bucketed_scene_flow_eval-2.0.4.tar.gz --markdown 20240419/b/bucketed-scene-flow-eval/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-19 02:22:42] INFO root fetch - processPackages [django-sql-explorer]: Downloading https://files.pythonhosted.org/packages/00/62/fa567d81f6680cee52517c816bad107057d18d6bf8dd78c3a6ad33a0c210/django_sql_explorer-4.1b4.tar.gz
+[2024-04-19 02:22:42] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-19 02:22:42] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240419/c/cdk-tweet-queue/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-19 02:22:43] INFO root fetch - processPackages [django-sql-explorer]: executing diffoscope
+[2024-04-19 02:22:43] INFO root fetch - processPackages [django-sql-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer-4.1b2.tar.gz tmp/django_sql_explorer-4.1b4.tar.gz --markdown 20240419/d/django-sql-explorer/4.1b2-4.1b4/README.md --exclude *.pyd
+[2024-04-19 02:22:43] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-19 02:22:43] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.3.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - processPackages [bucketed-scene-flow-eval]: Remove: archive file [/home/abi/fetcher/tmp/bucketed_scene_flow_eval-2.0.4.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - main [MainThread]: End processing [bucketed-scene-flow-eval]: success
+[2024-04-19 02:22:43] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b2.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - processPackages [django-sql-explorer]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer-4.1b4.tar.gz]
+[2024-04-19 02:22:43] INFO root fetch - main [MainThread]: End processing [django-sql-explorer]: success
+[2024-04-19 02:22:43] INFO root fetch - main [MainThread]: Store serial: [22833697]
