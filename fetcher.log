@@ -21960,3 +21960,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:58:49] INFO root fetch - processPackages [rafcon]: Remove: archive file [/home/abi/fetcher/tmp/rafcon-2.1.3.tar.gz]
 [2024-04-19 14:58:49] INFO root fetch - main [MainThread]: End processing [rafcon]: success
 [2024-04-19 14:58:49] INFO root fetch - main [MainThread]: Store serial: [22841984]
+[2024-04-19 15:00:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841984]
+[2024-04-19 15:00:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupytercad-salome
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scratchcommunication
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aecdata
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-media-manager
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datashader
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amsdal_data
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipsuite
+[2024-04-19 15:00:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: searcharray
+[2024-04-19 15:00:59] INFO root fetch - processPackages [simple-media-manager]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [simple-media-manager]: Downloading https://files.pythonhosted.org/packages/13/f0/9510cd0d9cd9a2e2ccd7d1224eca432aacf9735e3262c2c03bff9f6d0065/simple_media_manager-0.1.2.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [jupytercad-salome]: New version: [1.0.1] Old Version: [1.0.0a6]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [aecdata]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [searcharray]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [ipsuite]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [datashader]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [scratchcommunication]: New version: [2.4.1] Old Version: [2.3.2]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [amsdal_data]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 15:00:59] INFO root fetch - processPackages [jupytercad-salome]: Downloading https://files.pythonhosted.org/packages/43/56/2e4bb9e254ba954c3b5c24564d8dbdd04c463bbec1940b4d9b49f3d2f829/jupytercad_salome-1.0.0a6.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [searcharray]: Downloading https://files.pythonhosted.org/packages/13/d2/42d0e0a5f78c59eb2f5d56c1dbde5dcbee81b46d8390cedf9988344b3e45/searcharray-0.0.8.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/45/da/0a81b39e240d957da720480166f897a234ff9ffb6f7cbf6d0c4b6c51c663/aecdata-0.0.1.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [ipsuite]: Downloading https://files.pythonhosted.org/packages/95/98/d22a6c489256476321dbe6f7b4fadd51fb0e8a198c88aece5faa678c5f3f/ipsuite-0.1.1.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/8e/37/e21e069d6a401cb5b5a9eeadc2008cde7efc8aec46b146e3a3b0fb904910/scratchcommunication-2.3.2.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [datashader]: Downloading https://files.pythonhosted.org/packages/e3/23/df2ba203e2685c0795ec4eaf601f5f3bc7f186a16cfe2f3b63dcde56a1e6/datashader-0.8.0.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/5c/e6/1ecfdca31d951216ac10a9ffb48b75019d73fa807f6d785648fe759e0e02/amsdal_data-0.1.7-cp311-cp311-win_amd64.whl
+[2024-04-19 15:00:59] INFO root fetch - processPackages [simple-media-manager]: Downloading https://files.pythonhosted.org/packages/93/c2/cc82abab3cc63f4b19187668f479f43e8756a1db2842e1b3c9f3a7955184/simple_media_manager-0.1.3.tar.gz
+[2024-04-19 15:00:59] WARNING root fetch - processPackages [datashader]: Skipping package: exceeds size limit 30172251>=10485760
+[2024-04-19 15:00:59] INFO root fetch - main [MainThread]: End processing [datashader] error
+[2024-04-19 15:00:59] INFO root fetch - processPackages [simple-media-manager]: executing diffoscope
+[2024-04-19 15:00:59] INFO root fetch - processPackages [simple-media-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_media_manager-0.1.2.tar.gz tmp/simple_media_manager-0.1.3.tar.gz --markdown 20240419/s/simple-media-manager/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 15:00:59] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/37/56/323cbf6617dbfa94cc85c006e04f42d9d244031395782f2eb01125a82d01/aecdata-0.0.2.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/48/01/6176cb212e9a50d826744a912abaaf71d83db6a87ceb632c1e7156d3e2cd/scratchcommunication-2.4.1.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [searcharray]: Downloading https://files.pythonhosted.org/packages/2b/85/78c9e4e0be0965b7456ca73905cad36da7857d89af8ff16b2844e6628cee/searcharray-0.0.9.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [jupytercad-salome]: Downloading https://files.pythonhosted.org/packages/6b/3e/d33dcd2be0281853b3fe2f0b430b9b325c1d4833ce0aa66337be446d5911/jupytercad_salome-1.0.1.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [ipsuite]: Downloading https://files.pythonhosted.org/packages/bd/34/e3c36388e662020e4be4ba3fc868a1206073eed0e7cdc0b80e6576e8c45f/ipsuite-0.1.2.tar.gz
+[2024-04-19 15:00:59] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-04-19 15:00:59] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.3.2.tar.gz tmp/scratchcommunication-2.4.1.tar.gz --markdown 20240419/s/scratchcommunication/2.3.2-2.4.1/README.md --exclude *.pyd
+[2024-04-19 15:00:59] INFO root fetch - processPackages [amsdal_data]: Downloading https://files.pythonhosted.org/packages/eb/da/33de3054214534d21948ff42c1cf636ca5afd4415c97256a2a2173c9515a/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl
+[2024-04-19 15:01:00] INFO root fetch - processPackages [aecdata]: executing diffoscope
+[2024-04-19 15:01:00] INFO root fetch - processPackages [aecdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aecdata-0.0.1.tar.gz tmp/aecdata-0.0.2.tar.gz --markdown 20240419/a/aecdata/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 15:01:00] INFO root fetch - processPackages [searcharray]: executing diffoscope
+[2024-04-19 15:01:00] INFO root fetch - processPackages [searcharray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searcharray-0.0.8.tar.gz tmp/searcharray-0.0.9.tar.gz --markdown 20240419/s/searcharray/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:01:00] INFO root fetch - processPackages [jupytercad-salome]: executing diffoscope
+[2024-04-19 15:01:00] INFO root fetch - processPackages [jupytercad-salome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercad_salome-1.0.0a6.tar.gz tmp/jupytercad_salome-1.0.1.tar.gz --markdown 20240419/j/jupytercad-salome/1.0.0a6-1.0.1/README.md --exclude *.pyd
+[2024-04-19 15:01:00] INFO root fetch - processPackages [ipsuite]: executing diffoscope
+[2024-04-19 15:01:00] INFO root fetch - processPackages [ipsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipsuite-0.1.1.tar.gz tmp/ipsuite-0.1.2.tar.gz --markdown 20240419/i/ipsuite/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 15:01:00] INFO root fetch - processPackages [simple-media-manager]: Remove: archive file [/home/abi/fetcher/tmp/simple_media_manager-0.1.2.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - processPackages [simple-media-manager]: Remove: archive file [/home/abi/fetcher/tmp/simple_media_manager-0.1.3.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - main [MainThread]: End processing [simple-media-manager]: success
+[2024-04-19 15:01:00] INFO root fetch - processPackages [amsdal_data]: executing diffoscope
+[2024-04-19 15:01:00] INFO root fetch - processPackages [amsdal_data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_data-0.1.7-cp311-cp311-win_amd64.whl.zip tmp/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl.zip --markdown 20240419/a/amsdal_data/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 15:01:00] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.1.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.3.2.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.2.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.4.1.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - main [MainThread]: End processing [aecdata]: success
+[2024-04-19 15:01:00] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-04-19 15:01:00] INFO root fetch - processPackages [searcharray]: Remove: archive file [/home/abi/fetcher/tmp/searcharray-0.0.8.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - processPackages [searcharray]: Remove: archive file [/home/abi/fetcher/tmp/searcharray-0.0.9.tar.gz]
+[2024-04-19 15:01:00] INFO root fetch - main [MainThread]: End processing [searcharray]: success
+[2024-04-19 15:01:01] INFO root fetch - processPackages [ipsuite]: Remove: archive file [/home/abi/fetcher/tmp/ipsuite-0.1.1.tar.gz]
+[2024-04-19 15:01:01] INFO root fetch - processPackages [ipsuite]: Remove: archive file [/home/abi/fetcher/tmp/ipsuite-0.1.2.tar.gz]
+[2024-04-19 15:01:01] INFO root fetch - main [MainThread]: End processing [ipsuite]: success
+[2024-04-19 15:01:01] INFO root fetch - processPackages [jupytercad-salome]: Remove: archive file [/home/abi/fetcher/tmp/jupytercad_salome-1.0.0a6.tar.gz]
+[2024-04-19 15:01:01] INFO root fetch - processPackages [jupytercad-salome]: Remove: archive file [/home/abi/fetcher/tmp/jupytercad_salome-1.0.1.tar.gz]
+[2024-04-19 15:01:01] INFO root fetch - main [MainThread]: End processing [jupytercad-salome]: success
+[2024-04-19 15:01:01] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.7-cp311-cp311-win_amd64.whl.zip]
+[2024-04-19 15:01:01] INFO root fetch - processPackages [amsdal_data]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_data-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-04-19 15:01:01] INFO root fetch - main [MainThread]: End processing [amsdal_data]: success
+[2024-04-19 15:01:01] INFO root fetch - main [MainThread]: Store serial: [22842015]
