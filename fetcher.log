@@ -13348,3 +13348,52 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:43:11] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack_ext-3.3.1.dev20240419073811.tar.gz]
 [2024-04-19 09:43:11] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
 [2024-04-19 09:43:11] INFO root fetch - main [MainThread]: Store serial: [22838161]
+[2024-04-19 09:45:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838161]
+[2024-04-19 09:45:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abtoolkit
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RoboCupDBA
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lm-format-enforcer
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mms-client
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-wrapper
+[2024-04-19 09:45:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abtoolkit
+[2024-04-19 09:45:22] INFO root fetch - processPackages [mms-client]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-19 09:45:22] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/5c/49/08b41c94790ad5fc66958378e2146d652d4a6deed7d600574ac0ab0c3668/mms_client-1.3.1.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 09:45:22] INFO root fetch - processPackages [tb-wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 09:45:22] WARNING root fetch - processPackages [RoboCupDBA]: Skipping, unable to determine old version
+[2024-04-19 09:45:22] INFO root fetch - main [MainThread]: End processing [RoboCupDBA] error
+[2024-04-19 09:45:22] INFO root fetch - processPackages [lm-format-enforcer]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-19 09:45:22] INFO root fetch - processPackages [mms-client]: Downloading https://files.pythonhosted.org/packages/05/cc/9a917e61b723699780182234874abacc3c887be8ae5f5b70a500f8f3713a/mms_client-1.4.0.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/49/58/dd0e90a4aacf8d29f4450aec47a0e9e208ed03e2689fdb0133a03b12f201/abtoolkit-1.2.0.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/49/58/dd0e90a4aacf8d29f4450aec47a0e9e208ed03e2689fdb0133a03b12f201/abtoolkit-1.2.0.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/2c/b4/ec57b3c98ce59403232d3f80d4c368d7c14d8231782a4e1e16d04cae8051/tb_wrapper-0.1.8.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/b7/77/95ee318dba91898cc345347969cb4e4d2b48aeef56071cf0f222e26c8b45/lm_format_enforcer-0.9.5.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [mms-client]: executing diffoscope
+[2024-04-19 09:45:22] INFO root fetch - processPackages [mms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mms_client-1.3.1.tar.gz tmp/mms_client-1.4.0.tar.gz --markdown 20240419/m/mms-client/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/0a/62/186170090811388d6bf573414ce981baee934fb19a8161db6ab2e38e4d50/abtoolkit-1.2.1.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [abtoolkit]: Downloading https://files.pythonhosted.org/packages/0a/62/186170090811388d6bf573414ce981baee934fb19a8161db6ab2e38e4d50/abtoolkit-1.2.1.tar.gz
+[2024-04-19 09:45:22] INFO root fetch - processPackages [lm-format-enforcer]: Downloading https://files.pythonhosted.org/packages/c8/58/174380b1ce781d7bf71c87a62234101f60ba32ed84c3e91abf3d31b8eba0/lm_format_enforcer-0.9.6.tar.gz
+[2024-04-19 09:45:23] INFO root fetch - processPackages [tb-wrapper]: Downloading https://files.pythonhosted.org/packages/21/89/f49a28288c035383351e4e7ef91e37a7a63cc914601375565b45cbae4b82/tb_wrapper-0.1.9.tar.gz
+[2024-04-19 09:45:23] INFO root fetch - processPackages [lm-format-enforcer]: executing diffoscope
+[2024-04-19 09:45:23] INFO root fetch - processPackages [lm-format-enforcer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_format_enforcer-0.9.5.tar.gz tmp/lm_format_enforcer-0.9.6.tar.gz --markdown 20240419/l/lm-format-enforcer/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-19 09:45:23] INFO root fetch - processPackages [tb-wrapper]: executing diffoscope
+[2024-04-19 09:45:23] INFO root fetch - processPackages [tb-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_wrapper-0.1.8.tar.gz tmp/tb_wrapper-0.1.9.tar.gz --markdown 20240419/t/tb-wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: executing diffoscope
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abtoolkit-1.2.0.tar.gz tmp/abtoolkit-1.2.1.tar.gz --markdown 20240419/a/abtoolkit/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: executing diffoscope
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abtoolkit-1.2.0.tar.gz tmp/abtoolkit-1.2.1.tar.gz --markdown 20240419/a/abtoolkit/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 09:45:23] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.5.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - processPackages [lm-format-enforcer]: Remove: archive file [/home/abi/fetcher/tmp/lm_format_enforcer-0.9.6.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [lm-format-enforcer]: success
+[2024-04-19 09:45:23] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.8.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - processPackages [tb-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/tb_wrapper-0.1.9.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [tb-wrapper]: success
+[2024-04-19 09:45:23] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.3.1.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.4.0.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [mms-client]: success
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/abtoolkit-1.2.0.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - processPackages [abtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/abtoolkit-1.2.1.tar.gz]
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [abtoolkit]: success
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: End processing [abtoolkit]: success
+[2024-04-19 09:45:23] INFO root fetch - main [MainThread]: Store serial: [22838179]
