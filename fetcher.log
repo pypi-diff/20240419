@@ -22523,3 +22523,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:18:24] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.7.tar.gz]
 [2024-04-19 15:18:24] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
 [2024-04-19 15:18:24] INFO root fetch - main [MainThread]: Store serial: [22842215]
+[2024-04-19 15:20:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842215]
+[2024-04-19 15:20:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtealeaves
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trycourier
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: x256offline
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xfields
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-account-report-invoice
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grabberlib
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rappmysql
+[2024-04-19 15:20:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: auto-vtna
+[2024-04-19 15:20:33] INFO root fetch - processPackages [grabberlib]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [x256offline]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [xfields]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [rappmysql]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [auto-vtna]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/8d/5b/3392a776ea71b165647ed6566a4b9c6211ba816ad8004a9e6fea7dcac94d/grabberlib-0.0.1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [qtealeaves]: New version: [1.1.1] Old Version: [0.5.14]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [trycourier]: New version: [6.0.1] Old Version: [6.0.0b1]
+[2024-04-19 15:20:33] INFO root fetch - processPackages [x256offline]: Downloading https://files.pythonhosted.org/packages/fe/c9/404f73a2ded33d92ecde4afb0753933987b2a83d93d95ab7bcd6cbca2c4e/x256offline-0.0.1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Downloading https://files.pythonhosted.org/packages/9c/29/fe4ad153fd7b15a993709e3277ee4d077be80191d6062613bdd6e2fa1c9e/odoo_addon_l10n_ro_account_report_invoice-16.0.1.3.0-py3-none-any.whl
+[2024-04-19 15:20:33] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/7a/77/3a6abbee5bec0b9a1a9208d8bfbb48c1d3847a3623b736877d07f2a19f3c/xfields-0.9.3.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/4d/24/f182b36d3e979045325f7759aa1269f929bc57b54745c94490687770a4cd/auto_vtna-1.0.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [rappmysql]: Downloading https://files.pythonhosted.org/packages/ef/a8/cf3f06dff7c373d8417bfcb340334b817e26f44ebe63d1cf9dd368c967db/rappmysql-0.0.5.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [trycourier]: Downloading https://files.pythonhosted.org/packages/03/5f/97adfd0dbc0c6c24273657f2968f0312e85933811489ada182bf317d9bd2/trycourier-6.0.0b1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/ff/94/07691a7eea700b315b9fd3858c4a1f0d8606c9ca70050440e1a79904adf7/qtealeaves-0.5.14.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/16/68/03bc10c8e434d8e6c92228ae8215e9e2c1b9cdba15b100315096f560a37b/grabberlib-0.0.3.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-04-19 15:20:33] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.0.1.tar.gz tmp/grabberlib-0.0.3.tar.gz --markdown 20240419/g/grabberlib/0.0.1-0.0.3/README.md --exclude *.pyd
+[2024-04-19 15:20:33] INFO root fetch - processPackages [x256offline]: Downloading https://files.pythonhosted.org/packages/db/c4/949a93919762f4951100b2e6d6ff903f09a936f4e78eda4ff86c5f8e41a7/x256offline-0.0.2.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Downloading https://files.pythonhosted.org/packages/9e/b4/670a0bc8c691919024366c678d650809428f2aacc8c1c13e14e5f86ebb22/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl
+[2024-04-19 15:20:33] INFO root fetch - processPackages [xfields]: Downloading https://files.pythonhosted.org/packages/8b/54/cac5d52db408c1d03b97e7d6c7f37530ed94cdc6cec242e76f900759b3a3/xfields-0.9.4.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [rappmysql]: Downloading https://files.pythonhosted.org/packages/47/97/3671b0bec32a3c9957c06a494143ea95970449c86c231a80a99b00c44c7a/rappmysql-0.1.0-py3-none-any.whl
+[2024-04-19 15:20:33] INFO root fetch - processPackages [auto-vtna]: Downloading https://files.pythonhosted.org/packages/28/49/cc5f97fbdcb9f6b011564dc730af4a8363e1042b65f248e3322c66847854/auto_vtna-1.0.1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [trycourier]: Downloading https://files.pythonhosted.org/packages/df/f9/0f5aa7cbc52770c932688c217644418792fd8e8785da61f2ac212ac30165/trycourier-6.0.1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: executing diffoscope
+[2024-04-19 15:20:33] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-l10n-ro-account-report-invoice/16.0.1.3.0-16.0.1.4.0/README.md --exclude *.pyd
+[2024-04-19 15:20:33] INFO root fetch - processPackages [x256offline]: executing diffoscope
+[2024-04-19 15:20:33] INFO root fetch - processPackages [x256offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x256offline-0.0.1.tar.gz tmp/x256offline-0.0.2.tar.gz --markdown 20240419/x/x256offline/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 15:20:33] INFO root fetch - processPackages [qtealeaves]: Downloading https://files.pythonhosted.org/packages/8c/b7/2eccae596e7b39cf35b189de45f70337162c36b34d10eefd9985f2ad2fd8/qtealeaves-1.1.1.tar.gz
+[2024-04-19 15:20:33] INFO root fetch - processPackages [xfields]: executing diffoscope
+[2024-04-19 15:20:33] INFO root fetch - processPackages [xfields]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfields-0.9.3.tar.gz tmp/xfields-0.9.4.tar.gz --markdown 20240419/x/xfields/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-19 15:20:33] INFO root fetch - processPackages [rappmysql]: executing diffoscope
+[2024-04-19 15:20:33] INFO root fetch - processPackages [rappmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rappmysql-0.0.5.tar.gz tmp/rappmysql-0.1.0-py3-none-any.whl.zip --markdown 20240419/r/rappmysql/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-04-19 15:20:34] INFO root fetch - processPackages [auto-vtna]: executing diffoscope
+[2024-04-19 15:20:34] INFO root fetch - processPackages [auto-vtna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_vtna-1.0.tar.gz tmp/auto_vtna-1.0.1.tar.gz --markdown 20240419/a/auto-vtna/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 15:20:34] INFO root fetch - processPackages [trycourier]: executing diffoscope
+[2024-04-19 15:20:34] INFO root fetch - processPackages [trycourier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycourier-6.0.0b1.tar.gz tmp/trycourier-6.0.1.tar.gz --markdown 20240419/t/trycourier/6.0.0b1-6.0.1/README.md --exclude *.pyd
+[2024-04-19 15:20:34] INFO root fetch - processPackages [qtealeaves]: executing diffoscope
+[2024-04-19 15:20:34] INFO root fetch - processPackages [qtealeaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtealeaves-0.5.14.tar.gz tmp/qtealeaves-1.1.1.tar.gz --markdown 20240419/q/qtealeaves/0.5.14-1.1.1/README.md --exclude *.pyd
+[2024-04-19 15:20:34] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.0.1.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.0.3.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-04-19 15:20:34] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-19 15:20:34] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-report-invoice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_report_invoice-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-19 15:20:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-report-invoice]: success
+[2024-04-19 15:20:34] INFO root fetch - processPackages [rappmysql]: Remove: archive file [/home/abi/fetcher/tmp/rappmysql-0.0.5.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - processPackages [rappmysql]: Remove: archive file [/home/abi/fetcher/tmp/rappmysql-0.1.0-py3-none-any.whl.zip]
+[2024-04-19 15:20:34] INFO root fetch - main [MainThread]: End processing [rappmysql]: success
+[2024-04-19 15:20:34] INFO root fetch - processPackages [auto-vtna]: Remove: archive file [/home/abi/fetcher/tmp/auto_vtna-1.0.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - processPackages [auto-vtna]: Remove: archive file [/home/abi/fetcher/tmp/auto_vtna-1.0.1.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - main [MainThread]: End processing [auto-vtna]: success
+[2024-04-19 15:20:34] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.3.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - processPackages [xfields]: Remove: archive file [/home/abi/fetcher/tmp/xfields-0.9.4.tar.gz]
+[2024-04-19 15:20:34] INFO root fetch - main [MainThread]: End processing [xfields]: success
+[2024-04-19 15:20:35] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-0.5.14.tar.gz]
+[2024-04-19 15:20:35] INFO root fetch - processPackages [qtealeaves]: Remove: archive file [/home/abi/fetcher/tmp/qtealeaves-1.1.1.tar.gz]
+[2024-04-19 15:20:35] INFO root fetch - main [MainThread]: End processing [qtealeaves]: success
+[2024-04-19 15:20:36] INFO root fetch - processPackages [trycourier]: Remove: archive file [/home/abi/fetcher/tmp/trycourier-6.0.0b1.tar.gz]
+[2024-04-19 15:20:36] INFO root fetch - processPackages [trycourier]: Remove: archive file [/home/abi/fetcher/tmp/trycourier-6.0.1.tar.gz]
+[2024-04-19 15:20:36] INFO root fetch - main [MainThread]: End processing [trycourier]: success
+[2024-04-19 15:20:36] INFO root fetch - processPackages [x256offline]: Remove: archive file [/home/abi/fetcher/tmp/x256offline-0.0.1.tar.gz]
+[2024-04-19 15:20:36] INFO root fetch - processPackages [x256offline]: Remove: archive file [/home/abi/fetcher/tmp/x256offline-0.0.2.tar.gz]
+[2024-04-19 15:20:36] INFO root fetch - main [MainThread]: End processing [x256offline]: success
+[2024-04-19 15:20:36] INFO root fetch - main [MainThread]: Store serial: [22842249]
