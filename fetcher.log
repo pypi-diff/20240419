@@ -11642,3 +11642,59 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:23:45] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-0.1.1.tar.gz]
 [2024-04-19 08:23:45] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
 [2024-04-19 08:23:45] INFO root fetch - main [MainThread]: Store serial: [22837455]
+[2024-04-19 08:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837455]
+[2024-04-19 08:25:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openspg-nn4k
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx_mdinclude
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sem6
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-emr20210320-py2
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ServiceX_DID_Finder_lib
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NeelKrypt
+[2024-04-19 08:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: video-images-creator
+[2024-04-19 08:25:54] INFO root fetch - processPackages [openspg-nn4k]: New version: [0.0.3b1] Old Version: [0.0.3a3]
+[2024-04-19 08:25:54] WARNING root fetch - processPackages [NeelKrypt]: Skipping, unable to determine old version
+[2024-04-19 08:25:54] INFO root fetch - main [MainThread]: End processing [NeelKrypt] error
+[2024-04-19 08:25:54] INFO root fetch - processPackages [sem6]: New version: [5.0.0] Old Version: [3.0.0]
+[2024-04-19 08:25:54] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sem6]: Downloading https://files.pythonhosted.org/packages/fa/b7/5ea8be587cb8f1a5bbaf9e30a9e086286b7d69de04a3595aa4fb760954a6/sem6-3.0.0.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sphinx_mdinclude]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-19 08:25:55] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-19 08:25:55] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/83/56/683a87395368d630f80ae0c87ccc25a4b87dda021c9ef8d05c4e741bf6b5/openspg-nn4k-0.0.3a3.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sphinx_mdinclude]: Downloading https://files.pythonhosted.org/packages/9f/53/7a4f8c341066f12795a32d544ead6a1a1f0f7d8ccf7fe3465d994437f44a/sphinx_mdinclude-0.5.3.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/cc/6c/290419184f5dfca4fd2e7d793834ed10345ea3c19122110be45b554d42e3/video_images_creator-0.3.1.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: Downloading https://files.pythonhosted.org/packages/09/4a/3f6ed6a324ad18f3343acff1bc7b82404df549db303d466debec331a89ff/alibabacloud_emr20210320_py2-1.5.0.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: Downloading https://files.pythonhosted.org/packages/7f/d7/6cf04321baceb454c06091e415336d21795e2ac59875057f44db03ac60a8/servicex_did_finder_lib-2.0.1.tar.gz
+[2024-04-19 08:25:55] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958310>=10485760
+[2024-04-19 08:25:55] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 08:25:55] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/6d/71/9b23f52ea4ee0dbfb6aa3df2ff212c9599805b131ef9202ead53b1837c0a/openspg-nn4k-0.0.3b1.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sem6]: Downloading https://files.pythonhosted.org/packages/9a/bf/b3cf8ea20cdd85f370064385892f0b50c2e374a9f46379651dc639110ab5/sem6-5.0.0.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [openspg-nn4k]: executing diffoscope
+[2024-04-19 08:25:55] INFO root fetch - processPackages [openspg-nn4k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-nn4k-0.0.3a3.tar.gz tmp/openspg-nn4k-0.0.3b1.tar.gz --markdown 20240419/o/openspg-nn4k/0.0.3a3-0.0.3b1/README.md --exclude *.pyd
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sem6]: executing diffoscope
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sem6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem6-3.0.0.tar.gz tmp/sem6-5.0.0.tar.gz --markdown 20240419/s/sem6/3.0.0-5.0.0/README.md --exclude *.pyd
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sphinx_mdinclude]: Downloading https://files.pythonhosted.org/packages/29/f9/c6b8cf37c24bb793762343805168118e3d12b5de3af6771212062d1554d6/sphinx_mdinclude-0.5.4.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: Downloading https://files.pythonhosted.org/packages/47/c5/ce40c56d197d20d351661dfcc9bfcaef41d3500c37f80eefbb2363a4d40f/alibabacloud_emr20210320_py2-1.6.0.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: Downloading https://files.pythonhosted.org/packages/67/6b/e7a78ea9b881c3cd0831eb786fc2dece60dc4f6acd649d7fd21802295b80/servicex_did_finder_lib-2.0.2.tar.gz
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sphinx_mdinclude]: executing diffoscope
+[2024-04-19 08:25:55] INFO root fetch - processPackages [sphinx_mdinclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_mdinclude-0.5.3.tar.gz tmp/sphinx_mdinclude-0.5.4.tar.gz --markdown 20240419/s/sphinx_mdinclude/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-19 08:25:55] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: executing diffoscope
+[2024-04-19 08:25:55] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_emr20210320_py2-1.5.0.tar.gz tmp/alibabacloud_emr20210320_py2-1.6.0.tar.gz --markdown 20240419/a/alibabacloud-emr20210320-py2/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-19 08:25:55] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: executing diffoscope
+[2024-04-19 08:25:55] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_did_finder_lib-2.0.1.tar.gz tmp/servicex_did_finder_lib-2.0.2.tar.gz --markdown 20240419/S/ServiceX_DID_Finder_lib/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-19 08:25:56] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3a3.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3b1.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [openspg-nn4k]: success
+[2024-04-19 08:25:56] INFO root fetch - processPackages [sem6]: Remove: archive file [/home/abi/fetcher/tmp/sem6-3.0.0.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - processPackages [sem6]: Remove: archive file [/home/abi/fetcher/tmp/sem6-5.0.0.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [sem6]: success
+[2024-04-19 08:25:56] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: Remove: archive file [/home/abi/fetcher/tmp/servicex_did_finder_lib-2.0.1.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - processPackages [ServiceX_DID_Finder_lib]: Remove: archive file [/home/abi/fetcher/tmp/servicex_did_finder_lib-2.0.2.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [ServiceX_DID_Finder_lib]: success
+[2024-04-19 08:25:56] INFO root fetch - processPackages [sphinx_mdinclude]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_mdinclude-0.5.3.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - processPackages [sphinx_mdinclude]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_mdinclude-0.5.4.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [sphinx_mdinclude]: success
+[2024-04-19 08:25:56] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320_py2-1.5.0.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320_py2-1.6.0.tar.gz]
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr20210320-py2]: success
+[2024-04-19 08:25:56] INFO root fetch - main [MainThread]: Store serial: [22837476]
