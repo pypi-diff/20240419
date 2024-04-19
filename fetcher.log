@@ -6932,3 +6932,24 @@
 [2024-04-19 03:28:22] INFO root fetch - processPackages [circuitpython-stubs]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython_stubs-9.1.0b1.tar.gz]
 [2024-04-19 03:28:22] INFO root fetch - main [MainThread]: End processing [circuitpython-stubs]: success
 [2024-04-19 03:28:22] INFO root fetch - main [MainThread]: Store serial: [22835210]
+[2024-04-19 03:30:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835210]
+[2024-04-19 03:30:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 03:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tradedangerous
+[2024-04-19 03:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Surfactant
+[2024-04-19 03:30:31] INFO root fetch - processPackages [Surfactant]: New version: [0.0.0rc5] Old Version: [0.0.0rc4]
+[2024-04-19 03:30:31] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-19 03:30:31] INFO root fetch - processPackages [Surfactant]: Downloading https://files.pythonhosted.org/packages/f3/1b/2b92d21205901a12994787c1c93089b9e3cacabddd37dec4c81c2654c5b0/Surfactant-0.0.0rc4.tar.gz
+[2024-04-19 03:30:31] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-19 03:30:31] INFO root fetch - processPackages [Surfactant]: Downloading https://files.pythonhosted.org/packages/c0/69/ff7507e33d322307a2fb74273db54bb2805aea6635102530fc78298b0241/surfactant-0.0.0rc5.tar.gz
+[2024-04-19 03:30:31] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-19 03:30:32] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-19 03:30:32] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240419/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-19 03:30:32] INFO root fetch - processPackages [Surfactant]: executing diffoscope
+[2024-04-19 03:30:32] INFO root fetch - processPackages [Surfactant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Surfactant-0.0.0rc4.tar.gz tmp/surfactant-0.0.0rc5.tar.gz --markdown 20240419/S/Surfactant/0.0.0rc4-0.0.0rc5/README.md --exclude *.pyd
+[2024-04-19 03:30:33] INFO root fetch - processPackages [Surfactant]: Remove: archive file [/home/abi/fetcher/tmp/Surfactant-0.0.0rc4.tar.gz]
+[2024-04-19 03:30:33] INFO root fetch - processPackages [Surfactant]: Remove: archive file [/home/abi/fetcher/tmp/surfactant-0.0.0rc5.tar.gz]
+[2024-04-19 03:30:33] INFO root fetch - main [MainThread]: End processing [Surfactant]: success
+[2024-04-19 03:30:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-19 03:30:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-19 03:30:33] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-19 03:30:33] INFO root fetch - main [MainThread]: Store serial: [22835278]
