@@ -13956,3 +13956,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:03:11] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.2.0.tar.gz]
 [2024-04-19 10:03:11] INFO root fetch - main [MainThread]: End processing [globlocks]: success
 [2024-04-19 10:03:11] INFO root fetch - main [MainThread]: Store serial: [22838430]
+[2024-04-19 10:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838430]
+[2024-04-19 10:05:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 10:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-04-19 10:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cerbogen
+[2024-04-19 10:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: info-sign-in
+[2024-04-19 10:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NEWNEWS
+[2024-04-19 10:05:20] INFO root fetch - processPackages [cerbogen]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 10:05:20] INFO root fetch - processPackages [NEWNEWS]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 10:05:20] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240418] Old Version: [0.0.2.dev20240417]
+[2024-04-19 10:05:20] WARNING root fetch - processPackages [info-sign-in]: Skipping, unable to determine old version
+[2024-04-19 10:05:20] INFO root fetch - main [MainThread]: End processing [info-sign-in] error
+[2024-04-19 10:05:20] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/1e/3e/64728d5e884893c072f90911516fbd47cf2dd1f2b2ff688ece2a38681cb1/cerbogen-0.0.6.tar.gz
+[2024-04-19 10:05:20] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/d8/25/ee9e81bd791cdb9d8a34432a8f5d6dd100314ff98ac7e30ed151b0ebd7fd/NEWNEWS-0.0.3-py3-none-any.whl
+[2024-04-19 10:05:20] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8c/bc/5d514c97fdfa68ac4954a1d5f5e3fc4aadabe0bc54d4ae83b863b7b0d8bc/langfun-0.0.2.dev20240417.tar.gz
+[2024-04-19 10:05:20] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/db/5d/175bc395300caa9a9c031d0c6bf1c197c766a23c19e0643de1ae459daa8f/cerbogen-0.0.7.tar.gz
+[2024-04-19 10:05:20] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/64/18/bdabfe8c86d0a238c306a338cfe1501b5622afd88337ca503398830ceff5/langfun-0.0.2.dev20240418.tar.gz
+[2024-04-19 10:05:20] INFO root fetch - processPackages [NEWNEWS]: Downloading https://files.pythonhosted.org/packages/f0/a6/2ba38c230cfc957ba762b4505ee4ea336daff9386d7c087acff9c05ed66d/NEWNEWS-0.0.4-py3-none-any.whl
+[2024-04-19 10:05:20] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 10:05:20] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.6.tar.gz tmp/cerbogen-0.0.7.tar.gz --markdown 20240419/c/cerbogen/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 10:05:20] INFO root fetch - processPackages [NEWNEWS]: executing diffoscope
+[2024-04-19 10:05:20] INFO root fetch - processPackages [NEWNEWS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip tmp/NEWNEWS-0.0.4-py3-none-any.whl.zip --markdown 20240419/N/NEWNEWS/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 10:05:20] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-19 10:05:20] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240417.tar.gz tmp/langfun-0.0.2.dev20240418.tar.gz --markdown 20240419/l/langfun/0.0.2.dev20240417-0.0.2.dev20240418/README.md --exclude *.pyd
+[2024-04-19 10:05:21] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.3-py3-none-any.whl.zip]
+[2024-04-19 10:05:21] INFO root fetch - processPackages [NEWNEWS]: Remove: archive file [/home/abi/fetcher/tmp/NEWNEWS-0.0.4-py3-none-any.whl.zip]
+[2024-04-19 10:05:21] INFO root fetch - main [MainThread]: End processing [NEWNEWS]: success
+[2024-04-19 10:05:21] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.6.tar.gz]
+[2024-04-19 10:05:21] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.7.tar.gz]
+[2024-04-19 10:05:21] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 10:05:21] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240417.tar.gz]
+[2024-04-19 10:05:21] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240418.tar.gz]
+[2024-04-19 10:05:22] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-19 10:05:22] INFO root fetch - main [MainThread]: Store serial: [22838447]
