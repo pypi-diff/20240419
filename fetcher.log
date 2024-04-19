@@ -8984,3 +8984,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:50:47] INFO root fetch - processPackages [pymemgpt]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt-0.3.9.tar.gz]
 [2024-04-19 05:50:47] INFO root fetch - main [MainThread]: End processing [pymemgpt]: success
 [2024-04-19 05:50:47] INFO root fetch - main [MainThread]: Store serial: [22836267]
+[2024-04-19 05:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836267]
+[2024-04-19 05:52:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 05:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-utils
+[2024-04-19 05:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keble-chains
+[2024-04-19 05:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edstem-assignment-tracker
+[2024-04-19 05:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-ds
+[2024-04-19 05:52:57] WARNING root fetch - processPackages [edstem-assignment-tracker]: Skipping, unable to determine old version
+[2024-04-19 05:52:57] INFO root fetch - main [MainThread]: End processing [edstem-assignment-tracker] error
+[2024-04-19 05:52:57] INFO root fetch - processPackages [cpg-utils]: New version: [5.0.6] Old Version: [5.0.5]
+[2024-04-19 05:52:57] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/b5/d2/5398a5e17b278d110863975d989a8e157d6b523ae56159efa70f8804e2dc/cpg-utils-5.0.5.tar.gz
+[2024-04-19 05:52:57] INFO root fetch - processPackages [keble-chains]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 05:52:57] INFO root fetch - processPackages [polars-ds]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-19 05:52:57] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/e3/f0/5fdb3058329744b8fda064ed31778a349be8e5c0b5b416375df885f698a8/cpg-utils-5.0.6.tar.gz
+[2024-04-19 05:52:57] INFO root fetch - processPackages [keble-chains]: Downloading https://files.pythonhosted.org/packages/97/5c/a69d0dc0d39395ec826f692bec66ccc1dfd12fb73063cb949433abbc4d84/keble_chains-0.0.7.tar.gz
+[2024-04-19 05:52:57] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/d2/26/f181e8ddd340dad55e2417dc008878cc7e760d806334f759f8b1008d4a9b/polars_ds-0.4.1.tar.gz
+[2024-04-19 05:52:57] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2024-04-19 05:52:57] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-5.0.5.tar.gz tmp/cpg-utils-5.0.6.tar.gz --markdown 20240419/c/cpg-utils/5.0.5-5.0.6/README.md --exclude *.pyd
+[2024-04-19 05:52:57] INFO root fetch - processPackages [keble-chains]: Downloading https://files.pythonhosted.org/packages/74/75/ec5d57541685b3d5988c12608454f6bf850e1a74223da5f5decdd8b04808/keble_chains-0.0.8.tar.gz
+[2024-04-19 05:52:58] INFO root fetch - processPackages [keble-chains]: executing diffoscope
+[2024-04-19 05:52:58] INFO root fetch - processPackages [keble-chains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_chains-0.0.7.tar.gz tmp/keble_chains-0.0.8.tar.gz --markdown 20240419/k/keble-chains/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 05:52:58] INFO root fetch - processPackages [polars-ds]: Downloading https://files.pythonhosted.org/packages/e8/35/94269b744f9bbadf942b156e29adfeb623a4addcfe6e5b6def7b88218b45/polars_ds-0.4.2.tar.gz
+[2024-04-19 05:52:58] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.5.tar.gz]
+[2024-04-19 05:52:58] INFO root fetch - processPackages [cpg-utils]: Remove: archive file [/home/abi/fetcher/tmp/cpg-utils-5.0.6.tar.gz]
+[2024-04-19 05:52:58] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2024-04-19 05:52:58] INFO root fetch - processPackages [polars-ds]: executing diffoscope
+[2024-04-19 05:52:58] INFO root fetch - processPackages [polars-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ds-0.4.1.tar.gz tmp/polars_ds-0.4.2.tar.gz --markdown 20240419/p/polars-ds/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-19 05:52:58] INFO root fetch - processPackages [keble-chains]: Remove: archive file [/home/abi/fetcher/tmp/keble_chains-0.0.7.tar.gz]
+[2024-04-19 05:52:58] INFO root fetch - processPackages [keble-chains]: Remove: archive file [/home/abi/fetcher/tmp/keble_chains-0.0.8.tar.gz]
+[2024-04-19 05:52:58] INFO root fetch - main [MainThread]: End processing [keble-chains]: success
+[2024-04-19 05:53:03] INFO root fetch - processPackages [polars-ds]: Remove: archive file [/home/abi/fetcher/tmp/polars_ds-0.4.1.tar.gz]
+[2024-04-19 05:53:03] INFO root fetch - processPackages [polars-ds]: Remove: archive file [/home/abi/fetcher/tmp/polars_ds-0.4.2.tar.gz]
+[2024-04-19 05:53:03] INFO root fetch - main [MainThread]: End processing [polars-ds]: success
+[2024-04-19 05:53:03] INFO root fetch - main [MainThread]: Store serial: [22836282]
