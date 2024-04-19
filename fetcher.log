@@ -14709,3 +14709,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:38:35] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr2Meas-5.0.90.tar.gz]
 [2024-04-19 10:38:35] INFO root fetch - main [MainThread]: End processing [RsCMPX-NrFr2Meas]: success
 [2024-04-19 10:38:35] INFO root fetch - main [MainThread]: Store serial: [22838820]
+[2024-04-19 10:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838820]
+[2024-04-19 10:40:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-19 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: think-sql
+[2024-04-19 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sinaraml
+[2024-04-19 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CheeseSignal
+[2024-04-19 10:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rogue-tools
+[2024-04-19 10:40:46] INFO root fetch - processPackages [think-sql]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-19 10:40:46] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 10:40:46] WARNING root fetch - processPackages [CheeseSignal]: Skipping, unable to determine old version
+[2024-04-19 10:40:46] INFO root fetch - main [MainThread]: End processing [CheeseSignal] error
+[2024-04-19 10:40:46] INFO root fetch - processPackages [sinaraml]: New version: [2024.4.19] Old Version: [2024.3.20]
+[2024-04-19 10:40:46] INFO root fetch - processPackages [rogue-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 10:40:46] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/2d/3b/7a02ab4f8e8080853a47447994a05a86a88bb3aa21ae820d3beb635314d4/think_sql-0.7.1.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [sinaraml]: Downloading https://files.pythonhosted.org/packages/df/97/361d1d0e0408624b3b8c184c3b64487c72b3652c73897c92a69ef363117c/sinaraml-2024.3.20.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/37/10/aa03caf9fdca278581a5d5e209027fa8924cf8da15ed38cbd879dcd5cab1/rogue_tools-1.1.8.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [think-sql]: Downloading https://files.pythonhosted.org/packages/fe/75/5ff2ef633749f2d94b5d8f030e77a0a69ac1a3645c12cd8bdde928273ec1/think_sql-0.7.2.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [think-sql]: executing diffoscope
+[2024-04-19 10:40:46] INFO root fetch - processPackages [think-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/think_sql-0.7.1.tar.gz tmp/think_sql-0.7.2.tar.gz --markdown 20240419/t/think-sql/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-19 10:40:46] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-19 10:40:46] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240419/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 10:40:46] INFO root fetch - processPackages [sinaraml]: Downloading https://files.pythonhosted.org/packages/d2/85/c9de006ac40e1836decf994f061357faa7379cf350e06633cbb77aeb98cc/sinaraml-2024.4.19.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [rogue-tools]: Downloading https://files.pythonhosted.org/packages/64/af/0c8c2affe49221e9b552f8962085b77d4130fb807ef9d841f324342c767b/rogue_tools-1.1.9.tar.gz
+[2024-04-19 10:40:46] INFO root fetch - processPackages [rogue-tools]: executing diffoscope
+[2024-04-19 10:40:46] INFO root fetch - processPackages [rogue-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rogue_tools-1.1.8.tar.gz tmp/rogue_tools-1.1.9.tar.gz --markdown 20240419/r/rogue-tools/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 10:40:46] INFO root fetch - processPackages [sinaraml]: executing diffoscope
+[2024-04-19 10:40:46] INFO root fetch - processPackages [sinaraml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinaraml-2024.3.20.tar.gz tmp/sinaraml-2024.4.19.tar.gz --markdown 20240419/s/sinaraml/2024.3.20-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 10:40:47] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.1.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - processPackages [think-sql]: Remove: archive file [/home/abi/fetcher/tmp/think_sql-0.7.2.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - main [MainThread]: End processing [think-sql]: success
+[2024-04-19 10:40:47] INFO root fetch - processPackages [sinaraml]: Remove: archive file [/home/abi/fetcher/tmp/sinaraml-2024.3.20.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - processPackages [sinaraml]: Remove: archive file [/home/abi/fetcher/tmp/sinaraml-2024.4.19.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - main [MainThread]: End processing [sinaraml]: success
+[2024-04-19 10:40:47] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.8.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - processPackages [rogue-tools]: Remove: archive file [/home/abi/fetcher/tmp/rogue_tools-1.1.9.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - main [MainThread]: End processing [rogue-tools]: success
+[2024-04-19 10:40:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-19 10:40:47] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-19 10:40:47] INFO root fetch - main [MainThread]: Store serial: [22838837]
