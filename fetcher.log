@@ -8816,3 +8816,30 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:37:41] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.5.tar.gz]
 [2024-04-19 05:37:41] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2024-04-19 05:37:41] INFO root fetch - main [MainThread]: Store serial: [22836209]
+[2024-04-19 05:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836209]
+[2024-04-19 05:39:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelscope-studio
+[2024-04-19 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycommons
+[2024-04-19 05:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: windmill-artifact
+[2024-04-19 05:39:50] INFO root fetch - processPackages [windmill-artifact]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-19 05:39:50] INFO root fetch - processPackages [pycommons]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-19 05:39:50] INFO root fetch - processPackages [modelscope-studio]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-04-19 05:39:50] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/f5/b7/e2307174b50d3416008197b30b2fd81919d123479629cd660c1128d5abec/pycommons-0.8.8.tar.gz
+[2024-04-19 05:39:50] INFO root fetch - processPackages [windmill-artifact]: Downloading https://files.pythonhosted.org/packages/eb/cb/9cae509916fc6577ee50c9132579ff2305cb38588157a358af011e9560f8/windmill_artifact-1.0.0.8-py3-none-any.whl
+[2024-04-19 05:39:50] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/16/53/c9a792246f011344141012b01f9dfa2011738b22fa2f48811e6a63798920/modelscope_studio-0.1.7.tar.gz
+[2024-04-19 05:39:50] INFO root fetch - processPackages [windmill-artifact]: Downloading https://files.pythonhosted.org/packages/c7/25/bdc666b499d42977fe3e601e00dda06a6d1208a8fbf41ce8afb67798fc61/windmill_artifact-1.0.0.9-py3-none-any.whl
+[2024-04-19 05:39:50] INFO root fetch - processPackages [pycommons]: Downloading https://files.pythonhosted.org/packages/b6/ca/acae5b6b302dfdf392c815106b020283d0238189cbe02716e4a0c042a8df/pycommons-0.8.9.tar.gz
+[2024-04-19 05:39:50] INFO root fetch - processPackages [windmill-artifact]: executing diffoscope
+[2024-04-19 05:39:50] INFO root fetch - processPackages [windmill-artifact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_artifact-1.0.0.8-py3-none-any.whl.zip tmp/windmill_artifact-1.0.0.9-py3-none-any.whl.zip --markdown 20240419/w/windmill-artifact/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-19 05:39:50] INFO root fetch - processPackages [pycommons]: executing diffoscope
+[2024-04-19 05:39:50] INFO root fetch - processPackages [pycommons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycommons-0.8.8.tar.gz tmp/pycommons-0.8.9.tar.gz --markdown 20240419/p/pycommons/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-19 05:39:51] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/a6/6a/a16793e05bd8f398db371414f86f57bdbff9a6e47dbb93bb43fc83f55a2f/modelscope_studio-0.2.0.tar.gz
+[2024-04-19 05:39:51] INFO root fetch - processPackages [windmill-artifact]: Remove: archive file [/home/abi/fetcher/tmp/windmill_artifact-1.0.0.8-py3-none-any.whl.zip]
+[2024-04-19 05:39:51] INFO root fetch - processPackages [windmill-artifact]: Remove: archive file [/home/abi/fetcher/tmp/windmill_artifact-1.0.0.9-py3-none-any.whl.zip]
+[2024-04-19 05:39:51] INFO root fetch - main [MainThread]: End processing [windmill-artifact]: success
+[2024-04-19 05:39:51] WARNING root fetch - processPackages [modelscope-studio]: Skipping package: exceeds size limit 10886731>=10485760
+[2024-04-19 05:39:51] INFO root fetch - main [MainThread]: End processing [modelscope-studio] error
+[2024-04-19 05:39:51] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.8.tar.gz]
+[2024-04-19 05:39:51] INFO root fetch - processPackages [pycommons]: Remove: archive file [/home/abi/fetcher/tmp/pycommons-0.8.9.tar.gz]
+[2024-04-19 05:39:51] INFO root fetch - main [MainThread]: End processing [pycommons]: success
+[2024-04-19 05:39:51] INFO root fetch - main [MainThread]: Store serial: [22836217]
