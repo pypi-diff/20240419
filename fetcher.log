@@ -21159,3 +21159,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:25:37] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
 [2024-04-19 14:25:37] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
 [2024-04-19 14:25:37] INFO root fetch - main [MainThread]: Store serial: [22841558]
+[2024-04-19 14:27:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841558]
+[2024-04-19 14:27:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icat-esrf-definitions
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pokerengine
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ruff
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neptune-fetcher
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ultima-scraper-renamer
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-gitlab
+[2024-04-19 14:27:46] INFO root fetch - processPackages [pokerengine]: New version: [1.0a0] Old Version: [1.0]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.9.0a1708340471] Old Version: [6.9.0a1708063247]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ruff]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [neptune-fetcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [icat-esrf-definitions]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ultima-scraper-renamer]: New version: [1.1.71] Old Version: [1.1.7]
+[2024-04-19 14:27:46] INFO root fetch - processPackages [pokerengine]: Downloading https://files.pythonhosted.org/packages/34/e0/24d26af86a11f841ca46abaeb2c74a905f4cf0fc57bbaa5ea3cfb79843c3/pokerengine-1.0.tar.gz
+[2024-04-19 14:27:46] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/3b/4d/037a20cd11fcdbb27fecb6abfc6ac31473e2c0c9a803021614902f10031e/ruff-0.4.0.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/de/6d/9c4b4576f6bf62f739e9825466d3248d441cffb6228ee5eb4bff150aab8d/ultima_scraper_renamer-1.1.7.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [icat-esrf-definitions]: Downloading https://files.pythonhosted.org/packages/a7/66/aeef77922cc7bc3e88b91b3d5fff0cd70128ee767cba12e9afa593463976/icat-esrf-definitions-2.1.0.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/58/07/ab2778876b4db96da370ecc6d084f38b132c7d1e47cda0350b3de396d7e4/pulumi_gitlab-6.9.0a1708063247.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [neptune-fetcher]: Downloading https://files.pythonhosted.org/packages/28/89/80b85bb5df1657e88fcfe5492fa33fdb2484561c35f4c3c5d83aea9be7b7/neptune_fetcher-0.1.0.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pokerengine]: Downloading https://files.pythonhosted.org/packages/34/80/de03bf590fd048c96c455d95afb183707fd155cf1d46fbc441e567774f17/pokerengine-1.0a0.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pokerengine]: executing diffoscope
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pokerengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokerengine-1.0.tar.gz tmp/pokerengine-1.0a0.tar.gz --markdown 20240419/p/pokerengine/1.0-1.0a0/README.md --exclude *.pyd
+[2024-04-19 14:27:47] INFO root fetch - processPackages [icat-esrf-definitions]: Downloading https://files.pythonhosted.org/packages/fa/5f/0ad12f7662c12b6ac5400b895010aedd65f4ea0170a12024079f5b1a673b/icat_esrf_definitions-2.1.1.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [ultima-scraper-renamer]: Downloading https://files.pythonhosted.org/packages/0b/fe/73131a19db75d130d5c76d45e3d248ec079621299eaa5f9435397684b95c/ultima_scraper_renamer-1.1.71.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/50/19/1d25f4daf6518f615676cab90d205ef1e221500f95e4a79325e4cd2bf937/ruff-0.4.1-py3-none-musllinux_1_2_i686.whl
+[2024-04-19 14:27:47] INFO root fetch - processPackages [neptune-fetcher]: Downloading https://files.pythonhosted.org/packages/9e/69/aa6454fa7e2c56ffdddf3bf8f7b2770a3ab17ae30a8c85705cb7acfa61e3/neptune_fetcher-0.2.0.tar.gz
+[2024-04-19 14:27:47] INFO root fetch - processPackages [icat-esrf-definitions]: executing diffoscope
+[2024-04-19 14:27:47] INFO root fetch - processPackages [icat-esrf-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icat-esrf-definitions-2.1.0.tar.gz tmp/icat_esrf_definitions-2.1.1.tar.gz --markdown 20240419/i/icat-esrf-definitions/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-19 14:27:47] INFO root fetch - processPackages [ultima-scraper-renamer]: executing diffoscope
+[2024-04-19 14:27:47] INFO root fetch - processPackages [ultima-scraper-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_renamer-1.1.7.tar.gz tmp/ultima_scraper_renamer-1.1.71.tar.gz --markdown 20240419/u/ultima-scraper-renamer/1.1.7-1.1.71/README.md --exclude *.pyd
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-04-19 14:27:47] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz --markdown 20240419/p/pulumi-gitlab/6.9.0a1708063247-6.9.0a1708340471/README.md --exclude *.pyd
+[2024-04-19 14:27:47] INFO root fetch - processPackages [neptune-fetcher]: executing diffoscope
+[2024-04-19 14:27:47] INFO root fetch - processPackages [neptune-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neptune_fetcher-0.1.0.tar.gz tmp/neptune_fetcher-0.2.0.tar.gz --markdown 20240419/n/neptune-fetcher/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-19 14:27:48] INFO root fetch - processPackages [pokerengine]: Remove: archive file [/home/abi/fetcher/tmp/pokerengine-1.0.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - processPackages [pokerengine]: Remove: archive file [/home/abi/fetcher/tmp/pokerengine-1.0a0.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - main [MainThread]: End processing [pokerengine]: success
+[2024-04-19 14:27:48] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.7.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - processPackages [ultima-scraper-renamer]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_renamer-1.1.71.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - main [MainThread]: End processing [ultima-scraper-renamer]: success
+[2024-04-19 14:27:48] INFO root fetch - processPackages [neptune-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/neptune_fetcher-0.1.0.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - processPackages [neptune-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/neptune_fetcher-0.2.0.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - main [MainThread]: End processing [neptune-fetcher]: success
+[2024-04-19 14:27:48] INFO root fetch - processPackages [icat-esrf-definitions]: Remove: archive file [/home/abi/fetcher/tmp/icat-esrf-definitions-2.1.0.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - processPackages [icat-esrf-definitions]: Remove: archive file [/home/abi/fetcher/tmp/icat_esrf_definitions-2.1.1.tar.gz]
+[2024-04-19 14:27:48] INFO root fetch - main [MainThread]: End processing [icat-esrf-definitions]: success
+[2024-04-19 14:27:49] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708063247.tar.gz]
+[2024-04-19 14:27:49] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-04-19 14:27:49] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-04-19 14:27:52] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2024-04-19 14:27:52] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.4.0.tar.gz tmp/ruff-0.4.1-py3-none-musllinux_1_2_i686.whl.zip --markdown 20240419/r/ruff/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 14:27:53] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.0.tar.gz]
+[2024-04-19 14:27:53] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.4.1-py3-none-musllinux_1_2_i686.whl.zip]
+[2024-04-19 14:27:53] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2024-04-19 14:27:53] INFO root fetch - main [MainThread]: Store serial: [22841585]
