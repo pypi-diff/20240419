@@ -19481,3 +19481,156 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 13:13:46] INFO root fetch - processPackages [pyarmor-webui]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-webui-2.4.zip]
 [2024-04-19 13:13:46] INFO root fetch - main [MainThread]: End processing [pyarmor-webui]: success
 [2024-04-19 13:13:46] INFO root fetch - main [MainThread]: Store serial: [22840769]
+[2024-04-19 13:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840769]
+[2024-04-19 13:15:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-cpp
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: My-First-Project-19-April-2024
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PYield
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: text-fabric
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mathematical-operations
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xrayutilities
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: catasta
+[2024-04-19 13:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: analysta-index
+[2024-04-19 13:15:56] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240418] Old Version: [2.5.0b20240417]
+[2024-04-19 13:15:56] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/52/d9/f9bebcc216c3490d43b2eb149fd13cfce1b2ab40ada3d3ff8b8a7a44d8ee/bigdl_core_cpp-2.5.0b20240417-py3-none-win_amd64.whl
+[2024-04-19 13:15:56] WARNING root fetch - processPackages [My-First-Project-19-April-2024]: Skipping, unable to determine old version
+[2024-04-19 13:15:56] INFO root fetch - main [MainThread]: End processing [My-First-Project-19-April-2024] error
+[2024-04-19 13:15:56] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 13:15:56] WARNING root fetch - processPackages [mathematical-operations]: Skipping, unable to determine old version
+[2024-04-19 13:15:56] INFO root fetch - main [MainThread]: End processing [mathematical-operations] error
+[2024-04-19 13:15:56] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2024-04-19 13:15:56] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240419] Old Version: [2.5.0b20240418]
+[2024-04-19 13:15:56] INFO root fetch - processPackages [xrayutilities]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-04-19 13:15:56] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 54451369>=10485760
+[2024-04-19 13:15:56] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-19 13:15:56] INFO root fetch - processPackages [PYield]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-19 13:15:56] INFO root fetch - processPackages [catasta]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-19 13:15:56] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/bb/80/b9db47ad2d39859a5c2276e27c56daae0db451a130db8305340dfe7dd7ee/text_fabric-9.4.4-py3-none-any.whl
+[2024-04-19 13:15:56] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/fa/65/b279e36bfd1fc2f21a0ca5a095ecbddbaadded1b3fa3936601288b7eb5e1/bigdl_core_xe_esimd_21-2.5.0b20240418-cp39-cp39-win_amd64.whl
+[2024-04-19 13:15:56] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/9e/d4/67ee365339eeb164ac5eb71ed5654d8b84ceb0445c49f301968e05b64d0e/pyield-0.7.2.tar.gz
+[2024-04-19 13:15:56] INFO root fetch - processPackages [xrayutilities]: Downloading https://files.pythonhosted.org/packages/3c/cc/65ff19e707b8721a7fef72a6e0d0aa324956b5801a652eb2cf3fa72708ee/xrayutilities-1.7.6.tar.gz
+[2024-04-19 13:15:56] INFO root fetch - processPackages [catasta]: Downloading https://files.pythonhosted.org/packages/4d/98/3f3ca269732c16a66397cc4628672097e1399b7adfd3fadb95113a383519/catasta-0.1.2.tar.gz
+[2024-04-19 13:15:56] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-04-19 13:15:56] WARNING root fetch - processPackages [catasta]: Skipping package: exceeds size limit 22924093>=10485760
+[2024-04-19 13:15:56] INFO root fetch - main [MainThread]: End processing [catasta] error
+[2024-04-19 13:15:57] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/2e/13/46c642e6bc4dfde54f85e1a697c2dd698b1cd7f3a9d8260a96f26f769c3d/pyield-0.7.3.tar.gz
+[2024-04-19 13:15:57] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-19 13:15:57] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.7.2.tar.gz tmp/pyield-0.7.3.tar.gz --markdown 20240419/P/PYield/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-04-19 13:15:57] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-04-19 13:15:57] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-04-19 13:15:57] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240419/a/analysta-index/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 13:15:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/88/11/1f3881d8ec4ac02b6cbcefa4aec14f70c527a303a3c6430bb4d90b4a677e/bigdl_core_xe_esimd_21-2.5.0b20240419-cp310-cp310-win_amd64.whl
+[2024-04-19 13:15:57] INFO root fetch - processPackages [xrayutilities]: Downloading https://files.pythonhosted.org/packages/48/92/95d80428edaf740edbc4506549a69056364e3fd6987d6ad2ab190deb7c64/xrayutilities-1.7.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 13:15:57] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.2.tar.gz]
+[2024-04-19 13:15:57] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.7.3.tar.gz]
+[2024-04-19 13:15:57] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-19 13:15:57] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-04-19 13:15:57] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-04-19 13:15:57] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-04-19 13:15:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-19 13:15:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240418-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240419-cp310-cp310-win_amd64.whl.zip --markdown 20240419/b/bigdl-core-xe-esimd-21/2.5.0b20240418-2.5.0b20240419/README.md --exclude *.pyd
+[2024-04-19 13:15:57] INFO root fetch - processPackages [text-fabric]: Downloading https://files.pythonhosted.org/packages/5a/68/601e800ea7b082fabb89c3c0c122fd9fa13b4da75c0bdfbafa945139092a/text_fabric-9.5.2-py3-none-any.whl
+[2024-04-19 13:15:58] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-04-19T13:15:57+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140180887444880)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140181021662720)
+
+[2024-04-19 13:15:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-19 13:15:58] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2024-04-19 13:15:58] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20240419/t/text-fabric/9.4.4-9.5.2/README.md --exclude *.pyd
+[2024-04-19 13:15:59] INFO root fetch - processPackages [xrayutilities]: executing diffoscope
+[2024-04-19 13:15:59] INFO root fetch - processPackages [xrayutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrayutilities-1.7.6.tar.gz tmp/xrayutilities-1.7.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240419/x/xrayutilities/1.7.6-1.7.7/README.md --exclude *.pyd
+[2024-04-19 13:16:00] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.4.4-py3-none-any.whl.zip]
+[2024-04-19 13:16:00] INFO root fetch - processPackages [text-fabric]: Remove: archive file [/home/abi/fetcher/tmp/text_fabric-9.5.2-py3-none-any.whl.zip]
+[2024-04-19 13:16:00] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2024-04-19 13:16:00] INFO root fetch - processPackages [xrayutilities]: Remove: archive file [/home/abi/fetcher/tmp/xrayutilities-1.7.6.tar.gz]
+[2024-04-19 13:16:00] INFO root fetch - processPackages [xrayutilities]: Remove: archive file [/home/abi/fetcher/tmp/xrayutilities-1.7.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-19 13:16:00] INFO root fetch - main [MainThread]: End processing [xrayutilities]: success
+[2024-04-19 13:16:00] INFO root fetch - main [MainThread]: Store serial: [22840804]
