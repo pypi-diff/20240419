@@ -9389,3 +9389,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:19:00] INFO root fetch - processPackages [cupy]: Remove: archive file [/home/abi/fetcher/tmp/cupy-9.6.0.tar.gz]
 [2024-04-19 06:19:00] INFO root fetch - main [MainThread]: End processing [cupy]: success
 [2024-04-19 06:19:00] INFO root fetch - main [MainThread]: Store serial: [22836492]
+[2024-04-19 06:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836492]
+[2024-04-19 06:21:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 06:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-04-19 06:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moviechat
+[2024-04-19 06:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-19 06:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: provena-interfaces
+[2024-04-19 06:21:09] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 06:21:09] INFO root fetch - processPackages [moviechat]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-19 06:21:09] INFO root fetch - processPackages [provena-interfaces]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-19 06:21:09] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-19 06:21:09] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/6a/5c/b00a5c5c300672a229b8a51f63b067af942856a0a8f2fa965776476562c9/moviechat-0.3.0.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/c4/08/c269c31e78b38abb5e772ac55426535f96dc9d3875e75e2bcca7f4499a01/provena-interfaces-0.1.11.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 06:21:09] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 06:21:09] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/c5/30/8d815ef900b0fac15ce682f14bbdd5de64c26f8836a5cea4a46288d645f5/moviechat-0.4.0.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [provena-interfaces]: Downloading https://files.pythonhosted.org/packages/03/52/4929b24cd455b820d13ee287f0d83c280933433e047254782d65d2e65c35/provena-interfaces-0.1.12.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [moviechat]: executing diffoscope
+[2024-04-19 06:21:09] INFO root fetch - processPackages [moviechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moviechat-0.3.0.tar.gz tmp/moviechat-0.4.0.tar.gz --markdown 20240419/m/moviechat/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-19 06:21:09] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-19 06:21:09] INFO root fetch - processPackages [provena-interfaces]: executing diffoscope
+[2024-04-19 06:21:09] INFO root fetch - processPackages [provena-interfaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/provena-interfaces-0.1.11.tar.gz tmp/provena-interfaces-0.1.12.tar.gz --markdown 20240419/p/provena-interfaces/0.1.11-0.1.12/README.md --exclude *.pyd
+[2024-04-19 06:21:10] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-19 06:21:10] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240419/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/README.md --exclude *.pyd
+[2024-04-19 06:21:10] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 06:21:10] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-0.1.11.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - processPackages [provena-interfaces]: Remove: archive file [/home/abi/fetcher/tmp/provena-interfaces-0.1.12.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - main [MainThread]: End processing [provena-interfaces]: success
+[2024-04-19 06:21:10] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.3.0.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.4.0.tar.gz]
+[2024-04-19 06:21:10] INFO root fetch - main [MainThread]: End processing [moviechat]: success
+[2024-04-19 06:21:26] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-19 06:21:26] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-19 06:21:26] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-19 06:21:26] INFO root fetch - main [MainThread]: Store serial: [22836504]
