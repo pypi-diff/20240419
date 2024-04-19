@@ -17532,3 +17532,54 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 11:59:35] INFO root fetch - processPackages [neptune]: Remove: archive file [/home/abi/fetcher/tmp/neptune-2.0.0a3.tar.gz]
 [2024-04-19 11:59:35] INFO root fetch - main [MainThread]: End processing [neptune]: success
 [2024-04-19 11:59:35] INFO root fetch - main [MainThread]: Store serial: [22839938]
+[2024-04-19 12:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839938]
+[2024-04-19 12:01:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaogpt
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moleculekit
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skip-django-reversion-pynamodb
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dve-lumipy-testing
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sputnik-web
+[2024-04-19 12:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sbcli-mig
+[2024-04-19 12:01:55] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 12:01:55] INFO root fetch - processPackages [xiaogpt]: New version: [2.60] Old Version: [2.50]
+[2024-04-19 12:01:55] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 12:01:56] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: New version: [0.2.0] Old Version: [0.1.6.1]
+[2024-04-19 12:01:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 12:01:56] WARNING root fetch - processPackages [sputnik-web]: Skipping, unable to determine old version
+[2024-04-19 12:01:56] INFO root fetch - main [MainThread]: End processing [sputnik-web] error
+[2024-04-19 12:01:56] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/3b/88/1c3b47ba8bc68d7df2af407627b64296f88e7536e1027df4dd39980b802f/xiaogpt-2.50.tar.gz
+[2024-04-19 12:01:56] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-04-19 12:01:56] INFO root fetch - processPackages [moleculekit]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-04-19 12:01:56] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: Downloading https://files.pythonhosted.org/packages/0c/98/80aa098318662b4faa454b54e0fbd3e286aab5bcb465cc3113a0b2ce9cde/skip-django-reversion-pynamodb-0.1.6.1.tar.gz
+[2024-04-19 12:01:56] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/e4/a8/ef9f25e6e42436ceaecfd8bb0aadbf40855976374a46b8cf8d55000fa0a8/moleculekit-1.8.6.tar.gz
+[2024-04-19 12:01:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 12:01:56] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-04-19 12:01:56] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/8f/cf/564623a23b27ae8a61cd0458779a0517f23132e8cbc0517aa01124b3f503/xiaogpt-2.60.tar.gz
+[2024-04-19 12:01:56] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 12:01:56] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 12:01:56] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-04-19 12:01:56] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.50.tar.gz tmp/xiaogpt-2.60.tar.gz --markdown 20240419/x/xiaogpt/2.50-2.60/README.md --exclude *.pyd
+[2024-04-19 12:01:56] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-19 12:01:56] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240419/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 12:01:56] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: Downloading https://files.pythonhosted.org/packages/c7/ba/f3e50e569b8220a975b3e1ee27797c796e5133d878ee60c1550b5d68036d/skip_django_reversion_pynamodb-0.2.0.tar.gz
+[2024-04-19 12:01:56] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: executing diffoscope
+[2024-04-19 12:01:56] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-reversion-pynamodb-0.1.6.1.tar.gz tmp/skip_django_reversion_pynamodb-0.2.0.tar.gz --markdown 20240419/s/skip-django-reversion-pynamodb/0.1.6.1-0.2.0/README.md --exclude *.pyd
+[2024-04-19 12:01:57] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.50.tar.gz]
+[2024-04-19 12:01:57] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.60.tar.gz]
+[2024-04-19 12:01:57] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-04-19 12:01:57] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 12:01:57] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 12:01:57] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 12:01:57] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-reversion-pynamodb-0.1.6.1.tar.gz]
+[2024-04-19 12:01:57] INFO root fetch - processPackages [skip-django-reversion-pynamodb]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_reversion_pynamodb-0.2.0.tar.gz]
+[2024-04-19 12:01:57] INFO root fetch - main [MainThread]: End processing [skip-django-reversion-pynamodb]: success
+[2024-04-19 12:01:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 12:01:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 12:01:57] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-19 12:01:58] INFO root fetch - processPackages [moleculekit]: Downloading https://files.pythonhosted.org/packages/67/c5/ed682f5ea9a16915b98612e0b274b50303bb912ccb71ab106247e01be8c2/moleculekit-1.8.7.tar.gz
+[2024-04-19 12:02:00] INFO root fetch - processPackages [moleculekit]: executing diffoscope
+[2024-04-19 12:02:00] INFO root fetch - processPackages [moleculekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moleculekit-1.8.6.tar.gz tmp/moleculekit-1.8.7.tar.gz --markdown 20240419/m/moleculekit/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-04-19 12:02:06] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.6.tar.gz]
+[2024-04-19 12:02:06] INFO root fetch - processPackages [moleculekit]: Remove: archive file [/home/abi/fetcher/tmp/moleculekit-1.8.7.tar.gz]
+[2024-04-19 12:02:06] INFO root fetch - main [MainThread]: End processing [moleculekit]: success
+[2024-04-19 12:02:06] INFO root fetch - main [MainThread]: Store serial: [22839956]
