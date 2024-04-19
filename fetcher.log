@@ -20021,3 +20021,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:31:37] INFO root fetch - processPackages [laser-learning-environment]: Remove: archive file [/home/abi/fetcher/tmp/laser_learning_environment-0.2.5-cp311-none-win_amd64.whl.zip]
 [2024-04-19 13:31:37] INFO root fetch - main [MainThread]: End processing [laser-learning-environment]: success
 [2024-04-19 13:31:37] INFO root fetch - main [MainThread]: Store serial: [22841012]
+[2024-04-19 13:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841012]
+[2024-04-19 13:33:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xunter
+[2024-04-19 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyarmor.cli.core.alpine
+[2024-04-19 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core.android
+[2024-04-19 13:33:46] WARNING root fetch - processPackages [xunter]: Skipping, unable to determine old version
+[2024-04-19 13:33:46] INFO root fetch - main [MainThread]: End processing [xunter] error
+[2024-04-19 13:33:46] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:33:46] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/be/e0/b98b5a17198e6004791eb7b8ab480ef0e38a623db2f5671f2f6b13c38d01/pyarmor.cli.core.alpine-6.5.0-cp39-none-any.whl
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/28/6e/48be87a4570f3a2f771296f5f89cf84fec17deb930d26361a028f0fdeaea/pyarmor.cli.core.android-6.5.0-cp39-none-any.whl
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/b2/bf/b7fb598d8cee41e2b5e78bf2d2b06e5bf41220516feb85aa4848dbfbe832/pyarmor.cli.core.alpine-6.5.1-cp39-none-any.whl
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-6.5.1-cp39-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.alpine/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:33:47] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/39/d7/f8fa75883792ad41a5d18829e748d86d430407f42b35b970a59450a825b0/pyarmor.cli.core.android-6.5.1-cp38-none-any.whl
+[2024-04-19 13:33:48] INFO root fetch - processPackages [pyarmor.cli.core.android]: executing diffoscope
+[2024-04-19 13:33:48] INFO root fetch - processPackages [pyarmor.cli.core.android]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.android-6.5.0-cp39-none-any.whl.zip tmp/pyarmor.cli.core.android-6.5.1-cp38-none-any.whl.zip --markdown 20240419/p/pyarmor.cli.core.android/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:33:57] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:33:57] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-6.5.1-cp39-none-any.whl.zip]
+[2024-04-19 13:33:57] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2024-04-19 13:34:11] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-6.5.0-cp39-none-any.whl.zip]
+[2024-04-19 13:34:11] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-6.5.1-cp38-none-any.whl.zip]
+[2024-04-19 13:34:11] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android]: success
+[2024-04-19 13:34:11] INFO root fetch - main [MainThread]: Store serial: [22841047]
