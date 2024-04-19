@@ -23480,3 +23480,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:43:42] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.4.tar.gz]
 [2024-04-19 15:43:42] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
 [2024-04-19 15:43:42] INFO root fetch - main [MainThread]: Store serial: [22842700]
+[2024-04-19 15:45:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842700]
+[2024-04-19 15:46:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpcflow-new2
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arize-phoenix
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Tooldelta
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-organization-python
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beez-gravity
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python_dev_utils
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: emx
+[2024-04-19 15:46:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autotrain-advanced
+[2024-04-19 15:46:04] INFO root fetch - processPackages [Tooldelta]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/29/ba/e6536fe89b92cb14cde8402d892de6cfc9add1fafb99fc01fb685eb43e92/tooldelta-0.5.4.tar.gz
+[2024-04-19 15:46:04] INFO root fetch - processPackages [emx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [python_dev_utils]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-19 15:46:04] WARNING root fetch - processPackages [beez-gravity]: Skipping, unable to determine old version
+[2024-04-19 15:46:04] INFO root fetch - processPackages [beez-gravity]: Start processing: pxk
+[2024-04-19 15:46:04] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a99] Old Version: [0.2.0a98]
+[2024-04-19 15:46:04] INFO root fetch - main [MainThread]: End processing [beez-gravity] error
+[2024-04-19 15:46:04] INFO root fetch - processPackages [arize-phoenix]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-19 15:46:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-19 15:46:04] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [pxk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 15:46:05] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/82/5b/6984c1054c9e9e23755579aaa22700cc853a60706fbcc5669dd44c836893/hpcflow_new2-0.2.0a98.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/32/54/dd1420c784f6709327cced1d2bbed61aa40764329217758438d2eb1f4b2b/arize_phoenix-3.8.0.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/d0/72/db8702f65dd00ea850e2634e3e65914805c7866440c3edb5728770fe9944/emx-1.0.8-py3-none-any.whl
+[2024-04-19 15:46:05] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/21/42/2d2cdd3a174523e6533e8684ffeadb65e3ce3286e3fab05c86066c68f64a/tooldelta-0.5.5.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/b3/e0/74f2bae397c0da0f0dd5f41c21513f384d22eb28850d24162b82eade23e2/python_dev_utils-1.3.0.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [pxk]: Downloading https://files.pythonhosted.org/packages/54/22/a9f13b97ff4282c3a42dbf89dd919311a47e6bbe35b1fb30934ec0f1e33c/pxk-0.0.3.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.5.4.tar.gz tmp/tooldelta-0.5.5.tar.gz --markdown 20240419/T/Tooldelta/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240419/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240419/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240419/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/0f/57/2f7e8a45a7e04d194bef8159c4699a162d3c4919e7416aca0574eaf091fe/python_dev_utils-1.3.1.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [emx]: Downloading https://files.pythonhosted.org/packages/24/55/887075545013adb2d53fed13cfe5e9cfa59decef2eee93b668eed757e378/emx-1.0.9-py3-none-any.whl
+[2024-04-19 15:46:05] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/36/d0/5890c665787639f299c68be7a83fe303258a785667204f30810f0c319058/hpcflow_new2-0.2.0a99.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [pxk]: Downloading https://files.pythonhosted.org/packages/89/e8/735c3241afbd030b60b49a814cf04bdb1db6a99612ff729f642510a145e2/pxk-0.0.4.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [emx]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [emx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emx-1.0.8-py3-none-any.whl.zip tmp/emx-1.0.9-py3-none-any.whl.zip --markdown 20240419/e/emx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [arize-phoenix]: Downloading https://files.pythonhosted.org/packages/f5/d6/dd38a21fc9a3d21b359c58ab0bd8f66d4b72e734d82e17836fad3bb992dc/arize_phoenix-3.9.0.tar.gz
+[2024-04-19 15:46:05] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a98.tar.gz tmp/hpcflow_new2-0.2.0a99.tar.gz --markdown 20240419/h/hpcflow-new2/0.2.0a98-0.2.0a99/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.3.0.tar.gz tmp/python_dev_utils-1.3.1.tar.gz --markdown 20240419/p/python_dev_utils/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-19 15:46:05] INFO root fetch - processPackages [pxk]: executing diffoscope
+[2024-04-19 15:46:05] INFO root fetch - processPackages [pxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxk-0.0.3.tar.gz tmp/pxk-0.0.4.tar.gz --markdown 20240419/p/pxk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 15:46:06] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-19 15:46:06] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-19 15:46:06] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240419/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-19 15:46:06] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.4.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.5.5.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [Tooldelta]: Start processing: mdimechanic
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [arize-phoenix]: executing diffoscope
+[2024-04-19 15:46:06] INFO root fetch - processPackages [arize-phoenix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix-3.8.0.tar.gz tmp/arize_phoenix-3.9.0.tar.gz --markdown 20240419/a/arize-phoenix/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-19 15:46:06] INFO root fetch - processPackages [mdimechanic]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: isagog-ai
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [isagog-ai]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.8-py3-none-any.whl.zip]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [emx]: Remove: archive file [/home/abi/fetcher/tmp/emx-1.0.9-py3-none-any.whl.zip]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [emx]: Start processing: pip-blame
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [emx]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/33/52/3cd722ac54ebf2c18daae03fb051d92ab47738b3150bcf620564980b954d/isagog_ai-0.8.5.tar.gz
+[2024-04-19 15:46:06] INFO root fetch - processPackages [pip-blame]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [mdimechanic]: Downloading https://files.pythonhosted.org/packages/25/cb/8883172d222b5793d696fc58115903623b09eec8a15547e5883c95379c60/mdimechanic-0.4.0.tar.gz
+[2024-04-19 15:46:06] INFO root fetch - processPackages [pxk]: Remove: archive file [/home/abi/fetcher/tmp/pxk-0.0.3.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [pxk]: Remove: archive file [/home/abi/fetcher/tmp/pxk-0.0.4.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [pxk]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/73/2c/aae2295059e1b0362ac1dab79f62d4b129a630de1cd753d90f66addc05b7/pip_blame-0.2.1.tar.gz
+[2024-04-19 15:46:06] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.3.0.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.3.1.tar.gz]
+[2024-04-19 15:46:06] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-19 15:46:06] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/2f/83/a073a57072d89c19f532e239e1f1b844e2e5922c9a944ebf60486f55bc70/isagog_ai-0.8.6.tar.gz
+[2024-04-19 15:46:07] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-04-19 15:46:07] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.5.tar.gz tmp/isagog_ai-0.8.6.tar.gz --markdown 20240419/i/isagog-ai/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-19 15:46:07] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-19 15:46:07] INFO root fetch - processPackages [mdimechanic]: Downloading https://files.pythonhosted.org/packages/04/07/7f1b8474a8202eea3a744831909bc2fe053b43dce8972836ac34a15c179e/mdimechanic-0.4.1.tar.gz
+[2024-04-19 15:46:07] INFO root fetch - processPackages [pip-blame]: Downloading https://files.pythonhosted.org/packages/b9/f9/04b100b4e52c7a071d6e00c51bbda80a166bc3203289065a085cbd5f1c8d/pip_blame-0.2.2.tar.gz
+[2024-04-19 15:46:07] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a98.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a99.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2024-04-19 15:46:07] INFO root fetch - processPackages [mdimechanic]: executing diffoscope
+[2024-04-19 15:46:07] INFO root fetch - processPackages [mdimechanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdimechanic-0.4.0.tar.gz tmp/mdimechanic-0.4.1.tar.gz --markdown 20240419/m/mdimechanic/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 15:46:07] INFO root fetch - processPackages [pip-blame]: executing diffoscope
+[2024-04-19 15:46:07] INFO root fetch - processPackages [pip-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_blame-0.2.1.tar.gz tmp/pip_blame-0.2.2.tar.gz --markdown 20240419/p/pip-blame/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 15:46:07] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.5.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.6.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-04-19 15:46:07] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.2.1.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - processPackages [pip-blame]: Remove: archive file [/home/abi/fetcher/tmp/pip_blame-0.2.2.tar.gz]
+[2024-04-19 15:46:07] INFO root fetch - main [MainThread]: End processing [pip-blame]: success
+[2024-04-19 15:46:08] INFO root fetch - processPackages [mdimechanic]: Remove: archive file [/home/abi/fetcher/tmp/mdimechanic-0.4.0.tar.gz]
+[2024-04-19 15:46:08] INFO root fetch - processPackages [mdimechanic]: Remove: archive file [/home/abi/fetcher/tmp/mdimechanic-0.4.1.tar.gz]
+[2024-04-19 15:46:08] INFO root fetch - main [MainThread]: End processing [mdimechanic]: success
+[2024-04-19 15:46:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-19 15:46:08] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-19 15:46:08] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-19 15:46:30] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.8.0.tar.gz]
+[2024-04-19 15:46:30] INFO root fetch - processPackages [arize-phoenix]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix-3.9.0.tar.gz]
+[2024-04-19 15:46:30] INFO root fetch - main [MainThread]: End processing [arize-phoenix]: success
+[2024-04-19 15:46:30] INFO root fetch - main [MainThread]: Store serial: [22842748]
