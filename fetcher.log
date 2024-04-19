@@ -14649,3 +14649,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:36:21] INFO root fetch - processPackages [ffmpeg-media-type]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg_media_type-1.0.1.tar.gz]
 [2024-04-19 10:36:21] INFO root fetch - main [MainThread]: End processing [ffmpeg-media-type]: success
 [2024-04-19 10:36:21] INFO root fetch - main [MainThread]: Store serial: [22838799]
+[2024-04-19 10:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838799]
+[2024-04-19 10:38:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RsCMPX-NrFr2Meas
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magictk
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mazeai
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CMDHelpMeTool
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensvi
+[2024-04-19 10:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CSET
+[2024-04-19 10:38:30] INFO root fetch - processPackages [magictk]: New version: [0.0.2.36] Old Version: [0.0.2.35]
+[2024-04-19 10:38:30] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 10:38:30] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-19 10:38:30] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/57/64/8dea53bbc033665891f09a8304c8d5afada4c32a34537e58d90447e7b1f7/magictk-0.0.2.35.tar.gz
+[2024-04-19 10:38:30] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 10:38:30] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: New version: [5.0.90] Old Version: [4.0.7.4]
+[2024-04-19 10:38:30] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/2f/42/75f5cb5a3c63f25a59f3e5a13de9db6428d2bc7b0abb59479e47769c1ece/CMDHelpMeTool-0.2.6.tar.gz
+[2024-04-19 10:38:30] INFO root fetch - processPackages [CSET]: New version: [24.4.1] Old Version: [24.2.1]
+[2024-04-19 10:38:30] WARNING root fetch - processPackages [mazeai]: Skipping, unable to determine old version
+[2024-04-19 10:38:30] INFO root fetch - main [MainThread]: End processing [mazeai] error
+[2024-04-19 10:38:30] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-19 10:38:30] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Downloading https://files.pythonhosted.org/packages/2a/d9/2838afb1640c470521aa093f8b3f761a3f7280644111b005981fc7b6b655/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz
+[2024-04-19 10:38:30] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-04-19 10:38:30] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/17/a4/a86381de8949f991025474e7377f9977db531890cf1b5143c50b51f3a574/CSET-24.2.1.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/8e/f3/3194a0f1192379a9b33d4b3e8e5ce4dd8f7f13058a5556a7c6d9d3cdcddc/magictk-0.0.2.36.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/bb/ab/a87ba297606a29cee3f99a30107582b5c1890a3566c936563e217d3508ae/CMDHelpMeTool-0.2.7.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 10:38:31] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 10:38:31] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-04-19 10:38:31] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-0.0.2.35.tar.gz tmp/magictk-0.0.2.36.tar.gz --markdown 20240419/m/magictk/0.0.2.35-0.0.2.36/README.md --exclude *.pyd
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.2.6.tar.gz tmp/CMDHelpMeTool-0.2.7.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-19 10:38:31] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Downloading https://files.pythonhosted.org/packages/10/47/51b1ac4b4ebbd65fe87da6499036eaec8504b82b4d8c287df0e514a259b0/RsCMPX_NrFr2Meas-5.0.90.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-04-19 10:38:31] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: executing diffoscope
+[2024-04-19 10:38:31] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz tmp/RsCMPX_NrFr2Meas-5.0.90.tar.gz --markdown 20240419/R/RsCMPX-NrFr2Meas/4.0.7.4-5.0.90/README.md --exclude *.pyd
+[2024-04-19 10:38:31] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-04-19 10:38:31] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240419/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-19 10:38:31] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 10:38:31] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.35.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.36.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.6.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.7.tar.gz]
+[2024-04-19 10:38:31] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 10:38:32] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-04-19 10:38:32] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-04-19 10:38:32] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-04-19 10:38:32] INFO root fetch - processPackages [CSET]: Downloading https://files.pythonhosted.org/packages/f3/b1/3c52f7d13328087bcc51f94562ff46c51af6425eb349a3273b6c53665094/cset-24.4.1.tar.gz
+[2024-04-19 10:38:33] INFO root fetch - processPackages [CSET]: executing diffoscope
+[2024-04-19 10:38:33] INFO root fetch - processPackages [CSET]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CSET-24.2.1.tar.gz tmp/cset-24.4.1.tar.gz --markdown 20240419/C/CSET/24.2.1-24.4.1/README.md --exclude *.pyd
+[2024-04-19 10:38:34] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/CSET-24.2.1.tar.gz]
+[2024-04-19 10:38:34] INFO root fetch - processPackages [CSET]: Remove: archive file [/home/abi/fetcher/tmp/cset-24.4.1.tar.gz]
+[2024-04-19 10:38:34] INFO root fetch - main [MainThread]: End processing [CSET]: success
+[2024-04-19 10:38:35] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr2Meas-4.0.7.4.tar.gz]
+[2024-04-19 10:38:35] INFO root fetch - processPackages [RsCMPX-NrFr2Meas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_NrFr2Meas-5.0.90.tar.gz]
+[2024-04-19 10:38:35] INFO root fetch - main [MainThread]: End processing [RsCMPX-NrFr2Meas]: success
+[2024-04-19 10:38:35] INFO root fetch - main [MainThread]: Store serial: [22838820]
