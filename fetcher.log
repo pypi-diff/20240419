@@ -16279,3 +16279,77 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:23:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.1.tar.gz]
 [2024-04-19 11:23:41] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-19 11:23:41] INFO root fetch - main [MainThread]: Store serial: [22839466]
+[2024-04-19 11:25:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839466]
+[2024-04-19 11:25:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SymLinkDB
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trio-bybit
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AstecManager
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: os-collect-config
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datacontract-cli
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: resample
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swarmauri
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edds
+[2024-04-19 11:25:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandasai
+[2024-04-19 11:25:52] INFO root fetch - processPackages [trio-bybit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [SymLinkDB]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [resample]: New version: [1.8.1rc1] Old Version: [1.7.1]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [AstecManager]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/da/fa/8a389495b98b249f2328313a066a8cbcd7f5b00a41be8d4aa4beeca56bb5/SymLinkDB-0.4.5.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/02/8f/30fb01e8bc6aa93fe5811090ae54a640db2f80a869e9bfe00afebc3476d6/trio_bybit-0.1.2.tar.gz
+[2024-04-19 11:25:52] WARNING root fetch - processPackages [edds]: Skipping, unable to determine old version
+[2024-04-19 11:25:52] INFO root fetch - main [MainThread]: End processing [edds] error
+[2024-04-19 11:25:52] INFO root fetch - processPackages [datacontract-cli]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [pandasai]: New version: [2.0a9] Old Version: [2.0a8]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [os-collect-config]: New version: [9.2.1] Old Version: [9.2.0]
+[2024-04-19 11:25:52] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/b7/80/ccfeead8cef1043ae090e3dc517fde33d8a1bb571569697b6eba05d8c72a/resample-1.7.1.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [AstecManager]: Downloading https://files.pythonhosted.org/packages/f9/ba/4fa80e4e502975f6f9607c8a651251568e1ab5f3e957349307595f0b2165/AstecManager-0.2.8.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-19 11:25:52] WARNING root fetch - processPackages [AstecManager]: Skipping package: exceeds size limit 30603260>=10485760
+[2024-04-19 11:25:52] INFO root fetch - main [MainThread]: End processing [AstecManager] error
+[2024-04-19 11:25:52] INFO root fetch - processPackages [os-collect-config]: Downloading https://files.pythonhosted.org/packages/74/d3/24863a6ee762d6c07e7eadc1eae8dd36ab08a1dcb80e3177dbc153f0058e/os-collect-config-9.2.0.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/39/5b/525f8afd4a4f44990da9ac5ec3c70372d8b25072e5863ff487dbe8daeebb/trio_bybit-0.1.3.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/45/d0/411589316f7a6ef5ebd6102b368912a4af989b793a0944b97d0d900e6161/pandasai-2.0a8.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/ab/f5/43447d660c794b33f3272f06c646a80b61a35f5c371f573f0960b18b3dc3/datacontract-cli-0.9.8.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [SymLinkDB]: Downloading https://files.pythonhosted.org/packages/19/73/268c0bded0b4d49086b8ee00144c1516e1ffd297483b885bda8301368925/SymLinkDB-0.4.6.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [resample]: Downloading https://files.pythonhosted.org/packages/0d/d4/2a3b4b4d10bbc8ddd8d6fc8cdf030adddff04003e42d73d93155a304418b/resample-1.8.1rc1.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-04-19 11:25:52] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.2.tar.gz tmp/trio_bybit-0.1.3.tar.gz --markdown 20240419/t/trio-bybit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 11:25:52] INFO root fetch - processPackages [SymLinkDB]: executing diffoscope
+[2024-04-19 11:25:52] INFO root fetch - processPackages [SymLinkDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SymLinkDB-0.4.5.tar.gz tmp/SymLinkDB-0.4.6.tar.gz --markdown 20240419/S/SymLinkDB/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-19 11:25:52] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-19 11:25:52] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240419/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 11:25:52] INFO root fetch - processPackages [resample]: executing diffoscope
+[2024-04-19 11:25:52] INFO root fetch - processPackages [resample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resample-1.7.1.tar.gz tmp/resample-1.8.1rc1.tar.gz --markdown 20240419/r/resample/1.7.1-1.8.1rc1/README.md --exclude *.pyd
+[2024-04-19 11:25:52] INFO root fetch - processPackages [os-collect-config]: Downloading https://files.pythonhosted.org/packages/a5/6c/15700dd5d412a60ac303b2bf14d9c943f42d9b66b8f4769913640b1adbc9/os-collect-config-9.2.1.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a1/20/3561bdae1b48497693d449a6c68b80514d1748d9bb36a7928867f863159a/pandasai-2.0a9.tar.gz
+[2024-04-19 11:25:52] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/43/c7/55b0ed1dc5bdf4323cff429130d8fc45d0234b45ac011c170ea716245961/datacontract_cli-0.9.9.tar.gz
+[2024-04-19 11:25:53] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2024-04-19 11:25:53] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-2.0a8.tar.gz tmp/pandasai-2.0a9.tar.gz --markdown 20240419/p/pandasai/2.0a8-2.0a9/README.md --exclude *.pyd
+[2024-04-19 11:25:53] INFO root fetch - processPackages [datacontract-cli]: executing diffoscope
+[2024-04-19 11:25:53] INFO root fetch - processPackages [datacontract-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-cli-0.9.8.tar.gz tmp/datacontract_cli-0.9.9.tar.gz --markdown 20240419/d/datacontract-cli/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 11:25:53] INFO root fetch - processPackages [os-collect-config]: executing diffoscope
+[2024-04-19 11:25:53] INFO root fetch - processPackages [os-collect-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/os-collect-config-9.2.0.tar.gz tmp/os-collect-config-9.2.1.tar.gz --markdown 20240419/o/os-collect-config/9.2.0-9.2.1/README.md --exclude *.pyd
+[2024-04-19 11:25:53] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.2.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.3.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-04-19 11:25:53] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.5.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - processPackages [SymLinkDB]: Remove: archive file [/home/abi/fetcher/tmp/SymLinkDB-0.4.6.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - main [MainThread]: End processing [SymLinkDB]: success
+[2024-04-19 11:25:53] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.7.1.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - processPackages [resample]: Remove: archive file [/home/abi/fetcher/tmp/resample-1.8.1rc1.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - main [MainThread]: End processing [resample]: success
+[2024-04-19 11:25:53] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-19 11:25:53] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-19 11:25:54] INFO root fetch - processPackages [os-collect-config]: Remove: archive file [/home/abi/fetcher/tmp/os-collect-config-9.2.0.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - processPackages [os-collect-config]: Remove: archive file [/home/abi/fetcher/tmp/os-collect-config-9.2.1.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - main [MainThread]: End processing [os-collect-config]: success
+[2024-04-19 11:25:54] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a8.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-2.0a9.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2024-04-19 11:25:54] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.8.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
+[2024-04-19 11:25:54] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
+[2024-04-19 11:25:54] INFO root fetch - main [MainThread]: Store serial: [22839495]
