@@ -9288,3 +9288,55 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:14:31] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.9.tar.gz]
 [2024-04-19 06:14:31] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2024-04-19 06:14:31] INFO root fetch - main [MainThread]: Store serial: [22836417]
+[2024-04-19 06:16:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836417]
+[2024-04-19 06:16:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: celi-framework
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cupy-cuda11x
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libcreg-python
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moviechat
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cupy-cuda12x
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pqsdk
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ormdantic
+[2024-04-19 06:16:40] INFO root fetch - processPackages [celi-framework]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-19 06:16:40] INFO root fetch - processPackages [moviechat]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-19 06:16:40] INFO root fetch - processPackages [cupy-cuda12x]: New version: [13.1.0] Old Version: [13.0.0]
+[2024-04-19 06:16:40] INFO root fetch - processPackages [libcreg-python]: New version: [20240419] Old Version: [20240303]
+[2024-04-19 06:16:40] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/8a/19/a18c520ac7f7c0e10133709a48c7762dc5e0933713a8622ac34fc3a321c0/celi_framework-0.0.13.tar.gz
+[2024-04-19 06:16:40] INFO root fetch - processPackages [ormdantic]: New version: [1.7.0] Old Version: [1.6.1]
+[2024-04-19 06:16:40] WARNING root fetch - processPackages [pqsdk]: Skipping, unable to determine old version
+[2024-04-19 06:16:40] INFO root fetch - main [MainThread]: End processing [pqsdk] error
+[2024-04-19 06:16:40] INFO root fetch - processPackages [cupy-cuda11x]: New version: [13.1.0] Old Version: [13.0.0]
+[2024-04-19 06:16:40] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/43/02/62307b0effe9732e4247239df06e644c3ba08aa7a4c1cfc8f43b690f149b/moviechat-0.2.0.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [ormdantic]: Downloading https://files.pythonhosted.org/packages/55/2c/f6e3a96539f116d33e4616f7a41cc86fb0fe2ee4f4de26cc1c28d0fe8974/ormdantic-1.6.1.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [cupy-cuda12x]: Downloading https://files.pythonhosted.org/packages/ac/21/6ab0652678df2cf54dd004cd27408b33b5adf9156cdca412c4763c04daa7/cupy_cuda12x-13.0.0-cp39-cp39-win_amd64.whl
+[2024-04-19 06:16:41] INFO root fetch - processPackages [libcreg-python]: Downloading https://files.pythonhosted.org/packages/24/92/4f69b2b58daea6d63b5a9fd8a5cd6606e040f6583b03ac441bce724dfbac/libcreg-python-20240303.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [cupy-cuda11x]: Downloading https://files.pythonhosted.org/packages/bb/a7/d6ec99ea18f8f171243bbccc5142a3d48949701da301b4f0d25464cef9b9/cupy_cuda11x-13.0.0-cp39-cp39-win_amd64.whl
+[2024-04-19 06:16:41] WARNING root fetch - processPackages [cupy-cuda12x]: Skipping package: exceeds size limit 67981943>=10485760
+[2024-04-19 06:16:41] INFO root fetch - main [MainThread]: End processing [cupy-cuda12x] error
+[2024-04-19 06:16:41] WARNING root fetch - processPackages [cupy-cuda11x]: Skipping package: exceeds size limit 74975092>=10485760
+[2024-04-19 06:16:41] INFO root fetch - main [MainThread]: End processing [cupy-cuda11x] error
+[2024-04-19 06:16:41] INFO root fetch - processPackages [celi-framework]: Downloading https://files.pythonhosted.org/packages/16/71/2a1e76e594b87f13850e72c8137d8e97bfef5f3e92151310044075133d89/celi_framework-0.0.14.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [moviechat]: Downloading https://files.pythonhosted.org/packages/6a/5c/b00a5c5c300672a229b8a51f63b067af942856a0a8f2fa965776476562c9/moviechat-0.3.0.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [celi-framework]: executing diffoscope
+[2024-04-19 06:16:41] INFO root fetch - processPackages [celi-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celi_framework-0.0.13.tar.gz tmp/celi_framework-0.0.14.tar.gz --markdown 20240419/c/celi-framework/0.0.13-0.0.14/README.md --exclude *.pyd
+[2024-04-19 06:16:41] INFO root fetch - processPackages [ormdantic]: Downloading https://files.pythonhosted.org/packages/32/1c/9b67fe417b6ae18e67ec429f8c9a5a5b7aa9e8ec2f784a1b97bbb03394ee/ormdantic-1.7.0.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [moviechat]: executing diffoscope
+[2024-04-19 06:16:41] INFO root fetch - processPackages [moviechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moviechat-0.2.0.tar.gz tmp/moviechat-0.3.0.tar.gz --markdown 20240419/m/moviechat/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-19 06:16:41] INFO root fetch - processPackages [libcreg-python]: Downloading https://files.pythonhosted.org/packages/9a/85/c2348de73e7f6be98cee6ecc5c4d77cbe4516dc556fa509dd9820b493c51/libcreg-python-20240419.tar.gz
+[2024-04-19 06:16:41] INFO root fetch - processPackages [ormdantic]: executing diffoscope
+[2024-04-19 06:16:41] INFO root fetch - processPackages [ormdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ormdantic-1.6.1.tar.gz tmp/ormdantic-1.7.0.tar.gz --markdown 20240419/o/ormdantic/1.6.1-1.7.0/README.md --exclude *.pyd
+[2024-04-19 06:16:41] INFO root fetch - processPackages [libcreg-python]: executing diffoscope
+[2024-04-19 06:16:41] INFO root fetch - processPackages [libcreg-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcreg-python-20240303.tar.gz tmp/libcreg-python-20240419.tar.gz --markdown 20240419/l/libcreg-python/20240303-20240419/README.md --exclude *.pyd
+[2024-04-19 06:16:42] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.13.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - processPackages [celi-framework]: Remove: archive file [/home/abi/fetcher/tmp/celi_framework-0.0.14.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - main [MainThread]: End processing [celi-framework]: success
+[2024-04-19 06:16:42] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.2.0.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - processPackages [moviechat]: Remove: archive file [/home/abi/fetcher/tmp/moviechat-0.3.0.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - main [MainThread]: End processing [moviechat]: success
+[2024-04-19 06:16:42] INFO root fetch - processPackages [ormdantic]: Remove: archive file [/home/abi/fetcher/tmp/ormdantic-1.6.1.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - processPackages [ormdantic]: Remove: archive file [/home/abi/fetcher/tmp/ormdantic-1.7.0.tar.gz]
+[2024-04-19 06:16:42] INFO root fetch - main [MainThread]: End processing [ormdantic]: success
+[2024-04-19 06:16:46] INFO root fetch - processPackages [libcreg-python]: Remove: archive file [/home/abi/fetcher/tmp/libcreg-python-20240303.tar.gz]
+[2024-04-19 06:16:46] INFO root fetch - processPackages [libcreg-python]: Remove: archive file [/home/abi/fetcher/tmp/libcreg-python-20240419.tar.gz]
+[2024-04-19 06:16:46] INFO root fetch - main [MainThread]: End processing [libcreg-python]: success
+[2024-04-19 06:16:46] INFO root fetch - main [MainThread]: Store serial: [22836468]
