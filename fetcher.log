@@ -21637,3 +21637,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:43:43] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.0.tar.gz]
 [2024-04-19 14:43:43] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
 [2024-04-19 14:43:43] INFO root fetch - main [MainThread]: Store serial: [22841809]
+[2024-04-19 14:45:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841809]
+[2024-04-19 14:45:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: igrafx-mining-sdk
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-driverless
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exeNake
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-observe
+[2024-04-19 14:45:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deepdespeckling
+[2024-04-19 14:45:52] WARNING root fetch - processPackages [exeNake]: Skipping, unable to determine old version
+[2024-04-19 14:45:52] INFO root fetch - main [MainThread]: End processing [exeNake] error
+[2024-04-19 14:45:52] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 14:45:52] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.31.3] Old Version: [2.31.2]
+[2024-04-19 14:45:52] INFO root fetch - processPackages [deepdespeckling]: New version: [0.6] Old Version: [0.5]
+[2024-04-19 14:45:53] WARNING root fetch - processPackages [django-observe]: Skipping, unable to determine old version
+[2024-04-19 14:45:53] INFO root fetch - main [MainThread]: End processing [django-observe] error
+[2024-04-19 14:45:53] INFO root fetch - processPackages [selenium-driverless]: New version: [1.9.1] Old Version: [1.9]
+[2024-04-19 14:45:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/d4/58/657cbcfed461d0d3ae132dc0e89829971459958457cbcd9bd7d1d7dfd199/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/65/dd/b67a8938dc1b20060f57710124f6511fce27a80539d5a26ef40b7f15f05a/igrafx_mining_sdk-2.31.2.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [deepdespeckling]: Downloading https://files.pythonhosted.org/packages/94/bb/b3353ad93f4245ccac7f49d9b305511b55e36967a181353704bf2558cebb/deepdespeckling-0.5.tar.gz
+[2024-04-19 14:45:53] WARNING root fetch - processPackages [deepdespeckling]: Skipping package: exceeds size limit 22132721>=10485760
+[2024-04-19 14:45:53] INFO root fetch - main [MainThread]: End processing [deepdespeckling] error
+[2024-04-19 14:45:53] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/bf/8f/de603e70b49726ca021e0e845d9b8d7249cb3f1b7e2809908e4fe73a7cd9/selenium_driverless-1.9.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/7e/c7/4e5ad20326eaff1dc6ed691baadb0cb36536150fae3ec1658c78fc8053ec/igrafx_mining_sdk-2.31.3.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/3a/4b/af44a399bea272a1dcdc1dc50ad28c471cad185b78f92f3af25c75b04b7b/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.31.2.tar.gz tmp/igrafx_mining_sdk-2.31.3.tar.gz --markdown 20240419/i/igrafx-mining-sdk/2.31.2-2.31.3/README.md --exclude *.pyd
+[2024-04-19 14:45:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 14:45:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 14:45:53] INFO root fetch - processPackages [selenium-driverless]: Downloading https://files.pythonhosted.org/packages/6e/14/04dc4579e69280098e6cc509bc15d0522d30938de0495bd21f79cc63158f/selenium_driverless-1.9.1.tar.gz
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.31.2.tar.gz]
+[2024-04-19 14:45:53] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.31.3.tar.gz]
+[2024-04-19 14:45:53] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2024-04-19 14:45:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.4.tar.gz]
+[2024-04-19 14:45:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.5.tar.gz]
+[2024-04-19 14:45:54] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 14:45:54] INFO root fetch - processPackages [selenium-driverless]: executing diffoscope
+[2024-04-19 14:45:54] INFO root fetch - processPackages [selenium-driverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_driverless-1.9.tar.gz tmp/selenium_driverless-1.9.1.tar.gz --markdown 20240419/s/selenium-driverless/1.9-1.9.1/README.md --exclude *.pyd
+[2024-04-19 14:45:55] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.tar.gz]
+[2024-04-19 14:45:55] INFO root fetch - processPackages [selenium-driverless]: Remove: archive file [/home/abi/fetcher/tmp/selenium_driverless-1.9.1.tar.gz]
+[2024-04-19 14:45:55] INFO root fetch - main [MainThread]: End processing [selenium-driverless]: success
+[2024-04-19 14:45:55] INFO root fetch - main [MainThread]: Store serial: [22841878]
