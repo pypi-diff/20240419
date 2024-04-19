@@ -2910,3 +2910,42 @@
 [2024-04-19 02:51:42] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-19 02:51:42] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-19 02:51:42] INFO root fetch - main [MainThread]: Store serial: [22833880]
+[2024-04-19 02:53:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833880]
+[2024-04-19 02:53:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 02:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baml
+[2024-04-19 02:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviatrix-testlibs
+[2024-04-19 02:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-19 02:53:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NMODL-nightly
+[2024-04-19 02:53:51] INFO root fetch - processPackages [baml]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2024-04-19 02:53:51] INFO root fetch - processPackages [aviatrix-testlibs]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-19 02:53:51] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.98] Old Version: [0.6.93]
+[2024-04-19 02:53:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-19 02:53:51] INFO root fetch - processPackages [baml]: Downloading https://files.pythonhosted.org/packages/77/6f/a5e30f85c474047fc40ad36016157cfc80ffc3aa16d0f58763fcfdd732da/baml-0.9.0.dev0.tar.gz
+[2024-04-19 02:53:51] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/94/bf/65d51cf0f3bd818482bc6d015444c6fa5effd03ea78ae4a494c1f1a2d189/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 02:53:51] INFO root fetch - processPackages [aviatrix-testlibs]: Downloading https://files.pythonhosted.org/packages/a8/80/e11250ef8f857f3fb5a1a059ff474388f51c9c41236fe94c65e0a4f78bec/aviatrix_testlibs-0.4.5-cp39-cp39-win_amd64.whl
+[2024-04-19 02:53:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-19 02:53:51] INFO root fetch - processPackages [baml]: Downloading https://files.pythonhosted.org/packages/eb/a0/2748a0fded5c5d69e96d6aa4224b4c7847302e8fc03696f6f7b7503cd1db/baml-0.9.0.dev1.tar.gz
+[2024-04-19 02:53:51] INFO root fetch - processPackages [aviatrix-testlibs]: Downloading https://files.pythonhosted.org/packages/af/a7/3335b05d165ab9b710dab58510c651599543a451b8c21b89fa3bd15c48fb/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl
+[2024-04-19 02:53:51] INFO root fetch - processPackages [baml]: executing diffoscope
+[2024-04-19 02:53:51] INFO root fetch - processPackages [baml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baml-0.9.0.dev0.tar.gz tmp/baml-0.9.0.dev1.tar.gz --markdown 20240419/b/baml/0.9.0.dev0-0.9.0.dev1/README.md --exclude *.pyd
+[2024-04-19 02:53:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-19 02:53:51] INFO root fetch - processPackages [aviatrix-testlibs]: executing diffoscope
+[2024-04-19 02:53:51] INFO root fetch - processPackages [aviatrix-testlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_testlibs-0.4.5-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl.zip --markdown 20240419/a/aviatrix-testlibs/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-19 02:53:51] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/e7/74/0082eac701e2e33195753774345536580724cd74e073c135ec8f5e9fd1a9/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-19 02:53:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-19 02:53:51] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240419/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-19 02:53:52] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-04-19 02:53:52] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240419/N/NMODL-nightly/0.6.93-0.6.98/README.md --exclude *.pyd
+[2024-04-19 02:53:52] INFO root fetch - processPackages [baml]: Remove: archive file [/home/abi/fetcher/tmp/baml-0.9.0.dev0.tar.gz]
+[2024-04-19 02:53:52] INFO root fetch - processPackages [baml]: Remove: archive file [/home/abi/fetcher/tmp/baml-0.9.0.dev1.tar.gz]
+[2024-04-19 02:53:52] INFO root fetch - main [MainThread]: End processing [baml]: success
+[2024-04-19 02:53:52] INFO root fetch - processPackages [aviatrix-testlibs]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_testlibs-0.4.5-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 02:53:52] INFO root fetch - processPackages [aviatrix-testlibs]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_testlibs-0.4.6-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 02:53:52] INFO root fetch - main [MainThread]: End processing [aviatrix-testlibs]: success
+[2024-04-19 02:53:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-19 02:53:52] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-19 02:53:52] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-19 02:55:44] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.93-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-19 02:55:44] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/NMODL_nightly-0.6.98-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-19 02:55:44] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-04-19 02:55:44] INFO root fetch - main [MainThread]: Store serial: [22833912]
