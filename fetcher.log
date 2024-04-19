@@ -9916,3 +9916,51 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:00:30] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
 [2024-04-19 07:00:30] INFO root fetch - main [MainThread]: End processing [zcmds]: success
 [2024-04-19 07:00:30] INFO root fetch - main [MainThread]: Store serial: [22836723]
+[2024-04-19 07:02:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836723]
+[2024-04-19 07:02:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 07:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lingress
+[2024-04-19 07:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agentUniverse
+[2024-04-19 07:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yxr-porn-core
+[2024-04-19 07:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataset-tools
+[2024-04-19 07:02:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-field-logger
+[2024-04-19 07:02:38] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 07:02:38] INFO root fetch - processPackages [lingress]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-19 07:02:38] INFO root fetch - processPackages [yxr-porn-core]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2024-04-19 07:02:38] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-19 07:02:38] INFO root fetch - processPackages [agentUniverse]: New version: [0.0.3] Old Version: [0.0.2b1]
+[2024-04-19 07:02:38] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/86/9a/cbd7db4ba43461cee6c1283976f1cdd5d3a9a0e5c7ff5d7af245c2003c8f/lingress-2.1.0.tar.gz
+[2024-04-19 07:02:38] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.30] Old Version: [0.0.29]
+[2024-04-19 07:02:39] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/84/e2/587f43ad5273a617ca1145c8aa2eba478723f7bf15b6afd2d82357a71f21/agentuniverse-0.0.2b1.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [yxr-porn-core]: Downloading https://files.pythonhosted.org/packages/de/db/1a28f0a263f01506ae7162b247071be946a632b2f6bd4baf294aaf896394/yxr_porn_core-0.0.1.8.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/e3/10/6b7635a7fbbbc41f70442be3f79c7711e634c4f11abb2fe64dceaa95c1b7/django_field_logger-0.0.29.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [lingress]: Downloading https://files.pythonhosted.org/packages/4c/4f/e54925ac29d54d2ce1992388d3e25541859abc5cac592dbcd68f6ece5364/lingress-2.1.1.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-19 07:02:39] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240419/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 07:02:39] INFO root fetch - processPackages [lingress]: executing diffoscope
+[2024-04-19 07:02:39] INFO root fetch - processPackages [lingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingress-2.1.0.tar.gz tmp/lingress-2.1.1.tar.gz --markdown 20240419/l/lingress/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-19 07:02:39] INFO root fetch - processPackages [yxr-porn-core]: Downloading https://files.pythonhosted.org/packages/f6/99/3bcc7d81e5ee12eb8d460f0d4a9b3cde10bb8808d9dd4955cf3ddb42be74/yxr_porn_core-0.0.1.9.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/ce/8c/07a67ad88e14887cd4dcb7b2b45f170d0dff1c3889c2b5d1fd2b2eb7ea9d/django_field_logger-0.0.30.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [agentUniverse]: Downloading https://files.pythonhosted.org/packages/49/5f/496ade5911e482da2b5ce72571b7ad2ac0594426e5ebd479a351866f4302/agentUniverse-0.0.3.tar.gz
+[2024-04-19 07:02:39] INFO root fetch - processPackages [yxr-porn-core]: executing diffoscope
+[2024-04-19 07:02:39] INFO root fetch - processPackages [yxr-porn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_porn_core-0.0.1.8.tar.gz tmp/yxr_porn_core-0.0.1.9.tar.gz --markdown 20240419/y/yxr-porn-core/0.0.1.8-0.0.1.9/README.md --exclude *.pyd
+[2024-04-19 07:02:39] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-19 07:02:39] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_field_logger-0.0.29.tar.gz tmp/django_field_logger-0.0.30.tar.gz --markdown 20240419/d/django-field-logger/0.0.29-0.0.30/README.md --exclude *.pyd
+[2024-04-19 07:02:39] INFO root fetch - processPackages [agentUniverse]: executing diffoscope
+[2024-04-19 07:02:39] INFO root fetch - processPackages [agentUniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentuniverse-0.0.2b1.tar.gz tmp/agentUniverse-0.0.3.tar.gz --markdown 20240419/a/agentUniverse/0.0.2b1-0.0.3/README.md --exclude *.pyd
+[2024-04-19 07:02:39] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.1.0.tar.gz]
+[2024-04-19 07:02:39] INFO root fetch - processPackages [lingress]: Remove: archive file [/home/abi/fetcher/tmp/lingress-2.1.1.tar.gz]
+[2024-04-19 07:02:39] INFO root fetch - main [MainThread]: End processing [lingress]: success
+[2024-04-19 07:02:40] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-19 07:02:40] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.29.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django_field_logger-0.0.30.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-19 07:02:40] INFO root fetch - processPackages [yxr-porn-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_porn_core-0.0.1.8.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - processPackages [yxr-porn-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_porn_core-0.0.1.9.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - main [MainThread]: End processing [yxr-porn-core]: success
+[2024-04-19 07:02:40] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentuniverse-0.0.2b1.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentUniverse-0.0.3.tar.gz]
+[2024-04-19 07:02:40] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
+[2024-04-19 07:02:40] INFO root fetch - main [MainThread]: Store serial: [22836744]
