@@ -20266,3 +20266,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:41:26] INFO root fetch - processPackages [thinc]: Remove: archive file [/home/abi/fetcher/tmp/thinc-9.0.0.dev5.tar.gz]
 [2024-04-19 13:41:26] INFO root fetch - main [MainThread]: End processing [thinc]: success
 [2024-04-19 13:41:26] INFO root fetch - main [MainThread]: Store serial: [22841158]
+[2024-04-19 13:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841158]
+[2024-04-19 13:43:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicegui-g6
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueetl
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypno
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tagreader
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scrapegraphai
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcanvas-api-clients
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aviatrix-migration-nat
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-linkedin-ads
+[2024-04-19 13:43:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2024-04-19 13:43:34] INFO root fetch - processPackages [qcanvas-api-clients]: New version: [0.1.1a0] Old Version: [0.1.0]
+[2024-04-19 13:43:34] INFO root fetch - processPackages [scrapegraphai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 13:43:34] INFO root fetch - processPackages [hotsos]: New version: [1.17.0.post9] Old Version: [1.17.0.post8]
+[2024-04-19 13:43:34] INFO root fetch - processPackages [cg]: New version: [60.2.2] Old Version: [60.2.1]
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hypno]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-19 13:43:35] INFO root fetch - processPackages [tagreader]: New version: [5.3.0] Old Version: [5.2.1]
+[2024-04-19 13:43:35] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/39/cc/a43e95dbb6560473fff97006304f4f4c59f193f21fb92dd139c609300aaf/scrapegraphai-0.2.1.tar.gz
+[2024-04-19 13:43:35] WARNING root fetch - processPackages [nicegui-g6]: Skipping, unable to determine old version
+[2024-04-19 13:43:35] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 13:43:35] INFO root fetch - main [MainThread]: End processing [nicegui-g6] error
+[2024-04-19 13:43:35] INFO root fetch - processPackages [blueetl]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-19 13:43:35] INFO root fetch - processPackages [aviatrix-migration-nat]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/a7/57/15e4fe4e4dbc4381d9bf00a81267a7c13df4ca3f2dc3b2afa7db65518860/hotsos-1.17.0.post8.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a8/8b/e57ac931a8f0251c31fcb1178ded38bfc7e5bbd4da4e7c2ae6eb06073174/cg-60.2.1.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [qcanvas-api-clients]: Downloading https://files.pythonhosted.org/packages/04/fd/99d065cbc258f4faeda8b409237854bfa1493b8f2ca9537c11aec2a84e80/qcanvas_api_clients-0.1.0.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hypno]: Downloading https://files.pythonhosted.org/packages/ea/06/cbb4d1bdcc130912bff18d669b8af9560892896c01cbe7b5d5a935dfe114/hypno-1.0.3.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/17/5d/06da579da725ac6e70f9c2206791e20903f883ad710b0d120d7b542ce001/tagreader-5.2.1.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [blueetl]: Downloading https://files.pythonhosted.org/packages/5c/d5/b4ec31a9fbd1e7f4635d4fb17877248011bbadcf441e437603e82997afe1/blueetl-0.8.2.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [airbyte-source-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/b6/1f/bb120d59bcc9e5bd92e8dd8a99eab1d4b043ba770a960a1e9a4a94e273c4/airbyte_source_linkedin_ads-1.0.0.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/67/3c/c66dbde3279cc83157af6311c5538b025ee7991e560eb55f8a01db1e6dc2/aviatrix_migration_nat-0.8.3-cp39-cp39-win_amd64.whl
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/7f/57/f6a4fc3900f977e567bcf108bd2787ce8624445d42b84c26b710b18c7c3d/hotsos-1.17.0.post9.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/69/46/2e86f9a14f5c5cb692b5e322a20264b53c4624538a4031e25b810cb56860/scrapegraphai-0.2.2.tar.gz
+[2024-04-19 13:43:35] WARNING root fetch - processPackages [blueetl]: Skipping package: exceeds size limit 10635281>=10485760
+[2024-04-19 13:43:35] INFO root fetch - main [MainThread]: End processing [blueetl] error
+[2024-04-19 13:43:35] INFO root fetch - processPackages [qcanvas-api-clients]: Downloading https://files.pythonhosted.org/packages/f8/3b/c4340ac606678fb8d09f29867ab93ab97b37c915f02900e534dfb4a903ed/qcanvas_api_clients-0.1.1a0.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.17.0.post8.tar.gz tmp/hotsos-1.17.0.post9.tar.gz --markdown 20240419/h/hotsos/1.17.0.post8-1.17.0.post9/README.md --exclude *.pyd
+[2024-04-19 13:43:35] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.2.1.tar.gz tmp/scrapegraphai-0.2.2.tar.gz --markdown 20240419/s/scrapegraphai/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 13:43:35] ERROR root fetch - processPackages [airbyte-source-linkedin-ads]: Unable to fetch info: No such project/version 'airbyte-source-linkedin-ads' 1.0.1
+[2024-04-19 13:43:35] INFO root fetch - main [MainThread]: End processing [airbyte-source-linkedin-ads] error
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hypno]: Downloading https://files.pythonhosted.org/packages/f8/cc/3ed4187e37240cfd25558469956a44d3c664aeac791b3677bc49d1766fb9/hypno-1.1.0.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [qcanvas-api-clients]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [qcanvas-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcanvas_api_clients-0.1.0.tar.gz tmp/qcanvas_api_clients-0.1.1a0.tar.gz --markdown 20240419/q/qcanvas-api-clients/0.1.0-0.1.1a0/README.md --exclude *.pyd
+[2024-04-19 13:43:35] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/52/ac/21be81f4a3f0e7e75537fdb07d2333de14db2c210bea238d170a613d85a0/cg-60.2.2.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [tagreader]: Downloading https://files.pythonhosted.org/packages/0f/e6/284200030f2491cae474536d4705081d7d129bccf78f84e8eddba5a1f7cf/tagreader-5.3.0.tar.gz
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hypno]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [hypno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypno-1.0.3.tar.gz tmp/hypno-1.1.0.tar.gz --markdown 20240419/h/hypno/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-19 13:43:35] INFO root fetch - processPackages [tagreader]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [tagreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tagreader-5.2.1.tar.gz tmp/tagreader-5.3.0.tar.gz --markdown 20240419/t/tagreader/5.2.1-5.3.0/README.md --exclude *.pyd
+[2024-04-19 13:43:35] INFO root fetch - processPackages [aviatrix-migration-nat]: Downloading https://files.pythonhosted.org/packages/cb/47/92651d92ccba0fbe9e38d333a7b5429e4de29cde51799fffc63cbd67ef8f/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl
+[2024-04-19 13:43:35] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-19 13:43:35] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.2.1.tar.gz tmp/cg-60.2.2.tar.gz --markdown 20240419/c/cg/60.2.1-60.2.2/README.md --exclude *.pyd
+[2024-04-19 13:43:36] INFO root fetch - processPackages [qcanvas-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/qcanvas_api_clients-0.1.0.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - processPackages [qcanvas-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/qcanvas_api_clients-0.1.1a0.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - main [MainThread]: End processing [qcanvas-api-clients]: success
+[2024-04-19 13:43:36] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.1.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.2.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-19 13:43:36] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-5.2.1.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - processPackages [tagreader]: Remove: archive file [/home/abi/fetcher/tmp/tagreader-5.3.0.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - main [MainThread]: End processing [tagreader]: success
+[2024-04-19 13:43:36] INFO root fetch - processPackages [hypno]: Remove: archive file [/home/abi/fetcher/tmp/hypno-1.0.3.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - processPackages [hypno]: Remove: archive file [/home/abi/fetcher/tmp/hypno-1.1.0.tar.gz]
+[2024-04-19 13:43:36] INFO root fetch - main [MainThread]: End processing [hypno]: success
+[2024-04-19 13:43:37] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post8.tar.gz]
+[2024-04-19 13:43:37] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.17.0.post9.tar.gz]
+[2024-04-19 13:43:37] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-04-19 13:43:37] INFO root fetch - processPackages [aviatrix-migration-nat]: executing diffoscope
+[2024-04-19 13:43:37] INFO root fetch - processPackages [aviatrix-migration-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviatrix_migration_nat-0.8.3-cp39-cp39-win_amd64.whl.zip tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip --markdown 20240419/a/aviatrix-migration-nat/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-19 13:43:38] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 13:43:38] INFO root fetch - processPackages [aviatrix-migration-nat]: Remove: archive file [/home/abi/fetcher/tmp/aviatrix_migration_nat-0.8.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 13:43:38] INFO root fetch - main [MainThread]: End processing [aviatrix-migration-nat]: success
+[2024-04-19 13:43:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.1.tar.gz]
+[2024-04-19 13:43:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.2.tar.gz]
+[2024-04-19 13:43:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-19 13:43:40] INFO root fetch - main [MainThread]: Store serial: [22841228]
