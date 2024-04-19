@@ -8729,3 +8729,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:29:02] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.4.dev20240418152335.tar.gz]
 [2024-04-19 05:29:02] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-04-19 05:29:02] INFO root fetch - main [MainThread]: Store serial: [22836183]
+[2024-04-19 05:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836183]
+[2024-04-19 05:31:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 05:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htt
+[2024-04-19 05:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-04-19 05:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonffi
+[2024-04-19 05:31:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt
+[2024-04-19 05:31:10] INFO root fetch - processPackages [htt]: New version: [0.8] Old Version: [0.7]
+[2024-04-19 05:31:10] INFO root fetch - processPackages [jsonffi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 05:31:10] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-04-19 05:31:10] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.8]
+[2024-04-19 05:31:10] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/81/3e/3baffa387f1e6ecf82b20aeccecb4d56406106905e15bf3bc0163d89d4e1/htt-0.7.tar.gz
+[2024-04-19 05:31:10] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-04-19 05:31:10] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/3c/9c/f1e9b3c18e86d9f548ca3c301b2fb79df70698a00264fa1e8fe5af9c2999/jsonffi-1.0.0-py3-none-any.whl
+[2024-04-19 05:31:11] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/c2/43/bb953e8c002db9ccb4278a3126384b76228d455eef69eaa7bdd75cef1059/dbt-1.0.0.37.8.tar.gz
+[2024-04-19 05:31:11] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-04-19 05:31:11] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-04-19 05:31:11] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-04-19 05:31:11] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.7.tar.gz tmp/htt-0.8.tar.gz --markdown 20240419/h/htt/0.7-0.8/README.md --exclude *.pyd
+[2024-04-19 05:31:11] INFO root fetch - processPackages [jsonffi]: Downloading https://files.pythonhosted.org/packages/23/17/b61e835ad097f2d0a449ae7a41d5dfef8bb56c403532dd877c2553a8c697/jsonffi-1.0.1-py3-none-any.whl
+[2024-04-19 05:31:11] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-19 05:31:11] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240419/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-04-19 05:31:11] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-04-19 05:31:11] INFO root fetch - processPackages [jsonffi]: executing diffoscope
+[2024-04-19 05:31:11] INFO root fetch - processPackages [jsonffi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonffi-1.0.0-py3-none-any.whl.zip tmp/jsonffi-1.0.1-py3-none-any.whl.zip --markdown 20240419/j/jsonffi/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 05:31:11] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-04-19 05:31:11] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.8.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240419/d/dbt/1.0.0.37.8-1.0.0rc1/README.md --exclude *.pyd
+[2024-04-19 05:31:11] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.7.tar.gz]
+[2024-04-19 05:31:11] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-04-19 05:31:11] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-04-19 05:31:11] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.0-py3-none-any.whl.zip]
+[2024-04-19 05:31:11] INFO root fetch - processPackages [jsonffi]: Remove: archive file [/home/abi/fetcher/tmp/jsonffi-1.0.1-py3-none-any.whl.zip]
+[2024-04-19 05:31:11] INFO root fetch - main [MainThread]: End processing [jsonffi]: success
+[2024-04-19 05:31:12] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.8.tar.gz]
+[2024-04-19 05:31:12] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-04-19 05:31:12] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-04-19 05:31:12] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-04-19 05:31:12] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-04-19 05:31:12] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-19 05:31:12] INFO root fetch - main [MainThread]: Store serial: [22836193]
