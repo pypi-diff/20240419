@@ -14427,3 +14427,63 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:25:24] INFO root fetch - processPackages [phono3py]: Remove: archive file [/home/abi/fetcher/tmp/phono3py-3.0.0.tar.gz]
 [2024-04-19 10:25:24] INFO root fetch - main [MainThread]: End processing [phono3py]: success
 [2024-04-19 10:25:24] INFO root fetch - main [MainThread]: Store serial: [22838668]
+[2024-04-19 10:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838668]
+[2024-04-19 10:27:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SAMMEC2
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyn-rm
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galmoss
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dranspose
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frequenz-client-electricity-trading
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dekshell
+[2024-04-19 10:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scrapegraphai
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dyn-rm]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-19 10:27:34] ERROR root fetch - processPackages [frequenz-client-electricity-trading]: Unable to get metadata: No such project 'frequenz-client-electricity-trading'
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dekshell]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 10:27:34] INFO root fetch - main [MainThread]: End processing [frequenz-client-electricity-trading] error
+[2024-04-19 10:27:34] INFO root fetch - processPackages [SAMMEC2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/94/9a/d60fa2278af2df1afc83416d1810b3a25bf9f299e5c0903939764aa9fb40/dyn_rm-2.0.8.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [galmoss]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dranspose]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 10:27:34] INFO root fetch - processPackages [scrapegraphai]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 10:27:34] INFO root fetch - processPackages [SAMMEC2]: Downloading https://files.pythonhosted.org/packages/a5/9a/f0d0bf9aa28cce67bae422856d6c8d528fcf9f5f8c6c140b88ae42d50cbd/SAMMEC2-0.0.8.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [galmoss]: Downloading https://files.pythonhosted.org/packages/ee/aa/88f904c6fbfabaeff73d19c897012ebfff7c92d985732e6e3958135f6c11/galmoss-2.0.7.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dekshell]: Downloading https://files.pythonhosted.org/packages/f0/16/5c4ed0e980c75156dfbacc07d0e809eba0ceee2b4e7a8309c4a0a2ecdb34/dekshell-0.1.8.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dranspose]: Downloading https://files.pythonhosted.org/packages/c3/71/738a1b881a8eea756c4f463503d4d0856d8935e0113313c747047d37af67/dranspose-0.0.2.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dyn-rm]: Downloading https://files.pythonhosted.org/packages/54/17/bc93c4cca4f26724d71a1323d31cb026290b03356fb89bbcf3e67ac0cd77/dyn_rm-2.0.9.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/5b/60/2ecbff4be86099d49c15ff8101018a4105889bd6a0cb0b4030f93129ef69/scrapegraphai-0.2.0.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dyn-rm]: executing diffoscope
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dyn-rm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyn_rm-2.0.8.tar.gz tmp/dyn_rm-2.0.9.tar.gz --markdown 20240419/d/dyn-rm/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-19 10:27:34] INFO root fetch - processPackages [SAMMEC2]: Downloading https://files.pythonhosted.org/packages/9c/50/3f7da5afef8d237ab1c914d77e312024cde223ba2f51ebe619dc9a5a37bb/SAMMEC2-0.0.9.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [galmoss]: Downloading https://files.pythonhosted.org/packages/4e/11/a533dac2658731552e44e8f3a630db8c2a287bfa55436f90b269b2af542b/galmoss-2.0.8.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dekshell]: Downloading https://files.pythonhosted.org/packages/e3/0a/b0b6b239daa50a425257d382890f5acf9e723bbf730c781eda304df290e4/dekshell-0.1.9.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [SAMMEC2]: executing diffoscope
+[2024-04-19 10:27:34] INFO root fetch - processPackages [SAMMEC2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SAMMEC2-0.0.8.tar.gz tmp/SAMMEC2-0.0.9.tar.gz --markdown 20240419/S/SAMMEC2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 10:27:34] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/39/cc/a43e95dbb6560473fff97006304f4f4c59f193f21fb92dd139c609300aaf/scrapegraphai-0.2.1.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dranspose]: Downloading https://files.pythonhosted.org/packages/39/b4/79cafc285c66115c39bc4874bc5786204f9d9a8164a77b07a119c8fbfdd7/dranspose-0.0.3.tar.gz
+[2024-04-19 10:27:34] INFO root fetch - processPackages [galmoss]: executing diffoscope
+[2024-04-19 10:27:34] INFO root fetch - processPackages [galmoss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galmoss-2.0.7.tar.gz tmp/galmoss-2.0.8.tar.gz --markdown 20240419/g/galmoss/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dekshell]: executing diffoscope
+[2024-04-19 10:27:34] INFO root fetch - processPackages [dekshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekshell-0.1.8.tar.gz tmp/dekshell-0.1.9.tar.gz --markdown 20240419/d/dekshell/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 10:27:34] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-19 10:27:34] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.2.0.tar.gz tmp/scrapegraphai-0.2.1.tar.gz --markdown 20240419/s/scrapegraphai/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dranspose]: executing diffoscope
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dranspose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dranspose-0.0.2.tar.gz tmp/dranspose-0.0.3.tar.gz --markdown 20240419/d/dranspose/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 10:27:35] INFO root fetch - processPackages [SAMMEC2]: Remove: archive file [/home/abi/fetcher/tmp/SAMMEC2-0.0.8.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - processPackages [SAMMEC2]: Remove: archive file [/home/abi/fetcher/tmp/SAMMEC2-0.0.9.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - main [MainThread]: End processing [SAMMEC2]: success
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-2.0.8.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dyn-rm]: Remove: archive file [/home/abi/fetcher/tmp/dyn_rm-2.0.9.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - main [MainThread]: End processing [dyn-rm]: success
+[2024-04-19 10:27:35] INFO root fetch - processPackages [galmoss]: Remove: archive file [/home/abi/fetcher/tmp/galmoss-2.0.7.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - processPackages [galmoss]: Remove: archive file [/home/abi/fetcher/tmp/galmoss-2.0.8.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - main [MainThread]: End processing [galmoss]: success
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dekshell]: Remove: archive file [/home/abi/fetcher/tmp/dekshell-0.1.8.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - processPackages [dekshell]: Remove: archive file [/home/abi/fetcher/tmp/dekshell-0.1.9.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - main [MainThread]: End processing [dekshell]: success
+[2024-04-19 10:27:35] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.0.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.2.1.tar.gz]
+[2024-04-19 10:27:35] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-19 10:27:36] INFO root fetch - processPackages [dranspose]: Remove: archive file [/home/abi/fetcher/tmp/dranspose-0.0.2.tar.gz]
+[2024-04-19 10:27:36] INFO root fetch - processPackages [dranspose]: Remove: archive file [/home/abi/fetcher/tmp/dranspose-0.0.3.tar.gz]
+[2024-04-19 10:27:36] INFO root fetch - main [MainThread]: End processing [dranspose]: success
+[2024-04-19 10:27:36] INFO root fetch - main [MainThread]: Store serial: [22838695]
