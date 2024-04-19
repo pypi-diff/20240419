@@ -10784,3 +10784,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:52:58] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/activecollab-3.1.tar.gz]
 [2024-04-19 07:52:58] INFO root fetch - main [MainThread]: End processing [ActiveCollab]: success
 [2024-04-19 07:52:58] INFO root fetch - main [MainThread]: Store serial: [22837057]
+[2024-04-19 07:55:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837057]
+[2024-04-19 07:55:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NeelKrypt
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jpsapp
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jztools
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Xodia24
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gentrace-py
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-blanket-order
+[2024-04-19 07:55:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tgqSim
+[2024-04-19 07:55:07] INFO root fetch - processPackages [Xodia24]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 07:55:07] INFO root fetch - processPackages [jztools]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 07:55:07] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/89/b0/8d7a7ec68648260cd4c4a0da7f4a775ecc9526f63909f23e2a0ba0f46267/Xodia24-0.0.5.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [gentrace-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-19 07:55:07] INFO root fetch - processPackages [jztools]: Downloading https://files.pythonhosted.org/packages/06/47/c0057182cfe3bcd449d5c0bf3881e86bcbbc2779b648af726262425d224c/jztools-0.1.1.tar.gz
+[2024-04-19 07:55:07] WARNING root fetch - processPackages [jpsapp]: Skipping, unable to determine old version
+[2024-04-19 07:55:07] INFO root fetch - main [MainThread]: End processing [jpsapp] error
+[2024-04-19 07:55:07] WARNING root fetch - processPackages [NeelKrypt]: Skipping, unable to determine old version
+[2024-04-19 07:55:07] INFO root fetch - main [MainThread]: End processing [NeelKrypt] error
+[2024-04-19 07:55:07] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: New version: [14.0.2.0.1.dev5] Old Version: [14.0.2.0.1.dev4]
+[2024-04-19 07:55:07] INFO root fetch - processPackages [tgqSim]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-19 07:55:07] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/28/1d/260a9d1832a0c7e40a19de65e5b9680ece0b1ee669ef7cfa9dd7006b2787/gentrace_py-0.9.0.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/69/16/56a09bb0f4a76c38e6ffd81f3a256e1f71370a9a236164da33698ab85e65/Xodia24-0.0.6.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/ac/6c/45ef5751eca663f6aa0c9a9c8a36b20be09bc58f2bd4b45e38283e60b05e/tgqSim-0.0.9.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-19 07:55:07] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.5.tar.gz tmp/Xodia24-0.0.6.tar.gz --markdown 20240419/X/Xodia24/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 07:55:07] INFO root fetch - processPackages [jztools]: Downloading https://files.pythonhosted.org/packages/59/8a/d9381f2a68c0a1d9079ee762ea9db250df060559151394d4d9f6616d1103/jztools-0.1.2.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [jztools]: executing diffoscope
+[2024-04-19 07:55:07] INFO root fetch - processPackages [jztools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jztools-0.1.1.tar.gz tmp/jztools-0.1.2.tar.gz --markdown 20240419/j/jztools/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 07:55:07] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/74/b2/9b5b6e76d13d9d346e040c6d0930d4f76a5eb07926b733cc8b2970d02aa8/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev4-py3-none-any.whl
+[2024-04-19 07:55:07] INFO root fetch - processPackages [gentrace-py]: Downloading https://files.pythonhosted.org/packages/e5/c3/d0ce9414bb9b5a3467baa87d578314dae84fe8b66d2b1f2d38cab4e20714/gentrace_py-0.9.1.tar.gz
+[2024-04-19 07:55:07] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/a4/6f/fa1dfcd85b5bacb7e3026c013da1fdd8950b4d7ca6a570575091f40039ae/tgqSim-0.1.0-py3-none-any.whl
+[2024-04-19 07:55:08] INFO root fetch - processPackages [gentrace-py]: executing diffoscope
+[2024-04-19 07:55:08] INFO root fetch - processPackages [gentrace-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentrace_py-0.9.0.tar.gz tmp/gentrace_py-0.9.1.tar.gz --markdown 20240419/g/gentrace-py/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-19 07:55:08] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Downloading https://files.pythonhosted.org/packages/6f/59/23d6e45411257656f409ec2f5d702e64093908d86d9d321de0c3aafb942b/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev5-py3-none-any.whl
+[2024-04-19 07:55:08] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-04-19 07:55:08] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.0.9.tar.gz tmp/tgqSim-0.1.0-py3-none-any.whl.zip --markdown 20240419/t/tgqSim/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-19 07:55:08] INFO root fetch - processPackages [jztools]: Remove: archive file [/home/abi/fetcher/tmp/jztools-0.1.1.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - processPackages [jztools]: Remove: archive file [/home/abi/fetcher/tmp/jztools-0.1.2.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - main [MainThread]: End processing [jztools]: success
+[2024-04-19 07:55:08] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.5.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.6.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-19 07:55:08] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: executing diffoscope
+[2024-04-19 07:55:08] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev5-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-sale-blanket-order/14.0.2.0.1.dev4-14.0.2.0.1.dev5/README.md --exclude *.pyd
+[2024-04-19 07:55:08] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.0.9.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.0-py3-none-any.whl.zip]
+[2024-04-19 07:55:08] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-04-19 07:55:08] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.0.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - processPackages [gentrace-py]: Remove: archive file [/home/abi/fetcher/tmp/gentrace_py-0.9.1.tar.gz]
+[2024-04-19 07:55:08] INFO root fetch - main [MainThread]: End processing [gentrace-py]: success
+[2024-04-19 07:55:09] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-19 07:55:09] INFO root fetch - processPackages [odoo14-addon-sale-blanket-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_blanket_order-14.0.2.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-19 07:55:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-blanket-order]: success
+[2024-04-19 07:55:09] INFO root fetch - main [MainThread]: Store serial: [22837078]
