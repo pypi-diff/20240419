@@ -2066,3 +2066,33 @@
 [2024-04-19 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240418.tar.gz]
 [2024-04-19 02:07:20] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
 [2024-04-19 02:07:20] INFO root fetch - main [MainThread]: Store serial: [22833559]
+[2024-04-19 02:09:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833559]
+[2024-04-19 02:09:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 02:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-19 02:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-04-19 02:09:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meta-ai-api
+[2024-04-19 02:09:28] INFO root fetch - processPackages [meta-ai-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-19 02:09:28] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404180010] Old Version: [4.1.6.dev202404170009]
+[2024-04-19 02:09:28] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/0c/7a/cdcf13c2be391e7d9fd269b06db140b6f4153d5d9393b246525cc1cbcd5f/meta_ai_api-1.0.5.tar.gz
+[2024-04-19 02:09:28] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/86/0f/486b1aa1b07b8b3545a81473282cd8fbba3f48cadf3c94ba2b8715868a21/openbb_nightly-4.1.6.dev202404170009.tar.gz
+[2024-04-19 02:09:28] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-19 02:09:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-19 02:09:29] INFO root fetch - processPackages [meta-ai-api]: Downloading https://files.pythonhosted.org/packages/4d/c2/913683b6b69d51f49c3277dac1dbbb273429e35de2843d09ffb5a5eb4568/meta_ai_api-1.0.6.tar.gz
+[2024-04-19 02:09:29] INFO root fetch - processPackages [meta-ai-api]: executing diffoscope
+[2024-04-19 02:09:29] INFO root fetch - processPackages [meta-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta_ai_api-1.0.5.tar.gz tmp/meta_ai_api-1.0.6.tar.gz --markdown 20240419/m/meta-ai-api/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-19 02:09:29] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/7a/0a/9e86cd61ae0da36443157c0940b0e9179d07e1949be3cbce89ff698263ef/openbb_nightly-4.1.6.dev202404180010.tar.gz
+[2024-04-19 02:09:29] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-19 02:09:29] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404170009.tar.gz tmp/openbb_nightly-4.1.6.dev202404180010.tar.gz --markdown 20240419/o/openbb-nightly/4.1.6.dev202404170009-4.1.6.dev202404180010/README.md --exclude *.pyd
+[2024-04-19 02:09:29] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.5.tar.gz]
+[2024-04-19 02:09:29] INFO root fetch - processPackages [meta-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/meta_ai_api-1.0.6.tar.gz]
+[2024-04-19 02:09:29] INFO root fetch - main [MainThread]: End processing [meta-ai-api]: success
+[2024-04-19 02:09:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-19 02:09:30] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-19 02:09:30] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240419/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-19 02:09:30] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-19 02:09:30] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-19 02:09:30] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-19 02:09:36] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404170009.tar.gz]
+[2024-04-19 02:09:36] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404180010.tar.gz]
+[2024-04-19 02:09:36] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-19 02:09:36] INFO root fetch - main [MainThread]: Store serial: [22833564]
