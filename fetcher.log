@@ -10027,3 +10027,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:07:02] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.1.tar.gz]
 [2024-04-19 07:07:02] INFO root fetch - main [MainThread]: End processing [gptify]: success
 [2024-04-19 07:07:02] INFO root fetch - main [MainThread]: Store serial: [22836782]
+[2024-04-19 07:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836782]
+[2024-04-19 07:09:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataset-tools
+[2024-04-19 07:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clfutils4r
+[2024-04-19 07:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-19 07:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: argeye
+[2024-04-19 07:09:11] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 07:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-04-19 07:09:11] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-19 07:09:11] INFO root fetch - processPackages [clfutils4r]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 07:09:11] WARNING root fetch - processPackages [argeye]: Skipping, unable to determine old version
+[2024-04-19 07:09:11] INFO root fetch - main [MainThread]: End processing [argeye] error
+[2024-04-19 07:09:11] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-19 07:09:11] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/41/89/769f6e63b6b4d3e13ecefc2e0d21fedd3accc3ee74e3b5a4c90dbca71cc3/clfutils4r-1.0.1.tar.gz
+[2024-04-19 07:09:11] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-19 07:09:11] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-19 07:09:11] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240419/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 07:09:12] INFO root fetch - processPackages [clfutils4r]: Downloading https://files.pythonhosted.org/packages/99/8b/1d17cc4516105d578d430dd58e1d7164191576415a4157c7960864380308/clfutils4r-1.0.2.tar.gz
+[2024-04-19 07:09:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-04-19 07:09:12] INFO root fetch - processPackages [clfutils4r]: executing diffoscope
+[2024-04-19 07:09:12] INFO root fetch - processPackages [clfutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clfutils4r-1.0.1.tar.gz tmp/clfutils4r-1.0.2.tar.gz --markdown 20240419/c/clfutils4r/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 07:09:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-19 07:09:12] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-19 07:09:12] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-19 07:09:12] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-19 07:09:12] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-19 07:09:12] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-1.0.1.tar.gz]
+[2024-04-19 07:09:12] INFO root fetch - processPackages [clfutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clfutils4r-1.0.2.tar.gz]
+[2024-04-19 07:09:12] INFO root fetch - main [MainThread]: End processing [clfutils4r]: success
+[2024-04-19 07:09:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-19 07:09:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-19 07:09:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-19 07:09:14] INFO root fetch - main [MainThread]: Store serial: [22836796]
