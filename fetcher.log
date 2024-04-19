@@ -8142,3 +8142,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:51:41] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc3.tar.gz]
 [2024-04-19 04:51:41] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2024-04-19 04:51:41] INFO root fetch - main [MainThread]: Store serial: [22835929]
+[2024-04-19 04:53:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835929]
+[2024-04-19 04:53:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 04:53:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: donetools
+[2024-04-19 04:53:49] INFO root fetch - processPackages [donetools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 04:53:50] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/1d/e7/16ef7ef33b09a9634459bb56e910fc56d348769263fd89f5074d35a6aa31/donetools-0.0.8.tar.gz
+[2024-04-19 04:53:50] INFO root fetch - processPackages [donetools]: Downloading https://files.pythonhosted.org/packages/bc/28/cc26a1e320fe8c7340f7a8a47ad56f46fe697a88680abb956588b9650e76/donetools-0.0.9.tar.gz
+[2024-04-19 04:53:50] INFO root fetch - processPackages [donetools]: executing diffoscope
+[2024-04-19 04:53:50] INFO root fetch - processPackages [donetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donetools-0.0.8.tar.gz tmp/donetools-0.0.9.tar.gz --markdown 20240419/d/donetools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 04:53:51] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.8.tar.gz]
+[2024-04-19 04:53:51] INFO root fetch - processPackages [donetools]: Remove: archive file [/home/abi/fetcher/tmp/donetools-0.0.9.tar.gz]
+[2024-04-19 04:53:51] INFO root fetch - main [MainThread]: End processing [donetools]: success
+[2024-04-19 04:53:51] INFO root fetch - main [MainThread]: Store serial: [22835932]
