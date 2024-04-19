@@ -8675,3 +8675,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:24:41] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
 [2024-04-19 05:24:41] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
 [2024-04-19 05:24:41] INFO root fetch - main [MainThread]: Store serial: [22836154]
+[2024-04-19 05:26:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836154]
+[2024-04-19 05:26:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 05:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htt
+[2024-04-19 05:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyflann-ibeis
+[2024-04-19 05:26:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jx-sqlite
+[2024-04-19 05:26:50] INFO root fetch - processPackages [htt]: New version: [0.8] Old Version: [0.7]
+[2024-04-19 05:26:50] INFO root fetch - processPackages [jx-sqlite]: New version: [5.588.24110] Old Version: [5.586.24095]
+[2024-04-19 05:26:50] INFO root fetch - processPackages [pyflann-ibeis]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-19 05:26:50] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/81/3e/3baffa387f1e6ecf82b20aeccecb4d56406106905e15bf3bc0163d89d4e1/htt-0.7.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [jx-sqlite]: Downloading https://files.pythonhosted.org/packages/6e/8d/4bbb8c6cb686b0d71152b5d974c91c9f786e41ce8c1d40af59a92572e8c4/jx-sqlite-5.586.24095.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [pyflann-ibeis]: Downloading https://files.pythonhosted.org/packages/45/05/8e690e13795691831926aabbec93d72f379fb14a6d5a2e2d351c0297f742/pyflann_ibeis-2.3.0.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-04-19 05:26:50] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.7.tar.gz tmp/htt-0.8.tar.gz --markdown 20240419/h/htt/0.7-0.8/README.md --exclude *.pyd
+[2024-04-19 05:26:50] INFO root fetch - processPackages [jx-sqlite]: Downloading https://files.pythonhosted.org/packages/b3/40/ed97251dd7e239d9e91a11f2a75c3e8bec99e480e0dd668132e4d396e12b/jx_sqlite-5.588.24110.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [pyflann-ibeis]: Downloading https://files.pythonhosted.org/packages/7b/d2/ee13ba9c623fbb7e908405f1dcfe587b10cb6ccfe3458e7fa88cdc649be7/pyflann_ibeis-2.4.0.tar.gz
+[2024-04-19 05:26:50] INFO root fetch - processPackages [jx-sqlite]: executing diffoscope
+[2024-04-19 05:26:50] INFO root fetch - processPackages [jx-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx-sqlite-5.586.24095.tar.gz tmp/jx_sqlite-5.588.24110.tar.gz --markdown 20240419/j/jx-sqlite/5.586.24095-5.588.24110/README.md --exclude *.pyd
+[2024-04-19 05:26:51] INFO root fetch - processPackages [pyflann-ibeis]: executing diffoscope
+[2024-04-19 05:26:51] INFO root fetch - processPackages [pyflann-ibeis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflann_ibeis-2.3.0.tar.gz tmp/pyflann_ibeis-2.4.0.tar.gz --markdown 20240419/p/pyflann-ibeis/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-19 05:26:51] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.7.tar.gz]
+[2024-04-19 05:26:51] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-04-19 05:26:51] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-04-19 05:26:51] INFO root fetch - processPackages [jx-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/jx-sqlite-5.586.24095.tar.gz]
+[2024-04-19 05:26:51] INFO root fetch - processPackages [jx-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/jx_sqlite-5.588.24110.tar.gz]
+[2024-04-19 05:26:51] INFO root fetch - main [MainThread]: End processing [jx-sqlite]: success
+[2024-04-19 05:26:52] INFO root fetch - processPackages [pyflann-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/pyflann_ibeis-2.3.0.tar.gz]
+[2024-04-19 05:26:52] INFO root fetch - processPackages [pyflann-ibeis]: Remove: archive file [/home/abi/fetcher/tmp/pyflann_ibeis-2.4.0.tar.gz]
+[2024-04-19 05:26:52] INFO root fetch - main [MainThread]: End processing [pyflann-ibeis]: success
+[2024-04-19 05:26:52] INFO root fetch - main [MainThread]: Store serial: [22836172]
