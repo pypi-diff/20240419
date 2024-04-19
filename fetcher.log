@@ -9428,3 +9428,35 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:21:26] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-19 06:21:26] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-19 06:21:26] INFO root fetch - main [MainThread]: Store serial: [22836504]
+[2024-04-19 06:23:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836504]
+[2024-04-19 06:23:35] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-19 06:25:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836504]
+[2024-04-19 06:25:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 06:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thirdai
+[2024-04-19 06:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subprober
+[2024-04-19 06:25:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-ilorest-library
+[2024-04-19 06:25:40] INFO root fetch - processPackages [subprober]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-19 06:25:40] INFO root fetch - processPackages [subprober]: Downloading https://files.pythonhosted.org/packages/a0/a5/beb16686276cf885d4f058b4b86bcb3eeb815d2db2f6c48405a223c94b84/subprober-1.0.7.tar.gz
+[2024-04-19 06:25:40] INFO root fetch - processPackages [python-ilorest-library]: New version: [5.0.0.0] Old Version: [4.9.0.0]
+[2024-04-19 06:25:40] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 06:25:40] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-19 06:25:40] INFO root fetch - processPackages [subprober]: Downloading https://files.pythonhosted.org/packages/51/1e/1e2742a7ac8ae7ac541acc404e9c1f604353de9cf50b59801233df52efb0/subprober-1.0.8.tar.gz
+[2024-04-19 06:25:40] INFO root fetch - processPackages [python-ilorest-library]: Downloading https://files.pythonhosted.org/packages/24/80/42adf49cda8da4243d3104db2fbb577d1f80b2471670742789e705ae396e/python-ilorest-library-4.9.0.0.zip
+[2024-04-19 06:25:41] INFO root fetch - processPackages [subprober]: executing diffoscope
+[2024-04-19 06:25:41] INFO root fetch - processPackages [subprober]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subprober-1.0.7.tar.gz tmp/subprober-1.0.8.tar.gz --markdown 20240419/s/subprober/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-19 06:25:41] INFO root fetch - processPackages [python-ilorest-library]: Downloading https://files.pythonhosted.org/packages/54/23/2349ea0b2c8b5c28559cb96b075db4a43f65a3d0b130704d897ebc6aa562/python-ilorest-library-5.0.0.0.zip
+[2024-04-19 06:25:41] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-19 06:25:41] INFO root fetch - processPackages [python-ilorest-library]: executing diffoscope
+[2024-04-19 06:25:41] INFO root fetch - processPackages [python-ilorest-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ilorest-library-4.9.0.0.zip tmp/python-ilorest-library-5.0.0.0.zip --markdown 20240419/p/python-ilorest-library/4.9.0.0-5.0.0.0/README.md --exclude *.pyd
+[2024-04-19 06:25:41] INFO root fetch - processPackages [subprober]: Remove: archive file [/home/abi/fetcher/tmp/subprober-1.0.7.tar.gz]
+[2024-04-19 06:25:41] INFO root fetch - processPackages [subprober]: Remove: archive file [/home/abi/fetcher/tmp/subprober-1.0.8.tar.gz]
+[2024-04-19 06:25:41] INFO root fetch - main [MainThread]: End processing [subprober]: success
+[2024-04-19 06:25:41] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-19 06:25:41] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240419/t/thirdai/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 06:25:42] INFO root fetch - processPackages [python-ilorest-library]: Remove: archive file [/home/abi/fetcher/tmp/python-ilorest-library-4.9.0.0.zip]
+[2024-04-19 06:25:42] INFO root fetch - processPackages [python-ilorest-library]: Remove: archive file [/home/abi/fetcher/tmp/python-ilorest-library-5.0.0.0.zip]
+[2024-04-19 06:25:42] INFO root fetch - main [MainThread]: End processing [python-ilorest-library]: success
+[2024-04-19 06:25:42] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 06:25:42] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 06:25:42] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-19 06:25:42] INFO root fetch - main [MainThread]: Store serial: [22836525]
