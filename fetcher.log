@@ -20881,3 +20881,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:10:08] INFO root fetch - processPackages [timetagger]: Remove: archive file [/home/abi/fetcher/tmp/timetagger-24.4.1.tar.gz]
 [2024-04-19 14:10:08] INFO root fetch - main [MainThread]: End processing [timetagger]: success
 [2024-04-19 14:10:08] INFO root fetch - main [MainThread]: Store serial: [22841447]
+[2024-04-19 14:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841447]
+[2024-04-19 14:12:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 14:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schedula
+[2024-04-19 14:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caqtus
+[2024-04-19 14:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superlinked
+[2024-04-19 14:12:18] WARNING root fetch - processPackages [caqtus]: Skipping, unable to determine old version
+[2024-04-19 14:12:18] INFO root fetch - main [MainThread]: End processing [caqtus] error
+[2024-04-19 14:12:18] INFO root fetch - processPackages [schedula]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-04-19 14:12:18] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/13/5e/22816b033c7761f58a64bdd1110cf59c9586e2307d3eebe42ec3862abb40/schedula-1.5.6.tar.gz
+[2024-04-19 14:12:18] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-19 14:12:18] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-19 14:12:18] INFO root fetch - processPackages [schedula]: Downloading https://files.pythonhosted.org/packages/7d/6e/96f90bb01e048a5da11b84706fbff5c53b77a4fbffe99e4df5a59e769903/schedula-1.5.7.tar.gz
+[2024-04-19 14:12:18] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-19 14:12:18] INFO root fetch - processPackages [schedula]: executing diffoscope
+[2024-04-19 14:12:18] INFO root fetch - processPackages [schedula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schedula-1.5.6.tar.gz tmp/schedula-1.5.7.tar.gz --markdown 20240419/s/schedula/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-04-19 14:12:19] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-19 14:12:19] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240419/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-04-19 14:12:19] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-19 14:12:19] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-19 14:12:19] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-19 14:12:21] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.6.tar.gz]
+[2024-04-19 14:12:21] INFO root fetch - processPackages [schedula]: Remove: archive file [/home/abi/fetcher/tmp/schedula-1.5.7.tar.gz]
+[2024-04-19 14:12:21] INFO root fetch - main [MainThread]: End processing [schedula]: success
+[2024-04-19 14:12:21] INFO root fetch - main [MainThread]: Store serial: [22841458]
