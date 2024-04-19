@@ -14279,3 +14279,78 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:18:45] INFO root fetch - processPackages [oakvar]: Remove: archive file [/home/abi/fetcher/tmp/oakvar-2.9.97.tar.gz]
 [2024-04-19 10:18:45] INFO root fetch - main [MainThread]: End processing [oakvar]: success
 [2024-04-19 10:18:45] INFO root fetch - main [MainThread]: Store serial: [22838608]
+[2024-04-19 10:20:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838608]
+[2024-04-19 10:20:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lyzr
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlt
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-paginate
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gooddata-sdk
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gooddata-fdw
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gooddata-api-client
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gooddata-pandas
+[2024-04-19 10:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gooddata-dbt
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-dbt]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [dlt]: New version: [0.4.9a2] Old Version: [0.4.9a1]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [python-paginate]: New version: [2024.4.19] Old Version: [2023.10.11]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [lyzr]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/0d/f0/c213876dffbc5d7f680c82e829333e573a9c9bf577c78eca5d58b89e2fe1/gooddata-fdw-1.9.0.tar.gz
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/f3/80/4285744ed6a565ac4ea49b7bf637e5e00d407d67abf103cc8671bd0e3261/gooddata-sdk-1.9.0.tar.gz
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/16/e7/c8ceec7d71a92b4eff603eafab900647224f57543526dbf8b1c8e453ec98/gooddata-api-client-1.9.0.tar.gz
+[2024-04-19 10:20:53] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/af/d2/74aa045051a6c3cdd9c60744f54e18244cd5c3685b0cfd8316ead7fb5f9f/gooddata-dbt-1.9.0.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/16/e9/844edf9eb99ce8d4fa5b5e7fe50bc806a43f64ac014f3264b4c33765fd84/lyzr-0.1.8.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [python-paginate]: Downloading https://files.pythonhosted.org/packages/29/e5/454f74212745b9c1f8342dc5a7c94ceb92a20a801f3fefdb0d9d756b81ec/python-paginate-2023.10.11.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/05/ee/6ffac4e898ce64eedd4b03a6d7925596d4a1959c0d2de78570cdfb266d85/dlt-0.4.9a1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/a4/d2/aeb676c03fdd16fbb3e449ffdd81aada198350d7bb06985452ed7d890502/gooddata-fdw-1.9.1.dev1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/dd/ee/087b761347319baf431af47a6ea7518b52bd18f3781d48b5945cbf3d62c7/gooddata-sdk-1.9.1.dev1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/e0/e6/aae416564ce76ca33ee9de368048118ded67271882273787e574c25abeec/gooddata-dbt-1.9.1.dev1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [lyzr]: Downloading https://files.pythonhosted.org/packages/3b/1a/f5e40176ae2a8bf9ad28494907a484ecaab5e97f0790bf0e796cc17e1e51/lyzr-0.1.9.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.9.0.tar.gz tmp/gooddata-fdw-1.9.1.dev1.tar.gz --markdown 20240419/g/gooddata-fdw/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/15/59/ec005e63eadc0fa8eee98ed734a060dac49dd9466ae60adc2dc0097b34e3/gooddata-api-client-1.9.1.dev1.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240419/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.9.0.tar.gz tmp/gooddata-sdk-1.9.1.dev1.tar.gz --markdown 20240419/g/gooddata-sdk/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-dbt]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-dbt-1.9.0.tar.gz tmp/gooddata-dbt-1.9.1.dev1.tar.gz --markdown 20240419/g/gooddata-dbt/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [lyzr]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyzr-0.1.8.tar.gz tmp/lyzr-0.1.9.tar.gz --markdown 20240419/l/lyzr/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [python-paginate]: Downloading https://files.pythonhosted.org/packages/6c/04/282e285e187fd2de9bdfa6796b0f56fb9834d136cc9ee657d736c8b4abe2/python_paginate-2024.4.19.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/80/54/48192f67adc74da5eaa9b9c96b71f9a397fe9c84c79e6344ba7df65e8362/dlt-0.4.9a2.tar.gz
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.9.0.tar.gz tmp/gooddata-api-client-1.9.1.dev1.tar.gz --markdown 20240419/g/gooddata-api-client/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-04-19 10:20:54] INFO root fetch - processPackages [python-paginate]: executing diffoscope
+[2024-04-19 10:20:54] INFO root fetch - processPackages [python-paginate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-paginate-2023.10.11.tar.gz tmp/python_paginate-2024.4.19.tar.gz --markdown 20240419/p/python-paginate/2023.10.11-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 10:20:55] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2024-04-19 10:20:55] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.4.9a1.tar.gz tmp/dlt-0.4.9a2.tar.gz --markdown 20240419/d/dlt/0.4.9a1-0.4.9a2/README.md --exclude *.pyd
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.0.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.1.dev1.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [gooddata-dbt]: success
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-04-19 10:20:55] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.8.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [lyzr]: Remove: archive file [/home/abi/fetcher/tmp/lyzr-0.1.9.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [lyzr]: success
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.0.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.1.dev1.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.0.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.1.dev1.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2024-04-19 10:20:55] INFO root fetch - processPackages [python-paginate]: Remove: archive file [/home/abi/fetcher/tmp/python-paginate-2023.10.11.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - processPackages [python-paginate]: Remove: archive file [/home/abi/fetcher/tmp/python_paginate-2024.4.19.tar.gz]
+[2024-04-19 10:20:55] INFO root fetch - main [MainThread]: End processing [python-paginate]: success
+[2024-04-19 10:20:56] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a1.tar.gz]
+[2024-04-19 10:20:56] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a2.tar.gz]
+[2024-04-19 10:20:56] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2024-04-19 10:21:00] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.0.tar.gz]
+[2024-04-19 10:21:00] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
+[2024-04-19 10:21:00] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2024-04-19 10:21:00] INFO root fetch - main [MainThread]: Store serial: [22838632]
