@@ -20732,3 +20732,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:03:33] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240418173930.tar.gz]
 [2024-04-19 14:03:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-19 14:03:33] INFO root fetch - main [MainThread]: Store serial: [22841401]
+[2024-04-19 14:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841401]
+[2024-04-19 14:05:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyam-iamc
+[2024-04-19 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odp-sdk
+[2024-04-19 14:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2024-04-19 14:05:42] INFO root fetch - processPackages [dxsp]: New version: [9.0.7] Old Version: [9.0.6]
+[2024-04-19 14:05:42] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-19 14:05:42] INFO root fetch - processPackages [pyam-iamc]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-19 14:05:42] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a1/1f/4b20f69e5b75066726b10760e4d553170d395263325ba26fe170c2978d0b/dxsp-9.0.6.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/f2/ad/899112475debe00b15bcad1fa2935849195234e216d81c0d9ede9556cbe9/odp_sdk-0.4.6.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [pyam-iamc]: Downloading https://files.pythonhosted.org/packages/42/9e/bf979008ad021e0e35ba12952d880c68a6351d11a7f6b0063ea88b470e4f/pyam_iamc-2.2.1.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/c1/02/3119800c1eceb087f71694d8f6d21bce46ec401d2511bf92ed3ee83d9db4/dxsp-9.0.7.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2024-04-19 14:05:43] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-9.0.6.tar.gz tmp/dxsp-9.0.7.tar.gz --markdown 20240419/d/dxsp/9.0.6-9.0.7/README.md --exclude *.pyd
+[2024-04-19 14:05:43] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/20/a1/310370f7b15fd4a4c078101463add09c8030a592df6debf6364b04e37afb/odp_sdk-0.4.7.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [pyam-iamc]: Downloading https://files.pythonhosted.org/packages/d6/e0/a3205c01224e41dac7def936f716b87af6fde56d51cda1c2399941799357/pyam_iamc-2.2.2.tar.gz
+[2024-04-19 14:05:43] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-04-19 14:05:43] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.6.tar.gz tmp/odp_sdk-0.4.7.tar.gz --markdown 20240419/o/odp-sdk/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-19 14:05:43] INFO root fetch - processPackages [pyam-iamc]: executing diffoscope
+[2024-04-19 14:05:43] INFO root fetch - processPackages [pyam-iamc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyam_iamc-2.2.1.tar.gz tmp/pyam_iamc-2.2.2.tar.gz --markdown 20240419/p/pyam-iamc/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-19 14:05:43] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.6.tar.gz]
+[2024-04-19 14:05:43] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
+[2024-04-19 14:05:43] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2024-04-19 14:05:44] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.6.tar.gz]
+[2024-04-19 14:05:44] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.7.tar.gz]
+[2024-04-19 14:05:44] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-04-19 14:05:44] INFO root fetch - processPackages [pyam-iamc]: Remove: archive file [/home/abi/fetcher/tmp/pyam_iamc-2.2.1.tar.gz]
+[2024-04-19 14:05:44] INFO root fetch - processPackages [pyam-iamc]: Remove: archive file [/home/abi/fetcher/tmp/pyam_iamc-2.2.2.tar.gz]
+[2024-04-19 14:05:44] INFO root fetch - main [MainThread]: End processing [pyam-iamc]: success
+[2024-04-19 14:05:44] INFO root fetch - main [MainThread]: Store serial: [22841410]
