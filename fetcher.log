@@ -19865,3 +19865,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 13:24:53] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.4.tar.gz]
 [2024-04-19 13:24:53] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
 [2024-04-19 13:24:53] INFO root fetch - main [MainThread]: Store serial: [22840890]
+[2024-04-19 13:26:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840890]
+[2024-04-19 13:27:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cosmic-datapi
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RsCMX-Signaling
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerbogen
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-scheduler-sdk
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchx-nightly
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: isystem.connect
+[2024-04-19 13:27:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core
+[2024-04-19 13:27:03] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [cerbogen]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.18] Old Version: [2024.4.17]
+[2024-04-19 13:27:03] WARNING root fetch - processPackages [cosmic-datapi]: Skipping, unable to determine old version
+[2024-04-19 13:27:03] INFO root fetch - main [MainThread]: End processing [cosmic-datapi] error
+[2024-04-19 13:27:03] INFO root fetch - processPackages [RsCMX-Signaling]: New version: [7.70.0] Old Version: [7.40.0]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/d1/7e/3a4229afb65541e76ae8fa6939075c725485d5272638cfec49c8862d0298/lusid_scheduler_sdk-2.1.7.tar.gz
+[2024-04-19 13:27:03] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [pyarmor]: New version: [8.5.3] Old Version: [8.5.2]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/86/2e/c018367a5ad59ea3ce2d869a7cf1c4f98d0f227ddee42c97751e07e813b3/cerbogen-0.0.8.tar.gz
+[2024-04-19 13:27:03] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [6.5.1] Old Version: [6.5.0]
+[2024-04-19 13:27:03] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/b3/66/ec380332cbfc43a2496fbcd5cb448608e24170777f0a7e5a4de3379bd077/torchx_nightly-2024.4.17-py3-none-any.whl
+[2024-04-19 13:27:03] INFO root fetch - processPackages [RsCMX-Signaling]: Downloading https://files.pythonhosted.org/packages/e3/55/8d65fe68c3d3f5a9c24e3512e90a68d0a7fde82ace961427105cd455ff0c/RsCMX_Signaling-7.40.0.tar.gz
+[2024-04-19 13:27:03] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/6b/ef/0e5e2bf8731f3152b7e4404e949e6b486640a148eb9f0dd3b5ed640498c7/lusid_scheduler_sdk-2.1.8.tar.gz
+[2024-04-19 13:27:03] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-04-19 13:27:03] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/14/1e/21691085ce82913905bb27912b98ce58f41781f655c5e193d0911e2556b1/pyarmor.cli.core-6.5.0.zip
+[2024-04-19 13:27:03] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/cb/6b/e874010fd7732a1aaccec026eed7b8c92e9250551aba9732a29921be03b1/pyarmor-8.5.2.zip
+[2024-04-19 13:27:03] INFO root fetch - processPackages [cerbogen]: Downloading https://files.pythonhosted.org/packages/56/59/3ab4a3e5636a28d383c51f02ca7f8033ed29dd02e7723f2d5b8d17b274f5/cerbogen-0.0.9.tar.gz
+[2024-04-19 13:27:03] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-19 13:27:03] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.1.7.tar.gz tmp/lusid_scheduler_sdk-2.1.8.tar.gz --markdown 20240419/l/lusid-scheduler-sdk/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-19 13:27:03] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/2c/4f/b728b6c71458584d99f2c8a1b9de5f7ae1a4a9c01b509a248e7c72e1d116/torchx_nightly-2024.4.18-py3-none-any.whl
+[2024-04-19 13:27:03] INFO root fetch - processPackages [cerbogen]: executing diffoscope
+[2024-04-19 13:27:03] INFO root fetch - processPackages [cerbogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerbogen-0.0.8.tar.gz tmp/cerbogen-0.0.9.tar.gz --markdown 20240419/c/cerbogen/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 13:27:03] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-19 13:27:03] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.17-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.18-py3-none-any.whl.zip --markdown 20240419/t/torchx-nightly/2024.4.17-2024.4.18/README.md --exclude *.pyd
+[2024-04-19 13:27:03] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/2b/f5/45bec196c64802394b43a18b6819c6a2f8276da70f93a065ec67b1ce3a6d/pyarmor.cli.core-6.5.1.zip
+[2024-04-19 13:27:04] INFO root fetch - processPackages [RsCMX-Signaling]: Downloading https://files.pythonhosted.org/packages/87/4d/bfbd2b1845fed629592c557b52da873baac858486a7d314c286f0d8e1391/RsCMX_Signaling-7.70.0.tar.gz
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/1d/f0/7173eab30feb7f72c94a183c6a11af95388265103cb2d9f71a4a129641d6/pyarmor-8.5.3.zip
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-6.5.0.zip tmp/pyarmor.cli.core-6.5.1.zip --markdown 20240419/p/pyarmor.cli.core/6.5.0-6.5.1/README.md --exclude *.pyd
+[2024-04-19 13:27:04] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-04-19 13:27:04] INFO root fetch - processPackages [RsCMX-Signaling]: executing diffoscope
+[2024-04-19 13:27:04] INFO root fetch - processPackages [RsCMX-Signaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMX_Signaling-7.40.0.tar.gz tmp/RsCMX_Signaling-7.70.0.tar.gz --markdown 20240419/R/RsCMX-Signaling/7.40.0-7.70.0/README.md --exclude *.pyd
+[2024-04-19 13:27:04] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.8.tar.gz]
+[2024-04-19 13:27:04] INFO root fetch - processPackages [cerbogen]: Remove: archive file [/home/abi/fetcher/tmp/cerbogen-0.0.9.tar.gz]
+[2024-04-19 13:27:04] INFO root fetch - main [MainThread]: End processing [cerbogen]: success
+[2024-04-19 13:27:04] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.7.tar.gz]
+[2024-04-19 13:27:04] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.1.8.tar.gz]
+[2024-04-19 13:27:04] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.5.2.zip tmp/pyarmor-8.5.3.zip --markdown 20240419/p/pyarmor/8.5.2-8.5.3/README.md --exclude *.pyd
+[2024-04-19 13:27:04] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.17-py3-none-any.whl.zip]
+[2024-04-19 13:27:04] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.18-py3-none-any.whl.zip]
+[2024-04-19 13:27:04] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-6.5.0.zip]
+[2024-04-19 13:27:04] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-6.5.1.zip]
+[2024-04-19 13:27:04] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2024-04-19 13:27:05] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-04-19 13:27:05] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240419/i/isystem.connect/9.21.98.0-9.21.99.0/README.md --exclude *.pyd
+[2024-04-19 13:27:06] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.2.zip]
+[2024-04-19 13:27:06] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.5.3.zip]
+[2024-04-19 13:27:06] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2024-04-19 13:27:06] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-04-19 13:27:06] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-04-19 13:27:06] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-04-19 13:27:14] INFO root fetch - processPackages [RsCMX-Signaling]: Remove: archive file [/home/abi/fetcher/tmp/RsCMX_Signaling-7.40.0.tar.gz]
+[2024-04-19 13:27:14] INFO root fetch - processPackages [RsCMX-Signaling]: Remove: archive file [/home/abi/fetcher/tmp/RsCMX_Signaling-7.70.0.tar.gz]
+[2024-04-19 13:27:14] INFO root fetch - main [MainThread]: End processing [RsCMX-Signaling]: success
+[2024-04-19 13:27:14] INFO root fetch - main [MainThread]: Store serial: [22840929]
