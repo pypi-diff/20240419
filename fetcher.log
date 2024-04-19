@@ -2753,3 +2753,24 @@
 [2024-04-19 02:42:19] INFO root fetch - processPackages [umami-analytics]: Remove: archive file [/home/abi/fetcher/tmp/umami_analytics-0.2.17.tar.gz]
 [2024-04-19 02:42:19] INFO root fetch - main [MainThread]: End processing [umami-analytics]: success
 [2024-04-19 02:42:19] INFO root fetch - main [MainThread]: Store serial: [22833811]
+[2024-04-19 02:44:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833811]
+[2024-04-19 02:44:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 02:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NetSuite-Connector
+[2024-04-19 02:44:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnosisai
+[2024-04-19 02:44:28] INFO root fetch - processPackages [gnosisai]: New version: [0.3] Old Version: [0.2]
+[2024-04-19 02:44:28] INFO root fetch - processPackages [gnosisai]: Downloading https://files.pythonhosted.org/packages/3a/bc/aef2e022b2a22ad7e923662244931267f543da9dbffb875ba7b1be052fa0/gnosisai-0.2-py3-none-any.whl
+[2024-04-19 02:44:28] INFO root fetch - processPackages [NetSuite-Connector]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-19 02:44:28] INFO root fetch - processPackages [NetSuite-Connector]: Downloading https://files.pythonhosted.org/packages/ba/17/8114b333cf53bf6829731335b86d5810ba3a2372d997b23c12adeaa5aae3/NetSuite-Connector-0.2.2.tar.gz
+[2024-04-19 02:44:28] INFO root fetch - processPackages [gnosisai]: Downloading https://files.pythonhosted.org/packages/0a/f9/3bab33605d4f9c21edf4b4743cf865bca3afb809f63dda642ed4e0c0ea56/gnosisai-0.3-py3-none-any.whl
+[2024-04-19 02:44:29] INFO root fetch - processPackages [gnosisai]: executing diffoscope
+[2024-04-19 02:44:29] INFO root fetch - processPackages [gnosisai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnosisai-0.2-py3-none-any.whl.zip tmp/gnosisai-0.3-py3-none-any.whl.zip --markdown 20240419/g/gnosisai/0.2-0.3/README.md --exclude *.pyd
+[2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: Downloading https://files.pythonhosted.org/packages/9c/92/438114c30b65eb8b68c3b0617efeeb7f94d94d8ae2af855b20e5ee5cb9a8/netsuite_connector-0.3.0.tar.gz
+[2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: executing diffoscope
+[2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetSuite-Connector-0.2.2.tar.gz tmp/netsuite_connector-0.3.0.tar.gz --markdown 20240419/N/NetSuite-Connector/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-19 02:44:29] INFO root fetch - processPackages [gnosisai]: Remove: archive file [/home/abi/fetcher/tmp/gnosisai-0.2-py3-none-any.whl.zip]
+[2024-04-19 02:44:29] INFO root fetch - processPackages [gnosisai]: Remove: archive file [/home/abi/fetcher/tmp/gnosisai-0.3-py3-none-any.whl.zip]
+[2024-04-19 02:44:29] INFO root fetch - main [MainThread]: End processing [gnosisai]: success
+[2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: Remove: archive file [/home/abi/fetcher/tmp/NetSuite-Connector-0.2.2.tar.gz]
+[2024-04-19 02:44:29] INFO root fetch - processPackages [NetSuite-Connector]: Remove: archive file [/home/abi/fetcher/tmp/netsuite_connector-0.3.0.tar.gz]
+[2024-04-19 02:44:29] INFO root fetch - main [MainThread]: End processing [NetSuite-Connector]: success
+[2024-04-19 02:44:29] INFO root fetch - main [MainThread]: Store serial: [22833820]
