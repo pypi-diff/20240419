@@ -10674,3 +10674,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:41:39] INFO root fetch - processPackages [nrx]: Remove: archive file [/home/abi/fetcher/tmp/nrx-0.5.2.tar.gz]
 [2024-04-19 07:41:39] INFO root fetch - main [MainThread]: End processing [nrx]: success
 [2024-04-19 07:41:39] INFO root fetch - main [MainThread]: Store serial: [22837012]
+[2024-04-19 07:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837012]
+[2024-04-19 07:43:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncio-zabbix-sender
+[2024-04-19 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kimchima
+[2024-04-19 07:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cioblender
+[2024-04-19 07:43:48] INFO root fetch - processPackages [asyncio-zabbix-sender]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-19 07:43:48] INFO root fetch - processPackages [kimchima]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-19 07:43:48] INFO root fetch - processPackages [cioblender]: New version: [0.3.3rc1] Old Version: [0.3.2]
+[2024-04-19 07:43:48] INFO root fetch - processPackages [asyncio-zabbix-sender]: Downloading https://files.pythonhosted.org/packages/da/c3/759569bd06fbfb73644235db04ef42ec47a1c1d2c478ee12d0a18bd28767/asyncio_zabbix_sender-0.2.0.tar.gz
+[2024-04-19 07:43:48] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/25/85/285b242dd7370f9432f9e94fe27c1ece4e9fa75cbd6b527315a1793d24b4/cioblender-0.3.2-py2.py3-none-any.whl
+[2024-04-19 07:43:48] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/77/70/596327f9264be458d374d3a427fcaedab7bdc5ad66ddf7a1db9654e57066/kimchima-0.4.7.tar.gz
+[2024-04-19 07:43:49] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/e9/f1/f02839cff6103108d0b23c448c80c71976a56d0a0d0006ad04e4f7d88a26/kimchima-0.4.8.tar.gz
+[2024-04-19 07:43:49] INFO root fetch - processPackages [asyncio-zabbix-sender]: Downloading https://files.pythonhosted.org/packages/c5/21/602d2bd1766962bec5ced8c0ba2c5481848f8451b8eaf3b80f4f05562aac/asyncio_zabbix_sender-0.2.1.tar.gz
+[2024-04-19 07:43:49] INFO root fetch - processPackages [cioblender]: Downloading https://files.pythonhosted.org/packages/57/fb/28b3e653d7c604e853a9f43991a21e3bb40cedf549148197823fd743dea7/cioblender-0.3.3rc1-py2.py3-none-any.whl
+[2024-04-19 07:43:49] INFO root fetch - processPackages [asyncio-zabbix-sender]: executing diffoscope
+[2024-04-19 07:43:49] INFO root fetch - processPackages [asyncio-zabbix-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_zabbix_sender-0.2.0.tar.gz tmp/asyncio_zabbix_sender-0.2.1.tar.gz --markdown 20240419/a/asyncio-zabbix-sender/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-19 07:43:49] INFO root fetch - processPackages [kimchima]: executing diffoscope
+[2024-04-19 07:43:49] INFO root fetch - processPackages [kimchima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimchima-0.4.7.tar.gz tmp/kimchima-0.4.8.tar.gz --markdown 20240419/k/kimchima/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-19 07:43:49] INFO root fetch - processPackages [cioblender]: executing diffoscope
+[2024-04-19 07:43:49] INFO root fetch - processPackages [cioblender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cioblender-0.3.2-py2.py3-none-any.whl.zip tmp/cioblender-0.3.3rc1-py2.py3-none-any.whl.zip --markdown 20240419/c/cioblender/0.3.2-0.3.3rc1/README.md --exclude *.pyd
+[2024-04-19 07:43:50] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.4.7.tar.gz]
+[2024-04-19 07:43:50] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.4.8.tar.gz]
+[2024-04-19 07:43:50] INFO root fetch - main [MainThread]: End processing [kimchima]: success
+[2024-04-19 07:43:50] INFO root fetch - processPackages [asyncio-zabbix-sender]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_zabbix_sender-0.2.0.tar.gz]
+[2024-04-19 07:43:50] INFO root fetch - processPackages [asyncio-zabbix-sender]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_zabbix_sender-0.2.1.tar.gz]
+[2024-04-19 07:43:50] INFO root fetch - main [MainThread]: End processing [asyncio-zabbix-sender]: success
+[2024-04-19 07:43:50] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.2-py2.py3-none-any.whl.zip]
+[2024-04-19 07:43:50] INFO root fetch - processPackages [cioblender]: Remove: archive file [/home/abi/fetcher/tmp/cioblender-0.3.3rc1-py2.py3-none-any.whl.zip]
+[2024-04-19 07:43:50] INFO root fetch - main [MainThread]: End processing [cioblender]: success
+[2024-04-19 07:43:50] INFO root fetch - main [MainThread]: Store serial: [22837021]
