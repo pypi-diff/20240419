@@ -10060,3 +10060,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:09:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
 [2024-04-19 07:09:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
 [2024-04-19 07:09:14] INFO root fetch - main [MainThread]: Store serial: [22836796]
+[2024-04-19 07:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836796]
+[2024-04-19 07:11:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-19 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MailCraft
+[2024-04-19 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eqio
+[2024-04-19 07:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n0struct
+[2024-04-19 07:11:23] INFO root fetch - processPackages [MailCraft]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-19 07:11:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-04-19 07:11:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-19 07:11:23] WARNING root fetch - processPackages [eqio]: Skipping, unable to determine old version
+[2024-04-19 07:11:23] INFO root fetch - main [MainThread]: End processing [eqio] error
+[2024-04-19 07:11:23] INFO root fetch - processPackages [n0struct]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 07:11:23] INFO root fetch - processPackages [MailCraft]: Downloading https://files.pythonhosted.org/packages/e1/5b/73a841b33f01478d5f500bbd5348ce6393b5ea740a0acc789661350e4848/MailCraft-0.0.0-py3-none-any.whl
+[2024-04-19 07:11:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-04-19 07:11:23] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/3a/1d/81eb18aeb0c82af0370b69b157b03aba0efdeefebf6715db99ff775641db/n0struct-0.2.98.tar.gz
+[2024-04-19 07:11:23] INFO root fetch - processPackages [MailCraft]: Downloading https://files.pythonhosted.org/packages/4c/a8/6b095501f65f6bb2593c458afdcec2a9248c5cd64cd0d43ddbb351b04836/mailcraft-0.0.1.tar.gz
+[2024-04-19 07:11:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-19 07:11:23] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-19 07:11:23] INFO root fetch - processPackages [MailCraft]: executing diffoscope
+[2024-04-19 07:11:23] INFO root fetch - processPackages [MailCraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MailCraft-0.0.0-py3-none-any.whl.zip tmp/mailcraft-0.0.1.tar.gz --markdown 20240419/M/MailCraft/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-19 07:11:23] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/93/08/d578b3c0abbb7bdf83eed0207432602a511a80eaded61c24f720c5bad99e/n0struct-0.2.99.tar.gz
+[2024-04-19 07:11:23] INFO root fetch - processPackages [n0struct]: executing diffoscope
+[2024-04-19 07:11:23] INFO root fetch - processPackages [n0struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n0struct-0.2.98.tar.gz tmp/n0struct-0.2.99.tar.gz --markdown 20240419/n/n0struct/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 07:11:24] INFO root fetch - processPackages [MailCraft]: Remove: archive file [/home/abi/fetcher/tmp/MailCraft-0.0.0-py3-none-any.whl.zip]
+[2024-04-19 07:11:24] INFO root fetch - processPackages [MailCraft]: Remove: archive file [/home/abi/fetcher/tmp/mailcraft-0.0.1.tar.gz]
+[2024-04-19 07:11:24] INFO root fetch - main [MainThread]: End processing [MailCraft]: success
+[2024-04-19 07:11:24] INFO root fetch - processPackages [n0struct]: Remove: archive file [/home/abi/fetcher/tmp/n0struct-0.2.98.tar.gz]
+[2024-04-19 07:11:24] INFO root fetch - processPackages [n0struct]: Remove: archive file [/home/abi/fetcher/tmp/n0struct-0.2.99.tar.gz]
+[2024-04-19 07:11:24] INFO root fetch - main [MainThread]: End processing [n0struct]: success
+[2024-04-19 07:11:25] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-19 07:11:25] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-19 07:11:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-19 07:11:25] INFO root fetch - main [MainThread]: Store serial: [22836809]
