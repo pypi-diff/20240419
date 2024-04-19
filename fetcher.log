@@ -11435,3 +11435,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:12:46] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
 [2024-04-19 08:12:46] INFO root fetch - main [MainThread]: End processing [cj-package]: success
 [2024-04-19 08:12:46] INFO root fetch - main [MainThread]: Store serial: [22837371]
+[2024-04-19 08:14:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837371]
+[2024-04-19 08:14:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyffmpeg
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccpem-utils
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addons-oca-server-ux
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: melodi
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Xodia24
+[2024-04-19 08:14:55] INFO root fetch - processPackages [asyffmpeg]: New version: [0.2.1] Old Version: [0.2]
+[2024-04-19 08:14:55] INFO root fetch - processPackages [Xodia24]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-19 08:14:55] INFO root fetch - processPackages [asyffmpeg]: Downloading https://files.pythonhosted.org/packages/7d/1c/a71cb3097ed08fef78494ab60596f3a8b4a5059cad7f808e0232e98993aa/asyffmpeg-0.2.tar.gz
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ccpem-utils]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2024-04-19 08:14:55] WARNING root fetch - processPackages [melodi]: Skipping, unable to determine old version
+[2024-04-19 08:14:55] INFO root fetch - main [MainThread]: End processing [melodi] error
+[2024-04-19 08:14:55] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/f5/dd/a0c2d6c75817a0d8f69f59be4562fb925d54af61548aaf7352607844c418/Xodia24-0.0.7.tar.gz
+[2024-04-19 08:14:55] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: New version: [14.0.20240418.0] Old Version: [14.0.20231115.0]
+[2024-04-19 08:14:55] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/28/ef/2fadc871f695378f40d8a5af23a883fce8f7b1eea3c54116bbd51e708bfd/ccpem_utils-0.0.1.dev8.tar.gz
+[2024-04-19 08:14:55] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/60/84/75aa0c8a4f91c0a3375d9b043d8b3d23df479e09aeec1e63a8ea02d72e51/odoo14_addons_oca_server_ux-14.0.20231115.0-py3-none-any.whl
+[2024-04-19 08:14:55] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/ef/7b/1f99aa8f0dc06a9aef09afae467b592577dcc3e0301bd223239687de2d36/Xodia24-0.0.9.tar.gz
+[2024-04-19 08:14:55] INFO root fetch - processPackages [asyffmpeg]: Downloading https://files.pythonhosted.org/packages/6b/e5/67d7d59b40008673b71aa71cb9b72e370033024a6d9a023cf0b0df4eeae3/asyffmpeg-0.2.1.tar.gz
+[2024-04-19 08:14:55] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-19 08:14:55] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.7.tar.gz tmp/Xodia24-0.0.9.tar.gz --markdown 20240419/X/Xodia24/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-04-19 08:14:55] INFO root fetch - processPackages [asyffmpeg]: executing diffoscope
+[2024-04-19 08:14:55] INFO root fetch - processPackages [asyffmpeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyffmpeg-0.2.tar.gz tmp/asyffmpeg-0.2.1.tar.gz --markdown 20240419/a/asyffmpeg/0.2-0.2.1/README.md --exclude *.pyd
+[2024-04-19 08:14:56] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/0c/5b/973e9e3b1303134de2a0ccd44506e16992eb501334d995b7b6e43e8f0881/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl
+[2024-04-19 08:14:56] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: executing diffoscope
+[2024-04-19 08:14:56] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_server_ux-14.0.20231115.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addons-oca-server-ux/14.0.20231115.0-14.0.20240418.0/README.md --exclude *.pyd
+[2024-04-19 08:14:56] INFO root fetch - processPackages [ccpem-utils]: Downloading https://files.pythonhosted.org/packages/4e/6d/3501aaba0ccbd3a2387ee204c009b9dffd42e3701b620715388af67f3cf5/ccpem_utils-0.0.1.dev9.tar.gz
+[2024-04-19 08:14:56] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.7.tar.gz]
+[2024-04-19 08:14:56] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.9.tar.gz]
+[2024-04-19 08:14:56] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-19 08:14:56] INFO root fetch - processPackages [asyffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/asyffmpeg-0.2.tar.gz]
+[2024-04-19 08:14:56] INFO root fetch - processPackages [asyffmpeg]: Remove: archive file [/home/abi/fetcher/tmp/asyffmpeg-0.2.1.tar.gz]
+[2024-04-19 08:14:56] INFO root fetch - main [MainThread]: End processing [asyffmpeg]: success
+[2024-04-19 08:14:56] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_ux-14.0.20231115.0-py3-none-any.whl.zip]
+[2024-04-19 08:14:56] INFO root fetch - processPackages [odoo14-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_server_ux-14.0.20240418.0-py3-none-any.whl.zip]
+[2024-04-19 08:14:56] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-server-ux]: success
+[2024-04-19 08:14:56] INFO root fetch - processPackages [ccpem-utils]: executing diffoscope
+[2024-04-19 08:14:56] INFO root fetch - processPackages [ccpem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpem_utils-0.0.1.dev8.tar.gz tmp/ccpem_utils-0.0.1.dev9.tar.gz --markdown 20240419/c/ccpem-utils/0.0.1.dev8-0.0.1.dev9/README.md --exclude *.pyd
+[2024-04-19 08:14:57] INFO root fetch - processPackages [ccpem-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccpem_utils-0.0.1.dev8.tar.gz]
+[2024-04-19 08:14:57] INFO root fetch - processPackages [ccpem-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccpem_utils-0.0.1.dev9.tar.gz]
+[2024-04-19 08:14:57] INFO root fetch - main [MainThread]: End processing [ccpem-utils]: success
+[2024-04-19 08:14:57] INFO root fetch - main [MainThread]: Store serial: [22837389]
