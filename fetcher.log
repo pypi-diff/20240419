@@ -12808,3 +12808,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:18:52] INFO root fetch - processPackages [nabu]: Remove: archive file [/home/abi/fetcher/tmp/nabu-2024.1.6.tar.gz]
 [2024-04-19 09:18:52] INFO root fetch - main [MainThread]: End processing [nabu]: success
 [2024-04-19 09:18:52] INFO root fetch - main [MainThread]: Store serial: [22837956]
+[2024-04-19 09:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837956]
+[2024-04-19 09:21:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localcosmos-app-kit
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multillm
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PREN-flawas
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlglot-doris
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nerveclient
+[2024-04-19 09:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kam12filereader
+[2024-04-19 09:21:01] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 09:21:01] INFO root fetch - processPackages [lyk-reservation-nowon]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 09:21:01] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-19 09:21:01] WARNING root fetch - processPackages [nerveclient]: Skipping, unable to determine old version
+[2024-04-19 09:21:01] INFO root fetch - main [MainThread]: End processing [nerveclient] error
+[2024-04-19 09:21:01] INFO root fetch - processPackages [localcosmos-app-kit]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 09:21:01] INFO root fetch - processPackages [multillm]: New version: [0.992] Old Version: [0.991]
+[2024-04-19 09:21:01] WARNING root fetch - processPackages [kam12filereader]: Skipping, unable to determine old version
+[2024-04-19 09:21:01] INFO root fetch - main [MainThread]: End processing [kam12filereader] error
+[2024-04-19 09:21:01] INFO root fetch - processPackages [sqlglot-doris]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-19 09:21:01] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/37/71/fffda83620ca5a3dec63857c87ff8e17dbb29414425f1f1b6febbb9ca124/lyk-reservation-nowon-0.0.1.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/d8/31/cf408d2568124284cec7f2f11279f77a4758bbbac027033ed6808a32a981/localcosmos_app_kit-0.2.1.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [multillm]: Downloading https://files.pythonhosted.org/packages/6a/88/baca6b7f54bec6c417394f9eb3f61e10ac3a0768eaaa32df30560e632ef4/multillm-0.991.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [sqlglot-doris]: Downloading https://files.pythonhosted.org/packages/23/01/64de00d39c63d2c784a9551e3272a5e04127eb3fab4a9000ea15578c736d/sqlglot-doris-1.1.7.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-19 09:21:01] WARNING root fetch - processPackages [sqlglot-doris]: Skipping package: exceeds size limit 12804101>=10485760
+[2024-04-19 09:21:01] INFO root fetch - main [MainThread]: End processing [sqlglot-doris] error
+[2024-04-19 09:21:01] INFO root fetch - processPackages [lyk-reservation-nowon]: Downloading https://files.pythonhosted.org/packages/72/85/5f505ccd7e1bb596829b24fa80f9f2ad9e6befbf829d6923ada81d037b84/lyk-reservation-nowon-0.0.2.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [multillm]: Downloading https://files.pythonhosted.org/packages/d6/42/e6b0f6a503e0d58193d9d31e0b96ba5df9dd78530fa9eddfbcd92f3b0e4a/multillm-0.992.tar.gz
+[2024-04-19 09:21:01] INFO root fetch - processPackages [lyk-reservation-nowon]: executing diffoscope
+[2024-04-19 09:21:01] INFO root fetch - processPackages [lyk-reservation-nowon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyk-reservation-nowon-0.0.1.tar.gz tmp/lyk-reservation-nowon-0.0.2.tar.gz --markdown 20240419/l/lyk-reservation-nowon/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 09:21:01] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-19 09:21:01] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240419/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:21:01] INFO root fetch - processPackages [multillm]: executing diffoscope
+[2024-04-19 09:21:01] INFO root fetch - processPackages [multillm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multillm-0.991.tar.gz tmp/multillm-0.992.tar.gz --markdown 20240419/m/multillm/0.991-0.992/README.md --exclude *.pyd
+[2024-04-19 09:21:02] INFO root fetch - processPackages [localcosmos-app-kit]: Downloading https://files.pythonhosted.org/packages/59/19/054e2d8ec62e992b1dfc87c39ad7c0dd1cda6c1d59efdf329f6bea53385d/localcosmos_app_kit-0.2.2.tar.gz
+[2024-04-19 09:21:02] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.1.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - processPackages [lyk-reservation-nowon]: Remove: archive file [/home/abi/fetcher/tmp/lyk-reservation-nowon-0.0.2.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon]: success
+[2024-04-19 09:21:02] INFO root fetch - processPackages [localcosmos-app-kit]: executing diffoscope
+[2024-04-19 09:21:02] INFO root fetch - processPackages [localcosmos-app-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_app_kit-0.2.1.tar.gz tmp/localcosmos_app_kit-0.2.2.tar.gz --markdown 20240419/l/localcosmos-app-kit/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 09:21:02] INFO root fetch - processPackages [multillm]: Remove: archive file [/home/abi/fetcher/tmp/multillm-0.991.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - processPackages [multillm]: Remove: archive file [/home/abi/fetcher/tmp/multillm-0.992.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - main [MainThread]: End processing [multillm]: success
+[2024-04-19 09:21:02] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-19 09:21:02] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-19 09:21:08] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.1.tar.gz]
+[2024-04-19 09:21:08] INFO root fetch - processPackages [localcosmos-app-kit]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_app_kit-0.2.2.tar.gz]
+[2024-04-19 09:21:08] INFO root fetch - main [MainThread]: End processing [localcosmos-app-kit]: success
+[2024-04-19 09:21:08] INFO root fetch - main [MainThread]: Store serial: [22837981]
