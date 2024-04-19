@@ -22230,3 +22230,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:10:03] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid_cmd-0.3.0.tar.gz]
 [2024-04-19 15:10:03] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
 [2024-04-19 15:10:03] INFO root fetch - main [MainThread]: Store serial: [22842096]
+[2024-04-19 15:12:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842096]
+[2024-04-19 15:12:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ado_wrapper
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: andeplane-reveal-streamlit-component
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: furchain
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mediapipe-nightly
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocstrings-python
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-lure
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xobjects
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yangsuite
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: subsonic-connector
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scratchattach
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ado_wrapper]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/77/6e/0896221a128d8ef5b54d130728667ac165f53a94d17454ea7b9ae1f40aed/ado_wrapper-1.1.2.tar.gz
+[2024-04-19 15:12:14] INFO root fetch - processPackages [furchain]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-19 15:12:14] WARNING root fetch - processPackages [torch-lure]: Skipping, unable to determine old version
+[2024-04-19 15:12:14] INFO root fetch - main [MainThread]: End processing [torch-lure] error
+[2024-04-19 15:12:14] INFO root fetch - processPackages [xobjects]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.13.post20240419] Old Version: [0.10.13.post20240416]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [yangsuite]: New version: [3.0.2.post0.dev7] Old Version: [3.0.2.post0.dev6]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [subsonic-connector]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [mkdocstrings-python]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/e0/a6/b5b8079ce411f08b3ee9b545744c8f5be54c542b3871a5206967abb639c3/andeplane_reveal_streamlit_component-0.1.0.tar.gz
+[2024-04-19 15:12:14] INFO root fetch - processPackages [scratchattach]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-04-19 15:12:14] INFO root fetch - processPackages [furchain]: Downloading https://files.pythonhosted.org/packages/76/7e/d105f88c6cd2f92115e58953903b74a9b09f307ce54c6a4b083c368f698b/furchain-0.1.4.tar.gz
+[2024-04-19 15:12:14] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/bc/c0/7ce048850d7f1a9d361bacf29af84d16281b8baeea901a321e844fcf710c/xobjects-0.3.1.tar.gz
+[2024-04-19 15:12:14] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/83/6a/733d73eaffe7a8f3b8be0e677f9af466b57797c791327251b8186be152d9/mediapipe_nightly-0.10.13.post20240416-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-19 15:12:14] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/92/47/9d771f91359e5377cf19385a056aa4da43324995d72b1fac9d77c840d423/mkdocstrings_python-1.9.1.tar.gz
+[2024-04-19 15:12:14] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/2f/86/86803e8f0c555beb4677aa3932f2c02ea25429687830e1db0c3020f8caf1/yangsuite-3.0.2.post0.dev6-py3-none-any.whl
+[2024-04-19 15:12:14] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 49965522>=10485760
+[2024-04-19 15:12:14] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-04-19 15:12:15] INFO root fetch - processPackages [subsonic-connector]: Downloading https://files.pythonhosted.org/packages/15/e0/f35883c60f4daf538b06d205d26470a2c40cc571f8e8257bb1398e5577ac/subsonic_connector-0.3.2.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [ado_wrapper]: Downloading https://files.pythonhosted.org/packages/29/54/3b459d42ce16e018299edb8d7ba739bd158b5505577155113a5af911fef9/ado_wrapper-1.1.3.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/34/16/0c3b99265272698f020e5f754294152a41195064268cb77ead318f14f233/scratchattach-1.6.5.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [ado_wrapper]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [ado_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ado_wrapper-1.1.2.tar.gz tmp/ado_wrapper-1.1.3.tar.gz --markdown 20240419/a/ado_wrapper/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [xobjects]: Downloading https://files.pythonhosted.org/packages/50/ee/f7a750d73499f0a46ea677ef29e331253e878a7b269cd7b6bcde9ab8f9bb/xobjects-0.4.0.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [furchain]: Downloading https://files.pythonhosted.org/packages/a1/f8/e957840bad461009ba4278839df7bbe435b5ed55c9088cbacae81b84b166/furchain-0.1.5.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/b1/48/f085a737da288ff09a2444e8826b2ec76d76a9e890527162aa0e0bf7ffbd/mkdocstrings_python-1.9.2.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/74/69/8bf3b572ae2d245d5d9979fbe67a68bdbe5a5d64996025f978dffb9eae93/andeplane_reveal_streamlit_component-0.1.1.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [xobjects]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [xobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xobjects-0.3.1.tar.gz tmp/xobjects-0.4.0.tar.gz --markdown 20240419/x/xobjects/0.3.1-0.4.0/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [scratchattach]: Downloading https://files.pythonhosted.org/packages/50/56/455a42d78615b572c6e8abd90db01441526e78ef33725bc38d8d8f0ec0a9/scratchattach-1.6.6.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [furchain]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [furchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/furchain-0.1.4.tar.gz tmp/furchain-0.1.5.tar.gz --markdown 20240419/f/furchain/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [subsonic-connector]: Downloading https://files.pythonhosted.org/packages/60/a0/3d7e8a9fb4224124d74f9925003162aad719f143e2c3087d7139d15dbdd1/subsonic_connector-0.3.3.tar.gz
+[2024-04-19 15:12:15] INFO root fetch - processPackages [mkdocstrings-python]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [mkdocstrings-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocstrings_python-1.9.1.tar.gz tmp/mkdocstrings_python-1.9.2.tar.gz --markdown 20240419/m/mkdocstrings-python/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [subsonic-connector]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [subsonic-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsonic_connector-0.3.2.tar.gz tmp/subsonic_connector-0.3.3.tar.gz --markdown 20240419/s/subsonic-connector/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [scratchattach]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [scratchattach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchattach-1.6.5.tar.gz tmp/scratchattach-1.6.6.tar.gz --markdown 20240419/s/scratchattach/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: executing diffoscope
+[2024-04-19 15:12:15] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_reveal_streamlit_component-0.1.0.tar.gz tmp/andeplane_reveal_streamlit_component-0.1.1.tar.gz --markdown 20240419/a/andeplane-reveal-streamlit-component/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 15:12:15] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.2.tar.gz]
+[2024-04-19 15:12:15] INFO root fetch - processPackages [ado_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/ado_wrapper-1.1.3.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [ado_wrapper]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.9.1.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.9.2.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [mkdocstrings-python]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [furchain]: Remove: archive file [/home/abi/fetcher/tmp/furchain-0.1.4.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - processPackages [furchain]: Remove: archive file [/home/abi/fetcher/tmp/furchain-0.1.5.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [furchain]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [subsonic-connector]: Remove: archive file [/home/abi/fetcher/tmp/subsonic_connector-0.3.2.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - processPackages [subsonic-connector]: Remove: archive file [/home/abi/fetcher/tmp/subsonic_connector-0.3.3.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [subsonic-connector]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [xobjects]: Remove: archive file [/home/abi/fetcher/tmp/xobjects-0.3.1.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - processPackages [xobjects]: Remove: archive file [/home/abi/fetcher/tmp/xobjects-0.4.0.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [xobjects]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.6.5.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - processPackages [scratchattach]: Remove: archive file [/home/abi/fetcher/tmp/scratchattach-1.6.6.tar.gz]
+[2024-04-19 15:12:16] INFO root fetch - main [MainThread]: End processing [scratchattach]: success
+[2024-04-19 15:12:16] INFO root fetch - processPackages [yangsuite]: Downloading https://files.pythonhosted.org/packages/f4/58/163bb9fa348237a6f20b020745d5146a89af78264ac6217d049734eb40b0/yangsuite-3.0.2.post0.dev7-py3-none-any.whl
+[2024-04-19 15:12:18] INFO root fetch - processPackages [yangsuite]: executing diffoscope
+[2024-04-19 15:12:18] INFO root fetch - processPackages [yangsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangsuite-3.0.2.post0.dev6-py3-none-any.whl.zip tmp/yangsuite-3.0.2.post0.dev7-py3-none-any.whl.zip --markdown 20240419/y/yangsuite/3.0.2.post0.dev6-3.0.2.post0.dev7/README.md --exclude *.pyd
+[2024-04-19 15:12:22] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-3.0.2.post0.dev6-py3-none-any.whl.zip]
+[2024-04-19 15:12:22] INFO root fetch - processPackages [yangsuite]: Remove: archive file [/home/abi/fetcher/tmp/yangsuite-3.0.2.post0.dev7-py3-none-any.whl.zip]
+[2024-04-19 15:12:22] INFO root fetch - main [MainThread]: End processing [yangsuite]: success
+[2024-04-19 15:12:57] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.0.tar.gz]
+[2024-04-19 15:12:57] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.1.tar.gz]
+[2024-04-19 15:12:57] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
+[2024-04-19 15:12:57] INFO root fetch - main [MainThread]: Store serial: [22842127]
