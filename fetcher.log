@@ -8292,3 +8292,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:04:43] INFO root fetch - processPackages [azureml-designer-vowpal-wabbit-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_vowpal_wabbit_modules-0.0.9-py3-none-any.whl.zip]
 [2024-04-19 05:04:43] INFO root fetch - main [MainThread]: End processing [azureml-designer-vowpal-wabbit-modules]: success
 [2024-04-19 05:04:43] INFO root fetch - main [MainThread]: Store serial: [22835992]
+[2024-04-19 05:06:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835992]
+[2024-04-19 05:06:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 05:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-form-surveys
+[2024-04-19 05:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-19 05:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry_wrapper
+[2024-04-19 05:06:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xl-network
+[2024-04-19 05:06:51] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 05:06:51] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.84]
+[2024-04-19 05:06:51] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-04-19 05:06:51] WARNING root fetch - processPackages [xl-network]: Skipping, unable to determine old version
+[2024-04-19 05:06:51] INFO root fetch - main [MainThread]: End processing [xl-network] error
+[2024-04-19 05:06:51] INFO root fetch - processPackages [django-form-surveys]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-19 05:06:51] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/0a/ee/754ba0048ff5015bb30f740c9368b1a9467160ad42e80d06deea587e0d24/surfkit-0.1.84.tar.gz
+[2024-04-19 05:06:51] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/44/2d/d79416f9137147e37a623eac99872df22539e5421c40885476bb41ae2d3f/opentelemetry_wrapper-0.1.9.tar.gz
+[2024-04-19 05:06:52] INFO root fetch - processPackages [django-form-surveys]: Downloading https://files.pythonhosted.org/packages/5b/d2/60f63dd61d98e01003d7454fe75a90a9bf29548c033f9d5c83dca87f4c68/django-form-surveys-2.2.1.tar.gz
+[2024-04-19 05:06:52] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-04-19 05:06:52] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.8.tar.gz tmp/opentelemetry_wrapper-0.1.9.tar.gz --markdown 20240419/o/opentelemetry_wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 05:06:52] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-19 05:06:52] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-19 05:06:52] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.84.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240419/s/surfkit/0.1.84-0.1.9/README.md --exclude *.pyd
+[2024-04-19 05:06:52] INFO root fetch - processPackages [django-form-surveys]: Downloading https://files.pythonhosted.org/packages/70/7e/6038bdb87fb90b13e2f0e23c632083cf9848d3c01402042981fcb3ae23dc/django-form-surveys-2.2.2.tar.gz
+[2024-04-19 05:06:52] INFO root fetch - processPackages [django-form-surveys]: executing diffoscope
+[2024-04-19 05:06:52] INFO root fetch - processPackages [django-form-surveys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-form-surveys-2.2.1.tar.gz tmp/django-form-surveys-2.2.2.tar.gz --markdown 20240419/d/django-form-surveys/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-19 05:06:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.84.tar.gz]
+[2024-04-19 05:06:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-19 05:06:52] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-19 05:06:52] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-04-19 05:06:52] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
+[2024-04-19 05:06:52] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-04-19 05:06:53] INFO root fetch - processPackages [django-form-surveys]: Remove: archive file [/home/abi/fetcher/tmp/django-form-surveys-2.2.1.tar.gz]
+[2024-04-19 05:06:53] INFO root fetch - processPackages [django-form-surveys]: Remove: archive file [/home/abi/fetcher/tmp/django-form-surveys-2.2.2.tar.gz]
+[2024-04-19 05:06:53] INFO root fetch - main [MainThread]: End processing [django-form-surveys]: success
+[2024-04-19 05:06:53] INFO root fetch - main [MainThread]: Store serial: [22836006]
