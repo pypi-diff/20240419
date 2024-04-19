@@ -13670,3 +13670,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:52:15] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2024-04-19 09:52:15] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2024-04-19 09:52:15] INFO root fetch - main [MainThread]: Store serial: [22838284]
+[2024-04-19 09:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838284]
+[2024-04-19 09:54:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dalpha
+[2024-04-19 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luminesce-sdk
+[2024-04-19 09:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymc-marketing
+[2024-04-19 09:54:24] INFO root fetch - processPackages [dalpha]: New version: [0.4.4rc1] Old Version: [0.4.4rc0]
+[2024-04-19 09:54:24] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-19 09:54:24] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/24/da/5b776e97dbeb89f7f05bd4856d0bd9010a9ed8e91e0ef417df12f7975dbe/dalpha-0.4.4rc0.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [pymc-marketing]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-19 09:54:24] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [pymc-marketing]: Downloading https://files.pythonhosted.org/packages/07/ac/4283d690e876ae4db8e4c0e5715e88360daedad9e478d5b96828c0659c91/pymc-marketing-0.4.2.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/d5/52/7f8f40a3ed2a88b4622816b6b63bc53986f62a0ab7aa746359f3d998d30e/dalpha-0.4.4rc1.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2024-04-19 09:54:24] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.4.4rc0.tar.gz tmp/dalpha-0.4.4rc1.tar.gz --markdown 20240419/d/dalpha/0.4.4rc0-0.4.4rc1/README.md --exclude *.pyd
+[2024-04-19 09:54:24] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-19 09:54:24] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240419/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-19 09:54:24] INFO root fetch - processPackages [pymc-marketing]: Downloading https://files.pythonhosted.org/packages/71/ab/9ed3debdc93441bf8a54f58aea1036be7947ef5a4e94036deb66d441553e/pymc_marketing-0.5.0.tar.gz
+[2024-04-19 09:54:24] INFO root fetch - processPackages [pymc-marketing]: executing diffoscope
+[2024-04-19 09:54:24] INFO root fetch - processPackages [pymc-marketing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-marketing-0.4.2.tar.gz tmp/pymc_marketing-0.5.0.tar.gz --markdown 20240419/p/pymc-marketing/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-04-19 09:54:25] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc0.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.4.4rc1.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2024-04-19 09:54:25] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-19 09:54:25] INFO root fetch - processPackages [pymc-marketing]: Remove: archive file [/home/abi/fetcher/tmp/pymc-marketing-0.4.2.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - processPackages [pymc-marketing]: Remove: archive file [/home/abi/fetcher/tmp/pymc_marketing-0.5.0.tar.gz]
+[2024-04-19 09:54:25] INFO root fetch - main [MainThread]: End processing [pymc-marketing]: success
+[2024-04-19 09:54:25] INFO root fetch - main [MainThread]: Store serial: [22838293]
