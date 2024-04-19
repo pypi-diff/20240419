@@ -20974,3 +20974,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:16:44] INFO root fetch - processPackages [web3-ethereum-defi]: Remove: archive file [/home/abi/fetcher/tmp/web3-ethereum-defi-0.9.tar.gz]
 [2024-04-19 14:16:44] INFO root fetch - main [MainThread]: End processing [web3-ethereum-defi]: success
 [2024-04-19 14:16:44] INFO root fetch - main [MainThread]: Store serial: [22841480]
+[2024-04-19 14:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841480]
+[2024-04-19 14:18:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PetriNet2Vec
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluecellulab
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: equipy
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fractal-tasks-core
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyE2
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Rabbit-in-a-Blender
+[2024-04-19 14:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-19 14:18:53] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-04-19 14:18:53] INFO root fetch - processPackages [PetriNet2Vec]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-19 14:18:53] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 14:18:53] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-19 14:18:54] INFO root fetch - processPackages [ccxt]: New version: [4.3.1] Old Version: [4.2.99]
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 14:18:54] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/23/86/b5793611590161363877b7bc795404a46b887a8ffdb41384f995550ef48b/rabbit_in_a_blender-0.0.49.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [equipy]: New version: [0.0.6a0.dev0] Old Version: [0.0.3a0.dev0]
+[2024-04-19 14:18:54] INFO root fetch - processPackages [fractal-tasks-core]: New version: [1.0.0a3] Old Version: [1.0.0a2]
+[2024-04-19 14:18:54] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PetriNet2Vec]: Downloading https://files.pythonhosted.org/packages/27/2f/093e4413d926d607a087ef24c917b0ffa66d6c5a72d2e408c63b6737e1e2/petrinet2vec-1.0.2.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/84/0a/e8a298193fb535e94777d12147713f1e990367517f78e08aac250e5948c5/bluecellulab-2.5.8.tar.gz
+[2024-04-19 14:18:54] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241118>=10485760
+[2024-04-19 14:18:54] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-19 14:18:54] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/d1/af/b0a8c6632431911643ff2d5de4b724593b5464bef4ef936f5aa3260cd386/ccxt-4.2.99.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/4e/57/cc88681e4695c37cc01503965adab604b51366ee6f8c14066aeca287532f/fractal_tasks_core-1.0.0a2.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [equipy]: Downloading https://files.pythonhosted.org/packages/a6/e5/faab9a2bd017524ff6113ebb70bcfdc7a198893e6a37424ff22c7970cf2c/equipy-0.0.3a0.dev0.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PetriNet2Vec]: Downloading https://files.pythonhosted.org/packages/e3/68/ce103430edfc3b20c563949d1306df28d3186c85cdfecb242ea6cfb49fa8/petrinet2vec-1.0.3.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PetriNet2Vec]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PetriNet2Vec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrinet2vec-1.0.2.tar.gz tmp/petrinet2vec-1.0.3.tar.gz --markdown 20240419/P/PetriNet2Vec/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/70/57/9e25ee695f155e4041398437cb1c97ebd11a1a269b53018debce9d746cb6/rabbit_in_a_blender-0.0.50.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/78/25/aa7f25aac0dc048d17205908d0b20e1d15b6eefa472014122695cd4ab4fc/fractal_tasks_core-1.0.0a3.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [equipy]: Downloading https://files.pythonhosted.org/packages/bd/5f/71a5d1ce8f4048c8b3cb5d1c51055231674c9c1464cc1e6e723488f22253/equipy-0.0.6a0.dev0.tar.gz
+[2024-04-19 14:18:54] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbit_in_a_blender-0.0.49.tar.gz tmp/rabbit_in_a_blender-0.0.50.tar.gz --markdown 20240419/R/Rabbit-in-a-Blender/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [equipy]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [equipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equipy-0.0.3a0.dev0.tar.gz tmp/equipy-0.0.6a0.dev0.tar.gz --markdown 20240419/e/equipy/0.0.3a0.dev0-0.0.6a0.dev0/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-1.0.0a2.tar.gz tmp/fractal_tasks_core-1.0.0a3.tar.gz --markdown 20240419/f/fractal-tasks-core/1.0.0a2-1.0.0a3/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-19 14:18:54] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240419/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 14:18:54] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/0b/7a/4cc5605de37cfd5fbcde721e0da932d6278b3bed1ad6423b5d06e0ddfc15/ccxt-4.3.1.tar.gz
+[2024-04-19 14:18:55] INFO root fetch - processPackages [PetriNet2Vec]: Remove: archive file [/home/abi/fetcher/tmp/petrinet2vec-1.0.2.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - processPackages [PetriNet2Vec]: Remove: archive file [/home/abi/fetcher/tmp/petrinet2vec-1.0.3.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - main [MainThread]: End processing [PetriNet2Vec]: success
+[2024-04-19 14:18:55] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-04-19 14:18:55] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.2.99.tar.gz tmp/ccxt-4.3.1.tar.gz --markdown 20240419/c/ccxt/4.2.99-4.3.1/README.md --exclude *.pyd
+[2024-04-19 14:18:55] INFO root fetch - processPackages [equipy]: Remove: archive file [/home/abi/fetcher/tmp/equipy-0.0.3a0.dev0.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - processPackages [equipy]: Remove: archive file [/home/abi/fetcher/tmp/equipy-0.0.6a0.dev0.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - main [MainThread]: End processing [equipy]: success
+[2024-04-19 14:18:55] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-19 14:18:55] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-1.0.0a2.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-1.0.0a3.tar.gz]
+[2024-04-19 14:18:55] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2024-04-19 14:18:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 14:18:56] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 14:18:56] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 14:18:57] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.49.tar.gz]
+[2024-04-19 14:18:57] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/rabbit_in_a_blender-0.0.50.tar.gz]
+[2024-04-19 14:18:57] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2024-04-19 14:19:01] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.99.tar.gz]
+[2024-04-19 14:19:01] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.1.tar.gz]
+[2024-04-19 14:19:01] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-04-19 14:19:01] INFO root fetch - main [MainThread]: Store serial: [22841504]
