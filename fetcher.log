@@ -9964,3 +9964,45 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:02:40] INFO root fetch - processPackages [agentUniverse]: Remove: archive file [/home/abi/fetcher/tmp/agentUniverse-0.0.3.tar.gz]
 [2024-04-19 07:02:40] INFO root fetch - main [MainThread]: End processing [agentUniverse]: success
 [2024-04-19 07:02:40] INFO root fetch - main [MainThread]: Store serial: [22836744]
+[2024-04-19 07:04:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836744]
+[2024-04-19 07:04:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 07:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrealsense2
+[2024-04-19 07:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyepo
+[2024-04-19 07:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dasio
+[2024-04-19 07:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clustutils4r
+[2024-04-19 07:04:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: switch-api
+[2024-04-19 07:04:49] INFO root fetch - processPackages [pyrealsense2]: New version: [2.9.1] Old Version: [2.55.1.6466]
+[2024-04-19 07:04:49] INFO root fetch - processPackages [clustutils4r]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 07:04:49] WARNING root fetch - processPackages [dasio]: Skipping, unable to determine old version
+[2024-04-19 07:04:49] INFO root fetch - main [MainThread]: End processing [dasio] error
+[2024-04-19 07:04:49] INFO root fetch - processPackages [pyepo]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-19 07:04:49] INFO root fetch - processPackages [switch-api]: New version: [0.5.4b3] Old Version: [0.5.4b2]
+[2024-04-19 07:04:49] INFO root fetch - processPackages [pyrealsense2]: Downloading https://files.pythonhosted.org/packages/62/1d/eaeefbc00008b60f027bf150560ff31e4f51abae5c34b9863135f2b737c6/pyrealsense2-2.55.1.6466-cp311-cp311-win_amd64.whl
+[2024-04-19 07:04:49] INFO root fetch - processPackages [pyepo]: Downloading https://files.pythonhosted.org/packages/c7/f1/2d5d2c7d77d3f1e280297aaf1f3a0852459500c4d6c420c89d0a6aaeabc8/pyepo-0.3.6.tar.gz
+[2024-04-19 07:04:49] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/56/cf/9abeae6f39a1b417c297e2683d9206bf2e08d4b518ea85027b616b4202be/clustutils4r-1.0.1.tar.gz
+[2024-04-19 07:04:49] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/d1/ee/a193c33ded1eb210cbf5b2d48c41872f1e5edff8c839d69a3dae4849fa4f/switch_api-0.5.4b2.tar.gz
+[2024-04-19 07:04:50] INFO root fetch - processPackages [pyepo]: Downloading https://files.pythonhosted.org/packages/90/9c/c3ab48b2d46a64b14ef734392d7c0decd399a9d7f1931d6ad8f1eaaaa7ca/pyepo-0.3.7.tar.gz
+[2024-04-19 07:04:50] INFO root fetch - processPackages [clustutils4r]: Downloading https://files.pythonhosted.org/packages/6c/ba/2e13ad6fd2b6afbb1735196d61469be29e02f766235e3d023dbc3679d058/clustutils4r-1.0.2.tar.gz
+[2024-04-19 07:04:50] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/67/6d/1a014e5a49b1560c015ececfd65f11e40156446936e68e7986ecdcfcb994/switch_api-0.5.4b3.tar.gz
+[2024-04-19 07:04:50] INFO root fetch - processPackages [clustutils4r]: executing diffoscope
+[2024-04-19 07:04:50] INFO root fetch - processPackages [pyepo]: executing diffoscope
+[2024-04-19 07:04:50] INFO root fetch - processPackages [pyepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepo-0.3.6.tar.gz tmp/pyepo-0.3.7.tar.gz --markdown 20240419/p/pyepo/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-19 07:04:50] INFO root fetch - processPackages [clustutils4r]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustutils4r-1.0.1.tar.gz tmp/clustutils4r-1.0.2.tar.gz --markdown 20240419/c/clustutils4r/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 07:04:50] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-04-19 07:04:50] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.4b2.tar.gz tmp/switch_api-0.5.4b3.tar.gz --markdown 20240419/s/switch-api/0.5.4b2-0.5.4b3/README.md --exclude *.pyd
+[2024-04-19 07:04:50] INFO root fetch - processPackages [pyrealsense2]: Downloading https://files.pythonhosted.org/packages/2b/17/f3edbed050b512363a84cce9f7c560ef01099eecf5efeed5e088efaa66db/pyrealsense2-2.9.1-cp36-cp36m-win_amd64.whl
+[2024-04-19 07:04:50] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-1.0.1.tar.gz]
+[2024-04-19 07:04:50] INFO root fetch - processPackages [clustutils4r]: Remove: archive file [/home/abi/fetcher/tmp/clustutils4r-1.0.2.tar.gz]
+[2024-04-19 07:04:50] INFO root fetch - main [MainThread]: End processing [clustutils4r]: success
+[2024-04-19 07:04:51] INFO root fetch - processPackages [pyepo]: Remove: archive file [/home/abi/fetcher/tmp/pyepo-0.3.6.tar.gz]
+[2024-04-19 07:04:51] INFO root fetch - processPackages [pyepo]: Remove: archive file [/home/abi/fetcher/tmp/pyepo-0.3.7.tar.gz]
+[2024-04-19 07:04:51] INFO root fetch - main [MainThread]: End processing [pyepo]: success
+[2024-04-19 07:04:51] INFO root fetch - processPackages [pyrealsense2]: executing diffoscope
+[2024-04-19 07:04:51] INFO root fetch - processPackages [pyrealsense2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrealsense2-2.55.1.6466-cp311-cp311-win_amd64.whl.zip tmp/pyrealsense2-2.9.1-cp36-cp36m-win_amd64.whl.zip --markdown 20240419/p/pyrealsense2/2.55.1.6466-2.9.1/README.md --exclude *.pyd
+[2024-04-19 07:04:51] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b2.tar.gz]
+[2024-04-19 07:04:51] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.4b3.tar.gz]
+[2024-04-19 07:04:51] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-04-19 07:04:52] INFO root fetch - processPackages [pyrealsense2]: Remove: archive file [/home/abi/fetcher/tmp/pyrealsense2-2.55.1.6466-cp311-cp311-win_amd64.whl.zip]
+[2024-04-19 07:04:52] INFO root fetch - processPackages [pyrealsense2]: Remove: archive file [/home/abi/fetcher/tmp/pyrealsense2-2.9.1-cp36-cp36m-win_amd64.whl.zip]
+[2024-04-19 07:04:52] INFO root fetch - main [MainThread]: End processing [pyrealsense2]: success
+[2024-04-19 07:04:52] INFO root fetch - main [MainThread]: Store serial: [22836769]
