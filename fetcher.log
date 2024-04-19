@@ -12048,3 +12048,41 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:44:14] INFO root fetch - processPackages [RefractMLMonitor]: Remove: archive file [/home/abi/fetcher/tmp/RefractMLMonitor-1.1.9.tar.gz]
 [2024-04-19 08:44:14] INFO root fetch - main [MainThread]: End processing [RefractMLMonitor]: success
 [2024-04-19 08:44:14] INFO root fetch - main [MainThread]: Store serial: [22837625]
+[2024-04-19 08:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837625]
+[2024-04-19 08:46:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-fck-nat
+[2024-04-19 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prowler
+[2024-04-19 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prowler-cloud
+[2024-04-19 08:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NeelKrypt
+[2024-04-19 08:46:23] INFO root fetch - processPackages [NeelKrypt]: New version: [6] Old Version: [4]
+[2024-04-19 08:46:23] INFO root fetch - processPackages [NeelKrypt]: Downloading https://files.pythonhosted.org/packages/a5/5a/3cf38d0f08098085cbadc102c6ce27228a5d85adaf3b77249a29d0c4a837/NeelKrypt-4.tar.gz
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler-cloud]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-19 08:46:23] INFO root fetch - processPackages [cdk-fck-nat]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/71/30/ebe8700b29ae95de014d31d0569bcfe7238623b4e04a8553613f00ae4cb5/prowler_cloud-4.0.1.tar.gz
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/12/d1/92243380f3e56e54d6aac68f3961bdc26d9904bce3385258dc002ffaea37/prowler-4.0.1.tar.gz
+[2024-04-19 08:46:23] INFO root fetch - processPackages [cdk-fck-nat]: Downloading https://files.pythonhosted.org/packages/bc/de/c04232d0fdb854c64bb05ecc5ecd8fdf54d09e2426ad8c1456bb93a93dfa/cdk-fck-nat-1.3.9.tar.gz
+[2024-04-19 08:46:23] INFO root fetch - processPackages [NeelKrypt]: executing diffoscope
+[2024-04-19 08:46:23] INFO root fetch - processPackages [NeelKrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeelKrypt-4.tar.gz tmp/NeelKrypt-6.tar.gz --markdown 20240419/N/NeelKrypt/4-6/README.md --exclude *.pyd
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/ee/13/5bb93cd8f4213e2a8f57ede055635bd26c503d20cd42969d9c6b5765b418/prowler_cloud-4.1.0.tar.gz
+[2024-04-19 08:46:23] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/df/f2/26e6bb76ee58a2340be041c67a80b46de62fb925e09d58bd766bdee1b788/prowler-4.1.0.tar.gz
+[2024-04-19 08:46:24] INFO root fetch - processPackages [NeelKrypt]: Remove: archive file [/home/abi/fetcher/tmp/NeelKrypt-4.tar.gz]
+[2024-04-19 08:46:24] INFO root fetch - processPackages [NeelKrypt]: Remove: archive file [/home/abi/fetcher/tmp/NeelKrypt-6.tar.gz]
+[2024-04-19 08:46:24] INFO root fetch - main [MainThread]: End processing [NeelKrypt]: success
+[2024-04-19 08:46:24] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-04-19 08:46:24] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-4.0.1.tar.gz tmp/prowler_cloud-4.1.0.tar.gz --markdown 20240419/p/prowler-cloud/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-19 08:46:24] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-04-19 08:46:24] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-4.0.1.tar.gz tmp/prowler-4.1.0.tar.gz --markdown 20240419/p/prowler/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-19 08:46:24] INFO root fetch - processPackages [cdk-fck-nat]: Downloading https://files.pythonhosted.org/packages/2d/e7/9f55c9e6ebf81ac6e7781b4cf86b29c691e37b73b32fee23ce1afeb67272/cdk-fck-nat-1.4.0.tar.gz
+[2024-04-19 08:46:24] INFO root fetch - processPackages [cdk-fck-nat]: executing diffoscope
+[2024-04-19 08:46:24] INFO root fetch - processPackages [cdk-fck-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-fck-nat-1.3.9.tar.gz tmp/cdk-fck-nat-1.4.0.tar.gz --markdown 20240419/c/cdk-fck-nat/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-04-19 08:46:25] INFO root fetch - processPackages [cdk-fck-nat]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fck-nat-1.3.9.tar.gz]
+[2024-04-19 08:46:25] INFO root fetch - processPackages [cdk-fck-nat]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fck-nat-1.4.0.tar.gz]
+[2024-04-19 08:46:25] INFO root fetch - main [MainThread]: End processing [cdk-fck-nat]: success
+[2024-04-19 08:46:30] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.1.tar.gz]
+[2024-04-19 08:46:30] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.1.0.tar.gz]
+[2024-04-19 08:46:30] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-04-19 08:46:30] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
+[2024-04-19 08:46:30] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.1.0.tar.gz]
+[2024-04-19 08:46:30] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-04-19 08:46:30] INFO root fetch - main [MainThread]: Store serial: [22837638]
