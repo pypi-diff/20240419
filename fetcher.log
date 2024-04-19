@@ -10635,3 +10635,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:38:56] INFO root fetch - processPackages [odoo-addon-purchase-warn-message]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_warn_message-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-04-19 07:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-warn-message]: success
 [2024-04-19 07:38:56] INFO root fetch - main [MainThread]: Store serial: [22837000]
+[2024-04-19 07:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837000]
+[2024-04-19 07:41:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrx
+[2024-04-19 07:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pychlorinator
+[2024-04-19 07:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmk-packages
+[2024-04-19 07:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-external-toc-strict
+[2024-04-19 07:41:04] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-19 07:41:04] INFO root fetch - processPackages [sphinx-external-toc-strict]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-19 07:41:04] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/b3/e6/47ca5c0c92e58733094bab3767de1288a8c999f5a4dcf6bdb145f05702c6/dmk_packages-0.6.2.tar.gz
+[2024-04-19 07:41:04] INFO root fetch - processPackages [pychlorinator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 07:41:04] INFO root fetch - processPackages [nrx]: New version: [0.5.2] Old Version: [0.5.0rc2]
+[2024-04-19 07:41:05] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/78/40/ddd9e2f1c156566a8cdb58035a488700d850a25c84f1c69fd25e9a9ec53b/sphinx_external_toc_strict-1.1.4.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [pychlorinator]: Downloading https://files.pythonhosted.org/packages/98/d6/62928531a0b2863d7deecc52019c0ea936a02a40fcf2ac655eff19148de1/pychlorinator-0.2.8.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/dd/22/c93698ca5b76c6d7f0bc7e3f70ca508c05c1523ce292aa9bb27d3eeb69e0/dmk_packages-0.6.3.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [nrx]: Downloading https://files.pythonhosted.org/packages/4c/1e/a15ddf208e0ec7ffb1a7215feb2be7225abcdd364e5bcdd5e54cf78c192c/nrx-0.5.0rc2.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-19 07:41:05] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.2.tar.gz tmp/dmk_packages-0.6.3.tar.gz --markdown 20240419/d/dmk-packages/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-19 07:41:05] INFO root fetch - processPackages [sphinx-external-toc-strict]: Downloading https://files.pythonhosted.org/packages/e8/25/6a60838a83094f1cafc5f4579f0f48767d8eb5868acc40d70a502ced6381/sphinx_external_toc_strict-1.1.5.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [nrx]: Downloading https://files.pythonhosted.org/packages/b6/a1/f9353c801d20ba336acbcbe631b728e60c4c37635fd48d79952aac386dc3/nrx-0.5.2.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [pychlorinator]: Downloading https://files.pythonhosted.org/packages/f3/0e/96dba8f9bcd599c1810813c0631a8cb4ff277bbcb02df7bf7bc5de6608a6/pychlorinator-0.2.9.tar.gz
+[2024-04-19 07:41:05] INFO root fetch - processPackages [sphinx-external-toc-strict]: executing diffoscope
+[2024-04-19 07:41:05] INFO root fetch - processPackages [sphinx-external-toc-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_external_toc_strict-1.1.4.tar.gz tmp/sphinx_external_toc_strict-1.1.5.tar.gz --markdown 20240419/s/sphinx-external-toc-strict/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-19 07:41:05] INFO root fetch - processPackages [nrx]: executing diffoscope
+[2024-04-19 07:41:05] INFO root fetch - processPackages [nrx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrx-0.5.0rc2.tar.gz tmp/nrx-0.5.2.tar.gz --markdown 20240419/n/nrx/0.5.0rc2-0.5.2/README.md --exclude *.pyd
+[2024-04-19 07:41:05] INFO root fetch - processPackages [pychlorinator]: executing diffoscope
+[2024-04-19 07:41:05] INFO root fetch - processPackages [pychlorinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychlorinator-0.2.8.tar.gz tmp/pychlorinator-0.2.9.tar.gz --markdown 20240419/p/pychlorinator/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 07:41:05] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.2.tar.gz]
+[2024-04-19 07:41:05] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.3.tar.gz]
+[2024-04-19 07:41:05] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-19 07:41:06] INFO root fetch - processPackages [pychlorinator]: Remove: archive file [/home/abi/fetcher/tmp/pychlorinator-0.2.8.tar.gz]
+[2024-04-19 07:41:06] INFO root fetch - processPackages [pychlorinator]: Remove: archive file [/home/abi/fetcher/tmp/pychlorinator-0.2.9.tar.gz]
+[2024-04-19 07:41:06] INFO root fetch - main [MainThread]: End processing [pychlorinator]: success
+[2024-04-19 07:41:06] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.4.tar.gz]
+[2024-04-19 07:41:06] INFO root fetch - processPackages [sphinx-external-toc-strict]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_external_toc_strict-1.1.5.tar.gz]
+[2024-04-19 07:41:06] INFO root fetch - main [MainThread]: End processing [sphinx-external-toc-strict]: success
+[2024-04-19 07:41:39] INFO root fetch - processPackages [nrx]: Remove: archive file [/home/abi/fetcher/tmp/nrx-0.5.0rc2.tar.gz]
+[2024-04-19 07:41:39] INFO root fetch - processPackages [nrx]: Remove: archive file [/home/abi/fetcher/tmp/nrx-0.5.2.tar.gz]
+[2024-04-19 07:41:39] INFO root fetch - main [MainThread]: End processing [nrx]: success
+[2024-04-19 07:41:39] INFO root fetch - main [MainThread]: Store serial: [22837012]
