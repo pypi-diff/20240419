@@ -2259,3 +2259,76 @@
 [2024-04-19 02:16:10] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.2.6.tar.gz]
 [2024-04-19 02:16:10] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
 [2024-04-19 02:16:10] INFO root fetch - main [MainThread]: Store serial: [22833624]
+[2024-04-19 02:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22833624]
+[2024-04-19 02:18:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: augmented-matrix
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.appsync-utils
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: embyclient
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenGeode-Geosciences
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: augmented-matrix
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gitlab-runner
+[2024-04-19 02:18:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sitepy
+[2024-04-19 02:18:19] INFO root fetch - processPackages [sitepy]: New version: [0.3.0rc1] Old Version: [0.2.2]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: New version: [0.8] Old Version: [0.7]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: New version: [0.8] Old Version: [0.7]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [embyclient]: New version: [4.8.4.0] Old Version: [4.8.3.0]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [OpenGeode-Geosciences]: New version: [7.6.3rc1] Old Version: [7.6.3]
+[2024-04-19 02:18:19] INFO root fetch - processPackages [sitepy]: Downloading https://files.pythonhosted.org/packages/22/43/7366689e4bde8514f899d26cd4f02ba32a6ab55822aed9b7cfc3dcfd33e3/sitepy-0.2.2.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/14/d0/bd98a600e03d9cda95877c223095227a709bd989621dddd0199458d0390e/augmented_matrix-0.7.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/14/d0/bd98a600e03d9cda95877c223095227a709bd989621dddd0199458d0390e/augmented_matrix-0.7.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/27/20/916f8b2769c88df072714f8bf1245d3bd4ded8a183403d1c0a6cfbeca51b/embyclient-4.8.3.0.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/ec/f5/ba619c0ca4fcc39ebe154e168f71f85f8514806b8a4dfc01a5df130057a1/OpenGeode_Geosciences-7.6.3-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [sitepy]: Downloading https://files.pythonhosted.org/packages/86/9a/31ae0f70168d53d8610f2667c58418faa920557d5ee69502441a457a231d/sitepy-0.3.0rc1.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240419/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240419/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-19 02:18:19] INFO root fetch - processPackages [sitepy]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [sitepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitepy-0.2.2.tar.gz tmp/sitepy-0.3.0rc1.tar.gz --markdown 20240419/s/sitepy/0.2.2-0.3.0rc1/README.md --exclude *.pyd
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/65/5b/319ea92c1cccdcb6a471cb2a9cfae2e7938ce396a5218dd0d0144ce94fce/augmented_matrix-0.8.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: Downloading https://files.pythonhosted.org/packages/65/5b/319ea92c1cccdcb6a471cb2a9cfae2e7938ce396a5218dd0d0144ce94fce/augmented_matrix-0.8.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240419/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-19 02:18:19] INFO root fetch - processPackages [embyclient]: Downloading https://files.pythonhosted.org/packages/ad/53/f1ff85a492341009b9ad941cd74f4b9985f4f59a38d7527b19a4ffb17aeb/embyclient-4.8.4.0.tar.gz
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_matrix-0.7.tar.gz tmp/augmented_matrix-0.8.tar.gz --markdown 20240419/a/augmented-matrix/0.7-0.8/README.md --exclude *.pyd
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: executing diffoscope
+[2024-04-19 02:18:19] INFO root fetch - processPackages [augmented-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/augmented_matrix-0.7.tar.gz tmp/augmented_matrix-0.8.tar.gz --markdown 20240419/a/augmented-matrix/0.7-0.8/README.md --exclude *.pyd
+[2024-04-19 02:18:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: Downloading https://files.pythonhosted.org/packages/47/07/35c3ca649febb72c49d1054ec07b9bfd5efbcc4c3176b603aa99a79804c1/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl
+[2024-04-19 02:18:20] INFO root fetch - processPackages [embyclient]: executing diffoscope
+[2024-04-19 02:18:20] INFO root fetch - processPackages [embyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embyclient-4.8.3.0.tar.gz tmp/embyclient-4.8.4.0.tar.gz --markdown 20240419/e/embyclient/4.8.3.0-4.8.4.0/README.md --exclude *.pyd
+[2024-04-19 02:18:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: executing diffoscope
+[2024-04-19 02:18:20] INFO root fetch - processPackages [OpenGeode-Geosciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_Geosciences-7.6.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240419/O/OpenGeode-Geosciences/7.6.3-7.6.3rc1/README.md --exclude *.pyd
+[2024-04-19 02:18:20] INFO root fetch - processPackages [sitepy]: Remove: archive file [/home/abi/fetcher/tmp/sitepy-0.2.2.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - processPackages [sitepy]: Remove: archive file [/home/abi/fetcher/tmp/sitepy-0.3.0rc1.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [sitepy]: success
+[2024-04-19 02:18:20] INFO root fetch - processPackages [augmented-matrix]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix-0.7.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - processPackages [augmented-matrix]: Remove: archive file [/home/abi/fetcher/tmp/augmented_matrix-0.8.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [augmented-matrix]: success
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [augmented-matrix]: success
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-04-19 02:18:20] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-04-19 02:18:21] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-19 02:18:21] INFO root fetch - processPackages [OpenGeode-Geosciences]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_Geosciences-7.6.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 02:18:21] INFO root fetch - main [MainThread]: End processing [OpenGeode-Geosciences]: success
+[2024-04-19 02:18:21] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.3.0.tar.gz]
+[2024-04-19 02:18:21] INFO root fetch - processPackages [embyclient]: Remove: archive file [/home/abi/fetcher/tmp/embyclient-4.8.4.0.tar.gz]
+[2024-04-19 02:18:21] INFO root fetch - main [MainThread]: End processing [embyclient]: success
+[2024-04-19 02:18:21] INFO root fetch - main [MainThread]: Store serial: [22833652]
