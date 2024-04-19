@@ -10745,3 +10745,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:50:48] WARNING root fetch - processPackages [django-viewflow]: Skipping package: exceeds size limit 15443108>=10485760
 [2024-04-19 07:50:48] INFO root fetch - main [MainThread]: End processing [django-viewflow] error
 [2024-04-19 07:50:48] INFO root fetch - main [MainThread]: Store serial: [22837043]
+[2024-04-19 07:52:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837043]
+[2024-04-19 07:52:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptify
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-var
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zvolv-sdk
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ActiveCollab
+[2024-04-19 07:52:57] INFO root fetch - processPackages [sc-var]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 07:52:57] INFO root fetch - processPackages [zvolv-sdk]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-19 07:52:57] INFO root fetch - processPackages [gptify]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 07:52:57] INFO root fetch - processPackages [sc-var]: Downloading https://files.pythonhosted.org/packages/cb/8d/724d3064ae25516c0eb90a527c39af10114625bfe08400a02d910ad0dd81/sc_var-1.2.0.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ActiveCollab]: New version: [3.1] Old Version: [3]
+[2024-04-19 07:52:57] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/b0/5d/f953016288df74f346a72aecf880bdf3514877d6dd6f90a3709a9fce3e64/zvolv_sdk-0.0.2.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/c4/fd/91476afccd549ebefb34a5b7c43680204e87b5bb37d145ec2e208ea52381/gptify-0.3.0.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/bc/32/c073de84714a05a608abf522a24796f85963f7d25f01e56ccb1707381911/activecollab-3.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [sc-var]: Downloading https://files.pythonhosted.org/packages/53/14/7f68f1415642197cf6d51639aac949544db5f21c29bb4033658070e11a51/sc_var-1.2.1.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/19/f0/45acf1beb501c391ccd9ca191993176f61a9068a6f0cde651414a0c6868e/zvolv_sdk-0.0.4.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [gptify]: Downloading https://files.pythonhosted.org/packages/4b/c9/b3a4beaa67bd0806ee62002fab302508df1922527cfead910475c2fab945/gptify-0.3.1.tar.gz
+[2024-04-19 07:52:57] INFO root fetch - processPackages [sc-var]: executing diffoscope
+[2024-04-19 07:52:57] INFO root fetch - processPackages [sc-var]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_var-1.2.0.tar.gz tmp/sc_var-1.2.1.tar.gz --markdown 20240419/s/sc-var/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 07:52:57] INFO root fetch - processPackages [zvolv-sdk]: executing diffoscope
+[2024-04-19 07:52:57] INFO root fetch - processPackages [zvolv-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zvolv_sdk-0.0.2.tar.gz tmp/zvolv_sdk-0.0.4.tar.gz --markdown 20240419/z/zvolv-sdk/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-04-19 07:52:57] INFO root fetch - processPackages [gptify]: executing diffoscope
+[2024-04-19 07:52:57] INFO root fetch - processPackages [gptify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptify-0.3.0.tar.gz tmp/gptify-0.3.1.tar.gz --markdown 20240419/g/gptify/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 07:52:57] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/64/f6/e9b0f96427c53a43ae6a7c52b6482b38acde32ae4c9d3ef83f6cc4396592/activecollab-3.1.tar.gz
+[2024-04-19 07:52:58] INFO root fetch - processPackages [ActiveCollab]: executing diffoscope
+[2024-04-19 07:52:58] INFO root fetch - processPackages [ActiveCollab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/activecollab-3.tar.gz tmp/activecollab-3.1.tar.gz --markdown 20240419/A/ActiveCollab/3-3.1/README.md --exclude *.pyd
+[2024-04-19 07:52:58] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.2.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.4.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - main [MainThread]: End processing [zvolv-sdk]: success
+[2024-04-19 07:52:58] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.0.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - processPackages [gptify]: Remove: archive file [/home/abi/fetcher/tmp/gptify-0.3.1.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - main [MainThread]: End processing [gptify]: success
+[2024-04-19 07:52:58] INFO root fetch - processPackages [sc-var]: Remove: archive file [/home/abi/fetcher/tmp/sc_var-1.2.0.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - processPackages [sc-var]: Remove: archive file [/home/abi/fetcher/tmp/sc_var-1.2.1.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - main [MainThread]: End processing [sc-var]: success
+[2024-04-19 07:52:58] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/activecollab-3.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/activecollab-3.1.tar.gz]
+[2024-04-19 07:52:58] INFO root fetch - main [MainThread]: End processing [ActiveCollab]: success
+[2024-04-19 07:52:58] INFO root fetch - main [MainThread]: Store serial: [22837057]
