@@ -23819,3 +23819,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:53:15] INFO root fetch - processPackages [BoatBuddy]: Remove: archive file [/home/abi/fetcher/tmp/boatbuddy-0.9.5.tar.gz]
 [2024-04-19 15:53:15] INFO root fetch - main [MainThread]: End processing [BoatBuddy]: success
 [2024-04-19 15:53:15] INFO root fetch - main [MainThread]: Store serial: [22842831]
+[2024-04-19 15:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842831]
+[2024-04-19 15:55:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nettigo-air-monitor
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-candle
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: revolt-mpd-status
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graymatter_swissknife
+[2024-04-19 15:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numpy-cukd
+[2024-04-19 15:55:26] INFO root fetch - processPackages [graymatter_swissknife]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 15:55:26] WARNING root fetch - processPackages [polars-candle]: Skipping, unable to determine old version
+[2024-04-19 15:55:26] INFO root fetch - main [MainThread]: End processing [polars-candle] error
+[2024-04-19 15:55:26] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/6f/c3/2cf636524ba74452bd2eab1be97f1fe27fb32149a1258e51373946ed19ae/graymatter_swissknife-1.2.0.tar.gz
+[2024-04-19 15:55:26] WARNING root fetch - processPackages [numpy-cukd]: Skipping, unable to determine old version
+[2024-04-19 15:55:26] INFO root fetch - main [MainThread]: End processing [numpy-cukd] error
+[2024-04-19 15:55:26] INFO root fetch - processPackages [revolt-mpd-status]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 15:55:26] INFO root fetch - processPackages [nettigo-air-monitor]: New version: [3.0.0] Old Version: [2.2.2]
+[2024-04-19 15:55:26] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-19 15:55:26] INFO root fetch - processPackages [nettigo-air-monitor]: Downloading https://files.pythonhosted.org/packages/c8/d1/1db60be511b79241aee63177284f507ef3ae12c1ba3510e4bee3141ff69f/nettigo_air_monitor-2.2.2.tar.gz
+[2024-04-19 15:55:26] INFO root fetch - processPackages [revolt-mpd-status]: Downloading https://files.pythonhosted.org/packages/5e/5b/89993054809f74b559b79de700fb911997d41743c88a2f71e6fd5d8cd464/revolt_mpd_status-0.0.1.tar.gz
+[2024-04-19 15:55:26] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-19 15:55:26] INFO root fetch - processPackages [graymatter_swissknife]: Downloading https://files.pythonhosted.org/packages/78/94/27dc746fe8681f9490583e706b2cf9093afb10bc28831abc715b0fe12e47/graymatter_swissknife-1.2.1.tar.gz
+[2024-04-19 15:55:26] INFO root fetch - processPackages [nettigo-air-monitor]: Downloading https://files.pythonhosted.org/packages/ab/69/483bb9a041f85d5ffb304b547dad91f068cd33d1a56d55cf0719a3e03b5e/nettigo_air_monitor-3.0.0.tar.gz
+[2024-04-19 15:55:26] INFO root fetch - processPackages [graymatter_swissknife]: executing diffoscope
+[2024-04-19 15:55:26] INFO root fetch - processPackages [graymatter_swissknife]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graymatter_swissknife-1.2.0.tar.gz tmp/graymatter_swissknife-1.2.1.tar.gz --markdown 20240419/g/graymatter_swissknife/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 15:55:27] INFO root fetch - processPackages [nettigo-air-monitor]: executing diffoscope
+[2024-04-19 15:55:27] INFO root fetch - processPackages [nettigo-air-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nettigo_air_monitor-2.2.2.tar.gz tmp/nettigo_air_monitor-3.0.0.tar.gz --markdown 20240419/n/nettigo-air-monitor/2.2.2-3.0.0/README.md --exclude *.pyd
+[2024-04-19 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-04-19 15:55:27] INFO root fetch - processPackages [revolt-mpd-status]: Downloading https://files.pythonhosted.org/packages/fb/1d/5abd38a56be3388ccd55c513a94388ca1329a9ae3aeb5dd60a757f9d5847/revolt_mpd_status-0.0.2.tar.gz
+[2024-04-19 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-19 15:55:27] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20240419/t/tensordict-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-19 15:55:27] INFO root fetch - processPackages [revolt-mpd-status]: executing diffoscope
+[2024-04-19 15:55:27] INFO root fetch - processPackages [revolt-mpd-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revolt_mpd_status-0.0.1.tar.gz tmp/revolt_mpd_status-0.0.2.tar.gz --markdown 20240419/r/revolt-mpd-status/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 15:55:27] INFO root fetch - processPackages [nettigo-air-monitor]: Remove: archive file [/home/abi/fetcher/tmp/nettigo_air_monitor-2.2.2.tar.gz]
+[2024-04-19 15:55:27] INFO root fetch - processPackages [nettigo-air-monitor]: Remove: archive file [/home/abi/fetcher/tmp/nettigo_air_monitor-3.0.0.tar.gz]
+[2024-04-19 15:55:27] INFO root fetch - main [MainThread]: End processing [nettigo-air-monitor]: success
+[2024-04-19 15:55:27] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.2.0.tar.gz]
+[2024-04-19 15:55:27] INFO root fetch - processPackages [graymatter_swissknife]: Remove: archive file [/home/abi/fetcher/tmp/graymatter_swissknife-1.2.1.tar.gz]
+[2024-04-19 15:55:27] INFO root fetch - main [MainThread]: End processing [graymatter_swissknife]: success
+[2024-04-19 15:55:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 15:55:28] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 15:55:28] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-19 15:55:28] INFO root fetch - processPackages [revolt-mpd-status]: Remove: archive file [/home/abi/fetcher/tmp/revolt_mpd_status-0.0.1.tar.gz]
+[2024-04-19 15:55:28] INFO root fetch - processPackages [revolt-mpd-status]: Remove: archive file [/home/abi/fetcher/tmp/revolt_mpd_status-0.0.2.tar.gz]
+[2024-04-19 15:55:28] INFO root fetch - main [MainThread]: End processing [revolt-mpd-status]: success
+[2024-04-19 15:55:28] INFO root fetch - main [MainThread]: Store serial: [22842859]
