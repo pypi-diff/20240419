@@ -10209,3 +10209,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:20:01] WARNING root fetch - processPackages [SeismoAI]: Skipping, unable to determine old version
 [2024-04-19 07:20:01] INFO root fetch - main [MainThread]: End processing [SeismoAI] error
 [2024-04-19 07:20:01] INFO root fetch - main [MainThread]: Store serial: [22836851]
+[2024-04-19 07:22:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836851]
+[2024-04-19 07:22:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dasai
+[2024-04-19 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlpro-int-gymnasium
+[2024-04-19 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: evdspy
+[2024-04-19 07:22:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basedpyright
+[2024-04-19 07:22:10] INFO root fetch - processPackages [mlpro-int-gymnasium]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-04-19 07:22:10] INFO root fetch - processPackages [evdspy]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 07:22:10] WARNING root fetch - processPackages [dasai]: Skipping, unable to determine old version
+[2024-04-19 07:22:10] INFO root fetch - main [MainThread]: End processing [dasai] error
+[2024-04-19 07:22:10] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-19 07:22:10] INFO root fetch - processPackages [mlpro-int-gymnasium]: Downloading https://files.pythonhosted.org/packages/54/02/63922172f8835d5555ef131ad638e809f715cb3c8a3f4b51c7dc6bf51fe6/mlpro-int-gymnasium-0.1.3.tar.gz
+[2024-04-19 07:22:10] INFO root fetch - processPackages [evdspy]: Downloading https://files.pythonhosted.org/packages/e6/b6/7c4651a9553e9cc8eae11f65d80983e032bd9ecea7184aa0e9eaf0aba1ef/evdspy-1.1.8-py2.py3-none-any.whl
+[2024-04-19 07:22:10] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-19 07:22:10] INFO root fetch - processPackages [mlpro-int-gymnasium]: Downloading https://files.pythonhosted.org/packages/f5/13/f3035c07399449bf32f0ca26e59c366a07a2716ddb223a01d51c8a24f849/mlpro_int_gymnasium-1.0.0.tar.gz
+[2024-04-19 07:22:10] INFO root fetch - processPackages [evdspy]: Downloading https://files.pythonhosted.org/packages/c8/6d/0ec527adcb04d357a57a3931a6722612d56e460648c4741719c3c34957fe/evdspy-1.1.9-py2.py3-none-any.whl
+[2024-04-19 07:22:10] INFO root fetch - processPackages [mlpro-int-gymnasium]: executing diffoscope
+[2024-04-19 07:22:10] INFO root fetch - processPackages [mlpro-int-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-int-gymnasium-0.1.3.tar.gz tmp/mlpro_int_gymnasium-1.0.0.tar.gz --markdown 20240419/m/mlpro-int-gymnasium/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-04-19 07:22:10] INFO root fetch - processPackages [evdspy]: executing diffoscope
+[2024-04-19 07:22:10] INFO root fetch - processPackages [evdspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evdspy-1.1.8-py2.py3-none-any.whl.zip tmp/evdspy-1.1.9-py2.py3-none-any.whl.zip --markdown 20240419/e/evdspy/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 07:22:11] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-04-19 07:22:11] INFO root fetch - processPackages [mlpro-int-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-gymnasium-0.1.3.tar.gz]
+[2024-04-19 07:22:11] INFO root fetch - processPackages [mlpro-int-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mlpro_int_gymnasium-1.0.0.tar.gz]
+[2024-04-19 07:22:11] INFO root fetch - main [MainThread]: End processing [mlpro-int-gymnasium]: success
+[2024-04-19 07:22:11] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-19 07:22:11] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240419/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-19 07:22:11] INFO root fetch - processPackages [evdspy]: Remove: archive file [/home/abi/fetcher/tmp/evdspy-1.1.8-py2.py3-none-any.whl.zip]
+[2024-04-19 07:22:11] INFO root fetch - processPackages [evdspy]: Remove: archive file [/home/abi/fetcher/tmp/evdspy-1.1.9-py2.py3-none-any.whl.zip]
+[2024-04-19 07:22:11] INFO root fetch - main [MainThread]: End processing [evdspy]: success
+[2024-04-19 07:23:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-19 07:23:07] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-04-19 07:23:07] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-19 07:23:07] INFO root fetch - main [MainThread]: Store serial: [22836871]
