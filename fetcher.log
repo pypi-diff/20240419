@@ -18794,3 +18794,51 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:47:00] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-19 12:47:00] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2024-04-19 12:47:00] INFO root fetch - main [MainThread]: Store serial: [22840505]
+[2024-04-19 12:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840505]
+[2024-04-19 12:49:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RsCMPX-WlanMeas
+[2024-04-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: declare
+[2024-04-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datature
+[2024-04-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skip-django-fperms-iscore
+[2024-04-19 12:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dplib-py
+[2024-04-19 12:49:10] INFO root fetch - processPackages [dplib-py]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-19 12:49:11] INFO root fetch - processPackages [datature]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-19 12:49:11] INFO root fetch - processPackages [skip-django-fperms-iscore]: New version: [0.3.0] Old Version: [0.2.21.2]
+[2024-04-19 12:49:11] INFO root fetch - processPackages [declare]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 12:49:11] INFO root fetch - processPackages [RsCMPX-WlanMeas]: New version: [5.0.80] Old Version: [4.0.151]
+[2024-04-19 12:49:11] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/d8/7b/3c36368be25a58b2f6d63db5fb5f87d70163ec403dcc70c1533abc3833d0/dplib_py-0.7.0.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [datature]: Downloading https://files.pythonhosted.org/packages/9f/5f/f8992269291d6823eca51cc4f5a24c42c8295b51499a2bbf4598a626da02/datature-1.6.0.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [skip-django-fperms-iscore]: Downloading https://files.pythonhosted.org/packages/05/07/86ae45e56e725e9b4ed762e06a96ce2743408e8c6d81fac3ea3a3c48c280/skip-django-fperms-iscore-0.2.21.2.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [declare]: Downloading https://files.pythonhosted.org/packages/5f/13/1c057bcfffc8122cc4efc701461f8e5f9de9d10faa58e862b083e72e0b58/declare-1.0.0.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Downloading https://files.pythonhosted.org/packages/48/5b/2a6ab1d7c3ff460e0510cdb313dd7136070a1bd1148c5425e02d50fd7dbb/RsCMPX_WlanMeas-4.0.151.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [dplib-py]: Downloading https://files.pythonhosted.org/packages/fd/00/b7afa57fcbee468abec8fea302d9ac88e60584aaf2d05d7c0060e8393d5e/dplib_py-0.7.1.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [dplib-py]: executing diffoscope
+[2024-04-19 12:49:11] INFO root fetch - processPackages [dplib-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dplib_py-0.7.0.tar.gz tmp/dplib_py-0.7.1.tar.gz --markdown 20240419/d/dplib-py/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-19 12:49:11] INFO root fetch - processPackages [skip-django-fperms-iscore]: Downloading https://files.pythonhosted.org/packages/d2/b4/527d518d9073ffd67274d111341c0d5ce5efeb4109fe4b0429fec2da4406/skip_django_fperms_iscore-0.3.0.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [datature]: Downloading https://files.pythonhosted.org/packages/b3/50/02afac5ec9057a85aff89fbd17098e1fb0081d5be2520a142125baf31942/datature-1.7.0.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [declare]: Downloading https://files.pythonhosted.org/packages/dd/40/b14c202ed926486fe0c9d478692480f0bca6380e0a9570af12be428bf7af/declare-1.0.1.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Downloading https://files.pythonhosted.org/packages/62/73/a31803a46a5fc162db83f91d8a839b5d18eb766e36d93eb05c52ccbe7d74/RsCMPX_WlanMeas-5.0.80.tar.gz
+[2024-04-19 12:49:11] INFO root fetch - processPackages [skip-django-fperms-iscore]: executing diffoscope
+[2024-04-19 12:49:11] INFO root fetch - processPackages [skip-django-fperms-iscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-fperms-iscore-0.2.21.2.tar.gz tmp/skip_django_fperms_iscore-0.3.0.tar.gz --markdown 20240419/s/skip-django-fperms-iscore/0.2.21.2-0.3.0/README.md --exclude *.pyd
+[2024-04-19 12:49:11] INFO root fetch - processPackages [RsCMPX-WlanMeas]: executing diffoscope
+[2024-04-19 12:49:11] INFO root fetch - processPackages [RsCMPX-WlanMeas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RsCMPX_WlanMeas-4.0.151.tar.gz tmp/RsCMPX_WlanMeas-5.0.80.tar.gz --markdown 20240419/R/RsCMPX-WlanMeas/4.0.151-5.0.80/README.md --exclude *.pyd
+[2024-04-19 12:49:11] INFO root fetch - processPackages [declare]: executing diffoscope
+[2024-04-19 12:49:11] INFO root fetch - processPackages [declare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/declare-1.0.0.tar.gz tmp/declare-1.0.1.tar.gz --markdown 20240419/d/declare/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 12:49:12] INFO root fetch - processPackages [datature]: executing diffoscope
+[2024-04-19 12:49:12] INFO root fetch - processPackages [datature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datature-1.6.0.tar.gz tmp/datature-1.7.0.tar.gz --markdown 20240419/d/datature/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-19 12:49:12] INFO root fetch - processPackages [declare]: Remove: archive file [/home/abi/fetcher/tmp/declare-1.0.0.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - processPackages [declare]: Remove: archive file [/home/abi/fetcher/tmp/declare-1.0.1.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - main [MainThread]: End processing [declare]: success
+[2024-04-19 12:49:12] INFO root fetch - processPackages [skip-django-fperms-iscore]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-fperms-iscore-0.2.21.2.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - processPackages [skip-django-fperms-iscore]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_fperms_iscore-0.3.0.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - main [MainThread]: End processing [skip-django-fperms-iscore]: success
+[2024-04-19 12:49:12] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.0.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - processPackages [dplib-py]: Remove: archive file [/home/abi/fetcher/tmp/dplib_py-0.7.1.tar.gz]
+[2024-04-19 12:49:12] INFO root fetch - main [MainThread]: End processing [dplib-py]: success
+[2024-04-19 12:49:13] INFO root fetch - processPackages [datature]: Remove: archive file [/home/abi/fetcher/tmp/datature-1.6.0.tar.gz]
+[2024-04-19 12:49:13] INFO root fetch - processPackages [datature]: Remove: archive file [/home/abi/fetcher/tmp/datature-1.7.0.tar.gz]
+[2024-04-19 12:49:13] INFO root fetch - main [MainThread]: End processing [datature]: success
+[2024-04-19 12:49:16] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_WlanMeas-4.0.151.tar.gz]
+[2024-04-19 12:49:16] INFO root fetch - processPackages [RsCMPX-WlanMeas]: Remove: archive file [/home/abi/fetcher/tmp/RsCMPX_WlanMeas-5.0.80.tar.gz]
+[2024-04-19 12:49:16] INFO root fetch - main [MainThread]: End processing [RsCMPX-WlanMeas]: success
+[2024-04-19 12:49:16] INFO root fetch - main [MainThread]: Store serial: [22840522]
