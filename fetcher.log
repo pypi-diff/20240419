@@ -16353,3 +16353,71 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:25:54] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract_cli-0.9.9.tar.gz]
 [2024-04-19 11:25:54] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
 [2024-04-19 11:25:54] INFO root fetch - main [MainThread]: Store serial: [22839495]
+[2024-04-19 11:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839495]
+[2024-04-19 11:28:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airflow-tools
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-contact-local
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: komodo-sdk
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdoxy
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proxybandit
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pybiolib
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcanvas-api-clients
+[2024-04-19 11:28:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openff-nagl-models
+[2024-04-19 11:28:04] INFO root fetch - processPackages [mkdoxy]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [google-contact-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [pybiolib]: New version: [1.1.999] Old Version: [1.1.997]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [openff-nagl-models]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-19 11:28:04] WARNING root fetch - processPackages [qcanvas-api-clients]: Skipping, unable to determine old version
+[2024-04-19 11:28:04] INFO root fetch - main [MainThread]: End processing [qcanvas-api-clients] error
+[2024-04-19 11:28:04] WARNING root fetch - processPackages [proxybandit]: Skipping, unable to determine old version
+[2024-04-19 11:28:04] INFO root fetch - main [MainThread]: End processing [proxybandit] error
+[2024-04-19 11:28:04] INFO root fetch - processPackages [komodo-sdk]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [airflow-tools]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-19 11:28:04] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/61/2b/b602e5fcd3a9e0c331a874c58034ec5df6ecd15da11fd9596e77b2ef7150/mkdoxy-1.2.0.tar.gz
+[2024-04-19 11:28:04] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 11:28:04] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/3a/9a/8d08460188d169ab51c67693f2c3b0bab2c3fa9157e378bd6b8de3c94c22/pybiolib-1.1.997.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/a8/55/f63aa14924da6703289e0881058be4b007251255a7c3affa28e065371e97/google-contact-local-0.0.8.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [airflow-tools]: Downloading https://files.pythonhosted.org/packages/c0/4f/e060fae91c4e32a9302c7dce7779011b073668653ac5646bd04340a35fe6/airflow_tools-0.8.5.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [openff-nagl-models]: Downloading https://files.pythonhosted.org/packages/6c/a9/a501919a8cc441ff9789c997aadff201b0fe83fd1d64874bdfb525627588/openff-nagl-models-0.1.2.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/b8/e6/a2e113ef7a21446b11d25074d50675a084bddca46d396dd6c9edd60a5865/komodo_sdk-0.0.95.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [pybiolib]: Downloading https://files.pythonhosted.org/packages/63/4d/ccfc9f32e5d27ecd72b00bec47623fd00317dfdd6724e0fa9865b2f036d3/pybiolib-1.1.999.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mkdoxy]: Downloading https://files.pythonhosted.org/packages/7d/85/af896552ff9325865e1640e04b636dcbf3ba51348dfccc0c988bad1ca9a5/mkdoxy-1.2.1.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [google-contact-local]: Downloading https://files.pythonhosted.org/packages/90/a0/6476b4b508a422b515b36c8e96bc42204832fa643e68545864d4ecc1f820/google-contact-local-0.0.9.tar.gz
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mkdoxy]: executing diffoscope
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mkdoxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdoxy-1.2.0.tar.gz tmp/mkdoxy-1.2.1.tar.gz --markdown 20240419/m/mkdoxy/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-19 11:28:05] INFO root fetch - processPackages [pybiolib]: executing diffoscope
+[2024-04-19 11:28:05] INFO root fetch - processPackages [pybiolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiolib-1.1.997.tar.gz tmp/pybiolib-1.1.999.tar.gz --markdown 20240419/p/pybiolib/1.1.997-1.1.999/README.md --exclude *.pyd
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 11:28:05] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 11:28:05] INFO root fetch - processPackages [google-contact-local]: executing diffoscope
+[2024-04-19 11:28:05] INFO root fetch - processPackages [google-contact-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-contact-local-0.0.8.tar.gz tmp/google-contact-local-0.0.9.tar.gz --markdown 20240419/g/google-contact-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 11:28:05] INFO root fetch - processPackages [airflow-tools]: Downloading https://files.pythonhosted.org/packages/36/a0/27c22233bf34a6bee0d9b722e3247ce563710a313b71c9be8142542c524e/airflow_tools-0.8.6.tar.gz
+[2024-04-19 11:28:05] WARNING root fetch - processPackages [openff-nagl-models]: Skipping package: exceeds size limit 20271195>=10485760
+[2024-04-19 11:28:05] INFO root fetch - main [MainThread]: End processing [openff-nagl-models] error
+[2024-04-19 11:28:05] INFO root fetch - processPackages [airflow-tools]: executing diffoscope
+[2024-04-19 11:28:05] INFO root fetch - processPackages [airflow-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_tools-0.8.5.tar.gz tmp/airflow_tools-0.8.6.tar.gz --markdown 20240419/a/airflow-tools/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-04-19 11:28:05] INFO root fetch - processPackages [komodo-sdk]: Downloading https://files.pythonhosted.org/packages/bf/c9/7cd86415856d9b1f8ad05631299670f9d9dcbe2bf0ea82fb64525c3b7f7c/komodo_sdk-0.0.96.tar.gz
+[2024-04-19 11:28:06] INFO root fetch - processPackages [komodo-sdk]: executing diffoscope
+[2024-04-19 11:28:06] INFO root fetch - processPackages [komodo-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komodo_sdk-0.0.95.tar.gz tmp/komodo_sdk-0.0.96.tar.gz --markdown 20240419/k/komodo-sdk/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-04-19 11:28:06] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.8.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - processPackages [google-contact-local]: Remove: archive file [/home/abi/fetcher/tmp/google-contact-local-0.0.9.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - main [MainThread]: End processing [google-contact-local]: success
+[2024-04-19 11:28:06] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.0.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - processPackages [mkdoxy]: Remove: archive file [/home/abi/fetcher/tmp/mkdoxy-1.2.1.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - main [MainThread]: End processing [mkdoxy]: success
+[2024-04-19 11:28:06] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.997.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - processPackages [pybiolib]: Remove: archive file [/home/abi/fetcher/tmp/pybiolib-1.1.999.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - main [MainThread]: End processing [pybiolib]: success
+[2024-04-19 11:28:06] INFO root fetch - processPackages [airflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/airflow_tools-0.8.5.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - processPackages [airflow-tools]: Remove: archive file [/home/abi/fetcher/tmp/airflow_tools-0.8.6.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - main [MainThread]: End processing [airflow-tools]: success
+[2024-04-19 11:28:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 11:28:06] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 11:28:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.95.tar.gz]
+[2024-04-19 11:28:07] INFO root fetch - processPackages [komodo-sdk]: Remove: archive file [/home/abi/fetcher/tmp/komodo_sdk-0.0.96.tar.gz]
+[2024-04-19 11:28:07] INFO root fetch - main [MainThread]: End processing [komodo-sdk]: success
+[2024-04-19 11:28:07] INFO root fetch - main [MainThread]: Store serial: [22839525]
