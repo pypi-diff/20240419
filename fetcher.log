@@ -20819,3 +20819,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:07:56] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.3.tar.gz]
 [2024-04-19 14:07:56] INFO root fetch - main [MainThread]: End processing [spetlr]: success
 [2024-04-19 14:07:56] INFO root fetch - main [MainThread]: Store serial: [22841427]
+[2024-04-19 14:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841427]
+[2024-04-19 14:10:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cegalprizm-pythontoolpro
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-report-valued
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torcheval-nightly
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluecellulab
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moodle-dl
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smaht-submitr
+[2024-04-19 14:10:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timetagger
+[2024-04-19 14:10:05] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.0.1b9] Old Version: [0.8.0.1b8]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.7] Old Version: [2.3.6]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/84/0a/e8a298193fb535e94777d12147713f1e990367517f78e08aac250e5948c5/bluecellulab-2.5.8.tar.gz
+[2024-04-19 14:10:05] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-19 14:10:05] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/79/ad/69a49972361f3dd7698be4e52572630203c3c66d2562b3864e2814efd485/smaht_submitr-0.8.0.1b8.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [timetagger]: New version: [24.4.1] Old Version: [23.9.2]
+[2024-04-19 14:10:06] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241118>=10485760
+[2024-04-19 14:10:06] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-19 14:10:06] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/04/63/3ae50c622f1fb41e4ef2fd93599bf4e6f9839a3b92e179947d2a9681c8db/moodle_dl-2.3.6.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Downloading https://files.pythonhosted.org/packages/c8/44/59f14f1192185e1db3a5c5eccc02a204087f3fe2f0be0be2ea18de32e1e1/cegalprizm_pythontoolpro-2.4.1-py3-none-any.whl
+[2024-04-19 14:10:06] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/51/66/23be8383f50f7fa2bd9ebbb3f645791fb4a52c397a0dcade3eb6bfcd9b8c/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-19 14:10:06] INFO root fetch - processPackages [timetagger]: Downloading https://files.pythonhosted.org/packages/63/a8/b6e1ce3c250c2f6bbc3a9ab0d3fb95927ee09bf9f487dc452dd2154a4861/timetagger-23.9.2.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/a9/b9/54c39138072c920a1d8d5107253bf98513c92a68aae12fec8962cedc0dd9/smaht_submitr-0.8.0.1b9.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-19 14:10:06] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.0.1b8.tar.gz tmp/smaht_submitr-0.8.0.1b9.tar.gz --markdown 20240419/s/smaht-submitr/0.8.0.1b8-0.8.0.1b9/README.md --exclude *.pyd
+[2024-04-19 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-19 14:10:06] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240419/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-19 14:10:06] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/84/1c/fb1ac031d78d8798c00e968c20a212d27f895b48fc031388ac96e74069e5/moodle_dl-2.3.7.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Downloading https://files.pythonhosted.org/packages/24/19/7c3402705308bce21bf7c685722ecd75e64fdc2dd274f05c45ec777a3581/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-19 14:10:06] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Downloading https://files.pythonhosted.org/packages/47/a6/0a175cf3a71b307260cc32fa3e44ba0488081fbbb1dab6d852f75bc0ff47/cegalprizm_pythontoolpro-2.4.2-py3-none-any.whl
+[2024-04-19 14:10:06] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: executing diffoscope
+[2024-04-19 14:10:06] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-stock-picking-report-valued/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-19 14:10:06] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2024-04-19 14:10:06] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle_dl-2.3.6.tar.gz tmp/moodle_dl-2.3.7.tar.gz --markdown 20240419/m/moodle-dl/2.3.6-2.3.7/README.md --exclude *.pyd
+[2024-04-19 14:10:06] INFO root fetch - processPackages [timetagger]: Downloading https://files.pythonhosted.org/packages/3c/6e/6025934ee2356ca1731978ab889ffbb1278489750c0ebc95666a3e1f4581/timetagger-24.4.1.tar.gz
+[2024-04-19 14:10:06] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: executing diffoscope
+[2024-04-19 14:10:06] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cegalprizm_pythontoolpro-2.4.1-py3-none-any.whl.zip tmp/cegalprizm_pythontoolpro-2.4.2-py3-none-any.whl.zip --markdown 20240419/c/cegalprizm-pythontoolpro/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-19 14:10:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b8.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-19 14:10:07] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-19 14:10:07] INFO root fetch - processPackages [odoo-addon-stock-picking-report-valued]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_valued-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-19 14:10:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-valued]: success
+[2024-04-19 14:10:07] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-19 14:10:07] INFO root fetch - processPackages [timetagger]: executing diffoscope
+[2024-04-19 14:10:07] INFO root fetch - processPackages [timetagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timetagger-23.9.2.tar.gz tmp/timetagger-24.4.1.tar.gz --markdown 20240419/t/timetagger/23.9.2-24.4.1/README.md --exclude *.pyd
+[2024-04-19 14:10:07] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.6.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.7.tar.gz]
+[2024-04-19 14:10:07] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2024-04-19 14:10:08] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pythontoolpro-2.4.1-py3-none-any.whl.zip]
+[2024-04-19 14:10:08] INFO root fetch - processPackages [cegalprizm-pythontoolpro]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_pythontoolpro-2.4.2-py3-none-any.whl.zip]
+[2024-04-19 14:10:08] INFO root fetch - main [MainThread]: End processing [cegalprizm-pythontoolpro]: success
+[2024-04-19 14:10:08] INFO root fetch - processPackages [timetagger]: Remove: archive file [/home/abi/fetcher/tmp/timetagger-23.9.2.tar.gz]
+[2024-04-19 14:10:08] INFO root fetch - processPackages [timetagger]: Remove: archive file [/home/abi/fetcher/tmp/timetagger-24.4.1.tar.gz]
+[2024-04-19 14:10:08] INFO root fetch - main [MainThread]: End processing [timetagger]: success
+[2024-04-19 14:10:08] INFO root fetch - main [MainThread]: Store serial: [22841447]
