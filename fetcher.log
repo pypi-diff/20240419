@@ -7313,3 +7313,28 @@
 [2024-04-19 03:56:47] INFO root fetch - processPackages [akasha-terminal]: Remove: archive file [/home/abi/fetcher/tmp/akasha-terminal-0.8.9.tar.gz]
 [2024-04-19 03:56:47] INFO root fetch - main [MainThread]: End processing [akasha-terminal]: success
 [2024-04-19 03:56:47] INFO root fetch - main [MainThread]: Store serial: [22835519]
+[2024-04-19 03:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835519]
+[2024-04-19 03:58:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 03:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-model
+[2024-04-19 03:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: readyapi
+[2024-04-19 03:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: general-conference-extractor
+[2024-04-19 03:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bd_to_avp
+[2024-04-19 03:58:56] WARNING root fetch - processPackages [general-conference-extractor]: Skipping, unable to determine old version
+[2024-04-19 03:58:56] INFO root fetch - main [MainThread]: End processing [general-conference-extractor] error
+[2024-04-19 03:58:56] INFO root fetch - processPackages [bd_to_avp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 03:58:56] INFO root fetch - processPackages [trex-model]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-19 03:58:56] INFO root fetch - processPackages [readyapi]: New version: [0.110.2] Old Version: [0.110.1]
+[2024-04-19 03:58:57] INFO root fetch - processPackages [bd_to_avp]: Downloading https://files.pythonhosted.org/packages/00/db/7e18af63153f16cb6b9d0cd019ae969bcff7057bcdaa43a5b82e8224ed2d/bd_to_avp-0.1.8.tar.gz
+[2024-04-19 03:58:57] INFO root fetch - processPackages [readyapi]: Downloading https://files.pythonhosted.org/packages/50/4b/1b018f791d466cf38b284a53b5cd7b2abd343fb030d639457702683d2b2d/readyapi-0.110.1.tar.gz
+[2024-04-19 03:58:57] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/c5/23/9b919d67603f9126e7e151c668e194b2b3c3c13e6aafe347fb27a01b4614/trex-model-1.3.8.tar.gz
+[2024-04-19 03:58:57] WARNING root fetch - processPackages [readyapi]: Skipping package: exceeds size limit 11918780>=10485760
+[2024-04-19 03:58:57] INFO root fetch - main [MainThread]: End processing [readyapi] error
+[2024-04-19 03:58:57] INFO root fetch - processPackages [trex-model]: Downloading https://files.pythonhosted.org/packages/d7/e8/ef9c381f5bc574f5569d2a67eec59261b538f4ee8da605babff6bedd2c50/trex-model-1.3.9.tar.gz
+[2024-04-19 03:58:57] INFO root fetch - processPackages [trex-model]: executing diffoscope
+[2024-04-19 03:58:57] INFO root fetch - processPackages [trex-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-model-1.3.8.tar.gz tmp/trex-model-1.3.9.tar.gz --markdown 20240419/t/trex-model/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-19 03:58:58] INFO root fetch - processPackages [trex-model]: Remove: archive file [/home/abi/fetcher/tmp/trex-model-1.3.8.tar.gz]
+[2024-04-19 03:58:58] INFO root fetch - processPackages [trex-model]: Remove: archive file [/home/abi/fetcher/tmp/trex-model-1.3.9.tar.gz]
+[2024-04-19 03:58:58] INFO root fetch - main [MainThread]: End processing [trex-model]: success
+[2024-04-19 03:58:58] WARNING root fetch - processPackages [bd_to_avp]: Skipping package: exceeds size limit 16498870>=10485760
+[2024-04-19 03:58:58] INFO root fetch - main [MainThread]: End processing [bd_to_avp] error
+[2024-04-19 03:58:58] INFO root fetch - main [MainThread]: Store serial: [22835534]
