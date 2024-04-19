@@ -11698,3 +11698,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:25:56] INFO root fetch - processPackages [alibabacloud-emr20210320-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr20210320_py2-1.6.0.tar.gz]
 [2024-04-19 08:25:56] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr20210320-py2]: success
 [2024-04-19 08:25:56] INFO root fetch - main [MainThread]: Store serial: [22837476]
+[2024-04-19 08:28:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837476]
+[2024-04-19 08:28:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 08:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaea-paddledet
+[2024-04-19 08:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aporacle
+[2024-04-19 08:28:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: casepy
+[2024-04-19 08:28:05] WARNING root fetch - processPackages [casepy]: Skipping, unable to determine old version
+[2024-04-19 08:28:05] INFO root fetch - main [MainThread]: End processing [casepy] error
+[2024-04-19 08:28:05] INFO root fetch - processPackages [aporacle]: New version: [0.0.137] Old Version: [0.0.136]
+[2024-04-19 08:28:05] INFO root fetch - processPackages [gaea-paddledet]: New version: [2.5.0.3] Old Version: [2.5.0.1]
+[2024-04-19 08:28:05] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/7f/07/97818c4d0280418f80c4fd969431c83c45cd9f7b79251f25c01cbe2044d2/aporacle-0.0.136.tar.gz
+[2024-04-19 08:28:05] INFO root fetch - processPackages [gaea-paddledet]: Downloading https://files.pythonhosted.org/packages/ef/6a/141ef676f90f78182d8433aeb6b832d0fac65c6f658343165cbadddf6f75/gaea_paddledet-2.5.0.1-py3-none-any.whl
+[2024-04-19 08:28:06] INFO root fetch - processPackages [aporacle]: Downloading https://files.pythonhosted.org/packages/03/be/481c796889b4f6165cd8380dea796c7fca65ca2297d1090615cd0219813e/aporacle-0.0.137.tar.gz
+[2024-04-19 08:28:06] INFO root fetch - processPackages [aporacle]: executing diffoscope
+[2024-04-19 08:28:06] INFO root fetch - processPackages [aporacle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporacle-0.0.136.tar.gz tmp/aporacle-0.0.137.tar.gz --markdown 20240419/a/aporacle/0.0.136-0.0.137/README.md --exclude *.pyd
+[2024-04-19 08:28:06] INFO root fetch - processPackages [gaea-paddledet]: Downloading https://files.pythonhosted.org/packages/fb/cd/4f09929ef735ab7a0614406fa190e314d563ae8a0f160c88121477038ab7/gaea_paddledet-2.5.0.3-py3-none-any.whl
+[2024-04-19 08:28:06] INFO root fetch - processPackages [gaea-paddledet]: executing diffoscope
+[2024-04-19 08:28:06] INFO root fetch - processPackages [gaea-paddledet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_paddledet-2.5.0.1-py3-none-any.whl.zip tmp/gaea_paddledet-2.5.0.3-py3-none-any.whl.zip --markdown 20240419/g/gaea-paddledet/2.5.0.1-2.5.0.3/README.md --exclude *.pyd
+[2024-04-19 08:28:06] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.136.tar.gz]
+[2024-04-19 08:28:06] INFO root fetch - processPackages [aporacle]: Remove: archive file [/home/abi/fetcher/tmp/aporacle-0.0.137.tar.gz]
+[2024-04-19 08:28:06] INFO root fetch - main [MainThread]: End processing [aporacle]: success
+[2024-04-19 08:28:07] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0.1-py3-none-any.whl.zip]
+[2024-04-19 08:28:07] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0.3-py3-none-any.whl.zip]
+[2024-04-19 08:28:07] INFO root fetch - main [MainThread]: End processing [gaea-paddledet]: success
+[2024-04-19 08:28:07] INFO root fetch - main [MainThread]: Store serial: [22837485]
