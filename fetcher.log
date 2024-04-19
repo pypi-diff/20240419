@@ -12683,3 +12683,69 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:14:27] INFO root fetch - main [MainThread]: End processing [plothist]: success
 [2024-04-19 09:14:28] INFO root fetch - main [MainThread]: End processing [plothist]: success
 [2024-04-19 09:14:28] INFO root fetch - main [MainThread]: Store serial: [22837894]
+[2024-04-19 09:16:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837894]
+[2024-04-19 09:16:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedepot-depot
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: igrafx-mining-sdk
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-logger
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: globlocks
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: photo-gps-client
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: athina
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zvolv-sdk
+[2024-04-19 09:16:37] INFO root fetch - processPackages [zvolv-sdk]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [globlocks]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [photo-gps-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [codedepot-depot]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [athina]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/19/f0/45acf1beb501c391ccd9ca191993176f61a9068a6f0cde651414a0c6868e/zvolv_sdk-0.0.4.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [igrafx-mining-sdk]: New version: [2.31.1] Old Version: [2.30.0]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/56/fb/b74e9fa8b246b7afab60544e9c4ef8efa169c3ec2f856cd77bb8dd3f6141/globlocks-1.1.8.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ml-logger]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-19 09:16:37] INFO root fetch - processPackages [photo-gps-client]: Downloading https://files.pythonhosted.org/packages/7b/91/65e8ef81e99bd0408fe56f19b507c5006f56bd7871211079d66284d7f0f8/photo_gps_client-0.1.8.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/ef/47/9b2ef0f7dd09092fd1f7473c8a302f1fa6450ca51d82832c78a6378d2975/athina-1.2.8.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/57/91/379534c81ffbcacda4d9d1eef01e18019e9e886192bfffe30bd2ccdc7a7d/codedepot_depot-0.0.3.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/12/ec/bfec48fa591576dff92524b17f57335689c8909e66130faaf69a0e05711b/igrafx_mining_sdk-2.30.0.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/ec/1b/27ce922215cb6668309725864644ecb6ea7e94953063d450a07eb0a76208/ml_logger-0.9.8.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [athina]: Downloading https://files.pythonhosted.org/packages/8c/7a/9ca31aae0240dac1dcb9ff13ab77af41aabbad7fe4fb02cf9f625581c8cc/athina-1.2.9.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [zvolv-sdk]: Downloading https://files.pythonhosted.org/packages/7e/64/d5181d237b8af0cbd5c5fbced425b3eb0b4075072cacd65a915214ebcdd7/zvolv_sdk-0.0.6.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [codedepot-depot]: Downloading https://files.pythonhosted.org/packages/b3/7a/6528b361bbd1d62a6bfaf4afd42e7ee109fa4dadcb0eac0016806e30900f/codedepot_depot-0.0.4.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [photo-gps-client]: Downloading https://files.pythonhosted.org/packages/04/dc/20141e0c0d593d6701fa99c6cf30bd402d5f8da04310daa1e1e603e90fb0/photo_gps_client-0.1.9.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [globlocks]: Downloading https://files.pythonhosted.org/packages/e9/b7/72f6c3330f559fb5cc77874f409d5849e6582b85f550463e97ac97b30984/globlocks-1.1.9.tar.gz
+[2024-04-19 09:16:37] INFO root fetch - processPackages [athina]: executing diffoscope
+[2024-04-19 09:16:37] INFO root fetch - processPackages [athina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athina-1.2.8.tar.gz tmp/athina-1.2.9.tar.gz --markdown 20240419/a/athina/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-19 09:16:37] INFO root fetch - processPackages [codedepot-depot]: executing diffoscope
+[2024-04-19 09:16:37] INFO root fetch - processPackages [codedepot-depot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_depot-0.0.3.tar.gz tmp/codedepot_depot-0.0.4.tar.gz --markdown 20240419/c/codedepot-depot/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 09:16:37] INFO root fetch - processPackages [zvolv-sdk]: executing diffoscope
+[2024-04-19 09:16:37] INFO root fetch - processPackages [zvolv-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zvolv_sdk-0.0.4.tar.gz tmp/zvolv_sdk-0.0.6.tar.gz --markdown 20240419/z/zvolv-sdk/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-04-19 09:16:37] INFO root fetch - processPackages [photo-gps-client]: executing diffoscope
+[2024-04-19 09:16:37] INFO root fetch - processPackages [photo-gps-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/photo_gps_client-0.1.8.tar.gz tmp/photo_gps_client-0.1.9.tar.gz --markdown 20240419/p/photo-gps-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 09:16:37] INFO root fetch - processPackages [igrafx-mining-sdk]: Downloading https://files.pythonhosted.org/packages/cf/5c/af5bf8bf6e079c340f25588f3da18b7be76597542a6425eb03faa47a27d6/igrafx_mining_sdk-2.31.1.tar.gz
+[2024-04-19 09:16:38] INFO root fetch - processPackages [ml-logger]: Downloading https://files.pythonhosted.org/packages/5e/73/772ea95da7b25d502cf034bc9d04a1f427674d9ad9fc87e212fccc33c1f0/ml_logger-0.9.9.tar.gz
+[2024-04-19 09:16:38] INFO root fetch - processPackages [globlocks]: executing diffoscope
+[2024-04-19 09:16:38] INFO root fetch - processPackages [globlocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globlocks-1.1.8.tar.gz tmp/globlocks-1.1.9.tar.gz --markdown 20240419/g/globlocks/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-19 09:16:38] INFO root fetch - processPackages [ml-logger]: executing diffoscope
+[2024-04-19 09:16:38] INFO root fetch - processPackages [ml-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_logger-0.9.8.tar.gz tmp/ml_logger-0.9.9.tar.gz --markdown 20240419/m/ml-logger/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-19 09:16:38] INFO root fetch - processPackages [igrafx-mining-sdk]: executing diffoscope
+[2024-04-19 09:16:38] INFO root fetch - processPackages [igrafx-mining-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igrafx_mining_sdk-2.30.0.tar.gz tmp/igrafx_mining_sdk-2.31.1.tar.gz --markdown 20240419/i/igrafx-mining-sdk/2.30.0-2.31.1/README.md --exclude *.pyd
+[2024-04-19 09:16:38] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.3.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [codedepot-depot]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_depot-0.0.4.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [codedepot-depot]: success
+[2024-04-19 09:16:38] INFO root fetch - processPackages [photo-gps-client]: Remove: archive file [/home/abi/fetcher/tmp/photo_gps_client-0.1.8.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [photo-gps-client]: Remove: archive file [/home/abi/fetcher/tmp/photo_gps_client-0.1.9.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [photo-gps-client]: success
+[2024-04-19 09:16:38] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.4.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [zvolv-sdk]: Remove: archive file [/home/abi/fetcher/tmp/zvolv_sdk-0.0.6.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [zvolv-sdk]: success
+[2024-04-19 09:16:38] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.8.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [athina]: Remove: archive file [/home/abi/fetcher/tmp/athina-1.2.9.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [athina]: success
+[2024-04-19 09:16:38] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.30.0.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [igrafx-mining-sdk]: Remove: archive file [/home/abi/fetcher/tmp/igrafx_mining_sdk-2.31.1.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk]: success
+[2024-04-19 09:16:38] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.8.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - processPackages [ml-logger]: Remove: archive file [/home/abi/fetcher/tmp/ml_logger-0.9.9.tar.gz]
+[2024-04-19 09:16:38] INFO root fetch - main [MainThread]: End processing [ml-logger]: success
+[2024-04-19 09:16:41] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.8.tar.gz]
+[2024-04-19 09:16:41] INFO root fetch - processPackages [globlocks]: Remove: archive file [/home/abi/fetcher/tmp/globlocks-1.1.9.tar.gz]
+[2024-04-19 09:16:41] INFO root fetch - main [MainThread]: End processing [globlocks]: success
+[2024-04-19 09:16:41] INFO root fetch - main [MainThread]: Store serial: [22837917]
