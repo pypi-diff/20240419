@@ -8768,3 +8768,15 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:31:12] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-04-19 05:31:12] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-19 05:31:12] INFO root fetch - main [MainThread]: Store serial: [22836193]
+[2024-04-19 05:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836193]
+[2024-04-19 05:33:21] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 05:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2024-04-19 05:33:21] INFO root fetch - processPackages [vector-vault]: New version: [4.4.5.5] Old Version: [4.4.5.4]
+[2024-04-19 05:33:21] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/b1/f3/f19bf06c37f7bbba1490081c812eb2100a4bee086a2a72383cde0f7bcc3e/vector_vault-4.4.5.4.tar.gz
+[2024-04-19 05:33:21] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/4a/fb/a86eab402508b06db000bb5e16601499aff1ad39a7fd289bedc58569c40d/vector_vault-4.4.5.5.tar.gz
+[2024-04-19 05:33:22] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-19 05:33:22] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.5.4.tar.gz tmp/vector_vault-4.4.5.5.tar.gz --markdown 20240419/v/vector-vault/4.4.5.4-4.4.5.5/README.md --exclude *.pyd
+[2024-04-19 05:33:22] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.4.tar.gz]
+[2024-04-19 05:33:22] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.5.tar.gz]
+[2024-04-19 05:33:22] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-19 05:33:22] INFO root fetch - main [MainThread]: Store serial: [22836197]
