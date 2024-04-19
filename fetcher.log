@@ -8043,3 +8043,54 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:47:19] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.0.1b9.tar.gz]
 [2024-04-19 04:47:19] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-19 04:47:19] INFO root fetch - main [MainThread]: Store serial: [22835891]
+[2024-04-19 04:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835891]
+[2024-04-19 04:49:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: txm-sandbox
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansi-string
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kustomize
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oresat-dxwifi
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQuantimClient
+[2024-04-19 04:49:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HyperCoast
+[2024-04-19 04:49:27] WARNING root fetch - processPackages [ansi-string]: Skipping, unable to determine old version
+[2024-04-19 04:49:27] INFO root fetch - main [MainThread]: End processing [ansi-string] error
+[2024-04-19 04:49:27] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.0.post2] Old Version: [0.3.0.post1]
+[2024-04-19 04:49:28] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/8c/71/460e45593324f191b52d14860c8d63ec791b0f77c47497393a248a91ecf6/txm_sandbox-0.3.0.post1.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [oresat-dxwifi]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 04:49:28] INFO root fetch - processPackages [HyperCoast]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-19 04:49:28] INFO root fetch - processPackages [PyQuantimClient]: New version: [1.0.9] Old Version: [1.0.85]
+[2024-04-19 04:49:28] INFO root fetch - processPackages [kustomize]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-19 04:49:28] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/b7/20/930a87c463ae632f78825e458e3007b331c92bda6fedbdb37e845c577f9d/pyquantimclient-1.0.85.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/fd/de/d57ed909482a93fdf2a3584fa33e0df7091d716479b9f01320fe2c558b70/oresat_dxwifi-0.3.1.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [HyperCoast]: Downloading https://files.pythonhosted.org/packages/3c/78/d27304229b56fe0b9fcbc5ac6df4ae601154ab3ad8ecc6a07e4f8078f8ec/HyperCoast-0.0.1.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [kustomize]: Downloading https://files.pythonhosted.org/packages/98/d2/35cdd1599267c0d8b267abb0d36e4b275738dd3d2155fd51f908cbf50363/kustomize-0.5.0.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/3f/c7/7d66748bd52c7de8ca4967978c95c889f7e3bce01d3786a7934a38212c73/txm_sandbox-0.3.0.post2.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-04-19 04:49:28] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.0.post1.tar.gz tmp/txm_sandbox-0.3.0.post2.tar.gz --markdown 20240419/t/txm-sandbox/0.3.0.post1-0.3.0.post2/README.md --exclude *.pyd
+[2024-04-19 04:49:28] INFO root fetch - processPackages [PyQuantimClient]: Downloading https://files.pythonhosted.org/packages/12/4e/e55b5d82937e1306704467806d3a4daa4b5c4b6f73b5ade2c9e6fdcc08f5/PyQuantimClient-1.0.9.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [oresat-dxwifi]: Downloading https://files.pythonhosted.org/packages/ef/fa/152162195640a5b8604c2f88039d383c6176793960ad902e6d3ebcaaecee/oresat_dxwifi-0.3.2.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [PyQuantimClient]: executing diffoscope
+[2024-04-19 04:49:28] INFO root fetch - processPackages [PyQuantimClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquantimclient-1.0.85.tar.gz tmp/PyQuantimClient-1.0.9.tar.gz --markdown 20240419/P/PyQuantimClient/1.0.85-1.0.9/README.md --exclude *.pyd
+[2024-04-19 04:49:28] INFO root fetch - processPackages [HyperCoast]: Downloading https://files.pythonhosted.org/packages/6b/36/d5f556298a211e3e80817a51e21ee672ab9bc5c562c2dd9e6beffd51c8e5/hypercoast-0.0.2.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [kustomize]: Downloading https://files.pythonhosted.org/packages/53/85/81cde87a5502c4f9eedfc17ce9838c71ef98dae074fa12161dfb015144aa/kustomize-0.5.1.tar.gz
+[2024-04-19 04:49:28] INFO root fetch - processPackages [kustomize]: executing diffoscope
+[2024-04-19 04:49:28] INFO root fetch - processPackages [kustomize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kustomize-0.5.0.tar.gz tmp/kustomize-0.5.1.tar.gz --markdown 20240419/k/kustomize/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-19 04:49:28] INFO root fetch - processPackages [oresat-dxwifi]: executing diffoscope
+[2024-04-19 04:49:28] INFO root fetch - processPackages [oresat-dxwifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oresat_dxwifi-0.3.1.tar.gz tmp/oresat_dxwifi-0.3.2.tar.gz --markdown 20240419/o/oresat-dxwifi/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-04-19 04:49:29] INFO root fetch - processPackages [HyperCoast]: executing diffoscope
+[2024-04-19 04:49:29] INFO root fetch - processPackages [HyperCoast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HyperCoast-0.0.1.tar.gz tmp/hypercoast-0.0.2.tar.gz --markdown 20240419/H/HyperCoast/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-19 04:49:29] INFO root fetch - processPackages [PyQuantimClient]: Remove: archive file [/home/abi/fetcher/tmp/pyquantimclient-1.0.85.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - processPackages [PyQuantimClient]: Remove: archive file [/home/abi/fetcher/tmp/PyQuantimClient-1.0.9.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [PyQuantimClient]: success
+[2024-04-19 04:49:29] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post1.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post2.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-04-19 04:49:29] INFO root fetch - processPackages [HyperCoast]: Remove: archive file [/home/abi/fetcher/tmp/HyperCoast-0.0.1.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - processPackages [HyperCoast]: Remove: archive file [/home/abi/fetcher/tmp/hypercoast-0.0.2.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [HyperCoast]: success
+[2024-04-19 04:49:29] INFO root fetch - processPackages [kustomize]: Remove: archive file [/home/abi/fetcher/tmp/kustomize-0.5.0.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - processPackages [kustomize]: Remove: archive file [/home/abi/fetcher/tmp/kustomize-0.5.1.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [kustomize]: success
+[2024-04-19 04:49:29] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.1.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - processPackages [oresat-dxwifi]: Remove: archive file [/home/abi/fetcher/tmp/oresat_dxwifi-0.3.2.tar.gz]
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: End processing [oresat-dxwifi]: success
+[2024-04-19 04:49:29] INFO root fetch - main [MainThread]: Store serial: [22835909]
