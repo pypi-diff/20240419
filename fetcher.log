@@ -19336,3 +19336,72 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 13:09:17] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
 [2024-04-19 13:09:17] INFO root fetch - main [MainThread]: End processing [gs2]: success
 [2024-04-19 13:09:17] INFO root fetch - main [MainThread]: Store serial: [22840712]
+[2024-04-19 13:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840712]
+[2024-04-19 13:11:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hellogaurav
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ParendumLib
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sislv4utils
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kiara-plugin.develop
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataset-tools
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luminesce-sdk
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calories-properties-pkg
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amsdal_models
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [hellogaurav]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [kiara-plugin.develop]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [sislv4utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-19 13:11:26] WARNING root fetch - processPackages [calories-properties-pkg]: Skipping, unable to determine old version
+[2024-04-19 13:11:26] INFO root fetch - main [MainThread]: End processing [calories-properties-pkg] error
+[2024-04-19 13:11:26] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/42/dc/efe32a1318c45dfab996d67e2f402199847eec2f8e81ffc6300baeb03046/kiara_plugin.develop-0.5.0.tar.gz
+[2024-04-19 13:11:26] INFO root fetch - processPackages [amsdal_models]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 13:11:26] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-19 13:11:26] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-04-19 13:11:26] INFO root fetch - processPackages [hellogaurav]: Downloading https://files.pythonhosted.org/packages/f6/05/ae6ea91f0807db0044e1fc844a921b880fea891e1eb53bfdddb5505e3938/hellogaurav-1.1.0.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [sislv4utils]: Downloading https://files.pythonhosted.org/packages/d5/81/7bf3cc6912b0d73336bf62a06c4131225926e23bd240d1a812fba43daf0b/sislv4utils-0.0.3.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/62/73/14dcca3b07e98624f224b9c02baf6037842667c88373b5549a6ee7d84d3f/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl
+[2024-04-19 13:11:27] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/ac/4e/3ec83e859cb094aa3ea9e0f12804882fcd7b8fb10d522c8c472041af315c/kiara_plugin_develop-0.5.1.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240419/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 13:11:27] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240419/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 13:11:27] INFO root fetch - processPackages [kiara-plugin.develop]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [kiara-plugin.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.develop-0.5.0.tar.gz tmp/kiara_plugin_develop-0.5.1.tar.gz --markdown 20240419/k/kiara-plugin.develop/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-19 13:11:27] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240419/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-19 13:11:27] INFO root fetch - processPackages [sislv4utils]: Downloading https://files.pythonhosted.org/packages/a9/92/45ac330340a19fe7098f8abe1f43b6b92fbba3555e31cbef65574e2e38c5/sislv4utils-0.0.4.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [hellogaurav]: Downloading https://files.pythonhosted.org/packages/50/1e/4b69b66b54c9278172e8c58ed9ff5b6273e9d74cdc8edc703769b5eeba3a/hellogaurav-2.0.0.tar.gz
+[2024-04-19 13:11:27] INFO root fetch - processPackages [hellogaurav]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [hellogaurav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hellogaurav-1.1.0.tar.gz tmp/hellogaurav-2.0.0.tar.gz --markdown 20240419/h/hellogaurav/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-04-19 13:11:27] INFO root fetch - processPackages [sislv4utils]: executing diffoscope
+[2024-04-19 13:11:27] INFO root fetch - processPackages [sislv4utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sislv4utils-0.0.3.tar.gz tmp/sislv4utils-0.0.4.tar.gz --markdown 20240419/s/sislv4utils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 13:11:28] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/91/57/3a8d69975d8b202e8cb455d48dc908108d07593c7601ded20c9be996ada1/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl
+[2024-04-19 13:11:28] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.8.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.9.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-19 13:11:28] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-19 13:11:28] INFO root fetch - processPackages [hellogaurav]: Remove: archive file [/home/abi/fetcher/tmp/hellogaurav-1.1.0.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [hellogaurav]: Remove: archive file [/home/abi/fetcher/tmp/hellogaurav-2.0.0.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [hellogaurav]: success
+[2024-04-19 13:11:28] INFO root fetch - processPackages [sislv4utils]: Remove: archive file [/home/abi/fetcher/tmp/sislv4utils-0.0.3.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [sislv4utils]: Remove: archive file [/home/abi/fetcher/tmp/sislv4utils-0.0.4.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [sislv4utils]: success
+[2024-04-19 13:11:28] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.develop-0.5.0.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_develop-0.5.1.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [kiara-plugin.develop]: success
+[2024-04-19 13:11:28] INFO root fetch - processPackages [amsdal_models]: executing diffoscope
+[2024-04-19 13:11:28] INFO root fetch - processPackages [amsdal_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip --markdown 20240419/a/amsdal_models/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 13:11:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-04-19 13:11:28] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-04-19 13:11:29] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.8-cp311-cp311-win_amd64.whl.zip]
+[2024-04-19 13:11:29] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.9-cp311-cp311-win_amd64.whl.zip]
+[2024-04-19 13:11:29] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
+[2024-04-19 13:11:29] INFO root fetch - main [MainThread]: Store serial: [22840738]
