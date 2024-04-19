@@ -22411,3 +22411,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:16:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.19-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-19 15:16:04] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-19 15:16:04] INFO root fetch - main [MainThread]: Store serial: [22842169]
+[2024-04-19 15:18:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842169]
+[2024-04-19 15:18:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogenstudio
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxspec
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tflite-micro
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wassfast
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conva-ai
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gpt-trans
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: contrastive-ne
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xtrack
+[2024-04-19 15:18:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langwatch
+[2024-04-19 15:18:19] INFO root fetch - processPackages [gpt-trans]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240417234956] Old Version: [0.dev20240412154643]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [conva-ai]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [wassfast]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [contrastive-ne]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [langwatch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/dd/7a/c961b3e79111f1035c76cbc45d602547d0d26a3030761d1f4d362b84f71e/tflite_micro-0.dev20240412154643-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-04-19 15:18:19] INFO root fetch - processPackages [autogenstudio]: New version: [0.0.9a0] Old Version: [0.0.56rc0]
+[2024-04-19 15:18:19] INFO root fetch - processPackages [jaxspec]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 15:18:20] INFO root fetch - processPackages [gpt-trans]: Downloading https://files.pythonhosted.org/packages/1f/8d/cc40b4629231a7b1a7859aff9024882b3208e70c6d6ae50343a2ce528c70/gpt_trans-0.0.2.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/ed/ea/2433f384b3628af2a0de3af87fa89987a793d285fef8fe3ab4e593347143/conva_ai-0.0.3.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/a6/b1/967abb45ae4dcf4a08565e954138d9e480c0b617262b40409542a8d2578b/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [wassfast]: Downloading https://files.pythonhosted.org/packages/1e/16/291298970b858af8ad94e676cffa3a84e219e6df120e5593febf2296f6d1/wassfast-1.5.4.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/0f/2b/38a650149d26446443d3f8fa0b103c2bfed177d8053bbf7ee598f850c110/contrastive-ne-0.3.4.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [jaxspec]: Downloading https://files.pythonhosted.org/packages/ff/49/111a98a00d7f5f548138363b0c07eb33231fe2984aab9da6940e88ecfe55/jaxspec-0.0.4.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/5a/e9/3864799ca400b5ae11962a267077e41212e295457c88da2b48a58594d35b/langwatch-0.0.8.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/2d/2a/e5497ddc8dfe01ab57c8dfd4f67ffd841f778cd5a56c40154396aa5e3874/autogenstudio-0.0.56rc0.tar.gz
+[2024-04-19 15:18:20] WARNING root fetch - processPackages [jaxspec]: Skipping package: exceeds size limit 30396167>=10485760
+[2024-04-19 15:18:20] INFO root fetch - processPackages [jaxspec]: Start processing: ostorlab
+[2024-04-19 15:18:20] INFO root fetch - main [MainThread]: End processing [jaxspec] error
+[2024-04-19 15:18:20] WARNING root fetch - processPackages [wassfast]: Skipping package: exceeds size limit 25923304>=10485760
+[2024-04-19 15:18:20] INFO root fetch - processPackages [wassfast]: Start processing: mteb
+[2024-04-19 15:18:20] INFO root fetch - main [MainThread]: End processing [wassfast] error
+[2024-04-19 15:18:20] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/3f/70/bc1aae585628d58d49c79b5392921b1b984deefd39d92c5cc9262dcfe97d/tflite_micro-0.dev20240417234956-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-04-19 15:18:20] INFO root fetch - processPackages [mteb]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-19 15:18:20] INFO root fetch - processPackages [gpt-trans]: Downloading https://files.pythonhosted.org/packages/85/78/51e87d3a0d77360a50f8a7b3754e82ef2b64510b6a59976e46c4d796491a/gpt_trans-0.0.3.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [ostorlab]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-19 15:18:20] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/d2/cc/adc2f7b3eecdd70fef2071e565cc5f15d7008c10c900d4017a17dba32566/conva_ai-0.0.4.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/f2/27/01e5078d15f208cb6c32dfd12263e90854991e2cbd6aa05c0ba932e4a1c8/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [contrastive-ne]: Downloading https://files.pythonhosted.org/packages/1c/dc/cfe7459c2a0a3dd063127daa2e5de753155265825e81a974dd0f3e7cad9c/contrastive_ne-0.3.5.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/9d/c6807aa37d1ee256f9e8b6801ccddb4faccfb4b1eced793e6e256f898d3d/mteb-1.6.8.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [gpt-trans]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [gpt-trans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_trans-0.0.2.tar.gz tmp/gpt_trans-0.0.3.tar.gz --markdown 20240419/g/gpt-trans/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240412154643-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240417234956-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240419/t/tflite-micro/0.dev20240412154643-0.dev20240417234956/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [contrastive-ne]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [contrastive-ne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contrastive-ne-0.3.4.tar.gz tmp/contrastive_ne-0.3.5.tar.gz --markdown 20240419/c/contrastive-ne/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/ca/d2/7dba8299d65257fe500a9d804ac2a4a507381a01516d584c45950754b775/langwatch-0.0.9.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.0.3.tar.gz tmp/conva_ai-0.0.4.tar.gz --markdown 20240419/c/conva-ai/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/b4/0c/31325aea31836d1697fafafc5838b05237729a7e82ec5e4c9febd97115c1/ostorlab-1.0.6.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/39/e6/fa07e5c98f057d7eb0090af3864941061ad7740ba54db99ebe917a9659a5/mteb-1.6.9.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [langwatch]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [langwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langwatch-0.0.8.tar.gz tmp/langwatch-0.0.9.tar.gz --markdown 20240419/l/langwatch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 15:18:20] INFO root fetch - processPackages [autogenstudio]: Downloading https://files.pythonhosted.org/packages/b6/ab/0ad5a0b106081784151cc4d4bbde768308b75ee7095fed289546d596ea5a/autogenstudio-0.0.9a0.tar.gz
+[2024-04-19 15:18:20] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2024-04-19 15:18:20] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20240419/x/xtrack/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-19 15:18:21] INFO root fetch - processPackages [autogenstudio]: executing diffoscope
+[2024-04-19 15:18:21] INFO root fetch - processPackages [autogenstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogenstudio-0.0.56rc0.tar.gz tmp/autogenstudio-0.0.9a0.tar.gz --markdown 20240419/a/autogenstudio/0.0.56rc0-0.0.9a0/README.md --exclude *.pyd
+[2024-04-19 15:18:21] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/6d/73/509d46196e5ca0b97bde9ea363fd90805ca5ac580bdd43aa5e9ddda6379a/ostorlab-1.0.7.tar.gz
+[2024-04-19 15:18:21] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-19 15:18:21] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.8.tar.gz tmp/mteb-1.6.9.tar.gz --markdown 20240419/m/mteb/1.6.8-1.6.9/README.md --exclude *.pyd
+[2024-04-19 15:18:21] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Start processing: robotframework-seleniumlibrary
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2024-04-19 15:18:21] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-1.0.6.tar.gz tmp/ostorlab-1.0.7.tar.gz --markdown 20240419/o/ostorlab/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-19 15:18:21] INFO root fetch - processPackages [gpt-trans]: Remove: archive file [/home/abi/fetcher/tmp/gpt_trans-0.0.2.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [gpt-trans]: Remove: archive file [/home/abi/fetcher/tmp/gpt_trans-0.0.3.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [gpt-trans]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.3.0rc2] Old Version: [6.3.0rc1]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.3.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.0.4.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive-ne-0.3.4.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [contrastive-ne]: Remove: archive file [/home/abi/fetcher/tmp/contrastive_ne-0.3.5.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [contrastive-ne]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240412154643-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240417234956-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.8.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [langwatch]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/c4/15/851dd21a840fd1e8f902ded014174ef10bf9b693ee56563921f8bf904f54/robotframework-seleniumlibrary-6.3.0rc1.tar.gz
+[2024-04-19 15:18:21] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2024-04-19 15:18:21] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.56rc0.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - processPackages [autogenstudio]: Remove: archive file [/home/abi/fetcher/tmp/autogenstudio-0.0.9a0.tar.gz]
+[2024-04-19 15:18:21] INFO root fetch - main [MainThread]: End processing [autogenstudio]: success
+[2024-04-19 15:18:22] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/a4/86/953ff7e71cc5df1e6cd75ffcaac0a328130c64276cc438cc1b15533f730c/robotframework-seleniumlibrary-6.3.0rc2.tar.gz
+[2024-04-19 15:18:22] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2024-04-19 15:18:22] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-seleniumlibrary-6.3.0rc1.tar.gz tmp/robotframework-seleniumlibrary-6.3.0rc2.tar.gz --markdown 20240419/r/robotframework-seleniumlibrary/6.3.0rc1-6.3.0rc2/README.md --exclude *.pyd
+[2024-04-19 15:18:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.8.tar.gz]
+[2024-04-19 15:18:22] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.9.tar.gz]
+[2024-04-19 15:18:22] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-19 15:18:22] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.3.0rc1.tar.gz]
+[2024-04-19 15:18:22] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-seleniumlibrary-6.3.0rc2.tar.gz]
+[2024-04-19 15:18:22] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2024-04-19 15:18:24] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.6.tar.gz]
+[2024-04-19 15:18:24] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.7.tar.gz]
+[2024-04-19 15:18:24] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2024-04-19 15:18:24] INFO root fetch - main [MainThread]: Store serial: [22842215]
