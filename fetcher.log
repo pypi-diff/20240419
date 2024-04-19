@@ -9791,3 +9791,27 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:45:22] INFO root fetch - processPackages [Sphinx]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-7.3.7.tar.gz]
 [2024-04-19 06:45:22] INFO root fetch - main [MainThread]: End processing [Sphinx]: success
 [2024-04-19 06:45:22] INFO root fetch - main [MainThread]: Store serial: [22836645]
+[2024-04-19 06:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836645]
+[2024-04-19 06:47:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 06:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defectmat
+[2024-04-19 06:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chamco-ragbot
+[2024-04-19 06:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: longport
+[2024-04-19 06:47:31] INFO root fetch - processPackages [chamco-ragbot]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-19 06:47:31] WARNING root fetch - processPackages [defectmat]: Skipping, unable to determine old version
+[2024-04-19 06:47:31] INFO root fetch - main [MainThread]: End processing [defectmat] error
+[2024-04-19 06:47:31] INFO root fetch - processPackages [longport]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 06:47:31] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/ed/b2/fe475e681f5844c047833cf535806cb0617f2b675cd9b885aa469596e5ab/chamco_ragbot-0.1.5.tar.gz
+[2024-04-19 06:47:31] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/a8/d8/56cdd8d715e4b07343d1f38a8f39c316d9a41ef8a16b04ac9ccfb685fd44/longport-1.0.8.tar.gz
+[2024-04-19 06:47:32] INFO root fetch - processPackages [chamco-ragbot]: Downloading https://files.pythonhosted.org/packages/12/17/eaaa77febbf2df34d461053bb6ea4bc1fcbd3c8c2c503251df5c2970d567/chamco_ragbot-0.1.6.tar.gz
+[2024-04-19 06:47:32] INFO root fetch - processPackages [chamco-ragbot]: executing diffoscope
+[2024-04-19 06:47:32] INFO root fetch - processPackages [chamco-ragbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chamco_ragbot-0.1.5.tar.gz tmp/chamco_ragbot-0.1.6.tar.gz --markdown 20240419/c/chamco-ragbot/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-19 06:47:32] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/36/fa/25c45854f4cc739ef801f581c0cf5186fa2fd4928be5a85bf9dba778d99e/longport-1.0.9.tar.gz
+[2024-04-19 06:47:32] INFO root fetch - processPackages [longport]: executing diffoscope
+[2024-04-19 06:47:32] INFO root fetch - processPackages [longport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longport-1.0.8.tar.gz tmp/longport-1.0.9.tar.gz --markdown 20240419/l/longport/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 06:47:32] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.5.tar.gz]
+[2024-04-19 06:47:32] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.6.tar.gz]
+[2024-04-19 06:47:32] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
+[2024-04-19 06:47:33] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.8.tar.gz]
+[2024-04-19 06:47:33] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
+[2024-04-19 06:47:33] INFO root fetch - main [MainThread]: End processing [longport]: success
+[2024-04-19 06:47:33] INFO root fetch - main [MainThread]: Store serial: [22836696]
