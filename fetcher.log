@@ -15401,3 +15401,99 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 11:02:06] INFO root fetch - processPackages [chamco-ragbot]: Remove: archive file [/home/abi/fetcher/tmp/chamco_ragbot-0.1.8.tar.gz]
 [2024-04-19 11:02:06] INFO root fetch - main [MainThread]: End processing [chamco-ragbot]: success
 [2024-04-19 11:02:06] INFO root fetch - main [MainThread]: Store serial: [22839135]
+[2024-04-19 11:04:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22839135]
+[2024-04-19 11:04:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: googleadsquerytool
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nz-seqtech
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyscemu
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sawsi
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trio-bybit
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astro-tiptop
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mario-pipeline-tools
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyDropper
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncmodels
+[2024-04-19 11:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.common
+[2024-04-19 11:04:15] INFO root fetch - processPackages [googleadsquerytool]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 11:04:15] WARNING root fetch - processPackages [PyDropper]: Skipping, unable to determine old version
+[2024-04-19 11:04:15] INFO root fetch - processPackages [PyDropper]: Start processing: bec-ipython-client
+[2024-04-19 11:04:15] INFO root fetch - main [MainThread]: End processing [PyDropper] error
+[2024-04-19 11:04:15] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240418] Old Version: [1.1.0b20240417]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [googleadsquerytool]: Downloading https://files.pythonhosted.org/packages/52/42/465070aa332d69018a8e0d6eaf9c9daf9e10aa0865a0860056f18864db80/googleadsquerytool-0.1.3.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [bec-ipython-client]: New version: [2.5.0] Old Version: [2.4.2]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [trio-bybit]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [pyscemu]: New version: [0.6.1] Old Version: [0.5.9]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [astro-tiptop]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [nz-seqtech]: New version: [0.2.7] Old Version: [0.2.4]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [mario-pipeline-tools]: New version: [0.9] Old Version: [0.8]
+[2024-04-19 11:04:15] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/d3/e7/7fa78b3bad259b7800c42b13d677bac7c842b9dc51f0bb849de5b45e2f60/autogluon.common-1.1.0b20240417.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/02/8f/30fb01e8bc6aa93fe5811090ae54a640db2f80a869e9bfe00afebc3476d6/trio_bybit-0.1.2.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/39/5c/8bbe527caa76d19e89e20b5cba656f9a4d0e33f6eabb6c4b402898db37bf/bec_ipython_client-2.4.2.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [googleadsquerytool]: Downloading https://files.pythonhosted.org/packages/41/b1/7d461f789e9305371efa03a56d775268ea2fec2761ef53e077d419de08c1/googleadsquerytool-0.1.4.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/e8/5e/fb8b16ba096d01297b78442830bac79e857a8fe16c080772ad294bd1b4ea/pyscemu-0.5.9.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/34/12/a47edf2c5bc6e5d134c16d189d2bfd2e7d618de33555d98d5ee2d95cba0e/astro_tiptop-1.3.8.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [mario-pipeline-tools]: Downloading https://files.pythonhosted.org/packages/5f/5d/1393ed0e6d8b25db45134cae70f5c707f3877b139009b27a2f2d509eebfc/mario-pipeline-tools-0.8.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [nz-seqtech]: Downloading https://files.pythonhosted.org/packages/bb/e5/4970cfa2742e42df04f77374dbba151a1fb89f19107eaba1b24a4fe12c98/nz_seqtech-0.2.4.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-19 11:04:15] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [googleadsquerytool]: executing diffoscope
+[2024-04-19 11:04:15] INFO root fetch - processPackages [googleadsquerytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleadsquerytool-0.1.3.tar.gz tmp/googleadsquerytool-0.1.4.tar.gz --markdown 20240419/g/googleadsquerytool/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 11:04:15] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/fe/9c/e91406805963d202c7d1204ef81465f76771275324804af1dc21f46fed92/autogluon.common-1.1.1b20240418.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [bec-ipython-client]: Downloading https://files.pythonhosted.org/packages/4e/96/ad67e0840c373ee9013eb87807900f1ea67bb61d34ae9deb56640ae992a5/bec_ipython_client-2.5.0.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-19 11:04:15] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240419/s/sawsi/9.8-9.9/README.md --exclude *.pyd
+[2024-04-19 11:04:15] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/39/5b/525f8afd4a4f44990da9ac5ec3c70372d8b25072e5863ff487dbe8daeebb/trio_bybit-0.1.3.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [mario-pipeline-tools]: Downloading https://files.pythonhosted.org/packages/45/c2/ba08b12170ebee1932b449c7bb0d450c03a327356094e3007055e597f1c4/mario-pipeline-tools-0.9.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/22/ce/f48da18ee8d1d87f2cd26d9e4bdb39dd8df1348d2277e9da7f9fa779fe0a/pyscemu-0.6.1.tar.gz
+[2024-04-19 11:04:15] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-19 11:04:15] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240417.tar.gz tmp/autogluon.common-1.1.1b20240418.tar.gz --markdown 20240419/a/autogluon.common/1.1.0b20240417-1.1.1b20240418/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [nz-seqtech]: Downloading https://files.pythonhosted.org/packages/cf/0e/508451950717dcfd218965d2c68c07ac1f846313e0e7f6a5c65aaf026d5d/nz_seqtech-0.2.7.tar.gz
+[2024-04-19 11:04:16] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.1.2.tar.gz tmp/trio_bybit-0.1.3.tar.gz --markdown 20240419/t/trio-bybit/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-19 11:04:16] INFO root fetch - processPackages [bec-ipython-client]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [bec-ipython-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_ipython_client-2.4.2.tar.gz tmp/bec_ipython_client-2.5.0.tar.gz --markdown 20240419/b/bec-ipython-client/2.4.2-2.5.0/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [mario-pipeline-tools]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [mario-pipeline-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mario-pipeline-tools-0.8.tar.gz tmp/mario-pipeline-tools-0.9.tar.gz --markdown 20240419/m/mario-pipeline-tools/0.8-0.9/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.5.9.tar.gz tmp/pyscemu-0.6.1.tar.gz --markdown 20240419/p/pyscemu/0.5.9-0.6.1/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [nz-seqtech]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [nz-seqtech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nz_seqtech-0.2.4.tar.gz tmp/nz_seqtech-0.2.7.tar.gz --markdown 20240419/n/nz-seqtech/0.2.4-0.2.7/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240419/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [astro-tiptop]: Downloading https://files.pythonhosted.org/packages/7e/96/eaf6714e7afe1438dc5eab2f407b63ae5f2bb47b12b28612ade7a49050db/astro_tiptop-1.3.9.tar.gz
+[2024-04-19 11:04:16] INFO root fetch - processPackages [googleadsquerytool]: Remove: archive file [/home/abi/fetcher/tmp/googleadsquerytool-0.1.3.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - processPackages [googleadsquerytool]: Remove: archive file [/home/abi/fetcher/tmp/googleadsquerytool-0.1.4.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - main [MainThread]: End processing [googleadsquerytool]: success
+[2024-04-19 11:04:16] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-19 11:04:16] INFO root fetch - processPackages [astro-tiptop]: executing diffoscope
+[2024-04-19 11:04:16] INFO root fetch - processPackages [astro-tiptop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_tiptop-1.3.8.tar.gz tmp/astro_tiptop-1.3.9.tar.gz --markdown 20240419/a/astro-tiptop/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-19 11:04:16] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.2.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.1.3.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-04-19 11:04:16] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240417.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240418.tar.gz]
+[2024-04-19 11:04:16] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-19 11:04:17] INFO root fetch - processPackages [mario-pipeline-tools]: Remove: archive file [/home/abi/fetcher/tmp/mario-pipeline-tools-0.8.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - processPackages [mario-pipeline-tools]: Remove: archive file [/home/abi/fetcher/tmp/mario-pipeline-tools-0.9.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - main [MainThread]: End processing [mario-pipeline-tools]: success
+[2024-04-19 11:04:17] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-19 11:04:17] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-19 11:04:17] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-19 11:04:17] INFO root fetch - processPackages [nz-seqtech]: Remove: archive file [/home/abi/fetcher/tmp/nz_seqtech-0.2.4.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - processPackages [nz-seqtech]: Remove: archive file [/home/abi/fetcher/tmp/nz_seqtech-0.2.7.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - main [MainThread]: End processing [nz-seqtech]: success
+[2024-04-19 11:04:17] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.5.9.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - processPackages [pyscemu]: Remove: archive file [/home/abi/fetcher/tmp/pyscemu-0.6.1.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2024-04-19 11:04:17] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.4.2.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - processPackages [bec-ipython-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_ipython_client-2.5.0.tar.gz]
+[2024-04-19 11:04:17] INFO root fetch - main [MainThread]: End processing [bec-ipython-client]: success
+[2024-04-19 11:04:19] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro_tiptop-1.3.8.tar.gz]
+[2024-04-19 11:04:19] INFO root fetch - processPackages [astro-tiptop]: Remove: archive file [/home/abi/fetcher/tmp/astro_tiptop-1.3.9.tar.gz]
+[2024-04-19 11:04:19] INFO root fetch - main [MainThread]: End processing [astro-tiptop]: success
+[2024-04-19 11:04:19] INFO root fetch - main [MainThread]: Store serial: [22839174]
