@@ -7992,3 +7992,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 04:42:59] INFO root fetch - processPackages [agentdesk]: Remove: archive file [/home/abi/fetcher/tmp/agentdesk-0.2.9.tar.gz]
 [2024-04-19 04:42:59] INFO root fetch - main [MainThread]: End processing [agentdesk]: success
 [2024-04-19 04:42:59] INFO root fetch - main [MainThread]: Store serial: [22835875]
+[2024-04-19 04:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835875]
+[2024-04-19 04:45:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wtfis
+[2024-04-19 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyiron-lammps
+[2024-04-19 04:45:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prompt-learner
+[2024-04-19 04:45:08] INFO root fetch - processPackages [prompt-learner]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 04:45:08] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/69/60/b2faed8835d895b655fc39a07985197da0c122b0b2309fde600a26d0affb/prompt_learner-0.1.7.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [wtfis]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-19 04:45:08] INFO root fetch - processPackages [pyiron-lammps]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-19 04:45:08] INFO root fetch - processPackages [wtfis]: Downloading https://files.pythonhosted.org/packages/53/22/df5fdf569254b5e13710deb6b561ad68fa35aee36b2dabf87c5351453c58/wtfis-0.8.0.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [pyiron-lammps]: Downloading https://files.pythonhosted.org/packages/b3/40/85cebbbcd5ac686a4433dcf9107660d5c32fa7b6f7a3212a20e5948c6394/pyiron_lammps-0.2.8.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [prompt-learner]: Downloading https://files.pythonhosted.org/packages/e6/67/9fcb693f6524f4157c79d7e99a1848e5530de7b39aa14d5314633c8fa9c8/prompt_learner-0.1.8.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [prompt-learner]: executing diffoscope
+[2024-04-19 04:45:08] INFO root fetch - processPackages [prompt-learner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompt_learner-0.1.7.tar.gz tmp/prompt_learner-0.1.8.tar.gz --markdown 20240419/p/prompt-learner/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 04:45:08] INFO root fetch - processPackages [pyiron-lammps]: Downloading https://files.pythonhosted.org/packages/03/30/03b3d418f0f4bf712840a77b03edc8b3899625b38e3aa10067c589db5e0f/pyiron_lammps-0.2.9.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [wtfis]: Downloading https://files.pythonhosted.org/packages/7a/5d/b760e533acaec19208191888f181f4ba4fee5165e5c947cb7a0019e9da62/wtfis-0.9.0.tar.gz
+[2024-04-19 04:45:08] INFO root fetch - processPackages [pyiron-lammps]: executing diffoscope
+[2024-04-19 04:45:08] INFO root fetch - processPackages [pyiron-lammps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_lammps-0.2.8.tar.gz tmp/pyiron_lammps-0.2.9.tar.gz --markdown 20240419/p/pyiron-lammps/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-19 04:45:08] INFO root fetch - processPackages [wtfis]: executing diffoscope
+[2024-04-19 04:45:08] INFO root fetch - processPackages [wtfis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfis-0.8.0.tar.gz tmp/wtfis-0.9.0.tar.gz --markdown 20240419/w/wtfis/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-19 04:45:09] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.1.7.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - processPackages [prompt-learner]: Remove: archive file [/home/abi/fetcher/tmp/prompt_learner-0.1.8.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - main [MainThread]: End processing [prompt-learner]: success
+[2024-04-19 04:45:09] INFO root fetch - processPackages [pyiron-lammps]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_lammps-0.2.8.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - processPackages [pyiron-lammps]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_lammps-0.2.9.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - main [MainThread]: End processing [pyiron-lammps]: success
+[2024-04-19 04:45:09] INFO root fetch - processPackages [wtfis]: Remove: archive file [/home/abi/fetcher/tmp/wtfis-0.8.0.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - processPackages [wtfis]: Remove: archive file [/home/abi/fetcher/tmp/wtfis-0.9.0.tar.gz]
+[2024-04-19 04:45:09] INFO root fetch - main [MainThread]: End processing [wtfis]: success
+[2024-04-19 04:45:09] INFO root fetch - main [MainThread]: Store serial: [22835885]
