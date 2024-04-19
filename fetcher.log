@@ -23089,3 +23089,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:33:10] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-19 15:33:10] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-19 15:33:10] INFO root fetch - main [MainThread]: Store serial: [22842474]
+[2024-04-19 15:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842474]
+[2024-04-19 15:35:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentakserver
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apk-signer
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: silx
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdeps
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yadet
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Implicit
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flops-utils
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: h2o-cloud-discovery
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2024-04-19 15:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scratchcommunication
+[2024-04-19 15:35:20] INFO root fetch - processPackages [flops-utils]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [scratchcommunication]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [silx]: New version: [2.0.1] Old Version: [2.0.0rc0]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [h2o-cloud-discovery]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [apk-signer]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [yadet]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [opentakserver]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.5rc1] Old Version: [2.8.4rc1]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/ae/11/6eca5cc4ff6841df42b625877c946d29eabc724a1258d32336463f514593/flops_utils-0.1.2.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/48/01/6176cb212e9a50d826744a912abaaf71d83db6a87ceb632c1e7156d3e2cd/scratchcommunication-2.4.1.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [xdeps]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-19 15:35:20] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-19 15:35:20] INFO root fetch - processPackages [silx]: Downloading https://files.pythonhosted.org/packages/f2/1b/240cb5b9dd30228ecef90cc7266bbdbe12684ecb8da4d3f65876c42b1d51/silx-2.0.0rc0.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [h2o-cloud-discovery]: Downloading https://files.pythonhosted.org/packages/63/9e/d9dd9b432bd6d92875148be2fc74976fd00f8d0729ba82ad7b59df98b034/h2o_cloud_discovery-1.1.1.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [apk-signer]: Downloading https://files.pythonhosted.org/packages/16/81/47c89d45c3594b99684e8805de63ebccffffa1b6c0ed4c13e3e77481b510/apk-signer-1.1.2.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [yadet]: Downloading https://files.pythonhosted.org/packages/c3/7f/63421d8bdb3372c37c40c44b534da2d4cbfbba8bf840b394476053079232/yadet-1.3.1.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [opentakserver]: Downloading https://files.pythonhosted.org/packages/e7/68/f2e201733e7eb6763b2b9e72da85d12bcbcb453f7178fdc6d2bed5874618/opentakserver-1.1.3.tar.gz
+[2024-04-19 15:35:20] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/37/e7/bd3c254174c7484734d8a53ff117e589ba85485ef25c89ce57070ce72911/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl
+[2024-04-19 15:35:21] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/4f/f9/9c04246b6157703dd52c4ee44213bc4742bf6cfdaccc788b05c0120c634b/xdeps-0.5.6.tar.gz
+[2024-04-19 15:35:21] WARNING root fetch - processPackages [silx]: Skipping package: exceeds size limit 18866642>=10485760
+[2024-04-19 15:35:21] INFO root fetch - processPackages [silx]: Start processing: py_wanderer
+[2024-04-19 15:35:21] INFO root fetch - main [MainThread]: End processing [silx] error
+[2024-04-19 15:35:21] INFO root fetch - processPackages [py_wanderer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/91/21/c03d4c7954f1286595c5e94b56ebde720be8ec2d4a8850abf3d12933e4b5/flops_utils-0.1.3.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/4f/2c/415deec629f87c6b548e86d8e121904ee310460534fc96986750bfc5a06e/scratchcommunication-2.4.2.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flops_utils-0.1.2.tar.gz tmp/flops_utils-0.1.3.tar.gz --markdown 20240419/f/flops-utils/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [h2o-cloud-discovery]: Downloading https://files.pythonhosted.org/packages/62/b6/de30e5563783dbd2404a6136cce7c43947b4b0eb54dba6196815488eaa81/h2o_cloud_discovery-2.0.0.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [apk-signer]: Downloading https://files.pythonhosted.org/packages/9f/d4/743bfc6b37026f675a81ace45a158430af2ce413af4273dd7bbee6789afa/apk_signer-1.1.3.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [yadet]: Downloading https://files.pythonhosted.org/packages/44/ab/70282ef8c326dba024b6e2f03c05be1e49664646632a2b2a9676ca9cedbb/yadet-1.4.0.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [opentakserver]: Downloading https://files.pythonhosted.org/packages/5e/32/af5c449ce8fb03bc5f5ee2a7db1e6ab70be1a20984b1b21941fa01af8bac/opentakserver-1.1.4.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-19 15:35:21] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.4.1.tar.gz tmp/scratchcommunication-2.4.2.tar.gz --markdown 20240419/s/scratchcommunication/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [py_wanderer]: Downloading https://files.pythonhosted.org/packages/f5/b6/91f2f3a2c936a2a1789487b1854b7276b84e4bde7f3e98b4b9406f3dc952/py_wanderer-1.0.0.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [h2o-cloud-discovery]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [h2o-cloud-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_cloud_discovery-1.1.1.tar.gz tmp/h2o_cloud_discovery-2.0.0.tar.gz --markdown 20240419/h/h2o-cloud-discovery/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [yadet]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [yadet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yadet-1.3.1.tar.gz tmp/yadet-1.4.0.tar.gz --markdown 20240419/y/yadet/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/90/08/72d3a261f88b88ab7ac6c736903dd6e82fdaab1dbdae6a7885b9d8b3160e/xdeps-0.5.7.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [opentakserver]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [opentakserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentakserver-1.1.3.tar.gz tmp/opentakserver-1.1.4.tar.gz --markdown 20240419/o/opentakserver/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [apk-signer]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [apk-signer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apk-signer-1.1.2.tar.gz tmp/apk_signer-1.1.3.tar.gz --markdown 20240419/a/apk-signer/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [py_wanderer]: Downloading https://files.pythonhosted.org/packages/87/93/caad8f3e757a03380983471eae21602bdf422d2a8bb3689c182be382a058/py_wanderer-1.0.1.tar.gz
+[2024-04-19 15:35:21] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240419/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/f7/fa/28e4e33b06c3dcad81846ffa072282d735f5172774daa8be50922809c3b7/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 15:35:21] INFO root fetch - processPackages [py_wanderer]: executing diffoscope
+[2024-04-19 15:35:21] INFO root fetch - processPackages [py_wanderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_wanderer-1.0.0.tar.gz tmp/py_wanderer-1.0.1.tar.gz --markdown 20240419/p/py_wanderer/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.2.tar.gz]
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.3.tar.gz]
+[2024-04-19 15:35:21] INFO root fetch - processPackages [flops-utils]: Start processing: Nuitka
+[2024-04-19 15:35:21] INFO root fetch - main [MainThread]: End processing [flops-utils]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [Nuitka]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.4.1.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.4.2.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [apk-signer]: Remove: archive file [/home/abi/fetcher/tmp/apk-signer-1.1.2.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [apk-signer]: Remove: archive file [/home/abi/fetcher/tmp/apk_signer-1.1.3.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [apk-signer]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/35/18/037245c819c82a513d99f6036440159db21593e504b1247f01ef200412a8/Nuitka-2.1.4.tar.gz
+[2024-04-19 15:35:22] INFO root fetch - processPackages [xdeps]: executing diffoscope
+[2024-04-19 15:35:22] INFO root fetch - processPackages [xdeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdeps-0.5.6.tar.gz tmp/xdeps-0.5.7.tar.gz --markdown 20240419/x/xdeps/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-04-19 15:35:22] INFO root fetch - processPackages [h2o-cloud-discovery]: Remove: archive file [/home/abi/fetcher/tmp/h2o_cloud_discovery-1.1.1.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [h2o-cloud-discovery]: Remove: archive file [/home/abi/fetcher/tmp/h2o_cloud_discovery-2.0.0.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [h2o-cloud-discovery]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [yadet]: Remove: archive file [/home/abi/fetcher/tmp/yadet-1.3.1.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [yadet]: Remove: archive file [/home/abi/fetcher/tmp/yadet-1.4.0.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [yadet]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-04-19 15:35:22] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240419/G/Geode-Implicit/2.8.4rc1-2.8.5rc1/README.md --exclude *.pyd
+[2024-04-19 15:35:22] INFO root fetch - processPackages [opentakserver]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.3.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [opentakserver]: Remove: archive file [/home/abi/fetcher/tmp/opentakserver-1.1.4.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [opentakserver]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [py_wanderer]: Remove: archive file [/home/abi/fetcher/tmp/py_wanderer-1.0.0.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [py_wanderer]: Remove: archive file [/home/abi/fetcher/tmp/py_wanderer-1.0.1.tar.gz]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [py_wanderer]: success
+[2024-04-19 15:35:22] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/a8/2c/5799947a4190249d7c9bc615785a97d24fd7de3687e72f3aec354f3b607c/Nuitka-2.1.5.tar.gz
+[2024-04-19 15:35:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-19 15:35:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-19 15:35:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-19 15:35:23] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2024-04-19 15:35:23] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-2.1.4.tar.gz tmp/Nuitka-2.1.5.tar.gz --markdown 20240419/N/Nuitka/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-04-19 15:35:23] INFO root fetch - processPackages [xdeps]: Remove: archive file [/home/abi/fetcher/tmp/xdeps-0.5.6.tar.gz]
+[2024-04-19 15:35:23] INFO root fetch - processPackages [xdeps]: Remove: archive file [/home/abi/fetcher/tmp/xdeps-0.5.7.tar.gz]
+[2024-04-19 15:35:23] INFO root fetch - main [MainThread]: End processing [xdeps]: success
+[2024-04-19 15:35:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.4rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-19 15:35:23] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.5rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-19 15:35:23] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-04-19 15:35:30] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.4.tar.gz]
+[2024-04-19 15:35:30] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.5.tar.gz]
+[2024-04-19 15:35:30] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2024-04-19 15:35:30] INFO root fetch - main [MainThread]: Store serial: [22842581]
