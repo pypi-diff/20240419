@@ -23196,3 +23196,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:35:30] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.1.5.tar.gz]
 [2024-04-19 15:35:30] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2024-04-19 15:35:30] INFO root fetch - main [MainThread]: Store serial: [22842581]
+[2024-04-19 15:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842581]
+[2024-04-19 15:37:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py_wanderer
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evergreen-py
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ir-datasets-clueweb22
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flops-utils
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autowsgr
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: q-alchemy-sdk-py
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odp-sdk
+[2024-04-19 15:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-customvueadmin
+[2024-04-19 15:37:41] INFO root fetch - processPackages [flops-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [py_wanderer]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [autowsgr]: New version: [0.2.2.9] Old Version: [0.2.2.8]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [py_wanderer]: Downloading https://files.pythonhosted.org/packages/87/93/caad8f3e757a03380983471eae21602bdf422d2a8bb3689c182be382a058/py_wanderer-1.0.1.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [q-alchemy-sdk-py]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/91/21/c03d4c7954f1286595c5e94b56ebde720be8ec2d4a8850abf3d12933e4b5/flops_utils-0.1.3.tar.gz
+[2024-04-19 15:37:41] WARNING root fetch - processPackages [ir-datasets-clueweb22]: Skipping, unable to determine old version
+[2024-04-19 15:37:41] INFO root fetch - main [MainThread]: End processing [ir-datasets-clueweb22] error
+[2024-04-19 15:37:41] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/f2/ad/899112475debe00b15bcad1fa2935849195234e216d81c0d9ede9556cbe9/odp_sdk-0.4.6.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [evergreen-py]: New version: [3.6.9] Old Version: [3.6.8]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [django-customvueadmin]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 15:37:41] INFO root fetch - processPackages [autowsgr]: Downloading https://files.pythonhosted.org/packages/20/db/bb4942509a54b1f01fa10e10e3dca250f9cf92488729f8292657988ac8e2/autowsgr-0.2.2.8.tar.gz
+[2024-04-19 15:37:41] WARNING root fetch - processPackages [autowsgr]: Skipping package: exceeds size limit 18156638>=10485760
+[2024-04-19 15:37:41] INFO root fetch - main [MainThread]: End processing [autowsgr] error
+[2024-04-19 15:37:41] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/1d/78/ea802a90ad4c5c4076a234d26576abbb6ebdd1452c9b65d3df78ae882914/evergreen_py-3.6.8.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [q-alchemy-sdk-py]: Downloading https://files.pythonhosted.org/packages/19/0b/5f046e50ff3a513e2eb5e26eb94313d8b9e461977f13fbe19321ff79cfa2/q_alchemy_sdk_py-0.2.3.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/20/a1/310370f7b15fd4a4c078101463add09c8030a592df6debf6364b04e37afb/odp_sdk-0.4.7.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/c5/4d/0d59effed1262f17c1fa142676a62a053cf3bcafbece7f3fdf47d7cb29f3/django-customvueadmin-0.1.8.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [py_wanderer]: Downloading https://files.pythonhosted.org/packages/95/5a/1f289bb6101c750774d92c50ad51366add56ca7e0b78568216966ee90a34/py_wanderer-1.0.2.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/26/63/a342eadd9136e0c59a631708d5679e170b48b67eb9a1c773224c9ec3b82d/flops_utils-0.1.4.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [py_wanderer]: executing diffoscope
+[2024-04-19 15:37:41] INFO root fetch - processPackages [py_wanderer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_wanderer-1.0.1.tar.gz tmp/py_wanderer-1.0.2.tar.gz --markdown 20240419/p/py_wanderer/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-19 15:37:41] INFO root fetch - processPackages [flops-utils]: executing diffoscope
+[2024-04-19 15:37:41] INFO root fetch - processPackages [flops-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flops_utils-0.1.3.tar.gz tmp/flops_utils-0.1.4.tar.gz --markdown 20240419/f/flops-utils/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 15:37:41] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-04-19 15:37:41] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.6.tar.gz tmp/odp_sdk-0.4.7.tar.gz --markdown 20240419/o/odp-sdk/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-19 15:37:41] INFO root fetch - processPackages [evergreen-py]: Downloading https://files.pythonhosted.org/packages/7e/fe/52627ca6a31a5eb6238cc81aa3388bf6a99bd3c3b8f93e588a954fc72040/evergreen_py-3.6.9.tar.gz
+[2024-04-19 15:37:41] INFO root fetch - processPackages [q-alchemy-sdk-py]: Downloading https://files.pythonhosted.org/packages/f7/81/909e960160d93448ab2ef3d749e602917e8addeda075d457dd3f454de46d/q_alchemy_sdk_py-0.2.4.tar.gz
+[2024-04-19 15:37:42] INFO root fetch - processPackages [evergreen-py]: executing diffoscope
+[2024-04-19 15:37:42] INFO root fetch - processPackages [evergreen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen_py-3.6.8.tar.gz tmp/evergreen_py-3.6.9.tar.gz --markdown 20240419/e/evergreen-py/3.6.8-3.6.9/README.md --exclude *.pyd
+[2024-04-19 15:37:42] INFO root fetch - processPackages [q-alchemy-sdk-py]: executing diffoscope
+[2024-04-19 15:37:42] INFO root fetch - processPackages [q-alchemy-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q_alchemy_sdk_py-0.2.3.tar.gz tmp/q_alchemy_sdk_py-0.2.4.tar.gz --markdown 20240419/q/q-alchemy-sdk-py/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-19 15:37:42] INFO root fetch - processPackages [django-customvueadmin]: Downloading https://files.pythonhosted.org/packages/d8/b4/d8ed66d757c0e6f03e7cd5ee5b378818027ed3bcff5118e94ea6612ccdae/django-customvueadmin-0.1.9.tar.gz
+[2024-04-19 15:37:42] INFO root fetch - processPackages [django-customvueadmin]: executing diffoscope
+[2024-04-19 15:37:42] INFO root fetch - processPackages [django-customvueadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-customvueadmin-0.1.8.tar.gz tmp/django-customvueadmin-0.1.9.tar.gz --markdown 20240419/d/django-customvueadmin/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 15:37:42] INFO root fetch - processPackages [py_wanderer]: Remove: archive file [/home/abi/fetcher/tmp/py_wanderer-1.0.1.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - processPackages [py_wanderer]: Remove: archive file [/home/abi/fetcher/tmp/py_wanderer-1.0.2.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - main [MainThread]: End processing [py_wanderer]: success
+[2024-04-19 15:37:42] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.3.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.4.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - main [MainThread]: End processing [flops-utils]: success
+[2024-04-19 15:37:42] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.6.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.7.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-04-19 15:37:42] INFO root fetch - processPackages [evergreen-py]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_py-3.6.8.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - processPackages [evergreen-py]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_py-3.6.9.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - main [MainThread]: End processing [evergreen-py]: success
+[2024-04-19 15:37:42] INFO root fetch - processPackages [q-alchemy-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/q_alchemy_sdk_py-0.2.3.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - processPackages [q-alchemy-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/q_alchemy_sdk_py-0.2.4.tar.gz]
+[2024-04-19 15:37:42] INFO root fetch - main [MainThread]: End processing [q-alchemy-sdk-py]: success
+[2024-04-19 15:37:43] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.8.tar.gz]
+[2024-04-19 15:37:43] INFO root fetch - processPackages [django-customvueadmin]: Remove: archive file [/home/abi/fetcher/tmp/django-customvueadmin-0.1.9.tar.gz]
+[2024-04-19 15:37:43] INFO root fetch - main [MainThread]: End processing [django-customvueadmin]: success
+[2024-04-19 15:37:43] INFO root fetch - main [MainThread]: Store serial: [22842609]
