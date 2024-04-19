@@ -11519,3 +11519,38 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:17:13] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.3.0rc2.tar.gz]
 [2024-04-19 08:17:13] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-04-19 08:17:13] INFO root fetch - main [MainThread]: Store serial: [22837405]
+[2024-04-19 08:19:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837405]
+[2024-04-19 08:19:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 08:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crawlist
+[2024-04-19 08:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-master
+[2024-04-19 08:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jetson-examples
+[2024-04-19 08:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-managed-apis
+[2024-04-19 08:19:23] INFO root fetch - processPackages [jetson-examples]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 08:19:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240418.7.40.174324] Old Version: [20240418.22.30.248456]
+[2024-04-19 08:19:23] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/65/80/30ed9f153d31c484707895ee7240c704f9db980e72b610eb8327bcc7ebb7/jetson_examples-0.0.5.tar.gz
+[2024-04-19 08:19:23] INFO root fetch - processPackages [crawlist]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-19 08:19:23] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.3.3.0rc2] Old Version: [1.3.3.0rc1]
+[2024-04-19 08:19:23] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ea/c6/34e8f79f840fc01e02b9adfeb3a2b4bdd3f93c244d9ea02caa638f5d9874/certora-cli-alpha-master-20240418.22.30.248456.tar.gz
+[2024-04-19 08:19:23] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14538734>=10485760
+[2024-04-19 08:19:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-19 08:19:23] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/30/9e/88b71d21c7ee1cf884ad3abe483a222879becb9075f7e6a864b52603157f/crawlist-0.0.5.tar.gz
+[2024-04-19 08:19:23] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/fe/ef/ef59ac142c18244d720aa28199d9debdfcd8e6bd38b87f0f5e2cf2ae5827/jetson_examples-0.0.6.tar.gz
+[2024-04-19 08:19:23] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-04-19 08:19:23] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson_examples-0.0.5.tar.gz tmp/jetson_examples-0.0.6.tar.gz --markdown 20240419/j/jetson-examples/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 08:19:23] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/a0/c4/7b7f06dbed827741748fdcff31eb8b3b65920fa685f1ca9c845986f45dfb/openmetadata_managed_apis-1.3.3.0rc1.tar.gz
+[2024-04-19 08:19:23] INFO root fetch - processPackages [crawlist]: Downloading https://files.pythonhosted.org/packages/d2/22/8f81f53d1e31fd6d931c94b1725d8335ad7c7b1ec1a792f663d94ec18902/crawlist-0.0.6.tar.gz
+[2024-04-19 08:19:23] INFO root fetch - processPackages [crawlist]: executing diffoscope
+[2024-04-19 08:19:23] INFO root fetch - processPackages [crawlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawlist-0.0.5.tar.gz tmp/crawlist-0.0.6.tar.gz --markdown 20240419/c/crawlist/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-19 08:19:23] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/93/15/8a68df9c338add9a4a6cf617e2f99826c90db5683b9357ba4423b5987259/openmetadata_managed_apis-1.3.3.0rc2.tar.gz
+[2024-04-19 08:19:24] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-04-19 08:19:24] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz tmp/openmetadata_managed_apis-1.3.3.0rc2.tar.gz --markdown 20240419/o/openmetadata-managed-apis/1.3.3.0rc1-1.3.3.0rc2/README.md --exclude *.pyd
+[2024-04-19 08:19:24] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.5.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.6.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-04-19 08:19:24] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.5.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - processPackages [crawlist]: Remove: archive file [/home/abi/fetcher/tmp/crawlist-0.0.6.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - main [MainThread]: End processing [crawlist]: success
+[2024-04-19 08:19:24] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.3.0rc1.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.3.3.0rc2.tar.gz]
+[2024-04-19 08:19:24] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-04-19 08:19:24] INFO root fetch - main [MainThread]: Store serial: [22837420]
