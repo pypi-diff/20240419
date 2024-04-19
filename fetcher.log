@@ -22745,3 +22745,164 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:26:25] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.6.dev18930-py2.py3-none-any.whl.zip]
 [2024-04-19 15:26:25] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-19 15:26:25] INFO root fetch - main [MainThread]: Store serial: [22842319]
+[2024-04-19 15:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842319]
+[2024-04-19 15:28:34] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scipion-em-eman2
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotrain-advanced
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtpu
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rwmapeditor-exgcdwu
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scratchcommunication
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiara-plugin.onboarding
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDetektia
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: feature-store-utils
+[2024-04-19 15:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: validators
+[2024-04-19 15:28:34] INFO root fetch - processPackages [scratchcommunication]: New version: [2.4.1] Old Version: [2.3.2]
+[2024-04-19 15:28:34] INFO root fetch - processPackages [dtpu]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scipion-em-eman2]: New version: [3.6.1] Old Version: [3.6]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/8e/37/e21e069d6a401cb5b5a9eeadc2008cde7efc8aec46b146e3a3b0fb904910/scratchcommunication-2.3.2.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [dtpu]: Downloading https://files.pythonhosted.org/packages/08/8b/fb645ae4512a492c4de82b179acc0fe6295944968d75b490669ebedc4d7a/dtpu-0.4.1-cp38-abi3-win_amd64.whl
+[2024-04-19 15:28:35] INFO root fetch - processPackages [kiara-plugin.onboarding]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [pyDetektia]: New version: [2.0.0] Old Version: [1.0.1]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [feature-store-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [validators]: New version: [0.9] Old Version: [0.8]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240419.7.51.91355] Old Version: [20240419.6.18.49575]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scipion-em-eman2]: Downloading https://files.pythonhosted.org/packages/77/62/92fc0a81b638dc0864ae15f7fbc24f8ed15b3d2b5c67cb8fb17c4a367ef6/scipion-em-eman2-3.6.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/48/01/6176cb212e9a50d826744a912abaaf71d83db6a87ceb632c1e7156d3e2cd/scratchcommunication-2.4.1.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/f2/58/ea69865806aac8656781adce543697cdd919486dda8b7acc8885c5859551/kiara_plugin.onboarding-0.5.0.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/bf/ad/70605abadc1492eed4312d0a4598c0d204977fde2fd896cc57c82f60a50d/pyDetektia-1.0.1.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [feature-store-utils]: Downloading https://files.pythonhosted.org/packages/88/00/4e3fbeab07724c0b3b5ab9b5ae484d4a2f80aded68375602df928a4c2ba2/feature_store_utils-0.0.3.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: Downloading https://files.pythonhosted.org/packages/1a/f9/bf70bb0900f010a39aecd053ba5d2b556653a794c96e25faf347167f387c/rwmapeditor_exgcdwu-1.2.4.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ba/4a/4951ee0f5ad69546f4e4cf12d0b3e1fdc5c25b7d84b15906c60b88da743c/certora-cli-alpha-master-20240419.6.18.49575.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/01/fd/252e65efd602dabab848e05cb1abdb6327c680d9e4734fcbd1a098faf738/validators-0.8.tar.gz
+[2024-04-19 15:28:35] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14538861>=10485760
+[2024-04-19 15:28:35] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: foursight-smaht
+[2024-04-19 15:28:35] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-19 15:28:35] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.3.2.tar.gz tmp/scratchcommunication-2.4.1.tar.gz --markdown 20240419/s/scratchcommunication/2.3.2-2.4.1/README.md --exclude *.pyd
+[2024-04-19 15:28:35] INFO root fetch - processPackages [foursight-smaht]: New version: [0.8.6.1b3] Old Version: [0.8.6.1b2]
+[2024-04-19 15:28:35] INFO root fetch - processPackages [dtpu]: Downloading https://files.pythonhosted.org/packages/e6/ee/cc19bd482d75714cccc5cc31600f04e2731d22a9518283fdc23eb0a149a1/dtpu-0.5.0-cp38-abi3-win_amd64.whl
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scipion-em-eman2]: Downloading https://files.pythonhosted.org/packages/3e/d3/06d5cbcc84cedc488d3e957b241638133f09f8b882183d2be45a9becb0d6/scipion-em-eman2-3.6.1.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240419/a/autotrain-advanced/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 15:28:35] INFO root fetch - processPackages [foursight-smaht]: Downloading https://files.pythonhosted.org/packages/36/be/33e525057efec5eba3aad046998b91e35302c291c0c3f5a5f8a5db9f16ff/foursight_smaht-0.8.6.1b2.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [kiara-plugin.onboarding]: Downloading https://files.pythonhosted.org/packages/48/0f/279a2151a56f2d390be9fd76277d13469448d95b25b65e9ca3a003b685ab/kiara_plugin_onboarding-0.5.1.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [pyDetektia]: Downloading https://files.pythonhosted.org/packages/5a/6d/8aa276f24c1e20034c8e6e4a633d0c45cbb2a9ec49457333953742df93bf/pyDetektia-2.0.0.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [feature-store-utils]: Downloading https://files.pythonhosted.org/packages/fe/51/188dab2a3a22eabafe346604bf80d9655cab79824d262f6b61e11362ce16/feature_store_utils-0.0.4.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/70/e1/23fa50c66483b57e75ab945f5a5df1627f52df7b34aa3b6376a822ba9eaf/validators-0.9.tar.gz
+[2024-04-19 15:28:35] INFO root fetch - processPackages [kiara-plugin.onboarding]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [kiara-plugin.onboarding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.onboarding-0.5.0.tar.gz tmp/kiara_plugin_onboarding-0.5.1.tar.gz --markdown 20240419/k/kiara-plugin.onboarding/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scipion-em-eman2]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [scipion-em-eman2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-eman2-3.6.tar.gz tmp/scipion-em-eman2-3.6.1.tar.gz --markdown 20240419/s/scipion-em-eman2/3.6-3.6.1/README.md --exclude *.pyd
+[2024-04-19 15:28:35] INFO root fetch - processPackages [feature-store-utils]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [feature-store-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feature_store_utils-0.0.3.tar.gz tmp/feature_store_utils-0.0.4.tar.gz --markdown 20240419/f/feature-store-utils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 15:28:35] INFO root fetch - processPackages [pyDetektia]: executing diffoscope
+[2024-04-19 15:28:35] INFO root fetch - processPackages [pyDetektia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDetektia-1.0.1.tar.gz tmp/pyDetektia-2.0.0.tar.gz --markdown 20240419/p/pyDetektia/1.0.1-2.0.0/README.md --exclude *.pyd
+[2024-04-19 15:28:36] INFO root fetch - processPackages [validators]: executing diffoscope
+[2024-04-19 15:28:36] INFO root fetch - processPackages [validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validators-0.8.tar.gz tmp/validators-0.9.tar.gz --markdown 20240419/v/validators/0.8-0.9/README.md --exclude *.pyd
+[2024-04-19 15:28:36] INFO root fetch - processPackages [foursight-smaht]: Downloading https://files.pythonhosted.org/packages/5a/3c/a066abd6e85b86f7defbe7d194177dd56b766af687e5cfa327a965ed9f1d/foursight_smaht-0.8.6.1b3.tar.gz
+[2024-04-19 15:28:36] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: Downloading https://files.pythonhosted.org/packages/ad/4b/c5ade0b306f34158d368e356da04beb8581296694f29678a2adbc685853b/rwmapeditor_exgcdwu-1.2.5.tar.gz
+[2024-04-19 15:28:36] INFO root fetch - processPackages [dtpu]: executing diffoscope
+[2024-04-19 15:28:36] INFO root fetch - processPackages [dtpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtpu-0.4.1-cp38-abi3-win_amd64.whl.zip tmp/dtpu-0.5.0-cp38-abi3-win_amd64.whl.zip --markdown 20240419/d/dtpu/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-04-19 15:28:36] INFO root fetch - processPackages [foursight-smaht]: executing diffoscope
+[2024-04-19 15:28:36] INFO root fetch - processPackages [foursight-smaht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foursight_smaht-0.8.6.1b2.tar.gz tmp/foursight_smaht-0.8.6.1b3.tar.gz --markdown 20240419/f/foursight-smaht/0.8.6.1b2-0.8.6.1b3/README.md --exclude *.pyd
+[2024-04-19 15:28:36] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: executing diffoscope
+[2024-04-19 15:28:36] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwmapeditor_exgcdwu-1.2.4.tar.gz tmp/rwmapeditor_exgcdwu-1.2.5.tar.gz --markdown 20240419/r/rwmapeditor-exgcdwu/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-19 15:28:36] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.3.2.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.4.1.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [scratchcommunication]: Start processing: kdp
+[2024-04-19 15:28:36] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-04-19 15:28:36] INFO root fetch - processPackages [kdp]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [kdp]: Downloading https://files.pythonhosted.org/packages/02/33/a2ebb646e9ab1e728766626a6c306d7cceba81968fb1c86178b6a6628d3f/kdp-1.4.0.tar.gz
+[2024-04-19 15:28:36] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-1.0.1.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [pyDetektia]: Remove: archive file [/home/abi/fetcher/tmp/pyDetektia-2.0.0.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [pyDetektia]: Start processing: flops-utils
+[2024-04-19 15:28:36] INFO root fetch - main [MainThread]: End processing [pyDetektia]: success
+[2024-04-19 15:28:36] INFO root fetch - processPackages [kdp]: Downloading https://files.pythonhosted.org/packages/0d/15/c4d664d096df81f6ee23936540b68050238e909b50962f0c98c1bc13b506/kdp-1.5.0.tar.gz
+[2024-04-19 15:28:36] INFO root fetch - processPackages [flops-utils]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [autotrain-advanced]: Start processing: ophyd-devices
+[2024-04-19 15:28:36] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-19 15:28:36] INFO root fetch - processPackages [feature-store-utils]: Remove: archive file [/home/abi/fetcher/tmp/feature_store_utils-0.0.3.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [feature-store-utils]: Remove: archive file [/home/abi/fetcher/tmp/feature_store_utils-0.0.4.tar.gz]
+[2024-04-19 15:28:36] INFO root fetch - processPackages [feature-store-utils]: Start processing: ltbfiles
+[2024-04-19 15:28:36] INFO root fetch - main [MainThread]: End processing [feature-store-utils]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.onboarding-0.5.0.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kiara-plugin.onboarding]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_onboarding-0.5.1.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kiara-plugin.onboarding]: Start processing: pyrevm
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [kiara-plugin.onboarding]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kdp]: executing diffoscope
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-1.4.0.tar.gz tmp/kdp-1.5.0.tar.gz --markdown 20240419/k/kdp/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-04-19 15:28:37] INFO root fetch - processPackages [dtpu]: Remove: archive file [/home/abi/fetcher/tmp/dtpu-0.4.1-cp38-abi3-win_amd64.whl.zip]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [dtpu]: Remove: archive file [/home/abi/fetcher/tmp/dtpu-0.5.0-cp38-abi3-win_amd64.whl.zip]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [dtpu]: Start processing: pytruncreg
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [dtpu]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/ef/ae/84b4dea2db9ccd6ce57ff451b3bededc96771f6b54853860dfd941a57f9c/flops_utils-0.1.1.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ophyd-devices]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ltbfiles]: New version: [4.0.0rc257] Old Version: [3.2.0rc221]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [foursight-smaht]: Remove: archive file [/home/abi/fetcher/tmp/foursight_smaht-0.8.6.1b2.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [foursight-smaht]: Remove: archive file [/home/abi/fetcher/tmp/foursight_smaht-0.8.6.1b3.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [foursight-smaht]: Start processing: bitcoin-qrreader
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [foursight-smaht]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [pyrevm]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [scipion-em-eman2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-eman2-3.6.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [scipion-em-eman2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-eman2-3.6.1.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [scipion-em-eman2]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [pytruncreg]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.8.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.9.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [validators]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [bitcoin-qrreader]: New version: [0.8.3] Old Version: [0.8.1]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/2b/09/1e0a1fc236c9ce64bbf92f29458f9e672c21b97c776e5c9f5d5ae6e23d72/ophyd_devices-0.9.1.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/a5/ff/e97f9554753ed7f92ff76d6fa7da0755c934dd3c9177c6ba2b3c4ecc55a2/ltbfiles-3.2.0rc221.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [flops-utils]: Downloading https://files.pythonhosted.org/packages/ae/11/6eca5cc4ff6841df42b625877c946d29eabc724a1258d32336463f514593/flops_utils-0.1.2.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/76/5c/a66ad438348635af4af466e4cbdefeee8aedfd3ed2ee13219199f1cc93fe/pyrevm-0.3.0.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [pytruncreg]: Downloading https://files.pythonhosted.org/packages/0c/0d/cd0bca8d8339a1517c118e09639704a2efad5fe4a3940a8a2f54a6d74db3/pytruncreg-0.1.2.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [flops-utils]: executing diffoscope
+[2024-04-19 15:28:37] INFO root fetch - processPackages [flops-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flops_utils-0.1.1.tar.gz tmp/flops_utils-0.1.2.tar.gz --markdown 20240419/f/flops-utils/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 15:28:37] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/b8/13/c390686f333aa930568f5ea75c194f35112fc902a921ff0c951ee981745f/bitcoin_qrreader-0.8.1.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/fd/47/65abe2298fd05b49fdf68d6867fb8c7c46e5994c5969ac6a9792743370d6/ltbfiles-4.0.0rc257.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: Remove: archive file [/home/abi/fetcher/tmp/rwmapeditor_exgcdwu-1.2.4.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [rwmapeditor-exgcdwu]: Remove: archive file [/home/abi/fetcher/tmp/rwmapeditor_exgcdwu-1.2.5.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [rwmapeditor-exgcdwu]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ophyd-devices]: Downloading https://files.pythonhosted.org/packages/55/4e/d641ca498a4fba59915a76536e150eb26c82206c4314ac039e51ef8aeae8/ophyd_devices-0.9.2.tar.gz
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-3.2.0rc221.tar.gz tmp/ltbfiles-4.0.0rc257.tar.gz --markdown 20240419/l/ltbfiles/3.2.0rc221-4.0.0rc257/README.md --exclude *.pyd
+[2024-04-19 15:28:37] INFO root fetch - processPackages [pyrevm]: Downloading https://files.pythonhosted.org/packages/73/50/8be211a0d30848f3607d3f64c576f7cd374dc02209ab449ae2b742c2ace5/pyrevm-0.3.1-pp38-pypy38_pp73-manylinux_2_12_i686.manylinux2010_i686.whl
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kdp]: Remove: archive file [/home/abi/fetcher/tmp/kdp-1.4.0.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - processPackages [kdp]: Remove: archive file [/home/abi/fetcher/tmp/kdp-1.5.0.tar.gz]
+[2024-04-19 15:28:37] INFO root fetch - main [MainThread]: End processing [kdp]: success
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ophyd-devices]: executing diffoscope
+[2024-04-19 15:28:37] INFO root fetch - processPackages [ophyd-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ophyd_devices-0.9.1.tar.gz tmp/ophyd_devices-0.9.2.tar.gz --markdown 20240419/o/ophyd-devices/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-19 15:28:38] INFO root fetch - processPackages [bitcoin-qrreader]: Downloading https://files.pythonhosted.org/packages/cd/f7/85eb7c56245ad265cbb95aae1960316fd97911fe1a8e0cb041e74f6212d5/bitcoin_qrreader-0.8.3.tar.gz
+[2024-04-19 15:28:38] INFO root fetch - processPackages [pytruncreg]: Downloading https://files.pythonhosted.org/packages/68/4d/f7714ad373b33c6d66894473ef56f0ed90c40e7ebc570587a895a3926bbc/pytruncreg-0.2.0.tar.gz
+[2024-04-19 15:28:38] INFO root fetch - processPackages [pytruncreg]: executing diffoscope
+[2024-04-19 15:28:38] INFO root fetch - processPackages [pytruncreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytruncreg-0.1.2.tar.gz tmp/pytruncreg-0.2.0.tar.gz --markdown 20240419/p/pytruncreg/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-19 15:28:38] INFO root fetch - processPackages [bitcoin-qrreader]: executing diffoscope
+[2024-04-19 15:28:38] INFO root fetch - processPackages [bitcoin-qrreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitcoin_qrreader-0.8.1.tar.gz tmp/bitcoin_qrreader-0.8.3.tar.gz --markdown 20240419/b/bitcoin-qrreader/0.8.1-0.8.3/README.md --exclude *.pyd
+[2024-04-19 15:28:38] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.1.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - processPackages [flops-utils]: Remove: archive file [/home/abi/fetcher/tmp/flops_utils-0.1.2.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - main [MainThread]: End processing [flops-utils]: success
+[2024-04-19 15:28:38] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-3.2.0rc221.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - processPackages [ltbfiles]: Remove: archive file [/home/abi/fetcher/tmp/ltbfiles-4.0.0rc257.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2024-04-19 15:28:38] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.1.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - processPackages [ophyd-devices]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_devices-0.9.2.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - main [MainThread]: End processing [ophyd-devices]: success
+[2024-04-19 15:28:38] INFO root fetch - processPackages [pytruncreg]: Remove: archive file [/home/abi/fetcher/tmp/pytruncreg-0.1.2.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - processPackages [pytruncreg]: Remove: archive file [/home/abi/fetcher/tmp/pytruncreg-0.2.0.tar.gz]
+[2024-04-19 15:28:38] INFO root fetch - main [MainThread]: End processing [pytruncreg]: success
+[2024-04-19 15:28:39] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.8.1.tar.gz]
+[2024-04-19 15:28:39] INFO root fetch - processPackages [bitcoin-qrreader]: Remove: archive file [/home/abi/fetcher/tmp/bitcoin_qrreader-0.8.3.tar.gz]
+[2024-04-19 15:28:39] INFO root fetch - main [MainThread]: End processing [bitcoin-qrreader]: success
+[2024-04-19 15:28:43] INFO root fetch - processPackages [pyrevm]: executing diffoscope
+[2024-04-19 15:28:43] INFO root fetch - processPackages [pyrevm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevm-0.3.0.tar.gz tmp/pyrevm-0.3.1-pp38-pypy38_pp73-manylinux_2_12_i686.manylinux2010_i686.whl.zip --markdown 20240419/p/pyrevm/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-19 15:28:44] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.0.tar.gz]
+[2024-04-19 15:28:44] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.1-pp38-pypy38_pp73-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
+[2024-04-19 15:28:44] INFO root fetch - main [MainThread]: End processing [pyrevm]: success
+[2024-04-19 15:28:44] INFO root fetch - main [MainThread]: Store serial: [22842402]
