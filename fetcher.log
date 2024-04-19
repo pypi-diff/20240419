@@ -14574,3 +14574,42 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 10:32:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-19 10:32:01] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-19 10:32:01] INFO root fetch - main [MainThread]: Store serial: [22838765]
+[2024-04-19 10:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838765]
+[2024-04-19 10:34:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xarray-safe-s1
+[2024-04-19 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyis-activitystreams
+[2024-04-19 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: magictk
+[2024-04-19 10:34:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eirStru
+[2024-04-19 10:34:09] INFO root fetch - processPackages [whyis-activitystreams]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 10:34:09] INFO root fetch - processPackages [magictk]: New version: [0.0.2.35] Old Version: [0.0.2.34]
+[2024-04-19 10:34:09] INFO root fetch - processPackages [eirStru]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-19 10:34:09] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2024.4.19] Old Version: [2024.1.9]
+[2024-04-19 10:34:09] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/57/40/02b3a5177107b9020b9f8163aa2bf4904f47bc6bf669ca67239d90849c31/eirStru-0.2.98.tar.gz
+[2024-04-19 10:34:09] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/94/c0/aa7a70acddb4501596471e2bd5fc41ee6b50836f7587a8bf5c9ecc9ff4c3/magictk-0.0.2.34.tar.gz
+[2024-04-19 10:34:09] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/0c/99/5822767ef9276f04868499f0f068a20bbe47baf6ac1c7f05f6e523abf173/whyis_activitystreams-0.0.7.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/6a/5e/9c228c951729e955b032863b6716447839ed27e5e6288b33f4bf82ba87b5/xarray-safe-s1-2024.1.9.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/01/ae/2f240fe79d95cf24891490d0aa249cc2e144236b443d00f5d81ff7ee2464/eirStru-0.2.99.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [whyis-activitystreams]: Downloading https://files.pythonhosted.org/packages/05/f6/2302ee2f9817c8d1b46d031c9791ab86f851e188eb477f6600bcf4a1e620/whyis_activitystreams-0.0.8.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-19 10:34:10] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.98.tar.gz tmp/eirStru-0.2.99.tar.gz --markdown 20240419/e/eirStru/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-19 10:34:10] INFO root fetch - processPackages [magictk]: Downloading https://files.pythonhosted.org/packages/57/64/8dea53bbc033665891f09a8304c8d5afada4c32a34537e58d90447e7b1f7/magictk-0.0.2.35.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [whyis-activitystreams]: executing diffoscope
+[2024-04-19 10:34:10] INFO root fetch - processPackages [whyis-activitystreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyis_activitystreams-0.0.7.tar.gz tmp/whyis_activitystreams-0.0.8.tar.gz --markdown 20240419/w/whyis-activitystreams/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 10:34:10] INFO root fetch - processPackages [magictk]: executing diffoscope
+[2024-04-19 10:34:10] INFO root fetch - processPackages [magictk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magictk-0.0.2.34.tar.gz tmp/magictk-0.0.2.35.tar.gz --markdown 20240419/m/magictk/0.0.2.34-0.0.2.35/README.md --exclude *.pyd
+[2024-04-19 10:34:10] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/5d/88/62a2e059a1ed8e3fd56e7126ba1d8d52b15abb6027025f85a697b9cdf842/xarray_safe_s1-2024.4.19.tar.gz
+[2024-04-19 10:34:10] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2024-04-19 10:34:10] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-2024.1.9.tar.gz tmp/xarray_safe_s1-2024.4.19.tar.gz --markdown 20240419/x/xarray-safe-s1/2024.1.9-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 10:34:10] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.0.7.tar.gz]
+[2024-04-19 10:34:10] INFO root fetch - processPackages [whyis-activitystreams]: Remove: archive file [/home/abi/fetcher/tmp/whyis_activitystreams-0.0.8.tar.gz]
+[2024-04-19 10:34:10] INFO root fetch - main [MainThread]: End processing [whyis-activitystreams]: success
+[2024-04-19 10:34:11] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.34.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - processPackages [magictk]: Remove: archive file [/home/abi/fetcher/tmp/magictk-0.0.2.35.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - main [MainThread]: End processing [magictk]: success
+[2024-04-19 10:34:11] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.98.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.99.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-19 10:34:11] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray-safe-s1-2024.1.9.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - processPackages [xarray-safe-s1]: Remove: archive file [/home/abi/fetcher/tmp/xarray_safe_s1-2024.4.19.tar.gz]
+[2024-04-19 10:34:11] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2024-04-19 10:34:11] INFO root fetch - main [MainThread]: Store serial: [22838779]
