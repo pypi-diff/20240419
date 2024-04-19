@@ -21045,3 +21045,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:19:01] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.1.tar.gz]
 [2024-04-19 14:19:01] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-04-19 14:19:01] INFO root fetch - main [MainThread]: Store serial: [22841504]
+[2024-04-19 14:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841504]
+[2024-04-19 14:21:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmesh
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nicegui-g6
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ypywidgets
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iterdir
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homework1-package-Olesja-Tsimmerman
+[2024-04-19 14:21:12] WARNING root fetch - processPackages [nicegui-g6]: Skipping, unable to determine old version
+[2024-04-19 14:21:12] INFO root fetch - main [MainThread]: End processing [nicegui-g6] error
+[2024-04-19 14:21:12] INFO root fetch - processPackages [iterdir]: New version: [0.0.3] Old Version: [0.0.2.2]
+[2024-04-19 14:21:12] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/86/5b/f272b94084303f2d58ea9bd810db07031021a5603015b451d8f52cf70e13/iterdir-0.0.2.2.tar.gz
+[2024-04-19 14:21:12] INFO root fetch - processPackages [appmesh]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-19 14:21:12] WARNING root fetch - processPackages [homework1-package-Olesja-Tsimmerman]: Skipping, unable to determine old version
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ypywidgets]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-19 14:21:12] INFO root fetch - main [MainThread]: End processing [homework1-package-Olesja-Tsimmerman] error
+[2024-04-19 14:21:12] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/f6/a5/89f67998bf4730468e2530767fa3465c39e38bc01a2f7edd084fb16a4cc5/appmesh-0.8.3-py3-none-any.whl
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ypywidgets]: Downloading https://files.pythonhosted.org/packages/fd/7c/11ad9472ecf4287c0244b5a1e1776214c99fd1d79f8db90950f9e8c7aaa8/ypywidgets-0.6.5.tar.gz
+[2024-04-19 14:21:12] INFO root fetch - processPackages [iterdir]: Downloading https://files.pythonhosted.org/packages/fe/b2/32efd604b23f8d7ecf6fb7589113479dc5fe48ffe89c583477381a75f9f4/iterdir-0.0.3.tar.gz
+[2024-04-19 14:21:12] INFO root fetch - processPackages [iterdir]: executing diffoscope
+[2024-04-19 14:21:12] INFO root fetch - processPackages [iterdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterdir-0.0.2.2.tar.gz tmp/iterdir-0.0.3.tar.gz --markdown 20240419/i/iterdir/0.0.2.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ypywidgets]: Downloading https://files.pythonhosted.org/packages/dc/ec/03712051616840c6de42b9776a2abb7d27d4054e9fa498f901cba5e79dd4/ypywidgets-0.7.0.tar.gz
+[2024-04-19 14:21:12] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/c5/74/02173baac98d66f3abd5acd0d33580c13ac2acab20daaeac63cecaf42da6/appmesh-0.8.4-py3-none-any.whl
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ypywidgets]: executing diffoscope
+[2024-04-19 14:21:12] INFO root fetch - processPackages [ypywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypywidgets-0.6.5.tar.gz tmp/ypywidgets-0.7.0.tar.gz --markdown 20240419/y/ypywidgets/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-04-19 14:21:13] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-04-19 14:21:13] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.8.3-py3-none-any.whl.zip tmp/appmesh-0.8.4-py3-none-any.whl.zip --markdown 20240419/a/appmesh/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-19 14:21:13] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.2.2.tar.gz]
+[2024-04-19 14:21:13] INFO root fetch - processPackages [iterdir]: Remove: archive file [/home/abi/fetcher/tmp/iterdir-0.0.3.tar.gz]
+[2024-04-19 14:21:13] INFO root fetch - main [MainThread]: End processing [iterdir]: success
+[2024-04-19 14:21:13] INFO root fetch - processPackages [ypywidgets]: Remove: archive file [/home/abi/fetcher/tmp/ypywidgets-0.6.5.tar.gz]
+[2024-04-19 14:21:13] INFO root fetch - processPackages [ypywidgets]: Remove: archive file [/home/abi/fetcher/tmp/ypywidgets-0.7.0.tar.gz]
+[2024-04-19 14:21:13] INFO root fetch - main [MainThread]: End processing [ypywidgets]: success
+[2024-04-19 14:21:13] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.3-py3-none-any.whl.zip]
+[2024-04-19 14:21:13] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.4-py3-none-any.whl.zip]
+[2024-04-19 14:21:13] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-04-19 14:21:13] INFO root fetch - main [MainThread]: Store serial: [22841522]
