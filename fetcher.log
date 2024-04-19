@@ -7572,3 +7572,42 @@
 [2024-04-19 04:18:54] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.42.0.20240419.tar.gz]
 [2024-04-19 04:18:54] INFO root fetch - main [MainThread]: End processing [types-influxdb-client]: success
 [2024-04-19 04:18:54] INFO root fetch - main [MainThread]: Store serial: [22835737]
+[2024-04-19 04:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835737]
+[2024-04-19 04:21:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-19 04:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-04-19 04:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-answ-auto
+[2024-04-19 04:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-19 04:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.18a1713480712] Old Version: [0.0.18a1713480690]
+[2024-04-19 04:21:03] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240418] Old Version: [1.2.20240417]
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih-answ-auto]: New version: [0.17] Old Version: [0.16]
+[2024-04-19 04:21:03] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/2b/09/8bdd7e4ecc89a80af29121cc21b82e00f7666136981967d5649cb40183cb/iam_actions-1.2.20240417.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/9a/91/c6af4b2db80835230bc029b3d8aa6560bf8c05f25c50e358bd0bf7ee7252/pulumi_kubernetes_the_hard_way-0.0.18a1713480690.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/dc/29/a1b50836b56c4246b5bd29b9630bb83f60ed5f2f0b1d17459983edefc14a/pih-answ_auto-0.16.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240419/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/5a/49/66a29b2c317319679d98ec8003a5765224d7b6d110b11e96a738b15f79e0/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/04/de/d180577995d07204966fc37c0e6643783b491433a13173e6e44e5e40cbd7/iam_actions-1.2.20240418.tar.gz
+[2024-04-19 04:21:03] INFO root fetch - processPackages [pih-answ-auto]: Downloading https://files.pythonhosted.org/packages/15/2e/abac12a89f209a437ae900a042a2e42393f4cfcef8f71ed4524bcbb844db/pih-answ_auto-0.17.tar.gz
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480690.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz --markdown 20240419/p/pulumi-kubernetes-the-hard-way/0.0.18a1713480690-0.0.18a1713480712/README.md --exclude *.pyd
+[2024-04-19 04:21:04] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-19 04:21:04] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240417.tar.gz tmp/iam_actions-1.2.20240418.tar.gz --markdown 20240419/i/iam-actions/1.2.20240417-1.2.20240418/README.md --exclude *.pyd
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih-answ-auto]: executing diffoscope
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih-answ-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-answ_auto-0.16.tar.gz tmp/pih-answ_auto-0.17.tar.gz --markdown 20240419/p/pih-answ-auto/0.16-0.17/README.md --exclude *.pyd
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.16.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih-answ-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-answ_auto-0.17.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - main [MainThread]: End processing [pih-answ-auto]: success
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480690.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.18a1713480712.tar.gz]
+[2024-04-19 04:21:04] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-19 04:21:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240417.tar.gz]
+[2024-04-19 04:21:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240418.tar.gz]
+[2024-04-19 04:21:09] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-19 04:21:09] INFO root fetch - main [MainThread]: Store serial: [22835750]
