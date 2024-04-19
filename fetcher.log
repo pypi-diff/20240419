@@ -8610,3 +8610,68 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 05:22:29] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.0.dev2024041803.tar.gz]
 [2024-04-19 05:22:29] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-19 05:22:29] INFO root fetch - main [MainThread]: Store serial: [22836128]
+[2024-04-19 05:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836128]
+[2024-04-19 05:24:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkpipelineframework
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansi-string
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-master-data-mixin
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barkshark-lib
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genomeshader
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vector-vault
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvmmlst
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sbcli-jm
+[2024-04-19 05:24:38] INFO root fetch - processPackages [sbcli-jm]: New version: [4.0.4] Old Version: [4.0.3]
+[2024-04-19 05:24:38] INFO root fetch - processPackages [ansi-string]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 05:24:39] INFO root fetch - processPackages [vector-vault]: New version: [4.4.5.3] Old Version: [4.4.5.2]
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/50/53/6a65a49c8a1df8c66edd7bb003c8bda174107e1cebb0085b4ca0b7979b85/sbcli_jm-4.0.3.zip
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sparkpipelineframework]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-19 05:24:39] INFO root fetch - processPackages [genomeshader]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 05:24:39] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/f3/5d/baf85b062f454ef32c73bd6008377fa01a72edc59c6d51809a1bc2297c20/ansi-string-0.0.2.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: New version: [14.0.4.1.0] Old Version: [14.0.4.0.0]
+[2024-04-19 05:24:39] WARNING root fetch - processPackages [barkshark-lib]: Skipping, unable to determine old version
+[2024-04-19 05:24:39] INFO root fetch - main [MainThread]: End processing [barkshark-lib] error
+[2024-04-19 05:24:39] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c3/f3/90d7fc4f1eacb2fa361cb7710c61cbec867a74c49ae8cef83c83f3fdca2e/vector_vault-4.4.5.2.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [cvmmlst]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/4a/24/db5b24084e6d72e7e20ba2f6c6f9ed26f014c9a46a8eb9f0202b6c97c059/sparkpipelineframework-2.0.8.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/1c/84/39f1662d319381705e811acf6c7854194d08e68e45c79d57c5a763bdc863/genomeshader-0.1.8.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/1c/03/df4a969b153214ee284804c91b396ed1d76ea62c27a0fdddfffe3e2180ff/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl
+[2024-04-19 05:24:39] INFO root fetch - processPackages [cvmmlst]: Downloading https://files.pythonhosted.org/packages/15/83/f9f4bf408ddcc759d60d5451ddf5d8e07a67f1037e19e199eea49389bb9d/cvmmlst-0.3.1.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [ansi-string]: Downloading https://files.pythonhosted.org/packages/08/3a/7bace92f5d92108a7043b1d581e58cbde6f970e466091e18d1356e6cd0a6/ansi-string-0.0.3.tar.gz
+[2024-04-19 05:24:39] WARNING root fetch - processPackages [cvmmlst]: Skipping package: exceeds size limit 18012738>=10485760
+[2024-04-19 05:24:39] INFO root fetch - main [MainThread]: End processing [cvmmlst] error
+[2024-04-19 05:24:39] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/d4/af/714b0c544ddc8330141c2f1aec28f1cf59263229c3a6bac7c7ed6e4f788a/vector_vault-4.4.5.3.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sbcli-jm]: Downloading https://files.pythonhosted.org/packages/a4/82/249c045b20ee559be748115198ea5c847f6d4bcd8e1bdd9709e5c5d198cb/sbcli_jm-4.0.4.zip
+[2024-04-19 05:24:39] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-19 05:24:39] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.4.5.2.tar.gz tmp/vector_vault-4.4.5.3.tar.gz --markdown 20240419/v/vector-vault/4.4.5.2-4.4.5.3/README.md --exclude *.pyd
+[2024-04-19 05:24:39] INFO root fetch - processPackages [ansi-string]: executing diffoscope
+[2024-04-19 05:24:39] INFO root fetch - processPackages [ansi-string]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansi-string-0.0.2.tar.gz tmp/ansi-string-0.0.3.tar.gz --markdown 20240419/a/ansi-string/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sbcli-jm]: executing diffoscope
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sbcli-jm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli_jm-4.0.3.zip tmp/sbcli_jm-4.0.4.zip --markdown 20240419/s/sbcli-jm/4.0.3-4.0.4/README.md --exclude *.pyd
+[2024-04-19 05:24:39] INFO root fetch - processPackages [genomeshader]: Downloading https://files.pythonhosted.org/packages/99/48/90c7c052b1a65bbffd3e20c6f11964c9fc1a3dc182ef8de7c3611b26d473/genomeshader-0.1.9.tar.gz
+[2024-04-19 05:24:39] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/15/77/8925085c4d78b17be62a849a88a20ca755da4b5e3b84a890a9320e52a537/odoo14_addon_ssi_master_data_mixin-14.0.4.1.0-py3-none-any.whl
+[2024-04-19 05:24:39] INFO root fetch - processPackages [genomeshader]: executing diffoscope
+[2024-04-19 05:24:39] INFO root fetch - processPackages [genomeshader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomeshader-0.1.8.tar.gz tmp/genomeshader-0.1.9.tar.gz --markdown 20240419/g/genomeshader/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 05:24:39] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: executing diffoscope
+[2024-04-19 05:24:39] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.1.0-py3-none-any.whl.zip --markdown 20240419/o/odoo14-addon-ssi-master-data-mixin/14.0.4.0.0-14.0.4.1.0/README.md --exclude *.pyd
+[2024-04-19 05:24:39] INFO root fetch - processPackages [sparkpipelineframework]: Downloading https://files.pythonhosted.org/packages/cd/26/28286b2b98e444bd3ef46a0e8a3e370f9d4ce4798c088170e0083e8dbbaa/sparkpipelineframework-2.0.9.tar.gz
+[2024-04-19 05:24:40] INFO root fetch - processPackages [sparkpipelineframework]: executing diffoscope
+[2024-04-19 05:24:40] INFO root fetch - processPackages [sparkpipelineframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkpipelineframework-2.0.8.tar.gz tmp/sparkpipelineframework-2.0.9.tar.gz --markdown 20240419/s/sparkpipelineframework/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-19 05:24:40] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.2.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.4.5.3.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-19 05:24:40] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-0.0.2.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - processPackages [ansi-string]: Remove: archive file [/home/abi/fetcher/tmp/ansi-string-0.0.3.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - main [MainThread]: End processing [ansi-string]: success
+[2024-04-19 05:24:40] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl.zip]
+[2024-04-19 05:24:40] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.1.0-py3-none-any.whl.zip]
+[2024-04-19 05:24:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-master-data-mixin]: success
+[2024-04-19 05:24:40] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.8.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - processPackages [genomeshader]: Remove: archive file [/home/abi/fetcher/tmp/genomeshader-0.1.9.tar.gz]
+[2024-04-19 05:24:40] INFO root fetch - main [MainThread]: End processing [genomeshader]: success
+[2024-04-19 05:24:40] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.3.zip]
+[2024-04-19 05:24:40] INFO root fetch - processPackages [sbcli-jm]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_jm-4.0.4.zip]
+[2024-04-19 05:24:40] INFO root fetch - main [MainThread]: End processing [sbcli-jm]: success
+[2024-04-19 05:24:41] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.8.tar.gz]
+[2024-04-19 05:24:41] INFO root fetch - processPackages [sparkpipelineframework]: Remove: archive file [/home/abi/fetcher/tmp/sparkpipelineframework-2.0.9.tar.gz]
+[2024-04-19 05:24:41] INFO root fetch - main [MainThread]: End processing [sparkpipelineframework]: success
+[2024-04-19 05:24:41] INFO root fetch - main [MainThread]: Store serial: [22836154]
