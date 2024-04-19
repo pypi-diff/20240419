@@ -21081,3 +21081,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 14:21:13] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-0.8.4-py3-none-any.whl.zip]
 [2024-04-19 14:21:13] INFO root fetch - main [MainThread]: End processing [appmesh]: success
 [2024-04-19 14:21:13] INFO root fetch - main [MainThread]: Store serial: [22841522]
+[2024-04-19 14:23:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22841522]
+[2024-04-19 14:23:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fiddler-client
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thema-log
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seba-sqlite
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vr180-convert
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sonar-dummy-python-oss
+[2024-04-19 14:23:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcanvas-api-clients
+[2024-04-19 14:23:22] INFO root fetch - processPackages [qcanvas-api-clients]: New version: [0.1.1a1] Old Version: [0.1.1a0]
+[2024-04-19 14:23:22] WARNING root fetch - processPackages [thema-log]: Skipping, unable to determine old version
+[2024-04-19 14:23:22] INFO root fetch - main [MainThread]: End processing [thema-log] error
+[2024-04-19 14:23:22] INFO root fetch - processPackages [qcanvas-api-clients]: Downloading https://files.pythonhosted.org/packages/f8/3b/c4340ac606678fb8d09f29867ab93ab97b37c915f02900e534dfb4a903ed/qcanvas_api_clients-0.1.1a0.tar.gz
+[2024-04-19 14:23:22] INFO root fetch - processPackages [sonar-dummy-python-oss]: New version: [0.1.0a75] Old Version: [0.1.0.91]
+[2024-04-19 14:23:22] WARNING root fetch - processPackages [seba-sqlite]: Skipping, unable to determine old version
+[2024-04-19 14:23:22] WARNING root fetch - processPackages [vr180-convert]: Skipping, unable to determine old version
+[2024-04-19 14:23:22] INFO root fetch - main [MainThread]: End processing [seba-sqlite] error
+[2024-04-19 14:23:22] INFO root fetch - main [MainThread]: End processing [vr180-convert] error
+[2024-04-19 14:23:22] INFO root fetch - processPackages [fiddler-client]: New version: [3.1.0.dev2] Old Version: [3.1.0.dev1]
+[2024-04-19 14:23:22] INFO root fetch - processPackages [kcli]: New version: [99.0.202404191221] Old Version: [99.0.202404170800]
+[2024-04-19 14:23:22] INFO root fetch - processPackages [sonar-dummy-python-oss]: Downloading https://files.pythonhosted.org/packages/a2/d0/9226e52f7238c1f622c3809478d247d8a0ac66ad082b0e457a1967675c4c/sonar_dummy_python_oss-0.1.0.91.tar.gz
+[2024-04-19 14:23:22] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/08/ea/1f0e0c4bf6978125bb6d32314f0dcebce3728dfce8fa0ef3106948b4d899/fiddler-client-3.1.0.dev1.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [qcanvas-api-clients]: Downloading https://files.pythonhosted.org/packages/a3/8b/ae31d401625622b19aadaff0e691fc4ed3800773c46ee164b41ef5f10956/qcanvas_api_clients-0.1.1a1.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/0d/2b/69d4979e2b3081225c18c5164234d85b7a1ae4bce3949d31df3d75b0a9dd/kcli-99.0.202404170800.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [sonar-dummy-python-oss]: Downloading https://files.pythonhosted.org/packages/4e/c2/60b5cb75c33b3255bb1ea83ec8cb8531b6422410c72d6a5baeaf529db450/sonar_dummy_python_oss-0.1.0a75.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/6b/e1/fe45637429f8e65ff11237bc987705ca8295c863471ec6144d9ecb525221/fiddler-client-3.1.0.dev2.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [qcanvas-api-clients]: executing diffoscope
+[2024-04-19 14:23:23] INFO root fetch - processPackages [qcanvas-api-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcanvas_api_clients-0.1.1a0.tar.gz tmp/qcanvas_api_clients-0.1.1a1.tar.gz --markdown 20240419/q/qcanvas-api-clients/0.1.1a0-0.1.1a1/README.md --exclude *.pyd
+[2024-04-19 14:23:23] INFO root fetch - processPackages [sonar-dummy-python-oss]: executing diffoscope
+[2024-04-19 14:23:23] INFO root fetch - processPackages [sonar-dummy-python-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_dummy_python_oss-0.1.0.91.tar.gz tmp/sonar_dummy_python_oss-0.1.0a75.tar.gz --markdown 20240419/s/sonar-dummy-python-oss/0.1.0.91-0.1.0a75/README.md --exclude *.pyd
+[2024-04-19 14:23:23] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-04-19 14:23:23] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-3.1.0.dev1.tar.gz tmp/fiddler-client-3.1.0.dev2.tar.gz --markdown 20240419/f/fiddler-client/3.1.0.dev1-3.1.0.dev2/README.md --exclude *.pyd
+[2024-04-19 14:23:23] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/13/c2/787bdff2d20ac7b4938ad9ac591c85f7c3872ab3a2e673b96a8e7b04a6a5/kcli-99.0.202404191221.tar.gz
+[2024-04-19 14:23:23] INFO root fetch - processPackages [qcanvas-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/qcanvas_api_clients-0.1.1a0.tar.gz]
+[2024-04-19 14:23:23] INFO root fetch - processPackages [qcanvas-api-clients]: Remove: archive file [/home/abi/fetcher/tmp/qcanvas_api_clients-0.1.1a1.tar.gz]
+[2024-04-19 14:23:23] INFO root fetch - main [MainThread]: End processing [qcanvas-api-clients]: success
+[2024-04-19 14:23:23] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-19 14:23:23] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404170800.tar.gz tmp/kcli-99.0.202404191221.tar.gz --markdown 20240419/k/kcli/99.0.202404170800-99.0.202404191221/README.md --exclude *.pyd
+[2024-04-19 14:23:24] INFO root fetch - processPackages [sonar-dummy-python-oss]: Remove: archive file [/home/abi/fetcher/tmp/sonar_dummy_python_oss-0.1.0.91.tar.gz]
+[2024-04-19 14:23:24] INFO root fetch - processPackages [sonar-dummy-python-oss]: Remove: archive file [/home/abi/fetcher/tmp/sonar_dummy_python_oss-0.1.0a75.tar.gz]
+[2024-04-19 14:23:24] INFO root fetch - main [MainThread]: End processing [sonar-dummy-python-oss]: success
+[2024-04-19 14:23:24] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev1.tar.gz]
+[2024-04-19 14:23:24] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler-client-3.1.0.dev2.tar.gz]
+[2024-04-19 14:23:24] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-04-19 14:23:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404170800.tar.gz]
+[2024-04-19 14:23:26] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404191221.tar.gz]
+[2024-04-19 14:23:26] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-19 14:23:26] INFO root fetch - main [MainThread]: Store serial: [22841549]
