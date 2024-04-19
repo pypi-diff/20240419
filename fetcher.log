@@ -22906,3 +22906,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:28:44] INFO root fetch - processPackages [pyrevm]: Remove: archive file [/home/abi/fetcher/tmp/pyrevm-0.3.1-pp38-pypy38_pp73-manylinux_2_12_i686.manylinux2010_i686.whl.zip]
 [2024-04-19 15:28:44] INFO root fetch - main [MainThread]: End processing [pyrevm]: success
 [2024-04-19 15:28:44] INFO root fetch - main [MainThread]: Store serial: [22842402]
+[2024-04-19 15:30:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842402]
+[2024-04-19 15:30:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wacz_signing
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynocaptcha
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkg-newfinalcustom-pipeline-staging-final
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CI-CD-SergiCastillo
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dash-cognito-auth
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myslideslive
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: luma-ml
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbrepo
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nihtest
+[2024-04-19 15:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: revolt-mpd-status
+[2024-04-19 15:30:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [CI-CD-SergiCastillo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [pynocaptcha]: New version: [1.8.8] Old Version: [1.8.7]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [dash-cognito-auth]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/a6/b1/967abb45ae4dcf4a08565e954138d9e480c0b617262b40409542a8d2578b/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz
+[2024-04-19 15:30:53] INFO root fetch - processPackages [nihtest]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [myslideslive]: New version: [0.7] Old Version: [0.6]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [dbrepo]: New version: [1.4.2rc13] Old Version: [1.4.2rc12]
+[2024-04-19 15:30:53] WARNING root fetch - processPackages [revolt-mpd-status]: Skipping, unable to determine old version
+[2024-04-19 15:30:53] INFO root fetch - processPackages [luma-ml]: New version: [0.7.0] Old Version: [0.6.6]
+[2024-04-19 15:30:53] INFO root fetch - main [MainThread]: End processing [revolt-mpd-status] error
+[2024-04-19 15:30:53] INFO root fetch - processPackages [wacz_signing]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-04-19 15:30:53] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/53/4e/20892c86f8ce30b3509f861155a47dd1fa806475dde4ac925bec53109d7a/CI-CD-SergiCastillo-0.1.8.tar.gz
+[2024-04-19 15:30:53] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/47/36/5aeb744b65f0b24eed68b9b8f9713070f72f10275cba472ca6269c44ed1a/pynocaptcha-1.8.7.tar.gz
+[2024-04-19 15:30:53] INFO root fetch - processPackages [dash-cognito-auth]: Downloading https://files.pythonhosted.org/packages/a0/d9/2f517b758dfadc02e8ef0767d85e80a649b459186127a848c5b78dadaf59/dash-cognito-auth-0.0.4.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/78/8a/476334749d0ef70f17a0b3a8538608197d78765a98e959ed9dcd505f2c01/nihtest-1.6.0.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [myslideslive]: Downloading https://files.pythonhosted.org/packages/d8/da/1fab4fedab1c39b5c8f530f9b7af3fdeb2adeac94eac476dc4053ddc0881/myslideslive-0.6.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [luma-ml]: Downloading https://files.pythonhosted.org/packages/62/fc/071b165645177df9f5a4bcd1f2bc75a3449fde4ed72595ac4e210c09d1d5/luma-ml-0.6.6.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [wacz_signing]: Downloading https://files.pythonhosted.org/packages/ba/f3/b4ae3d57354b51b0435354978e7e712a80e2f9dd8f7acd2516221bb83884/wacz_signing-0.3.7.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/d8/be/f568083cc8d262963e99d2f84ac9d1c2b33a94b2e65b3d42befe3664e6e8/pynocaptcha-1.8.8.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Downloading https://files.pythonhosted.org/packages/9f/6e/8d5819f4defa8da6b5657615b1775ef712ea493ba2ea40237a12343e6009/CI-CD-SergiCastillo-0.1.9.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/84/33/273bac4334005e36136956d154a6b7789d9e3113c37fd9218e2b6cc1b1cb/dbrepo-1.4.2rc12.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Downloading https://files.pythonhosted.org/packages/f2/27/01e5078d15f208cb6c32dfd12263e90854991e2cbd6aa05c0ba932e4a1c8/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [CI-CD-SergiCastillo]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [CI-CD-SergiCastillo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CI-CD-SergiCastillo-0.1.8.tar.gz tmp/CI-CD-SergiCastillo-0.1.9.tar.gz --markdown 20240419/C/CI-CD-SergiCastillo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.8.7.tar.gz tmp/pynocaptcha-1.8.8.tar.gz --markdown 20240419/p/pynocaptcha/1.8.7-1.8.8/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dash-cognito-auth]: Downloading https://files.pythonhosted.org/packages/3c/c8/54696ff06af9b03c574fa563ce53095c28f09437b767664b9baf7a68f2eb/dash_cognito_auth-0.0.5.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz --markdown 20240419/p/pkg-newfinalcustom-pipeline-staging-final/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [myslideslive]: Downloading https://files.pythonhosted.org/packages/40/1f/993d402afbf3182bf221e07e5baa31926dccc5ff1185e7508995cf39b985/myslideslive-0.7.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [nihtest]: Downloading https://files.pythonhosted.org/packages/2c/3b/8e86c6f6fb365abb2ae8763064d396ef4c45da0128999feeb83b52e10882/nihtest-1.7.0.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [luma-ml]: Downloading https://files.pythonhosted.org/packages/4b/b8/b82c949326afc20917e89a0496ed56a3c4c13382dab5c979475ab8626a06/luma-ml-0.7.0.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dash-cognito-auth]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dash-cognito-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-cognito-auth-0.0.4.tar.gz tmp/dash_cognito_auth-0.0.5.tar.gz --markdown 20240419/d/dash-cognito-auth/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [wacz_signing]: Downloading https://files.pythonhosted.org/packages/de/d6/27950cf33599a86fd5db3bbc7c17dfc2da91c9ca75cede089dcecc2b9b23/wacz_signing-0.3.8.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dbrepo]: Downloading https://files.pythonhosted.org/packages/e2/79/d304d2e61d6fc9c2771b4e15913020d4682cf2c3c0d5f8268ee2cb78377f/dbrepo-1.4.2rc13.tar.gz
+[2024-04-19 15:30:54] INFO root fetch - processPackages [myslideslive]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [myslideslive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myslideslive-0.6.tar.gz tmp/myslideslive-0.7.tar.gz --markdown 20240419/m/myslideslive/0.6-0.7/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [nihtest]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [nihtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nihtest-1.6.0.tar.gz tmp/nihtest-1.7.0.tar.gz --markdown 20240419/n/nihtest/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [wacz_signing]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [wacz_signing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wacz_signing-0.3.7.tar.gz tmp/wacz_signing-0.3.8.tar.gz --markdown 20240419/w/wacz_signing/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [luma-ml]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [luma-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luma-ml-0.6.6.tar.gz tmp/luma-ml-0.7.0.tar.gz --markdown 20240419/l/luma-ml/0.6.6-0.7.0/README.md --exclude *.pyd
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dbrepo]: executing diffoscope
+[2024-04-19 15:30:54] INFO root fetch - processPackages [dbrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbrepo-1.4.2rc12.tar.gz tmp/dbrepo-1.4.2rc13.tar.gz --markdown 20240419/d/dbrepo/1.4.2rc12-1.4.2rc13/README.md --exclude *.pyd
+[2024-04-19 15:30:55] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.7.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [pkg-newfinalcustom-pipeline-staging-final]: Remove: archive file [/home/abi/fetcher/tmp/pkg_newfinalcustom_pipeline_staging_final-0.0.8.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [pkg-newfinalcustom-pipeline-staging-final]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.8.7.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.8.8.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.8.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [CI-CD-SergiCastillo]: Remove: archive file [/home/abi/fetcher/tmp/CI-CD-SergiCastillo-0.1.9.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [CI-CD-SergiCastillo]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [dash-cognito-auth]: Remove: archive file [/home/abi/fetcher/tmp/dash-cognito-auth-0.0.4.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [dash-cognito-auth]: Remove: archive file [/home/abi/fetcher/tmp/dash_cognito_auth-0.0.5.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [dash-cognito-auth]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [myslideslive]: Remove: archive file [/home/abi/fetcher/tmp/myslideslive-0.6.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [myslideslive]: Remove: archive file [/home/abi/fetcher/tmp/myslideslive-0.7.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [myslideslive]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [wacz_signing]: Remove: archive file [/home/abi/fetcher/tmp/wacz_signing-0.3.7.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [wacz_signing]: Remove: archive file [/home/abi/fetcher/tmp/wacz_signing-0.3.8.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [wacz_signing]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc12.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [dbrepo]: Remove: archive file [/home/abi/fetcher/tmp/dbrepo-1.4.2rc13.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [dbrepo]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.6.0.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [nihtest]: Remove: archive file [/home/abi/fetcher/tmp/nihtest-1.7.0.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [nihtest]: success
+[2024-04-19 15:30:55] INFO root fetch - processPackages [luma-ml]: Remove: archive file [/home/abi/fetcher/tmp/luma-ml-0.6.6.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - processPackages [luma-ml]: Remove: archive file [/home/abi/fetcher/tmp/luma-ml-0.7.0.tar.gz]
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: End processing [luma-ml]: success
+[2024-04-19 15:30:55] INFO root fetch - main [MainThread]: Store serial: [22842438]
