@@ -19117,3 +19117,33 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 13:00:16] INFO root fetch - processPackages [skip-django-auth-token]: Remove: archive file [/home/abi/fetcher/tmp/skip_django_auth_token-0.4.0.tar.gz]
 [2024-04-19 13:00:16] INFO root fetch - main [MainThread]: End processing [skip-django-auth-token]: success
 [2024-04-19 13:00:16] INFO root fetch - main [MainThread]: Store serial: [22840618]
+[2024-04-19 13:02:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840618]
+[2024-04-19 13:02:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 13:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywxdump
+[2024-04-19 13:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pan-ztp-patcher
+[2024-04-19 13:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txm-sandbox
+[2024-04-19 13:02:26] INFO root fetch - processPackages [txm-sandbox]: New version: [0.3.0.post3] Old Version: [0.3.0.post2]
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pywxdump]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-19 13:02:26] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/3f/c7/7d66748bd52c7de8ca4967978c95c889f7e3bce01d3786a7934a38212c73/txm_sandbox-0.3.0.post2.tar.gz
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pan-ztp-patcher]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/3c/6c/418c83cc219b5684648a34d06b0c41b54e109c539b5889d974c06daa29aa/pywxdump-3.0.4.tar.gz
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pan-ztp-patcher]: Downloading https://files.pythonhosted.org/packages/af/e7/abe40353489c7efc6e92f757946414c1f383dbbe1446c8322051e40c9f2f/pan_ztp_patcher-0.2.4.tar.gz
+[2024-04-19 13:02:26] INFO root fetch - processPackages [txm-sandbox]: Downloading https://files.pythonhosted.org/packages/1a/f1/44531829c425ff8ee1e93de0234af5d17f8c4eba1ce646ee3198559f1a6e/txm_sandbox-0.3.0.post3.tar.gz
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pan-ztp-patcher]: Downloading https://files.pythonhosted.org/packages/15/d6/6f9db51fb8a15571914aac9012a6cf6524a900f5a8382fd7be12e4cd0ae3/pan_ztp_patcher-0.2.5.tar.gz
+[2024-04-19 13:02:26] INFO root fetch - processPackages [txm-sandbox]: executing diffoscope
+[2024-04-19 13:02:26] INFO root fetch - processPackages [txm-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txm_sandbox-0.3.0.post2.tar.gz tmp/txm_sandbox-0.3.0.post3.tar.gz --markdown 20240419/t/txm-sandbox/0.3.0.post2-0.3.0.post3/README.md --exclude *.pyd
+[2024-04-19 13:02:26] INFO root fetch - processPackages [pywxdump]: Downloading https://files.pythonhosted.org/packages/5e/a0/04a3b6eff520a9bdce3d17e539b97bb28ab07d7cf194f8bf38506b454fea/pywxdump-3.0.5.tar.gz
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pan-ztp-patcher]: executing diffoscope
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pan-ztp-patcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pan_ztp_patcher-0.2.4.tar.gz tmp/pan_ztp_patcher-0.2.5.tar.gz --markdown 20240419/p/pan-ztp-patcher/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pywxdump]: executing diffoscope
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pywxdump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywxdump-3.0.4.tar.gz tmp/pywxdump-3.0.5.tar.gz --markdown 20240419/p/pywxdump/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pan-ztp-patcher]: Remove: archive file [/home/abi/fetcher/tmp/pan_ztp_patcher-0.2.4.tar.gz]
+[2024-04-19 13:02:27] INFO root fetch - processPackages [pan-ztp-patcher]: Remove: archive file [/home/abi/fetcher/tmp/pan_ztp_patcher-0.2.5.tar.gz]
+[2024-04-19 13:02:27] INFO root fetch - main [MainThread]: End processing [pan-ztp-patcher]: success
+[2024-04-19 13:02:27] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post2.tar.gz]
+[2024-04-19 13:02:27] INFO root fetch - processPackages [txm-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/txm_sandbox-0.3.0.post3.tar.gz]
+[2024-04-19 13:02:27] INFO root fetch - main [MainThread]: End processing [txm-sandbox]: success
+[2024-04-19 13:02:42] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.4.tar.gz]
+[2024-04-19 13:02:42] INFO root fetch - processPackages [pywxdump]: Remove: archive file [/home/abi/fetcher/tmp/pywxdump-3.0.5.tar.gz]
+[2024-04-19 13:02:42] INFO root fetch - main [MainThread]: End processing [pywxdump]: success
+[2024-04-19 13:02:42] INFO root fetch - main [MainThread]: Store serial: [22840627]
