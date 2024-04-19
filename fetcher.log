@@ -22313,3 +22313,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-19 15:12:57] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.1.tar.gz]
 [2024-04-19 15:12:57] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
 [2024-04-19 15:12:57] INFO root fetch - main [MainThread]: Store serial: [22842127]
+[2024-04-19 15:15:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22842127]
+[2024-04-19 15:15:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: knot-tube
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txtai
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feature-space
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flops-utils
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weedata
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysolcast
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: marsilea
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xpart
+[2024-04-19 15:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: andeplane-reveal-streamlit-component
+[2024-04-19 15:15:24] WARNING root fetch - processPackages [flops-utils]: Skipping, unable to determine old version
+[2024-04-19 15:15:24] INFO root fetch - processPackages [flops-utils]: Start processing: flops-utils
+[2024-04-19 15:15:24] INFO root fetch - main [MainThread]: End processing [flops-utils] error
+[2024-04-19 15:15:24] INFO root fetch - processPackages [knot-tube]: New version: [0.2] Old Version: [0.1]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 15:15:24] WARNING root fetch - processPackages [flops-utils]: Skipping, unable to determine old version
+[2024-04-19 15:15:24] INFO root fetch - processPackages [flops-utils]: Start processing: quant2
+[2024-04-19 15:15:24] INFO root fetch - main [MainThread]: End processing [flops-utils] error
+[2024-04-19 15:15:24] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/4a/27/100d5a45336a43fc87e883eb0fe56ed92357a12a4ea0101b0656a348f495/knot_tube-0.1.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [weedata]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [xpart]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [marsilea]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-19 15:15:24] WARNING root fetch - processPackages [feature-space]: Skipping, unable to determine old version
+[2024-04-19 15:15:24] INFO root fetch - processPackages [feature-space]: Start processing: sbcli-mig
+[2024-04-19 15:15:24] INFO root fetch - main [MainThread]: End processing [feature-space] error
+[2024-04-19 15:15:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.19] Old Version: [2024.4.18]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [pysolcast]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [txtai]: New version: [7.1.0] Old Version: [7.0.0]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/74/69/8bf3b572ae2d245d5d9979fbe67a68bdbe5a5d64996025f978dffb9eae93/andeplane_reveal_streamlit_component-0.1.1.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [quant2]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-19 15:15:24] INFO root fetch - processPackages [weedata]: Downloading https://files.pythonhosted.org/packages/1f/aa/d95ab0323157e7fb98a377b4bd23a47e542703c463ffd6bea173b7d715bb/weedata-0.2.3.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [marsilea]: Downloading https://files.pythonhosted.org/packages/73/11/4265e846d61a4a08b5b3801f2c104db5bd51999db8db400856a2d44a9c0b/marsilea-0.3.4.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-19 15:15:24] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/45/9a/44a870df04c746957f83128255e7ec5a7809a178bbe6842295dbfa76475d/xpart-0.9.2.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [pysolcast]: Downloading https://files.pythonhosted.org/packages/18/a5/2027b50839ff87b7353a355423b4a4dbbf8bb9f615dfe6c55eb6a6c753d2/pysolcast-2.0.1.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/c1/82/a25705ed1fbbc3fbbe9e4ae9ec8153ca0264999f2a40e0155418b41dbccd/txtai-7.0.0.tar.gz
+[2024-04-19 15:15:24] INFO root fetch - processPackages [knot-tube]: Downloading https://files.pythonhosted.org/packages/6d/1b/f3bfb8270d3a7479cf65a1a173217bfec24e986439f684c90d620fcc6834/knot_tube-0.2.tar.gz
+[2024-04-19 15:15:24] WARNING root fetch - processPackages [marsilea]: Skipping package: exceeds size limit 56884803>=10485760
+[2024-04-19 15:15:24] INFO root fetch - main [MainThread]: End processing [marsilea] error
+[2024-04-19 15:15:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/96/5f25fc5786dc6d3e74c510bc61030d8e90e1ffd7175b41c28a1550d7b9b1/fbgemm_gpu_nightly_cpu-2024.4.18-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 15:15:24] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/9c/cb/6218ba4148ecec24e1fd616138516560c8b40f1d3deb2bc7df853e0bb6b5/quant2-0.1.5.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [knot-tube]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [knot-tube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knot_tube-0.1.tar.gz tmp/knot_tube-0.2.tar.gz --markdown 20240419/k/knot-tube/0.1-0.2/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-19 15:15:25] INFO root fetch - processPackages [weedata]: Downloading https://files.pythonhosted.org/packages/a3/db/33ee4082bccd97f551d891742e8090a7d4df2cc631789d8787807ed30a62/weedata-0.2.4.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [txtai]: Downloading https://files.pythonhosted.org/packages/af/2b/e8c13590e4b3b55a9d930c597a52d6d2903330beff785deb2539d7d44290/txtai-7.1.0.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240419/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [xpart]: Downloading https://files.pythonhosted.org/packages/f6/d0/566ee9ad0e3d6ac9b9558d25816734b3fce476c9907cc04cd501da1072a3/xpart-0.9.3.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/dc/6f/0925444086fe27c94db631880de3f63be23829df88fd084818217e17822f/quant2-0.1.6.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [pysolcast]: Downloading https://files.pythonhosted.org/packages/af/15/f7af6fc430e9930906e74d409a45c33994e608fd1b2b47957a22fa17949d/pysolcast-2.0.2.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Downloading https://files.pythonhosted.org/packages/5a/b6/45975146cdea2ac9601d64b6f9ec7c7d98732f78049c05be0a8f213c39c7/andeplane_reveal_streamlit_component-0.1.2.tar.gz
+[2024-04-19 15:15:25] INFO root fetch - processPackages [weedata]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [weedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weedata-0.2.3.tar.gz tmp/weedata-0.2.4.tar.gz --markdown 20240419/w/weedata/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [txtai]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [txtai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txtai-7.0.0.tar.gz tmp/txtai-7.1.0.tar.gz --markdown 20240419/t/txtai/7.0.0-7.1.0/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.1.5.tar.gz tmp/quant2-0.1.6.tar.gz --markdown 20240419/q/quant2/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [pysolcast]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [pysolcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysolcast-2.0.1.tar.gz tmp/pysolcast-2.0.2.tar.gz --markdown 20240419/p/pysolcast/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/69/57/cf4303082791a9d0ac3042788160f1758dfd9904a16e666f644b11c6a2a4/fbgemm_gpu_nightly_cpu-2024.4.19-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-19 15:15:25] INFO root fetch - processPackages [xpart]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [xpart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xpart-0.9.2.tar.gz tmp/xpart-0.9.3.tar.gz --markdown 20240419/x/xpart/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: executing diffoscope
+[2024-04-19 15:15:25] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/andeplane_reveal_streamlit_component-0.1.1.tar.gz tmp/andeplane_reveal_streamlit_component-0.1.2.tar.gz --markdown 20240419/a/andeplane-reveal-streamlit-component/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 15:15:25] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.1.tar.gz]
+[2024-04-19 15:15:25] INFO root fetch - processPackages [knot-tube]: Remove: archive file [/home/abi/fetcher/tmp/knot_tube-0.2.tar.gz]
+[2024-04-19 15:15:25] INFO root fetch - main [MainThread]: End processing [knot-tube]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [weedata]: Remove: archive file [/home/abi/fetcher/tmp/weedata-0.2.3.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [weedata]: Remove: archive file [/home/abi/fetcher/tmp/weedata-0.2.4.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [weedata]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-19 15:15:26] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.18-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.19-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240419/f/fbgemm-gpu-nightly-cpu/2024.4.18-2024.4.19/README.md --exclude *.pyd
+[2024-04-19 15:15:26] INFO root fetch - processPackages [pysolcast]: Remove: archive file [/home/abi/fetcher/tmp/pysolcast-2.0.1.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [pysolcast]: Remove: archive file [/home/abi/fetcher/tmp/pysolcast-2.0.2.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [pysolcast]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.5.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.1.6.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.2.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [xpart]: Remove: archive file [/home/abi/fetcher/tmp/xpart-0.9.3.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [xpart]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-19 15:15:26] INFO root fetch - processPackages [txtai]: Remove: archive file [/home/abi/fetcher/tmp/txtai-7.0.0.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - processPackages [txtai]: Remove: archive file [/home/abi/fetcher/tmp/txtai-7.1.0.tar.gz]
+[2024-04-19 15:15:26] INFO root fetch - main [MainThread]: End processing [txtai]: success
+[2024-04-19 15:15:27] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.1.tar.gz]
+[2024-04-19 15:15:27] INFO root fetch - processPackages [andeplane-reveal-streamlit-component]: Remove: archive file [/home/abi/fetcher/tmp/andeplane_reveal_streamlit_component-0.1.2.tar.gz]
+[2024-04-19 15:15:27] INFO root fetch - main [MainThread]: End processing [andeplane-reveal-streamlit-component]: success
+[2024-04-19 15:16:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.18-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-19 15:16:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.19-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-19 15:16:04] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-19 15:16:04] INFO root fetch - main [MainThread]: Store serial: [22842169]
