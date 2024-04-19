@@ -7473,3 +7473,24 @@
 [2024-04-19 04:10:08] INFO root fetch - processPackages [py-orca]: Remove: archive file [/home/abi/fetcher/tmp/py_orca-1.3.5.tar.gz]
 [2024-04-19 04:10:08] INFO root fetch - main [MainThread]: End processing [py-orca]: success
 [2024-04-19 04:10:08] INFO root fetch - main [MainThread]: Store serial: [22835604]
+[2024-04-19 04:12:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835604]
+[2024-04-19 04:12:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 04:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gm-pymms
+[2024-04-19 04:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lyrebird
+[2024-04-19 04:12:17] INFO root fetch - processPackages [gm-pymms]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 04:12:17] INFO root fetch - processPackages [lyrebird]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-19 04:12:17] INFO root fetch - processPackages [gm-pymms]: Downloading https://files.pythonhosted.org/packages/d1/f5/984bccdab94f108a82ed09619fd20c5c78f7e5251ac0bd0da2e20820c0a5/gm_pymms-0.0.2.tar.gz
+[2024-04-19 04:12:18] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/06/13/4ab9bba5638766ee4616a2f79ef2b14a6cc420f30ee45746325841de3068/lyrebird-2.9.1.tar.gz
+[2024-04-19 04:12:18] INFO root fetch - processPackages [gm-pymms]: Downloading https://files.pythonhosted.org/packages/46/ad/ab9ce2fb8a6a216f58c66441f03372f9d76e62fba65c6140b5dda1539e1a/gm_pymms-0.0.3.tar.gz
+[2024-04-19 04:12:18] INFO root fetch - processPackages [gm-pymms]: executing diffoscope
+[2024-04-19 04:12:18] INFO root fetch - processPackages [gm-pymms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm_pymms-0.0.2.tar.gz tmp/gm_pymms-0.0.3.tar.gz --markdown 20240419/g/gm-pymms/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 04:12:19] INFO root fetch - processPackages [gm-pymms]: Remove: archive file [/home/abi/fetcher/tmp/gm_pymms-0.0.2.tar.gz]
+[2024-04-19 04:12:19] INFO root fetch - processPackages [gm-pymms]: Remove: archive file [/home/abi/fetcher/tmp/gm_pymms-0.0.3.tar.gz]
+[2024-04-19 04:12:19] INFO root fetch - main [MainThread]: End processing [gm-pymms]: success
+[2024-04-19 04:12:20] INFO root fetch - processPackages [lyrebird]: Downloading https://files.pythonhosted.org/packages/77/cb/ae987ef021622334d287593ae7760a4c9bac044e030a96acf5a262910328/lyrebird-2.9.2.tar.gz
+[2024-04-19 04:12:21] INFO root fetch - processPackages [lyrebird]: executing diffoscope
+[2024-04-19 04:12:21] INFO root fetch - processPackages [lyrebird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-2.9.1.tar.gz tmp/lyrebird-2.9.2.tar.gz --markdown 20240419/l/lyrebird/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-19 04:12:23] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.1.tar.gz]
+[2024-04-19 04:12:23] INFO root fetch - processPackages [lyrebird]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-2.9.2.tar.gz]
+[2024-04-19 04:12:23] INFO root fetch - main [MainThread]: End processing [lyrebird]: success
+[2024-04-19 04:12:23] INFO root fetch - main [MainThread]: Store serial: [22835669]
