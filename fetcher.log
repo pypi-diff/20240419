@@ -10326,3 +10326,33 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 07:25:19] INFO root fetch - processPackages [aiida-worktree]: Remove: archive file [/home/abi/fetcher/tmp/aiida_worktree-0.1.7.tar.gz]
 [2024-04-19 07:25:19] INFO root fetch - main [MainThread]: End processing [aiida-worktree]: success
 [2024-04-19 07:25:19] INFO root fetch - main [MainThread]: Store serial: [22836901]
+[2024-04-19 07:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836901]
+[2024-04-19 07:27:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-19 07:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-pack
+[2024-04-19 07:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaku
+[2024-04-19 07:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaea-tracker
+[2024-04-19 07:27:28] INFO root fetch - processPackages [odoo-addon-product-pack]: New version: [17.0.1.0.0.1] Old Version: [16.0.1.1.0.2]
+[2024-04-19 07:27:28] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/ed/c7/bb2b2fae5b75636d5d13f7fe3db832112032cc701a6bfc34d743a4ddb48e/odoo_addon_product_pack-16.0.1.1.0.2-py3-none-any.whl
+[2024-04-19 07:27:28] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.8] Old Version: [1.2.0.6]
+[2024-04-19 07:27:28] INFO root fetch - processPackages [zaku]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-19 07:27:29] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/38/79/1f2c3d58f83451a054c6ff713bac725dace468a96a62214216b88fc659c8/gaea_tracker-1.2.0.6-py3-none-any.whl
+[2024-04-19 07:27:29] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/59/e7/ee3c7e4463626cdb3d4a514cc12109bf0b1cc146c8191c2f55fe8966a302/zaku-0.0.6-py3-none-any.whl
+[2024-04-19 07:27:29] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/6a/3b/4ae28a7f9433f7ff551a36b2f559ce7f8dc32344c05e86785c231bc599c6/odoo_addon_product_pack-17.0.1.0.0.1-py3-none-any.whl
+[2024-04-19 07:27:29] INFO root fetch - processPackages [odoo-addon-product-pack]: executing diffoscope
+[2024-04-19 07:27:29] INFO root fetch - processPackages [odoo-addon-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pack-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_pack-17.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240419/o/odoo-addon-product-pack/16.0.1.1.0.2-17.0.1.0.0.1/README.md --exclude *.pyd
+[2024-04-19 07:27:29] INFO root fetch - processPackages [zaku]: Downloading https://files.pythonhosted.org/packages/de/4a/c3b8879f070cd9ab5defc49203ce7c5e4773840180e89864f732ca3784aa/zaku-0.0.7-py3-none-any.whl
+[2024-04-19 07:27:29] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/10/e7/acce7386b31b1d5f21f2bac80a385f50d368051c9b710b3821a77a8d42d6/gaea_tracker-1.2.0.8-py3-none-any.whl
+[2024-04-19 07:27:29] INFO root fetch - processPackages [zaku]: executing diffoscope
+[2024-04-19 07:27:29] INFO root fetch - processPackages [zaku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaku-0.0.6-py3-none-any.whl.zip tmp/zaku-0.0.7-py3-none-any.whl.zip --markdown 20240419/z/zaku/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-19 07:27:29] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-19 07:27:29] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.2.0.6-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.8-py3-none-any.whl.zip --markdown 20240419/g/gaea-tracker/1.2.0.6-1.2.0.8/README.md --exclude *.pyd
+[2024-04-19 07:27:29] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-04-19 07:27:29] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-19 07:27:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pack]: success
+[2024-04-19 07:27:30] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.6-py3-none-any.whl.zip]
+[2024-04-19 07:27:30] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.8-py3-none-any.whl.zip]
+[2024-04-19 07:27:30] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-19 07:27:30] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.6-py3-none-any.whl.zip]
+[2024-04-19 07:27:30] INFO root fetch - processPackages [zaku]: Remove: archive file [/home/abi/fetcher/tmp/zaku-0.0.7-py3-none-any.whl.zip]
+[2024-04-19 07:27:30] INFO root fetch - main [MainThread]: End processing [zaku]: success
+[2024-04-19 07:27:30] INFO root fetch - main [MainThread]: Store serial: [22836907]
