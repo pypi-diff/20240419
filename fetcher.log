@@ -11592,3 +11592,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:21:34] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-2.0.9.tar.gz]
 [2024-04-19 08:21:34] INFO root fetch - main [MainThread]: End processing [blickfeld-qb2]: success
 [2024-04-19 08:21:34] INFO root fetch - main [MainThread]: Store serial: [22837433]
+[2024-04-19 08:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837433]
+[2024-04-19 08:23:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utubes
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sciword-finder
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zscaler-sdk-python
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xinference
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keble-async
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: internal
+[2024-04-19 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openspg-nn4k
+[2024-04-19 08:23:43] INFO root fetch - processPackages [utubes]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 08:23:44] INFO root fetch - processPackages [openspg-nn4k]: New version: [0.0.3b1] Old Version: [0.0.3a2]
+[2024-04-19 08:23:44] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/d2/e5/91bc5e73a5bce4b80f48a5e9e9b1bd239404484593fa343462a49eb01099/utubes-0.0.8.tar.gz
+[2024-04-19 08:23:44] WARNING root fetch - processPackages [sciword-finder]: Skipping, unable to determine old version
+[2024-04-19 08:23:44] INFO root fetch - main [MainThread]: End processing [sciword-finder] error
+[2024-04-19 08:23:44] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/eb/46/8daa0af60a421532cbe9c352a473bd47fa9669734600884c8e54579379a8/openspg-nn4k-0.0.3a2.tar.gz
+[2024-04-19 08:23:44] WARNING root fetch - processPackages [keble-async]: Skipping, unable to determine old version
+[2024-04-19 08:23:44] INFO root fetch - main [MainThread]: End processing [keble-async] error
+[2024-04-19 08:23:44] INFO root fetch - processPackages [zscaler-sdk-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-19 08:23:44] INFO root fetch - processPackages [xinference]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-19 08:23:44] INFO root fetch - processPackages [internal]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-04-19 08:23:44] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/e9/07/d785f1a12b586a8e64d978cb312d5b942ecdd3963732df85826ab94064f7/zscaler-sdk-python-0.1.0.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [utubes]: Downloading https://files.pythonhosted.org/packages/aa/9e/f4f060addff3038b06e174480b907bd2e35e83a1950b27a245be95c891d8/utubes-0.0.9.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [openspg-nn4k]: Downloading https://files.pythonhosted.org/packages/6d/71/9b23f52ea4ee0dbfb6aa3df2ff212c9599805b131ef9202ead53b1837c0a/openspg-nn4k-0.0.3b1.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/63/4c/652ff804ea92fdc994ca7862b2c1648d091eaa2ba5c7e47b41cee626d444/internal-0.1.97.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/4f/20/18ca8f4fdf1042e2a6f62625da7822eea401a90019e36e7b0d66b5b83d99/xinference-0.9.3.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [utubes]: executing diffoscope
+[2024-04-19 08:23:44] INFO root fetch - processPackages [utubes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utubes-0.0.8.tar.gz tmp/utubes-0.0.9.tar.gz --markdown 20240419/u/utubes/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 08:23:44] INFO root fetch - processPackages [openspg-nn4k]: executing diffoscope
+[2024-04-19 08:23:44] INFO root fetch - processPackages [openspg-nn4k]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openspg-nn4k-0.0.3a2.tar.gz tmp/openspg-nn4k-0.0.3b1.tar.gz --markdown 20240419/o/openspg-nn4k/0.0.3a2-0.0.3b1/README.md --exclude *.pyd
+[2024-04-19 08:23:44] WARNING root fetch - processPackages [xinference]: Skipping package: exceeds size limit 12053117>=10485760
+[2024-04-19 08:23:44] INFO root fetch - main [MainThread]: End processing [xinference] error
+[2024-04-19 08:23:44] INFO root fetch - processPackages [zscaler-sdk-python]: Downloading https://files.pythonhosted.org/packages/32/2c/de3c7b20204cc7737adf1e0e8c776c49a663e6c4757cb7bf1619dcfb717d/zscaler-sdk-python-0.1.1.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/15/55/c047030da1f0bfcaa7e41402aaf435fecea5db342c7f3c9c76cf5f78963e/internal-0.1.98.tar.gz
+[2024-04-19 08:23:44] INFO root fetch - processPackages [zscaler-sdk-python]: executing diffoscope
+[2024-04-19 08:23:44] INFO root fetch - processPackages [zscaler-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zscaler-sdk-python-0.1.0.tar.gz tmp/zscaler-sdk-python-0.1.1.tar.gz --markdown 20240419/z/zscaler-sdk-python/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-19 08:23:44] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-04-19 08:23:44] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-0.1.97.tar.gz tmp/internal-0.1.98.tar.gz --markdown 20240419/i/internal/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-04-19 08:23:45] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.8.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - processPackages [utubes]: Remove: archive file [/home/abi/fetcher/tmp/utubes-0.0.9.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - main [MainThread]: End processing [utubes]: success
+[2024-04-19 08:23:45] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3a2.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - processPackages [openspg-nn4k]: Remove: archive file [/home/abi/fetcher/tmp/openspg-nn4k-0.0.3b1.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - main [MainThread]: End processing [openspg-nn4k]: success
+[2024-04-19 08:23:45] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.97.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-0.1.98.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-04-19 08:23:45] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-0.1.0.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - processPackages [zscaler-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/zscaler-sdk-python-0.1.1.tar.gz]
+[2024-04-19 08:23:45] INFO root fetch - main [MainThread]: End processing [zscaler-sdk-python]: success
+[2024-04-19 08:23:45] INFO root fetch - main [MainThread]: Store serial: [22837455]
