@@ -12893,3 +12893,53 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:23:21] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-04-19 09:23:21] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-04-19 09:23:21] INFO root fetch - main [MainThread]: Store serial: [22837996]
+[2024-04-19 09:25:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837996]
+[2024-04-19 09:25:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HelloPyOnly
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gimera
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wintertoo
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PREN-flawas
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycaputo
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lyk-reservation-nowon
+[2024-04-19 09:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CMDHelpMeTool
+[2024-04-19 09:25:30] WARNING root fetch - processPackages [lyk-reservation-nowon]: Skipping, unable to determine old version
+[2024-04-19 09:25:30] INFO root fetch - main [MainThread]: End processing [lyk-reservation-nowon] error
+[2024-04-19 09:25:30] INFO root fetch - processPackages [PREN-flawas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-19 09:25:30] INFO root fetch - processPackages [HelloPyOnly]: New version: [0.1.23] Old Version: [0.1.22]
+[2024-04-19 09:25:30] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/7a/00/f05441614283fc3106d11a7c88cbbe431478d04d88ad321018774cec9a00/pren_flawas-0.0.8.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [wintertoo]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-19 09:25:30] INFO root fetch - processPackages [pycaputo]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-19 09:25:30] WARNING root fetch - processPackages [CMDHelpMeTool]: Skipping, unable to determine old version
+[2024-04-19 09:25:30] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool] error
+[2024-04-19 09:25:30] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-19 09:25:30] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/7c/24/60eabc4eefb7157117da8db47b5b8de4abd46186b079e5ca461d169c06a5/HelloPyOnly-0.1.22.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [wintertoo]: Downloading https://files.pythonhosted.org/packages/62/29/f1e184fbd47c1e2353010e208e1f936a11ade7d5f18fa7f535b8612b5dc1/wintertoo-1.5.0.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [pycaputo]: Downloading https://files.pythonhosted.org/packages/9f/6b/1538078dec099e59953e9ff8b2c088b1d38dc5c34de955d16d8178d795e1/pycaputo-0.4.0.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [PREN-flawas]: Downloading https://files.pythonhosted.org/packages/26/0e/1c9f4343ee2bb5893b69f1ad4a5d4e7e1d61864fea4f62bee7194882470e/pren_flawas-0.0.9.tar.gz
+[2024-04-19 09:25:30] WARNING root fetch - processPackages [wintertoo]: Skipping package: exceeds size limit 18792696>=10485760
+[2024-04-19 09:25:30] INFO root fetch - main [MainThread]: End processing [wintertoo] error
+[2024-04-19 09:25:30] INFO root fetch - processPackages [HelloPyOnly]: Downloading https://files.pythonhosted.org/packages/5c/04/2518d363e3413a6c2391bb26e49702673436c694dd93211ccefa286f4300/HelloPyOnly-0.1.23.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [PREN-flawas]: executing diffoscope
+[2024-04-19 09:25:30] INFO root fetch - processPackages [PREN-flawas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pren_flawas-0.0.8.tar.gz tmp/pren_flawas-0.0.9.tar.gz --markdown 20240419/P/PREN-flawas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-19 09:25:30] INFO root fetch - processPackages [HelloPyOnly]: executing diffoscope
+[2024-04-19 09:25:30] INFO root fetch - processPackages [HelloPyOnly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HelloPyOnly-0.1.22.tar.gz tmp/HelloPyOnly-0.1.23.tar.gz --markdown 20240419/H/HelloPyOnly/0.1.22-0.1.23/README.md --exclude *.pyd
+[2024-04-19 09:25:30] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [pycaputo]: Downloading https://files.pythonhosted.org/packages/85/29/085e4a7af7be5c504fe1c3b81d01c9565e3bd96c65d4548dc1b2acaeb6bb/pycaputo-0.5.0.tar.gz
+[2024-04-19 09:25:30] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-04-19 09:25:30] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240419/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-19 09:25:31] INFO root fetch - processPackages [pycaputo]: executing diffoscope
+[2024-04-19 09:25:31] INFO root fetch - processPackages [pycaputo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaputo-0.4.0.tar.gz tmp/pycaputo-0.5.0.tar.gz --markdown 20240419/p/pycaputo/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-19 09:25:31] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-04-19 09:25:31] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.22.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - processPackages [HelloPyOnly]: Remove: archive file [/home/abi/fetcher/tmp/HelloPyOnly-0.1.23.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - main [MainThread]: End processing [HelloPyOnly]: success
+[2024-04-19 09:25:31] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.8.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - processPackages [PREN-flawas]: Remove: archive file [/home/abi/fetcher/tmp/pren_flawas-0.0.9.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - main [MainThread]: End processing [PREN-flawas]: success
+[2024-04-19 09:25:31] INFO root fetch - processPackages [pycaputo]: Remove: archive file [/home/abi/fetcher/tmp/pycaputo-0.4.0.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - processPackages [pycaputo]: Remove: archive file [/home/abi/fetcher/tmp/pycaputo-0.5.0.tar.gz]
+[2024-04-19 09:25:31] INFO root fetch - main [MainThread]: End processing [pycaputo]: success
+[2024-04-19 09:25:31] INFO root fetch - main [MainThread]: Store serial: [22838017]
