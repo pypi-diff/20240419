@@ -11764,3 +11764,47 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 08:30:21] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.2.0.tar.gz]
 [2024-04-19 08:30:21] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-19 08:30:21] INFO root fetch - main [MainThread]: Store serial: [22837501]
+[2024-04-19 08:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22837501]
+[2024-04-19 08:32:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cerbogen
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FockStateCircuit
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NeelKrypt
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video-images-creator
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhinst-utils
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyspartn
+[2024-04-19 08:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: energiinfo
+[2024-04-19 08:32:30] WARNING root fetch - processPackages [FockStateCircuit]: Skipping, unable to determine old version
+[2024-04-19 08:32:30] WARNING root fetch - processPackages [NeelKrypt]: Skipping, unable to determine old version
+[2024-04-19 08:32:30] INFO root fetch - main [MainThread]: End processing [FockStateCircuit] error
+[2024-04-19 08:32:30] INFO root fetch - main [MainThread]: End processing [NeelKrypt] error
+[2024-04-19 08:32:30] INFO root fetch - processPackages [video-images-creator]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-19 08:32:30] INFO root fetch - processPackages [energiinfo]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-19 08:32:30] INFO root fetch - processPackages [pyspartn]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-19 08:32:30] WARNING root fetch - processPackages [cerbogen]: Skipping, unable to determine old version
+[2024-04-19 08:32:30] INFO root fetch - main [MainThread]: End processing [cerbogen] error
+[2024-04-19 08:32:30] INFO root fetch - processPackages [zhinst-utils]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-19 08:32:30] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/b1/69/b9e2c924e854f3035e6c107c3ac9c4e7c74aaa5e1c6cffe9e53a45a785f4/video_images_creator-0.3.2.tar.gz
+[2024-04-19 08:32:31] WARNING root fetch - processPackages [video-images-creator]: Skipping package: exceeds size limit 46958295>=10485760
+[2024-04-19 08:32:31] INFO root fetch - main [MainThread]: End processing [video-images-creator] error
+[2024-04-19 08:32:31] INFO root fetch - processPackages [energiinfo]: Downloading https://files.pythonhosted.org/packages/ce/48/1a08833b1fc260b41eadce5dc6f74ee2cf11faa220bf134870699d0ade59/energiinfo-1.0.3.tar.gz
+[2024-04-19 08:32:31] INFO root fetch - processPackages [zhinst-utils]: Downloading https://files.pythonhosted.org/packages/3a/75/ce47e1d451004d9be9a75460cb2f68a01826f5de5076f6a6db7f02e63525/zhinst_utils-0.4.0-py3-none-any.whl
+[2024-04-19 08:32:31] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/0c/c6/166dc4f78321f2cb5792e48c7a7748009947bf2bbefe2656eec969fd8a41/pyspartn-0.2.1.tar.gz
+[2024-04-19 08:32:31] INFO root fetch - processPackages [zhinst-utils]: Downloading https://files.pythonhosted.org/packages/89/62/1bc68bdabb513fa1a6a401c762dda0d6926380ff31594f5107181500b9ef/zhinst_utils-0.4.1-py3-none-any.whl
+[2024-04-19 08:32:31] INFO root fetch - processPackages [energiinfo]: Downloading https://files.pythonhosted.org/packages/4b/f3/4760a47fefce51ce5267b2b9f2d600e62cf834f5c1a18ac966459fe83c24/energiinfo-1.0.4.tar.gz
+[2024-04-19 08:32:31] INFO root fetch - processPackages [energiinfo]: executing diffoscope
+[2024-04-19 08:32:31] INFO root fetch - processPackages [energiinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energiinfo-1.0.3.tar.gz tmp/energiinfo-1.0.4.tar.gz --markdown 20240419/e/energiinfo/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-19 08:32:31] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/dd/1c/2b068be90d345bee9816c7277234918e507afca129041f523689a9fbcecb/pyspartn-0.3.0.tar.gz
+[2024-04-19 08:32:31] INFO root fetch - processPackages [zhinst-utils]: executing diffoscope
+[2024-04-19 08:32:31] INFO root fetch - processPackages [zhinst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhinst_utils-0.4.0-py3-none-any.whl.zip tmp/zhinst_utils-0.4.1-py3-none-any.whl.zip --markdown 20240419/z/zhinst-utils/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-19 08:32:31] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2024-04-19 08:32:31] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.2.1.tar.gz tmp/pyspartn-0.3.0.tar.gz --markdown 20240419/p/pyspartn/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-19 08:32:32] INFO root fetch - processPackages [energiinfo]: Remove: archive file [/home/abi/fetcher/tmp/energiinfo-1.0.3.tar.gz]
+[2024-04-19 08:32:32] INFO root fetch - processPackages [energiinfo]: Remove: archive file [/home/abi/fetcher/tmp/energiinfo-1.0.4.tar.gz]
+[2024-04-19 08:32:32] INFO root fetch - main [MainThread]: End processing [energiinfo]: success
+[2024-04-19 08:32:32] INFO root fetch - processPackages [zhinst-utils]: Remove: archive file [/home/abi/fetcher/tmp/zhinst_utils-0.4.0-py3-none-any.whl.zip]
+[2024-04-19 08:32:32] INFO root fetch - processPackages [zhinst-utils]: Remove: archive file [/home/abi/fetcher/tmp/zhinst_utils-0.4.1-py3-none-any.whl.zip]
+[2024-04-19 08:32:32] INFO root fetch - main [MainThread]: End processing [zhinst-utils]: success
+[2024-04-19 08:32:32] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.2.1.tar.gz]
+[2024-04-19 08:32:32] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.3.0.tar.gz]
+[2024-04-19 08:32:32] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2024-04-19 08:32:32] INFO root fetch - main [MainThread]: Store serial: [22837525]
