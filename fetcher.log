@@ -18137,3 +18137,69 @@ AssertionError: tmp/jsonrpc_python_client_generator-1.0.1.tar.gz does not exist
 [2024-04-19 12:21:19] INFO root fetch - processPackages [OctoBot]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-1.0.9.tar.gz]
 [2024-04-19 12:21:19] INFO root fetch - main [MainThread]: End processing [OctoBot]: success
 [2024-04-19 12:21:19] INFO root fetch - main [MainThread]: Store serial: [22840207]
+[2024-04-19 12:23:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22840207]
+[2024-04-19 12:23:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xtn-tools-pro
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: new-python-scrapy
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miniscons
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prominence-delineator
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: haskellian-either
+[2024-04-19 12:23:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-fleet
+[2024-04-19 12:23:40] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [new-python-scrapy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [xtn-tools-pro]: New version: [1.0.0.0.1] Old Version: [1.0.0.0.0]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [miniscons]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-19 12:23:40] INFO root fetch - processPackages [open-fleet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [prominence-delineator]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/9a/ab/e64988d199e7466ffc5efbf5e142de4afa0b057e85ae58f358a79a4b4119/miniscons-0.7.0.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [haskellian-either]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 12:23:40] INFO root fetch - processPackages [new-python-scrapy]: Downloading https://files.pythonhosted.org/packages/9a/5a/1fc3fc7035b745a690643a8eb1aafe53f3469ce701aadb36407c3b839ff7/new_python_scrapy-0.1.1.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/0f/e9/1daf705851d268667da958903add22cf0e4d238c67fafaf5527f77d9740c/xtn-tools-pro-1.0.0.0.0.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/bf/e3/a01a626be9ed73794c9fdc74680ac21d60f41c214e4c85419d1c7b72ff42/open_fleet-0.0.2.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/5f/a6/c518eac3ed8275399d48e4e39f6719673601bb438a4414334abdf9d429fe/prominence_delineator-0.0.3.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/84/68/aed9f24cb93e4f4c8db12cbc949f772ae0814fe33d9e1c89653cc6325b1f/haskellian_either-0.1.7.tar.gz
+[2024-04-19 12:23:40] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-19 12:23:40] INFO root fetch - processPackages [miniscons]: Downloading https://files.pythonhosted.org/packages/7b/d0/8f792c10d4017e99628dc18c3426334d9a561de73e20ca86684f30b1a382/miniscons-0.7.1.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [miniscons]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [miniscons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscons-0.7.0.tar.gz tmp/miniscons-0.7.1.tar.gz --markdown 20240419/m/miniscons/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [xtn-tools-pro]: Downloading https://files.pythonhosted.org/packages/d3/f1/06848c9ba5253979d622eb07af1b50d98d23dd82b3341a87913e48b3cfe6/xtn-tools-pro-1.0.0.0.1.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [prominence-delineator]: Downloading https://files.pythonhosted.org/packages/4e/21/8692af27cd20b0354c2d30f7b091de2b00a893045eb3269cc0f9f29b5f1a/prominence_delineator-0.0.4.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [haskellian-either]: Downloading https://files.pythonhosted.org/packages/1a/10/b8f688147cdd7b493f7e7244485ccafa6a8624802bfdc31e2791db7f329f/haskellian_either-0.1.8.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240419/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [new-python-scrapy]: Downloading https://files.pythonhosted.org/packages/11/0b/63eaced1b29e05333249576f3c68f04cbfd0829dbb84ba72cc10317282a7/new_python_scrapy-0.1.2.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [xtn-tools-pro]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [xtn-tools-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtn-tools-pro-1.0.0.0.0.tar.gz tmp/xtn-tools-pro-1.0.0.0.1.tar.gz --markdown 20240419/x/xtn-tools-pro/1.0.0.0.0-1.0.0.0.1/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [haskellian-either]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [haskellian-either]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian_either-0.1.7.tar.gz tmp/haskellian_either-0.1.8.tar.gz --markdown 20240419/h/haskellian-either/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [prominence-delineator]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [prominence-delineator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prominence_delineator-0.0.3.tar.gz tmp/prominence_delineator-0.0.4.tar.gz --markdown 20240419/p/prominence-delineator/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [open-fleet]: Downloading https://files.pythonhosted.org/packages/48/ff/0489def51dfafef87655152d18077c936a10430296ab2db2d0fe29c8d8de/open_fleet-0.0.3.tar.gz
+[2024-04-19 12:23:41] INFO root fetch - processPackages [new-python-scrapy]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [new-python-scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_python_scrapy-0.1.1.tar.gz tmp/new_python_scrapy-0.1.2.tar.gz --markdown 20240419/n/new-python-scrapy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [open-fleet]: executing diffoscope
+[2024-04-19 12:23:41] INFO root fetch - processPackages [open-fleet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_fleet-0.0.2.tar.gz tmp/open_fleet-0.0.3.tar.gz --markdown 20240419/o/open-fleet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 12:23:41] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-19 12:23:41] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.0.tar.gz]
+[2024-04-19 12:23:41] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-19 12:23:41] INFO root fetch - processPackages [miniscons]: Remove: archive file [/home/abi/fetcher/tmp/miniscons-0.7.1.tar.gz]
+[2024-04-19 12:23:41] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-19 12:23:41] INFO root fetch - main [MainThread]: End processing [miniscons]: success
+[2024-04-19 12:23:41] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.0.tar.gz]
+[2024-04-19 12:23:41] INFO root fetch - processPackages [xtn-tools-pro]: Remove: archive file [/home/abi/fetcher/tmp/xtn-tools-pro-1.0.0.0.1.tar.gz]
+[2024-04-19 12:23:41] INFO root fetch - main [MainThread]: End processing [xtn-tools-pro]: success
+[2024-04-19 12:23:42] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_either-0.1.7.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - processPackages [haskellian-either]: Remove: archive file [/home/abi/fetcher/tmp/haskellian_either-0.1.8.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - main [MainThread]: End processing [haskellian-either]: success
+[2024-04-19 12:23:42] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.2.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - processPackages [open-fleet]: Remove: archive file [/home/abi/fetcher/tmp/open_fleet-0.0.3.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - main [MainThread]: End processing [open-fleet]: success
+[2024-04-19 12:23:42] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.3.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - processPackages [prominence-delineator]: Remove: archive file [/home/abi/fetcher/tmp/prominence_delineator-0.0.4.tar.gz]
+[2024-04-19 12:23:42] INFO root fetch - main [MainThread]: End processing [prominence-delineator]: success
+[2024-04-19 12:23:43] INFO root fetch - processPackages [new-python-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/new_python_scrapy-0.1.1.tar.gz]
+[2024-04-19 12:23:43] INFO root fetch - processPackages [new-python-scrapy]: Remove: archive file [/home/abi/fetcher/tmp/new_python_scrapy-0.1.2.tar.gz]
+[2024-04-19 12:23:43] INFO root fetch - main [MainThread]: End processing [new-python-scrapy]: success
+[2024-04-19 12:23:43] INFO root fetch - main [MainThread]: Store serial: [22840227]
