@@ -9623,3 +9623,20 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 06:36:34] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-9.0.7.tar.gz]
 [2024-04-19 06:36:35] INFO root fetch - main [MainThread]: End processing [dxsp]: success
 [2024-04-19 06:36:35] INFO root fetch - main [MainThread]: Store serial: [22836591]
+[2024-04-19 06:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22836591]
+[2024-04-19 06:38:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 06:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paka
+[2024-04-19 06:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pooltool-billiards
+[2024-04-19 06:38:43] INFO root fetch - processPackages [paka]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-19 06:38:43] INFO root fetch - processPackages [pooltool-billiards]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-19 06:38:43] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/13/00/d7085e5f1383c97ababd2af6ee2405f9ac7ef231c7d3981d44b8d597acb8/paka-0.1.3.tar.gz
+[2024-04-19 06:38:43] INFO root fetch - processPackages [pooltool-billiards]: Downloading https://files.pythonhosted.org/packages/05/09/896813d70e4e4ead5de711fb88ced048f6864dc850008ac2e06b2cb1fb8a/pooltool-billiards-0.3.1.tar.gz
+[2024-04-19 06:38:43] WARNING root fetch - processPackages [pooltool-billiards]: Skipping package: exceeds size limit 29449440>=10485760
+[2024-04-19 06:38:43] INFO root fetch - main [MainThread]: End processing [pooltool-billiards] error
+[2024-04-19 06:38:44] INFO root fetch - processPackages [paka]: Downloading https://files.pythonhosted.org/packages/61/88/75cfbb44dedae3b3b0550a260f4aa8932f96b0f7f1bea71bb40bcf43b18e/paka-0.1.4.tar.gz
+[2024-04-19 06:38:44] INFO root fetch - processPackages [paka]: executing diffoscope
+[2024-04-19 06:38:44] INFO root fetch - processPackages [paka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paka-0.1.3.tar.gz tmp/paka-0.1.4.tar.gz --markdown 20240419/p/paka/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-19 06:38:44] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.3.tar.gz]
+[2024-04-19 06:38:44] INFO root fetch - processPackages [paka]: Remove: archive file [/home/abi/fetcher/tmp/paka-0.1.4.tar.gz]
+[2024-04-19 06:38:44] INFO root fetch - main [MainThread]: End processing [paka]: success
+[2024-04-19 06:38:44] INFO root fetch - main [MainThread]: Store serial: [22836599]
