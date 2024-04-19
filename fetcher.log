@@ -7611,3 +7611,24 @@
 [2024-04-19 04:21:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240418.tar.gz]
 [2024-04-19 04:21:09] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-19 04:21:09] INFO root fetch - main [MainThread]: Store serial: [22835750]
+[2024-04-19 04:23:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835750]
+[2024-04-19 04:23:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-19 04:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-bonus
+[2024-04-19 04:23:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ooo-dev-tools
+[2024-04-19 04:23:17] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-19 04:23:17] INFO root fetch - processPackages [pih-bonus]: New version: [0.11] Old Version: [0.1]
+[2024-04-19 04:23:17] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-04-19 04:23:17] INFO root fetch - processPackages [pih-bonus]: Downloading https://files.pythonhosted.org/packages/ad/6a/2ea2e8f0e3ffe6634527e30479616f9a1e8af809cbb4bed8465edca81473/pih-bonus-0.1.tar.gz
+[2024-04-19 04:23:18] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-04-19 04:23:18] INFO root fetch - processPackages [pih-bonus]: Downloading https://files.pythonhosted.org/packages/8e/f5/bffe9507ba2f25403ecaa5c71cdbff5966b4aca86e6d9384d4dbc2c3e456/pih-bonus-0.11.tar.gz
+[2024-04-19 04:23:18] INFO root fetch - processPackages [pih-bonus]: executing diffoscope
+[2024-04-19 04:23:18] INFO root fetch - processPackages [pih-bonus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-bonus-0.1.tar.gz tmp/pih-bonus-0.11.tar.gz --markdown 20240419/p/pih-bonus/0.1-0.11/README.md --exclude *.pyd
+[2024-04-19 04:23:18] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-04-19 04:23:18] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240419/o/ooo-dev-tools/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-04-19 04:23:18] INFO root fetch - processPackages [pih-bonus]: Remove: archive file [/home/abi/fetcher/tmp/pih-bonus-0.1.tar.gz]
+[2024-04-19 04:23:18] INFO root fetch - processPackages [pih-bonus]: Remove: archive file [/home/abi/fetcher/tmp/pih-bonus-0.11.tar.gz]
+[2024-04-19 04:23:18] INFO root fetch - main [MainThread]: End processing [pih-bonus]: success
+[2024-04-19 04:23:21] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-04-19 04:23:21] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-04-19 04:23:21] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-04-19 04:23:21] INFO root fetch - main [MainThread]: Store serial: [22835760]
