@@ -13081,3 +13081,57 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd5 in position 72: invalid
 [2024-04-19 09:32:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240419.tar.gz]
 [2024-04-19 09:32:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-19 09:32:04] INFO root fetch - main [MainThread]: Store serial: [22838065]
+[2024-04-19 09:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22838065]
+[2024-04-19 09:34:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CMDHelpMeTool
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selphyprint
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: octostar-streamlit
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RoboCupDBA
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: risclog.sqlalchemy
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casepy
+[2024-04-19 09:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conette
+[2024-04-19 09:34:13] INFO root fetch - processPackages [casepy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-19 09:34:13] INFO root fetch - processPackages [CMDHelpMeTool]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-19 09:34:13] INFO root fetch - processPackages [risclog.sqlalchemy]: New version: [7.2] Old Version: [7.1]
+[2024-04-19 09:34:13] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/6a/6f/fea9b9682f47cbab25bcf7ae767cc4e2669d29fc3c8196599be0e921defb/casepy-0.0.2.tar.gz
+[2024-04-19 09:34:13] INFO root fetch - processPackages [octostar-streamlit]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-19 09:34:13] WARNING root fetch - processPackages [RoboCupDBA]: Skipping, unable to determine old version
+[2024-04-19 09:34:13] INFO root fetch - main [MainThread]: End processing [RoboCupDBA] error
+[2024-04-19 09:34:13] INFO root fetch - processPackages [conette]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-19 09:34:13] INFO root fetch - processPackages [risclog.sqlalchemy]: Downloading https://files.pythonhosted.org/packages/c8/df/ea6572327b9108c2e0106066d214d3f7c14caf1580ca156c41c405727548/risclog.sqlalchemy-7.1.tar.gz
+[2024-04-19 09:34:13] WARNING root fetch - processPackages [selphyprint]: Skipping, unable to determine old version
+[2024-04-19 09:34:13] INFO root fetch - main [MainThread]: End processing [selphyprint] error
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/35/5d/7025c468827a6c1507d914b95c57131a0c5dbbec44d648d72d12a67fb661/CMDHelpMeTool-0.2.1.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/b7/3b/f77b9addaf0549c6dcd2c5ea6bd9d7bb4cc80787911c95b2539cdb380fbe/casepy-0.0.3.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [risclog.sqlalchemy]: Downloading https://files.pythonhosted.org/packages/58/74/5785e6b90a1cadb312a263c2cb9ac72e69a9d393b08056232477d6a796e0/risclog.sqlalchemy-7.2.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [octostar-streamlit]: Downloading https://files.pythonhosted.org/packages/e9/31/7e5ce3b3030a28b3a5cffa4e0f301d9e787b94f7da878909851103bb0f50/octostar_streamlit-0.1.7.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [conette]: Downloading https://files.pythonhosted.org/packages/67/db/b3b8535917b8b0083613e52fe66ab6b872c49ffeec191bfeb568375887b6/conette-0.2.2.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [casepy]: executing diffoscope
+[2024-04-19 09:34:14] INFO root fetch - processPackages [casepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casepy-0.0.2.tar.gz tmp/casepy-0.0.3.tar.gz --markdown 20240419/c/casepy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-19 09:34:14] INFO root fetch - processPackages [risclog.sqlalchemy]: executing diffoscope
+[2024-04-19 09:34:14] INFO root fetch - processPackages [risclog.sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risclog.sqlalchemy-7.1.tar.gz tmp/risclog.sqlalchemy-7.2.tar.gz --markdown 20240419/r/risclog.sqlalchemy/7.1-7.2/README.md --exclude *.pyd
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: Downloading https://files.pythonhosted.org/packages/fe/31/39da4be8a0d5add19c78226553ddf074f9e4be94b6b4c57817ff194de9a6/CMDHelpMeTool-0.2.2.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: executing diffoscope
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CMDHelpMeTool-0.2.1.tar.gz tmp/CMDHelpMeTool-0.2.2.tar.gz --markdown 20240419/C/CMDHelpMeTool/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-19 09:34:14] INFO root fetch - processPackages [octostar-streamlit]: Downloading https://files.pythonhosted.org/packages/cb/4e/354f1a6464259b458f088b6c69898ebb76b62bbee1249bba8d0d37fffbcb/octostar_streamlit-0.1.8.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [conette]: Downloading https://files.pythonhosted.org/packages/a4/f2/9e52fc00906fed3482119c8406ea01260e17361ea9b5563645406c8e8b7d/conette-0.3.0.tar.gz
+[2024-04-19 09:34:14] INFO root fetch - processPackages [octostar-streamlit]: executing diffoscope
+[2024-04-19 09:34:14] INFO root fetch - processPackages [octostar-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octostar_streamlit-0.1.7.tar.gz tmp/octostar_streamlit-0.1.8.tar.gz --markdown 20240419/o/octostar-streamlit/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-19 09:34:14] INFO root fetch - processPackages [conette]: executing diffoscope
+[2024-04-19 09:34:14] INFO root fetch - processPackages [conette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conette-0.2.2.tar.gz tmp/conette-0.3.0.tar.gz --markdown 20240419/c/conette/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-19 09:34:14] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.2.tar.gz]
+[2024-04-19 09:34:14] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.3.tar.gz]
+[2024-04-19 09:34:14] INFO root fetch - main [MainThread]: End processing [casepy]: success
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.1.tar.gz]
+[2024-04-19 09:34:14] INFO root fetch - processPackages [CMDHelpMeTool]: Remove: archive file [/home/abi/fetcher/tmp/CMDHelpMeTool-0.2.2.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - main [MainThread]: End processing [CMDHelpMeTool]: success
+[2024-04-19 09:34:15] INFO root fetch - processPackages [risclog.sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/risclog.sqlalchemy-7.1.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - processPackages [risclog.sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/risclog.sqlalchemy-7.2.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - main [MainThread]: End processing [risclog.sqlalchemy]: success
+[2024-04-19 09:34:15] INFO root fetch - processPackages [octostar-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/octostar_streamlit-0.1.7.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - processPackages [octostar-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/octostar_streamlit-0.1.8.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - main [MainThread]: End processing [octostar-streamlit]: success
+[2024-04-19 09:34:15] INFO root fetch - processPackages [conette]: Remove: archive file [/home/abi/fetcher/tmp/conette-0.2.2.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - processPackages [conette]: Remove: archive file [/home/abi/fetcher/tmp/conette-0.3.0.tar.gz]
+[2024-04-19 09:34:15] INFO root fetch - main [MainThread]: End processing [conette]: success
+[2024-04-19 09:34:15] INFO root fetch - main [MainThread]: Store serial: [22838087]
