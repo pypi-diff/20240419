@@ -7560,3 +7560,15 @@
 [2024-04-19 04:16:43] INFO root fetch - processPackages [hilcat]: Remove: archive file [/home/abi/fetcher/tmp/hilcat-1.1.0.tar.gz]
 [2024-04-19 04:16:43] INFO root fetch - main [MainThread]: End processing [hilcat]: success
 [2024-04-19 04:16:43] INFO root fetch - main [MainThread]: Store serial: [22835734]
+[2024-04-19 04:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22835734]
+[2024-04-19 04:18:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-19 04:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-influxdb-client
+[2024-04-19 04:18:52] INFO root fetch - processPackages [types-influxdb-client]: New version: [1.42.0.20240419] Old Version: [1.41.0.20240316]
+[2024-04-19 04:18:52] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/2b/14/a80c9f260c05b9897cba151c9d62c2fede54496ebfc8be8a48406b506254/types-influxdb-client-1.41.0.20240316.tar.gz
+[2024-04-19 04:18:53] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/83/92/ba3e8323c2af3f858653ad3a9fb2ca5cf645ff6a95c2a67e8ce227a3493f/types-influxdb-client-1.42.0.20240419.tar.gz
+[2024-04-19 04:18:53] INFO root fetch - processPackages [types-influxdb-client]: executing diffoscope
+[2024-04-19 04:18:53] INFO root fetch - processPackages [types-influxdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240419:/home/abi/fetcher/20240419:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-influxdb-client-1.41.0.20240316.tar.gz tmp/types-influxdb-client-1.42.0.20240419.tar.gz --markdown 20240419/t/types-influxdb-client/1.41.0.20240316-1.42.0.20240419/README.md --exclude *.pyd
+[2024-04-19 04:18:54] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.41.0.20240316.tar.gz]
+[2024-04-19 04:18:54] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.42.0.20240419.tar.gz]
+[2024-04-19 04:18:54] INFO root fetch - main [MainThread]: End processing [types-influxdb-client]: success
+[2024-04-19 04:18:54] INFO root fetch - main [MainThread]: Store serial: [22835737]
